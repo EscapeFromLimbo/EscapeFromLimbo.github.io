@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/CYB-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>CYB visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/CYB-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/CYB-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\CYB-files\img\42_Illustrious Sheng Fa.jpg" id="42_Illustrious Sheng Fa" data-flag="@N" onclick="openSidebar('42_Illustrious Sheng Fa',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\87_Marilye, Dreaming Big.jpg" id="87_Marilye, Dreaming Big" data-flag="@N" onclick="openSidebar('87_Marilye, Dreaming Big',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\108_Celise, Syndicate Pariah.jpg" id="108_Celise, Syndicate Pariah" data-flag="@N" onclick="openSidebar('108_Celise, Syndicate Pariah',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\150_Dawn of Peace.jpg" id="150_Dawn of Peace" data-flag="@N" onclick="openSidebar('150_Dawn of Peace',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\197_Rebuilding of Londel.jpg" id="197_Rebuilding of Londel" data-flag="@N" onclick="openSidebar('197_Rebuilding of Londel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\57_Spacetime Seraph.jpg" id="57_Spacetime Seraph" data-flag="@N" onclick="openSidebar('57_Spacetime Seraph',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\102_The World Stood Still.jpg" id="102_The World Stood Still" data-flag="@N" onclick="openSidebar('102_The World Stood Still',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\123_Festered Effluvium.jpg" id="123_Festered Effluvium" data-flag="@N" onclick="openSidebar('123_Festered Effluvium',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\155_Gericho, Ageless Wanderer.jpg" id="155_Gericho, Ageless Wanderer" data-flag="@N" onclick="openSidebar('155_Gericho, Ageless Wanderer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\210_Vasilisa, Helping Hand.jpg" id="210_Vasilisa, Helping Hand" data-flag="@N" onclick="openSidebar('210_Vasilisa, Helping Hand',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\69_Zhovala, Silver Monarch.jpg" id="69_Zhovala, Silver Monarch" data-flag="@N" onclick="openSidebar('69_Zhovala, Silver Monarch',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\72_Battle Physicist.jpg" id="72_Battle Physicist" data-flag="@N" onclick="openSidebar('72_Battle Physicist',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\144_Xavvac, Corrupter Core.jpg" id="144_Xavvac, Corrupter Core" data-flag="@N" onclick="openSidebar('144_Xavvac, Corrupter Core',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\145_Ardor, Forefront of Freedom.jpg" id="145_Ardor, Forefront of Freedom" data-flag="@N" onclick="openSidebar('145_Ardor, Forefront of Freedom',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\298_Cogwork Harvester.jpg" id="298_Cogwork Harvester" data-flag="@N" onclick="openSidebar('298_Cogwork Harvester',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\37_Farlands Diplomat.jpg" id="37_Farlands Diplomat" data-flag="@N" onclick="openSidebar('37_Farlands Diplomat',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\73_Callisto, the Teqiarch.jpg" id="73_Callisto, the Teqiarch" data-flag="@N" onclick="openSidebar('73_Callisto, the Teqiarch',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\111_Corpsepyre Fiend.jpg" id="111_Corpsepyre Fiend" data-flag="@N" onclick="openSidebar('111_Corpsepyre Fiend',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\152_Edgeland Pledge.jpg" id="152_Edgeland Pledge" data-flag="@N" onclick="openSidebar('152_Edgeland Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1610_Vasilisa, Waging War.jpg" id="1610_Vasilisa, Waging War" data-flag="@N" onclick="openSidebar('1610_Vasilisa, Waging War',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\39_General Diadem, Usurper.jpg" id="39_General Diadem, Usurper" data-flag="@N" onclick="openSidebar('39_General Diadem, Usurper',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\74_Callisto's Confiscation.jpg" id="74_Callistos Confiscation" data-flag="@N" onclick="openSidebar('74_Callistos Confiscation',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\114_Data Weaver.jpg" id="114_Data Weaver" data-flag="@N" onclick="openSidebar('114_Data Weaver',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\161_Leystone of Storms.jpg" id="161_Leystone of Storms" data-flag="@N" onclick="openSidebar('161_Leystone of Storms',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\182_Cyboreal Vengeance.jpg" id="182_Cyboreal Vengeance" data-flag="@N" onclick="openSidebar('182_Cyboreal Vengeance',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\40_Gentle Grasp.jpg" id="40_Gentle Grasp" data-flag="@N" onclick="openSidebar('40_Gentle Grasp',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\76_Covetous Frostwyrm.jpg" id="76_Covetous Frostwyrm" data-flag="@N" onclick="openSidebar('76_Covetous Frostwyrm',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\126_Inner Ring's Pupil.jpg" id="126_Inner Rings Pupil" data-flag="@N" onclick="openSidebar('126_Inner Rings Pupil',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\167_Ragecloak Shifter.jpg" id="167_Ragecloak Shifter" data-flag="@N" onclick="openSidebar('167_Ragecloak Shifter',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\185_Imperfect Fugisaur.jpg" id="185_Imperfect Fugisaur" data-flag="@N" onclick="openSidebar('185_Imperfect Fugisaur',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\44_Leystone of Being.jpg" id="44_Leystone of Being" data-flag="@N" onclick="openSidebar('44_Leystone of Being',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\83_Invasion's End.jpg" id="83_Invasions End" data-flag="@N" onclick="openSidebar('83_Invasions End',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\129_Iris Pledge.jpg" id="129_Iris Pledge" data-flag="@N" onclick="openSidebar('129_Iris Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\170_Savvy Smith.jpg" id="170_Savvy Smith" data-flag="@N" onclick="openSidebar('170_Savvy Smith',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\187_Lagoroth, Century's Apex.jpg" id="187_Lagoroth, Centurys Apex" data-flag="@N" onclick="openSidebar('187_Lagoroth, Centurys Apex',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\46_Looming Cyhawk.jpg" id="46_Looming Cyhawk" data-flag="@N" onclick="openSidebar('46_Looming Cyhawk',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\84_Jetstream Cruiser.jpg" id="84_Jetstream Cruiser" data-flag="@N" onclick="openSidebar('84_Jetstream Cruiser',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\130_Leystone of Ruin.jpg" id="130_Leystone of Ruin" data-flag="@N" onclick="openSidebar('130_Leystone of Ruin',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\172_Sudden Revolt.jpg" id="172_Sudden Revolt" data-flag="@N" onclick="openSidebar('172_Sudden Revolt',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\188_Leystone of Growth.jpg" id="188_Leystone of Growth" data-flag="@N" onclick="openSidebar('188_Leystone of Growth',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\47_Lost Resistor.jpg" id="47_Lost Resistor" data-flag="@N" onclick="openSidebar('47_Lost Resistor',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\85_Leystone of Depths.jpg" id="85_Leystone of Depths" data-flag="@N" onclick="openSidebar('85_Leystone of Depths',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\131_Lure into Lunacy.jpg" id="131_Lure into Lunacy" data-flag="@N" onclick="openSidebar('131_Lure into Lunacy',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\173_Terminal Impact.jpg" id="173_Terminal Impact" data-flag="@N" onclick="openSidebar('173_Terminal Impact',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\193_Ozanite Pledge.jpg" id="193_Ozanite Pledge" data-flag="@N" onclick="openSidebar('193_Ozanite Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\50_Prime Consuls.jpg" id="50_Prime Consuls" data-flag="@N" onclick="openSidebar('50_Prime Consuls',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\100_Teqien Pledge.jpg" id="100_Teqien Pledge" data-flag="@N" onclick="openSidebar('100_Teqien Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\133_Malicious Skycleaver.jpg" id="133_Malicious Skycleaver" data-flag="@N" onclick="openSidebar('133_Malicious Skycleaver',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\176_Wildfang Cavalier.jpg" id="176_Wildfang Cavalier" data-flag="@N" onclick="openSidebar('176_Wildfang Cavalier',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\195_Ozanwood Huntsman.jpg" id="195_Ozanwood Huntsman" data-flag="@N" onclick="openSidebar('195_Ozanwood Huntsman',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\54_Second Crown's Fall.jpg" id="54_Second Crowns Fall" data-flag="@N" onclick="openSidebar('54_Second Crowns Fall',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\78_Defthand Infiltrator.jpg" id="78_Defthand Infiltrator" data-flag="@N" onclick="openSidebar('78_Defthand Infiltrator',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\136_Proto-Class Behemoth.jpg" id="136_Proto-Class Behemoth" data-flag="@N" onclick="openSidebar('136_Proto-Class Behemoth',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\146_Arid Outrider.jpg" id="146_Arid Outrider" data-flag="@N" onclick="openSidebar('146_Arid Outrider',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\202_Shining Hope.jpg" id="202_Shining Hope" data-flag="@N" onclick="openSidebar('202_Shining Hope',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\55_Silver Ruination.jpg" id="55_Silver Ruination" data-flag="@N" onclick="openSidebar('55_Silver Ruination',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\79_Dynamo Glyphs.jpg" id="79_Dynamo Glyphs" data-flag="@N" onclick="openSidebar('79_Dynamo Glyphs',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\137_Replicrawler.jpg" id="137_Replicrawler" data-flag="@N" onclick="openSidebar('137_Replicrawler',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\147_Brass Oracle.jpg" id="147_Brass Oracle" data-flag="@N" onclick="openSidebar('147_Brass Oracle',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\204_Skittertiller.jpg" id="204_Skittertiller" data-flag="@N" onclick="openSidebar('204_Skittertiller',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\58_Stehlian Pledge.jpg" id="58_Stehlian Pledge" data-flag="@N" onclick="openSidebar('58_Stehlian Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\88_Neotech Savant.jpg" id="88_Neotech Savant" data-flag="@N" onclick="openSidebar('88_Neotech Savant',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\142_Tithe to the Machine.jpg" id="142_Tithe to the Machine" data-flag="@N" onclick="openSidebar('142_Tithe to the Machine',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\148_Calamitous War Cry.jpg" id="148_Calamitous War Cry" data-flag="@N" onclick="openSidebar('148_Calamitous War Cry',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\178_Aethersteel Pouncer.jpg" id="178_Aethersteel Pouncer" data-flag="@N" onclick="openSidebar('178_Aethersteel Pouncer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\60_Stellar Witness.jpg" id="60_Stellar Witness" data-flag="@N" onclick="openSidebar('60_Stellar Witness',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\89_No Time to Waste.jpg" id="89_No Time to Waste" data-flag="@N" onclick="openSidebar('89_No Time to Waste',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1533_Silverscale Despot.jpg" id="1533_Silverscale Despot" data-flag="@N" onclick="openSidebar('1533_Silverscale Despot',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\149_Conscript.jpg" id="149_Conscript" data-flag="@N" onclick="openSidebar('149_Conscript',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\180_Ancient Cloudgrazer.jpg" id="180_Ancient Cloudgrazer" data-flag="@N" onclick="openSidebar('180_Ancient Cloudgrazer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1447_Splintered Soul.jpg" id="1447_Splintered Soul" data-flag="@N" onclick="openSidebar('1447_Splintered Soul',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\90_Rebuke the Mighty.jpg" id="90_Rebuke the Mighty" data-flag="@N" onclick="openSidebar('90_Rebuke the Mighty',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\106_Blackout Grifter.jpg" id="106_Blackout Grifter" data-flag="@N" onclick="openSidebar('106_Blackout Grifter',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\154_Field Opportunist.jpg" id="154_Field Opportunist" data-flag="@N" onclick="openSidebar('154_Field Opportunist',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\181_Battlehymn Howler.jpg" id="181_Battlehymn Howler" data-flag="@N" onclick="openSidebar('181_Battlehymn Howler',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\28_Ascended Seer.jpg" id="28_Ascended Seer" data-flag="@N" onclick="openSidebar('28_Ascended Seer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\92_Repulsion Field.jpg" id="92_Repulsion Field" data-flag="@N" onclick="openSidebar('92_Repulsion Field',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\107_Capital Skyraiders.jpg" id="107_Capital Skyraiders" data-flag="@N" onclick="openSidebar('107_Capital Skyraiders',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\156_Gift of Inspiration.jpg" id="156_Gift of Inspiration" data-flag="@N" onclick="openSidebar('156_Gift of Inspiration',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\184_Hostile Evolution.jpg" id="184_Hostile Evolution" data-flag="@N" onclick="openSidebar('184_Hostile Evolution',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\30_Assimilate.jpg" id="30_Assimilate" data-flag="@N" onclick="openSidebar('30_Assimilate',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\94_Scuttle Tank.jpg" id="94_Scuttle Tank" data-flag="@N" onclick="openSidebar('94_Scuttle Tank',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\109_Celise's Vengeance.jpg" id="109_Celises Vengeance" data-flag="@N" onclick="openSidebar('109_Celises Vengeance',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\164_Plasmana Hellkite.jpg" id="164_Plasmana Hellkite" data-flag="@N" onclick="openSidebar('164_Plasmana Hellkite',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\189_Leystone's Vigor.jpg" id="189_Leystones Vigor" data-flag="@N" onclick="openSidebar('189_Leystones Vigor',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\31_Assured Destruction.jpg" id="31_Assured Destruction" data-flag="@N" onclick="openSidebar('31_Assured Destruction',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\99_Teqien Overseer.jpg" id="99_Teqien Overseer" data-flag="@N" onclick="openSidebar('99_Teqien Overseer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\112_Cull Populace.jpg" id="112_Cull Populace" data-flag="@N" onclick="openSidebar('112_Cull Populace',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\166_Pyrewing Penancer.jpg" id="166_Pyrewing Penancer" data-flag="@N" onclick="openSidebar('166_Pyrewing Penancer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\194_Ozan's Blessing.jpg" id="194_Ozans Blessing" data-flag="@N" onclick="openSidebar('194_Ozans Blessing',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\36_Exuberant Caprisaur.jpg" id="36_Exuberant Caprisaur" data-flag="@N" onclick="openSidebar('36_Exuberant Caprisaur',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\101_Tidewake Walker.jpg" id="101_Tidewake Walker" data-flag="@N" onclick="openSidebar('101_Tidewake Walker',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\116_Dissect Intel.jpg" id="116_Dissect Intel" data-flag="@N" onclick="openSidebar('116_Dissect Intel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\177_Wyrmshot.jpg" id="177_Wyrmshot" data-flag="@N" onclick="openSidebar('177_Wyrmshot',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\199_Runerock Automaton.jpg" id="199_Runerock Automaton" data-flag="@N" onclick="openSidebar('199_Runerock Automaton',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\48_Overt Banishment.jpg" id="48_Overt Banishment" data-flag="@N" onclick="openSidebar('48_Overt Banishment',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\70_Aqueous Drake.jpg" id="70_Aqueous Drake" data-flag="@N" onclick="openSidebar('70_Aqueous Drake',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\119_Earthly Penchants.jpg" id="119_Earthly Penchants" data-flag="@N" onclick="openSidebar('119_Earthly Penchants',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\151_Drone Swarm.jpg" id="151_Drone Swarm" data-flag="@N" onclick="openSidebar('151_Drone Swarm',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\201_Sharesh's Bravery.jpg" id="201_Shareshs Bravery" data-flag="@N" onclick="openSidebar('201_Shareshs Bravery',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\51_Radiant Chromate.jpg" id="51_Radiant Chromate" data-flag="@N" onclick="openSidebar('51_Radiant Chromate',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\71_Battery Drain.jpg" id="71_Battery Drain" data-flag="@N" onclick="openSidebar('71_Battery Drain',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\120_Essence Archivist.jpg" id="120_Essence Archivist" data-flag="@N" onclick="openSidebar('120_Essence Archivist',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\153_Explosive Redemption.jpg" id="153_Explosive Redemption" data-flag="@N" onclick="openSidebar('153_Explosive Redemption',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\207_Sustained Fire.jpg" id="207_Sustained Fire" data-flag="@N" onclick="openSidebar('207_Sustained Fire',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\53_Royal Templar.jpg" id="53_Royal Templar" data-flag="@N" onclick="openSidebar('53_Royal Templar',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\75_Contain for Study.jpg" id="75_Contain for Study" data-flag="@N" onclick="openSidebar('75_Contain for Study',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\122_Feed on the Meek.jpg" id="122_Feed on the Meek" data-flag="@N" onclick="openSidebar('122_Feed on the Meek',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\157_High Voltage.jpg" id="157_High Voltage" data-flag="@N" onclick="openSidebar('157_High Voltage',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\179_Aggressor Model.jpg" id="179_Aggressor Model" data-flag="@N" onclick="openSidebar('179_Aggressor Model',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\62_Synod of Sanctions.jpg" id="62_Synod of Sanctions" data-flag="@N" onclick="openSidebar('62_Synod of Sanctions',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\77_Deeptreader Arcanist.jpg" id="77_Deeptreader Arcanist" data-flag="@N" onclick="openSidebar('77_Deeptreader Arcanist',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\125_Gilded Death.jpg" id="125_Gilded Death" data-flag="@N" onclick="openSidebar('125_Gilded Death',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\158_Iron Steambreaker.jpg" id="158_Iron Steambreaker" data-flag="@N" onclick="openSidebar('158_Iron Steambreaker',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\183_Endangered Scinok.jpg" id="183_Endangered Scinok" data-flag="@N" onclick="openSidebar('183_Endangered Scinok',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\63_Tense Negotiations.jpg" id="63_Tense Negotiations" data-flag="@N" onclick="openSidebar('63_Tense Negotiations',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\80_Emulation Expert.jpg" id="80_Emulation Expert" data-flag="@N" onclick="openSidebar('80_Emulation Expert',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\135_Programmed Pursuer.jpg" id="135_Programmed Pursuer" data-flag="@N" onclick="openSidebar('135_Programmed Pursuer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\159_Ironcliff Blaster.jpg" id="159_Ironcliff Blaster" data-flag="@N" onclick="openSidebar('159_Ironcliff Blaster',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\186_Impregnability.jpg" id="186_Impregnability" data-flag="@N" onclick="openSidebar('186_Impregnability',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\64_Twilight Vagabond.jpg" id="64_Twilight Vagabond" data-flag="@N" onclick="openSidebar('64_Twilight Vagabond',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\81_Forced Ejection.jpg" id="81_Forced Ejection" data-flag="@N" onclick="openSidebar('81_Forced Ejection',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\138_Rooftop Slink.jpg" id="138_Rooftop Slink" data-flag="@N" onclick="openSidebar('138_Rooftop Slink',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\160_Lead the Charge.jpg" id="160_Lead the Charge" data-flag="@N" onclick="openSidebar('160_Lead the Charge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\190_Londel Sharpshot.jpg" id="190_Londel Sharpshot" data-flag="@N" onclick="openSidebar('190_Londel Sharpshot',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\65_Unshackle.jpg" id="65_Unshackle" data-flag="@N" onclick="openSidebar('65_Unshackle',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\82_Industrialize.jpg" id="82_Industrialize" data-flag="@N" onclick="openSidebar('82_Industrialize',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\140_Silverbone Chromate.jpg" id="140_Silverbone Chromate" data-flag="@N" onclick="openSidebar('140_Silverbone Chromate',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\162_Minoan Engineer.jpg" id="162_Minoan Engineer" data-flag="@N" onclick="openSidebar('162_Minoan Engineer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\191_Massive Predation.jpg" id="191_Massive Predation" data-flag="@N" onclick="openSidebar('191_Massive Predation',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\66_Warcast Seraph.jpg" id="66_Warcast Seraph" data-flag="@N" onclick="openSidebar('66_Warcast Seraph',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\86_Mage Hand.jpg" id="86_Mage Hand" data-flag="@N" onclick="openSidebar('86_Mage Hand',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1506_Lone Switchblade.jpg" id="1506_Lone Switchblade" data-flag="@N" onclick="openSidebar('1506_Lone Switchblade',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\163_Muse.jpg" id="163_Muse" data-flag="@N" onclick="openSidebar('163_Muse',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\192_Orbinoid.jpg" id="192_Orbinoid" data-flag="@N" onclick="openSidebar('192_Orbinoid',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1453_Crown Betrayer.jpg" id="1453_Crown Betrayer" data-flag="@N" onclick="openSidebar('1453_Crown Betrayer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\91_Recharge.jpg" id="91_Recharge" data-flag="@N" onclick="openSidebar('91_Recharge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1538_Synthetic Specter.jpg" id="1538_Synthetic Specter" data-flag="@N" onclick="openSidebar('1538_Synthetic Specter',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\165_Pull the Wires.jpg" id="165_Pull the Wires" data-flag="@N" onclick="openSidebar('165_Pull the Wires',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\196_Ozanwood Murk.jpg" id="196_Ozanwood Murk" data-flag="@N" onclick="openSidebar('196_Ozanwood Murk',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1464_Traveler of Dawn.jpg" id="1464_Traveler of Dawn" data-flag="@N" onclick="openSidebar('1464_Traveler of Dawn',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\93_Runway Mech.jpg" id="93_Runway Mech" data-flag="@N" onclick="openSidebar('93_Runway Mech',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\103_Artificial Unlife.jpg" id="103_Artificial Unlife" data-flag="@N" onclick="openSidebar('103_Artificial Unlife',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\168_Resist in the Ranks.jpg" id="168_Resist in the Ranks" data-flag="@N" onclick="openSidebar('168_Resist in the Ranks',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\198_Rigorous Recon.jpg" id="198_Rigorous Recon" data-flag="@N" onclick="openSidebar('198_Rigorous Recon',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\29_Assembled Assault.jpg" id="29_Assembled Assault" data-flag="@N" onclick="openSidebar('29_Assembled Assault',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\95_Siphon Energy.jpg" id="95_Siphon Energy" data-flag="@N" onclick="openSidebar('95_Siphon Energy',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\104_Augmented Ruffians.jpg" id="104_Augmented Ruffians" data-flag="@N" onclick="openSidebar('104_Augmented Ruffians',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\169_Revved Robo.jpg" id="169_Revved Robo" data-flag="@N" onclick="openSidebar('169_Revved Robo',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\200_Scrapmail Conscripts.jpg" id="200_Scrapmail Conscripts" data-flag="@N" onclick="openSidebar('200_Scrapmail Conscripts',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\32_Conserve Ideals.jpg" id="32_Conserve Ideals" data-flag="@N" onclick="openSidebar('32_Conserve Ideals',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\96_Skyward Magus.jpg" id="96_Skyward Magus" data-flag="@N" onclick="openSidebar('96_Skyward Magus',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\105_Beckoner of Ends.jpg" id="105_Beckoner of Ends" data-flag="@N" onclick="openSidebar('105_Beckoner of Ends',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\171_Static Augment.jpg" id="171_Static Augment" data-flag="@N" onclick="openSidebar('171_Static Augment',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\203_Simpler Times.jpg" id="203_Simpler Times" data-flag="@N" onclick="openSidebar('203_Simpler Times',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\33_Cut Aside.jpg" id="33_Cut Aside" data-flag="@N" onclick="openSidebar('33_Cut Aside',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\97_Steamveil Model.jpg" id="97_Steamveil Model" data-flag="@N" onclick="openSidebar('97_Steamveil Model',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\110_Corpse Experiment.jpg" id="110_Corpse Experiment" data-flag="@N" onclick="openSidebar('110_Corpse Experiment',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\174_Vagrant Sorceress.jpg" id="174_Vagrant Sorceress" data-flag="@N" onclick="openSidebar('174_Vagrant Sorceress',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\205_Skysnipe.jpg" id="205_Skysnipe" data-flag="@N" onclick="openSidebar('205_Skysnipe',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\34_Dark Ambassador.jpg" id="34_Dark Ambassador" data-flag="@N" onclick="openSidebar('34_Dark Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\98_Survey the Area.jpg" id="98_Survey the Area" data-flag="@N" onclick="openSidebar('98_Survey the Area',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\113_Cybat.jpg" id="113_Cybat" data-flag="@N" onclick="openSidebar('113_Cybat',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\175_Vanguard Recruit.jpg" id="175_Vanguard Recruit" data-flag="@N" onclick="openSidebar('175_Vanguard Recruit',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\206_Stand Strong.jpg" id="206_Stand Strong" data-flag="@N" onclick="openSidebar('206_Stand Strong',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\35_Dated Mechanoid.jpg" id="35_Dated Mechanoid" data-flag="@N" onclick="openSidebar('35_Dated Mechanoid',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\302_Dynamo Glyphs_PRO_CYB.jpg" id="302_Dynamo Glyphs_PRO_CYB" data-flag="@N" onclick="openSidebar('302_Dynamo Glyphs_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\115_Data Wipe.jpg" id="115_Data Wipe" data-flag="@N" onclick="openSidebar('115_Data Wipe',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\306_Arid Outrider_PRO_CYB.jpg" id="306_Arid Outrider_PRO_CYB" data-flag="@N" onclick="openSidebar('306_Arid Outrider_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\208_Teslahammer Giant.jpg" id="208_Teslahammer Giant" data-flag="@N" onclick="openSidebar('208_Teslahammer Giant',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\38_Galvanize.jpg" id="38_Galvanize" data-flag="@N" onclick="openSidebar('38_Galvanize',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\303_Industrialize_PRO_CYB.jpg" id="303_Industrialize_PRO_CYB" data-flag="@N" onclick="openSidebar('303_Industrialize_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\117_Dissolve into Data.jpg" id="117_Dissolve into Data" data-flag="@N" onclick="openSidebar('117_Dissolve into Data',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\307_Gift of Inspiration_PRO_CYB.jpg" id="307_Gift of Inspiration_PRO_CYB" data-flag="@N" onclick="openSidebar('307_Gift of Inspiration_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\209_Valiant Resistance.jpg" id="209_Valiant Resistance" data-flag="@N" onclick="openSidebar('209_Valiant Resistance',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\41_Holding Cell.jpg" id="41_Holding Cell" data-flag="@N" onclick="openSidebar('41_Holding Cell',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\118_Dregstreet Inquisitor.jpg" id="118_Dregstreet Inquisitor" data-flag="@N" onclick="openSidebar('118_Dregstreet Inquisitor',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\315_Ardor, Forefront of Freedom_PRO_CYB.jpg" id="315_Ardor, Forefront of Freedom_PRO_CYB" data-flag="@N" onclick="openSidebar('315_Ardor, Forefront of Freedom_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\308_Imperfect Fugisaur_PRO_CYB.jpg" id="308_Imperfect Fugisaur_PRO_CYB" data-flag="@N" onclick="openSidebar('308_Imperfect Fugisaur_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\43_Lauded Orator.jpg" id="43_Lauded Orator" data-flag="@N" onclick="openSidebar('43_Lauded Orator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\124_Fleshbearer.jpg" id="124_Fleshbearer" data-flag="@N" onclick="openSidebar('124_Fleshbearer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\309_Rebuilding of Londel_PRO_CYB.jpg" id="309_Rebuilding of Londel_PRO_CYB" data-flag="@N" onclick="openSidebar('309_Rebuilding of Londel_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\45_Lithe Stalker.jpg" id="45_Lithe Stalker" data-flag="@N" onclick="openSidebar('45_Lithe Stalker',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\127_Iris Agent.jpg" id="127_Iris Agent" data-flag="@N" onclick="openSidebar('127_Iris Agent',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\316_Orbinoid_PRO_CYB.jpg" id="316_Orbinoid_PRO_CYB" data-flag="@N" onclick="openSidebar('316_Orbinoid_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\49_Priestess of Chains.jpg" id="49_Priestess of Chains" data-flag="@N" onclick="openSidebar('49_Priestess of Chains',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\128_Iris Cultist.jpg" id="128_Iris Cultist" data-flag="@N" onclick="openSidebar('128_Iris Cultist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\319_Ozan's Blessing_PRO_CYB.jpg" id="319_Ozans Blessing_PRO_CYB" data-flag="@N" onclick="openSidebar('319_Ozans Blessing_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\52_Retrofit Paladin.jpg" id="52_Retrofit Paladin" data-flag="@N" onclick="openSidebar('52_Retrofit Paladin',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\132_Machinations.jpg" id="132_Machinations" data-flag="@N" onclick="openSidebar('132_Machinations',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\56_Silversilk Emissary.jpg" id="56_Silversilk Emissary" data-flag="@N" onclick="openSidebar('56_Silversilk Emissary',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\134_Nyamphibian.jpg" id="134_Nyamphibian" data-flag="@N" onclick="openSidebar('134_Nyamphibian',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\59_Stehlian Reverend.jpg" id="59_Stehlian Reverend" data-flag="@N" onclick="openSidebar('59_Stehlian Reverend',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\139_Scrapweight.jpg" id="139_Scrapweight" data-flag="@N" onclick="openSidebar('139_Scrapweight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\61_Sworn Loyalist.jpg" id="61_Sworn Loyalist" data-flag="@N" onclick="openSidebar('61_Sworn Loyalist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\141_Steelhorn Crusher.jpg" id="141_Steelhorn Crusher" data-flag="@N" onclick="openSidebar('141_Steelhorn Crusher',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\67_Whipwing Dragonfly.jpg" id="67_Whipwing Dragonfly" data-flag="@N" onclick="openSidebar('67_Whipwing Dragonfly',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\143_Withered Survivor.jpg" id="143_Withered Survivor" data-flag="@N" onclick="openSidebar('143_Withered Survivor',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\68_Wistful Delegate.jpg" id="68_Wistful Delegate" data-flag="@N" onclick="openSidebar('68_Wistful Delegate',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1527_Iris Flayer.jpg" id="1527_Iris Flayer" data-flag="@N" onclick="openSidebar('1527_Iris Flayer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1449_Winged Subjugator.jpg" id="1449_Winged Subjugator" data-flag="@N" onclick="openSidebar('1449_Winged Subjugator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1528_Reborn Apostle.jpg" id="1528_Reborn Apostle" data-flag="@N" onclick="openSidebar('1528_Reborn Apostle',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1459_Reborn Follower.jpg" id="1459_Reborn Follower" data-flag="@N" onclick="openSidebar('1459_Reborn Follower',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1543_Silvereye Scout.jpg" id="1543_Silvereye Scout" data-flag="@N" onclick="openSidebar('1543_Silvereye Scout',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1461_Silver Swiftspear.jpg" id="1461_Silver Swiftspear" data-flag="@N" onclick="openSidebar('1461_Silver Swiftspear',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\305_Programmed Pursuer_PRO_CYB.jpg" id="305_Programmed Pursuer_PRO_CYB" data-flag="@N" onclick="openSidebar('305_Programmed Pursuer_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\300_Assured Destruction_PRO_CYB.jpg" id="300_Assured Destruction_PRO_CYB" data-flag="@N" onclick="openSidebar('300_Assured Destruction_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\317_Malicious Skycleaver_PRO_CYB.jpg" id="317_Malicious Skycleaver_PRO_CYB" data-flag="@N" onclick="openSidebar('317_Malicious Skycleaver_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\301_Tense Negotiations_PRO_CYB.jpg" id="301_Tense Negotiations_PRO_CYB" data-flag="@N" onclick="openSidebar('301_Tense Negotiations_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\321_Data Weaver_PRO_CYB.jpg" id="321_Data Weaver_PRO_CYB" data-flag="@N" onclick="openSidebar('321_Data Weaver_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\318_Looming Cyhawk_PRO_CYB.jpg" id="318_Looming Cyhawk_PRO_CYB" data-flag="@N" onclick="openSidebar('318_Looming Cyhawk_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1717_Silverscale Despot_PRO_CYB.jpg" id="1717_Silverscale Despot_PRO_CYB" data-flag="@N" onclick="openSidebar('1717_Silverscale Despot_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\223_Sharesh, Leader of the Lost.jpg" id="223_Sharesh, Leader of the Lost" data-flag="@N" onclick="openSidebar('223_Sharesh, Leader of the Lost',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\218_Lend Me Strength.jpg" id="218_Lend Me Strength" data-flag="@N" onclick="openSidebar('218_Lend Me Strength',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\242_Pact of Power.jpg" id="242_Pact of Power" data-flag="@N" onclick="openSidebar('242_Pact of Power',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\248_Vukoroq Defector.jpg" id="248_Vukoroq Defector" data-flag="@N" onclick="openSidebar('248_Vukoroq Defector',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\217_Inspired Denizen.jpg" id="217_Inspired Denizen" data-flag="@N" onclick="openSidebar('217_Inspired Denizen',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\234_Edgeland Battlefury.jpg" id="234_Edgeland Battlefury" data-flag="@N" onclick="openSidebar('234_Edgeland Battlefury',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\244_Ragtag Squad.jpg" id="244_Ragtag Squad" data-flag="@N" onclick="openSidebar('244_Ragtag Squad',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\228_Barded Brachion.jpg" id="228_Barded Brachion" data-flag="@N" onclick="openSidebar('228_Barded Brachion',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\237_Flametip Goliath.jpg" id="237_Flametip Goliath" data-flag="@N" onclick="openSidebar('237_Flametip Goliath',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\211_Alcadia, Cardinal Judge.jpg" id="211_Alcadia, Cardinal Judge" data-flag="@N" onclick="openSidebar('211_Alcadia, Cardinal Judge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\215_Gnosa, Research Executive.jpg" id="215_Gnosa, Research Executive" data-flag="@N" onclick="openSidebar('215_Gnosa, Research Executive',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\222_Ruin, the First Shard.jpg" id="222_Ruin, the First Shard" data-flag="@N" onclick="openSidebar('222_Ruin, the First Shard',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1611_The Omnithority.jpg" id="1611_The Omnithority" data-flag="@N" onclick="openSidebar('1611_The Omnithority',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\297_Get Your Wish.jpg" id="297_Get Your Wish" data-flag="@N" onclick="openSidebar('297_Get Your Wish',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\225_Towering Sentinel.jpg" id="225_Towering Sentinel" data-flag="@N" onclick="openSidebar('225_Towering Sentinel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\212_Azantium, Perfect Creation.jpg" id="212_Azantium, Perfect Creation" data-flag="@N" onclick="openSidebar('212_Azantium, Perfect Creation',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\213_Critical Capture.jpg" id="213_Critical Capture" data-flag="@N" onclick="openSidebar('213_Critical Capture',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\232_Cryptolabe.jpg" id="232_Cryptolabe" data-flag="@N" onclick="openSidebar('232_Cryptolabe',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\221_Pursuer of Divinity.jpg" id="221_Pursuer of Divinity" data-flag="@N" onclick="openSidebar('221_Pursuer of Divinity',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\240_Neotech Replicant.jpg" id="240_Neotech Replicant" data-flag="@N" onclick="openSidebar('240_Neotech Replicant',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\233_Decavolt Reactor.jpg" id="233_Decavolt Reactor" data-flag="@N" onclick="openSidebar('233_Decavolt Reactor',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\229_Bind Life to Steel.jpg" id="229_Bind Life to Steel" data-flag="@N" onclick="openSidebar('229_Bind Life to Steel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\245_Resign to Progress.jpg" id="245_Resign to Progress" data-flag="@N" onclick="openSidebar('245_Resign to Progress',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\224_Skylance Escort.jpg" id="224_Skylance Escort" data-flag="@N" onclick="openSidebar('224_Skylance Escort',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\235_Eleanor, Royal Captain.jpg" id="235_Eleanor, Royal Captain" data-flag="@N" onclick="openSidebar('235_Eleanor, Royal Captain',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\220_Neotech Exploiter.jpg" id="220_Neotech Exploiter" data-flag="@N" onclick="openSidebar('220_Neotech Exploiter',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\227_Artisan's Studio.jpg" id="227_Artisans Studio" data-flag="@N" onclick="openSidebar('227_Artisans Studio',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1621_Abandoner of Flesh.jpg" id="1621_Abandoner of Flesh" data-flag="@N" onclick="openSidebar('1621_Abandoner of Flesh',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\238_Highseas Renegade.jpg" id="238_Highseas Renegade" data-flag="@N" onclick="openSidebar('238_Highseas Renegade',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\246_Shepherd of Steel.jpg" id="246_Shepherd of Steel" data-flag="@N" onclick="openSidebar('246_Shepherd of Steel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1635_Eleanor, Kingslayer.jpg" id="1635_Eleanor, Kingslayer" data-flag="@N" onclick="openSidebar('1635_Eleanor, Kingslayer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\247_Stolen Secrets.jpg" id="247_Stolen Secrets" data-flag="@N" onclick="openSidebar('247_Stolen Secrets',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\231_Brass Laborer.jpg" id="231_Brass Laborer" data-flag="@N" onclick="openSidebar('231_Brass Laborer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\216_Imposing Iteration.jpg" id="216_Imposing Iteration" data-flag="@N" onclick="openSidebar('216_Imposing Iteration',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\239_Mesmage.jpg" id="239_Mesmage" data-flag="@N" onclick="openSidebar('239_Mesmage',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\250_Workshop Helper.jpg" id="250_Workshop Helper" data-flag="@N" onclick="openSidebar('250_Workshop Helper',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\226_Wayward Drek.jpg" id="226_Wayward Drek" data-flag="@N" onclick="openSidebar('226_Wayward Drek',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\241_Neotech Skyguard.jpg" id="241_Neotech Skyguard" data-flag="@N" onclick="openSidebar('241_Neotech Skyguard',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\243_Plasma Elite.jpg" id="243_Plasma Elite" data-flag="@N" onclick="openSidebar('243_Plasma Elite',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\311_Resign to Progress_PRO_CYB.jpg" id="311_Resign to Progress_PRO_CYB" data-flag="@N" onclick="openSidebar('311_Resign to Progress_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\249_Welding Rig.jpg" id="249_Welding Rig" data-flag="@N" onclick="openSidebar('249_Welding Rig',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1626_Reborn Herald.jpg" id="1626_Reborn Herald" data-flag="@N" onclick="openSidebar('1626_Reborn Herald',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\230_Brandish Greatness.jpg" id="230_Brandish Greatness" data-flag="@N" onclick="openSidebar('230_Brandish Greatness',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\236_Escorted Captain.jpg" id="236_Escorted Captain" data-flag="@N" onclick="openSidebar('236_Escorted Captain',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\310_Bind Life to Steel_PRO_CYB.jpg" id="310_Bind Life to Steel_PRO_CYB" data-flag="@N" onclick="openSidebar('310_Bind Life to Steel_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\214_Gi-Gecha, Tide of Victory.jpg" id="214_Gi-Gecha, Tide of Victory" data-flag="@N" onclick="openSidebar('214_Gi-Gecha, Tide of Victory',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\219_Leyspark Wielder.jpg" id="219_Leyspark Wielder" data-flag="@N" onclick="openSidebar('219_Leyspark Wielder',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\5_Claim the Source.jpg" id="5_Claim the Source" data-flag="@N" onclick="openSidebar('5_Claim the Source',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\27_Xiv, Replisparked.jpg" id="27_Xiv, Replisparked" data-flag="@N" onclick="openSidebar('27_Xiv, Replisparked',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\268_Skinshifting Steel.jpg" id="268_Skinshifting Steel" data-flag="@N" onclick="openSidebar('268_Skinshifting Steel',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\269_Stella's Journal.jpg" id="269_Stellas Journal" data-flag="@N" onclick="openSidebar('269_Stellas Journal',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\1_Alien Pledge.jpg" id="1_Alien Pledge" data-flag="@N" onclick="openSidebar('1_Alien Pledge',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\6_Embrace the Unnatural.jpg" id="6_Embrace the Unnatural" data-flag="@N" onclick="openSidebar('6_Embrace the Unnatural',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\20_Taste for Malice.jpg" id="20_Taste for Malice" data-flag="@N" onclick="openSidebar('20_Taste for Malice',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\21_Unity.jpg" id="21_Unity" data-flag="@N" onclick="openSidebar('21_Unity',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\22_Unmolded One.jpg" id="22_Unmolded One" data-flag="@N" onclick="openSidebar('22_Unmolded One',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\24_Voice from the Stars.jpg" id="24_Voice from the Stars" data-flag="@N" onclick="openSidebar('24_Voice from the Stars',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\255_Gilded Font.jpg" id="255_Gilded Font" data-flag="@N" onclick="openSidebar('255_Gilded Font',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\259_Malfunctioning Portal.jpg" id="259_Malfunctioning Portal" data-flag="@N" onclick="openSidebar('259_Malfunctioning Portal',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\260_Matter Harvester.jpg" id="260_Matter Harvester" data-flag="@N" onclick="openSidebar('260_Matter Harvester',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\264_Qimis, Central Intelligence.jpg" id="264_Qimis, Central Intelligence" data-flag="@N" onclick="openSidebar('264_Qimis, Central Intelligence',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\267_The Shattered Throne.jpg" id="267_The Shattered Throne" data-flag="@N" onclick="openSidebar('267_The Shattered Throne',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\3_Beguiling Stewards.jpg" id="3_Beguiling Stewards" data-flag="@N" onclick="openSidebar('3_Beguiling Stewards',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\8_Fluid Formation.jpg" id="8_Fluid Formation" data-flag="@N" onclick="openSidebar('8_Fluid Formation',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\13_Interception.jpg" id="13_Interception" data-flag="@N" onclick="openSidebar('13_Interception',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\16_Offerings to Sky Gods.jpg" id="16_Offerings to Sky Gods" data-flag="@N" onclick="openSidebar('16_Offerings to Sky Gods',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\18_Spatial Rift.jpg" id="18_Spatial Rift" data-flag="@N" onclick="openSidebar('18_Spatial Rift',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\19_Stratos Sentry.jpg" id="19_Stratos Sentry" data-flag="@N" onclick="openSidebar('19_Stratos Sentry',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\26_Xavvac's Reprocessing.jpg" id="26_Xavvacs Reprocessing" data-flag="@N" onclick="openSidebar('26_Xavvacs Reprocessing',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\251_Altar of Chrome.jpg" id="251_Altar of Chrome" data-flag="@N" onclick="openSidebar('251_Altar of Chrome',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\252_Archaic Obelisk.jpg" id="252_Archaic Obelisk" data-flag="@N" onclick="openSidebar('252_Archaic Obelisk',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\254_Cosmic Colossus.jpg" id="254_Cosmic Colossus" data-flag="@N" onclick="openSidebar('254_Cosmic Colossus',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\256_Gravity Gauntlets.jpg" id="256_Gravity Gauntlets" data-flag="@N" onclick="openSidebar('256_Gravity Gauntlets',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\258_Leyshard.jpg" id="258_Leyshard" data-flag="@N" onclick="openSidebar('258_Leyshard',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\261_Mercurial Wright.jpg" id="261_Mercurial Wright" data-flag="@N" onclick="openSidebar('261_Mercurial Wright',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\2_Atomize.jpg" id="2_Atomize" data-flag="@N" onclick="openSidebar('2_Atomize',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\4_Cast Reflection.jpg" id="4_Cast Reflection" data-flag="@N" onclick="openSidebar('4_Cast Reflection',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\7_First Contact.jpg" id="7_First Contact" data-flag="@N" onclick="openSidebar('7_First Contact',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\9_Hivecaste Vukoroq.jpg" id="9_Hivecaste Vukoroq" data-flag="@N" onclick="openSidebar('9_Hivecaste Vukoroq',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\10_Inessence.jpg" id="10_Inessence" data-flag="@N" onclick="openSidebar('10_Inessence',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\11_Instant Adaptation.jpg" id="11_Instant Adaptation" data-flag="@N" onclick="openSidebar('11_Instant Adaptation',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\12_Instill Void.jpg" id="12_Instill Void" data-flag="@N" onclick="openSidebar('12_Instill Void',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\14_Leyline Leecher.jpg" id="14_Leyline Leecher" data-flag="@N" onclick="openSidebar('14_Leyline Leecher',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\15_Masked Envoy.jpg" id="15_Masked Envoy" data-flag="@N" onclick="openSidebar('15_Masked Envoy',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\17_Savage Weldbeast.jpg" id="17_Savage Weldbeast" data-flag="@N" onclick="openSidebar('17_Savage Weldbeast',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\23_Vision Herald.jpg" id="23_Vision Herald" data-flag="@N" onclick="openSidebar('23_Vision Herald',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\25_Warp Figure.jpg" id="25_Warp Figure" data-flag="@N" onclick="openSidebar('25_Warp Figure',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\253_Auto Sifter.jpg" id="253_Auto Sifter" data-flag="@N" onclick="openSidebar('253_Auto Sifter',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\257_Holo-Map.jpg" id="257_Holo-Map" data-flag="@N" onclick="openSidebar('257_Holo-Map',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\262_Omnoid Destroyer.jpg" id="262_Omnoid Destroyer" data-flag="@N" onclick="openSidebar('262_Omnoid Destroyer',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\263_Plasma Armory.jpg" id="263_Plasma Armory" data-flag="@N" onclick="openSidebar('263_Plasma Armory',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\265_Reactor Sphere.jpg" id="265_Reactor Sphere" data-flag="@N" onclick="openSidebar('265_Reactor Sphere',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\266_Seeker Orbs.jpg" id="266_Seeker Orbs" data-flag="@N" onclick="openSidebar('266_Seeker Orbs',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\270_Supercharger.jpg" id="270_Supercharger" data-flag="@N" onclick="openSidebar('270_Supercharger',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\299_Offerings to Sky Gods_PRO_CYB.jpg" id="299_Offerings to Sky Gods_PRO_CYB" data-flag="@N" onclick="openSidebar('299_Offerings to Sky Gods_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\312_Gilded Font_PRO_CYB.jpg" id="312_Gilded Font_PRO_CYB" data-flag="@N" onclick="openSidebar('312_Gilded Font_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\313_Malfunctioning Portal_PRO_CYB.jpg" id="313_Malfunctioning Portal_PRO_CYB" data-flag="@N" onclick="openSidebar('313_Malfunctioning Portal_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\314_Qimis, Central Intelligence_PRO_CYB.jpg" id="314_Qimis, Central Intelligence_PRO_CYB" data-flag="@N" onclick="openSidebar('314_Qimis, Central Intelligence_PRO_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\283_Neo Stehlia.jpg" id="283_Neo Stehlia" data-flag="@N" onclick="openSidebar('283_Neo Stehlia',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\277_High Teqien.jpg" id="277_High Teqien" data-flag="@N" onclick="openSidebar('277_High Teqien',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\276_Hallowed Chamber.jpg" id="276_Hallowed Chamber" data-flag="@N" onclick="openSidebar('276_Hallowed Chamber',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\273_Edgeland Market.jpg" id="273_Edgeland Market" data-flag="@N" onclick="openSidebar('273_Edgeland Market',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\286_Secluded Hangar.jpg" id="286_Secluded Hangar" data-flag="@N" onclick="openSidebar('286_Secluded Hangar',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\282_Nebulous Ring.jpg" id="282_Nebulous Ring" data-flag="@N" onclick="openSidebar('282_Nebulous Ring',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\294_Coalesced Glacier.jpg" id="294_Coalesced Glacier" data-flag="@N" onclick="openSidebar('294_Coalesced Glacier',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\272_Dark Horizon.jpg" id="272_Dark Horizon" data-flag="@N" onclick="openSidebar('272_Dark Horizon',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\296_Coalesced Peaks.jpg" id="296_Coalesced Peaks" data-flag="@N" onclick="openSidebar('296_Coalesced Peaks',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\292_Coalesced Cliff.jpg" id="292_Coalesced Cliff" data-flag="@N" onclick="openSidebar('292_Coalesced Cliff',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\295_Coalesced Mesa.jpg" id="295_Coalesced Mesa" data-flag="@N" onclick="openSidebar('295_Coalesced Mesa',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\293_Coalesced Core.jpg" id="293_Coalesced Core" data-flag="@N" onclick="openSidebar('293_Coalesced Core',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\289_Valley Village.jpg" id="289_Valley Village" data-flag="@N" onclick="openSidebar('289_Valley Village',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\279_Lunar Plateau.jpg" id="279_Lunar Plateau" data-flag="@N" onclick="openSidebar('279_Lunar Plateau',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\287_Steam Colony.jpg" id="287_Steam Colony" data-flag="@N" onclick="openSidebar('287_Steam Colony',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\274_Field Laboratory.jpg" id="274_Field Laboratory" data-flag="@N" onclick="openSidebar('274_Field Laboratory',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\280_Mirrormeld Spire.jpg" id="280_Mirrormeld Spire" data-flag="@N" onclick="openSidebar('280_Mirrormeld Spire',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\285_Pristine Grounds.jpg" id="285_Pristine Grounds" data-flag="@N" onclick="openSidebar('285_Pristine Grounds',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\271_Capital Zenith.jpg" id="271_Capital Zenith" data-flag="@N" onclick="openSidebar('271_Capital Zenith',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\290_Warpway Rings.jpg" id="290_Warpway Rings" data-flag="@N" onclick="openSidebar('290_Warpway Rings',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\291_Wastes.jpg" id="291_Wastes" data-flag="@N" onclick="openSidebar('291_Wastes',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\288_Swamp_CYB.jpg" id="288_Swamp_CYB" data-flag="@N" onclick="openSidebar('288_Swamp_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\275_Forest_CYB.jpg" id="275_Forest_CYB" data-flag="@N" onclick="openSidebar('275_Forest_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\278_Island_CYB.jpg" id="278_Island_CYB" data-flag="@N" onclick="openSidebar('278_Island_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\284_Plains_CYB.jpg" id="284_Plains_CYB" data-flag="@N" onclick="openSidebar('284_Plains_CYB',false)"></div>
+			<div class="container"><img alt="/sets\CYB-files\img\281_Mountain_CYB.jpg" id="281_Mountain_CYB" data-flag="@N" onclick="openSidebar('281_Mountain_CYB',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

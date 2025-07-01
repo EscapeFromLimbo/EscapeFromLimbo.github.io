@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/CCR-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>CCR visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/CCR-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/CCR-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\CCR-files\img\5_Catch Your Breath.jpg" id="5_Catch Your Breath" data-flag="@N" onclick="openSidebar('5_Catch Your Breath',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\40_Aqua Crew Flagship.jpg" id="40_Aqua Crew Flagship" data-flag="@N" onclick="openSidebar('40_Aqua Crew Flagship',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\81_Depths Ancient.jpg" id="81_Depths Ancient" data-flag="@N" onclick="openSidebar('81_Depths Ancient',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\124_Desolate Lands.jpg" id="124_Desolate Lands" data-flag="@N" onclick="openSidebar('124_Desolate Lands',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\156_Berry Fermenter.jpg" id="156_Berry Fermenter" data-flag="@N" onclick="openSidebar('156_Berry Fermenter',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\8_Cirriform Dragon.jpg" id="8_Cirriform Dragon" data-flag="@N" onclick="openSidebar('8_Cirriform Dragon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\53_Fortune Bearer.jpg" id="53_Fortune Bearer" data-flag="@N" onclick="openSidebar('53_Fortune Bearer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\86_Gloomy Meteorologist.jpg" id="86_Gloomy Meteorologist" data-flag="@N" onclick="openSidebar('86_Gloomy Meteorologist',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\127_Earthbreaker Dragon.jpg" id="127_Earthbreaker Dragon" data-flag="@N" onclick="openSidebar('127_Earthbreaker Dragon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\167_Entangled Fossil.jpg" id="167_Entangled Fossil" data-flag="@N" onclick="openSidebar('167_Entangled Fossil',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\13_Dark Horse Victory.jpg" id="13_Dark Horse Victory" data-flag="@N" onclick="openSidebar('13_Dark Horse Victory',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\63_Primordial Seas.jpg" id="63_Primordial Seas" data-flag="@N" onclick="openSidebar('63_Primordial Seas',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\89_Hostage Situation.jpg" id="89_Hostage Situation" data-flag="@N" onclick="openSidebar('89_Hostage Situation',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\129_End of Mutations.jpg" id="129_End of Mutations" data-flag="@N" onclick="openSidebar('129_End of Mutations',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\169_Frenzy Plant.jpg" id="169_Frenzy Plant" data-flag="@N" onclick="openSidebar('169_Frenzy Plant',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\14_Diamond Dust.jpg" id="14_Diamond Dust" data-flag="@N" onclick="openSidebar('14_Diamond Dust',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\69_Splashing Mudskipper.jpg" id="69_Splashing Mudskipper" data-flag="@N" onclick="openSidebar('69_Splashing Mudskipper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\98_Pressuring Ghoul.jpg" id="98_Pressuring Ghoul" data-flag="@N" onclick="openSidebar('98_Pressuring Ghoul',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\132_Generator Alpha.jpg" id="132_Generator Alpha" data-flag="@N" onclick="openSidebar('132_Generator Alpha',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\170_Growing Gecko.jpg" id="170_Growing Gecko" data-flag="@N" onclick="openSidebar('170_Growing Gecko',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\15_Ema, the Returned.jpg" id="15_Ema, the Returned" data-flag="@N" onclick="openSidebar('15_Ema, the Returned',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\71_Tenki, Storm Chaser.jpg" id="71_Tenki, Storm Chaser" data-flag="@N" onclick="openSidebar('71_Tenki, Storm Chaser',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\103_Serrated Fossil.jpg" id="103_Serrated Fossil" data-flag="@N" onclick="openSidebar('103_Serrated Fossil',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\139_Mimicry Elemental.jpg" id="139_Mimicry Elemental" data-flag="@N" onclick="openSidebar('139_Mimicry Elemental',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\172_Heavy Winds.jpg" id="172_Heavy Winds" data-flag="@N" onclick="openSidebar('172_Heavy Winds',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\23_Pest Problem.jpg" id="23_Pest Problem" data-flag="@N" onclick="openSidebar('23_Pest Problem',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\73_Unspeaking Titan.jpg" id="73_Unspeaking Titan" data-flag="@N" onclick="openSidebar('73_Unspeaking Titan',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\104_Shadow Sky.jpg" id="104_Shadow Sky" data-flag="@N" onclick="openSidebar('104_Shadow Sky',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\144_Rumbling Volcamel.jpg" id="144_Rumbling Volcamel" data-flag="@N" onclick="openSidebar('144_Rumbling Volcamel',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\177_Mystery Egg.jpg" id="177_Mystery Egg" data-flag="@N" onclick="openSidebar('177_Mystery Egg',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\25_Plush Collection.jpg" id="25_Plush Collection" data-flag="@N" onclick="openSidebar('25_Plush Collection',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\74_Warden of Soul.jpg" id="74_Warden of Soul" data-flag="@N" onclick="openSidebar('74_Warden of Soul',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\106_Singularity.jpg" id="106_Singularity" data-flag="@N" onclick="openSidebar('106_Singularity',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\150_Temperamental Chick.jpg" id="150_Temperamental Chick" data-flag="@N" onclick="openSidebar('150_Temperamental Chick',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\179_Parental Pair.jpg" id="179_Parental Pair" data-flag="@N" onclick="openSidebar('179_Parental Pair',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\30_Smart Shopper.jpg" id="30_Smart Shopper" data-flag="@N" onclick="openSidebar('30_Smart Shopper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\76_Wrecking Whale.jpg" id="76_Wrecking Whale" data-flag="@N" onclick="openSidebar('76_Wrecking Whale',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\111_Unyielding Titan.jpg" id="111_Unyielding Titan" data-flag="@N" onclick="openSidebar('111_Unyielding Titan',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\152_Warden of Heart.jpg" id="152_Warden of Heart" data-flag="@N" onclick="openSidebar('152_Warden of Heart',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\189_Unflinching Titan.jpg" id="189_Unflinching Titan" data-flag="@N" onclick="openSidebar('189_Unflinching Titan',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\6_Center of Attention.jpg" id="6_Center of Attention" data-flag="@N" onclick="openSidebar('6_Center of Attention',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1453_Devourer of Fortunes.jpg" id="1453_Devourer of Fortunes" data-flag="@N" onclick="openSidebar('1453_Devourer of Fortunes',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1503_Reborn Fisher.jpg" id="1503_Reborn Fisher" data-flag="@N" onclick="openSidebar('1503_Reborn Fisher',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1544_Erupting Volcamel.jpg" id="1544_Erupting Volcamel" data-flag="@N" onclick="openSidebar('1544_Erupting Volcamel',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1567_Reborn Reef.jpg" id="1567_Reborn Reef" data-flag="@N" onclick="openSidebar('1567_Reborn Reef',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\10_Contest Coordinator.jpg" id="10_Contest Coordinator" data-flag="@N" onclick="openSidebar('10_Contest Coordinator',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1469_Surging Mudskipper.jpg" id="1469_Surging Mudskipper" data-flag="@N" onclick="openSidebar('1469_Surging Mudskipper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\78_Beloved Poppet.jpg" id="78_Beloved Poppet" data-flag="@N" onclick="openSidebar('78_Beloved Poppet',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1550_Tempered Fowl.jpg" id="1550_Tempered Fowl" data-flag="@N" onclick="openSidebar('1550_Tempered Fowl',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1570_Old-Growth Gecko.jpg" id="1570_Old-Growth Gecko" data-flag="@N" onclick="openSidebar('1570_Old-Growth Gecko',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\11_Contest Judge.jpg" id="11_Contest Judge" data-flag="@N" onclick="openSidebar('11_Contest Judge',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\43_Brewing Storm.jpg" id="43_Brewing Storm" data-flag="@N" onclick="openSidebar('43_Brewing Storm',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\79_Chum Chaser.jpg" id="79_Chum Chaser" data-flag="@N" onclick="openSidebar('79_Chum Chaser',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\115_Archaeovolcanologist.jpg" id="115_Archaeovolcanologist" data-flag="@N" onclick="openSidebar('115_Archaeovolcanologist',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\155_Aroma Spinner.jpg" id="155_Aroma Spinner" data-flag="@N" onclick="openSidebar('155_Aroma Spinner',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\16_Fight as One.jpg" id="16_Fight as One" data-flag="@N" onclick="openSidebar('16_Fight as One',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\44_Calming Celestial.jpg" id="44_Calming Celestial" data-flag="@N" onclick="openSidebar('44_Calming Celestial',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\85_Feasting Sloth.jpg" id="85_Feasting Sloth" data-flag="@N" onclick="openSidebar('85_Feasting Sloth',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\116_Boiling Storm.jpg" id="116_Boiling Storm" data-flag="@N" onclick="openSidebar('116_Boiling Storm',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\158_Bloom Brute.jpg" id="158_Bloom Brute" data-flag="@N" onclick="openSidebar('158_Bloom Brute',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\17_Generous Farmer.jpg" id="17_Generous Farmer" data-flag="@N" onclick="openSidebar('17_Generous Farmer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\46_Contest Star.jpg" id="46_Contest Star" data-flag="@N" onclick="openSidebar('46_Contest Star',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\93_Maw Impostor.jpg" id="93_Maw Impostor" data-flag="@N" onclick="openSidebar('93_Maw Impostor',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\120_Burning Celestial.jpg" id="120_Burning Celestial" data-flag="@N" onclick="openSidebar('120_Burning Celestial',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\159_Blustering Storm.jpg" id="159_Blustering Storm" data-flag="@N" onclick="openSidebar('159_Blustering Storm',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\19_Hail.jpg" id="19_Hail" data-flag="@N" onclick="openSidebar('19_Hail',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\47_Delivery Gull.jpg" id="47_Delivery Gull" data-flag="@N" onclick="openSidebar('47_Delivery Gull',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\95_Muddy Water.jpg" id="95_Muddy Water" data-flag="@N" onclick="openSidebar('95_Muddy Water',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\121_Calamity Cat.jpg" id="121_Calamity Cat" data-flag="@N" onclick="openSidebar('121_Calamity Cat',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\160_Bottom Feeder.jpg" id="160_Bottom Feeder" data-flag="@N" onclick="openSidebar('160_Bottom Feeder',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\24_Pick Up.jpg" id="24_Pick Up" data-flag="@N" onclick="openSidebar('24_Pick Up',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\48_Dustwing Butterfly.jpg" id="48_Dustwing Butterfly" data-flag="@N" onclick="openSidebar('48_Dustwing Butterfly',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\96_Past Unresolved.jpg" id="96_Past Unresolved" data-flag="@N" onclick="openSidebar('96_Past Unresolved',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\123_Crumbling Tower.jpg" id="123_Crumbling Tower" data-flag="@N" onclick="openSidebar('123_Crumbling Tower',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\161_Bumbling Pollinator.jpg" id="161_Bumbling Pollinator" data-flag="@N" onclick="openSidebar('161_Bumbling Pollinator',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\26_Practicing Guru.jpg" id="26_Practicing Guru" data-flag="@N" onclick="openSidebar('26_Practicing Guru',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\49_Explore Wreckage.jpg" id="49_Explore Wreckage" data-flag="@N" onclick="openSidebar('49_Explore Wreckage',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\101_Sandstorm.jpg" id="101_Sandstorm" data-flag="@N" onclick="openSidebar('101_Sandstorm',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\126_Dustwing Moth.jpg" id="126_Dustwing Moth" data-flag="@N" onclick="openSidebar('126_Dustwing Moth',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\165_Clear Skies.jpg" id="165_Clear Skies" data-flag="@N" onclick="openSidebar('165_Clear Skies',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\29_Shiver Elemental.jpg" id="29_Shiver Elemental" data-flag="@N" onclick="openSidebar('29_Shiver Elemental',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\50_Feeble Fish.jpg" id="50_Feeble Fish" data-flag="@N" onclick="openSidebar('50_Feeble Fish',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\105_Sifting Through Soot.jpg" id="105_Sifting Through Soot" data-flag="@N" onclick="openSidebar('105_Sifting Through Soot',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\130_Exotic Transformer.jpg" id="130_Exotic Transformer" data-flag="@N" onclick="openSidebar('130_Exotic Transformer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\166_Constrict.jpg" id="166_Constrict" data-flag="@N" onclick="openSidebar('166_Constrict',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\31_Soothing Singer.jpg" id="31_Soothing Singer" data-flag="@N" onclick="openSidebar('31_Soothing Singer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\54_Harbor Mail.jpg" id="54_Harbor Mail" data-flag="@N" onclick="openSidebar('54_Harbor Mail',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\107_Smiling Sludge.jpg" id="107_Smiling Sludge" data-flag="@N" onclick="openSidebar('107_Smiling Sludge',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\135_Lavaborn Slug.jpg" id="135_Lavaborn Slug" data-flag="@N" onclick="openSidebar('135_Lavaborn Slug',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\171_Harvest Time.jpg" id="171_Harvest Time" data-flag="@N" onclick="openSidebar('171_Harvest Time',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\32_Spore Collector.jpg" id="32_Spore Collector" data-flag="@N" onclick="openSidebar('32_Spore Collector',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\57_Kappa Colony.jpg" id="57_Kappa Colony" data-flag="@N" onclick="openSidebar('57_Kappa Colony',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\108_Soul's Sunset.jpg" id="108_Souls Sunset" data-flag="@N" onclick="openSidebar('108_Souls Sunset',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\136_Leaping Hatchling.jpg" id="136_Leaping Hatchling" data-flag="@N" onclick="openSidebar('136_Leaping Hatchling',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\173_Hungry Blob.jpg" id="173_Hungry Blob" data-flag="@N" onclick="openSidebar('173_Hungry Blob',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\33_Static Scamp.jpg" id="33_Static Scamp" data-flag="@N" onclick="openSidebar('33_Static Scamp',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\61_Out of Sight.jpg" id="61_Out of Sight" data-flag="@N" onclick="openSidebar('61_Out of Sight',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\110_Territory Dispute.jpg" id="110_Territory Dispute" data-flag="@N" onclick="openSidebar('110_Territory Dispute',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\138_Magma Grunt.jpg" id="138_Magma Grunt" data-flag="@N" onclick="openSidebar('138_Magma Grunt',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\175_Magical Leaves.jpg" id="175_Magical Leaves" data-flag="@N" onclick="openSidebar('175_Magical Leaves',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\34_Stratus Fledgling.jpg" id="34_Stratus Fledgling" data-flag="@N" onclick="openSidebar('34_Stratus Fledgling',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\64_Rain Dance.jpg" id="64_Rain Dance" data-flag="@N" onclick="openSidebar('64_Rain Dance',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\112_Urban Explorer.jpg" id="112_Urban Explorer" data-flag="@N" onclick="openSidebar('112_Urban Explorer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\142_Psych Up.jpg" id="142_Psych Up" data-flag="@N" onclick="openSidebar('142_Psych Up',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\181_Rejuvenating Kappa.jpg" id="181_Rejuvenating Kappa" data-flag="@N" onclick="openSidebar('181_Rejuvenating Kappa',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\38_Twinned Beak.jpg" id="38_Twinned Beak" data-flag="@N" onclick="openSidebar('38_Twinned Beak',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\66_Scuttling Cicada.jpg" id="66_Scuttling Cicada" data-flag="@N" onclick="openSidebar('66_Scuttling Cicada',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\113_Walk Among the Dead.jpg" id="113_Walk Among the Dead" data-flag="@N" onclick="openSidebar('113_Walk Among the Dead',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\146_Searing Grace.jpg" id="146_Searing Grace" data-flag="@N" onclick="openSidebar('146_Searing Grace',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\182_Rollephant.jpg" id="182_Rollephant" data-flag="@N" onclick="openSidebar('182_Rollephant',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\2_Armored Raptor.jpg" id="2_Armored Raptor" data-flag="@N" onclick="openSidebar('2_Armored Raptor',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\70_Teeter Dance.jpg" id="70_Teeter Dance" data-flag="@N" onclick="openSidebar('70_Teeter Dance',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\114_Waterway Distraction.jpg" id="114_Waterway Distraction" data-flag="@N" onclick="openSidebar('114_Waterway Distraction',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\149_Sunny Day.jpg" id="149_Sunny Day" data-flag="@N" onclick="openSidebar('149_Sunny Day',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\185_Sunsoaker.jpg" id="185_Sunsoaker" data-flag="@N" onclick="openSidebar('185_Sunsoaker',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\3_Brief Stop.jpg" id="3_Brief Stop" data-flag="@N" onclick="openSidebar('3_Brief Stop',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\72_Unnerving Moth.jpg" id="72_Unnerving Moth" data-flag="@N" onclick="openSidebar('72_Unnerving Moth',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1478_Abandoned Poppet.jpg" id="1478_Abandoned Poppet" data-flag="@N" onclick="openSidebar('1478_Abandoned Poppet',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\151_Under the Collar.jpg" id="151_Under the Collar" data-flag="@N" onclick="openSidebar('151_Under the Collar',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\188_Tough Nut.jpg" id="188_Tough Nut" data-flag="@N" onclick="openSidebar('188_Tough Nut',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\4_Capricious Cat.jpg" id="4_Capricious Cat" data-flag="@N" onclick="openSidebar('4_Capricious Cat',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1450_Fabulous Serpent.jpg" id="1450_Fabulous Serpent" data-flag="@N" onclick="openSidebar('1450_Fabulous Serpent',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1479_Ship Shredder.jpg" id="1479_Ship Shredder" data-flag="@N" onclick="openSidebar('1479_Ship Shredder',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\117_Brick Breaker.jpg" id="117_Brick Breaker" data-flag="@N" onclick="openSidebar('117_Brick Breaker',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\153_Ace Tamer.jpg" id="153_Ace Tamer" data-flag="@N" onclick="openSidebar('153_Ace Tamer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\7_Chiming Soul.jpg" id="7_Chiming Soul" data-flag="@N" onclick="openSidebar('7_Chiming Soul',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1466_Buzzing Metamorph.jpg" id="1466_Buzzing Metamorph" data-flag="@N" onclick="openSidebar('1466_Buzzing Metamorph',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1493_Imposing Maw.jpg" id="1493_Imposing Maw" data-flag="@N" onclick="openSidebar('1493_Imposing Maw',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\118_Bubbling Firesnail.jpg" id="118_Bubbling Firesnail" data-flag="@N" onclick="openSidebar('118_Bubbling Firesnail',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\154_Amateur Tamer.jpg" id="154_Amateur Tamer" data-flag="@N" onclick="openSidebar('154_Amateur Tamer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\9_Cloud Nine.jpg" id="9_Cloud Nine" data-flag="@N" onclick="openSidebar('9_Cloud Nine',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\41_Aqua Jet.jpg" id="41_Aqua Jet" data-flag="@N" onclick="openSidebar('41_Aqua Jet',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\80_Crunch.jpg" id="80_Crunch" data-flag="@N" onclick="openSidebar('80_Crunch',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\119_Burn Up.jpg" id="119_Burn Up" data-flag="@N" onclick="openSidebar('119_Burn Up',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\157_Blind Pursuit.jpg" id="157_Blind Pursuit" data-flag="@N" onclick="openSidebar('157_Blind Pursuit',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\12_Contest Spectators.jpg" id="12_Contest Spectators" data-flag="@N" onclick="openSidebar('12_Contest Spectators',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\42_Avert Disaster.jpg" id="42_Avert Disaster" data-flag="@N" onclick="openSidebar('42_Avert Disaster',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\82_Eager Scavenger.jpg" id="82_Eager Scavenger" data-flag="@N" onclick="openSidebar('82_Eager Scavenger',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\122_Charge Beam.jpg" id="122_Charge Beam" data-flag="@N" onclick="openSidebar('122_Charge Beam',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\162_Buried Geode.jpg" id="162_Buried Geode" data-flag="@N" onclick="openSidebar('162_Buried Geode',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\18_Gone Pickin'.jpg" id="18_Gone Pickin" data-flag="@N" onclick="openSidebar('18_Gone Pickin',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\45_Collector's Item.jpg" id="45_Collectors Item" data-flag="@N" onclick="openSidebar('45_Collectors Item',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\83_Empty Shell.jpg" id="83_Empty Shell" data-flag="@N" onclick="openSidebar('83_Empty Shell',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\125_Dragon Dance.jpg" id="125_Dragon Dance" data-flag="@N" onclick="openSidebar('125_Dragon Dance',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\163_Canopy Creeper.jpg" id="163_Canopy Creeper" data-flag="@N" onclick="openSidebar('163_Canopy Creeper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\20_Heavy Snowfall.jpg" id="20_Heavy Snowfall" data-flag="@N" onclick="openSidebar('20_Heavy Snowfall',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\51_Floating Familiar.jpg" id="51_Floating Familiar" data-flag="@N" onclick="openSidebar('51_Floating Familiar',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\84_Falling Ashes.jpg" id="84_Falling Ashes" data-flag="@N" onclick="openSidebar('84_Falling Ashes',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\128_Eerie Sculpture.jpg" id="128_Eerie Sculpture" data-flag="@N" onclick="openSidebar('128_Eerie Sculpture',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\164_Cheer On.jpg" id="164_Cheer On" data-flag="@N" onclick="openSidebar('164_Cheer On',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\21_Hungry Songbird.jpg" id="21_Hungry Songbird" data-flag="@N" onclick="openSidebar('21_Hungry Songbird',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\52_Floe Master.jpg" id="52_Floe Master" data-flag="@N" onclick="openSidebar('52_Floe Master',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\87_Hoard.jpg" id="87_Hoard" data-flag="@N" onclick="openSidebar('87_Hoard',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\131_Fluttering Firefly.jpg" id="131_Fluttering Firefly" data-flag="@N" onclick="openSidebar('131_Fluttering Firefly',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\168_Foraging Grub.jpg" id="168_Foraging Grub" data-flag="@N" onclick="openSidebar('168_Foraging Grub',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\22_Outlands Prowler.jpg" id="22_Outlands Prowler" data-flag="@N" onclick="openSidebar('22_Outlands Prowler',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\55_Herald of Drizzles.jpg" id="55_Herald of Drizzles" data-flag="@N" onclick="openSidebar('55_Herald of Drizzles',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\88_Homesick.jpg" id="88_Homesick" data-flag="@N" onclick="openSidebar('88_Homesick',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\133_Hone Claws.jpg" id="133_Hone Claws" data-flag="@N" onclick="openSidebar('133_Hone Claws',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\174_A Journey Begins.jpg" id="174_A Journey Begins" data-flag="@N" onclick="openSidebar('174_A Journey Begins',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\27_Restless Sloth.jpg" id="27_Restless Sloth" data-flag="@N" onclick="openSidebar('27_Restless Sloth',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\56_Illuminate.jpg" id="56_Illuminate" data-flag="@N" onclick="openSidebar('56_Illuminate',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\90_Imminent Disaster.jpg" id="90_Imminent Disaster" data-flag="@N" onclick="openSidebar('90_Imminent Disaster',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\134_Kicking Fowl.jpg" id="134_Kicking Fowl" data-flag="@N" onclick="openSidebar('134_Kicking Fowl',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\176_Meteor Lobber.jpg" id="176_Meteor Lobber" data-flag="@N" onclick="openSidebar('176_Meteor Lobber',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\28_The Ruins Awaken.jpg" id="28_The Ruins Awaken" data-flag="@N" onclick="openSidebar('28_The Ruins Awaken',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\58_King of Currents.jpg" id="58_King of Currents" data-flag="@N" onclick="openSidebar('58_King of Currents',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\91_Iron Defense.jpg" id="91_Iron Defense" data-flag="@N" onclick="openSidebar('91_Iron Defense',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\137_Magma Flow.jpg" id="137_Magma Flow" data-flag="@N" onclick="openSidebar('137_Magma Flow',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\178_Padpole.jpg" id="178_Padpole" data-flag="@N" onclick="openSidebar('178_Padpole',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\35_Swooping Hunter.jpg" id="35_Swooping Hunter" data-flag="@N" onclick="openSidebar('35_Swooping Hunter',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\59_Lustrous Starfish.jpg" id="59_Lustrous Starfish" data-flag="@N" onclick="openSidebar('59_Lustrous Starfish',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\92_Lady of the Mists.jpg" id="92_Lady of the Mists" data-flag="@N" onclick="openSidebar('92_Lady of the Mists',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\140_Plucky Trainer.jpg" id="140_Plucky Trainer" data-flag="@N" onclick="openSidebar('140_Plucky Trainer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\180_Pollen Warning.jpg" id="180_Pollen Warning" data-flag="@N" onclick="openSidebar('180_Pollen Warning',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\36_To the Last Breath.jpg" id="36_To the Last Breath" data-flag="@N" onclick="openSidebar('36_To the Last Breath',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\60_Nimbus Dragon.jpg" id="60_Nimbus Dragon" data-flag="@N" onclick="openSidebar('60_Nimbus Dragon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\94_Moonlight Adventurer.jpg" id="94_Moonlight Adventurer" data-flag="@N" onclick="openSidebar('94_Moonlight Adventurer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\141_Poised Flame.jpg" id="141_Poised Flame" data-flag="@N" onclick="openSidebar('141_Poised Flame',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\183_Scruffy Rascal.jpg" id="183_Scruffy Rascal" data-flag="@N" onclick="openSidebar('183_Scruffy Rascal',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\37_Tough It Out.jpg" id="37_Tough It Out" data-flag="@N" onclick="openSidebar('37_Tough It Out',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\62_Placated Mind.jpg" id="62_Placated Mind" data-flag="@N" onclick="openSidebar('62_Placated Mind',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\97_Pathetic Cocoon.jpg" id="97_Pathetic Cocoon" data-flag="@N" onclick="openSidebar('97_Pathetic Cocoon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\143_Psychohopper.jpg" id="143_Psychohopper" data-flag="@N" onclick="openSidebar('143_Psychohopper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\184_Stockpile.jpg" id="184_Stockpile" data-flag="@N" onclick="openSidebar('184_Stockpile',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\39_Whispering Runt.jpg" id="39_Whispering Runt" data-flag="@N" onclick="openSidebar('39_Whispering Runt',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\65_Riverbed Snapper.jpg" id="65_Riverbed Snapper" data-flag="@N" onclick="openSidebar('65_Riverbed Snapper',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\99_Reaper of the Deep.jpg" id="99_Reaper of the Deep" data-flag="@N" onclick="openSidebar('99_Reaper of the Deep',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\145_Sandstorm Devil.jpg" id="145_Sandstorm Devil" data-flag="@N" onclick="openSidebar('145_Sandstorm Devil',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\186_Temperamental Growth.jpg" id="186_Temperamental Growth" data-flag="@N" onclick="openSidebar('186_Temperamental Growth',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1439_Bellowing Beast.jpg" id="1439_Bellowing Beast" data-flag="@N" onclick="openSidebar('1439_Bellowing Beast',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\67_Sea Breeze.jpg" id="67_Sea Breeze" data-flag="@N" onclick="openSidebar('67_Sea Breeze',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\100_Relentless Bats.jpg" id="100_Relentless Bats" data-flag="@N" onclick="openSidebar('100_Relentless Bats',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\147_Solid Smog.jpg" id="147_Solid Smog" data-flag="@N" onclick="openSidebar('147_Solid Smog',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\187_Thornfist Bruiser.jpg" id="187_Thornfist Bruiser" data-flag="@N" onclick="openSidebar('187_Thornfist Bruiser',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\68_Seafloor Treasures.jpg" id="68_Seafloor Treasures" data-flag="@N" onclick="openSidebar('68_Seafloor Treasures',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\102_Sandstorm Dancer.jpg" id="102_Sandstorm Dancer" data-flag="@N" onclick="openSidebar('102_Sandstorm Dancer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\148_Streaking Sunrise.jpg" id="148_Streaking Sunrise" data-flag="@N" onclick="openSidebar('148_Streaking Sunrise',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1658_Reborn Lily.jpg" id="1658_Reborn Lily" data-flag="@N" onclick="openSidebar('1658_Reborn Lily',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\75_Whipping Winds.jpg" id="75_Whipping Winds" data-flag="@N" onclick="openSidebar('75_Whipping Winds',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\109_Starved Piranha.jpg" id="109_Starved Piranha" data-flag="@N" onclick="openSidebar('109_Starved Piranha',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1547_Splitting Smog.jpg" id="1547_Splitting Smog" data-flag="@N" onclick="openSidebar('1547_Splitting Smog',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\77_Zipping Lightningbug.jpg" id="77_Zipping Lightningbug" data-flag="@N" onclick="openSidebar('77_Zipping Lightningbug',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1642_Reborn Scuttler.jpg" id="1642_Reborn Scuttler" data-flag="@N" onclick="openSidebar('1642_Reborn Scuttler',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\286_Calamity Cat_PRO_CCR.jpg" id="286_Calamity Cat_PRO_CCR" data-flag="@N" onclick="openSidebar('286_Calamity Cat_PRO_CCR',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\283_Dustwing Butterfly_PRO_CCR.jpg" id="283_Dustwing Butterfly_PRO_CCR" data-flag="@N" onclick="openSidebar('283_Dustwing Butterfly_PRO_CCR',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\241_Weaver of Fates.jpg" id="241_Weaver of Fates" data-flag="@N" onclick="openSidebar('241_Weaver of Fates',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\237_Warden of Depths.jpg" id="237_Warden of Depths" data-flag="@N" onclick="openSidebar('237_Warden of Depths',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\226_Scattering Swine.jpg" id="226_Scattering Swine" data-flag="@N" onclick="openSidebar('226_Scattering Swine',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\207_Hoenn Champion.jpg" id="207_Hoenn Champion" data-flag="@N" onclick="openSidebar('207_Hoenn Champion',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\238_Warden of Skies.jpg" id="238_Warden of Skies" data-flag="@N" onclick="openSidebar('238_Warden of Skies',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\228_Seal Shoals.jpg" id="228_Seal Shoals" data-flag="@N" onclick="openSidebar('228_Seal Shoals',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\192_Aqua Gang Diver.jpg" id="192_Aqua Gang Diver" data-flag="@N" onclick="openSidebar('192_Aqua Gang Diver',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\218_Pitfall Pincher.jpg" id="218_Pitfall Pincher" data-flag="@N" onclick="openSidebar('218_Pitfall Pincher',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\239_Warden of Tremors.jpg" id="239_Warden of Tremors" data-flag="@N" onclick="openSidebar('239_Warden of Tremors',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\193_Berry Harvester.jpg" id="193_Berry Harvester" data-flag="@N" onclick="openSidebar('193_Berry Harvester',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\234_Talon Triplets.jpg" id="234_Talon Triplets" data-flag="@N" onclick="openSidebar('234_Talon Triplets',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\204_Fragile Soul.jpg" id="204_Fragile Soul" data-flag="@N" onclick="openSidebar('204_Fragile Soul',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\197_Charged Party.jpg" id="197_Charged Party" data-flag="@N" onclick="openSidebar('197_Charged Party',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\212_Jack, Monster Mentor.jpg" id="212_Jack, Monster Mentor" data-flag="@N" onclick="openSidebar('212_Jack, Monster Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\190_Amber, Nimble Companion.jpg" id="190_Amber, Nimble Companion" data-flag="@N" onclick="openSidebar('190_Amber, Nimble Companion',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\196_Carefree Kappa.jpg" id="196_Carefree Kappa" data-flag="@N" onclick="openSidebar('196_Carefree Kappa',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\224_Sanaito, Voidsinger.jpg" id="224_Sanaito, Voidsinger" data-flag="@N" onclick="openSidebar('224_Sanaito, Voidsinger',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\210_Iviana, Dragon Tamer.jpg" id="210_Iviana, Dragon Tamer" data-flag="@N" onclick="openSidebar('210_Iviana, Dragon Tamer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\220_Poisoned Rose.jpg" id="220_Poisoned Rose" data-flag="@N" onclick="openSidebar('220_Poisoned Rose',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\209_Ironback Tyke.jpg" id="209_Ironback Tyke" data-flag="@N" onclick="openSidebar('209_Ironback Tyke',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\216_Nocturne, Monstrous Krasis.jpg" id="216_Nocturne, Monstrous Krasis" data-flag="@N" onclick="openSidebar('216_Nocturne, Monstrous Krasis',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\240_Warden of Wishes.jpg" id="240_Warden of Wishes" data-flag="@N" onclick="openSidebar('240_Warden of Wishes',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\211_Iviana's Spellmaw.jpg" id="211_Ivianas Spellmaw" data-flag="@N" onclick="openSidebar('211_Ivianas Spellmaw',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\231_Spikey, Jack's Gravetiller.jpg" id="231_Spikey, Jacks Gravetiller" data-flag="@N" onclick="openSidebar('231_Spikey, Jacks Gravetiller',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\213_Karina, Budding Diplomat.jpg" id="213_Karina, Budding Diplomat" data-flag="@N" onclick="openSidebar('213_Karina, Budding Diplomat',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\230_Simul, Genetic Artisan.jpg" id="230_Simul, Genetic Artisan" data-flag="@N" onclick="openSidebar('230_Simul, Genetic Artisan',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\223_Rooting Raccoon.jpg" id="223_Rooting Raccoon" data-flag="@N" onclick="openSidebar('223_Rooting Raccoon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1611_Iviana's Splitmaw.jpg" id="1611_Ivianas Splitmaw" data-flag="@N" onclick="openSidebar('1611_Ivianas Splitmaw',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\214_King of Gluttons.jpg" id="214_King of Gluttons" data-flag="@N" onclick="openSidebar('214_King of Gluttons',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1609_Ironback Sovereign.jpg" id="1609_Ironback Sovereign" data-flag="@N" onclick="openSidebar('1609_Ironback Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\222_Puddle Crasher.jpg" id="222_Puddle Crasher" data-flag="@N" onclick="openSidebar('222_Puddle Crasher',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\221_Prolific Fisher.jpg" id="221_Prolific Fisher" data-flag="@N" onclick="openSidebar('221_Prolific Fisher',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\200_Dormant Camel.jpg" id="200_Dormant Camel" data-flag="@N" onclick="openSidebar('200_Dormant Camel',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\284_Carefree Kappa_PRO_CCR.jpg" id="284_Carefree Kappa_PRO_CCR" data-flag="@N" onclick="openSidebar('284_Carefree Kappa_PRO_CCR',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\215_The Magma Council.jpg" id="215_The Magma Council" data-flag="@N" onclick="openSidebar('215_The Magma Council',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\232_Stitches, Adopted.jpg" id="232_Stitches, Adopted" data-flag="@N" onclick="openSidebar('232_Stitches, Adopted',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\194_The Berry Master.jpg" id="194_The Berry Master" data-flag="@N" onclick="openSidebar('194_The Berry Master',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\208_Idolized Coordinator.jpg" id="208_Idolized Coordinator" data-flag="@N" onclick="openSidebar('208_Idolized Coordinator',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\191_The Aqua Crew.jpg" id="191_The Aqua Crew" data-flag="@N" onclick="openSidebar('191_The Aqua Crew',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\233_Suncaller Tortoise.jpg" id="233_Suncaller Tortoise" data-flag="@N" onclick="openSidebar('233_Suncaller Tortoise',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1632_Stitches, Orphaned.jpg" id="1632_Stitches, Orphaned" data-flag="@N" onclick="openSidebar('1632_Stitches, Orphaned',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\205_Heartbreak.jpg" id="205_Heartbreak" data-flag="@N" onclick="openSidebar('205_Heartbreak',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\235_Teetering Panda.jpg" id="235_Teetering Panda" data-flag="@N" onclick="openSidebar('235_Teetering Panda',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\236_Turf Warfare.jpg" id="236_Turf Warfare" data-flag="@N" onclick="openSidebar('236_Turf Warfare',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\217_Omenhorn.jpg" id="217_Omenhorn" data-flag="@N" onclick="openSidebar('217_Omenhorn',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\199_Dazzling Performer.jpg" id="199_Dazzling Performer" data-flag="@N" onclick="openSidebar('199_Dazzling Performer',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\195_Blooming Sauropod.jpg" id="195_Blooming Sauropod" data-flag="@N" onclick="openSidebar('195_Blooming Sauropod',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\198_Charismatic Chameleon.jpg" id="198_Charismatic Chameleon" data-flag="@N" onclick="openSidebar('198_Charismatic Chameleon',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\227_Seafloor Scavenger.jpg" id="227_Seafloor Scavenger" data-flag="@N" onclick="openSidebar('227_Seafloor Scavenger',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\219_Plated Tunneler.jpg" id="219_Plated Tunneler" data-flag="@N" onclick="openSidebar('219_Plated Tunneler',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\202_Elegant Hunter.jpg" id="202_Elegant Hunter" data-flag="@N" onclick="openSidebar('202_Elegant Hunter',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\203_Feasting Predator.jpg" id="203_Feasting Predator" data-flag="@N" onclick="openSidebar('203_Feasting Predator',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\201_Echocrafter.jpg" id="201_Echocrafter" data-flag="@N" onclick="openSidebar('201_Echocrafter',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\229_Shining Angler.jpg" id="229_Shining Angler" data-flag="@N" onclick="openSidebar('229_Shining Angler',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1617_Omenhalo.jpg" id="1617_Omenhalo" data-flag="@N" onclick="openSidebar('1617_Omenhalo',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\285_Heartbreak_PRO_CCR.jpg" id="285_Heartbreak_PRO_CCR" data-flag="@N" onclick="openSidebar('285_Heartbreak_PRO_CCR',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1465_Daunting Snapper.jpg" id="1465_Daunting Snapper" data-flag="@N" onclick="openSidebar('1465_Daunting Snapper',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\206_Higana, Dragonscribe.jpg" id="206_Higana, Dragonscribe" data-flag="@N" onclick="openSidebar('206_Higana, Dragonscribe',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\1_Weather Elemental.jpg" id="1_Weather Elemental" data-flag="@N" onclick="openSidebar('1_Weather Elemental',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\256_Magnetling.jpg" id="256_Magnetling" data-flag="@N" onclick="openSidebar('256_Magnetling',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\244_Enspirited Ore.jpg" id="244_Enspirited Ore" data-flag="@N" onclick="openSidebar('244_Enspirited Ore',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\246_Glassblower's Forge.jpg" id="246_Glassblowers Forge" data-flag="@N" onclick="openSidebar('246_Glassblowers Forge',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\248_Hard Stone.jpg" id="248_Hard Stone" data-flag="@N" onclick="openSidebar('248_Hard Stone',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\249_Karina's Substitute.jpg" id="249_Karinas Substitute" data-flag="@N" onclick="openSidebar('249_Karinas Substitute',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\250_King's Rock.jpg" id="250_Kings Rock" data-flag="@N" onclick="openSidebar('250_Kings Rock',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\253_Lum Berry.jpg" id="253_Lum Berry" data-flag="@N" onclick="openSidebar('253_Lum Berry',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\255_Magnetic Snuffler.jpg" id="255_Magnetic Snuffler" data-flag="@N" onclick="openSidebar('255_Magnetic Snuffler',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\257_Meteorite.jpg" id="257_Meteorite" data-flag="@N" onclick="openSidebar('257_Meteorite',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\259_Snazzy Scarf.jpg" id="259_Snazzy Scarf" data-flag="@N" onclick="openSidebar('259_Snazzy Scarf',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\242_Claw Fossil.jpg" id="242_Claw Fossil" data-flag="@N" onclick="openSidebar('242_Claw Fossil',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\243_Creature Catalog.jpg" id="243_Creature Catalog" data-flag="@N" onclick="openSidebar('243_Creature Catalog',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\245_Figy Berry.jpg" id="245_Figy Berry" data-flag="@N" onclick="openSidebar('245_Figy Berry',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\247_Gold Berry.jpg" id="247_Gold Berry" data-flag="@N" onclick="openSidebar('247_Gold Berry',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\251_Life Orb.jpg" id="251_Life Orb" data-flag="@N" onclick="openSidebar('251_Life Orb',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\252_Living Compass.jpg" id="252_Living Compass" data-flag="@N" onclick="openSidebar('252_Living Compass',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\254_Magnetic Mystery.jpg" id="254_Magnetic Mystery" data-flag="@N" onclick="openSidebar('254_Magnetic Mystery',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\258_Root Fossil.jpg" id="258_Root Fossil" data-flag="@N" onclick="openSidebar('258_Root Fossil',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\267_Gleaming Hot Springs.jpg" id="267_Gleaming Hot Springs" data-flag="@N" onclick="openSidebar('267_Gleaming Hot Springs',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\262_Deeplife Cavern.jpg" id="262_Deeplife Cavern" data-flag="@N" onclick="openSidebar('262_Deeplife Cavern',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\260_Calmed Battleground.jpg" id="260_Calmed Battleground" data-flag="@N" onclick="openSidebar('260_Calmed Battleground',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\266_Frigid Highlands.jpg" id="266_Frigid Highlands" data-flag="@N" onclick="openSidebar('266_Frigid Highlands',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\279_Sunlit Ruins.jpg" id="279_Sunlit Ruins" data-flag="@N" onclick="openSidebar('279_Sunlit Ruins',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\271_Ominous Quag.jpg" id="271_Ominous Quag" data-flag="@N" onclick="openSidebar('271_Ominous Quag',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\278_Stunning Cascade.jpg" id="278_Stunning Cascade" data-flag="@N" onclick="openSidebar('278_Stunning Cascade',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\276_Serpentine Woods.jpg" id="276_Serpentine Woods" data-flag="@N" onclick="openSidebar('276_Serpentine Woods',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\265_Fortress Arena.jpg" id="265_Fortress Arena" data-flag="@N" onclick="openSidebar('265_Fortress Arena',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\261_Cryptic Reef.jpg" id="261_Cryptic Reef" data-flag="@N" onclick="openSidebar('261_Cryptic Reef',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\269_Mirage Island.jpg" id="269_Mirage Island" data-flag="@N" onclick="openSidebar('269_Mirage Island',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\277_Sky Pillar.jpg" id="277_Sky Pillar" data-flag="@N" onclick="openSidebar('277_Sky Pillar',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\273_Prickly Dunes.jpg" id="273_Prickly Dunes" data-flag="@N" onclick="openSidebar('273_Prickly Dunes',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\274_Primal Fissure.jpg" id="274_Primal Fissure" data-flag="@N" onclick="openSidebar('274_Primal Fissure',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\275_Rumbling Door.jpg" id="275_Rumbling Door" data-flag="@N" onclick="openSidebar('275_Rumbling Door',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\281_Temple of Origins.jpg" id="281_Temple of Origins" data-flag="@N" onclick="openSidebar('281_Temple of Origins',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\282_Weather Research Station.jpg" id="282_Weather Research Station" data-flag="@N" onclick="openSidebar('282_Weather Research Station',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\263_Evolving Wilds_CCR.jpg" id="263_Evolving Wilds_CCR" data-flag="@N" onclick="openSidebar('263_Evolving Wilds_CCR',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\268_Island_CCR.jpg" id="268_Island_CCR" data-flag="@N" onclick="openSidebar('268_Island_CCR',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\280_Swamp_CCR.jpg" id="280_Swamp_CCR" data-flag="@N" onclick="openSidebar('280_Swamp_CCR',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\270_Mountain_CCR.jpg" id="270_Mountain_CCR" data-flag="@N" onclick="openSidebar('270_Mountain_CCR',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\264_Forest_CCR.jpg" id="264_Forest_CCR" data-flag="@N" onclick="openSidebar('264_Forest_CCR',false)"></div>
+			<div class="container"><img alt="/sets\CCR-files\img\272_Plains_CCR.jpg" id="272_Plains_CCR" data-flag="@N" onclick="openSidebar('272_Plains_CCR',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

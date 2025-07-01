@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/TRX-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>TRX visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/TRX-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/TRX-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\TRX-files\img\11_Claes, Shield of Karda.jpg" id="11_Claes, Shield of Karda" data-flag="@N" onclick="openSidebar('11_Claes, Shield of Karda',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\44_The Arbiter.jpg" id="44_The Arbiter" data-flag="@N" onclick="openSidebar('44_The Arbiter',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\115_Ride the Tartyx.jpg" id="115_Ride the Tartyx" data-flag="@N" onclick="openSidebar('115_Ride the Tartyx',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\142_Koios, Spear of Karda.jpg" id="142_Koios, Spear of Karda" data-flag="@N" onclick="openSidebar('142_Koios, Spear of Karda',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\166_Arasta's Handmaiden.jpg" id="166_Arastas Handmaiden" data-flag="@N" onclick="openSidebar('166_Arastas Handmaiden',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1_Agnomakhos, Justice.jpg" id="1_Agnomakhos, Justice" data-flag="@N" onclick="openSidebar('1_Agnomakhos, Justice',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\42_Absorb Divinity.jpg" id="42_Absorb Divinity" data-flag="@N" onclick="openSidebar('42_Absorb Divinity',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\86_Chrolcatos, Pidae's Founder.jpg" id="86_Chrolcatos, Pidaes Founder" data-flag="@N" onclick="openSidebar('86_Chrolcatos, Pidaes Founder',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\128_Audience at Zakros.jpg" id="128_Audience at Zakros" data-flag="@N" onclick="openSidebar('128_Audience at Zakros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\174_Eventide Coronet.jpg" id="174_Eventide Coronet" data-flag="@N" onclick="openSidebar('174_Eventide Coronet',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\6_The Army of Trax.jpg" id="6_The Army of Trax" data-flag="@N" onclick="openSidebar('6_The Army of Trax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\45_Behemoth of the Five Rivers.jpg" id="45_Behemoth of the Five Rivers" data-flag="@N" onclick="openSidebar('45_Behemoth of the Five Rivers',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\88_Deception's Edge.jpg" id="88_Deceptions Edge" data-flag="@N" onclick="openSidebar('88_Deceptions Edge',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\130_Efimia of the Horse.jpg" id="130_Efimia of the Horse" data-flag="@N" onclick="openSidebar('130_Efimia of the Horse',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\175_Evridiki, Queen of Pidae.jpg" id="175_Evridiki, Queen of Pidae" data-flag="@N" onclick="openSidebar('175_Evridiki, Queen of Pidae',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\10_Chosen of Heliod.jpg" id="10_Chosen of Heliod" data-flag="@N" onclick="openSidebar('10_Chosen of Heliod',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\46_Callaphe the Mariner.jpg" id="46_Callaphe the Mariner" data-flag="@N" onclick="openSidebar('46_Callaphe the Mariner',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\90_Furies of the Natural Order.jpg" id="90_Furies of the Natural Order" data-flag="@N" onclick="openSidebar('90_Furies of the Natural Order',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\135_A God Divided.jpg" id="135_A God Divided" data-flag="@N" onclick="openSidebar('135_A God Divided',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\180_King of the Wilderness.jpg" id="180_King of the Wilderness" data-flag="@N" onclick="openSidebar('180_King of the Wilderness',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\18_Fall of Olantin.jpg" id="18_Fall of Olantin" data-flag="@N" onclick="openSidebar('18_Fall of Olantin',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\57_Lost Caller of the Sea.jpg" id="57_Lost Caller of the Sea" data-flag="@N" onclick="openSidebar('57_Lost Caller of the Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\94_Host of the Neverending Revel.jpg" id="94_Host of the Neverending Revel" data-flag="@N" onclick="openSidebar('94_Host of the Neverending Revel',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\141_Karda's Legacy.jpg" id="141_Kardas Legacy" data-flag="@N" onclick="openSidebar('141_Kardas Legacy',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\182_Menelaia, Beloved Lyrist.jpg" id="182_Menelaia, Beloved Lyrist" data-flag="@N" onclick="openSidebar('182_Menelaia, Beloved Lyrist',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\19_The Fall of Trax.jpg" id="19_The Fall of Trax" data-flag="@N" onclick="openSidebar('19_The Fall of Trax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\58_Lost to Memory.jpg" id="58_Lost to Memory" data-flag="@N" onclick="openSidebar('58_Lost to Memory',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\97_Keeper of the Scale.jpg" id="97_Keeper of the Scale" data-flag="@N" onclick="openSidebar('97_Keeper of the Scale',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\148_Petros, Purphoros's Double.jpg" id="148_Petros, Purphoross Double" data-flag="@N" onclick="openSidebar('148_Petros, Purphoross Double',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\184_Nessian Scout-Captain.jpg" id="184_Nessian Scout-Captain" data-flag="@N" onclick="openSidebar('184_Nessian Scout-Captain',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\21_Iara, Blessed-Hart.jpg" id="21_Iara, Blessed-Hart" data-flag="@N" onclick="openSidebar('21_Iara, Blessed-Hart',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\70_Shrine to Thassa.jpg" id="70_Shrine to Thassa" data-flag="@N" onclick="openSidebar('70_Shrine to Thassa',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\100_Make an Example.jpg" id="100_Make an Example" data-flag="@N" onclick="openSidebar('100_Make an Example',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\150_Pyros Rider.jpg" id="150_Pyros Rider" data-flag="@N" onclick="openSidebar('150_Pyros Rider',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\186_Nylea's Grovetender.jpg" id="186_Nyleas Grovetender" data-flag="@N" onclick="openSidebar('186_Nyleas Grovetender',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\26_Nikon's Aegis.jpg" id="26_Nikons Aegis" data-flag="@N" onclick="openSidebar('26_Nikons Aegis',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\71_The Sinking of Olantin.jpg" id="71_The Sinking of Olantin" data-flag="@N" onclick="openSidebar('71_The Sinking of Olantin',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\105_The Path of Phenax.jpg" id="105_The Path of Phenax" data-flag="@N" onclick="openSidebar('105_The Path of Phenax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\153_Satyr Arsonist.jpg" id="153_Satyr Arsonist" data-flag="@N" onclick="openSidebar('153_Satyr Arsonist',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\194_Seeker of New Horizons.jpg" id="194_Seeker of New Horizons" data-flag="@N" onclick="openSidebar('194_Seeker of New Horizons',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\30_Prince of the Pride.jpg" id="30_Prince of the Pride" data-flag="@N" onclick="openSidebar('30_Prince of the Pride',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\72_Stormscraper of Ketaphos.jpg" id="72_Stormscraper of Ketaphos" data-flag="@N" onclick="openSidebar('72_Stormscraper of Ketaphos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\118_Shrine to Erebos.jpg" id="118_Shrine to Erebos" data-flag="@N" onclick="openSidebar('118_Shrine to Erebos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\155_Shrine to Purphoros.jpg" id="155_Shrine to Purphoros" data-flag="@N" onclick="openSidebar('155_Shrine to Purphoros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\196_Shrine to Nylea.jpg" id="196_Shrine to Nylea" data-flag="@N" onclick="openSidebar('196_Shrine to Nylea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\31_Quality Time.jpg" id="31_Quality Time" data-flag="@N" onclick="openSidebar('31_Quality Time',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\78_Trinity of Fates.jpg" id="78_Trinity of Fates" data-flag="@N" onclick="openSidebar('78_Trinity of Fates',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\119_Slighos the Body-Binder.jpg" id="119_Slighos the Body-Binder" data-flag="@N" onclick="openSidebar('119_Slighos the Body-Binder',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\156_Skophos Conjuror.jpg" id="156_Skophos Conjuror" data-flag="@N" onclick="openSidebar('156_Skophos Conjuror',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\197_Siphon the Divine.jpg" id="197_Siphon the Divine" data-flag="@N" onclick="openSidebar('197_Siphon the Divine',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\32_Shrine to Heliod.jpg" id="32_Shrine to Heliod" data-flag="@N" onclick="openSidebar('32_Shrine to Heliod',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\80_Voyage to the Siren Sea.jpg" id="80_Voyage to the Siren Sea" data-flag="@N" onclick="openSidebar('80_Voyage to the Siren Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\122_Underworld Tormentor.jpg" id="122_Underworld Tormentor" data-flag="@N" onclick="openSidebar('122_Underworld Tormentor',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\161_Thraxes, Sire of Dragons.jpg" id="161_Thraxes, Sire of Dragons" data-flag="@N" onclick="openSidebar('161_Thraxes, Sire of Dragons',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\198_Skola Nyxweaver.jpg" id="198_Skola Nyxweaver" data-flag="@N" onclick="openSidebar('198_Skola Nyxweaver',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1410_Heliod's Glory.jpg" id="1410_Heliods Glory" data-flag="@N" onclick="openSidebar('1410_Heliods Glory',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1446_Blessing of the Sea.jpg" id="1446_Blessing of the Sea" data-flag="@N" onclick="openSidebar('1446_Blessing of the Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1490_Tether to Reality.jpg" id="1490_Tether to Reality" data-flag="@N" onclick="openSidebar('1490_Tether to Reality',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1550_Consuming Flames.jpg" id="1550_Consuming Flames" data-flag="@N" onclick="openSidebar('1550_Consuming Flames',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1594_Ilysian Guardian.jpg" id="1594_Ilysian Guardian" data-flag="@N" onclick="openSidebar('1594_Ilysian Guardian',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\2_Agnomakhos's Abomination.jpg" id="2_Agnomakhoss Abomination" data-flag="@N" onclick="openSidebar('2_Agnomakhoss Abomination',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\43_Agent of Deception.jpg" id="43_Agent of Deception" data-flag="@N" onclick="openSidebar('43_Agent of Deception',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\84_Aphonai's Reveler.jpg" id="84_Aphonais Reveler" data-flag="@N" onclick="openSidebar('84_Aphonais Reveler',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\125_Apprentice of the Forge-God.jpg" id="125_Apprentice of the Forge-God" data-flag="@N" onclick="openSidebar('125_Apprentice of the Forge-God',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\167_Belief-Belying Beast.jpg" id="167_Belief-Belying Beast" data-flag="@N" onclick="openSidebar('167_Belief-Belying Beast',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\4_Archon of Glorious Light.jpg" id="4_Archon of Glorious Light" data-flag="@N" onclick="openSidebar('4_Archon of Glorious Light',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\51_Eidolon of Graceful Steps.jpg" id="51_Eidolon of Graceful Steps" data-flag="@N" onclick="openSidebar('51_Eidolon of Graceful Steps',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\85_Axiomene, Syrurian Tyrant.jpg" id="85_Axiomene, Syrurian Tyrant" data-flag="@N" onclick="openSidebar('85_Axiomene, Syrurian Tyrant',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\127_Ashlands Phoenix.jpg" id="127_Ashlands Phoenix" data-flag="@N" onclick="openSidebar('127_Ashlands Phoenix',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\169_Canopy of the Winter Nexus.jpg" id="169_Canopy of the Winter Nexus" data-flag="@N" onclick="openSidebar('169_Canopy of the Winter Nexus',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\5_Archon of the Legion.jpg" id="5_Archon of the Legion" data-flag="@N" onclick="openSidebar('5_Archon of the Legion',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\53_The Founding of the Twelve.jpg" id="53_The Founding of the Twelve" data-flag="@N" onclick="openSidebar('53_The Founding of the Twelve',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\91_Gray Merchant of Asphodel.jpg" id="91_Gray Merchant of Asphodel" data-flag="@N" onclick="openSidebar('91_Gray Merchant of Asphodel',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\129_The Burning of Pidae.jpg" id="129_The Burning of Pidae" data-flag="@N" onclick="openSidebar('129_The Burning of Pidae',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\172_Disciple of the Weavers.jpg" id="172_Disciple of the Weavers" data-flag="@N" onclick="openSidebar('172_Disciple of the Weavers',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\7_Basilo, Lion of Valor.jpg" id="7_Basilo, Lion of Valor" data-flag="@N" onclick="openSidebar('7_Basilo, Lion of Valor',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\54_Haubay's Familiar.jpg" id="54_Haubays Familiar" data-flag="@N" onclick="openSidebar('54_Haubays Familiar',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\96_Kakomanties Circle.jpg" id="96_Kakomanties Circle" data-flag="@N" onclick="openSidebar('96_Kakomanties Circle',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\132_Elektes's Charge.jpg" id="132_Elektess Charge" data-flag="@N" onclick="openSidebar('132_Elektess Charge',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\177_Harmony with Nature.jpg" id="177_Harmony with Nature" data-flag="@N" onclick="openSidebar('177_Harmony with Nature',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\8_Bringer of Heliod's Light.jpg" id="8_Bringer of Heliods Light" data-flag="@N" onclick="openSidebar('8_Bringer of Heliods Light',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\55_Horror of the Mystic Sea.jpg" id="55_Horror of the Mystic Sea" data-flag="@N" onclick="openSidebar('55_Horror of the Mystic Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\98_Lurking Vyrkolakas.jpg" id="98_Lurking Vyrkolakas" data-flag="@N" onclick="openSidebar('98_Lurking Vyrkolakas',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\134_Flame Whip.jpg" id="134_Flame Whip" data-flag="@N" onclick="openSidebar('134_Flame Whip',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\178_Hunger's Door.jpg" id="178_Hungers Door" data-flag="@N" onclick="openSidebar('178_Hungers Door',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\9_Charging Brightmare.jpg" id="9_Charging Brightmare" data-flag="@N" onclick="openSidebar('9_Charging Brightmare',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\66_Oracle of Zakros.jpg" id="66_Oracle of Zakros" data-flag="@N" onclick="openSidebar('66_Oracle of Zakros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\99_Maim.jpg" id="99_Maim" data-flag="@N" onclick="openSidebar('99_Maim',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\139_Ignite.jpg" id="139_Ignite" data-flag="@N" onclick="openSidebar('139_Ignite',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\181_Labyrinthine Hydra.jpg" id="181_Labyrinthine Hydra" data-flag="@N" onclick="openSidebar('181_Labyrinthine Hydra',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\12_Command from the Front.jpg" id="12_Command from the Front" data-flag="@N" onclick="openSidebar('12_Command from the Front',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\67_Ordeal of Ephara.jpg" id="67_Ordeal of Ephara" data-flag="@N" onclick="openSidebar('67_Ordeal of Ephara',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\104_Ordeal of Pharika.jpg" id="104_Ordeal of Pharika" data-flag="@N" onclick="openSidebar('104_Ordeal of Pharika',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\140_Invest in the Future.jpg" id="140_Invest in the Future" data-flag="@N" onclick="openSidebar('140_Invest in the Future',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\185_Nylea's Call.jpg" id="185_Nyleas Call" data-flag="@N" onclick="openSidebar('185_Nyleas Call',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\16_Ephara's Oracle.jpg" id="16_Epharas Oracle" data-flag="@N" onclick="openSidebar('16_Epharas Oracle',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\74_Thassa's Tideshaper.jpg" id="74_Thassas Tideshaper" data-flag="@N" onclick="openSidebar('74_Thassas Tideshaper',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\106_Petraform Hermit.jpg" id="106_Petraform Hermit" data-flag="@N" onclick="openSidebar('106_Petraform Hermit',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\147_Ordeal of Karda.jpg" id="147_Ordeal of Karda" data-flag="@N" onclick="openSidebar('147_Ordeal of Karda',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\188_Ordeal of Karametra.jpg" id="188_Ordeal of Karametra" data-flag="@N" onclick="openSidebar('188_Ordeal of Karametra',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\17_Erase from Reality.jpg" id="17_Erase from Reality" data-flag="@N" onclick="openSidebar('17_Erase from Reality',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\75_Tide's Ire.jpg" id="75_Tides Ire" data-flag="@N" onclick="openSidebar('75_Tides Ire',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\107_Pharika's Harbinger.jpg" id="107_Pharikas Harbinger" data-flag="@N" onclick="openSidebar('107_Pharikas Harbinger',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\157_Skophos Raid-Veteran.jpg" id="157_Skophos Raid-Veteran" data-flag="@N" onclick="openSidebar('157_Skophos Raid-Veteran',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\200_Star-Studded Sagittaur.jpg" id="200_Star-Studded Sagittaur" data-flag="@N" onclick="openSidebar('200_Star-Studded Sagittaur',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\28_Ordeal of Athreos.jpg" id="28_Ordeal of Athreos" data-flag="@N" onclick="openSidebar('28_Ordeal of Athreos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\76_Traumatic Impact.jpg" id="76_Traumatic Impact" data-flag="@N" onclick="openSidebar('76_Traumatic Impact',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\108_Phenax's Confidant.jpg" id="108_Phenaxs Confidant" data-flag="@N" onclick="openSidebar('108_Phenaxs Confidant',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\160_Star-Seeking Dreamer.jpg" id="160_Star-Seeking Dreamer" data-flag="@N" onclick="openSidebar('160_Star-Seeking Dreamer',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\201_Survivor of Pidae.jpg" id="201_Survivor of Pidae" data-flag="@N" onclick="openSidebar('201_Survivor of Pidae',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\29_Patron of Ephara's Glory.jpg" id="29_Patron of Epharas Glory" data-flag="@N" onclick="openSidebar('29_Patron of Epharas Glory',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\77_Travel Through the Mystic Sea.jpg" id="77_Travel Through the Mystic Sea" data-flag="@N" onclick="openSidebar('77_Travel Through the Mystic Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\109_Phenax's Touch.jpg" id="109_Phenaxs Touch" data-flag="@N" onclick="openSidebar('109_Phenaxs Touch',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\163_Zakros Stompers.jpg" id="163_Zakros Stompers" data-flag="@N" onclick="openSidebar('163_Zakros Stompers',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\202_Terror of Olantin.jpg" id="202_Terror of Olantin" data-flag="@N" onclick="openSidebar('202_Terror of Olantin',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\41_Zakros Decree.jpg" id="41_Zakros Decree" data-flag="@N" onclick="openSidebar('41_Zakros Decree',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\79_Turn to Nyx.jpg" id="79_Turn to Nyx" data-flag="@N" onclick="openSidebar('79_Turn to Nyx',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\121_Together Just a Moment More.jpg" id="121_Together Just a Moment More" data-flag="@N" onclick="openSidebar('121_Together Just a Moment More',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\164_Zygos, Edge of the Bull.jpg" id="164_Zygos, Edge of the Bull" data-flag="@N" onclick="openSidebar('164_Zygos, Edge of the Bull',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\205_Wolf-Whistle Satyr.jpg" id="205_Wolf-Whistle Satyr" data-flag="@N" onclick="openSidebar('205_Wolf-Whistle Satyr',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1407_The Lion's Charisma.jpg" id="1407_The Lions Charisma" data-flag="@N" onclick="openSidebar('1407_The Lions Charisma',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1466_Ocular Insight.jpg" id="1466_Ocular Insight" data-flag="@N" onclick="openSidebar('1466_Ocular Insight',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1507_Poison in the Blood.jpg" id="1507_Poison in the Blood" data-flag="@N" onclick="openSidebar('1507_Poison in the Blood',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1564_Blessing of Slaughter.jpg" id="1564_Blessing of Slaughter" data-flag="@N" onclick="openSidebar('1564_Blessing of Slaughter',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1600_Equinox Mark.jpg" id="1600_Equinox Mark" data-flag="@N" onclick="openSidebar('1600_Equinox Mark',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1408_Blinded by Divinity.jpg" id="1408_Blinded by Divinity" data-flag="@N" onclick="openSidebar('1408_Blinded by Divinity',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\47_Charming Siren.jpg" id="47_Charming Siren" data-flag="@N" onclick="openSidebar('47_Charming Siren',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\83_Agent of Pharika.jpg" id="83_Agent of Pharika" data-flag="@N" onclick="openSidebar('83_Agent of Pharika',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\124_Anvilwrought Lion.jpg" id="124_Anvilwrought Lion" data-flag="@N" onclick="openSidebar('124_Anvilwrought Lion',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1605_Fable of Tooth and Fur.jpg" id="1605_Fable of Tooth and Fur" data-flag="@N" onclick="openSidebar('1605_Fable of Tooth and Fur',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1409_Blessings of the Flock.jpg" id="1409_Blessings of the Flock" data-flag="@N" onclick="openSidebar('1409_Blessings of the Flock',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\48_Dakran Shipcrusher.jpg" id="48_Dakran Shipcrusher" data-flag="@N" onclick="openSidebar('48_Dakran Shipcrusher',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\87_Coward-Eater.jpg" id="87_Coward-Eater" data-flag="@N" onclick="openSidebar('87_Coward-Eater',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\126_Arena Champion.jpg" id="126_Arena Champion" data-flag="@N" onclick="openSidebar('126_Arena Champion',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\165_Arasta's Burden.jpg" id="165_Arastas Burden" data-flag="@N" onclick="openSidebar('165_Arastas Burden',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\3_Alseid of Stilled Hearts.jpg" id="3_Alseid of Stilled Hearts" data-flag="@N" onclick="openSidebar('3_Alseid of Stilled Hearts',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\49_Divine Mishap.jpg" id="49_Divine Mishap" data-flag="@N" onclick="openSidebar('49_Divine Mishap',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\89_Fall into the Underworld.jpg" id="89_Fall into the Underworld" data-flag="@N" onclick="openSidebar('89_Fall into the Underworld',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\131_Eidolon of Empty Thoughts.jpg" id="131_Eidolon of Empty Thoughts" data-flag="@N" onclick="openSidebar('131_Eidolon of Empty Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\168_Caller of Ferocity.jpg" id="168_Caller of Ferocity" data-flag="@N" onclick="openSidebar('168_Caller of Ferocity',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\13_Daybreak Rider.jpg" id="13_Daybreak Rider" data-flag="@N" onclick="openSidebar('13_Daybreak Rider',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\50_Ebb and Flow.jpg" id="50_Ebb and Flow" data-flag="@N" onclick="openSidebar('50_Ebb and Flow',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\92_Grim Physician.jpg" id="92_Grim Physician" data-flag="@N" onclick="openSidebar('92_Grim Physician',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\133_Fall from Nyx.jpg" id="133_Fall from Nyx" data-flag="@N" onclick="openSidebar('133_Fall from Nyx',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\170_Centaur Mentor.jpg" id="170_Centaur Mentor" data-flag="@N" onclick="openSidebar('170_Centaur Mentor',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\14_Dedicated Charge.jpg" id="14_Dedicated Charge" data-flag="@N" onclick="openSidebar('14_Dedicated Charge',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\52_Fathomless Dominion.jpg" id="52_Fathomless Dominion" data-flag="@N" onclick="openSidebar('52_Fathomless Dominion',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\93_Hekatan Demagogue.jpg" id="93_Hekatan Demagogue" data-flag="@N" onclick="openSidebar('93_Hekatan Demagogue',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\136_Guardians of Zakros.jpg" id="136_Guardians of Zakros" data-flag="@N" onclick="openSidebar('136_Guardians of Zakros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\171_Clash of the Titans.jpg" id="171_Clash of the Titans" data-flag="@N" onclick="openSidebar('171_Clash of the Titans',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\15_Ephara's Messenger.jpg" id="15_Epharas Messenger" data-flag="@N" onclick="openSidebar('15_Epharas Messenger',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\56_Kraken Hatchling.jpg" id="56_Kraken Hatchling" data-flag="@N" onclick="openSidebar('56_Kraken Hatchling',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\95_Isolated Misery.jpg" id="95_Isolated Misery" data-flag="@N" onclick="openSidebar('95_Isolated Misery',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\137_Heedless Cruelty.jpg" id="137_Heedless Cruelty" data-flag="@N" onclick="openSidebar('137_Heedless Cruelty',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\173_Dryad of the Keen-Eyed.jpg" id="173_Dryad of the Keen-Eyed" data-flag="@N" onclick="openSidebar('173_Dryad of the Keen-Eyed',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\20_Gods Willing.jpg" id="20_Gods Willing" data-flag="@N" onclick="openSidebar('20_Gods Willing',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\59_Meeting of the Minds.jpg" id="59_Meeting of the Minds" data-flag="@N" onclick="openSidebar('59_Meeting of the Minds',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\101_Nurture the Future.jpg" id="101_Nurture the Future" data-flag="@N" onclick="openSidebar('101_Nurture the Future',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\138_Hero in the Making.jpg" id="138_Hero in the Making" data-flag="@N" onclick="openSidebar('138_Hero in the Making',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\176_Fight the Tides.jpg" id="176_Fight the Tides" data-flag="@N" onclick="openSidebar('176_Fight the Tides',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\22_Leonin Hoplite.jpg" id="22_Leonin Hoplite" data-flag="@N" onclick="openSidebar('22_Leonin Hoplite',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\60_Melancholic Oracle.jpg" id="60_Melancholic Oracle" data-flag="@N" onclick="openSidebar('60_Melancholic Oracle',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\102_Nyxborn Retriever.jpg" id="102_Nyxborn Retriever" data-flag="@N" onclick="openSidebar('102_Nyxborn Retriever',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\143_Life Begins Anew.jpg" id="143_Life Begins Anew" data-flag="@N" onclick="openSidebar('143_Life Begins Anew',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\179_Inkblooded Basilisk.jpg" id="179_Inkblooded Basilisk" data-flag="@N" onclick="openSidebar('179_Inkblooded Basilisk',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\23_Leonin Phalanx.jpg" id="23_Leonin Phalanx" data-flag="@N" onclick="openSidebar('23_Leonin Phalanx',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\61_Mentor of the Dakra Isles.jpg" id="61_Mentor of the Dakra Isles" data-flag="@N" onclick="openSidebar('61_Mentor of the Dakra Isles',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\103_Omen of Slaughter.jpg" id="103_Omen of Slaughter" data-flag="@N" onclick="openSidebar('103_Omen of Slaughter',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\144_Mogis's Raider.jpg" id="144_Mogiss Raider" data-flag="@N" onclick="openSidebar('144_Mogiss Raider',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\183_Midsummer Dream.jpg" id="183_Midsummer Dream" data-flag="@N" onclick="openSidebar('183_Midsummer Dream',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\24_Marble Philosopher.jpg" id="24_Marble Philosopher" data-flag="@N" onclick="openSidebar('24_Marble Philosopher',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\62_Misbegotten Aims.jpg" id="62_Misbegotten Aims" data-flag="@N" onclick="openSidebar('62_Misbegotten Aims',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\110_Plead to Erebos.jpg" id="110_Plead to Erebos" data-flag="@N" onclick="openSidebar('110_Plead to Erebos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\145_Monstrous Challenge.jpg" id="145_Monstrous Challenge" data-flag="@N" onclick="openSidebar('145_Monstrous Challenge',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\187_Omen of Horizons.jpg" id="187_Omen of Horizons" data-flag="@N" onclick="openSidebar('187_Omen of Horizons',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\25_New Recruit.jpg" id="25_New Recruit" data-flag="@N" onclick="openSidebar('25_New Recruit',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\63_Momentary Petrification.jpg" id="63_Momentary Petrification" data-flag="@N" onclick="openSidebar('63_Momentary Petrification',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\111_Poisoned Strike.jpg" id="111_Poisoned Strike" data-flag="@N" onclick="openSidebar('111_Poisoned Strike',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\146_Omen of Storms.jpg" id="146_Omen of Storms" data-flag="@N" onclick="openSidebar('146_Omen of Storms',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\189_Pheres-Band Huntmaster.jpg" id="189_Pheres-Band Huntmaster" data-flag="@N" onclick="openSidebar('189_Pheres-Band Huntmaster',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\27_Omen of Victory.jpg" id="27_Omen of Victory" data-flag="@N" onclick="openSidebar('27_Omen of Victory',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\64_Olantin Emissary.jpg" id="64_Olantin Emissary" data-flag="@N" onclick="openSidebar('64_Olantin Emissary',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\112_Pull of Tizerus.jpg" id="112_Pull of Tizerus" data-flag="@N" onclick="openSidebar('112_Pull of Tizerus',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\149_Punishment from Nyx.jpg" id="149_Punishment from Nyx" data-flag="@N" onclick="openSidebar('149_Punishment from Nyx',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\190_Pidae Raider.jpg" id="190_Pidae Raider" data-flag="@N" onclick="openSidebar('190_Pidae Raider',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\33_Skophos Warden.jpg" id="33_Skophos Warden" data-flag="@N" onclick="openSidebar('33_Skophos Warden',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\65_Omen of Deception.jpg" id="65_Omen of Deception" data-flag="@N" onclick="openSidebar('65_Omen of Deception',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\113_Reaper Archon.jpg" id="113_Reaper Archon" data-flag="@N" onclick="openSidebar('113_Reaper Archon',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\151_Rally the Hoplites.jpg" id="151_Rally the Hoplites" data-flag="@N" onclick="openSidebar('151_Rally the Hoplites',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\191_Punch Out of the Sky.jpg" id="191_Punch Out of the Sky" data-flag="@N" onclick="openSidebar('191_Punch Out of the Sky',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\34_Spear of the Sun-Crowned.jpg" id="34_Spear of the Sun-Crowned" data-flag="@N" onclick="openSidebar('34_Spear of the Sun-Crowned',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\68_Read the Tides.jpg" id="68_Read the Tides" data-flag="@N" onclick="openSidebar('68_Read the Tides',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\114_Remnant of Zakros.jpg" id="114_Remnant of Zakros" data-flag="@N" onclick="openSidebar('114_Remnant of Zakros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\152_Reply to the Call.jpg" id="152_Reply to the Call" data-flag="@N" onclick="openSidebar('152_Reply to the Call',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\192_Reaper of Fields.jpg" id="192_Reaper of Fields" data-flag="@N" onclick="openSidebar('192_Reaper of Fields',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\35_Sunbeam Alseid.jpg" id="35_Sunbeam Alseid" data-flag="@N" onclick="openSidebar('35_Sunbeam Alseid',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\69_Shoreline Crasher.jpg" id="69_Shoreline Crasher" data-flag="@N" onclick="openSidebar('69_Shoreline Crasher',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\116_Rite of Venom.jpg" id="116_Rite of Venom" data-flag="@N" onclick="openSidebar('116_Rite of Venom',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\154_Seismic Chimera.jpg" id="154_Seismic Chimera" data-flag="@N" onclick="openSidebar('154_Seismic Chimera',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\193_Revel Watchguard.jpg" id="193_Revel Watchguard" data-flag="@N" onclick="openSidebar('193_Revel Watchguard',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\36_Traxian Calvary.jpg" id="36_Traxian Calvary" data-flag="@N" onclick="openSidebar('36_Traxian Calvary',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\73_Thassa's Caress.jpg" id="73_Thassas Caress" data-flag="@N" onclick="openSidebar('73_Thassas Caress',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\117_Secluded Gorgon.jpg" id="117_Secluded Gorgon" data-flag="@N" onclick="openSidebar('117_Secluded Gorgon',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\158_Skophos Trainee.jpg" id="158_Skophos Trainee" data-flag="@N" onclick="openSidebar('158_Skophos Trainee',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\195_Shatter the Reflection.jpg" id="195_Shatter the Reflection" data-flag="@N" onclick="openSidebar('195_Shatter the Reflection',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\37_Traxian General.jpg" id="37_Traxian General" data-flag="@N" onclick="openSidebar('37_Traxian General',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\81_Warden of the Deep-Dwelling.jpg" id="81_Warden of the Deep-Dwelling" data-flag="@N" onclick="openSidebar('81_Warden of the Deep-Dwelling',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\120_Stoic Phylaskia.jpg" id="120_Stoic Phylaskia" data-flag="@N" onclick="openSidebar('120_Stoic Phylaskia',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\159_Speaker of the Lightning.jpg" id="159_Speaker of the Lightning" data-flag="@N" onclick="openSidebar('159_Speaker of the Lightning',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\199_Slumbering Serpent.jpg" id="199_Slumbering Serpent" data-flag="@N" onclick="openSidebar('199_Slumbering Serpent',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\38_Traxian Strategos.jpg" id="38_Traxian Strategos" data-flag="@N" onclick="openSidebar('38_Traxian Strategos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\82_Zodiac Griffin.jpg" id="82_Zodiac Griffin" data-flag="@N" onclick="openSidebar('82_Zodiac Griffin',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\123_Xarr's Mockery.jpg" id="123_Xarrs Mockery" data-flag="@N" onclick="openSidebar('123_Xarrs Mockery',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\162_Thrice-Blessed Boon.jpg" id="162_Thrice-Blessed Boon" data-flag="@N" onclick="openSidebar('162_Thrice-Blessed Boon',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\203_Thundering Serpent.jpg" id="203_Thundering Serpent" data-flag="@N" onclick="openSidebar('203_Thundering Serpent',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\39_Tyranny of Trax.jpg" id="39_Tyranny of Trax" data-flag="@N" onclick="openSidebar('39_Tyranny of Trax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1447_Left to the Sea.jpg" id="1447_Left to the Sea" data-flag="@N" onclick="openSidebar('1447_Left to the Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1517_Glare of the Gorgon.jpg" id="1517_Glare of the Gorgon" data-flag="@N" onclick="openSidebar('1517_Glare of the Gorgon',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1544_Raider's Blessing.jpg" id="1544_Raiders Blessing" data-flag="@N" onclick="openSidebar('1544_Raiders Blessing',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\204_Weave Destiny.jpg" id="204_Weave Destiny" data-flag="@N" onclick="openSidebar('204_Weave Destiny',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\40_Walk the Dead's Path.jpg" id="40_Walk the Deads Path" data-flag="@N" onclick="openSidebar('40_Walk the Deads Path',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1448_Depths of the Sea.jpg" id="1448_Depths of the Sea" data-flag="@N" onclick="openSidebar('1448_Depths of the Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\308_Omen of Slaughter_PRO_TRX.jpg" id="308_Omen of Slaughter_PRO_TRX" data-flag="@N" onclick="openSidebar('308_Omen of Slaughter_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1554_Tectonic Rage.jpg" id="1554_Tectonic Rage" data-flag="@N" onclick="openSidebar('1554_Tectonic Rage',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1568_Ferocity of Nature.jpg" id="1568_Ferocity of Nature" data-flag="@N" onclick="openSidebar('1568_Ferocity of Nature',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1413_The Sun's Blessing.jpg" id="1413_The Suns Blessing" data-flag="@N" onclick="openSidebar('1413_The Suns Blessing',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\310_Pull of Tizerus_PRO_TRX.jpg" id="310_Pull of Tizerus_PRO_TRX" data-flag="@N" onclick="openSidebar('310_Pull of Tizerus_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\307_Koios, Spear of Karda_PRO_TRX.jpg" id="307_Koios, Spear of Karda_PRO_TRX" data-flag="@N" onclick="openSidebar('307_Koios, Spear of Karda_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1592_Fields of Ilysia.jpg" id="1592_Fields of Ilysia" data-flag="@N" onclick="openSidebar('1592_Fields of Ilysia',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\312_Prince of the Pride_PRO_TRX.jpg" id="312_Prince of the Pride_PRO_TRX" data-flag="@N" onclick="openSidebar('312_Prince of the Pride_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\314_Phenax's Touch_PRO_TRX.jpg" id="314_Phenaxs Touch_PRO_TRX" data-flag="@N" onclick="openSidebar('314_Phenaxs Touch_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\313_Basilo, Lion of Valor_PRO_TRX.jpg" id="313_Basilo, Lion of Valor_PRO_TRX" data-flag="@N" onclick="openSidebar('313_Basilo, Lion of Valor_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1713_The Lion's Charisma_PRO_TRX.jpg" id="1713_The Lions Charisma_PRO_TRX" data-flag="@N" onclick="openSidebar('1713_The Lions Charisma_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\208_Ephara, Hero-Maker.jpg" id="208_Ephara, Hero-Maker" data-flag="@N" onclick="openSidebar('208_Ephara, Hero-Maker',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\211_Phenax, Brazen Thief.jpg" id="211_Phenax, Brazen Thief" data-flag="@N" onclick="openSidebar('211_Phenax, Brazen Thief',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\214_Mogis, Rage-Crowned.jpg" id="214_Mogis, Rage-Crowned" data-flag="@N" onclick="openSidebar('214_Mogis, Rage-Crowned',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\218_Klothys, Fate-Driven.jpg" id="218_Klothys, Fate-Driven" data-flag="@N" onclick="openSidebar('218_Klothys, Fate-Driven',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\222_Karametra, Life-Harvester.jpg" id="222_Karametra, Life-Harvester" data-flag="@N" onclick="openSidebar('222_Karametra, Life-Harvester',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1411_Claes, Melded Spark.jpg" id="1411_Claes, Melded Spark" data-flag="@N" onclick="openSidebar('1411_Claes, Melded Spark',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1611_Phenax, Poison-Tongued.jpg" id="1611_Phenax, Poison-Tongued" data-flag="@N" onclick="openSidebar('1611_Phenax, Poison-Tongued',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\215_Mogis's Judgment.jpg" id="215_Mogiss Judgment" data-flag="@N" onclick="openSidebar('215_Mogiss Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\219_Klothys's Judgment.jpg" id="219_Klothyss Judgment" data-flag="@N" onclick="openSidebar('219_Klothyss Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\223_Karametra's Judgment.jpg" id="223_Karametras Judgment" data-flag="@N" onclick="openSidebar('223_Karametras Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\207_Builder of Monuments.jpg" id="207_Builder of Monuments" data-flag="@N" onclick="openSidebar('207_Builder of Monuments',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\212_Phenax's Judgment.jpg" id="212_Phenaxs Judgment" data-flag="@N" onclick="openSidebar('212_Phenaxs Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\217_Tymaret, Bane of Phenax.jpg" id="217_Tymaret, Bane of Phenax" data-flag="@N" onclick="openSidebar('217_Tymaret, Bane of Phenax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\221_Spikemane Lion.jpg" id="221_Spikemane Lion" data-flag="@N" onclick="openSidebar('221_Spikemane Lion',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\224_Kynaios, Blade-Bound.jpg" id="224_Kynaios, Blade-Bound" data-flag="@N" onclick="openSidebar('224_Kynaios, Blade-Bound',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\209_Ephara's Judgment.jpg" id="209_Epharas Judgment" data-flag="@N" onclick="openSidebar('209_Epharas Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\213_Through Blood, Knowledge.jpg" id="213_Through Blood, Knowledge" data-flag="@N" onclick="openSidebar('213_Through Blood, Knowledge',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\216_Raksolcs Ravage-Soul.jpg" id="216_Raksolcs Ravage-Soul" data-flag="@N" onclick="openSidebar('216_Raksolcs Ravage-Soul',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1621_Spikemane Cloak.jpg" id="1621_Spikemane Cloak" data-flag="@N" onclick="openSidebar('1621_Spikemane Cloak',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\225_Lykaretos, Harvest's Bounty.jpg" id="225_Lykaretos, Harvests Bounty" data-flag="@N" onclick="openSidebar('225_Lykaretos, Harvests Bounty',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\206_Benthalos of Land and Sea.jpg" id="206_Benthalos of Land and Sea" data-flag="@N" onclick="openSidebar('206_Benthalos of Land and Sea',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\210_Orestes, Heroic Scoundrel.jpg" id="210_Orestes, Heroic Scoundrel" data-flag="@N" onclick="openSidebar('210_Orestes, Heroic Scoundrel',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\254_Shrine to Mogis.jpg" id="254_Shrine to Mogis" data-flag="@N" onclick="openSidebar('254_Shrine to Mogis',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\220_Molpadia, the Last Acephali.jpg" id="220_Molpadia, the Last Acephali" data-flag="@N" onclick="openSidebar('220_Molpadia, the Last Acephali',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\258_Shrine to Karametra.jpg" id="258_Shrine to Karametra" data-flag="@N" onclick="openSidebar('258_Shrine to Karametra',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\251_Shrine to Ephara.jpg" id="251_Shrine to Ephara" data-flag="@N" onclick="openSidebar('251_Shrine to Ephara',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\253_Shrine to Phenax.jpg" id="253_Shrine to Phenax" data-flag="@N" onclick="openSidebar('253_Shrine to Phenax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\255_Skophos Conqueror.jpg" id="255_Skophos Conqueror" data-flag="@N" onclick="openSidebar('255_Skophos Conqueror',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\257_Shrine to Klothys.jpg" id="257_Shrine to Klothys" data-flag="@N" onclick="openSidebar('257_Shrine to Klothys',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1625_The Miraculous Field.jpg" id="1625_The Miraculous Field" data-flag="@N" onclick="openSidebar('1625_The Miraculous Field',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\250_Olantin Stalwart.jpg" id="250_Olantin Stalwart" data-flag="@N" onclick="openSidebar('250_Olantin Stalwart',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\252_Odunos Smuggler.jpg" id="252_Odunos Smuggler" data-flag="@N" onclick="openSidebar('252_Odunos Smuggler',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\256_Aegis Assault.jpg" id="256_Aegis Assault" data-flag="@N" onclick="openSidebar('256_Aegis Assault',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\259_Zakros General.jpg" id="259_Zakros General" data-flag="@N" onclick="openSidebar('259_Zakros General',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\306_Ephara, Hero-Maker_PRO_TRX.jpg" id="306_Ephara, Hero-Maker_PRO_TRX" data-flag="@N" onclick="openSidebar('306_Ephara, Hero-Maker_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\315_Builder of Monuments_PRO_TRX.jpg" id="315_Builder of Monuments_PRO_TRX" data-flag="@N" onclick="openSidebar('315_Builder of Monuments_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\227_Athreos, Gold-Eyed.jpg" id="227_Athreos, Gold-Eyed" data-flag="@N" onclick="openSidebar('227_Athreos, Gold-Eyed',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\230_Keranos, Fickle-Fortuned.jpg" id="230_Keranos, Fickle-Fortuned" data-flag="@N" onclick="openSidebar('230_Keranos, Fickle-Fortuned',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\237_Pharika, Snake-Twined.jpg" id="237_Pharika, Snake-Twined" data-flag="@N" onclick="openSidebar('237_Pharika, Snake-Twined',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\242_Iroas, Honor-Bound.jpg" id="242_Iroas, Honor-Bound" data-flag="@N" onclick="openSidebar('242_Iroas, Honor-Bound',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\245_Kruphix, Far-Seeing.jpg" id="245_Kruphix, Far-Seeing" data-flag="@N" onclick="openSidebar('245_Kruphix, Far-Seeing',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\226_Archon of Condemnation.jpg" id="226_Archon of Condemnation" data-flag="@N" onclick="openSidebar('226_Archon of Condemnation',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\232_Phlage, Titan of Burning Wind.jpg" id="232_Phlage, Titan of Burning Wind" data-flag="@N" onclick="openSidebar('232_Phlage, Titan of Burning Wind',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\239_Skotha, Titan of Eternal Dark.jpg" id="239_Skotha, Titan of Eternal Dark" data-flag="@N" onclick="openSidebar('239_Skotha, Titan of Eternal Dark',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\243_Iroas's Judgment.jpg" id="243_Iroass Judgment" data-flag="@N" onclick="openSidebar('243_Iroass Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\246_Kruphix's Judgment.jpg" id="246_Kruphixs Judgment" data-flag="@N" onclick="openSidebar('246_Kruphixs Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\228_Athreos's Judgment.jpg" id="228_Athreoss Judgment" data-flag="@N" onclick="openSidebar('228_Athreoss Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\231_Keranos's Judgment.jpg" id="231_Keranoss Judgment" data-flag="@N" onclick="openSidebar('231_Keranoss Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\240_Xarr of the Eternal Cycle.jpg" id="240_Xarr of the Eternal Cycle" data-flag="@N" onclick="openSidebar('240_Xarr of the Eternal Cycle',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\244_Nikon, Skophos Protector.jpg" id="244_Nikon, Skophos Protector" data-flag="@N" onclick="openSidebar('244_Nikon, Skophos Protector',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\247_Nykthos, Architect of Gods.jpg" id="247_Nykthos, Architect of Gods" data-flag="@N" onclick="openSidebar('247_Nykthos, Architect of Gods',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\1626_Confine to Eternity.jpg" id="1626_Confine to Eternity" data-flag="@N" onclick="openSidebar('1626_Confine to Eternity',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\234_Tiro, the Silent Blade.jpg" id="234_Tiro, the Silent Blade" data-flag="@N" onclick="openSidebar('234_Tiro, the Silent Blade',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\236_Cybele of the Frozen Faith.jpg" id="236_Cybele of the Frozen Faith" data-flag="@N" onclick="openSidebar('236_Cybele of the Frozen Faith',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\241_Elektes, First King of Akros.jpg" id="241_Elektes, First King of Akros" data-flag="@N" onclick="openSidebar('241_Elektes, First King of Akros',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\248_Zale, Titanohunter.jpg" id="248_Zale, Titanohunter" data-flag="@N" onclick="openSidebar('248_Zale, Titanohunter',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\229_Pero, Puppet of Erebos.jpg" id="229_Pero, Puppet of Erebos" data-flag="@N" onclick="openSidebar('229_Pero, Puppet of Erebos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\233_Timedrinker the Bleached.jpg" id="233_Timedrinker the Bleached" data-flag="@N" onclick="openSidebar('233_Timedrinker the Bleached',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\238_Pharika's Judgment.jpg" id="238_Pharikas Judgment" data-flag="@N" onclick="openSidebar('238_Pharikas Judgment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\267_Shrine to Iroas.jpg" id="267_Shrine to Iroas" data-flag="@N" onclick="openSidebar('267_Shrine to Iroas',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\269_Shrine to Kruphix.jpg" id="269_Shrine to Kruphix" data-flag="@N" onclick="openSidebar('269_Shrine to Kruphix',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\260_Shrine to Athreos.jpg" id="260_Shrine to Athreos" data-flag="@N" onclick="openSidebar('260_Shrine to Athreos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\263_Shrine to Keranos.jpg" id="263_Shrine to Keranos" data-flag="@N" onclick="openSidebar('263_Shrine to Keranos',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\235_Biaas the Poison Drinker.jpg" id="235_Biaas the Poison Drinker" data-flag="@N" onclick="openSidebar('235_Biaas the Poison Drinker',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\266_Karda's Emmisary.jpg" id="266_Kardas Emmisary" data-flag="@N" onclick="openSidebar('266_Kardas Emmisary',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\268_Imposing Serpent.jpg" id="268_Imposing Serpent" data-flag="@N" onclick="openSidebar('268_Imposing Serpent',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\261_Traxian Hoplite.jpg" id="261_Traxian Hoplite" data-flag="@N" onclick="openSidebar('261_Traxian Hoplite',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\262_Possibility Savant.jpg" id="262_Possibility Savant" data-flag="@N" onclick="openSidebar('262_Possibility Savant',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\264_Shrine to Pharika.jpg" id="264_Shrine to Pharika" data-flag="@N" onclick="openSidebar('264_Shrine to Pharika',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\309_Elektes, First King of Akros_PRO_TRX.jpg" id="309_Elektes, First King of Akros_PRO_TRX" data-flag="@N" onclick="openSidebar('309_Elektes, First King of Akros_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\265_Split-Hair Asp.jpg" id="265_Split-Hair Asp" data-flag="@N" onclick="openSidebar('265_Split-Hair Asp',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\249_Karda, Battle-Born.jpg" id="249_Karda, Battle-Born" data-flag="@N" onclick="openSidebar('249_Karda, Battle-Born',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\275_The Smoking Strand.jpg" id="275_The Smoking Strand" data-flag="@N" onclick="openSidebar('275_The Smoking Strand',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\273_Implacable Shrine-Guard.jpg" id="273_Implacable Shrine-Guard" data-flag="@N" onclick="openSidebar('273_Implacable Shrine-Guard',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\277_Tidelock Pearl.jpg" id="277_Tidelock Pearl" data-flag="@N" onclick="openSidebar('277_Tidelock Pearl',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\270_Anvilwrought Crane.jpg" id="270_Anvilwrought Crane" data-flag="@N" onclick="openSidebar('270_Anvilwrought Crane',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\271_Chromatic Hart.jpg" id="271_Chromatic Hart" data-flag="@N" onclick="openSidebar('271_Chromatic Hart',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\272_Colossus of Trax.jpg" id="272_Colossus of Trax" data-flag="@N" onclick="openSidebar('272_Colossus of Trax',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\274_Shrine to Those Forgotten.jpg" id="274_Shrine to Those Forgotten" data-flag="@N" onclick="openSidebar('274_Shrine to Those Forgotten',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\276_Soul-Guide Lantern.jpg" id="276_Soul-Guide Lantern" data-flag="@N" onclick="openSidebar('276_Soul-Guide Lantern',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\278_Traveler's Amulet.jpg" id="278_Travelers Amulet" data-flag="@N" onclick="openSidebar('278_Travelers Amulet',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\311_Shrine to Those Forgotten_PRO_TRX.jpg" id="311_Shrine to Those Forgotten_PRO_TRX" data-flag="@N" onclick="openSidebar('311_Shrine to Those Forgotten_PRO_TRX',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\284_Hundred-Handed Pillars.jpg" id="284_Hundred-Handed Pillars" data-flag="@N" onclick="openSidebar('284_Hundred-Handed Pillars',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\281_Ephemeral Mire.jpg" id="281_Ephemeral Mire" data-flag="@N" onclick="openSidebar('281_Ephemeral Mire',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\279_Barren Ashlands.jpg" id="279_Barren Ashlands" data-flag="@N" onclick="openSidebar('279_Barren Ashlands',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\286_Nessian Woods.jpg" id="286_Nessian Woods" data-flag="@N" onclick="openSidebar('286_Nessian Woods',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\280_Buried Colossus.jpg" id="280_Buried Colossus" data-flag="@N" onclick="openSidebar('280_Buried Colossus',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\291_Temple of Enlightenment.jpg" id="291_Temple of Enlightenment" data-flag="@N" onclick="openSidebar('291_Temple of Enlightenment',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\290_Temple of Deceit.jpg" id="290_Temple of Deceit" data-flag="@N" onclick="openSidebar('290_Temple of Deceit',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\294_Temple of Malice.jpg" id="294_Temple of Malice" data-flag="@N" onclick="openSidebar('294_Temple of Malice',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\289_Temple of Abandon.jpg" id="289_Temple of Abandon" data-flag="@N" onclick="openSidebar('289_Temple of Abandon',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\296_Temple of Plenty.jpg" id="296_Temple of Plenty" data-flag="@N" onclick="openSidebar('296_Temple of Plenty',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\283_Gates to the Underworld.jpg" id="283_Gates to the Underworld" data-flag="@N" onclick="openSidebar('283_Gates to the Underworld',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\287_Nimbus of Thought.jpg" id="287_Nimbus of Thought" data-flag="@N" onclick="openSidebar('287_Nimbus of Thought',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\285_Miasmic Cove.jpg" id="285_Miasmic Cove" data-flag="@N" onclick="openSidebar('285_Miasmic Cove',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\300_Titan's Stairs.jpg" id="300_Titans Stairs" data-flag="@N" onclick="openSidebar('300_Titans Stairs',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\288_Shell Cove.jpg" id="288_Shell Cove" data-flag="@N" onclick="openSidebar('288_Shell Cove',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\297_Temple of Silence.jpg" id="297_Temple of Silence" data-flag="@N" onclick="openSidebar('297_Temple of Silence',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\292_Temple of Epiphany.jpg" id="292_Temple of Epiphany" data-flag="@N" onclick="openSidebar('292_Temple of Epiphany',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\293_Temple of Malady.jpg" id="293_Temple of Malady" data-flag="@N" onclick="openSidebar('293_Temple of Malady',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\298_Temple of Triumph.jpg" id="298_Temple of Triumph" data-flag="@N" onclick="openSidebar('298_Temple of Triumph',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\295_Temple of Mystery.jpg" id="295_Temple of Mystery" data-flag="@N" onclick="openSidebar('295_Temple of Mystery',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\282_Garden of Shrines.jpg" id="282_Garden of Shrines" data-flag="@N" onclick="openSidebar('282_Garden of Shrines',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\299_Terramorphic Expanse.jpg" id="299_Terramorphic Expanse" data-flag="@N" onclick="openSidebar('299_Terramorphic Expanse',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\302_Island.jpg" id="302_Island" data-flag="@N" onclick="openSidebar('302_Island',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\303_Swamp.jpg" id="303_Swamp" data-flag="@N" onclick="openSidebar('303_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\304_Mountain.jpg" id="304_Mountain" data-flag="@N" onclick="openSidebar('304_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\305_Forest.jpg" id="305_Forest" data-flag="@N" onclick="openSidebar('305_Forest',false)"></div>
+			<div class="container"><img alt="/sets\TRX-files\img\301_Plains.jpg" id="301_Plains" data-flag="@N" onclick="openSidebar('301_Plains',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

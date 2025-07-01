@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/CNY-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>CNY visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/CNY-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/CNY-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\CNY-files\img\14_Incumbency.jpg" id="14_Incumbency" data-flag="@N" onclick="openSidebar('14_Incumbency',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\49_Gaze Upon Civilization.jpg" id="49_Gaze Upon Civilization" data-flag="@N" onclick="openSidebar('49_Gaze Upon Civilization',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\85_Old Times Ruminator.jpg" id="85_Old Times Ruminator" data-flag="@N" onclick="openSidebar('85_Old Times Ruminator',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\125_Venture Capitalist.jpg" id="125_Venture Capitalist" data-flag="@N" onclick="openSidebar('125_Venture Capitalist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\129_Bulk Bioengineering.jpg" id="129_Bulk Bioengineering" data-flag="@N" onclick="openSidebar('129_Bulk Bioengineering',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\2_Army Reserves.jpg" id="2_Army Reserves" data-flag="@N" onclick="openSidebar('2_Army Reserves',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\41_Congressional Kraken.jpg" id="41_Congressional Kraken" data-flag="@N" onclick="openSidebar('41_Congressional Kraken',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\65_Ascend to Power.jpg" id="65_Ascend to Power" data-flag="@N" onclick="openSidebar('65_Ascend to Power',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\95_Alamer, Profit Rerecorder.jpg" id="95_Alamer, Profit Rerecorder" data-flag="@N" onclick="openSidebar('95_Alamer, Profit Rerecorder',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\127_Aspiring Anarchist.jpg" id="127_Aspiring Anarchist" data-flag="@N" onclick="openSidebar('127_Aspiring Anarchist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\6_Chromatic Rift.jpg" id="6_Chromatic Rift" data-flag="@N" onclick="openSidebar('6_Chromatic Rift',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\43_Demographer.jpg" id="43_Demographer" data-flag="@N" onclick="openSidebar('43_Demographer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\71_Corrupt Congressman.jpg" id="71_Corrupt Congressman" data-flag="@N" onclick="openSidebar('71_Corrupt Congressman',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\104_Flaw in the System.jpg" id="104_Flaw in the System" data-flag="@N" onclick="openSidebar('104_Flaw in the System',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\131_Chromagoyf.jpg" id="131_Chromagoyf" data-flag="@N" onclick="openSidebar('131_Chromagoyf',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\8_Distributive Justice.jpg" id="8_Distributive Justice" data-flag="@N" onclick="openSidebar('8_Distributive Justice',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\54_Quid Pro Quo.jpg" id="54_Quid Pro Quo" data-flag="@N" onclick="openSidebar('54_Quid Pro Quo',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\73_Cryptology.jpg" id="73_Cryptology" data-flag="@N" onclick="openSidebar('73_Cryptology',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\111_Lightning Warmonger.jpg" id="111_Lightning Warmonger" data-flag="@N" onclick="openSidebar('111_Lightning Warmonger',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\133_Disestablishmentarianism.jpg" id="133_Disestablishmentarianism" data-flag="@N" onclick="openSidebar('133_Disestablishmentarianism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\11_Genotype Splicer.jpg" id="11_Genotype Splicer" data-flag="@N" onclick="openSidebar('11_Genotype Splicer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\55_Research Grant.jpg" id="55_Research Grant" data-flag="@N" onclick="openSidebar('55_Research Grant',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\79_Judge, Jury, and Executioner.jpg" id="79_Judge, Jury, and Executioner" data-flag="@N" onclick="openSidebar('79_Judge, Jury, and Executioner',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\116_Penrath Firearm.jpg" id="116_Penrath Firearm" data-flag="@N" onclick="openSidebar('116_Penrath Firearm',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\137_Golden Age.jpg" id="137_Golden Age" data-flag="@N" onclick="openSidebar('137_Golden Age',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\19_Mellan, Defense Attorney.jpg" id="19_Mellan, Defense Attorney" data-flag="@N" onclick="openSidebar('19_Mellan, Defense Attorney',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\59_Sterling, Federal Informant.jpg" id="59_Sterling, Federal Informant" data-flag="@N" onclick="openSidebar('59_Sterling, Federal Informant',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\91_Serve Again.jpg" id="91_Serve Again" data-flag="@N" onclick="openSidebar('91_Serve Again',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\117_Puppet War.jpg" id="117_Puppet War" data-flag="@N" onclick="openSidebar('117_Puppet War',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\152_Subsidized Market.jpg" id="152_Subsidized Market" data-flag="@N" onclick="openSidebar('152_Subsidized Market',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\32_Severin's Masterwork.jpg" id="32_Severins Masterwork" data-flag="@N" onclick="openSidebar('32_Severins Masterwork',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\60_Thesis on Mutation.jpg" id="60_Thesis on Mutation" data-flag="@N" onclick="openSidebar('60_Thesis on Mutation',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\93_The Venerable Veteran.jpg" id="93_The Venerable Veteran" data-flag="@N" onclick="openSidebar('93_The Venerable Veteran',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\122_Sparks of a Revolution.jpg" id="122_Sparks of a Revolution" data-flag="@N" onclick="openSidebar('122_Sparks of a Revolution',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\156_Zeno, Planar Engineer.jpg" id="156_Zeno, Planar Engineer" data-flag="@N" onclick="openSidebar('156_Zeno, Planar Engineer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1408_Equality.jpg" id="1408_Equality" data-flag="@N" onclick="openSidebar('1408_Equality',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1455_Progress.jpg" id="1455_Progress" data-flag="@N" onclick="openSidebar('1455_Progress',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1465_Omnipotence.jpg" id="1465_Omnipotence" data-flag="@N" onclick="openSidebar('1465_Omnipotence',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1522_Freedom.jpg" id="1522_Freedom" data-flag="@N" onclick="openSidebar('1522_Freedom',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1537_Harmony.jpg" id="1537_Harmony" data-flag="@N" onclick="openSidebar('1537_Harmony',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\12_Getaway Proxy.jpg" id="12_Getaway Proxy" data-flag="@N" onclick="openSidebar('12_Getaway Proxy',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\34_Ballot Registrar.jpg" id="34_Ballot Registrar" data-flag="@N" onclick="openSidebar('34_Ballot Registrar',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\64_Arsenal Mentor.jpg" id="64_Arsenal Mentor" data-flag="@N" onclick="openSidebar('64_Arsenal Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\99_Coercive Contractor.jpg" id="99_Coercive Contractor" data-flag="@N" onclick="openSidebar('99_Coercive Contractor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\130_Cabinet Recruiter .jpg" id="130_Cabinet Recruiter " data-flag="@N" onclick="openSidebar('130_Cabinet Recruiter ',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\15_Induced Evolution.jpg" id="15_Induced Evolution" data-flag="@N" onclick="openSidebar('15_Induced Evolution',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\36_Bug the Line.jpg" id="36_Bug the Line" data-flag="@N" onclick="openSidebar('36_Bug the Line',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\70_Corporate Espionage.jpg" id="70_Corporate Espionage" data-flag="@N" onclick="openSidebar('70_Corporate Espionage',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\100_Corporate Mentor.jpg" id="100_Corporate Mentor" data-flag="@N" onclick="openSidebar('100_Corporate Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\138_Grassroots Campaigners.jpg" id="138_Grassroots Campaigners" data-flag="@N" onclick="openSidebar('138_Grassroots Campaigners',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\16_Laboratory Mentor.jpg" id="16_Laboratory Mentor" data-flag="@N" onclick="openSidebar('16_Laboratory Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\37_Bureau Mentor.jpg" id="37_Bureau Mentor" data-flag="@N" onclick="openSidebar('37_Bureau Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\77_Extraction Mission.jpg" id="77_Extraction Mission" data-flag="@N" onclick="openSidebar('77_Extraction Mission',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\102_Expendable Arsonist.jpg" id="102_Expendable Arsonist" data-flag="@N" onclick="openSidebar('102_Expendable Arsonist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\141_Instigating Directive.jpg" id="141_Instigating Directive" data-flag="@N" onclick="openSidebar('141_Instigating Directive',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\20_Minister of Utility.jpg" id="20_Minister of Utility" data-flag="@N" onclick="openSidebar('20_Minister of Utility',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\44_Dormant Monstrosity.jpg" id="44_Dormant Monstrosity" data-flag="@N" onclick="openSidebar('44_Dormant Monstrosity',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\80_Killing in the Name of . . ..jpg" id="80_Killing in the Name of . . ." data-flag="@N" onclick="openSidebar('80_Killing in the Name of . . .',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\105_Flock Favorites.jpg" id="105_Flock Favorites" data-flag="@N" onclick="openSidebar('105_Flock Favorites',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\142_Insurgency Mentor.jpg" id="142_Insurgency Mentor" data-flag="@N" onclick="openSidebar('142_Insurgency Mentor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\21_Overbearing Researcher.jpg" id="21_Overbearing Researcher" data-flag="@N" onclick="openSidebar('21_Overbearing Researcher',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\46_Enlightenment.jpg" id="46_Enlightenment" data-flag="@N" onclick="openSidebar('46_Enlightenment',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\82_Merciless Headsman.jpg" id="82_Merciless Headsman" data-flag="@N" onclick="openSidebar('82_Merciless Headsman',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\106_Gain Traction.jpg" id="106_Gain Traction" data-flag="@N" onclick="openSidebar('106_Gain Traction',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\146_Prismatic Confluence.jpg" id="146_Prismatic Confluence" data-flag="@N" onclick="openSidebar('146_Prismatic Confluence',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\24_Planned Obsolescence.jpg" id="24_Planned Obsolescence" data-flag="@N" onclick="openSidebar('24_Planned Obsolescence',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\57_Sleeper Strix.jpg" id="57_Sleeper Strix" data-flag="@N" onclick="openSidebar('57_Sleeper Strix',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\84_Noxious Conditions.jpg" id="84_Noxious Conditions" data-flag="@N" onclick="openSidebar('84_Noxious Conditions',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\107_Gubernatorial Fundraiser.jpg" id="107_Gubernatorial Fundraiser" data-flag="@N" onclick="openSidebar('107_Gubernatorial Fundraiser',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\149_Scourge of Capitalism.jpg" id="149_Scourge of Capitalism" data-flag="@N" onclick="openSidebar('149_Scourge of Capitalism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\25_Prismatic Propagandist.jpg" id="25_Prismatic Propagandist" data-flag="@N" onclick="openSidebar('25_Prismatic Propagandist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\61_Trench Commander.jpg" id="61_Trench Commander" data-flag="@N" onclick="openSidebar('61_Trench Commander',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\87_Product of Nepotism.jpg" id="87_Product of Nepotism" data-flag="@N" onclick="openSidebar('87_Product of Nepotism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\113_Martyrize.jpg" id="113_Martyrize" data-flag="@N" onclick="openSidebar('113_Martyrize',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\150_Sillaman Regrafter.jpg" id="150_Sillaman Regrafter" data-flag="@N" onclick="openSidebar('150_Sillaman Regrafter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\26_Prosperity Project.jpg" id="26_Prosperity Project" data-flag="@N" onclick="openSidebar('26_Prosperity Project',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\62_Verity Circle.jpg" id="62_Verity Circle" data-flag="@N" onclick="openSidebar('62_Verity Circle',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\88_Rank and Defile.jpg" id="88_Rank and Defile" data-flag="@N" onclick="openSidebar('88_Rank and Defile',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\115_Patent Pending.jpg" id="115_Patent Pending" data-flag="@N" onclick="openSidebar('115_Patent Pending',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\151_Sleeper Insurgent.jpg" id="151_Sleeper Insurgent" data-flag="@N" onclick="openSidebar('151_Sleeper Insurgent',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\31_Selective Truthseeker.jpg" id="31_Selective Truthseeker" data-flag="@N" onclick="openSidebar('31_Selective Truthseeker',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\63_Veto.jpg" id="63_Veto" data-flag="@N" onclick="openSidebar('63_Veto',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\94_Warrant-Borne Cop.jpg" id="94_Warrant-Borne Cop" data-flag="@N" onclick="openSidebar('94_Warrant-Borne Cop',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\121_Scathing Remarks.jpg" id="121_Scathing Remarks" data-flag="@N" onclick="openSidebar('121_Scathing Remarks',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\153_Sustainable Investments.jpg" id="153_Sustainable Investments" data-flag="@N" onclick="openSidebar('153_Sustainable Investments',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\3_Border Junction.jpg" id="3_Border Junction" data-flag="@N" onclick="openSidebar('3_Border Junction',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\33_Abduct.jpg" id="33_Abduct" data-flag="@N" onclick="openSidebar('33_Abduct',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\66_Blue Collar Bloodsucker.jpg" id="66_Blue Collar Bloodsucker" data-flag="@N" onclick="openSidebar('66_Blue Collar Bloodsucker',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\96_Ardent Voter.jpg" id="96_Ardent Voter" data-flag="@N" onclick="openSidebar('96_Ardent Voter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\126_Anesthesiologist.jpg" id="126_Anesthesiologist" data-flag="@N" onclick="openSidebar('126_Anesthesiologist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\4_Brazen Blackcoats.jpg" id="4_Brazen Blackcoats" data-flag="@N" onclick="openSidebar('4_Brazen Blackcoats',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\35_Bring to the Limelight.jpg" id="35_Bring to the Limelight" data-flag="@N" onclick="openSidebar('35_Bring to the Limelight',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\67_Bureau Broodmother.jpg" id="67_Bureau Broodmother" data-flag="@N" onclick="openSidebar('67_Bureau Broodmother',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\97_Battlefield Tactician.jpg" id="97_Battlefield Tactician" data-flag="@N" onclick="openSidebar('97_Battlefield Tactician',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\128_Bouncers-for-Hire.jpg" id="128_Bouncers-for-Hire" data-flag="@N" onclick="openSidebar('128_Bouncers-for-Hire',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\5_Change Allegiances.jpg" id="5_Change Allegiances" data-flag="@N" onclick="openSidebar('5_Change Allegiances',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\38_Civic Copterist.jpg" id="38_Civic Copterist" data-flag="@N" onclick="openSidebar('38_Civic Copterist',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\68_Climactic Drop.jpg" id="68_Climactic Drop" data-flag="@N" onclick="openSidebar('68_Climactic Drop',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\98_Capital Maglev.jpg" id="98_Capital Maglev" data-flag="@N" onclick="openSidebar('98_Capital Maglev',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\132_Demolition Team.jpg" id="132_Demolition Team" data-flag="@N" onclick="openSidebar('132_Demolition Team',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\7_Codename: Cicada.jpg" id="7_Codename: Cicada" data-flag="@N" onclick="openSidebar('7_Codename: Cicada',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\39_Codename: Bumblebee.jpg" id="39_Codename: Bumblebee" data-flag="@N" onclick="openSidebar('39_Codename: Bumblebee',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\69_Codename: Ant.jpg" id="69_Codename: Ant" data-flag="@N" onclick="openSidebar('69_Codename: Ant',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\101_Declamation Podium.jpg" id="101_Declamation Podium" data-flag="@N" onclick="openSidebar('101_Declamation Podium',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\134_Escalated Tensions.jpg" id="134_Escalated Tensions" data-flag="@N" onclick="openSidebar('134_Escalated Tensions',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\9_Eager Voter.jpg" id="9_Eager Voter" data-flag="@N" onclick="openSidebar('9_Eager Voter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\40_Combat Corporal.jpg" id="40_Combat Corporal" data-flag="@N" onclick="openSidebar('40_Combat Corporal',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\72_Covert Infiltrator.jpg" id="72_Covert Infiltrator" data-flag="@N" onclick="openSidebar('72_Covert Infiltrator',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\103_Flags on High.jpg" id="103_Flags on High" data-flag="@N" onclick="openSidebar('103_Flags on High',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\136_Gerrymanderer.jpg" id="136_Gerrymanderer" data-flag="@N" onclick="openSidebar('136_Gerrymanderer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\10_Enforcer's Baton.jpg" id="10_Enforcers Baton" data-flag="@N" onclick="openSidebar('10_Enforcers Baton',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\42_Dampening Reconciliator.jpg" id="42_Dampening Reconciliator" data-flag="@N" onclick="openSidebar('42_Dampening Reconciliator',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\74_Deadly Dispute.jpg" id="74_Deadly Dispute" data-flag="@N" onclick="openSidebar('74_Deadly Dispute',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\108_Hazakh Commandos.jpg" id="108_Hazakh Commandos" data-flag="@N" onclick="openSidebar('108_Hazakh Commandos',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\139_Idealistic Voter.jpg" id="139_Idealistic Voter" data-flag="@N" onclick="openSidebar('139_Idealistic Voter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\13_Held in Contempt.jpg" id="13_Held in Contempt" data-flag="@N" onclick="openSidebar('13_Held in Contempt',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\45_Election Fraud.jpg" id="45_Election Fraud" data-flag="@N" onclick="openSidebar('45_Election Fraud',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\75_Estranged Aristocrat.jpg" id="75_Estranged Aristocrat" data-flag="@N" onclick="openSidebar('75_Estranged Aristocrat',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\109_Hired Shot.jpg" id="109_Hired Shot" data-flag="@N" onclick="openSidebar('109_Hired Shot',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\140_Inner City Scout.jpg" id="140_Inner City Scout" data-flag="@N" onclick="openSidebar('140_Inner City Scout',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\17_Magnetic Rhetorician.jpg" id="17_Magnetic Rhetorician" data-flag="@N" onclick="openSidebar('17_Magnetic Rhetorician',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\47_Evasive Tactics.jpg" id="47_Evasive Tactics" data-flag="@N" onclick="openSidebar('47_Evasive Tactics',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\76_Expendable Medic.jpg" id="76_Expendable Medic" data-flag="@N" onclick="openSidebar('76_Expendable Medic',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\110_Inflammatory Declaimer.jpg" id="110_Inflammatory Declaimer" data-flag="@N" onclick="openSidebar('110_Inflammatory Declaimer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\143_International Development.jpg" id="143_International Development" data-flag="@N" onclick="openSidebar('143_International Development',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\18_Medic's Implant.jpg" id="18_Medics Implant" data-flag="@N" onclick="openSidebar('18_Medics Implant',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\48_Expendable Researcher.jpg" id="48_Expendable Researcher" data-flag="@N" onclick="openSidebar('48_Expendable Researcher',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\78_Hazakh Conscriptor.jpg" id="78_Hazakh Conscriptor" data-flag="@N" onclick="openSidebar('78_Hazakh Conscriptor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\112_Main Street Hooligang.jpg" id="112_Main Street Hooligang" data-flag="@N" onclick="openSidebar('112_Main Street Hooligang',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\144_Invest.jpg" id="144_Invest" data-flag="@N" onclick="openSidebar('144_Invest',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\22_Penrath Roperunner.jpg" id="22_Penrath Roperunner" data-flag="@N" onclick="openSidebar('22_Penrath Roperunner',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\50_Informed Voter.jpg" id="50_Informed Voter" data-flag="@N" onclick="openSidebar('50_Informed Voter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\81_Lofty Voter.jpg" id="81_Lofty Voter" data-flag="@N" onclick="openSidebar('81_Lofty Voter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\118_Reckless Jailbreak.jpg" id="118_Reckless Jailbreak" data-flag="@N" onclick="openSidebar('118_Reckless Jailbreak',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\145_Mana Harvesters.jpg" id="145_Mana Harvesters" data-flag="@N" onclick="openSidebar('145_Mana Harvesters',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\27_Replicated Regiment.jpg" id="27_Replicated Regiment" data-flag="@N" onclick="openSidebar('27_Replicated Regiment',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\51_Invader of Privacy.jpg" id="51_Invader of Privacy" data-flag="@N" onclick="openSidebar('51_Invader of Privacy',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\83_Night Squad.jpg" id="83_Night Squad" data-flag="@N" onclick="openSidebar('83_Night Squad',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\119_Resourceful Hireling.jpg" id="119_Resourceful Hireling" data-flag="@N" onclick="openSidebar('119_Resourceful Hireling',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\147_Ram Through.jpg" id="147_Ram Through" data-flag="@N" onclick="openSidebar('147_Ram Through',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\28_Retaliatory Outburst.jpg" id="28_Retaliatory Outburst" data-flag="@N" onclick="openSidebar('28_Retaliatory Outburst',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\53_Political Prisoner.jpg" id="53_Political Prisoner" data-flag="@N" onclick="openSidebar('53_Political Prisoner',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\86_Presidential Pardon.jpg" id="86_Presidential Pardon" data-flag="@N" onclick="openSidebar('86_Presidential Pardon',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\120_Revolutionary Throng.jpg" id="120_Revolutionary Throng" data-flag="@N" onclick="openSidebar('120_Revolutionary Throng',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\148_Ruinous Discovery.jpg" id="148_Ruinous Discovery" data-flag="@N" onclick="openSidebar('148_Ruinous Discovery',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\29_Rogue Justiciar.jpg" id="29_Rogue Justiciar" data-flag="@N" onclick="openSidebar('29_Rogue Justiciar',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\56_Rush for Results.jpg" id="56_Rush for Results" data-flag="@N" onclick="openSidebar('56_Rush for Results',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\89_Rigged Trial.jpg" id="89_Rigged Trial" data-flag="@N" onclick="openSidebar('89_Rigged Trial',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\123_Splintering Blast.jpg" id="123_Splintering Blast" data-flag="@N" onclick="openSidebar('123_Splintering Blast',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\154_Test Subject Alpha.jpg" id="154_Test Subject Alpha" data-flag="@N" onclick="openSidebar('154_Test Subject Alpha',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\30_Seasoned Spymaster.jpg" id="30_Seasoned Spymaster" data-flag="@N" onclick="openSidebar('30_Seasoned Spymaster',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\58_Stasis Chamber.jpg" id="58_Stasis Chamber" data-flag="@N" onclick="openSidebar('58_Stasis Chamber',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\90_Senators' Chauffeur.jpg" id="90_Senators Chauffeur" data-flag="@N" onclick="openSidebar('90_Senators Chauffeur',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\124_Up-and-Comer.jpg" id="124_Up-and-Comer" data-flag="@N" onclick="openSidebar('124_Up-and-Comer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\155_Triumphant Herd.jpg" id="155_Triumphant Herd" data-flag="@N" onclick="openSidebar('155_Triumphant Herd',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\266_Chromatic Rift_PRO_CNY.jpg" id="266_Chromatic Rift_PRO_CNY" data-flag="@N" onclick="openSidebar('266_Chromatic Rift_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\269_Gaze Upon Civilization_PRO_CNY.jpg" id="269_Gaze Upon Civilization_PRO_CNY" data-flag="@N" onclick="openSidebar('269_Gaze Upon Civilization_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\281_Serve Again_PRO_CNY.jpg" id="281_Serve Again_PRO_CNY" data-flag="@N" onclick="openSidebar('281_Serve Again_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\270_Sparks of a Revolution_PRO_CNY.jpg" id="270_Sparks of a Revolution_PRO_CNY" data-flag="@N" onclick="openSidebar('270_Sparks of a Revolution_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\267_Incumbency_PRO_CNY.jpg" id="267_Incumbency_PRO_CNY" data-flag="@N" onclick="openSidebar('267_Incumbency_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\280_Thesis on Mutation_PRO_CNY.jpg" id="280_Thesis on Mutation_PRO_CNY" data-flag="@N" onclick="openSidebar('280_Thesis on Mutation_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1670_Freedom_PRO_CNY.jpg" id="1670_Freedom_PRO_CNY" data-flag="@N" onclick="openSidebar('1670_Freedom_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\268_Severin's Masterwork_PRO_CNY.jpg" id="268_Severins Masterwork_PRO_CNY" data-flag="@N" onclick="openSidebar('268_Severins Masterwork_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\191_High Senator Talpa.jpg" id="191_High Senator Talpa" data-flag="@N" onclick="openSidebar('191_High Senator Talpa',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\209_Scrapyard Mecha.jpg" id="209_Scrapyard Mecha" data-flag="@N" onclick="openSidebar('209_Scrapyard Mecha',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\185_Garren, Returned Prophet.jpg" id="185_Garren, Returned Prophet" data-flag="@N" onclick="openSidebar('185_Garren, Returned Prophet',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\179_Estrathian Gentrifiers.jpg" id="179_Estrathian Gentrifiers" data-flag="@N" onclick="openSidebar('179_Estrathian Gentrifiers',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\220_Survivors of the New World.jpg" id="220_Survivors of the New World" data-flag="@N" onclick="openSidebar('220_Survivors of the New World',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\181_Eyes of the Bureau.jpg" id="181_Eyes of the Bureau" data-flag="@N" onclick="openSidebar('181_Eyes of the Bureau',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\172_Defect.jpg" id="172_Defect" data-flag="@N" onclick="openSidebar('172_Defect',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\174_Dhante's Inferno.jpg" id="174_Dhantes Inferno" data-flag="@N" onclick="openSidebar('174_Dhantes Inferno',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\163_Campaign Rally.jpg" id="163_Campaign Rally" data-flag="@N" onclick="openSidebar('163_Campaign Rally',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\159_Axiomatic Shift.jpg" id="159_Axiomatic Shift" data-flag="@N" onclick="openSidebar('159_Axiomatic Shift',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\199_Neuralinked Hive.jpg" id="199_Neuralinked Hive" data-flag="@N" onclick="openSidebar('199_Neuralinked Hive',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\192_Identity Forger.jpg" id="192_Identity Forger" data-flag="@N" onclick="openSidebar('192_Identity Forger',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\186_Gatherer of Grievances.jpg" id="186_Gatherer of Grievances" data-flag="@N" onclick="openSidebar('186_Gatherer of Grievances',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\230_Vishanki Hellkite.jpg" id="230_Vishanki Hellkite" data-flag="@N" onclick="openSidebar('230_Vishanki Hellkite',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\177_Empowered Revisionary.jpg" id="177_Empowered Revisionary" data-flag="@N" onclick="openSidebar('177_Empowered Revisionary',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\187_Genetics Prodigy.jpg" id="187_Genetics Prodigy" data-flag="@N" onclick="openSidebar('187_Genetics Prodigy',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\168_Chittering Gargantua.jpg" id="168_Chittering Gargantua" data-flag="@N" onclick="openSidebar('168_Chittering Gargantua',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\173_Devoted Lackies.jpg" id="173_Devoted Lackies" data-flag="@N" onclick="openSidebar('173_Devoted Lackies',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\183_Free Market.jpg" id="183_Free Market" data-flag="@N" onclick="openSidebar('183_Free Market',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\166_Charity Match.jpg" id="166_Charity Match" data-flag="@N" onclick="openSidebar('166_Charity Match',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\211_Security Initiative.jpg" id="211_Security Initiative" data-flag="@N" onclick="openSidebar('211_Security Initiative',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\210_Search and Seizure.jpg" id="210_Search and Seizure" data-flag="@N" onclick="openSidebar('210_Search and Seizure',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\195_Liquidate.jpg" id="195_Liquidate" data-flag="@N" onclick="openSidebar('195_Liquidate',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\218_Speculative Stockbroker.jpg" id="218_Speculative Stockbroker" data-flag="@N" onclick="openSidebar('218_Speculative Stockbroker',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\223_Together in Arms.jpg" id="223_Together in Arms" data-flag="@N" onclick="openSidebar('223_Together in Arms',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\216_Social Engineering.jpg" id="216_Social Engineering" data-flag="@N" onclick="openSidebar('216_Social Engineering',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\213_Silence the Opposition.jpg" id="213_Silence the Opposition" data-flag="@N" onclick="openSidebar('213_Silence the Opposition',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\196_Meeting of the Elites.jpg" id="196_Meeting of the Elites" data-flag="@N" onclick="openSidebar('196_Meeting of the Elites',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\227_Vertical Integration.jpg" id="227_Vertical Integration" data-flag="@N" onclick="openSidebar('227_Vertical Integration',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\225_Underclass Hero.jpg" id="225_Underclass Hero" data-flag="@N" onclick="openSidebar('225_Underclass Hero',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\241_Private Investigators.jpg" id="241_Private Investigators" data-flag="@N" onclick="openSidebar('241_Private Investigators',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\235_Eyes in the Sky.jpg" id="235_Eyes in the Sky" data-flag="@N" onclick="openSidebar('235_Eyes in the Sky',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\237_Loophole Exploiter.jpg" id="237_Loophole Exploiter" data-flag="@N" onclick="openSidebar('237_Loophole Exploiter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\238_Metropolitan Champion.jpg" id="238_Metropolitan Champion" data-flag="@N" onclick="openSidebar('238_Metropolitan Champion',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\239_Nourishing Orator.jpg" id="239_Nourishing Orator" data-flag="@N" onclick="openSidebar('239_Nourishing Orator',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1611_Surveillance State.jpg" id="1611_Surveillance State" data-flag="@N" onclick="openSidebar('1611_Surveillance State',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1613_Authoritarianism.jpg" id="1613_Authoritarianism" data-flag="@N" onclick="openSidebar('1613_Authoritarianism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1596_Aristocracy.jpg" id="1596_Aristocracy" data-flag="@N" onclick="openSidebar('1596_Aristocracy',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1583_Industrialism.jpg" id="1583_Industrialism" data-flag="@N" onclick="openSidebar('1583_Industrialism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1623_Communitarianism.jpg" id="1623_Communitarianism" data-flag="@N" onclick="openSidebar('1623_Communitarianism',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\194_Legislative Gridlock.jpg" id="194_Legislative Gridlock" data-flag="@N" onclick="openSidebar('194_Legislative Gridlock',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\224_Traumatic Recollection.jpg" id="224_Traumatic Recollection" data-flag="@N" onclick="openSidebar('224_Traumatic Recollection',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\201_Patron of Arms.jpg" id="201_Patron of Arms" data-flag="@N" onclick="openSidebar('201_Patron of Arms',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\198_Mutinous Inciter.jpg" id="198_Mutinous Inciter" data-flag="@N" onclick="openSidebar('198_Mutinous Inciter',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\175_Diplomatic Alliance.jpg" id="175_Diplomatic Alliance" data-flag="@N" onclick="openSidebar('175_Diplomatic Alliance',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\245_Senate Filibuster.jpg" id="245_Senate Filibuster" data-flag="@N" onclick="openSidebar('245_Senate Filibuster',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\244_Rooftop Whistlesilencer.jpg" id="244_Rooftop Whistlesilencer" data-flag="@N" onclick="openSidebar('244_Rooftop Whistlesilencer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\236_Ignited Soul.jpg" id="236_Ignited Soul" data-flag="@N" onclick="openSidebar('236_Ignited Soul',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\243_Proletarian Rabble.jpg" id="243_Proletarian Rabble" data-flag="@N" onclick="openSidebar('243_Proletarian Rabble',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\234_Estrathian Philanthropist.jpg" id="234_Estrathian Philanthropist" data-flag="@N" onclick="openSidebar('234_Estrathian Philanthropist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\272_Defect_PRO_CNY.jpg" id="272_Defect_PRO_CNY" data-flag="@N" onclick="openSidebar('272_Defect_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\278_Liquidate_PRO_CNY.jpg" id="278_Liquidate_PRO_CNY" data-flag="@N" onclick="openSidebar('278_Liquidate_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\274_Vishanki Hellkite_PRO_CNY.jpg" id="274_Vishanki Hellkite_PRO_CNY" data-flag="@N" onclick="openSidebar('274_Vishanki Hellkite_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\273_Search and Seizure_PRO_CNY.jpg" id="273_Search and Seizure_PRO_CNY" data-flag="@N" onclick="openSidebar('273_Search and Seizure_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\279_Ignited Soul_PRO_CNY.jpg" id="279_Ignited Soul_PRO_CNY" data-flag="@N" onclick="openSidebar('279_Ignited Soul_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\242_Projects Overseer.jpg" id="242_Projects Overseer" data-flag="@N" onclick="openSidebar('242_Projects Overseer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\247_Volatile Sergeant.jpg" id="247_Volatile Sergeant" data-flag="@N" onclick="openSidebar('247_Volatile Sergeant',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\233_Debt Collectors.jpg" id="233_Debt Collectors" data-flag="@N" onclick="openSidebar('233_Debt Collectors',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\246_Trailblazer Anarch.jpg" id="246_Trailblazer Anarch" data-flag="@N" onclick="openSidebar('246_Trailblazer Anarch',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\240_Pinnacle of Progress.jpg" id="240_Pinnacle of Progress" data-flag="@N" onclick="openSidebar('240_Pinnacle of Progress',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\170_The Connaistone.jpg" id="170_The Connaistone" data-flag="@N" onclick="openSidebar('170_The Connaistone',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\193_Krint, Five Star.jpg" id="193_Krint, Five Star" data-flag="@N" onclick="openSidebar('193_Krint, Five Star',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\167_Chief Executive Dhante.jpg" id="167_Chief Executive Dhante" data-flag="@N" onclick="openSidebar('167_Chief Executive Dhante',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\178_Eo, the Great Equalizer.jpg" id="178_Eo, the Great Equalizer" data-flag="@N" onclick="openSidebar('178_Eo, the Great Equalizer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\212_Severin, Sparkmind.jpg" id="212_Severin, Sparkmind" data-flag="@N" onclick="openSidebar('212_Severin, Sparkmind',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\208_Scandalous Revelation.jpg" id="208_Scandalous Revelation" data-flag="@N" onclick="openSidebar('208_Scandalous Revelation',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\171_Coup D'Etat.jpg" id="171_Coup DEtat" data-flag="@N" onclick="openSidebar('171_Coup DEtat',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\184_Freightyard Scrappers.jpg" id="184_Freightyard Scrappers" data-flag="@N" onclick="openSidebar('184_Freightyard Scrappers',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\200_Out With a Bang.jpg" id="200_Out With a Bang" data-flag="@N" onclick="openSidebar('200_Out With a Bang',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\188_Genome Project.jpg" id="188_Genome Project" data-flag="@N" onclick="openSidebar('188_Genome Project',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\221_Tiril Agenda.jpg" id="221_Tiril Agenda" data-flag="@N" onclick="openSidebar('221_Tiril Agenda',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\180_Exemplar of Grit.jpg" id="180_Exemplar of Grit" data-flag="@N" onclick="openSidebar('180_Exemplar of Grit',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\228_Vishanki Agenda.jpg" id="228_Vishanki Agenda" data-flag="@N" onclick="openSidebar('228_Vishanki Agenda',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\202_Penrath Agenda.jpg" id="202_Penrath Agenda" data-flag="@N" onclick="openSidebar('202_Penrath Agenda',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\205_Prime for Innovation.jpg" id="205_Prime for Innovation" data-flag="@N" onclick="openSidebar('205_Prime for Innovation',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\231_Whirring Inspector.jpg" id="231_Whirring Inspector" data-flag="@N" onclick="openSidebar('231_Whirring Inspector',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\189_Hazakh Agenda.jpg" id="189_Hazakh Agenda" data-flag="@N" onclick="openSidebar('189_Hazakh Agenda',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\232_Work Safety Violation.jpg" id="232_Work Safety Violation" data-flag="@N" onclick="openSidebar('232_Work Safety Violation',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\204_Penrath Dispatcher.jpg" id="204_Penrath Dispatcher" data-flag="@N" onclick="openSidebar('204_Penrath Dispatcher',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\214_Sillaman Agenda.jpg" id="214_Sillaman Agenda" data-flag="@N" onclick="openSidebar('214_Sillaman Agenda',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\165_Central Processor.jpg" id="165_Central Processor" data-flag="@N" onclick="openSidebar('165_Central Processor',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\158_Assault Engine.jpg" id="158_Assault Engine" data-flag="@N" onclick="openSidebar('158_Assault Engine',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\157_Adaptive Hydra.jpg" id="157_Adaptive Hydra" data-flag="@N" onclick="openSidebar('157_Adaptive Hydra',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\197_Mondo, Outcast Maverick.jpg" id="197_Mondo, Outcast Maverick" data-flag="@N" onclick="openSidebar('197_Mondo, Outcast Maverick',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\160_Bioengineered Opus.jpg" id="160_Bioengineered Opus" data-flag="@N" onclick="openSidebar('160_Bioengineered Opus',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\169_Codename: Spyder.jpg" id="169_Codename: Spyder" data-flag="@N" onclick="openSidebar('169_Codename: Spyder',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\162_Blackout.jpg" id="162_Blackout" data-flag="@N" onclick="openSidebar('162_Blackout',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\217_Sola, Contraband Playboy.jpg" id="217_Sola, Contraband Playboy" data-flag="@N" onclick="openSidebar('217_Sola, Contraband Playboy',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\219_Storm the Senate.jpg" id="219_Storm the Senate" data-flag="@N" onclick="openSidebar('219_Storm the Senate',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\164_Carlisle, Grid Globalizer.jpg" id="164_Carlisle, Grid Globalizer" data-flag="@N" onclick="openSidebar('164_Carlisle, Grid Globalizer',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\207_Reconnaissance Agent.jpg" id="207_Reconnaissance Agent" data-flag="@N" onclick="openSidebar('207_Reconnaissance Agent',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\182_The First Battalion.jpg" id="182_The First Battalion" data-flag="@N" onclick="openSidebar('182_The First Battalion',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\229_Vishanki Ambassador.jpg" id="229_Vishanki Ambassador" data-flag="@N" onclick="openSidebar('229_Vishanki Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\226_Urban Twinmotors.jpg" id="226_Urban Twinmotors" data-flag="@N" onclick="openSidebar('226_Urban Twinmotors',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\176_Dissect.jpg" id="176_Dissect" data-flag="@N" onclick="openSidebar('176_Dissect',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\222_Tiril Ambassador.jpg" id="222_Tiril Ambassador" data-flag="@N" onclick="openSidebar('222_Tiril Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\190_Hazakh Ambassador.jpg" id="190_Hazakh Ambassador" data-flag="@N" onclick="openSidebar('190_Hazakh Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\276_Work Safety Violation_PRO_CNY.jpg" id="276_Work Safety Violation_PRO_CNY" data-flag="@N" onclick="openSidebar('276_Work Safety Violation_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\203_Penrath Ambassador.jpg" id="203_Penrath Ambassador" data-flag="@N" onclick="openSidebar('203_Penrath Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\215_Sillaman Ambassador.jpg" id="215_Sillaman Ambassador" data-flag="@N" onclick="openSidebar('215_Sillaman Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\275_Whirring Inspector_PRO_CNY.jpg" id="275_Whirring Inspector_PRO_CNY" data-flag="@N" onclick="openSidebar('275_Whirring Inspector_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\271_Coup D'Etat_PRO_CNY.jpg" id="271_Coup DEtat_PRO_CNY" data-flag="@N" onclick="openSidebar('271_Coup DEtat_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\161_Black-Tie Gala.jpg" id="161_Black-Tie Gala" data-flag="@N" onclick="openSidebar('161_Black-Tie Gala',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\206_The Quindral Accords.jpg" id="206_The Quindral Accords" data-flag="@N" onclick="openSidebar('206_The Quindral Accords',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\1_Tomer, Figurehead President.jpg" id="1_Tomer, Figurehead President" data-flag="@N" onclick="openSidebar('1_Tomer, Figurehead President',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\248_The Majority Whip.jpg" id="248_The Majority Whip" data-flag="@N" onclick="openSidebar('248_The Majority Whip',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\250_Congressional Hall.jpg" id="250_Congressional Hall" data-flag="@N" onclick="openSidebar('250_Congressional Hall',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\256_Interrogation Chamber.jpg" id="256_Interrogation Chamber" data-flag="@N" onclick="openSidebar('256_Interrogation Chamber',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\253_Executive Office.jpg" id="253_Executive Office" data-flag="@N" onclick="openSidebar('253_Executive Office',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\258_Neglected Slums.jpg" id="258_Neglected Slums" data-flag="@N" onclick="openSidebar('258_Neglected Slums',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\259_Open Air Boardwalk.jpg" id="259_Open Air Boardwalk" data-flag="@N" onclick="openSidebar('259_Open Air Boardwalk',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\254_Groupthink Tank.jpg" id="254_Groupthink Tank" data-flag="@N" onclick="openSidebar('254_Groupthink Tank',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\249_Bustling Motorway.jpg" id="249_Bustling Motorway" data-flag="@N" onclick="openSidebar('249_Bustling Motorway',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\257_Looming Skyscrapers.jpg" id="257_Looming Skyscrapers" data-flag="@N" onclick="openSidebar('257_Looming Skyscrapers',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\264_Urban Sunscape.jpg" id="264_Urban Sunscape" data-flag="@N" onclick="openSidebar('264_Urban Sunscape',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\251_Controlled Ecosystem.jpg" id="251_Controlled Ecosystem" data-flag="@N" onclick="openSidebar('251_Controlled Ecosystem',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\252_Estrathe, Center of Civilization.jpg" id="252_Estrathe, Center of Civilization" data-flag="@N" onclick="openSidebar('252_Estrathe, Center of Civilization',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\255_Hazakh District.jpg" id="255_Hazakh District" data-flag="@N" onclick="openSidebar('255_Hazakh District',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\260_Penrath District.jpg" id="260_Penrath District" data-flag="@N" onclick="openSidebar('260_Penrath District',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\261_Redeveloped Cityscape.jpg" id="261_Redeveloped Cityscape" data-flag="@N" onclick="openSidebar('261_Redeveloped Cityscape',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\262_Sillaman District.jpg" id="262_Sillaman District" data-flag="@N" onclick="openSidebar('262_Sillaman District',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\263_Tiril District.jpg" id="263_Tiril District" data-flag="@N" onclick="openSidebar('263_Tiril District',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\265_Vishanki District.jpg" id="265_Vishanki District" data-flag="@N" onclick="openSidebar('265_Vishanki District',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\277_Estrathe, Center of Civilization_PRO_CNY.jpg" id="277_Estrathe, Center of Civilization_PRO_CNY" data-flag="@N" onclick="openSidebar('277_Estrathe, Center of Civilization_PRO_CNY',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\52_Island_CNY.jpg" id="52_Island_CNY" data-flag="@N" onclick="openSidebar('52_Island_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\135_Forest_CNY.jpg" id="135_Forest_CNY" data-flag="@N" onclick="openSidebar('135_Forest_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\114_Mountain_CNY.jpg" id="114_Mountain_CNY" data-flag="@N" onclick="openSidebar('114_Mountain_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\92_Swamp_CNY.jpg" id="92_Swamp_CNY" data-flag="@N" onclick="openSidebar('92_Swamp_CNY',false)"></div>
+			<div class="container"><img alt="/sets\CNY-files\img\23_Plains_CNY.jpg" id="23_Plains_CNY" data-flag="@N" onclick="openSidebar('23_Plains_CNY',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
