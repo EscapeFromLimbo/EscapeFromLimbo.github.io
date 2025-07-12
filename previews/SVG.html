@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/SVG-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SVG visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SVG-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/SVG-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img data-alt_src="/sets\SVG-files\img\3_Brallatt, Light-Maiden_SVG_back.jpg" alt="/sets\SVG-files\img\3_Brallatt, Light-Maiden_SVG_front.jpg" id="3_Brallatt, Light-Maiden_SVG" data-flag="@XD" onclick="openSidebar('3_Brallatt, Light-Maiden_SVG',false)"><button class="flip-btn" onclick="imgFlip('3_Brallatt, Light-Maiden_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\32_Algrond, Storm-Serpent_SVG.jpg" id="32_Algrond, Storm-Serpent_SVG" data-flag="@X" onclick="openSidebar('32_Algrond, Storm-Serpent_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\65_Coax Soul_SVG.jpg" id="65_Coax Soul_SVG" data-flag="@X" onclick="openSidebar('65_Coax Soul_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\95_Aldur Peak-Terror_SVG.jpg" id="95_Aldur Peak-Terror_SVG" data-flag="@X" onclick="openSidebar('95_Aldur Peak-Terror_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\127_Bridge of Prismafrost_SVG.jpg" id="127_Bridge of Prismafrost_SVG" data-flag="@X" onclick="openSidebar('127_Bridge of Prismafrost_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\8_Desolation_SVG.jpg" id="8_Desolation_SVG" data-flag="@X" onclick="openSidebar('8_Desolation_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\33_Algrond's Awakening_SVG.jpg" id="33_Algronds Awakening_SVG" data-flag="@X" onclick="openSidebar('33_Algronds Awakening_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\70_Feast of the Crows_SVG.jpg" id="70_Feast of the Crows_SVG" data-flag="@X" onclick="openSidebar('70_Feast of the Crows_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\97_Ceaseless Assault_SVG.jpg" id="97_Ceaseless Assault_SVG" data-flag="@X" onclick="openSidebar('97_Ceaseless Assault_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\133_Eikre, Sciurine Messenger_SVG.jpg" id="133_Eikre, Sciurine Messenger_SVG" data-flag="@X" onclick="openSidebar('133_Eikre, Sciurine Messenger_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\11_Experienced Armorsmith_SVG.jpg" id="11_Experienced Armorsmith_SVG" data-flag="@X" onclick="openSidebar('11_Experienced Armorsmith_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\34_Amos, Rune-Mage_SVG.jpg" id="34_Amos, Rune-Mage_SVG" data-flag="@X" onclick="openSidebar('34_Amos, Rune-Mage_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\74_Honorless Devourer_SVG.jpg" id="74_Honorless Devourer_SVG" data-flag="@X" onclick="openSidebar('74_Honorless Devourer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\100_Darg Raider_SVG.jpg" id="100_Darg Raider_SVG" data-flag="@X" onclick="openSidebar('100_Darg Raider_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\140_Lyrehorn Stag_SVG.jpg" id="140_Lyrehorn Stag_SVG" data-flag="@X" onclick="openSidebar('140_Lyrehorn Stag_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\13_Furious Twinblade_SVG.jpg" id="13_Furious Twinblade_SVG" data-flag="@X" onclick="openSidebar('13_Furious Twinblade_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\40_Maldunn, Raven-Wise_SVG_back.jpg" alt="/sets\SVG-files\img\40_Maldunn, Raven-Wise_SVG_front.jpg" id="40_Maldunn, Raven-Wise_SVG" data-flag="@XD" onclick="openSidebar('40_Maldunn, Raven-Wise_SVG',false)"><button class="flip-btn" onclick="imgFlip('40_Maldunn, Raven-Wise_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\77_Lumbering Mammoth_SVG.jpg" id="77_Lumbering Mammoth_SVG" data-flag="@X" onclick="openSidebar('77_Lumbering Mammoth_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\101_Dwarven Rallier_SVG.jpg" id="101_Dwarven Rallier_SVG" data-flag="@X" onclick="openSidebar('101_Dwarven Rallier_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\141_Orrivan's Victory_SVG.jpg" id="141_Orrivans Victory_SVG" data-flag="@X" onclick="openSidebar('141_Orrivans Victory_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\25_Unite the Clans_SVG.jpg" id="25_Unite the Clans_SVG" data-flag="@X" onclick="openSidebar('25_Unite the Clans_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\52_Silverarm Spellblade_SVG.jpg" id="52_Silverarm Spellblade_SVG" data-flag="@X" onclick="openSidebar('52_Silverarm Spellblade_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\78_Munigg's Wisdom_SVG.jpg" id="78_Muniggs Wisdom_SVG" data-flag="@X" onclick="openSidebar('78_Muniggs Wisdom_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\105_Fire-Gem Amulet_SVG.jpg" id="105_Fire-Gem Amulet_SVG" data-flag="@X" onclick="openSidebar('105_Fire-Gem Amulet_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\142_Overwhelming Grizzly_SVG.jpg" id="142_Overwhelming Grizzly_SVG" data-flag="@X" onclick="openSidebar('142_Overwhelming Grizzly_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\27_Vengeful Icemage_SVG.jpg" id="27_Vengeful Icemage_SVG" data-flag="@X" onclick="openSidebar('27_Vengeful Icemage_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\60_Witness Beyonds_SVG.jpg" id="60_Witness Beyonds_SVG" data-flag="@X" onclick="openSidebar('60_Witness Beyonds_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\79_Myrkalt, Shade-Bound_SVG_back.jpg" alt="/sets\SVG-files\img\79_Myrkalt, Shade-Bound_SVG_front.jpg" id="79_Myrkalt, Shade-Bound_SVG" data-flag="@XD" onclick="openSidebar('79_Myrkalt, Shade-Bound_SVG',false)"><button class="flip-btn" onclick="imgFlip('79_Myrkalt, Shade-Bound_SVG')"></button></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\112_Rasnif, Rage-Heart_SVG_back.jpg" alt="/sets\SVG-files\img\112_Rasnif, Rage-Heart_SVG_front.jpg" id="112_Rasnif, Rage-Heart_SVG" data-flag="@XD" onclick="openSidebar('112_Rasnif, Rage-Heart_SVG',false)"><button class="flip-btn" onclick="imgFlip('112_Rasnif, Rage-Heart_SVG')"></button></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\146_Skagar, Wild-Lord_SVG_back.jpg" alt="/sets\SVG-files\img\146_Skagar, Wild-Lord_SVG_front.jpg" id="146_Skagar, Wild-Lord_SVG" data-flag="@XD" onclick="openSidebar('146_Skagar, Wild-Lord_SVG',false)"><button class="flip-btn" onclick="imgFlip('146_Skagar, Wild-Lord_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\30_Winterholm Hersir_SVG.jpg" id="30_Winterholm Hersir_SVG" data-flag="@X" onclick="openSidebar('30_Winterholm Hersir_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\61_Wizened Sage_SVG.jpg" id="61_Wizened Sage_SVG" data-flag="@X" onclick="openSidebar('61_Wizened Sage_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\93_Valdulfr, Unshackled_SVG.jpg" id="93_Valdulfr, Unshackled_SVG" data-flag="@X" onclick="openSidebar('93_Valdulfr, Unshackled_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\115_Rune-Mage's Wrath_SVG.jpg" id="115_Rune-Mages Wrath_SVG" data-flag="@X" onclick="openSidebar('115_Rune-Mages Wrath_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\149_Skofa Commander_SVG.jpg" id="149_Skofa Commander_SVG" data-flag="@X" onclick="openSidebar('149_Skofa Commander_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\1_Banish to the Ice_SVG.jpg" id="1_Banish to the Ice_SVG" data-flag="@X" onclick="openSidebar('1_Banish to the Ice_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\39_Inconspicuous Sloop_SVG.jpg" id="39_Inconspicuous Sloop_SVG" data-flag="@X" onclick="openSidebar('39_Inconspicuous Sloop_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\64_Bloodprice_SVG.jpg" id="64_Bloodprice_SVG" data-flag="@X" onclick="openSidebar('64_Bloodprice_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\99_Climb to the Peak_SVG.jpg" id="99_Climb to the Peak_SVG" data-flag="@X" onclick="openSidebar('99_Climb to the Peak_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\125_Ancestral Mantle_SVG.jpg" id="125_Ancestral Mantle_SVG" data-flag="@X" onclick="openSidebar('125_Ancestral Mantle_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\5_Brallatt's Light_SVG.jpg" id="5_Brallatts Light_SVG" data-flag="@X" onclick="openSidebar('5_Brallatts Light_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\45_Northwind Adventurer_SVG_back.jpg" alt="/sets\SVG-files\img\45_Northwind Adventurer_SVG_front.jpg" id="45_Northwind Adventurer_SVG" data-flag="@XD" onclick="openSidebar('45_Northwind Adventurer_SVG',false)"><button class="flip-btn" onclick="imgFlip('45_Northwind Adventurer_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\76_Imposing Dreadship_SVG.jpg" id="76_Imposing Dreadship_SVG" data-flag="@X" onclick="openSidebar('76_Imposing Dreadship_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\103_Ferocious Flame_SVG.jpg" id="103_Ferocious Flame_SVG" data-flag="@X" onclick="openSidebar('103_Ferocious Flame_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\126_Boon of Might_SVG.jpg" id="126_Boon of Might_SVG" data-flag="@X" onclick="openSidebar('126_Boon of Might_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\9_Devout Sword-Thane_SVG_back.jpg" alt="/sets\SVG-files\img\9_Devout Sword-Thane_SVG_front.jpg" id="9_Devout Sword-Thane_SVG" data-flag="@XD" onclick="openSidebar('9_Devout Sword-Thane_SVG',false)"><button class="flip-btn" onclick="imgFlip('9_Devout Sword-Thane_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\46_Raven-Wise Shrine_SVG.jpg" id="46_Raven-Wise Shrine_SVG" data-flag="@X" onclick="openSidebar('46_Raven-Wise Shrine_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\80_Myrkalt's Rager_SVG_back.jpg" alt="/sets\SVG-files\img\80_Myrkalt's Rager_SVG_front.jpg" id="80_Myrkalts Rager_SVG" data-flag="@XD" onclick="openSidebar('80_Myrkalts Rager_SVG',false)"><button class="flip-btn" onclick="imgFlip('80_Myrkalts Rager_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\106_Glyph-Gift Berserker_SVG.jpg" id="106_Glyph-Gift Berserker_SVG" data-flag="@X" onclick="openSidebar('106_Glyph-Gift Berserker_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\129_Dawnglade Assailant_SVG_back.jpg" alt="/sets\SVG-files\img\129_Dawnglade Assailant_SVG_front.jpg" id="129_Dawnglade Assailant_SVG" data-flag="@XD" onclick="openSidebar('129_Dawnglade Assailant_SVG',false)"><button class="flip-btn" onclick="imgFlip('129_Dawnglade Assailant_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\14_Glyph of Protection_SVG.jpg" id="14_Glyph of Protection_SVG" data-flag="@X" onclick="openSidebar('14_Glyph of Protection_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\49_Rune's Insight_SVG.jpg" id="49_Runes Insight_SVG" data-flag="@X" onclick="openSidebar('49_Runes Insight_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\81_Northlands Revenant_SVG.jpg" id="81_Northlands Revenant_SVG" data-flag="@X" onclick="openSidebar('81_Northlands Revenant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\107_Highland Warband_SVG.jpg" id="107_Highland Warband_SVG" data-flag="@X" onclick="openSidebar('107_Highland Warband_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\131_Dawnglade Wildbear_SVG.jpg" id="131_Dawnglade Wildbear_SVG" data-flag="@X" onclick="openSidebar('131_Dawnglade Wildbear_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\15_Guiding Valkyrie_SVG.jpg" id="15_Guiding Valkyrie_SVG" data-flag="@X" onclick="openSidebar('15_Guiding Valkyrie_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\50_Sail-Road's Scourge_SVG.jpg" id="50_Sail-Roads Scourge_SVG" data-flag="@X" onclick="openSidebar('50_Sail-Roads Scourge_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\84_Rise of the Draugr_SVG.jpg" id="84_Rise of the Draugr_SVG" data-flag="@X" onclick="openSidebar('84_Rise of the Draugr_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\111_Rage-Heart Shrine_SVG.jpg" id="111_Rage-Heart Shrine_SVG" data-flag="@X" onclick="openSidebar('111_Rage-Heart Shrine_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\132_Dullrock Giant_SVG.jpg" id="132_Dullrock Giant_SVG" data-flag="@X" onclick="openSidebar('132_Dullrock Giant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\16_Light-Maiden Shrine_SVG.jpg" id="16_Light-Maiden Shrine_SVG" data-flag="@X" onclick="openSidebar('16_Light-Maiden Shrine_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\51_Siege of the Frost Giants_SVG.jpg" id="51_Siege of the Frost Giants_SVG" data-flag="@X" onclick="openSidebar('51_Siege of the Frost Giants_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\86_Shade-Bound Shrine_SVG.jpg" id="86_Shade-Bound Shrine_SVG" data-flag="@X" onclick="openSidebar('86_Shade-Bound Shrine_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\117_Shifting Forms_SVG.jpg" id="117_Shifting Forms_SVG" data-flag="@X" onclick="openSidebar('117_Shifting Forms_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\136_Grovecloak Fighter_SVG.jpg" id="136_Grovecloak Fighter_SVG" data-flag="@X" onclick="openSidebar('136_Grovecloak Fighter_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\18_Overwhelmed Sentry_SVG.jpg" id="18_Overwhelmed Sentry_SVG" data-flag="@X" onclick="openSidebar('18_Overwhelmed Sentry_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\53_Skofa Ambusher_SVG.jpg" id="53_Skofa Ambusher_SVG" data-flag="@X" onclick="openSidebar('53_Skofa Ambusher_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\88_Skygga Reinforcement_SVG.jpg" id="88_Skygga Reinforcement_SVG" data-flag="@X" onclick="openSidebar('88_Skygga Reinforcement_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\119_Talented Blacksmith_SVG.jpg" id="119_Talented Blacksmith_SVG" data-flag="@X" onclick="openSidebar('119_Talented Blacksmith_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\143_Reclamation Sage_SVG.jpg" id="143_Reclamation Sage_SVG" data-flag="@X" onclick="openSidebar('143_Reclamation Sage_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\21_Spill Forth_SVG.jpg" id="21_Spill Forth_SVG" data-flag="@X" onclick="openSidebar('21_Spill Forth_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\56_Spirit of the World's Edge_SVG.jpg" id="56_Spirit of the Worlds Edge_SVG" data-flag="@X" onclick="openSidebar('56_Spirit of the Worlds Edge_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\89_Smokewreath Raven_SVG.jpg" id="89_Smokewreath Raven_SVG" data-flag="@X" onclick="openSidebar('89_Smokewreath Raven_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\123_Varsmidd Brawler_SVG.jpg" id="123_Varsmidd Brawler_SVG" data-flag="@X" onclick="openSidebar('123_Varsmidd Brawler_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\153_Weaving of the World_SVG.jpg" id="153_Weaving of the World_SVG" data-flag="@X" onclick="openSidebar('153_Weaving of the World_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\26_Valiant Swordsman_SVG.jpg" id="26_Valiant Swordsman_SVG" data-flag="@X" onclick="openSidebar('26_Valiant Swordsman_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\62_Writhing Fog_SVG.jpg" id="62_Writhing Fog_SVG" data-flag="@X" onclick="openSidebar('62_Writhing Fog_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\92_Unrelenting Assault_SVG.jpg" id="92_Unrelenting Assault_SVG" data-flag="@X" onclick="openSidebar('92_Unrelenting Assault_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\124_Warforge Zealot_SVG_back.jpg" alt="/sets\SVG-files\img\124_Warforge Zealot_SVG_front.jpg" id="124_Warforge Zealot_SVG" data-flag="@XD" onclick="openSidebar('124_Warforge Zealot_SVG',false)"><button class="flip-btn" onclick="imgFlip('124_Warforge Zealot_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\154_Wild-Lord Shrine_SVG.jpg" id="154_Wild-Lord Shrine_SVG" data-flag="@X" onclick="openSidebar('154_Wild-Lord Shrine_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\2_Blessed Valkyrie_SVG.jpg" id="2_Blessed Valkyrie_SVG" data-flag="@X" onclick="openSidebar('2_Blessed Valkyrie_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\35_Bearer of Tidings_SVG.jpg" id="35_Bearer of Tidings_SVG" data-flag="@X" onclick="openSidebar('35_Bearer of Tidings_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\63_Bandit Brigade_SVG.jpg" id="63_Bandit Brigade_SVG" data-flag="@X" onclick="openSidebar('63_Bandit Brigade_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\94_Aldur Giant_SVG.jpg" id="94_Aldur Giant_SVG" data-flag="@X" onclick="openSidebar('94_Aldur Giant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\128_Dawn on the Highlands_SVG.jpg" id="128_Dawn on the Highlands_SVG" data-flag="@X" onclick="openSidebar('128_Dawn on the Highlands_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\4_Brallatt's Chosen_SVG_back.jpg" alt="/sets\SVG-files\img\4_Brallatt's Chosen_SVG_front.jpg" id="4_Brallatts Chosen_SVG" data-flag="@XD" onclick="openSidebar('4_Brallatts Chosen_SVG',false)"><button class="flip-btn" onclick="imgFlip('4_Brallatts Chosen_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\36_Biting Gale_SVG.jpg" id="36_Biting Gale_SVG" data-flag="@X" onclick="openSidebar('36_Biting Gale_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\66_Darg Frontline_SVG.jpg" id="66_Darg Frontline_SVG" data-flag="@X" onclick="openSidebar('66_Darg Frontline_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\96_Bloodied Longspear_SVG.jpg" id="96_Bloodied Longspear_SVG" data-flag="@X" onclick="openSidebar('96_Bloodied Longspear_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\130_Dawnglade Cultivator_SVG.jpg" id="130_Dawnglade Cultivator_SVG" data-flag="@X" onclick="openSidebar('130_Dawnglade Cultivator_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\6_Challenge the Monstrous_SVG.jpg" id="6_Challenge the Monstrous_SVG" data-flag="@X" onclick="openSidebar('6_Challenge the Monstrous_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\37_Divination_SVG.jpg" id="37_Divination_SVG" data-flag="@X" onclick="openSidebar('37_Divination_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\67_Dark Covenant_SVG.jpg" id="67_Dark Covenant_SVG" data-flag="@X" onclick="openSidebar('67_Dark Covenant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\98_Ceaseless Ranks_SVG.jpg" id="98_Ceaseless Ranks_SVG" data-flag="@X" onclick="openSidebar('98_Ceaseless Ranks_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\134_Elvish Visionary_SVG.jpg" id="134_Elvish Visionary_SVG" data-flag="@X" onclick="openSidebar('134_Elvish Visionary_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\7_Defiant Strike_SVG.jpg" id="7_Defiant Strike_SVG" data-flag="@X" onclick="openSidebar('7_Defiant Strike_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\38_Entrapped in Ice_SVG.jpg" id="38_Entrapped in Ice_SVG" data-flag="@X" onclick="openSidebar('38_Entrapped in Ice_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\68_Dishonor_SVG.jpg" id="68_Dishonor_SVG" data-flag="@X" onclick="openSidebar('68_Dishonor_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\102_Enraged Assailant_SVG.jpg" id="102_Enraged Assailant_SVG" data-flag="@X" onclick="openSidebar('102_Enraged Assailant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\135_Explore_SVG.jpg" id="135_Explore_SVG" data-flag="@X" onclick="openSidebar('135_Explore_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\10_Divine Binding_SVG.jpg" id="10_Divine Binding_SVG" data-flag="@X" onclick="openSidebar('10_Divine Binding_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\41_Maldunn's Rejection_SVG.jpg" id="41_Maldunns Rejection_SVG" data-flag="@X" onclick="openSidebar('41_Maldunns Rejection_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\69_Duskborn Warrior_SVG_back.jpg" alt="/sets\SVG-files\img\69_Duskborn Warrior_SVG_front.jpg" id="69_Duskborn Warrior_SVG" data-flag="@XD" onclick="openSidebar('69_Duskborn Warrior_SVG',false)"><button class="flip-btn" onclick="imgFlip('69_Duskborn Warrior_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\104_Fierce Infantry_SVG.jpg" id="104_Fierce Infantry_SVG" data-flag="@X" onclick="openSidebar('104_Fierce Infantry_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\137_Holmgang_SVG.jpg" id="137_Holmgang_SVG" data-flag="@X" onclick="openSidebar('137_Holmgang_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\12_Froskur Armsleader_SVG.jpg" id="12_Froskur Armsleader_SVG" data-flag="@X" onclick="openSidebar('12_Froskur Armsleader_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\42_Mistcall Mariner_SVG.jpg" id="42_Mistcall Mariner_SVG" data-flag="@X" onclick="openSidebar('42_Mistcall Mariner_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\71_Fell the Mighty_SVG.jpg" id="71_Fell the Mighty_SVG" data-flag="@X" onclick="openSidebar('71_Fell the Mighty_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\108_Lightning Splinters_SVG.jpg" id="108_Lightning Splinters_SVG" data-flag="@X" onclick="openSidebar('108_Lightning Splinters_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\138_Hyperboarean_SVG.jpg" id="138_Hyperboarean_SVG" data-flag="@X" onclick="openSidebar('138_Hyperboarean_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\17_Nordhavn Hawk_SVG.jpg" id="17_Nordhavn Hawk_SVG" data-flag="@X" onclick="openSidebar('17_Nordhavn Hawk_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\43_Negate_SVG.jpg" id="43_Negate_SVG" data-flag="@X" onclick="openSidebar('43_Negate_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\72_Fenran Bloodlust_SVG.jpg" id="72_Fenran Bloodlust_SVG" data-flag="@X" onclick="openSidebar('72_Fenran Bloodlust_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\109_Maldunn's Devotee_SVG.jpg" id="109_Maldunns Devotee_SVG" data-flag="@X" onclick="openSidebar('109_Maldunns Devotee_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\139_Loyal Shield-Bearer_SVG.jpg" id="139_Loyal Shield-Bearer_SVG" data-flag="@X" onclick="openSidebar('139_Loyal Shield-Bearer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\19_Runemend_SVG.jpg" id="19_Runemend_SVG" data-flag="@X" onclick="openSidebar('19_Runemend_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\44_Nordhavn Serpent_SVG.jpg" id="44_Nordhavn Serpent_SVG" data-flag="@X" onclick="openSidebar('44_Nordhavn Serpent_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\73_Fenran Vanguard_SVG.jpg" id="73_Fenran Vanguard_SVG" data-flag="@X" onclick="openSidebar('73_Fenran Vanguard_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\110_Mystic's Visions_SVG.jpg" id="110_Mystics Visions_SVG" data-flag="@X" onclick="openSidebar('110_Mystics Visions_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\144_Rite of Spring_SVG.jpg" id="144_Rite of Spring_SVG" data-flag="@X" onclick="openSidebar('144_Rite of Spring_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\20_Skygga Vanguard_SVG.jpg" id="20_Skygga Vanguard_SVG" data-flag="@X" onclick="openSidebar('20_Skygga Vanguard_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\47_Raven-Wise Warrior_SVG.jpg" id="47_Raven-Wise Warrior_SVG" data-flag="@X" onclick="openSidebar('47_Raven-Wise Warrior_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\75_Ill Omen_SVG.jpg" id="75_Ill Omen_SVG" data-flag="@X" onclick="openSidebar('75_Ill Omen_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\113_Regal Hart_SVG.jpg" id="113_Regal Hart_SVG" data-flag="@X" onclick="openSidebar('113_Regal Hart_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\145_Scaravi Skald_SVG.jpg" id="145_Scaravi Skald_SVG" data-flag="@X" onclick="openSidebar('145_Scaravi Skald_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\22_Stone-Circle Oracle_SVG.jpg" id="22_Stone-Circle Oracle_SVG" data-flag="@X" onclick="openSidebar('22_Stone-Circle Oracle_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\48_Rune-Clad Sneak_SVG.jpg" id="48_Rune-Clad Sneak_SVG" data-flag="@X" onclick="openSidebar('48_Rune-Clad Sneak_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\82_Ond-Fen Channeler_SVG.jpg" id="82_Ond-Fen Channeler_SVG" data-flag="@X" onclick="openSidebar('82_Ond-Fen Channeler_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\114_Run Amok_SVG.jpg" id="114_Run Amok_SVG" data-flag="@X" onclick="openSidebar('114_Run Amok_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\147_Skagar's Favored_SVG_back.jpg" alt="/sets\SVG-files\img\147_Skagar's Favored_SVG_front.jpg" id="147_Skagars Favored_SVG" data-flag="@XD" onclick="openSidebar('147_Skagars Favored_SVG',false)"><button class="flip-btn" onclick="imgFlip('147_Skagars Favored_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\23_Touch the Skies_SVG.jpg" id="23_Touch the Skies_SVG" data-flag="@X" onclick="openSidebar('23_Touch the Skies_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\54_Skofa Elite_SVG_back.jpg" alt="/sets\SVG-files\img\54_Skofa Elite_SVG_front.jpg" id="54_Skofa Elite_SVG" data-flag="@XD" onclick="openSidebar('54_Skofa Elite_SVG',false)"><button class="flip-btn" onclick="imgFlip('54_Skofa Elite_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\83_Raven's Ire_SVG.jpg" id="83_Ravens Ire_SVG" data-flag="@X" onclick="openSidebar('83_Ravens Ire_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\116_Runic Fireworks_SVG.jpg" id="116_Runic Fireworks_SVG" data-flag="@X" onclick="openSidebar('116_Runic Fireworks_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\148_Skagar's Mark_SVG.jpg" id="148_Skagars Mark_SVG" data-flag="@X" onclick="openSidebar('148_Skagars Mark_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\24_Travel to the Otherworlds_SVG.jpg" id="24_Travel to the Otherworlds_SVG" data-flag="@X" onclick="openSidebar('24_Travel to the Otherworlds_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\55_Skofa Sigilsoul_SVG.jpg" id="55_Skofa Sigilsoul_SVG" data-flag="@X" onclick="openSidebar('55_Skofa Sigilsoul_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\85_Rotbile Mage_SVG.jpg" id="85_Rotbile Mage_SVG" data-flag="@X" onclick="openSidebar('85_Rotbile Mage_SVG',false)"></div>
+			<div class="container"><img data-alt_src="/sets\SVG-files\img\118_Skilled Axeman_SVG_back.jpg" alt="/sets\SVG-files\img\118_Skilled Axeman_SVG_front.jpg" id="118_Skilled Axeman_SVG" data-flag="@XD" onclick="openSidebar('118_Skilled Axeman_SVG',false)"><button class="flip-btn" onclick="imgFlip('118_Skilled Axeman_SVG')"></button></div>
+			<div class="container"><img alt="/sets\SVG-files\img\150_Skofa Shaman_SVG.jpg" id="150_Skofa Shaman_SVG" data-flag="@X" onclick="openSidebar('150_Skofa Shaman_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\28_Warband Reinforcements_SVG.jpg" id="28_Warband Reinforcements_SVG" data-flag="@X" onclick="openSidebar('28_Warband Reinforcements_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\57_Sturmslang Drakkar_SVG.jpg" id="57_Sturmslang Drakkar_SVG" data-flag="@X" onclick="openSidebar('57_Sturmslang Drakkar_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\87_Skygga Pillager_SVG.jpg" id="87_Skygga Pillager_SVG" data-flag="@X" onclick="openSidebar('87_Skygga Pillager_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\120_Thunderous Smite_SVG.jpg" id="120_Thunderous Smite_SVG" data-flag="@X" onclick="openSidebar('120_Thunderous Smite_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\151_Stoneskin Bogwalker_SVG.jpg" id="151_Stoneskin Bogwalker_SVG" data-flag="@X" onclick="openSidebar('151_Stoneskin Bogwalker_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\29_Winterholm Healer_SVG.jpg" id="29_Winterholm Healer_SVG" data-flag="@X" onclick="openSidebar('29_Winterholm Healer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\58_Sturmslang Plunderer_SVG.jpg" id="58_Sturmslang Plunderer_SVG" data-flag="@X" onclick="openSidebar('58_Sturmslang Plunderer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\90_Sturmslang Bruiser_SVG.jpg" id="90_Sturmslang Bruiser_SVG" data-flag="@X" onclick="openSidebar('90_Sturmslang Bruiser_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\121_Thurog Nomad_SVG.jpg" id="121_Thurog Nomad_SVG" data-flag="@X" onclick="openSidebar('121_Thurog Nomad_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\152_Vigor of the Wilds_SVG.jpg" id="152_Vigor of the Wilds_SVG" data-flag="@X" onclick="openSidebar('152_Vigor of the Wilds_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\31_Winterholm Valiant_SVG.jpg" id="31_Winterholm Valiant_SVG" data-flag="@X" onclick="openSidebar('31_Winterholm Valiant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\59_Voyager's Vessel_SVG.jpg" id="59_Voyagers Vessel_SVG" data-flag="@X" onclick="openSidebar('59_Voyagers Vessel_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\91_Sturmslang Warship_SVG.jpg" id="91_Sturmslang Warship_SVG" data-flag="@X" onclick="openSidebar('91_Sturmslang Warship_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\122_Trumpet Blast_SVG.jpg" id="122_Trumpet Blast_SVG" data-flag="@X" onclick="openSidebar('122_Trumpet Blast_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\155_Wildbond Tamer_SVG.jpg" id="155_Wildbond Tamer_SVG" data-flag="@X" onclick="openSidebar('155_Wildbond Tamer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\206_Unite the Clans_PRO_SVG.jpg" id="206_Unite the Clans_PRO_SVG" data-flag="@X" onclick="openSidebar('206_Unite the Clans_PRO_SVG',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\207_Feast of the Crows_PRO_SVG.jpg" id="207_Feast of the Crows_PRO_SVG" data-flag="@X" onclick="openSidebar('207_Feast of the Crows_PRO_SVG',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\170_Runeweave Elder_SVG.jpg" id="170_Runeweave Elder_SVG" data-flag="@X" onclick="openSidebar('170_Runeweave Elder_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\166_Morkfar, Ship of the Dead_SVG.jpg" id="166_Morkfar, Ship of the Dead_SVG" data-flag="@X" onclick="openSidebar('166_Morkfar, Ship of the Dead_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\165_Keseran, Wicked Manipulator_SVG.jpg" id="165_Keseran, Wicked Manipulator_SVG" data-flag="@X" onclick="openSidebar('165_Keseran, Wicked Manipulator_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\175_Wild-Lord's Progeny_SVG.jpg" id="175_Wild-Lords Progeny_SVG" data-flag="@X" onclick="openSidebar('175_Wild-Lords Progeny_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\163_Hergarv, Pass Sentinel_SVG.jpg" id="163_Hergarv, Pass Sentinel_SVG" data-flag="@X" onclick="openSidebar('163_Hergarv, Pass Sentinel_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\161_Devoted Glyph-Mage_SVG.jpg" id="161_Devoted Glyph-Mage_SVG" data-flag="@X" onclick="openSidebar('161_Devoted Glyph-Mage_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\171_Sturmslang Smuggler_SVG.jpg" id="171_Sturmslang Smuggler_SVG" data-flag="@X" onclick="openSidebar('171_Sturmslang Smuggler_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\159_Darg Lieutenant_SVG.jpg" id="159_Darg Lieutenant_SVG" data-flag="@X" onclick="openSidebar('159_Darg Lieutenant_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\168_Rage-Fueled Razorback_SVG.jpg" id="168_Rage-Fueled Razorback_SVG" data-flag="@X" onclick="openSidebar('168_Rage-Fueled Razorback_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\164_Huntmaster's Bear_SVG.jpg" id="164_Huntmasters Bear_SVG" data-flag="@X" onclick="openSidebar('164_Huntmasters Bear_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\174_Valkyrie Commander_SVG.jpg" id="174_Valkyrie Commander_SVG" data-flag="@X" onclick="openSidebar('174_Valkyrie Commander_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\172_Thunder-Blessed Rager_SVG.jpg" id="172_Thunder-Blessed Rager_SVG" data-flag="@X" onclick="openSidebar('172_Thunder-Blessed Rager_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\169_Realm's Rebirth_SVG.jpg" id="169_Realms Rebirth_SVG" data-flag="@X" onclick="openSidebar('169_Realms Rebirth_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\157_Cedric, Battle-Skald_SVG.jpg" id="157_Cedric, Battle-Skald_SVG" data-flag="@X" onclick="openSidebar('157_Cedric, Battle-Skald_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\162_Havdan, Dawnglade Elder_SVG.jpg" id="162_Havdan, Dawnglade Elder_SVG" data-flag="@X" onclick="openSidebar('162_Havdan, Dawnglade Elder_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\173_Valdin, Axe Maiden_SVG.jpg" id="173_Valdin, Axe Maiden_SVG" data-flag="@X" onclick="openSidebar('173_Valdin, Axe Maiden_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\158_Coldstorm Channeler_SVG.jpg" id="158_Coldstorm Channeler_SVG" data-flag="@X" onclick="openSidebar('158_Coldstorm Channeler_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\167_Ond-Fen Auramancer_SVG.jpg" id="167_Ond-Fen Auramancer_SVG" data-flag="@X" onclick="openSidebar('167_Ond-Fen Auramancer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\156_Braveheart Charger_SVG.jpg" id="156_Braveheart Charger_SVG" data-flag="@X" onclick="openSidebar('156_Braveheart Charger_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\160_Dawnglade Packleader_SVG.jpg" id="160_Dawnglade Packleader_SVG" data-flag="@X" onclick="openSidebar('160_Dawnglade Packleader_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\179_Gate of Realms_SVG.jpg" id="179_Gate of Realms_SVG" data-flag="@X" onclick="openSidebar('179_Gate of Realms_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\183_Multiplying Ring_SVG.jpg" id="183_Multiplying Ring_SVG" data-flag="@X" onclick="openSidebar('183_Multiplying Ring_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\185_Warcaller's Horn_SVG.jpg" id="185_Warcallers Horn_SVG" data-flag="@X" onclick="openSidebar('185_Warcallers Horn_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\177_Dwarven Skyship_SVG.jpg" id="177_Dwarven Skyship_SVG" data-flag="@X" onclick="openSidebar('177_Dwarven Skyship_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\181_Memorial to the Fallen_SVG.jpg" id="181_Memorial to the Fallen_SVG" data-flag="@X" onclick="openSidebar('181_Memorial to the Fallen_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\182_Mistwreath Stones_SVG.jpg" id="182_Mistwreath Stones_SVG" data-flag="@X" onclick="openSidebar('182_Mistwreath Stones_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\184_Star-Forged Hammer_SVG.jpg" id="184_Star-Forged Hammer_SVG" data-flag="@X" onclick="openSidebar('184_Star-Forged Hammer_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\176_Chronicler's Effigy_SVG.jpg" id="176_Chroniclers Effigy_SVG" data-flag="@X" onclick="openSidebar('176_Chroniclers Effigy_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\178_Explorer's Knarr_SVG.jpg" id="178_Explorers Knarr_SVG" data-flag="@X" onclick="openSidebar('178_Explorers Knarr_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\180_Marauder's Hatchet_SVG.jpg" id="180_Marauders Hatchet_SVG" data-flag="@X" onclick="openSidebar('180_Marauders Hatchet_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\208_Gate of Realms_PRO_SVG.jpg" id="208_Gate of Realms_PRO_SVG" data-flag="@X" onclick="openSidebar('208_Gate of Realms_PRO_SVG',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\192_Frigid Port_SVG.jpg" id="192_Frigid Port_SVG" data-flag="@X" onclick="openSidebar('192_Frigid Port_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\197_Sheltered Slipway_SVG.jpg" id="197_Sheltered Slipway_SVG" data-flag="@X" onclick="openSidebar('197_Sheltered Slipway_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\200_Warrior Encampment_SVG.jpg" id="200_Warrior Encampment_SVG" data-flag="@X" onclick="openSidebar('200_Warrior Encampment_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\193_Highland Homestead_SVG.jpg" id="193_Highland Homestead_SVG" data-flag="@X" onclick="openSidebar('193_Highland Homestead_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\191_Foothill Settlement_SVG.jpg" id="191_Foothill Settlement_SVG" data-flag="@X" onclick="openSidebar('191_Foothill Settlement_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\194_Imposing Hall_SVG.jpg" id="194_Imposing Hall_SVG" data-flag="@X" onclick="openSidebar('194_Imposing Hall_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\195_Oracle's Sanctuary_SVG.jpg" id="195_Oracles Sanctuary_SVG" data-flag="@X" onclick="openSidebar('195_Oracles Sanctuary_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\199_Unexplored Expanse_SVG.jpg" id="199_Unexplored Expanse_SVG" data-flag="@X" onclick="openSidebar('199_Unexplored Expanse_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\196_Peak Refuge_SVG.jpg" id="196_Peak Refuge_SVG" data-flag="@X" onclick="openSidebar('196_Peak Refuge_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\198_Sublime Heartland_SVG.jpg" id="198_Sublime Heartland_SVG" data-flag="@X" onclick="openSidebar('198_Sublime Heartland_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\186_Ascendant Peak_SVG.jpg" id="186_Ascendant Peak_SVG" data-flag="@X" onclick="openSidebar('186_Ascendant Peak_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\188_Marauder's Den_SVG.jpg" id="188_Marauders Den_SVG" data-flag="@X" onclick="openSidebar('188_Marauders Den_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\190_Stone Circle_SVG.jpg" id="190_Stone Circle_SVG" data-flag="@X" onclick="openSidebar('190_Stone Circle_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\187_Evolving Wilds_SVG.jpg" id="187_Evolving Wilds_SVG" data-flag="@X" onclick="openSidebar('187_Evolving Wilds_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\189_Realm Nexus_SVG.jpg" id="189_Realm Nexus_SVG" data-flag="@X" onclick="openSidebar('189_Realm Nexus_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\204_Mountain_SVG.jpg" id="204_Mountain_SVG" data-flag="@X" onclick="openSidebar('204_Mountain_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\202_Island_SVG.jpg" id="202_Island_SVG" data-flag="@X" onclick="openSidebar('202_Island_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\205_Forest_SVG.jpg" id="205_Forest_SVG" data-flag="@X" onclick="openSidebar('205_Forest_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\201_Plains_SVG.jpg" id="201_Plains_SVG" data-flag="@X" onclick="openSidebar('201_Plains_SVG',false)"></div>
+			<div class="container"><img alt="/sets\SVG-files\img\203_Swamp_SVG.jpg" id="203_Swamp_SVG" data-flag="@X" onclick="openSidebar('203_Swamp_SVG',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

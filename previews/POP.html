@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/POP-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>POP visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/POP-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/POP-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\POP-files\img\12_Avatar of the Festival_POP.jpg" id="12_Avatar of the Festival_POP" data-flag="@X" onclick="openSidebar('12_Avatar of the Festival_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\50_Avatar of the Airwaves_POP.jpg" id="50_Avatar of the Airwaves_POP" data-flag="@X" onclick="openSidebar('50_Avatar of the Airwaves_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\89_Avatar of the Decks_POP.jpg" id="89_Avatar of the Decks_POP" data-flag="@X" onclick="openSidebar('89_Avatar of the Decks_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\126_Avatar of the Moshpit_POP.jpg" id="126_Avatar of the Moshpit_POP" data-flag="@X" onclick="openSidebar('126_Avatar of the Moshpit_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\169_Avatar of the Rave_POP.jpg" id="169_Avatar of the Rave_POP" data-flag="@X" onclick="openSidebar('169_Avatar of the Rave_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\39_Sharlate, Angel of Refraction_POP.jpg" id="39_Sharlate, Angel of Refraction_POP" data-flag="@X" onclick="openSidebar('39_Sharlate, Angel of Refraction_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\74_Psychedelic Serpent_POP.jpg" id="74_Psychedelic Serpent_POP" data-flag="@X" onclick="openSidebar('74_Psychedelic Serpent_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\101_Make It Personal_POP.jpg" id="101_Make It Personal_POP" data-flag="@X" onclick="openSidebar('101_Make It Personal_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\145_Nekaru the Showstealer_POP.jpg" id="145_Nekaru the Showstealer_POP" data-flag="@X" onclick="openSidebar('145_Nekaru the Showstealer_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\182_Grand Consonance_POP.jpg" id="182_Grand Consonance_POP" data-flag="@X" onclick="openSidebar('182_Grand Consonance_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\48_Yaeji, Resplendent Idol_POP.jpg" id="48_Yaeji, Resplendent Idol_POP" data-flag="@X" onclick="openSidebar('48_Yaeji, Resplendent Idol_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\75_Real Virtuality_POP.jpg" id="75_Real Virtuality_POP" data-flag="@X" onclick="openSidebar('75_Real Virtuality_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\90_Begin the Imperial Era_POP.jpg" id="90_Begin the Imperial Era_POP" data-flag="@X" onclick="openSidebar('90_Begin the Imperial Era_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\161_Thrill of the Trendchase_POP.jpg" id="161_Thrill of the Trendchase_POP" data-flag="@X" onclick="openSidebar('161_Thrill of the Trendchase_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\191_Pulse of the Unending Rave_POP.jpg" id="191_Pulse of the Unending Rave_POP" data-flag="@X" onclick="openSidebar('191_Pulse of the Unending Rave_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\16_Bring the House Down_POP.jpg" id="16_Bring the House Down_POP" data-flag="@X" onclick="openSidebar('16_Bring the House Down_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\278_Music Master_POP.jpg" id="278_Music Master_POP" data-flag="@X" onclick="openSidebar('278_Music Master_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\98_Go Solo_POP.jpg" id="98_Go Solo_POP" data-flag="@X" onclick="openSidebar('98_Go Solo_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\128_Double-Time Drums_POP.jpg" id="128_Double-Time Drums_POP" data-flag="@X" onclick="openSidebar('128_Double-Time Drums_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\165_Acid Hydra_POP.jpg" id="165_Acid Hydra_POP" data-flag="@X" onclick="openSidebar('165_Acid Hydra_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\26_Interplanar Jam Session_POP.jpg" id="26_Interplanar Jam Session_POP" data-flag="@X" onclick="openSidebar('26_Interplanar Jam Session_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\57_Digitize the Analog World_POP.jpg" id="57_Digitize the Analog World_POP" data-flag="@X" onclick="openSidebar('57_Digitize the Analog World_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\103_Morasha Moshlord_POP.jpg" id="103_Morasha Moshlord_POP" data-flag="@X" onclick="openSidebar('103_Morasha Moshlord_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\139_Iconic Hologram_POP.jpg" id="139_Iconic Hologram_POP" data-flag="@X" onclick="openSidebar('139_Iconic Hologram_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\186_Landscape Artist_POP.jpg" id="186_Landscape Artist_POP" data-flag="@X" onclick="openSidebar('186_Landscape Artist_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\29_Megabelt Microphone_POP.jpg" id="29_Megabelt Microphone_POP" data-flag="@X" onclick="openSidebar('29_Megabelt Microphone_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\61_Farrah P, Ascendant Looper_POP.jpg" id="61_Farrah P, Ascendant Looper_POP" data-flag="@X" onclick="openSidebar('61_Farrah P, Ascendant Looper_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\108_Relentless Busker_POP.jpg" id="108_Relentless Busker_POP" data-flag="@X" onclick="openSidebar('108_Relentless Busker_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\140_Indulge the Fifth Encore_POP.jpg" id="140_Indulge the Fifth Encore_POP" data-flag="@X" onclick="openSidebar('140_Indulge the Fifth Encore_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\190_Player Band_POP.jpg" id="190_Player Band_POP" data-flag="@X" onclick="openSidebar('190_Player Band_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\30_Niokana Headliner_POP.jpg" id="30_Niokana Headliner_POP" data-flag="@X" onclick="openSidebar('30_Niokana Headliner_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\62_Ferva Sensation_POP.jpg" id="62_Ferva Sensation_POP" data-flag="@X" onclick="openSidebar('62_Ferva Sensation_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\112_Skeleton Keytar_POP.jpg" id="112_Skeleton Keytar_POP" data-flag="@X" onclick="openSidebar('112_Skeleton Keytar_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\149_Prodigious Hater_POP.jpg" id="149_Prodigious Hater_POP" data-flag="@X" onclick="openSidebar('149_Prodigious Hater_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\192_Release the Unchained Melody_POP.jpg" id="192_Release the Unchained Melody_POP" data-flag="@X" onclick="openSidebar('192_Release the Unchained Melody_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\31_Ozzen Enquirer_POP.jpg" id="31_Ozzen Enquirer_POP" data-flag="@X" onclick="openSidebar('31_Ozzen Enquirer_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\81_Sphinx of the Soundveins_POP.jpg" id="81_Sphinx of the Soundveins_POP" data-flag="@X" onclick="openSidebar('81_Sphinx of the Soundveins_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\118_Tozzenia, Chief Executive_POP.jpg" id="118_Tozzenia, Chief Executive_POP" data-flag="@X" onclick="openSidebar('118_Tozzenia, Chief Executive_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\163_Vroom Vroom_POP.jpg" id="163_Vroom Vroom_POP" data-flag="@X" onclick="openSidebar('163_Vroom Vroom_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\195_Sonic Euphoria_POP.jpg" id="195_Sonic Euphoria_POP" data-flag="@X" onclick="openSidebar('195_Sonic Euphoria_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\42_Spinmaster_POP.jpg" id="42_Spinmaster_POP" data-flag="@X" onclick="openSidebar('42_Spinmaster_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\85_Ultimate POP-Hit Pad_POP.jpg" id="85_Ultimate POP-Hit Pad_POP" data-flag="@X" onclick="openSidebar('85_Ultimate POP-Hit Pad_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\92_Corgan Consultant_POP.jpg" id="92_Corgan Consultant_POP" data-flag="@X" onclick="openSidebar('92_Corgan Consultant_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\164_Xeon, BPM Savant_POP.jpg" id="164_Xeon, BPM Savant_POP" data-flag="@X" onclick="openSidebar('164_Xeon, BPM Savant_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\201_Venus, the Basilisk_POP.jpg" id="201_Venus, the Basilisk_POP" data-flag="@X" onclick="openSidebar('201_Venus, the Basilisk_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\11_Attuned District_POP.jpg" id="11_Attuned District_POP" data-flag="@X" onclick="openSidebar('11_Attuned District_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\86_Vinette's Freestyle_POP.jpg" id="86_Vinettes Freestyle_POP" data-flag="@X" onclick="openSidebar('86_Vinettes Freestyle_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\93_Corrosive Spitter_POP.jpg" id="93_Corrosive Spitter_POP" data-flag="@X" onclick="openSidebar('93_Corrosive Spitter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\129_Emblazoned Hooligan_POP.jpg" id="129_Emblazoned Hooligan_POP" data-flag="@X" onclick="openSidebar('129_Emblazoned Hooligan_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\283_Venus, the Basilisk (Caroline Polachek)_POP.jpg" id="283_Venus, the Basilisk (Caroline Polachek)_POP" data-flag="@X" onclick="openSidebar('283_Venus, the Basilisk (Caroline Polachek)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\14_Beatweaver_POP.jpg" id="14_Beatweaver_POP" data-flag="@X" onclick="openSidebar('14_Beatweaver_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\49_Avatar of Brilliance_POP.jpg" id="49_Avatar of Brilliance_POP" data-flag="@X" onclick="openSidebar('49_Avatar of Brilliance_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\94_Cutting Room Floor_POP.jpg" id="94_Cutting Room Floor_POP" data-flag="@X" onclick="openSidebar('94_Cutting Room Floor_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\130_Emphatic Beat_POP.jpg" id="130_Emphatic Beat_POP" data-flag="@X" onclick="openSidebar('130_Emphatic Beat_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\166_Alluring Queenpin_POP.jpg" id="166_Alluring Queenpin_POP" data-flag="@X" onclick="openSidebar('166_Alluring Queenpin_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\15_Bright-Lights Terrier_POP.jpg" id="15_Bright-Lights Terrier_POP" data-flag="@X" onclick="openSidebar('15_Bright-Lights Terrier_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\55_Cruiser Technician_POP.jpg" id="55_Cruiser Technician_POP" data-flag="@X" onclick="openSidebar('55_Cruiser Technician_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\95_Drown in Sorrow_POP.jpg" id="95_Drown in Sorrow_POP" data-flag="@X" onclick="openSidebar('95_Drown in Sorrow_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\131_Enter the Moshpit_POP.jpg" id="131_Enter the Moshpit_POP" data-flag="@X" onclick="openSidebar('131_Enter the Moshpit_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\167_Ancient Lightkin_POP.jpg" id="167_Ancient Lightkin_POP" data-flag="@X" onclick="openSidebar('167_Ancient Lightkin_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\18_Corgan Bourgeois_POP.jpg" id="18_Corgan Bourgeois_POP" data-flag="@X" onclick="openSidebar('18_Corgan Bourgeois_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\60_Enrapturing Lights_POP.jpg" id="60_Enrapturing Lights_POP" data-flag="@X" onclick="openSidebar('60_Enrapturing Lights_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\99_Invasion of Privacy_POP.jpg" id="99_Invasion of Privacy_POP" data-flag="@X" onclick="openSidebar('99_Invasion of Privacy_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\133_Final Performance_POP.jpg" id="133_Final Performance_POP" data-flag="@X" onclick="openSidebar('133_Final Performance_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\170_Beat Devastator_POP.jpg" id="170_Beat Devastator_POP" data-flag="@X" onclick="openSidebar('170_Beat Devastator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\20_Field Headquarters_POP.jpg" id="20_Field Headquarters_POP" data-flag="@X" onclick="openSidebar('20_Field Headquarters_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\64_Flow Prodigy_POP.jpg" id="64_Flow Prodigy_POP" data-flag="@X" onclick="openSidebar('64_Flow Prodigy_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\102_Malicious Mech_POP.jpg" id="102_Malicious Mech_POP" data-flag="@X" onclick="openSidebar('102_Malicious Mech_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\134_Forte Feline_POP.jpg" id="134_Forte Feline_POP" data-flag="@X" onclick="openSidebar('134_Forte Feline_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\171_Burgeoning Neighborhood_POP.jpg" id="171_Burgeoning Neighborhood_POP" data-flag="@X" onclick="openSidebar('171_Burgeoning Neighborhood_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\22_Hardlight Paragon_POP.jpg" id="22_Hardlight Paragon_POP" data-flag="@X" onclick="openSidebar('22_Hardlight Paragon_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\68_Hardlight Hedron_POP.jpg" id="68_Hardlight Hedron_POP" data-flag="@X" onclick="openSidebar('68_Hardlight Hedron_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\104_Obfuscate_POP.jpg" id="104_Obfuscate_POP" data-flag="@X" onclick="openSidebar('104_Obfuscate_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\138_Gleaming Laser_POP.jpg" id="138_Gleaming Laser_POP" data-flag="@X" onclick="openSidebar('138_Gleaming Laser_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\172_Club Privileges_POP.jpg" id="172_Club Privileges_POP" data-flag="@X" onclick="openSidebar('172_Club Privileges_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\25_Infused Lightkin_POP.jpg" id="25_Infused Lightkin_POP" data-flag="@X" onclick="openSidebar('25_Infused Lightkin_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\70_Inside Job_POP.jpg" id="70_Inside Job_POP" data-flag="@X" onclick="openSidebar('70_Inside Job_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\105_Phosphorescent Feeder_POP.jpg" id="105_Phosphorescent Feeder_POP" data-flag="@X" onclick="openSidebar('105_Phosphorescent Feeder_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\141_Laser Technician_POP.jpg" id="141_Laser Technician_POP" data-flag="@X" onclick="openSidebar('141_Laser Technician_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\173_Club Promoter_POP.jpg" id="173_Club Promoter_POP" data-flag="@X" onclick="openSidebar('173_Club Promoter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\32_Ozzen Surveillance Grid_POP.jpg" id="32_Ozzen Surveillance Grid_POP" data-flag="@X" onclick="openSidebar('32_Ozzen Surveillance Grid_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\72_Offroad Odyssey_POP.jpg" id="72_Offroad Odyssey_POP" data-flag="@X" onclick="openSidebar('72_Offroad Odyssey_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\109_Revenant Benefactor_POP.jpg" id="109_Revenant Benefactor_POP" data-flag="@X" onclick="openSidebar('109_Revenant Benefactor_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\146_Online Presence_POP.jpg" id="146_Online Presence_POP" data-flag="@X" onclick="openSidebar('146_Online Presence_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\174_Constructive Interference_POP.jpg" id="174_Constructive Interference_POP" data-flag="@X" onclick="openSidebar('174_Constructive Interference_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\37_Remix_POP.jpg" id="37_Remix_POP" data-flag="@X" onclick="openSidebar('37_Remix_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\73_Posse Cut_POP.jpg" id="73_Posse Cut_POP" data-flag="@X" onclick="openSidebar('73_Posse Cut_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\114_Soulless Archive_POP.jpg" id="114_Soulless Archive_POP" data-flag="@X" onclick="openSidebar('114_Soulless Archive_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\148_Phototactic Sensing_POP.jpg" id="148_Phototactic Sensing_POP" data-flag="@X" onclick="openSidebar('148_Phototactic Sensing_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\179_Frequency Omnivore_POP.jpg" id="179_Frequency Omnivore_POP" data-flag="@X" onclick="openSidebar('179_Frequency Omnivore_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\40_Shockwave Purge_POP.jpg" id="40_Shockwave Purge_POP" data-flag="@X" onclick="openSidebar('40_Shockwave Purge_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\77_Rewind_POP.jpg" id="77_Rewind_POP" data-flag="@X" onclick="openSidebar('77_Rewind_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\120_Ultraviolet Maniac_POP.jpg" id="120_Ultraviolet Maniac_POP" data-flag="@X" onclick="openSidebar('120_Ultraviolet Maniac_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\152_Resonator Firehoof_POP.jpg" id="152_Resonator Firehoof_POP" data-flag="@X" onclick="openSidebar('152_Resonator Firehoof_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\181_Global Presence_POP.jpg" id="181_Global Presence_POP" data-flag="@X" onclick="openSidebar('181_Global Presence_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\44_Sunset Drive_POP.jpg" id="44_Sunset Drive_POP" data-flag="@X" onclick="openSidebar('44_Sunset Drive_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\80_Soundsmog Scrapper_POP.jpg" id="80_Soundsmog Scrapper_POP" data-flag="@X" onclick="openSidebar('80_Soundsmog Scrapper_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\125_Worshipped Diva_POP.jpg" id="125_Worshipped Diva_POP" data-flag="@X" onclick="openSidebar('125_Worshipped Diva_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\154_Rock On_POP.jpg" id="154_Rock On_POP" data-flag="@X" onclick="openSidebar('154_Rock On_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\184_Journeyed Fiddler_POP.jpg" id="184_Journeyed Fiddler_POP" data-flag="@X" onclick="openSidebar('184_Journeyed Fiddler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\46_Transfixing Troupe_POP.jpg" id="46_Transfixing Troupe_POP" data-flag="@X" onclick="openSidebar('46_Transfixing Troupe_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\82_Staggering Wyvern_POP.jpg" id="82_Staggering Wyvern_POP" data-flag="@X" onclick="openSidebar('82_Staggering Wyvern_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\88_Ambient Illuminator_POP.jpg" id="88_Ambient Illuminator_POP" data-flag="@X" onclick="openSidebar('88_Ambient Illuminator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\162_Transverse Arbiter_POP.jpg" id="162_Transverse Arbiter_POP" data-flag="@X" onclick="openSidebar('162_Transverse Arbiter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\185_Kaleidoscopic Web_POP.jpg" id="185_Kaleidoscopic Web_POP" data-flag="@X" onclick="openSidebar('185_Kaleidoscopic Web_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\10_Attenuate_POP.jpg" id="10_Attenuate_POP" data-flag="@X" onclick="openSidebar('10_Attenuate_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\83_Tempo Arbiter_POP.jpg" id="83_Tempo Arbiter_POP" data-flag="@X" onclick="openSidebar('83_Tempo Arbiter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\91_Captivate_POP.jpg" id="91_Captivate_POP" data-flag="@X" onclick="openSidebar('91_Captivate_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\127_Burn Rubber_POP.jpg" id="127_Burn Rubber_POP" data-flag="@X" onclick="openSidebar('127_Burn Rubber_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\189_Overpowering Belt_POP.jpg" id="189_Overpowering Belt_POP" data-flag="@X" onclick="openSidebar('189_Overpowering Belt_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\13_Bangtan Security_POP.jpg" id="13_Bangtan Security_POP" data-flag="@X" onclick="openSidebar('13_Bangtan Security_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\51_Beatswitch Bot_POP.jpg" id="51_Beatswitch Bot_POP" data-flag="@X" onclick="openSidebar('51_Beatswitch Bot_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\96_Facemelt_POP.jpg" id="96_Facemelt_POP" data-flag="@X" onclick="openSidebar('96_Facemelt_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\132_Expedite_POP.jpg" id="132_Expedite_POP" data-flag="@X" onclick="openSidebar('132_Expedite_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\168_Artistic Evolution_POP.jpg" id="168_Artistic Evolution_POP" data-flag="@X" onclick="openSidebar('168_Artistic Evolution_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\17_Censor's Sanction_POP.jpg" id="17_Censors Sanction_POP" data-flag="@X" onclick="openSidebar('17_Censors Sanction_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\52_Blinding Acrobat_POP.jpg" id="52_Blinding Acrobat_POP" data-flag="@X" onclick="openSidebar('52_Blinding Acrobat_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\97_Fade to Obscurity_POP.jpg" id="97_Fade to Obscurity_POP" data-flag="@X" onclick="openSidebar('97_Fade to Obscurity_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\135_Fraying Gearhead_POP.jpg" id="135_Fraying Gearhead_POP" data-flag="@X" onclick="openSidebar('135_Fraying Gearhead_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\175_Crowded Skies_POP.jpg" id="175_Crowded Skies_POP" data-flag="@X" onclick="openSidebar('175_Crowded Skies_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\19_Disc Flipper_POP.jpg" id="19_Disc Flipper_POP" data-flag="@X" onclick="openSidebar('19_Disc Flipper_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\53_Bumping Betta_POP.jpg" id="53_Bumping Betta_POP" data-flag="@X" onclick="openSidebar('53_Bumping Betta_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\100_Lurking Glitch_POP.jpg" id="100_Lurking Glitch_POP" data-flag="@X" onclick="openSidebar('100_Lurking Glitch_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\136_Frequency Jolt_POP.jpg" id="136_Frequency Jolt_POP" data-flag="@X" onclick="openSidebar('136_Frequency Jolt_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\176_Energizing Static_POP.jpg" id="176_Energizing Static_POP" data-flag="@X" onclick="openSidebar('176_Energizing Static_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\21_Fresh-Faced Idol_POP.jpg" id="21_Fresh-Faced Idol_POP" data-flag="@X" onclick="openSidebar('21_Fresh-Faced Idol_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\54_Capture Sphere_POP.jpg" id="54_Capture Sphere_POP" data-flag="@X" onclick="openSidebar('54_Capture Sphere_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\106_Profuse Obsession_POP.jpg" id="106_Profuse Obsession_POP" data-flag="@X" onclick="openSidebar('106_Profuse Obsession_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\137_Gear Blowout_POP.jpg" id="137_Gear Blowout_POP" data-flag="@X" onclick="openSidebar('137_Gear Blowout_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\177_Ensconce_POP.jpg" id="177_Ensconce_POP" data-flag="@X" onclick="openSidebar('177_Ensconce_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\23_Hardlight Projector_POP.jpg" id="23_Hardlight Projector_POP" data-flag="@X" onclick="openSidebar('23_Hardlight Projector_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\56_Dazzling Illuminator_POP.jpg" id="56_Dazzling Illuminator_POP" data-flag="@X" onclick="openSidebar('56_Dazzling Illuminator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\107_Public Feud_POP.jpg" id="107_Public Feud_POP" data-flag="@X" onclick="openSidebar('107_Public Feud_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\142_Lightvein Arrow_POP.jpg" id="142_Lightvein Arrow_POP" data-flag="@X" onclick="openSidebar('142_Lightvein Arrow_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\178_Found Sound Sampler_POP.jpg" id="178_Found Sound Sampler_POP" data-flag="@X" onclick="openSidebar('178_Found Sound Sampler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\24_Heavenly Illuminator_POP.jpg" id="24_Heavenly Illuminator_POP" data-flag="@X" onclick="openSidebar('24_Heavenly Illuminator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\58_Diss Track_POP.jpg" id="58_Diss Track_POP" data-flag="@X" onclick="openSidebar('58_Diss Track_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\110_Rooftop Spectacle_POP.jpg" id="110_Rooftop Spectacle_POP" data-flag="@X" onclick="openSidebar('110_Rooftop Spectacle_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\143_Midnight Burner_POP.jpg" id="143_Midnight Burner_POP" data-flag="@X" onclick="openSidebar('143_Midnight Burner_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\180_Genre Blender_POP.jpg" id="180_Genre Blender_POP" data-flag="@X" onclick="openSidebar('180_Genre Blender_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\27_Leonin Wildstar_POP.jpg" id="27_Leonin Wildstar_POP" data-flag="@X" onclick="openSidebar('27_Leonin Wildstar_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\59_Dizzying Flow_POP.jpg" id="59_Dizzying Flow_POP" data-flag="@X" onclick="openSidebar('59_Dizzying Flow_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\111_Ruthless Executive_POP.jpg" id="111_Ruthless Executive_POP" data-flag="@X" onclick="openSidebar('111_Ruthless Executive_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\144_Nekaru Takes the Stage_POP.jpg" id="144_Nekaru Takes the Stage_POP" data-flag="@X" onclick="openSidebar('144_Nekaru Takes the Stage_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\183_Hardlight Channeler_POP.jpg" id="183_Hardlight Channeler_POP" data-flag="@X" onclick="openSidebar('183_Hardlight Channeler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\28_Lightvein Infusion_POP.jpg" id="28_Lightvein Infusion_POP" data-flag="@X" onclick="openSidebar('28_Lightvein Infusion_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\63_Flashplay Fanatic_POP.jpg" id="63_Flashplay Fanatic_POP" data-flag="@X" onclick="openSidebar('63_Flashplay Fanatic_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\113_Soul Melter_POP.jpg" id="113_Soul Melter_POP" data-flag="@X" onclick="openSidebar('113_Soul Melter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\147_Photonic Cobra_POP.jpg" id="147_Photonic Cobra_POP" data-flag="@X" onclick="openSidebar('147_Photonic Cobra_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\187_Lightvein Discovery_POP.jpg" id="187_Lightvein Discovery_POP" data-flag="@X" onclick="openSidebar('187_Lightvein Discovery_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\33_Photon Collector_POP.jpg" id="33_Photon Collector_POP" data-flag="@X" onclick="openSidebar('33_Photon Collector_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\65_Flow Rider_POP.jpg" id="65_Flow Rider_POP" data-flag="@X" onclick="openSidebar('65_Flow Rider_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\115_Stalkarazzi_POP.jpg" id="115_Stalkarazzi_POP" data-flag="@X" onclick="openSidebar('115_Stalkarazzi_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\150_Pyrote Entity_POP.jpg" id="150_Pyrote Entity_POP" data-flag="@X" onclick="openSidebar('150_Pyrote Entity_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\188_Maximum Volume_POP.jpg" id="188_Maximum Volume_POP" data-flag="@X" onclick="openSidebar('188_Maximum Volume_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\34_Powerline Warbler_POP.jpg" id="34_Powerline Warbler_POP" data-flag="@X" onclick="openSidebar('34_Powerline Warbler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\66_Frequency Faeries_POP.jpg" id="66_Frequency Faeries_POP" data-flag="@X" onclick="openSidebar('66_Frequency Faeries_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\116_Supergroup Revival_POP.jpg" id="116_Supergroup Revival_POP" data-flag="@X" onclick="openSidebar('116_Supergroup Revival_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\151_Pyrote Technician_POP.jpg" id="151_Pyrote Technician_POP" data-flag="@X" onclick="openSidebar('151_Pyrote Technician_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\193_Reptilian Raver_POP.jpg" id="193_Reptilian Raver_POP" data-flag="@X" onclick="openSidebar('193_Reptilian Raver_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\36_Rampant Fanaticism_POP.jpg" id="36_Rampant Fanaticism_POP" data-flag="@X" onclick="openSidebar('36_Rampant Fanaticism_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\67_Globecapture Drones_POP.jpg" id="67_Globecapture Drones_POP" data-flag="@X" onclick="openSidebar('67_Globecapture Drones_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\117_Synchronic Slinker_POP.jpg" id="117_Synchronic Slinker_POP" data-flag="@X" onclick="openSidebar('117_Synchronic Slinker_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\153_Riotous Rockers_POP.jpg" id="153_Riotous Rockers_POP" data-flag="@X" onclick="openSidebar('153_Riotous Rockers_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\194_Search for Meaning_POP.jpg" id="194_Search for Meaning_POP" data-flag="@X" onclick="openSidebar('194_Search for Meaning_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\38_Scatter the Signal_POP.jpg" id="38_Scatter the Signal_POP" data-flag="@X" onclick="openSidebar('38_Scatter the Signal_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\69_Hypnotizing Words_POP.jpg" id="69_Hypnotizing Words_POP" data-flag="@X" onclick="openSidebar('69_Hypnotizing Words_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\119_Turn Up to Death_POP.jpg" id="119_Turn Up to Death_POP" data-flag="@X" onclick="openSidebar('119_Turn Up to Death_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\155_Scorching Illuminator_POP.jpg" id="155_Scorching Illuminator_POP" data-flag="@X" onclick="openSidebar('155_Scorching Illuminator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\196_Spry Illuminator_POP.jpg" id="196_Spry Illuminator_POP" data-flag="@X" onclick="openSidebar('196_Spry Illuminator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\41_Sonic Surveillance_POP.jpg" id="41_Sonic Surveillance_POP" data-flag="@X" onclick="openSidebar('41_Sonic Surveillance_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\71_Masked Duo_POP.jpg" id="71_Masked Duo_POP" data-flag="@X" onclick="openSidebar('71_Masked Duo_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\121_Variegated Shade_POP.jpg" id="121_Variegated Shade_POP" data-flag="@X" onclick="openSidebar('121_Variegated Shade_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\156_Sizzling Star_POP.jpg" id="156_Sizzling Star_POP" data-flag="@X" onclick="openSidebar('156_Sizzling Star_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\197_Steady Bass_POP.jpg" id="197_Steady Bass_POP" data-flag="@X" onclick="openSidebar('197_Steady Bass_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\43_Spirited Whimsy_POP.jpg" id="43_Spirited Whimsy_POP" data-flag="@X" onclick="openSidebar('43_Spirited Whimsy_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\76_Refract_POP.jpg" id="76_Refract_POP" data-flag="@X" onclick="openSidebar('76_Refract_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\122_Vibeseeker_POP.jpg" id="122_Vibeseeker_POP" data-flag="@X" onclick="openSidebar('122_Vibeseeker_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\157_Soundforged Tyrant_POP.jpg" id="157_Soundforged Tyrant_POP" data-flag="@X" onclick="openSidebar('157_Soundforged Tyrant_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\198_Temptuous Crooner_POP.jpg" id="198_Temptuous Crooner_POP" data-flag="@X" onclick="openSidebar('198_Temptuous Crooner_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\45_Trance Drone_POP.jpg" id="45_Trance Drone_POP" data-flag="@X" onclick="openSidebar('45_Trance Drone_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\78_Rhythmic Anticipation_POP.jpg" id="78_Rhythmic Anticipation_POP" data-flag="@X" onclick="openSidebar('78_Rhythmic Anticipation_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\123_Viral Upstarts_POP.jpg" id="123_Viral Upstarts_POP" data-flag="@X" onclick="openSidebar('123_Viral Upstarts_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\158_Spirit of the Crowd_POP.jpg" id="158_Spirit of the Crowd_POP" data-flag="@X" onclick="openSidebar('158_Spirit of the Crowd_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\199_Tuned Oscillator_POP.jpg" id="199_Tuned Oscillator_POP" data-flag="@X" onclick="openSidebar('199_Tuned Oscillator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\47_Trend Oracles_POP.jpg" id="47_Trend Oracles_POP" data-flag="@X" onclick="openSidebar('47_Trend Oracles_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\79_Smooth Operator_POP.jpg" id="79_Smooth Operator_POP" data-flag="@X" onclick="openSidebar('79_Smooth Operator_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\124_Whisper Squad_POP.jpg" id="124_Whisper Squad_POP" data-flag="@X" onclick="openSidebar('124_Whisper Squad_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\159_Superposed Lightkin_POP.jpg" id="159_Superposed Lightkin_POP" data-flag="@X" onclick="openSidebar('159_Superposed Lightkin_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\200_Undeniable Groove_POP.jpg" id="200_Undeniable Groove_POP" data-flag="@X" onclick="openSidebar('200_Undeniable Groove_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\35_Pristine Star_POP.jpg" id="35_Pristine Star_POP" data-flag="@X" onclick="openSidebar('35_Pristine Star_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\84_Transcendent Session_POP.jpg" id="84_Transcendent Session_POP" data-flag="@X" onclick="openSidebar('84_Transcendent Session_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\281_Tozzenia, Chief Executive (A.G. Cook)_POP.jpg" id="281_Tozzenia, Chief Executive (A.G. Cook)_POP" data-flag="@X" onclick="openSidebar('281_Tozzenia, Chief Executive (A.G. Cook)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\160_Threaten_POP.jpg" id="160_Threaten_POP" data-flag="@X" onclick="openSidebar('160_Threaten_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\202_Wavelength Synchronizer_POP.jpg" id="202_Wavelength Synchronizer_POP" data-flag="@X" onclick="openSidebar('202_Wavelength Synchronizer_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\279_Yaeji, Resplendent Idol (Yaeji)_POP.jpg" id="279_Yaeji, Resplendent Idol (Yaeji)_POP" data-flag="@X" onclick="openSidebar('279_Yaeji, Resplendent Idol (Yaeji)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\87_Wavelength Scanner_POP.jpg" id="87_Wavelength Scanner_POP" data-flag="@X" onclick="openSidebar('87_Wavelength Scanner_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\282_Xeon, BPM Savant (SOPHIE)_POP.jpg" id="282_Xeon, BPM Savant (SOPHIE)_POP" data-flag="@X" onclick="openSidebar('282_Xeon, BPM Savant (SOPHIE)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\203_Worldtreader Beast_POP.jpg" id="203_Worldtreader Beast_POP" data-flag="@X" onclick="openSidebar('203_Worldtreader Beast_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\280_Farrah P, Ascendant Looper (J Dilla)_POP.jpg" id="280_Farrah P, Ascendant Looper (J Dilla)_POP" data-flag="@X" onclick="openSidebar('280_Farrah P, Ascendant Looper (J Dilla)_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\295_Emblazoned Hooligan_PRO_POP.jpg" id="295_Emblazoned Hooligan_PRO_POP" data-flag="@X" onclick="openSidebar('295_Emblazoned Hooligan_PRO_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\294_Acid Hydra_PRO_POP.jpg" id="294_Acid Hydra_PRO_POP" data-flag="@X" onclick="openSidebar('294_Acid Hydra_PRO_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\POP-files\img\210_Electronegative Specialist_POP.jpg" id="210_Electronegative Specialist_POP" data-flag="@X" onclick="openSidebar('210_Electronegative Specialist_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\226_Sarasa, Quantum Entangler_POP.jpg" id="226_Sarasa, Quantum Entangler_POP" data-flag="@X" onclick="openSidebar('226_Sarasa, Quantum Entangler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\233_Tormenting Lightrider_POP.jpg" id="233_Tormenting Lightrider_POP" data-flag="@X" onclick="openSidebar('233_Tormenting Lightrider_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\223_Quantum Leaper_POP.jpg" id="223_Quantum Leaper_POP" data-flag="@X" onclick="openSidebar('223_Quantum Leaper_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\227_Sashanki, Destiny's Chosen_POP.jpg" id="227_Sashanki, Destinys Chosen_POP" data-flag="@X" onclick="openSidebar('227_Sashanki, Destinys Chosen_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\218_Lightvein Purifier_POP.jpg" id="218_Lightvein Purifier_POP" data-flag="@X" onclick="openSidebar('218_Lightvein Purifier_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\209_Destructive Interference_POP.jpg" id="209_Destructive Interference_POP" data-flag="@X" onclick="openSidebar('209_Destructive Interference_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\228_Shredding Dragon_POP.jpg" id="228_Shredding Dragon_POP" data-flag="@X" onclick="openSidebar('228_Shredding Dragon_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\237_Wayward Coalescence_POP.jpg" id="237_Wayward Coalescence_POP" data-flag="@X" onclick="openSidebar('237_Wayward Coalescence_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\231_Through Many Eyes_POP.jpg" id="231_Through Many Eyes_POP" data-flag="@X" onclick="openSidebar('231_Through Many Eyes_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\236_Waveform Harnessing Unit_POP.jpg" id="236_Waveform Harnessing Unit_POP" data-flag="@X" onclick="openSidebar('236_Waveform Harnessing Unit_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\229_Sinister Sampler_POP.jpg" id="229_Sinister Sampler_POP" data-flag="@X" onclick="openSidebar('229_Sinister Sampler_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\230_Spectral Reclamation_POP.jpg" id="230_Spectral Reclamation_POP" data-flag="@X" onclick="openSidebar('230_Spectral Reclamation_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\219_Lightvein Ritualists_POP.jpg" id="219_Lightvein Ritualists_POP" data-flag="@X" onclick="openSidebar('219_Lightvein Ritualists_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\284_Sashanki, Destiny's Chosen (Beyonce)_POP.jpg" id="284_Sashanki, Destinys Chosen (Beyonce)_POP" data-flag="@X" onclick="openSidebar('284_Sashanki, Destinys Chosen (Beyonce)_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\212_Flow Grandmaster_POP.jpg" id="212_Flow Grandmaster_POP" data-flag="@X" onclick="openSidebar('212_Flow Grandmaster_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\207_Caustic Influencer_POP.jpg" id="207_Caustic Influencer_POP" data-flag="@X" onclick="openSidebar('207_Caustic Influencer_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\205_Beloved Idol_POP.jpg" id="205_Beloved Idol_POP" data-flag="@X" onclick="openSidebar('205_Beloved Idol_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\232_Top of the Charts_POP.jpg" id="232_Top of the Charts_POP" data-flag="@X" onclick="openSidebar('232_Top of the Charts_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\215_JJ Mack, Trendsetter_POP.jpg" id="215_JJ Mack, Trendsetter_POP" data-flag="@X" onclick="openSidebar('215_JJ Mack, Trendsetter_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\213_Galius, Bringer of Bass_POP.jpg" id="213_Galius, Bringer of Bass_POP" data-flag="@X" onclick="openSidebar('213_Galius, Bringer of Bass_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\225_Riveting Encore_POP.jpg" id="225_Riveting Encore_POP" data-flag="@X" onclick="openSidebar('225_Riveting Encore_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\220_Manifest the Lightveins_POP.jpg" id="220_Manifest the Lightveins_POP" data-flag="@X" onclick="openSidebar('220_Manifest the Lightveins_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\277_Irrlicht_POP.jpg" id="277_Irrlicht_POP" data-flag="@X" onclick="openSidebar('277_Irrlicht_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\217_Lightspeed Launcher_POP.jpg" id="217_Lightspeed Launcher_POP" data-flag="@X" onclick="openSidebar('217_Lightspeed Launcher_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\235_Upstage_POP.jpg" id="235_Upstage_POP" data-flag="@X" onclick="openSidebar('235_Upstage_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\211_Fameweaver_POP.jpg" id="211_Fameweaver_POP" data-flag="@X" onclick="openSidebar('211_Fameweaver_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\221_Mykian, Pop Paragon_POP.jpg" id="221_Mykian, Pop Paragon_POP" data-flag="@X" onclick="openSidebar('221_Mykian, Pop Paragon_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\208_Corg, Bureaucratic Minister_POP.jpg" id="208_Corg, Bureaucratic Minister_POP" data-flag="@X" onclick="openSidebar('208_Corg, Bureaucratic Minister_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\285_JJ Mack, Trendsetter (Charli XCX)_POP.jpg" id="285_JJ Mack, Trendsetter (Charli XCX)_POP" data-flag="@X" onclick="openSidebar('285_JJ Mack, Trendsetter (Charli XCX)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\286_Galius, Bringer of Bass (Danny L Harle)_POP.jpg" id="286_Galius, Bringer of Bass (Danny L Harle)_POP" data-flag="@X" onclick="openSidebar('286_Galius, Bringer of Bass (Danny L Harle)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\234_Underground Sensation_POP.jpg" id="234_Underground Sensation_POP" data-flag="@X" onclick="openSidebar('234_Underground Sensation_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\287_Mykian, Pop Paragon (Dorian Electra)_POP.jpg" id="287_Mykian, Pop Paragon (Dorian Electra)_POP" data-flag="@X" onclick="openSidebar('287_Mykian, Pop Paragon (Dorian Electra)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\214_Ittri Procession_POP.jpg" id="214_Ittri Procession_POP" data-flag="@X" onclick="openSidebar('214_Ittri Procession_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\204_Android Stunner_POP.jpg" id="204_Android Stunner_POP" data-flag="@X" onclick="openSidebar('204_Android Stunner_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\224_Rave Mastermind_POP.jpg" id="224_Rave Mastermind_POP" data-flag="@X" onclick="openSidebar('224_Rave Mastermind_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\206_Breakbot_POP.jpg" id="206_Breakbot_POP" data-flag="@X" onclick="openSidebar('206_Breakbot_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\216_Kaleidoscope Mage_POP.jpg" id="216_Kaleidoscope Mage_POP" data-flag="@X" onclick="openSidebar('216_Kaleidoscope Mage_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\222_Ozzen Hit Squad_POP.jpg" id="222_Ozzen Hit Squad_POP" data-flag="@X" onclick="openSidebar('222_Ozzen Hit Squad_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\296_Top of the Charts_PRO_POP.jpg" id="296_Top of the Charts_PRO_POP" data-flag="@X" onclick="openSidebar('296_Top of the Charts_PRO_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\POP-files\img\3_Glitch, Chaos Redeemed_POP.jpg" id="3_Glitch, Chaos Redeemed_POP" data-flag="@X" onclick="openSidebar('3_Glitch, Chaos Redeemed_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\5_Moresso, Infuser of Light_POP.jpg" id="5_Moresso, Infuser of Light_POP" data-flag="@X" onclick="openSidebar('5_Moresso, Infuser of Light_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\2_Chamille, AAA-Lister_POP.jpg" id="2_Chamille, AAA-Lister_POP" data-flag="@X" onclick="openSidebar('2_Chamille, AAA-Lister_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\6_Prismatic Mantle_POP.jpg" id="6_Prismatic Mantle_POP" data-flag="@X" onclick="openSidebar('6_Prismatic Mantle_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\9_Revenge Tour_POP.jpg" id="9_Revenge Tour_POP" data-flag="@X" onclick="openSidebar('9_Revenge Tour_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\240_Digital Lotus_POP.jpg" id="240_Digital Lotus_POP" data-flag="@X" onclick="openSidebar('240_Digital Lotus_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\288_Chamille, AAA-Lister (Lady Gaga)_POP.jpg" id="288_Chamille, AAA-Lister (Lady Gaga)_POP" data-flag="@X" onclick="openSidebar('288_Chamille, AAA-Lister (Lady Gaga)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\4_Jagged Confusion_POP.jpg" id="4_Jagged Confusion_POP" data-flag="@X" onclick="openSidebar('4_Jagged Confusion_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\7_Prismatic Pack_POP.jpg" id="7_Prismatic Pack_POP" data-flag="@X" onclick="openSidebar('7_Prismatic Pack_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\246_Prismatic Galea_POP.jpg" id="246_Prismatic Galea_POP" data-flag="@X" onclick="openSidebar('246_Prismatic Galea_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\247_Soundproof Transport_POP.jpg" id="247_Soundproof Transport_POP" data-flag="@X" onclick="openSidebar('247_Soundproof Transport_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\1_Assault Platform_POP.jpg" id="1_Assault Platform_POP" data-flag="@X" onclick="openSidebar('1_Assault Platform_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\8_Prismatic Remnant_POP.jpg" id="8_Prismatic Remnant_POP" data-flag="@X" onclick="openSidebar('8_Prismatic Remnant_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\238_Confetti Cannons_POP.jpg" id="238_Confetti Cannons_POP" data-flag="@X" onclick="openSidebar('238_Confetti Cannons_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\239_Deafening Loudspeaker_POP.jpg" id="239_Deafening Loudspeaker_POP" data-flag="@X" onclick="openSidebar('239_Deafening Loudspeaker_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\241_Electromagnetic Geode_POP.jpg" id="241_Electromagnetic Geode_POP" data-flag="@X" onclick="openSidebar('241_Electromagnetic Geode_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\242_Kaleidoscopic Kicks_POP.jpg" id="242_Kaleidoscopic Kicks_POP" data-flag="@X" onclick="openSidebar('242_Kaleidoscopic Kicks_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\243_Lightspeed Cruiser_POP.jpg" id="243_Lightspeed Cruiser_POP" data-flag="@X" onclick="openSidebar('243_Lightspeed Cruiser_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\244_Neon Colossus_POP.jpg" id="244_Neon Colossus_POP" data-flag="@X" onclick="openSidebar('244_Neon Colossus_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\245_Petabyte Prism_POP.jpg" id="245_Petabyte Prism_POP" data-flag="@X" onclick="openSidebar('245_Petabyte Prism_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\248_Warblite Golem_POP.jpg" id="248_Warblite Golem_POP" data-flag="@X" onclick="openSidebar('248_Warblite Golem_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/sets\POP-files\img\251_Cumulus Soundvein_POP.jpg" id="251_Cumulus Soundvein_POP" data-flag="@X" onclick="openSidebar('251_Cumulus Soundvein_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\254_Glassy Soundvein_POP.jpg" id="254_Glassy Soundvein_POP" data-flag="@X" onclick="openSidebar('254_Glassy Soundvein_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\252_Desolate Soundvein_POP.jpg" id="252_Desolate Soundvein_POP" data-flag="@X" onclick="openSidebar('252_Desolate Soundvein_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\263_Rattling Soundvein_POP.jpg" id="263_Rattling Soundvein_POP" data-flag="@X" onclick="openSidebar('263_Rattling Soundvein_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\271_Vigorous Soundvein_POP.jpg" id="271_Vigorous Soundvein_POP" data-flag="@X" onclick="openSidebar('271_Vigorous Soundvein_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\261_Quantum Skycity_POP.jpg" id="261_Quantum Skycity_POP" data-flag="@X" onclick="openSidebar('261_Quantum Skycity_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\267_Swanky Club_POP.jpg" id="267_Swanky Club_POP" data-flag="@X" onclick="openSidebar('267_Swanky Club_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\250_Corgan Sprawl_POP.jpg" id="250_Corgan Sprawl_POP" data-flag="@X" onclick="openSidebar('250_Corgan Sprawl_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\259_Possibility Heights_POP.jpg" id="259_Possibility Heights_POP" data-flag="@X" onclick="openSidebar('259_Possibility Heights_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\262_Rapturous Festival_POP.jpg" id="262_Rapturous Festival_POP" data-flag="@X" onclick="openSidebar('262_Rapturous Festival_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\258_Ozzen Headquarters_POP.jpg" id="258_Ozzen Headquarters_POP" data-flag="@X" onclick="openSidebar('258_Ozzen Headquarters_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\268_Tenuous Edge_POP.jpg" id="268_Tenuous Edge_POP" data-flag="@X" onclick="openSidebar('268_Tenuous Edge_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\249_Abandoned Warehouse_POP.jpg" id="249_Abandoned Warehouse_POP" data-flag="@X" onclick="openSidebar('249_Abandoned Warehouse_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\265_Sunrise Lot_POP.jpg" id="265_Sunrise Lot_POP" data-flag="@X" onclick="openSidebar('265_Sunrise Lot_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\253_Drizzling Cloister_POP.jpg" id="253_Drizzling Cloister_POP" data-flag="@X" onclick="openSidebar('253_Drizzling Cloister_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\255_Hyperloop Obelisk_POP.jpg" id="255_Hyperloop Obelisk_POP" data-flag="@X" onclick="openSidebar('255_Hyperloop Obelisk_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\256_Magdalena Bay_POP.jpg" id="256_Magdalena Bay_POP" data-flag="@X" onclick="openSidebar('256_Magdalena Bay_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\257_Nascent Lightvein_POP.jpg" id="257_Nascent Lightvein_POP" data-flag="@X" onclick="openSidebar('257_Nascent Lightvein_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\264_Studio Excelsior_POP.jpg" id="264_Studio Excelsior_POP" data-flag="@X" onclick="openSidebar('264_Studio Excelsior_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\266_Sunset Slums_POP.jpg" id="266_Sunset Slums_POP" data-flag="@X" onclick="openSidebar('266_Sunset Slums_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\269_Tree of Clues_POP.jpg" id="269_Tree of Clues_POP" data-flag="@X" onclick="openSidebar('269_Tree of Clues_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\289_Tree of Clues (1000 Gecs and the Tree of Clues)_POP.jpg" id="289_Tree of Clues (1000 Gecs and the Tree of Clues)_POP" data-flag="@X" onclick="openSidebar('289_Tree of Clues (1000 Gecs and the Tree of Clues)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\290_Sunset Slums (Floral Shoppe)_POP.jpg" id="290_Sunset Slums (Floral Shoppe)_POP" data-flag="@X" onclick="openSidebar('290_Sunset Slums (Floral Shoppe)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\291_Magdalena Bay (Mini Mix Vol. 3)_POP.jpg" id="291_Magdalena Bay (Mini Mix Vol. 3)_POP" data-flag="@X" onclick="openSidebar('291_Magdalena Bay (Mini Mix Vol. 3)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\292_Hyperloop Obelisk (Oil of Every Pearl's Un-Insides)_POP.jpg" id="292_Hyperloop Obelisk (Oil of Every Pearls Un-Insides)_POP" data-flag="@X" onclick="openSidebar('292_Hyperloop Obelisk (Oil of Every Pearls Un-Insides)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\293_Studio Excelsior (Troubled Paradise)_POP.jpg" id="293_Studio Excelsior (Troubled Paradise)_POP" data-flag="@X" onclick="openSidebar('293_Studio Excelsior (Troubled Paradise)_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\260_Pulsing Soundsea_POP.jpg" id="260_Pulsing Soundsea_POP" data-flag="@X" onclick="openSidebar('260_Pulsing Soundsea_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\270_Uncharted Haven_POP.jpg" id="270_Uncharted Haven_POP" data-flag="@X" onclick="openSidebar('270_Uncharted Haven_POP',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\273_Island_POP.jpg" id="273_Island_POP" data-flag="@X" onclick="openSidebar('273_Island_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\275_Mountain_POP.jpg" id="275_Mountain_POP" data-flag="@X" onclick="openSidebar('275_Mountain_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\274_Swamp_POP.jpg" id="274_Swamp_POP" data-flag="@X" onclick="openSidebar('274_Swamp_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\272_Plains_POP.jpg" id="272_Plains_POP" data-flag="@X" onclick="openSidebar('272_Plains_POP',false)"></div>
+			<div class="container"><img alt="/sets\POP-files\img\276_Forest_POP.jpg" id="276_Forest_POP" data-flag="@X" onclick="openSidebar('276_Forest_POP',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

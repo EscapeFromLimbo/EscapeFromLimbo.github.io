@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/VST-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>VST visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/VST-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/VST-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\VST-files\img\2_Angel of Dismay_VST.jpg" id="2_Angel of Dismay_VST" data-flag="@X" onclick="openSidebar('2_Angel of Dismay_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\70_Sephius, Endtime Scholar_VST.jpg" id="70_Sephius, Endtime Scholar_VST" data-flag="@X" onclick="openSidebar('70_Sephius, Endtime Scholar_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\80_Consign to Failure_VST.jpg" id="80_Consign to Failure_VST" data-flag="@X" onclick="openSidebar('80_Consign to Failure_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\151_Shimmering Dunekite_VST.jpg" id="151_Shimmering Dunekite_VST" data-flag="@X" onclick="openSidebar('151_Shimmering Dunekite_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\163_Evaldi's Masterpiece_VST.jpg" id="163_Evaldis Masterpiece_VST" data-flag="@X" onclick="openSidebar('163_Evaldis Masterpiece_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\5_Convoy Forerunner_VST.jpg" id="5_Convoy Forerunner_VST" data-flag="@X" onclick="openSidebar('5_Convoy Forerunner_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\77_Unprecedented Genius_VST.jpg" id="77_Unprecedented Genius_VST" data-flag="@X" onclick="openSidebar('77_Unprecedented Genius_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\93_Foug, Indulgent Broker_VST.jpg" id="93_Foug, Indulgent Broker_VST" data-flag="@X" onclick="openSidebar('93_Foug, Indulgent Broker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\120_Claim What Remains_VST.jpg" id="120_Claim What Remains_VST" data-flag="@X" onclick="openSidebar('120_Claim What Remains_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\194_Wurm's Wake_VST.jpg" id="194_Wurms Wake_VST" data-flag="@X" onclick="openSidebar('194_Wurms Wake_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\7_Destari Skylord_VST.jpg" id="7_Destari Skylord_VST" data-flag="@X" onclick="openSidebar('7_Destari Skylord_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\47_Eternal Wanderer_VST.jpg" id="47_Eternal Wanderer_VST" data-flag="@X" onclick="openSidebar('47_Eternal Wanderer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\87_Erode to Nothing_VST.jpg" id="87_Erode to Nothing_VST" data-flag="@X" onclick="openSidebar('87_Erode to Nothing_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\121_Dustborn Phoenix_VST.jpg" id="121_Dustborn Phoenix_VST" data-flag="@X" onclick="openSidebar('121_Dustborn Phoenix_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\157_Bitter Redemption_VST.jpg" id="157_Bitter Redemption_VST" data-flag="@X" onclick="openSidebar('157_Bitter Redemption_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\15_Last of Us_VST.jpg" id="15_Last of Us_VST" data-flag="@X" onclick="openSidebar('15_Last of Us_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\48_Evaldi's Harmonizer_VST.jpg" id="48_Evaldis Harmonizer_VST" data-flag="@X" onclick="openSidebar('48_Evaldis Harmonizer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\89_The Fall of Aethanis_VST.jpg" id="89_The Fall of Aethanis_VST" data-flag="@X" onclick="openSidebar('89_The Fall of Aethanis_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\128_Grin, Scourge of Goresand_VST.jpg" id="128_Grin, Scourge of Goresand_VST" data-flag="@X" onclick="openSidebar('128_Grin, Scourge of Goresand_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\158_Consumption Tyrant_VST.jpg" id="158_Consumption Tyrant_VST" data-flag="@X" onclick="openSidebar('158_Consumption Tyrant_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\27_Runic Sealer_VST.jpg" id="27_Runic Sealer_VST" data-flag="@X" onclick="openSidebar('27_Runic Sealer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\51_Geneshifting_VST.jpg" id="51_Geneshifting_VST" data-flag="@X" onclick="openSidebar('51_Geneshifting_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\100_Lethal Dose_VST.jpg" id="100_Lethal Dose_VST" data-flag="@X" onclick="openSidebar('100_Lethal Dose_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\129_Grin's Reaver_VST.jpg" id="129_Grins Reaver_VST" data-flag="@X" onclick="openSidebar('129_Grins Reaver_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\162_Evaldi, Genesis of Hope_VST.jpg" id="162_Evaldi, Genesis of Hope_VST" data-flag="@X" onclick="openSidebar('162_Evaldi, Genesis of Hope_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\31_Saviour of the Lost_VST.jpg" id="31_Saviour of the Lost_VST" data-flag="@X" onclick="openSidebar('31_Saviour of the Lost_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\58_Mirage Oddity_VST.jpg" id="58_Mirage Oddity_VST" data-flag="@X" onclick="openSidebar('58_Mirage Oddity_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\101_Leyline Reaper_VST.jpg" id="101_Leyline Reaper_VST" data-flag="@X" onclick="openSidebar('101_Leyline Reaper_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\134_Insistent Lightning_VST.jpg" id="134_Insistent Lightning_VST" data-flag="@X" onclick="openSidebar('134_Insistent Lightning_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\164_Evaldi's Muse_VST.jpg" id="164_Evaldis Muse_VST" data-flag="@X" onclick="openSidebar('164_Evaldis Muse_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\36_Travel Together_VST.jpg" id="36_Travel Together_VST" data-flag="@X" onclick="openSidebar('36_Travel Together_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\63_Quintessence Manta_VST.jpg" id="63_Quintessence Manta_VST" data-flag="@X" onclick="openSidebar('63_Quintessence Manta_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\104_Pursued Eremite_VST.jpg" id="104_Pursued Eremite_VST" data-flag="@X" onclick="openSidebar('104_Pursued Eremite_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\135_Instincts of the Pack_VST.jpg" id="135_Instincts of the Pack_VST" data-flag="@X" onclick="openSidebar('135_Instincts of the Pack_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\178_Leyline Feeder_VST.jpg" id="178_Leyline Feeder_VST" data-flag="@X" onclick="openSidebar('178_Leyline Feeder_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\37_United in Survival_VST.jpg" id="37_United in Survival_VST" data-flag="@X" onclick="openSidebar('37_United in Survival_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\65_Render Inert_VST.jpg" id="65_Render Inert_VST" data-flag="@X" onclick="openSidebar('65_Render Inert_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\108_Radaran Undying_VST.jpg" id="108_Radaran Undying_VST" data-flag="@X" onclick="openSidebar('108_Radaran Undying_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\153_Sun-Mad Dunekite_VST.jpg" id="153_Sun-Mad Dunekite_VST" data-flag="@X" onclick="openSidebar('153_Sun-Mad Dunekite_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\189_Stampeding Orvs_VST.jpg" id="189_Stampeding Orvs_VST" data-flag="@X" onclick="openSidebar('189_Stampeding Orvs_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\4_Chosen of the Faultless_VST.jpg" id="4_Chosen of the Faultless_VST" data-flag="@X" onclick="openSidebar('4_Chosen of the Faultless_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\67_Sandwarp_VST.jpg" id="67_Sandwarp_VST" data-flag="@X" onclick="openSidebar('67_Sandwarp_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\109_Rayak, Radaran Overlord_VST.jpg" id="109_Rayak, Radaran Overlord_VST" data-flag="@X" onclick="openSidebar('109_Rayak, Radaran Overlord_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\155_Warpath Minotaur_VST.jpg" id="155_Warpath Minotaur_VST" data-flag="@X" onclick="openSidebar('155_Warpath Minotaur_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\190_Struggle for Survival_VST.jpg" id="190_Struggle for Survival_VST" data-flag="@X" onclick="openSidebar('190_Struggle for Survival_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\10_Enrobe in Light_VST.jpg" id="10_Enrobe in Light_VST" data-flag="@X" onclick="openSidebar('10_Enrobe in Light_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\40_Antiquity Seeker_VST.jpg" id="40_Antiquity Seeker_VST" data-flag="@X" onclick="openSidebar('40_Antiquity Seeker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\79_Carrion Divers_VST.jpg" id="79_Carrion Divers_VST" data-flag="@X" onclick="openSidebar('79_Carrion Divers_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\118_Ashen Dunekite_VST.jpg" id="118_Ashen Dunekite_VST" data-flag="@X" onclick="openSidebar('118_Ashen Dunekite_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\165_Evaldi's Search_VST.jpg" id="165_Evaldis Search_VST" data-flag="@X" onclick="openSidebar('165_Evaldis Search_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\12_Forlorn Firstspear_VST.jpg" id="12_Forlorn Firstspear_VST" data-flag="@X" onclick="openSidebar('12_Forlorn Firstspear_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\44_Dust Enigma_VST.jpg" id="44_Dust Enigma_VST" data-flag="@X" onclick="openSidebar('44_Dust Enigma_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\81_Council of Vaya_VST.jpg" id="81_Council of Vaya_VST" data-flag="@X" onclick="openSidebar('81_Council of Vaya_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\119_Bloodrage Brawler_VST.jpg" id="119_Bloodrage Brawler_VST" data-flag="@X" onclick="openSidebar('119_Bloodrage Brawler_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\167_Exogene Prowler_VST.jpg" id="167_Exogene Prowler_VST" data-flag="@X" onclick="openSidebar('167_Exogene Prowler_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\16_Left to Time_VST.jpg" id="16_Left to Time_VST" data-flag="@X" onclick="openSidebar('16_Left to Time_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\50_Geneshifter Adept_VST.jpg" id="50_Geneshifter Adept_VST" data-flag="@X" onclick="openSidebar('50_Geneshifter Adept_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\82_Destari Blightwing_VST.jpg" id="82_Destari Blightwing_VST" data-flag="@X" onclick="openSidebar('82_Destari Blightwing_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\123_Fierce Infighting_VST.jpg" id="123_Fierce Infighting_VST" data-flag="@X" onclick="openSidebar('123_Fierce Infighting_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\169_Fluorescent Sprinter_VST.jpg" id="169_Fluorescent Sprinter_VST" data-flag="@X" onclick="openSidebar('169_Fluorescent Sprinter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\18_Naomi's Vanguard_VST.jpg" id="18_Naomis Vanguard_VST" data-flag="@X" onclick="openSidebar('18_Naomis Vanguard_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\60_Nimbus Drifters_VST.jpg" id="60_Nimbus Drifters_VST" data-flag="@X" onclick="openSidebar('60_Nimbus Drifters_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\90_Falltouched Emergence_VST.jpg" id="90_Falltouched Emergence_VST" data-flag="@X" onclick="openSidebar('90_Falltouched Emergence_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\124_Gnoll Raidleaders_VST.jpg" id="124_Gnoll Raidleaders_VST" data-flag="@X" onclick="openSidebar('124_Gnoll Raidleaders_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\171_Geneshifted Goliath_VST.jpg" id="171_Geneshifted Goliath_VST" data-flag="@X" onclick="openSidebar('171_Geneshifted Goliath_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\19_Nivia's Regret_VST.jpg" id="19_Nivias Regret_VST" data-flag="@X" onclick="openSidebar('19_Nivias Regret_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\61_Part Ways_VST.jpg" id="61_Part Ways_VST" data-flag="@X" onclick="openSidebar('61_Part Ways_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\94_Foug's Quandary_VST.jpg" id="94_Fougs Quandary_VST" data-flag="@X" onclick="openSidebar('94_Fougs Quandary_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\130_Hateseer Elder_VST.jpg" id="130_Hateseer Elder_VST" data-flag="@X" onclick="openSidebar('130_Hateseer Elder_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\172_Geneshifted Warbler_VST.jpg" id="172_Geneshifted Warbler_VST" data-flag="@X" onclick="openSidebar('172_Geneshifted Warbler_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\24_Path of Resilience_VST.jpg" id="24_Path of Resilience_VST" data-flag="@X" onclick="openSidebar('24_Path of Resilience_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\62_Path of Caution_VST.jpg" id="62_Path of Caution_VST" data-flag="@X" onclick="openSidebar('62_Path of Caution_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\99_Hopeless Predicament_VST.jpg" id="99_Hopeless Predicament_VST" data-flag="@X" onclick="openSidebar('99_Hopeless Predicament_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\133_Incandescent Rain_VST.jpg" id="133_Incandescent Rain_VST" data-flag="@X" onclick="openSidebar('133_Incandescent Rain_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\173_Grievous Confrontation_VST.jpg" id="173_Grievous Confrontation_VST" data-flag="@X" onclick="openSidebar('173_Grievous Confrontation_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\25_Repel the Impure_VST.jpg" id="25_Repel the Impure_VST" data-flag="@X" onclick="openSidebar('25_Repel the Impure_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\71_Sephius's Research_VST.jpg" id="71_Sephiuss Research_VST" data-flag="@X" onclick="openSidebar('71_Sephiuss Research_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\105_Radaran Butcher_VST.jpg" id="105_Radaran Butcher_VST" data-flag="@X" onclick="openSidebar('105_Radaran Butcher_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\136_Luma's Acolyte_VST.jpg" id="136_Lumas Acolyte_VST" data-flag="@X" onclick="openSidebar('136_Lumas Acolyte_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\177_Landscape Decay_VST.jpg" id="177_Landscape Decay_VST" data-flag="@X" onclick="openSidebar('177_Landscape Decay_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\29_Sanctis Griffin_VST.jpg" id="29_Sanctis Griffin_VST" data-flag="@X" onclick="openSidebar('29_Sanctis Griffin_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\72_Sidetracked_VST.jpg" id="72_Sidetracked_VST" data-flag="@X" onclick="openSidebar('72_Sidetracked_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\107_Radaran Stirrings_VST.jpg" id="107_Radaran Stirrings_VST" data-flag="@X" onclick="openSidebar('107_Radaran Stirrings_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\139_Path of Brutality_VST.jpg" id="139_Path of Brutality_VST" data-flag="@X" onclick="openSidebar('139_Path of Brutality_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\179_Lost in the Past_VST.jpg" id="179_Lost in the Past_VST" data-flag="@X" onclick="openSidebar('179_Lost in the Past_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\32_Seek Out Survivors_VST.jpg" id="32_Seek Out Survivors_VST" data-flag="@X" onclick="openSidebar('32_Seek Out Survivors_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\73_Sink into Doubt_VST.jpg" id="73_Sink into Doubt_VST" data-flag="@X" onclick="openSidebar('73_Sink into Doubt_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\110_Rayak's Prelate_VST.jpg" id="110_Rayaks Prelate_VST" data-flag="@X" onclick="openSidebar('110_Rayaks Prelate_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\141_Rabid Whelps_VST.jpg" id="141_Rabid Whelps_VST" data-flag="@X" onclick="openSidebar('141_Rabid Whelps_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\181_Plated Charger_VST.jpg" id="181_Plated Charger_VST" data-flag="@X" onclick="openSidebar('181_Plated Charger_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\34_Skywatch Brigade_VST.jpg" id="34_Skywatch Brigade_VST" data-flag="@X" onclick="openSidebar('34_Skywatch Brigade_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\75_Umbral Glider_VST.jpg" id="75_Umbral Glider_VST" data-flag="@X" onclick="openSidebar('75_Umbral Glider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\111_Resilient Raiders_VST.jpg" id="111_Resilient Raiders_VST" data-flag="@X" onclick="openSidebar('111_Resilient Raiders_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\143_Raid Preparations_VST.jpg" id="143_Raid Preparations_VST" data-flag="@X" onclick="openSidebar('143_Raid Preparations_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\183_Radaran Reclaimer_VST.jpg" id="183_Radaran Reclaimer_VST" data-flag="@X" onclick="openSidebar('183_Radaran Reclaimer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\38_Vaya's Subjugator_VST.jpg" id="38_Vayas Subjugator_VST" data-flag="@X" onclick="openSidebar('38_Vayas Subjugator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\76_Uneasy Encounter_VST.jpg" id="76_Uneasy Encounter_VST" data-flag="@X" onclick="openSidebar('76_Uneasy Encounter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\112_Savor the Torment_VST.jpg" id="112_Savor the Torment_VST" data-flag="@X" onclick="openSidebar('112_Savor the Torment_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\148_Sandscald_VST.jpg" id="148_Sandscald_VST" data-flag="@X" onclick="openSidebar('148_Sandscald_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\185_Sandstalker Duo_VST.jpg" id="185_Sandstalker Duo_VST" data-flag="@X" onclick="openSidebar('185_Sandstalker Duo_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\3_Caravan Skyrider_VST.jpg" id="3_Caravan Skyrider_VST" data-flag="@X" onclick="openSidebar('3_Caravan Skyrider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\78_Wall of Mysteries_VST.jpg" id="78_Wall of Mysteries_VST" data-flag="@X" onclick="openSidebar('78_Wall of Mysteries_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\114_Supply Raid_VST.jpg" id="114_Supply Raid_VST" data-flag="@X" onclick="openSidebar('114_Supply Raid_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\149_Scrapfire Technician_VST.jpg" id="149_Scrapfire Technician_VST" data-flag="@X" onclick="openSidebar('149_Scrapfire Technician_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\188_Skytouch Wurm_VST.jpg" id="188_Skytouch Wurm_VST" data-flag="@X" onclick="openSidebar('188_Skytouch Wurm_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\6_Convoy Laggu-Rider_VST.jpg" id="6_Convoy Laggu-Rider_VST" data-flag="@X" onclick="openSidebar('6_Convoy Laggu-Rider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\41_Blind Wyvern_VST.jpg" id="41_Blind Wyvern_VST" data-flag="@X" onclick="openSidebar('41_Blind Wyvern_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\83_Doomed Undertaking_VST.jpg" id="83_Doomed Undertaking_VST" data-flag="@X" onclick="openSidebar('83_Doomed Undertaking_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\122_Endtimes Hunter_VST.jpg" id="122_Endtimes Hunter_VST" data-flag="@X" onclick="openSidebar('122_Endtimes Hunter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\159_Debris Surveyors_VST.jpg" id="159_Debris Surveyors_VST" data-flag="@X" onclick="openSidebar('159_Debris Surveyors_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\8_Disciple of the Faultless_VST.jpg" id="8_Disciple of the Faultless_VST" data-flag="@X" onclick="openSidebar('8_Disciple of the Faultless_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\42_Brackcliff Drakes_VST.jpg" id="42_Brackcliff Drakes_VST" data-flag="@X" onclick="openSidebar('42_Brackcliff Drakes_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\84_Ego Collapse_VST.jpg" id="84_Ego Collapse_VST" data-flag="@X" onclick="openSidebar('84_Ego Collapse_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\125_Gnoll Ravager_VST.jpg" id="125_Gnoll Ravager_VST" data-flag="@X" onclick="openSidebar('125_Gnoll Ravager_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\160_Desperate Animist_VST.jpg" id="160_Desperate Animist_VST" data-flag="@X" onclick="openSidebar('160_Desperate Animist_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\9_Endtimes Hatchling_VST.jpg" id="9_Endtimes Hatchling_VST" data-flag="@X" onclick="openSidebar('9_Endtimes Hatchling_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\43_Crafted Exogene_VST.jpg" id="43_Crafted Exogene_VST" data-flag="@X" onclick="openSidebar('43_Crafted Exogene_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\85_Embraced by Dusk_VST.jpg" id="85_Embraced by Dusk_VST" data-flag="@X" onclick="openSidebar('85_Embraced by Dusk_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\126_Goresand Marauder_VST.jpg" id="126_Goresand Marauder_VST" data-flag="@X" onclick="openSidebar('126_Goresand Marauder_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\161_Endtimes Pilgrim_VST.jpg" id="161_Endtimes Pilgrim_VST" data-flag="@X" onclick="openSidebar('161_Endtimes Pilgrim_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\11_Flawed Undertaking_VST.jpg" id="11_Flawed Undertaking_VST" data-flag="@X" onclick="openSidebar('11_Flawed Undertaking_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\45_Endtimes Monstrosity_VST.jpg" id="45_Endtimes Monstrosity_VST" data-flag="@X" onclick="openSidebar('45_Endtimes Monstrosity_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\86_Endtimes Steward_VST.jpg" id="86_Endtimes Steward_VST" data-flag="@X" onclick="openSidebar('86_Endtimes Steward_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\127_Goresand Wardriver_VST.jpg" id="127_Goresand Wardriver_VST" data-flag="@X" onclick="openSidebar('127_Goresand Wardriver_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\166_Exiled Channeler_VST.jpg" id="166_Exiled Channeler_VST" data-flag="@X" onclick="openSidebar('166_Exiled Channeler_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\13_Griffin Taming_VST.jpg" id="13_Griffin Taming_VST" data-flag="@X" onclick="openSidebar('13_Griffin Taming_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\46_Essence Scatter_VST.jpg" id="46_Essence Scatter_VST" data-flag="@X" onclick="openSidebar('46_Essence Scatter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\88_Fall Lurker_VST.jpg" id="88_Fall Lurker_VST" data-flag="@X" onclick="openSidebar('88_Fall Lurker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\131_Hostile Undertaking_VST.jpg" id="131_Hostile Undertaking_VST" data-flag="@X" onclick="openSidebar('131_Hostile Undertaking_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\168_Falltouched Hunger_VST.jpg" id="168_Falltouched Hunger_VST" data-flag="@X" onclick="openSidebar('168_Falltouched Hunger_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\14_Isolation Zone_VST.jpg" id="14_Isolation Zone_VST" data-flag="@X" onclick="openSidebar('14_Isolation Zone_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\49_Exogene Spitter_VST.jpg" id="49_Exogene Spitter_VST" data-flag="@X" onclick="openSidebar('49_Exogene Spitter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\91_Falltouched Predator_VST.jpg" id="91_Falltouched Predator_VST" data-flag="@X" onclick="openSidebar('91_Falltouched Predator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\132_Huntscent Pillagers_VST.jpg" id="132_Huntscent Pillagers_VST" data-flag="@X" onclick="openSidebar('132_Huntscent Pillagers_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\170_Gene Gorger_VST.jpg" id="170_Gene Gorger_VST" data-flag="@X" onclick="openSidebar('170_Gene Gorger_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\17_Luma's Kindred_VST.jpg" id="17_Lumas Kindred_VST" data-flag="@X" onclick="openSidebar('17_Lumas Kindred_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\52_Getting Lost_VST.jpg" id="52_Getting Lost_VST" data-flag="@X" onclick="openSidebar('52_Getting Lost_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\92_Faultless Bloodhunter_VST.jpg" id="92_Faultless Bloodhunter_VST" data-flag="@X" onclick="openSidebar('92_Faultless Bloodhunter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\137_Marauder's Fire_VST.jpg" id="137_Marauders Fire_VST" data-flag="@X" onclick="openSidebar('137_Marauders Fire_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\174_Horizon Eater_VST.jpg" id="174_Horizon Eater_VST" data-flag="@X" onclick="openSidebar('174_Horizon Eater_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\20_Nomad Enforcer_VST.jpg" id="20_Nomad Enforcer_VST" data-flag="@X" onclick="openSidebar('20_Nomad Enforcer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\53_Know the Way_VST.jpg" id="53_Know the Way_VST" data-flag="@X" onclick="openSidebar('53_Know the Way_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\95_Gnoll Deathraider_VST.jpg" id="95_Gnoll Deathraider_VST" data-flag="@X" onclick="openSidebar('95_Gnoll Deathraider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\138_The Pack Feasts_VST.jpg" id="138_The Pack Feasts_VST" data-flag="@X" onclick="openSidebar('138_The Pack Feasts_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\175_Hunter's Tenacity_VST.jpg" id="175_Hunters Tenacity_VST" data-flag="@X" onclick="openSidebar('175_Hunters Tenacity_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\21_Nomad's Companion_VST.jpg" id="21_Nomads Companion_VST" data-flag="@X" onclick="openSidebar('21_Nomads Companion_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\54_Leave to the Sands_VST.jpg" id="54_Leave to the Sands_VST" data-flag="@X" onclick="openSidebar('54_Leave to the Sands_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\96_Grasp of the Fallen_VST.jpg" id="96_Grasp of the Fallen_VST" data-flag="@X" onclick="openSidebar('96_Grasp of the Fallen_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\140_Plunder and Maim_VST.jpg" id="140_Plunder and Maim_VST" data-flag="@X" onclick="openSidebar('140_Plunder and Maim_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\176_Laggu Outrider_VST.jpg" id="176_Laggu Outrider_VST" data-flag="@X" onclick="openSidebar('176_Laggu Outrider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\22_Oasis Seeker_VST.jpg" id="22_Oasis Seeker_VST" data-flag="@X" onclick="openSidebar('22_Oasis Seeker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\55_Leyline Feedback_VST.jpg" id="55_Leyline Feedback_VST" data-flag="@X" onclick="openSidebar('55_Leyline Feedback_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\97_Grim Determination_VST.jpg" id="97_Grim Determination_VST" data-flag="@X" onclick="openSidebar('97_Grim Determination_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\142_Radaran Pioneer_VST.jpg" id="142_Radaran Pioneer_VST" data-flag="@X" onclick="openSidebar('142_Radaran Pioneer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\180_Market Festival_VST.jpg" id="180_Market Festival_VST" data-flag="@X" onclick="openSidebar('180_Market Festival_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\23_Overcome the Dunes_VST.jpg" id="23_Overcome the Dunes_VST" data-flag="@X" onclick="openSidebar('23_Overcome the Dunes_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\56_Leyline Router_VST.jpg" id="56_Leyline Router_VST" data-flag="@X" onclick="openSidebar('56_Leyline Router_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\98_Harvester of Vigor_VST.jpg" id="98_Harvester of Vigor_VST" data-flag="@X" onclick="openSidebar('98_Harvester of Vigor_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\144_Raider's Loyalty_VST.jpg" id="144_Raiders Loyalty_VST" data-flag="@X" onclick="openSidebar('144_Raiders Loyalty_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\182_Radaran Hunter_VST.jpg" id="182_Radaran Hunter_VST" data-flag="@X" onclick="openSidebar('182_Radaran Hunter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\26_Resigned Seraph_VST.jpg" id="26_Resigned Seraph_VST" data-flag="@X" onclick="openSidebar('26_Resigned Seraph_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\57_Lore Investigator_VST.jpg" id="57_Lore Investigator_VST" data-flag="@X" onclick="openSidebar('57_Lore Investigator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\102_Life Desecrator_VST.jpg" id="102_Life Desecrator_VST" data-flag="@X" onclick="openSidebar('102_Life Desecrator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\145_Ransack and Burn_VST.jpg" id="145_Ransack and Burn_VST" data-flag="@X" onclick="openSidebar('145_Ransack and Burn_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\184_Reduce to Earth_VST.jpg" id="184_Reduce to Earth_VST" data-flag="@X" onclick="openSidebar('184_Reduce to Earth_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\28_Sanctis Banneret_VST.jpg" id="28_Sanctis Banneret_VST" data-flag="@X" onclick="openSidebar('28_Sanctis Banneret_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\59_Mysterious Undertaking_VST.jpg" id="59_Mysterious Undertaking_VST" data-flag="@X" onclick="openSidebar('59_Mysterious Undertaking_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\103_Malformed Rebirth_VST.jpg" id="103_Malformed Rebirth_VST" data-flag="@X" onclick="openSidebar('103_Malformed Rebirth_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\146_Regard the Remnants_VST.jpg" id="146_Regard the Remnants_VST" data-flag="@X" onclick="openSidebar('146_Regard the Remnants_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\186_Sandtrap Spider_VST.jpg" id="186_Sandtrap Spider_VST" data-flag="@X" onclick="openSidebar('186_Sandtrap Spider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\30_Sanctum's Light_VST.jpg" id="30_Sanctums Light_VST" data-flag="@X" onclick="openSidebar('30_Sanctums Light_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\64_Relic Wayfarer_VST.jpg" id="64_Relic Wayfarer_VST" data-flag="@X" onclick="openSidebar('64_Relic Wayfarer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\106_Radaran Monstrosity_VST.jpg" id="106_Radaran Monstrosity_VST" data-flag="@X" onclick="openSidebar('106_Radaran Monstrosity_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\147_Rubble Messenger_VST.jpg" id="147_Rubble Messenger_VST" data-flag="@X" onclick="openSidebar('147_Rubble Messenger_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\187_Savage Undertaking_VST.jpg" id="187_Savage Undertaking_VST" data-flag="@X" onclick="openSidebar('187_Savage Undertaking_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\33_Seize the Initiative_VST.jpg" id="33_Seize the Initiative_VST" data-flag="@X" onclick="openSidebar('33_Seize the Initiative_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\66_Sand Manipulator_VST.jpg" id="66_Sand Manipulator_VST" data-flag="@X" onclick="openSidebar('66_Sand Manipulator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\113_Shi-Fang Bandits_VST.jpg" id="113_Shi-Fang Bandits_VST" data-flag="@X" onclick="openSidebar('113_Shi-Fang Bandits_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\150_Shi-Fang Ambusher_VST.jpg" id="150_Shi-Fang Ambusher_VST" data-flag="@X" onclick="openSidebar('150_Shi-Fang Ambusher_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\191_Twisted Endurance_VST.jpg" id="191_Twisted Endurance_VST" data-flag="@X" onclick="openSidebar('191_Twisted Endurance_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\35_Survey What's Left_VST.jpg" id="35_Survey Whats Left_VST" data-flag="@X" onclick="openSidebar('35_Survey Whats Left_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\68_Seawing Shrieker_VST.jpg" id="68_Seawing Shrieker_VST" data-flag="@X" onclick="openSidebar('68_Seawing Shrieker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\115_Twilight Screechers_VST.jpg" id="115_Twilight Screechers_VST" data-flag="@X" onclick="openSidebar('115_Twilight Screechers_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\152_Strip Away_VST.jpg" id="152_Strip Away_VST" data-flag="@X" onclick="openSidebar('152_Strip Away_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\192_Valley Carver_VST.jpg" id="192_Valley Carver_VST" data-flag="@X" onclick="openSidebar('192_Valley Carver_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\39_Wander the Ruins_VST.jpg" id="39_Wander the Ruins_VST" data-flag="@X" onclick="openSidebar('39_Wander the Ruins_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\69_Secrets of the Sands_VST.jpg" id="69_Secrets of the Sands_VST" data-flag="@X" onclick="openSidebar('69_Secrets of the Sands_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\116_Warped Worshipper_VST.jpg" id="116_Warped Worshipper_VST" data-flag="@X" onclick="openSidebar('116_Warped Worshipper_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\154_Territorial Sandshark_VST.jpg" id="154_Territorial Sandshark_VST" data-flag="@X" onclick="openSidebar('154_Territorial Sandshark_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\193_Wayfarer's Destination_VST.jpg" id="193_Wayfarers Destination_VST" data-flag="@X" onclick="openSidebar('193_Wayfarers Destination_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\74_Tradeway Scholar_VST.jpg" id="74_Tradeway Scholar_VST" data-flag="@X" onclick="openSidebar('74_Tradeway Scholar_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\117_Wither Away_VST.jpg" id="117_Wither Away_VST" data-flag="@X" onclick="openSidebar('117_Wither Away_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\156_Way of the Raider_VST.jpg" id="156_Way of the Raider_VST" data-flag="@X" onclick="openSidebar('156_Way of the Raider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\195_Zerul Mangler_VST.jpg" id="195_Zerul Mangler_VST" data-flag="@X" onclick="openSidebar('195_Zerul Mangler_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\257_Sandwarp_PRO_VST.jpg" id="257_Sandwarp_PRO_VST" data-flag="@X" onclick="openSidebar('257_Sandwarp_PRO_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\258_Instincts of the Pack_PRO_VST.jpg" id="258_Instincts of the Pack_PRO_VST" data-flag="@X" onclick="openSidebar('258_Instincts of the Pack_PRO_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\VST-files\img\205_Nivia, Last of the Aethanis_VST.jpg" id="205_Nivia, Last of the Aethanis_VST" data-flag="@X" onclick="openSidebar('205_Nivia, Last of the Aethanis_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\210_Realm Siphoner_VST.jpg" id="210_Realm Siphoner_VST" data-flag="@X" onclick="openSidebar('210_Realm Siphoner_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\216_Vlad-Shi, Packmother_VST.jpg" id="216_Vlad-Shi, Packmother_VST" data-flag="@X" onclick="openSidebar('216_Vlad-Shi, Packmother_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\212_Ruinstorm Wurm_VST.jpg" id="212_Ruinstorm Wurm_VST" data-flag="@X" onclick="openSidebar('212_Ruinstorm Wurm_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\213_Settlement Convoy_VST.jpg" id="213_Settlement Convoy_VST" data-flag="@X" onclick="openSidebar('213_Settlement Convoy_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\206_Nivia's Safekeeper_VST.jpg" id="206_Nivias Safekeeper_VST" data-flag="@X" onclick="openSidebar('206_Nivias Safekeeper_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\198_Dusk Dancer_VST.jpg" id="198_Dusk Dancer_VST" data-flag="@X" onclick="openSidebar('198_Dusk Dancer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\197_Deathraider Elite_VST.jpg" id="197_Deathraider Elite_VST" data-flag="@X" onclick="openSidebar('197_Deathraider Elite_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\214_Unbridled Antoch_VST.jpg" id="214_Unbridled Antoch_VST" data-flag="@X" onclick="openSidebar('214_Unbridled Antoch_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\215_Vaya, Arbiter of Perfection_VST.jpg" id="215_Vaya, Arbiter of Perfection_VST" data-flag="@X" onclick="openSidebar('215_Vaya, Arbiter of Perfection_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\199_Find of a Lifetime_VST.jpg" id="199_Find of a Lifetime_VST" data-flag="@X" onclick="openSidebar('199_Find of a Lifetime_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\208_Radaran Corruption_VST.jpg" id="208_Radaran Corruption_VST" data-flag="@X" onclick="openSidebar('208_Radaran Corruption_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\202_Luma, Guiding Star_VST.jpg" id="202_Luma, Guiding Star_VST" data-flag="@X" onclick="openSidebar('202_Luma, Guiding Star_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\196_Biramous Entity_VST.jpg" id="196_Biramous Entity_VST" data-flag="@X" onclick="openSidebar('196_Biramous Entity_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\211_Revel in Perfection_VST.jpg" id="211_Revel in Perfection_VST" data-flag="@X" onclick="openSidebar('211_Revel in Perfection_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\203_Manta Wrangler_VST.jpg" id="203_Manta Wrangler_VST" data-flag="@X" onclick="openSidebar('203_Manta Wrangler_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\201_Irradiated Amalgam_VST.jpg" id="201_Irradiated Amalgam_VST" data-flag="@X" onclick="openSidebar('201_Irradiated Amalgam_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\209_Raid Veteran_VST.jpg" id="209_Raid Veteran_VST" data-flag="@X" onclick="openSidebar('209_Raid Veteran_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\200_Growthblazers_VST.jpg" id="200_Growthblazers_VST" data-flag="@X" onclick="openSidebar('200_Growthblazers_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\207_Preacher of the Faultless_VST.jpg" id="207_Preacher of the Faultless_VST" data-flag="@X" onclick="openSidebar('207_Preacher of the Faultless_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\204_Naomi, Pathleader_VST.jpg" id="204_Naomi, Pathleader_VST" data-flag="@X" onclick="openSidebar('204_Naomi, Pathleader_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\VST-files\img\1_Karn, Heart of Guilt_VST.jpg" id="1_Karn, Heart of Guilt_VST" data-flag="@X" onclick="openSidebar('1_Karn, Heart of Guilt_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\229_The Source_VST.jpg" id="229_The Source_VST" data-flag="@X" onclick="openSidebar('229_The Source_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\218_Aethanis Conservator_VST.jpg" id="218_Aethanis Conservator_VST" data-flag="@X" onclick="openSidebar('218_Aethanis Conservator_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\222_Aether Conductor_VST.jpg" id="222_Aether Conductor_VST" data-flag="@X" onclick="openSidebar('222_Aether Conductor_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\223_Enigmatic Constructor_VST.jpg" id="223_Enigmatic Constructor_VST" data-flag="@X" onclick="openSidebar('223_Enigmatic Constructor_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\224_Eon Overwatch_VST.jpg" id="224_Eon Overwatch_VST" data-flag="@X" onclick="openSidebar('224_Eon Overwatch_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\225_Eradicator Engine_VST.jpg" id="225_Eradicator Engine_VST" data-flag="@X" onclick="openSidebar('225_Eradicator Engine_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\227_Liminal Observer_VST.jpg" id="227_Liminal Observer_VST" data-flag="@X" onclick="openSidebar('227_Liminal Observer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\217_Abandoned Astrolabe_VST.jpg" id="217_Abandoned Astrolabe_VST" data-flag="@X" onclick="openSidebar('217_Abandoned Astrolabe_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\219_Aethanis Leylinker_VST.jpg" id="219_Aethanis Leylinker_VST" data-flag="@X" onclick="openSidebar('219_Aethanis Leylinker_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\230_Source Conduits_VST.jpg" id="230_Source Conduits_VST" data-flag="@X" onclick="openSidebar('230_Source Conduits_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\231_Source Sentries_VST.jpg" id="231_Source Sentries_VST" data-flag="@X" onclick="openSidebar('231_Source Sentries_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\232_Specimen Observer_VST.jpg" id="232_Specimen Observer_VST" data-flag="@X" onclick="openSidebar('232_Specimen Observer_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\220_Aethanis Sentinel_VST.jpg" id="220_Aethanis Sentinel_VST" data-flag="@X" onclick="openSidebar('220_Aethanis Sentinel_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\221_Aethanis Strider_VST.jpg" id="221_Aethanis Strider_VST" data-flag="@X" onclick="openSidebar('221_Aethanis Strider_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\226_Flareshot Bow_VST.jpg" id="226_Flareshot Bow_VST" data-flag="@X" onclick="openSidebar('226_Flareshot Bow_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\228_Pathfinder's Tools_VST.jpg" id="228_Pathfinders Tools_VST" data-flag="@X" onclick="openSidebar('228_Pathfinders Tools_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\233_Survival Gear_VST.jpg" id="233_Survival Gear_VST" data-flag="@X" onclick="openSidebar('233_Survival Gear_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\234_Timeless Custodian_VST.jpg" id="234_Timeless Custodian_VST" data-flag="@X" onclick="openSidebar('234_Timeless Custodian_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\235_Unstable Relic_VST.jpg" id="235_Unstable Relic_VST" data-flag="@X" onclick="openSidebar('235_Unstable Relic_VST',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\249_Tradeway Remnant_VST.jpg" id="249_Tradeway Remnant_VST" data-flag="@X" onclick="openSidebar('249_Tradeway Remnant_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\245_Radaran Remnant_VST.jpg" id="245_Radaran Remnant_VST" data-flag="@X" onclick="openSidebar('245_Radaran Remnant_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\241_Goresand Remnant_VST.jpg" id="241_Goresand Remnant_VST" data-flag="@X" onclick="openSidebar('241_Goresand Remnant_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\246_Ruinstorm Remnant_VST.jpg" id="246_Ruinstorm Remnant_VST" data-flag="@X" onclick="openSidebar('246_Ruinstorm Remnant_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\247_Sanctis Remnant_VST.jpg" id="247_Sanctis Remnant_VST" data-flag="@X" onclick="openSidebar('247_Sanctis Remnant_VST',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\237_Aethanis, the Fallen Capital_VST.jpg" id="237_Aethanis, the Fallen Capital_VST" data-flag="@X" onclick="openSidebar('237_Aethanis, the Fallen Capital_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\238_Ancient Shelter_VST.jpg" id="238_Ancient Shelter_VST" data-flag="@X" onclick="openSidebar('238_Ancient Shelter_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\248_Starved Oasis_VST.jpg" id="248_Starved Oasis_VST" data-flag="@X" onclick="openSidebar('248_Starved Oasis_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\236_Abandoned Excavation_VST.jpg" id="236_Abandoned Excavation_VST" data-flag="@X" onclick="openSidebar('236_Abandoned Excavation_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\239_Buried Ruin_VST.jpg" id="239_Buried Ruin_VST" data-flag="@X" onclick="openSidebar('239_Buried Ruin_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\240_Field of Ruin_VST.jpg" id="240_Field of Ruin_VST" data-flag="@X" onclick="openSidebar('240_Field of Ruin_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\243_Malign Outskirts_VST.jpg" id="243_Malign Outskirts_VST" data-flag="@X" onclick="openSidebar('243_Malign Outskirts_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\242_Holdout Settlement_VST.jpg" id="242_Holdout Settlement_VST" data-flag="@X" onclick="openSidebar('242_Holdout Settlement_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\244_Neglected Nexus_VST.jpg" id="244_Neglected Nexus_VST" data-flag="@X" onclick="openSidebar('244_Neglected Nexus_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\250_Twilight Depths_VST.jpg" id="250_Twilight Depths_VST" data-flag="@X" onclick="openSidebar('250_Twilight Depths_VST',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\256_Forest_VST.jpg" id="256_Forest_VST" data-flag="@X" onclick="openSidebar('256_Forest_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\255_Mountain_VST.jpg" id="255_Mountain_VST" data-flag="@X" onclick="openSidebar('255_Mountain_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\252_Plains_VST.jpg" id="252_Plains_VST" data-flag="@X" onclick="openSidebar('252_Plains_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\253_Island_VST.jpg" id="253_Island_VST" data-flag="@X" onclick="openSidebar('253_Island_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\251_Wastes_VST.jpg" id="251_Wastes_VST" data-flag="@X" onclick="openSidebar('251_Wastes_VST',false)"></div>
+			<div class="container"><img alt="/sets\VST-files\img\254_Swamp_VST.jpg" id="254_Swamp_VST" data-flag="@X" onclick="openSidebar('254_Swamp_VST',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

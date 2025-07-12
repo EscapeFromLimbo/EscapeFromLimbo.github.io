@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/MON-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>MON visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/MON-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/MON-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\MON-files\img\5_Brighteyed Trainer_MON.jpg" id="5_Brighteyed Trainer_MON" data-flag="@X" onclick="openSidebar('5_Brighteyed Trainer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\48_End of Monsters_MON.jpg" id="48_End of Monsters_MON" data-flag="@X" onclick="openSidebar('48_End of Monsters_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\88_Heartless Trainer_MON.jpg" id="88_Heartless Trainer_MON" data-flag="@X" onclick="openSidebar('88_Heartless Trainer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\124_Elemental of Surprise_MON.jpg" id="124_Elemental of Surprise_MON" data-flag="@X" onclick="openSidebar('124_Elemental of Surprise_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\163_Bee Hive_MON.jpg" id="163_Bee Hive_MON" data-flag="@X" onclick="openSidebar('163_Bee Hive_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\10_Egg Bomb_MON.jpg" id="10_Egg Bomb_MON" data-flag="@X" onclick="openSidebar('10_Egg Bomb_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\53_I Choose You_MON.jpg" id="53_I Choose You_MON" data-flag="@X" onclick="openSidebar('53_I Choose You_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\91_Lucien's Trail_MON.jpg" id="91_Luciens Trail_MON" data-flag="@X" onclick="openSidebar('91_Luciens Trail_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\125_Emonoru, Ema's Wings_MON.jpg" id="125_Emonoru, Emas Wings_MON" data-flag="@X" onclick="openSidebar('125_Emonoru, Emas Wings_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\164_Bessie_MON.jpg" id="164_Bessie_MON" data-flag="@X" onclick="openSidebar('164_Bessie_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\13_Gym Leader_MON.jpg" id="13_Gym Leader_MON" data-flag="@X" onclick="openSidebar('13_Gym Leader_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\56_Onigori, Ema's Shield_MON.jpg" id="56_Onigori, Emas Shield_MON" data-flag="@X" onclick="openSidebar('56_Onigori, Emas Shield_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\92_Luna, the Lost_MON.jpg" id="92_Luna, the Lost_MON" data-flag="@X" onclick="openSidebar('92_Luna, the Lost_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\128_Flame-Tailed Lizard_MON_back.jpg" alt="/sets\MON-files\img\128_Flame-Tailed Lizard_MON_front.jpg" id="128_Flame-Tailed Lizard_MON" data-flag="@XD" onclick="openSidebar('128_Flame-Tailed Lizard_MON',false)"><button class="flip-btn" onclick="imgFlip('128_Flame-Tailed Lizard_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\166_Brutality_MON.jpg" id="166_Brutality_MON" data-flag="@X" onclick="openSidebar('166_Brutality_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\14_Hopeful Caretaker_MON_back.jpg" alt="/sets\MON-files\img\14_Hopeful Caretaker_MON_front.jpg" id="14_Hopeful Caretaker_MON" data-flag="@XD" onclick="openSidebar('14_Hopeful Caretaker_MON',false)"><button class="flip-btn" onclick="imgFlip('14_Hopeful Caretaker_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\60_The Rocket Gang Strikes!_MON.jpg" id="60_The Rocket Gang Strikes!_MON" data-flag="@X" onclick="openSidebar('60_The Rocket Gang Strikes!_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\94_Moonlight_MON.jpg" id="94_Moonlight_MON" data-flag="@X" onclick="openSidebar('94_Moonlight_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\134_Karina's Training_MON.jpg" id="134_Karinas Training_MON" data-flag="@X" onclick="openSidebar('134_Karinas Training_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\167_Budding Companion_MON_back.jpg" alt="/sets\MON-files\img\167_Budding Companion_MON_front.jpg" id="167_Budding Companion_MON" data-flag="@XD" onclick="openSidebar('167_Budding Companion_MON',false)"><button class="flip-btn" onclick="imgFlip('167_Budding Companion_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\23_Perish Song_MON.jpg" id="23_Perish Song_MON" data-flag="@X" onclick="openSidebar('23_Perish Song_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\64_Skill Sketcher_MON.jpg" id="64_Skill Sketcher_MON" data-flag="@X" onclick="openSidebar('64_Skill Sketcher_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\95_Night Shade_MON.jpg" id="95_Night Shade_MON" data-flag="@X" onclick="openSidebar('95_Night Shade_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\135_Lava Plume_MON.jpg" id="135_Lava Plume_MON" data-flag="@X" onclick="openSidebar('135_Lava Plume_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\172_Epic Encounter_MON.jpg" id="172_Epic Encounter_MON" data-flag="@X" onclick="openSidebar('172_Epic Encounter_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\25_Power of Love_MON.jpg" id="25_Power of Love_MON" data-flag="@X" onclick="openSidebar('25_Power of Love_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\69_Temporal Aria_MON.jpg" id="69_Temporal Aria_MON" data-flag="@X" onclick="openSidebar('69_Temporal Aria_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\96_Nirami, Ema's Keeper_MON.jpg" id="96_Nirami, Emas Keeper_MON" data-flag="@X" onclick="openSidebar('96_Nirami, Emas Keeper_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\137_Loyal Firestarter_MON.jpg" id="137_Loyal Firestarter_MON" data-flag="@X" onclick="openSidebar('137_Loyal Firestarter_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\173_Ever-Gnawing Rat_MON.jpg" id="173_Ever-Gnawing Rat_MON" data-flag="@X" onclick="openSidebar('173_Ever-Gnawing Rat_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\32_Slumbering Bear_MON.jpg" id="32_Slumbering Bear_MON" data-flag="@X" onclick="openSidebar('32_Slumbering Bear_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\70_Tidepool Turtle_MON_back.jpg" alt="/sets\MON-files\img\70_Tidepool Turtle_MON_front.jpg" id="70_Tidepool Turtle_MON" data-flag="@XD" onclick="openSidebar('70_Tidepool Turtle_MON',false)"><button class="flip-btn" onclick="imgFlip('70_Tidepool Turtle_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\98_Paleontologist_MON.jpg" id="98_Paleontologist_MON" data-flag="@X" onclick="openSidebar('98_Paleontologist_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\139_Magnitude_MON.jpg" id="139_Magnitude_MON" data-flag="@X" onclick="openSidebar('139_Magnitude_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\175_Fogspewer_MON.jpg" id="175_Fogspewer_MON" data-flag="@X" onclick="openSidebar('175_Fogspewer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\33_Steelfeather Shrike_MON.jpg" id="33_Steelfeather Shrike_MON" data-flag="@X" onclick="openSidebar('33_Steelfeather Shrike_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\72_Time Stands Still_MON.jpg" id="72_Time Stands Still_MON" data-flag="@X" onclick="openSidebar('72_Time Stands Still_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\104_Rocket Admin_MON.jpg" id="104_Rocket Admin_MON" data-flag="@X" onclick="openSidebar('104_Rocket Admin_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\140_Metronome_MON.jpg" id="140_Metronome_MON" data-flag="@X" onclick="openSidebar('140_Metronome_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\176_From a Seed_MON.jpg" id="176_From a Seed_MON" data-flag="@X" onclick="openSidebar('176_From a Seed_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\34_Sunset Herald_MON.jpg" id="34_Sunset Herald_MON" data-flag="@X" onclick="openSidebar('34_Sunset Herald_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\78_Whirlpool Ride_MON.jpg" id="78_Whirlpool Ride_MON" data-flag="@X" onclick="openSidebar('78_Whirlpool Ride_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\105_Rocket Poacher_MON.jpg" id="105_Rocket Poacher_MON" data-flag="@X" onclick="openSidebar('105_Rocket Poacher_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\142_Mountain Runt_MON_back.jpg" alt="/sets\MON-files\img\142_Mountain Runt_MON_front.jpg" id="142_Mountain Runt_MON" data-flag="@XD" onclick="openSidebar('142_Mountain Runt_MON',false)"><button class="flip-btn" onclick="imgFlip('142_Mountain Runt_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\188_Quakestep Behemoth_MON.jpg" id="188_Quakestep Behemoth_MON" data-flag="@X" onclick="openSidebar('188_Quakestep Behemoth_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\40_Zankon, Ema's Claws_MON.jpg" id="40_Zankon, Emas Claws_MON" data-flag="@X" onclick="openSidebar('40_Zankon, Emas Claws_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\80_Working Together_MON.jpg" id="80_Working Together_MON" data-flag="@X" onclick="openSidebar('80_Working Together_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\116_Twister of Shadows_MON.jpg" id="116_Twister of Shadows_MON" data-flag="@X" onclick="openSidebar('116_Twister of Shadows_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\147_Roaring Illusion_MON.jpg" id="147_Roaring Illusion_MON" data-flag="@X" onclick="openSidebar('147_Roaring Illusion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\189_Rustshell Mantis_MON.jpg" id="189_Rustshell Mantis_MON" data-flag="@X" onclick="openSidebar('189_Rustshell Mantis_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\4_Bird Keeper_MON.jpg" id="4_Bird Keeper_MON" data-flag="@X" onclick="openSidebar('4_Bird Keeper_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\43_Call Back_MON.jpg" id="43_Call Back_MON" data-flag="@X" onclick="openSidebar('43_Call Back_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\81_Acro Bat_MON.jpg" id="81_Acro Bat_MON" data-flag="@X" onclick="openSidebar('81_Acro Bat_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\121_Ace Trainer_MON.jpg" id="121_Ace Trainer_MON" data-flag="@X" onclick="openSidebar('121_Ace Trainer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\161_Aggressive Instinct_MON.jpg" id="161_Aggressive Instinct_MON" data-flag="@X" onclick="openSidebar('161_Aggressive Instinct_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\6_Cattle Guard_MON.jpg" id="6_Cattle Guard_MON" data-flag="@X" onclick="openSidebar('6_Cattle Guard_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\44_Compulsive Patrol_MON.jpg" id="44_Compulsive Patrol_MON" data-flag="@X" onclick="openSidebar('44_Compulsive Patrol_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\82_Citadel Bagworm_MON.jpg" id="82_Citadel Bagworm_MON" data-flag="@X" onclick="openSidebar('82_Citadel Bagworm_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\122_Adrenaline_MON.jpg" id="122_Adrenaline_MON" data-flag="@X" onclick="openSidebar('122_Adrenaline_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\162_Barbed Beast_MON_back.jpg" alt="/sets\MON-files\img\162_Barbed Beast_MON_front.jpg" id="162_Barbed Beast_MON" data-flag="@XD" onclick="openSidebar('162_Barbed Beast_MON',false)"><button class="flip-btn" onclick="imgFlip('162_Barbed Beast_MON')"></button></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\7_Curious Cubs_MON_back.jpg" alt="/sets\MON-files\img\7_Curious Cubs_MON_front.jpg" id="7_Curious Cubs_MON" data-flag="@XD" onclick="openSidebar('7_Curious Cubs_MON',false)"><button class="flip-btn" onclick="imgFlip('7_Curious Cubs_MON')"></button></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\47_Determined Koi_MON_back.jpg" alt="/sets\MON-files\img\47_Determined Koi_MON_front.jpg" id="47_Determined Koi_MON" data-flag="@XD" onclick="openSidebar('47_Determined Koi_MON',false)"><button class="flip-btn" onclick="imgFlip('47_Determined Koi_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\83_Farewell_MON.jpg" id="83_Farewell_MON" data-flag="@X" onclick="openSidebar('83_Farewell_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\127_Extremespeed_MON.jpg" id="127_Extremespeed_MON" data-flag="@X" onclick="openSidebar('127_Extremespeed_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\177_Full Belly_MON.jpg" id="177_Full Belly_MON" data-flag="@X" onclick="openSidebar('177_Full Belly_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\8_Dreamnapper_MON.jpg" id="8_Dreamnapper_MON" data-flag="@X" onclick="openSidebar('8_Dreamnapper_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\50_Familiar's Ruse_MON.jpg" id="50_Familiars Ruse_MON" data-flag="@X" onclick="openSidebar('50_Familiars Ruse_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\86_From Beyond the Grave_MON.jpg" id="86_From Beyond the Grave_MON" data-flag="@X" onclick="openSidebar('86_From Beyond the Grave_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\133_Gruff Clutch_MON.jpg" id="133_Gruff Clutch_MON" data-flag="@X" onclick="openSidebar('133_Gruff Clutch_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\181_Hyper Beam_MON.jpg" id="181_Hyper Beam_MON" data-flag="@X" onclick="openSidebar('181_Hyper Beam_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\11_Event Horizon_MON.jpg" id="11_Event Horizon_MON" data-flag="@X" onclick="openSidebar('11_Event Horizon_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\61_Scuttling Gnat_MON_back.jpg" alt="/sets\MON-files\img\61_Scuttling Gnat_MON_front.jpg" id="61_Scuttling Gnat_MON" data-flag="@XD" onclick="openSidebar('61_Scuttling Gnat_MON',false)"><button class="flip-btn" onclick="imgFlip('61_Scuttling Gnat_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\90_Leech Seed_MON.jpg" id="90_Leech Seed_MON" data-flag="@X" onclick="openSidebar('90_Leech Seed_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\136_Lavatrailer_MON.jpg" id="136_Lavatrailer_MON" data-flag="@X" onclick="openSidebar('136_Lavatrailer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\183_Mighty Beetle_MON.jpg" id="183_Mighty Beetle_MON" data-flag="@X" onclick="openSidebar('183_Mighty Beetle_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\12_Experienced Team_MON.jpg" id="12_Experienced Team_MON" data-flag="@X" onclick="openSidebar('12_Experienced Team_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\62_Seal of Approval_MON.jpg" id="62_Seal of Approval_MON" data-flag="@X" onclick="openSidebar('62_Seal of Approval_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\97_Ominous Wind_MON.jpg" id="97_Ominous Wind_MON" data-flag="@X" onclick="openSidebar('97_Ominous Wind_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\141_Monstrous Champion_MON.jpg" id="141_Monstrous Champion_MON" data-flag="@X" onclick="openSidebar('141_Monstrous Champion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\185_Palm Walker_MON.jpg" id="185_Palm Walker_MON" data-flag="@X" onclick="openSidebar('185_Palm Walker_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\16_Innocence_MON.jpg" id="16_Innocence_MON" data-flag="@X" onclick="openSidebar('16_Innocence_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\65_Sludge Drudger_MON.jpg" id="65_Sludge Drudger_MON" data-flag="@X" onclick="openSidebar('65_Sludge Drudger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\99_Patient Cocoon_MON.jpg" id="99_Patient Cocoon_MON" data-flag="@X" onclick="openSidebar('99_Patient Cocoon_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\144_Overheat_MON.jpg" id="144_Overheat_MON" data-flag="@X" onclick="openSidebar('144_Overheat_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\186_Petal Dancer_MON.jpg" id="186_Petal Dancer_MON" data-flag="@X" onclick="openSidebar('186_Petal Dancer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\17_Maternal Monster_MON.jpg" id="17_Maternal Monster_MON" data-flag="@X" onclick="openSidebar('17_Maternal Monster_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\66_Sludge-Gill Fox_MON.jpg" id="66_Sludge-Gill Fox_MON" data-flag="@X" onclick="openSidebar('66_Sludge-Gill Fox_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\101_Psychic Assault_MON.jpg" id="101_Psychic Assault_MON" data-flag="@X" onclick="openSidebar('101_Psychic Assault_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\148_Shocking Ewe_MON.jpg" id="148_Shocking Ewe_MON" data-flag="@X" onclick="openSidebar('148_Shocking Ewe_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\187_Preying Mantis_MON.jpg" id="187_Preying Mantis_MON" data-flag="@X" onclick="openSidebar('187_Preying Mantis_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\18_Morning Sun_MON.jpg" id="18_Morning Sun_MON" data-flag="@X" onclick="openSidebar('18_Morning Sun_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\67_Starlight Emissary_MON.jpg" id="67_Starlight Emissary_MON" data-flag="@X" onclick="openSidebar('67_Starlight Emissary_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\103_Revived Pterosaur_MON.jpg" id="103_Revived Pterosaur_MON" data-flag="@X" onclick="openSidebar('103_Revived Pterosaur_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\149_Skill Link_MON.jpg" id="149_Skill Link_MON" data-flag="@X" onclick="openSidebar('149_Skill Link_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\191_Secret Stash_MON.jpg" id="191_Secret Stash_MON" data-flag="@X" onclick="openSidebar('191_Secret Stash_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\21_One on One_MON.jpg" id="21_One on One_MON" data-flag="@X" onclick="openSidebar('21_One on One_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\71_Tidesweeper Gharial_MON.jpg" id="71_Tidesweeper Gharial_MON" data-flag="@X" onclick="openSidebar('71_Tidesweeper Gharial_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\109_Shadow Sneak_MON.jpg" id="109_Shadow Sneak_MON" data-flag="@X" onclick="openSidebar('109_Shadow Sneak_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\155_Tunnel Moles_MON.jpg" id="155_Tunnel Moles_MON" data-flag="@X" onclick="openSidebar('155_Tunnel Moles_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\192_Slashing Pangolin_MON.jpg" id="192_Slashing Pangolin_MON" data-flag="@X" onclick="openSidebar('192_Slashing Pangolin_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\22_Paralycker_MON.jpg" id="22_Paralycker_MON" data-flag="@X" onclick="openSidebar('22_Paralycker_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\73_Trainer's Eyes_MON.jpg" id="73_Trainers Eyes_MON" data-flag="@X" onclick="openSidebar('73_Trainers Eyes_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\113_Stingsower_MON.jpg" id="113_Stingsower_MON" data-flag="@X" onclick="openSidebar('113_Stingsower_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\157_Volt Vermin_MON.jpg" id="157_Volt Vermin_MON" data-flag="@X" onclick="openSidebar('157_Volt Vermin_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\194_Spotted Slugger_MON.jpg" id="194_Spotted Slugger_MON" data-flag="@X" onclick="openSidebar('194_Spotted Slugger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\35_Thundermane Fox_MON.jpg" id="35_Thundermane Fox_MON" data-flag="@X" onclick="openSidebar('35_Thundermane Fox_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\74_Truffle Snuffer_MON.jpg" id="74_Truffle Snuffer_MON" data-flag="@X" onclick="openSidebar('74_Truffle Snuffer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\117_Viper Ambush_MON.jpg" id="117_Viper Ambush_MON" data-flag="@X" onclick="openSidebar('117_Viper Ambush_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\158_Wild Encounter_MON.jpg" id="158_Wild Encounter_MON" data-flag="@X" onclick="openSidebar('158_Wild Encounter_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\197_Unstoppable Weed_MON.jpg" id="197_Unstoppable Weed_MON" data-flag="@X" onclick="openSidebar('197_Unstoppable Weed_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\37_Wings of Trust_MON.jpg" id="37_Wings of Trust_MON" data-flag="@X" onclick="openSidebar('37_Wings of Trust_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\75_Undecided Mimic_MON.jpg" id="75_Undecided Mimic_MON" data-flag="@X" onclick="openSidebar('75_Undecided Mimic_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\118_Waking Pollution_MON.jpg" id="118_Waking Pollution_MON" data-flag="@X" onclick="openSidebar('118_Waking Pollution_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\159_Worried Vulpine_MON_back.jpg" alt="/sets\MON-files\img\159_Worried Vulpine_MON_front.jpg" id="159_Worried Vulpine_MON" data-flag="@XD" onclick="openSidebar('159_Worried Vulpine_MON',false)"><button class="flip-btn" onclick="imgFlip('159_Worried Vulpine_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\200_Wistful Fox_MON.jpg" id="200_Wistful Fox_MON" data-flag="@X" onclick="openSidebar('200_Wistful Fox_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\1_Aeroblast_MON.jpg" id="1_Aeroblast_MON" data-flag="@X" onclick="openSidebar('1_Aeroblast_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\41_Barnacle Crawler_MON.jpg" id="41_Barnacle Crawler_MON" data-flag="@X" onclick="openSidebar('41_Barnacle Crawler_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\84_Forage_MON.jpg" id="84_Forage_MON" data-flag="@X" onclick="openSidebar('84_Forage_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\123_Driven Mad_MON.jpg" id="123_Driven Mad_MON" data-flag="@X" onclick="openSidebar('123_Driven Mad_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\165_Bridled Growth_MON.jpg" id="165_Bridled Growth_MON" data-flag="@X" onclick="openSidebar('165_Bridled Growth_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\2_Aspiring Trainer_MON.jpg" id="2_Aspiring Trainer_MON" data-flag="@X" onclick="openSidebar('2_Aspiring Trainer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\42_Barrier_MON.jpg" id="42_Barrier_MON" data-flag="@X" onclick="openSidebar('42_Barrier_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\85_Fresh Carrion_MON.jpg" id="85_Fresh Carrion_MON" data-flag="@X" onclick="openSidebar('85_Fresh Carrion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\126_Enduring Charge_MON.jpg" id="126_Enduring Charge_MON" data-flag="@X" onclick="openSidebar('126_Enduring Charge_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\168_Caustic Caterpillar_MON.jpg" id="168_Caustic Caterpillar_MON" data-flag="@X" onclick="openSidebar('168_Caustic Caterpillar_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\3_Attract_MON.jpg" id="3_Attract_MON" data-flag="@X" onclick="openSidebar('3_Attract_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\45_Confusion_MON.jpg" id="45_Confusion_MON" data-flag="@X" onclick="openSidebar('45_Confusion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\87_Ghastly Tether_MON.jpg" id="87_Ghastly Tether_MON" data-flag="@X" onclick="openSidebar('87_Ghastly Tether_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\129_Flamethrower_MON.jpg" id="129_Flamethrower_MON" data-flag="@X" onclick="openSidebar('129_Flamethrower_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\169_Cavern Carver_MON.jpg" id="169_Cavern Carver_MON" data-flag="@X" onclick="openSidebar('169_Cavern Carver_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\9_Eager Hatchling_MON_back.jpg" alt="/sets\MON-files\img\9_Eager Hatchling_MON_front.jpg" id="9_Eager Hatchling_MON" data-flag="@XD" onclick="openSidebar('9_Eager Hatchling_MON',false)"><button class="flip-btn" onclick="imgFlip('9_Eager Hatchling_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\46_Cruel Fledgling_MON.jpg" id="46_Cruel Fledgling_MON" data-flag="@X" onclick="openSidebar('46_Cruel Fledgling_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\89_Hex Maniac_MON.jpg" id="89_Hex Maniac_MON" data-flag="@X" onclick="openSidebar('89_Hex Maniac_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\130_Focus Energy_MON.jpg" id="130_Focus Energy_MON" data-flag="@X" onclick="openSidebar('130_Focus Energy_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\170_Crusher Beetle_MON.jpg" id="170_Crusher Beetle_MON" data-flag="@X" onclick="openSidebar('170_Crusher Beetle_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\15_Improvised Guardian_MON.jpg" id="15_Improvised Guardian_MON" data-flag="@X" onclick="openSidebar('15_Improvised Guardian_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\49_Essence Scatter_MON.jpg" id="49_Essence Scatter_MON" data-flag="@X" onclick="openSidebar('49_Essence Scatter_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\93_Maven of Fear_MON.jpg" id="93_Maven of Fear_MON" data-flag="@X" onclick="openSidebar('93_Maven of Fear_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\131_Fury Swipes_MON.jpg" id="131_Fury Swipes_MON" data-flag="@X" onclick="openSidebar('131_Fury Swipes_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\171_Eerie Cocoons_MON.jpg" id="171_Eerie Cocoons_MON" data-flag="@X" onclick="openSidebar('171_Eerie Cocoons_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\19_Nocturnal Watcher_MON.jpg" id="19_Nocturnal Watcher_MON" data-flag="@X" onclick="openSidebar('19_Nocturnal Watcher_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\51_Fishing Trip_MON.jpg" id="51_Fishing Trip_MON" data-flag="@X" onclick="openSidebar('51_Fishing Trip_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\100_Poison Point_MON.jpg" id="100_Poison Point_MON" data-flag="@X" onclick="openSidebar('100_Poison Point_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\132_Galloping Blaze_MON.jpg" id="132_Galloping Blaze_MON" data-flag="@X" onclick="openSidebar('132_Galloping Blaze_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\174_Fierce Lunge_MON.jpg" id="174_Fierce Lunge_MON" data-flag="@X" onclick="openSidebar('174_Fierce Lunge_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\20_Nurse Trainee_MON.jpg" id="20_Nurse Trainee_MON" data-flag="@X" onclick="openSidebar('20_Nurse Trainee_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\52_Hypnosis_MON.jpg" id="52_Hypnosis_MON" data-flag="@X" onclick="openSidebar('52_Hypnosis_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\102_Psywave_MON.jpg" id="102_Psywave_MON" data-flag="@X" onclick="openSidebar('102_Psywave_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\138_Magma Crawler_MON.jpg" id="138_Magma Crawler_MON" data-flag="@X" onclick="openSidebar('138_Magma Crawler_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\178_Garden Guardian_MON.jpg" id="178_Garden Guardian_MON" data-flag="@X" onclick="openSidebar('178_Garden Guardian_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\24_Pitfall Pangolin_MON.jpg" id="24_Pitfall Pangolin_MON" data-flag="@X" onclick="openSidebar('24_Pitfall Pangolin_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\54_Lakeside Trickster_MON.jpg" id="54_Lakeside Trickster_MON" data-flag="@X" onclick="openSidebar('54_Lakeside Trickster_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\106_Ruthless Brawler_MON.jpg" id="106_Ruthless Brawler_MON" data-flag="@X" onclick="openSidebar('106_Ruthless Brawler_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\143_Mournful Newborn_MON_back.jpg" alt="/sets\MON-files\img\143_Mournful Newborn_MON_front.jpg" id="143_Mournful Newborn_MON" data-flag="@XD" onclick="openSidebar('143_Mournful Newborn_MON',false)"><button class="flip-btn" onclick="imgFlip('143_Mournful Newborn_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\179_Grinding_MON.jpg" id="179_Grinding_MON" data-flag="@X" onclick="openSidebar('179_Grinding_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\26_Rallywing_MON.jpg" id="26_Rallywing_MON" data-flag="@X" onclick="openSidebar('26_Rallywing_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\55_Marine Monster_MON.jpg" id="55_Marine Monster_MON" data-flag="@X" onclick="openSidebar('55_Marine Monster_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\107_Scary Face_MON.jpg" id="107_Scary Face_MON" data-flag="@X" onclick="openSidebar('107_Scary Face_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\145_Prepare for Trouble_MON.jpg" id="145_Prepare for Trouble_MON" data-flag="@X" onclick="openSidebar('145_Prepare for Trouble_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\180_Hidden Sprout_MON.jpg" id="180_Hidden Sprout_MON" data-flag="@X" onclick="openSidebar('180_Hidden Sprout_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\27_Revitalize_MON.jpg" id="27_Revitalize_MON" data-flag="@X" onclick="openSidebar('27_Revitalize_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\57_Poised Koi_MON.jpg" id="57_Poised Koi_MON" data-flag="@X" onclick="openSidebar('57_Poised Koi_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\108_Shadow Ball_MON.jpg" id="108_Shadow Ball_MON" data-flag="@X" onclick="openSidebar('108_Shadow Ball_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\146_Rapid Rodent_MON.jpg" id="146_Rapid Rodent_MON" data-flag="@X" onclick="openSidebar('146_Rapid Rodent_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\182_A Journey Begins_MON.jpg" id="182_A Journey Begins_MON" data-flag="@X" onclick="openSidebar('182_A Journey Begins_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\28_Run Away_MON.jpg" id="28_Run Away_MON" data-flag="@X" onclick="openSidebar('28_Run Away_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\58_Quiet Retreat_MON.jpg" id="58_Quiet Retreat_MON" data-flag="@X" onclick="openSidebar('58_Quiet Retreat_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\110_Snatch_MON.jpg" id="110_Snatch_MON" data-flag="@X" onclick="openSidebar('110_Snatch_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\150_Slashing Sneak_MON.jpg" id="150_Slashing Sneak_MON" data-flag="@X" onclick="openSidebar('150_Slashing Sneak_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\184_Natural Cure_MON.jpg" id="184_Natural Cure_MON" data-flag="@X" onclick="openSidebar('184_Natural Cure_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\29_Sanaito's Blessing_MON.jpg" id="29_Sanaitos Blessing_MON" data-flag="@X" onclick="openSidebar('29_Sanaitos Blessing_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\59_Rest_MON.jpg" id="59_Rest_MON" data-flag="@X" onclick="openSidebar('59_Rest_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\111_Sporecaster_MON.jpg" id="111_Sporecaster_MON" data-flag="@X" onclick="openSidebar('111_Sporecaster_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\151_Smokescreen_MON.jpg" id="151_Smokescreen_MON" data-flag="@X" onclick="openSidebar('151_Smokescreen_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\190_Safe from Harm_MON.jpg" id="190_Safe from Harm_MON" data-flag="@X" onclick="openSidebar('190_Safe from Harm_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\30_Sandslinger_MON.jpg" id="30_Sandslinger_MON" data-flag="@X" onclick="openSidebar('30_Sandslinger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\63_Sharp-Eyed Wingmate_MON.jpg" id="63_Sharp-Eyed Wingmate_MON" data-flag="@X" onclick="openSidebar('63_Sharp-Eyed Wingmate_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\112_Sporecrowned Scavenger_MON.jpg" id="112_Sporecrowned Scavenger_MON" data-flag="@X" onclick="openSidebar('112_Sporecrowned Scavenger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\152_Swords Dance_MON.jpg" id="152_Swords Dance_MON" data-flag="@X" onclick="openSidebar('152_Swords Dance_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\193_Spikehorn Behemoth_MON.jpg" id="193_Spikehorn Behemoth_MON" data-flag="@X" onclick="openSidebar('193_Spikehorn Behemoth_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\31_Slinking Sentinel_MON.jpg" id="31_Slinking Sentinel_MON" data-flag="@X" onclick="openSidebar('31_Slinking Sentinel_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\68_Strategic Planning_MON.jpg" id="68_Strategic Planning_MON" data-flag="@X" onclick="openSidebar('68_Strategic Planning_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\114_Sucker Punch_MON.jpg" id="114_Sucker Punch_MON" data-flag="@X" onclick="openSidebar('114_Sucker Punch_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\153_Telekinecktic_MON.jpg" id="153_Telekinecktic_MON" data-flag="@X" onclick="openSidebar('153_Telekinecktic_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\195_Tangle Up_MON.jpg" id="195_Tangle Up_MON" data-flag="@X" onclick="openSidebar('195_Tangle Up_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\36_Unburdened_MON.jpg" id="36_Unburdened_MON" data-flag="@X" onclick="openSidebar('36_Unburdened_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\76_Wandering Dragonfly_MON.jpg" id="76_Wandering Dragonfly_MON" data-flag="@X" onclick="openSidebar('76_Wandering Dragonfly_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\115_Toxic Larva_MON.jpg" id="115_Toxic Larva_MON" data-flag="@X" onclick="openSidebar('115_Toxic Larva_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\154_Thundering Charger_MON.jpg" id="154_Thundering Charger_MON" data-flag="@X" onclick="openSidebar('154_Thundering Charger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\196_Tangling Vines_MON.jpg" id="196_Tangling Vines_MON" data-flag="@X" onclick="openSidebar('196_Tangling Vines_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\38_Wishing Star_MON.jpg" id="38_Wishing Star_MON" data-flag="@X" onclick="openSidebar('38_Wishing Star_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\77_Whirling Winds_MON.jpg" id="77_Whirling Winds_MON" data-flag="@X" onclick="openSidebar('77_Whirling Winds_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\119_Warning Birds_MON.jpg" id="119_Warning Birds_MON" data-flag="@X" onclick="openSidebar('119_Warning Birds_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\156_Veil of Flames_MON.jpg" id="156_Veil of Flames_MON" data-flag="@X" onclick="openSidebar('156_Veil of Flames_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\198_Weedy Wanderer_MON.jpg" id="198_Weedy Wanderer_MON" data-flag="@X" onclick="openSidebar('198_Weedy Wanderer_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\39_Work Up_MON.jpg" id="39_Work Up_MON" data-flag="@X" onclick="openSidebar('39_Work Up_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\79_Wondering Oaf_MON.jpg" id="79_Wondering Oaf_MON" data-flag="@X" onclick="openSidebar('79_Wondering Oaf_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\120_Wraith of the Fens_MON.jpg" id="120_Wraith of the Fens_MON" data-flag="@X" onclick="openSidebar('120_Wraith of the Fens_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\160_Zipping Zapper_MON.jpg" id="160_Zipping Zapper_MON" data-flag="@X" onclick="openSidebar('160_Zipping Zapper_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\199_Winding Snake_MON_back.jpg" alt="/sets\MON-files\img\199_Winding Snake_MON_front.jpg" id="199_Winding Snake_MON" data-flag="@XD" onclick="openSidebar('199_Winding Snake_MON',false)"><button class="flip-btn" onclick="imgFlip('199_Winding Snake_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\254_Gym Leader_PRO_MON.jpg" id="254_Gym Leader_PRO_MON" data-flag="@X" onclick="openSidebar('254_Gym Leader_PRO_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\253_Shadow Sneak_PRO_MON.jpg" id="253_Shadow Sneak_PRO_MON" data-flag="@X" onclick="openSidebar('253_Shadow Sneak_PRO_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\255_Wild Encounter_PRO_MON.jpg" id="255_Wild Encounter_PRO_MON" data-flag="@X" onclick="openSidebar('255_Wild Encounter_PRO_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\270_Event Horizon_PRO_MON.jpg" id="270_Event Horizon_PRO_MON" data-flag="@X" onclick="openSidebar('270_Event Horizon_PRO_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\271_Perish Song_PRO_MON.jpg" id="271_Perish Song_PRO_MON" data-flag="@X" onclick="openSidebar('271_Perish Song_PRO_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\MON-files\img\216_Sanaito, Alone_MON.jpg" id="216_Sanaito, Alone_MON" data-flag="@X" onclick="openSidebar('216_Sanaito, Alone_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\204_Depth Charger_MON.jpg" id="204_Depth Charger_MON" data-flag="@X" onclick="openSidebar('204_Depth Charger_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\210_Lucien, the Ravenous_MON.jpg" id="210_Lucien, the Ravenous_MON" data-flag="@X" onclick="openSidebar('210_Lucien, the Ravenous_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\222_Tyrant of Tributes_MON.jpg" id="222_Tyrant of Tributes_MON" data-flag="@X" onclick="openSidebar('222_Tyrant of Tributes_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\203_Chikyu Champion_MON.jpg" id="203_Chikyu Champion_MON" data-flag="@X" onclick="openSidebar('203_Chikyu Champion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\217_Silent Hypnotist_MON.jpg" id="217_Silent Hypnotist_MON" data-flag="@X" onclick="openSidebar('217_Silent Hypnotist_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\208_Ghastly Spirit_MON.jpg" id="208_Ghastly Spirit_MON" data-flag="@X" onclick="openSidebar('208_Ghastly Spirit_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\209_Hellhound Alpha_MON.jpg" id="209_Hellhound Alpha_MON" data-flag="@X" onclick="openSidebar('209_Hellhound Alpha_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\206_Firemane Fox_MON.jpg" id="206_Firemane Fox_MON" data-flag="@X" onclick="openSidebar('206_Firemane Fox_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\218_Sprout Tender_MON.jpg" id="218_Sprout Tender_MON" data-flag="@X" onclick="openSidebar('218_Sprout Tender_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\224_Warden of Seas_MON.jpg" id="224_Warden of Seas_MON" data-flag="@X" onclick="openSidebar('224_Warden of Seas_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\272_Tyrant of Tributes_PRO_MON.jpg" id="272_Tyrant of Tributes_PRO_MON" data-flag="@X" onclick="openSidebar('272_Tyrant of Tributes_PRO_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\219_Sun-Eyed Fox_MON.jpg" id="219_Sun-Eyed Fox_MON" data-flag="@X" onclick="openSidebar('219_Sun-Eyed Fox_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\212_Masaru, Aspiring Champion_MON.jpg" id="212_Masaru, Aspiring Champion_MON" data-flag="@X" onclick="openSidebar('212_Masaru, Aspiring Champion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\211_Lunar Vigil_MON.jpg" id="211_Lunar Vigil_MON" data-flag="@X" onclick="openSidebar('211_Lunar Vigil_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\215_Queen of the Hive_MON.jpg" id="215_Queen of the Hive_MON" data-flag="@X" onclick="openSidebar('215_Queen of the Hive_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\223_Warden of Lives_MON.jpg" id="223_Warden of Lives_MON" data-flag="@X" onclick="openSidebar('223_Warden of Lives_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\214_Professor Maple_MON.jpg" id="214_Professor Maple_MON" data-flag="@X" onclick="openSidebar('214_Professor Maple_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\213_Moon-Rune Fox_MON.jpg" id="213_Moon-Rune Fox_MON" data-flag="@X" onclick="openSidebar('213_Moon-Rune Fox_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\220_Trainee Karina Oblay_MON.jpg" id="220_Trainee Karina Oblay_MON" data-flag="@X" onclick="openSidebar('220_Trainee Karina Oblay_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\201_Bug Catcher_MON.jpg" id="201_Bug Catcher_MON" data-flag="@X" onclick="openSidebar('201_Bug Catcher_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\207_Flying Scorpion_MON.jpg" id="207_Flying Scorpion_MON" data-flag="@X" onclick="openSidebar('207_Flying Scorpion_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\225_Warden of Time_MON.jpg" id="225_Warden of Time_MON" data-flag="@X" onclick="openSidebar('225_Warden of Time_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\221_Twinning Psionic_MON.jpg" id="221_Twinning Psionic_MON" data-flag="@X" onclick="openSidebar('221_Twinning Psionic_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\202_Canopy Darter_MON.jpg" id="202_Canopy Darter_MON" data-flag="@X" onclick="openSidebar('202_Canopy Darter_MON',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\205_Duplicate_MON.jpg" id="205_Duplicate_MON" data-flag="@X" onclick="openSidebar('205_Duplicate_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\252_Ema, the Traveler_MON.jpg" id="252_Ema, the Traveler_MON" data-flag="@X" onclick="openSidebar('252_Ema, the Traveler_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\MON-files\img\232_Lucky Egg_MON.jpg" id="232_Lucky Egg_MON" data-flag="@X" onclick="openSidebar('232_Lucky Egg_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\233_Maple's Journal_MON.jpg" id="233_Maples Journal_MON" data-flag="@X" onclick="openSidebar('233_Maples Journal_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\237_Titanic Fossil_MON_back.jpg" alt="/sets\MON-files\img\237_Titanic Fossil_MON_front.jpg" id="237_Titanic Fossil_MON" data-flag="@XD" onclick="openSidebar('237_Titanic Fossil_MON',false)"><button class="flip-btn" onclick="imgFlip('237_Titanic Fossil_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\226_Amulet Coin_MON.jpg" id="226_Amulet Coin_MON" data-flag="@X" onclick="openSidebar('226_Amulet Coin_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\230_Expert Belt_MON.jpg" id="230_Expert Belt_MON" data-flag="@X" onclick="openSidebar('230_Expert Belt_MON',false)"></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\238_Wicked Fossil_MON_back.jpg" alt="/sets\MON-files\img\238_Wicked Fossil_MON_front.jpg" id="238_Wicked Fossil_MON" data-flag="@XD" onclick="openSidebar('238_Wicked Fossil_MON',false)"><button class="flip-btn" onclick="imgFlip('238_Wicked Fossil_MON')"></button></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\227_Cheerful Generator_MON_back.jpg" alt="/sets\MON-files\img\227_Cheerful Generator_MON_front.jpg" id="227_Cheerful Generator_MON" data-flag="@XD" onclick="openSidebar('227_Cheerful Generator_MON',false)"><button class="flip-btn" onclick="imgFlip('227_Cheerful Generator_MON')"></button></div>
+			<div class="container"><img data-alt_src="/sets\MON-files\img\228_Curious Fossil_MON_back.jpg" alt="/sets\MON-files\img\228_Curious Fossil_MON_front.jpg" id="228_Curious Fossil_MON" data-flag="@XD" onclick="openSidebar('228_Curious Fossil_MON',false)"><button class="flip-btn" onclick="imgFlip('228_Curious Fossil_MON')"></button></div>
+			<div class="container"><img alt="/sets\MON-files\img\229_Ether_MON.jpg" id="229_Ether_MON" data-flag="@X" onclick="openSidebar('229_Ether_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\231_Focus Sash_MON.jpg" id="231_Focus Sash_MON" data-flag="@X" onclick="openSidebar('231_Focus Sash_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\234_Metal Coat_MON.jpg" id="234_Metal Coat_MON" data-flag="@X" onclick="openSidebar('234_Metal Coat_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\235_Old Map_MON.jpg" id="235_Old Map_MON" data-flag="@X" onclick="openSidebar('235_Old Map_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\236_Quick Claw_MON.jpg" id="236_Quick Claw_MON" data-flag="@X" onclick="openSidebar('236_Quick Claw_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\265_Still Waters_MON.jpg" id="265_Still Waters_MON" data-flag="@X" onclick="openSidebar('265_Still Waters_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\266_Muggy Mire_MON.jpg" id="266_Muggy Mire_MON" data-flag="@X" onclick="openSidebar('266_Muggy Mire_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\267_Ruined Shrine_MON.jpg" id="267_Ruined Shrine_MON" data-flag="@X" onclick="openSidebar('267_Ruined Shrine_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\268_Practice Range_MON.jpg" id="268_Practice Range_MON" data-flag="@X" onclick="openSidebar('268_Practice Range_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\269_Wandering Hamlet_MON.jpg" id="269_Wandering Hamlet_MON" data-flag="@X" onclick="openSidebar('269_Wandering Hamlet_MON',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\241_Forgotten Temple_MON.jpg" id="241_Forgotten Temple_MON" data-flag="@X" onclick="openSidebar('241_Forgotten Temple_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\247_Ruined Lab_MON.jpg" id="247_Ruined Lab_MON" data-flag="@X" onclick="openSidebar('247_Ruined Lab_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\242_Gene Pool_MON.jpg" id="242_Gene Pool_MON" data-flag="@X" onclick="openSidebar('242_Gene Pool_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\244_Ice Path_MON.jpg" id="244_Ice Path_MON" data-flag="@X" onclick="openSidebar('244_Ice Path_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\245_Lake of Rage_MON.jpg" id="245_Lake of Rage_MON" data-flag="@X" onclick="openSidebar('245_Lake of Rage_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\246_Power Plant_MON.jpg" id="246_Power Plant_MON" data-flag="@X" onclick="openSidebar('246_Power Plant_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\248_Shrouded Sanctuary_MON.jpg" id="248_Shrouded Sanctuary_MON" data-flag="@X" onclick="openSidebar('248_Shrouded Sanctuary_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\251_Victory Road_MON.jpg" id="251_Victory Road_MON" data-flag="@X" onclick="openSidebar('251_Victory Road_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\239_Chikyu League Arena_MON.jpg" id="239_Chikyu League Arena_MON" data-flag="@X" onclick="openSidebar('239_Chikyu League Arena_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\240_Evolving Wilds_MON.jpg" id="240_Evolving Wilds_MON" data-flag="@X" onclick="openSidebar('240_Evolving Wilds_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\243_Healing Center_MON.jpg" id="243_Healing Center_MON" data-flag="@X" onclick="openSidebar('243_Healing Center_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\249_Treasure Beach_MON.jpg" id="249_Treasure Beach_MON" data-flag="@X" onclick="openSidebar('249_Treasure Beach_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\250_Unknown Shores_MON.jpg" id="250_Unknown Shores_MON" data-flag="@X" onclick="openSidebar('250_Unknown Shores_MON',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\263_Mountain_MON.jpg" id="263_Mountain_MON" data-flag="@X" onclick="openSidebar('263_Mountain_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\262_Swamp_MON.jpg" id="262_Swamp_MON" data-flag="@X" onclick="openSidebar('262_Swamp_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\261_Island_MON.jpg" id="261_Island_MON" data-flag="@X" onclick="openSidebar('261_Island_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\260_Plains_MON.jpg" id="260_Plains_MON" data-flag="@X" onclick="openSidebar('260_Plains_MON',false)"></div>
+			<div class="container"><img alt="/sets\MON-files\img\264_Forest_MON.jpg" id="264_Forest_MON" data-flag="@X" onclick="openSidebar('264_Forest_MON',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

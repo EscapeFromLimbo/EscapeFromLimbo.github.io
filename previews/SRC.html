@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/SRC-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SRC visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SRC-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/SRC-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\SRC-files\img\16_Dazzling Archangel_SRC.jpg" id="16_Dazzling Archangel_SRC" data-flag="@X" onclick="openSidebar('16_Dazzling Archangel_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\54_Endless Paper Trail_SRC.jpg" id="54_Endless Paper Trail_SRC" data-flag="@X" onclick="openSidebar('54_Endless Paper Trail_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\97_Liliana, Femme Fatale_SRC.jpg" id="97_Liliana, Femme Fatale_SRC" data-flag="@X" onclick="openSidebar('97_Liliana, Femme Fatale_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\128_Cityscape Dragon_SRC.jpg" id="128_Cityscape Dragon_SRC" data-flag="@X" onclick="openSidebar('128_Cityscape Dragon_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\180_Mystery of the Strange Door_SRC.jpg" id="180_Mystery of the Strange Door_SRC" data-flag="@X" onclick="openSidebar('180_Mystery of the Strange Door_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\1_Abigail, Cawyer Station Chief_SRC.jpg" id="1_Abigail, Cawyer Station Chief_SRC" data-flag="@X" onclick="openSidebar('1_Abigail, Cawyer Station Chief_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\76_Tethaleeg, the Opulent_SRC.jpg" id="76_Tethaleeg, the Opulent_SRC" data-flag="@X" onclick="openSidebar('76_Tethaleeg, the Opulent_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\111_Nrom, the Chthonic_SRC.jpg" id="111_Nrom, the Chthonic_SRC" data-flag="@X" onclick="openSidebar('111_Nrom, the Chthonic_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\144_On Borrowed Time_SRC.jpg" id="144_On Borrowed Time_SRC" data-flag="@X" onclick="openSidebar('144_On Borrowed Time_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\187_Rhulha, the Aberrant_SRC.jpg" id="187_Rhulha, the Aberrant_SRC" data-flag="@X" onclick="openSidebar('187_Rhulha, the Aberrant_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\3_Ameret's Sanctity_SRC.jpg" id="3_Amerets Sanctity_SRC" data-flag="@X" onclick="openSidebar('3_Amerets Sanctity_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\43_Barton, Sleuth Extraordinaire_SRC.jpg" id="43_Barton, Sleuth Extraordinaire_SRC" data-flag="@X" onclick="openSidebar('43_Barton, Sleuth Extraordinaire_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\84_Calling Card_SRC.jpg" id="84_Calling Card_SRC" data-flag="@X" onclick="openSidebar('84_Calling Card_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\129_Crime Spree_SRC.jpg" id="129_Crime Spree_SRC" data-flag="@X" onclick="openSidebar('129_Crime Spree_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\172_Fox Agency Operator_SRC.jpg" id="172_Fox Agency Operator_SRC" data-flag="@X" onclick="openSidebar('172_Fox Agency Operator_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\14_Citywide Restructuring_SRC.jpg" id="14_Citywide Restructuring_SRC" data-flag="@X" onclick="openSidebar('14_Citywide Restructuring_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\46_Confiscate Evidence_SRC.jpg" id="46_Confiscate Evidence_SRC" data-flag="@X" onclick="openSidebar('46_Confiscate Evidence_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\88_Cryptid's Gambit_SRC.jpg" id="88_Cryptids Gambit_SRC" data-flag="@X" onclick="openSidebar('88_Cryptids Gambit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\132_Dramatic End_SRC.jpg" id="132_Dramatic End_SRC" data-flag="@X" onclick="openSidebar('132_Dramatic End_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\175_Jericho's Assistant_SRC.jpg" id="175_Jerichos Assistant_SRC" data-flag="@X" onclick="openSidebar('175_Jerichos Assistant_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\25_Lorre Dealbroker_SRC.jpg" id="25_Lorre Dealbroker_SRC" data-flag="@X" onclick="openSidebar('25_Lorre Dealbroker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\49_Detective's Gambit_SRC.jpg" id="49_Detectives Gambit_SRC" data-flag="@X" onclick="openSidebar('49_Detectives Gambit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\95_Framed Murder_SRC.jpg" id="95_Framed Murder_SRC" data-flag="@X" onclick="openSidebar('95_Framed Murder_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\151_Station Seven Host_SRC.jpg" id="151_Station Seven Host_SRC" data-flag="@X" onclick="openSidebar('151_Station Seven Host_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\181_Occultist's Gambit_SRC.jpg" id="181_Occultists Gambit_SRC" data-flag="@X" onclick="openSidebar('181_Occultists Gambit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\33_Officer's Gambit_SRC.jpg" id="33_Officers Gambit_SRC" data-flag="@X" onclick="openSidebar('33_Officers Gambit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\52_Double Agent_SRC.jpg" id="52_Double Agent_SRC" data-flag="@X" onclick="openSidebar('52_Double Agent_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\98_Liliana's Goon_SRC.jpg" id="98_Lilianas Goon_SRC" data-flag="@X" onclick="openSidebar('98_Lilianas Goon_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\154_Torch Singer_SRC.jpg" id="154_Torch Singer_SRC" data-flag="@X" onclick="openSidebar('154_Torch Singer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\184_Primordial Unveiling_SRC.jpg" id="184_Primordial Unveiling_SRC" data-flag="@X" onclick="openSidebar('184_Primordial Unveiling_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\37_Solo Officer_SRC.jpg" id="37_Solo Officer_SRC" data-flag="@X" onclick="openSidebar('37_Solo Officer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\55_Ensorcellor_SRC.jpg" id="55_Ensorcellor_SRC" data-flag="@X" onclick="openSidebar('55_Ensorcellor_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\103_Lurker on the Walls_SRC.jpg" id="103_Lurker on the Walls_SRC" data-flag="@X" onclick="openSidebar('103_Lurker on the Walls_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\157_Vigilante Firebug_SRC.jpg" id="157_Vigilante Firebug_SRC" data-flag="@X" onclick="openSidebar('157_Vigilante Firebug_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\188_Search the Unknown_SRC.jpg" id="188_Search the Unknown_SRC" data-flag="@X" onclick="openSidebar('188_Search the Unknown_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\39_Watchful Griffin_SRC.jpg" id="39_Watchful Griffin_SRC" data-flag="@X" onclick="openSidebar('39_Watchful Griffin_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\56_Escape the Plane_SRC.jpg" id="56_Escape the Plane_SRC" data-flag="@X" onclick="openSidebar('56_Escape the Plane_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\104_Mafia Capo_SRC.jpg" id="104_Mafia Capo_SRC" data-flag="@X" onclick="openSidebar('104_Mafia Capo_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\158_Villain's Gambit_SRC.jpg" id="158_Villains Gambit_SRC" data-flag="@X" onclick="openSidebar('158_Villains Gambit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\193_Snitch Snacker_SRC.jpg" id="193_Snitch Snacker_SRC" data-flag="@X" onclick="openSidebar('193_Snitch Snacker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\4_Angelic Embezzler_SRC.jpg" id="4_Angelic Embezzler_SRC" data-flag="@X" onclick="openSidebar('4_Angelic Embezzler_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\70_Quick-Witted Detective_SRC.jpg" id="70_Quick-Witted Detective_SRC" data-flag="@X" onclick="openSidebar('70_Quick-Witted Detective_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\105_Memory Hostage_SRC.jpg" id="105_Memory Hostage_SRC" data-flag="@X" onclick="openSidebar('105_Memory Hostage_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\161_A World of Crime_SRC.jpg" id="161_A World of Crime_SRC" data-flag="@X" onclick="openSidebar('161_A World of Crime_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\194_Songstress of the River_SRC.jpg" id="194_Songstress of the River_SRC" data-flag="@X" onclick="openSidebar('194_Songstress of the River_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\5_Arrest_SRC.jpg" id="5_Arrest_SRC" data-flag="@X" onclick="openSidebar('5_Arrest_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\78_Uncanny Duplicant_SRC.jpg" id="78_Uncanny Duplicant_SRC" data-flag="@X" onclick="openSidebar('78_Uncanny Duplicant_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\119_Vicious Cleaner_SRC.jpg" id="119_Vicious Cleaner_SRC" data-flag="@X" onclick="openSidebar('119_Vicious Cleaner_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\127_Cartel Muscle_SRC.jpg" id="127_Cartel Muscle_SRC" data-flag="@X" onclick="openSidebar('127_Cartel Muscle_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\197_Uncanny Woodghast_SRC.jpg" id="197_Uncanny Woodghast_SRC" data-flag="@X" onclick="openSidebar('197_Uncanny Woodghast_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\7_Bishop of Ameret's Way_SRC.jpg" id="7_Bishop of Amerets Way_SRC" data-flag="@X" onclick="openSidebar('7_Bishop of Amerets Way_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\44_Blank Memory_SRC.jpg" id="44_Blank Memory_SRC" data-flag="@X" onclick="openSidebar('44_Blank Memory_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\81_Air of Decay_SRC.jpg" id="81_Air of Decay_SRC" data-flag="@X" onclick="openSidebar('81_Air of Decay_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\135_Fleeting Options_SRC.jpg" id="135_Fleeting Options_SRC" data-flag="@X" onclick="openSidebar('135_Fleeting Options_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\162_Alluring Spirit_SRC.jpg" id="162_Alluring Spirit_SRC" data-flag="@X" onclick="openSidebar('162_Alluring Spirit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\10_Catscratch Broker_SRC.jpg" id="10_Catscratch Broker_SRC" data-flag="@X" onclick="openSidebar('10_Catscratch Broker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\48_Crippling Hallucinations_SRC.jpg" id="48_Crippling Hallucinations_SRC" data-flag="@X" onclick="openSidebar('48_Crippling Hallucinations_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\86_Conspicuous Homicide_SRC.jpg" id="86_Conspicuous Homicide_SRC" data-flag="@X" onclick="openSidebar('86_Conspicuous Homicide_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\137_Go Nuts_SRC.jpg" id="137_Go Nuts_SRC" data-flag="@X" onclick="openSidebar('137_Go Nuts_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\163_Bizarre Menagerie_SRC.jpg" id="163_Bizarre Menagerie_SRC" data-flag="@X" onclick="openSidebar('163_Bizarre Menagerie_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\15_Cleansing Wave_SRC.jpg" id="15_Cleansing Wave_SRC" data-flag="@X" onclick="openSidebar('15_Cleansing Wave_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\51_Detective's Ploy_SRC.jpg" id="51_Detectives Ploy_SRC" data-flag="@X" onclick="openSidebar('51_Detectives Ploy_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\90_Devilish Deal_SRC.jpg" id="90_Devilish Deal_SRC" data-flag="@X" onclick="openSidebar('90_Devilish Deal_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\138_Harsh Commander_SRC.jpg" id="138_Harsh Commander_SRC" data-flag="@X" onclick="openSidebar('138_Harsh Commander_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\169_Embiggen_SRC.jpg" id="169_Embiggen_SRC" data-flag="@X" onclick="openSidebar('169_Embiggen_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\19_Family Man_SRC.jpg" id="19_Family Man_SRC" data-flag="@X" onclick="openSidebar('19_Family Man_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\53_Dreamer of the Opulent_SRC.jpg" id="53_Dreamer of the Opulent_SRC" data-flag="@X" onclick="openSidebar('53_Dreamer of the Opulent_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\92_Exsanguinate_SRC.jpg" id="92_Exsanguinate_SRC" data-flag="@X" onclick="openSidebar('92_Exsanguinate_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\140_Illicit Electromancer_SRC.jpg" id="140_Illicit Electromancer_SRC" data-flag="@X" onclick="openSidebar('140_Illicit Electromancer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\173_Fox Agency Sleuths_SRC.jpg" id="173_Fox Agency Sleuths_SRC" data-flag="@X" onclick="openSidebar('173_Fox Agency Sleuths_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\20_Fourth Street Enforcer_SRC.jpg" id="20_Fourth Street Enforcer_SRC" data-flag="@X" onclick="openSidebar('20_Fourth Street Enforcer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\58_Faceless Stalker_SRC.jpg" id="58_Faceless Stalker_SRC" data-flag="@X" onclick="openSidebar('58_Faceless Stalker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\99_Liturgy of Liliana_SRC.jpg" id="99_Liturgy of Liliana_SRC" data-flag="@X" onclick="openSidebar('99_Liturgy of Liliana_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\141_Inciting Charmer_SRC.jpg" id="141_Inciting Charmer_SRC" data-flag="@X" onclick="openSidebar('141_Inciting Charmer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\174_Investi-Gator_SRC.jpg" id="174_Investi-Gator_SRC" data-flag="@X" onclick="openSidebar('174_Investi-Gator_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\21_Griffin's Grace_SRC.jpg" id="21_Griffins Grace_SRC" data-flag="@X" onclick="openSidebar('21_Griffins Grace_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\60_Forbidden Findings_SRC.jpg" id="60_Forbidden Findings_SRC" data-flag="@X" onclick="openSidebar('60_Forbidden Findings_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\101_Lorre Earner_SRC.jpg" id="101_Lorre Earner_SRC" data-flag="@X" onclick="openSidebar('101_Lorre Earner_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\142_Last Assault_SRC.jpg" id="142_Last Assault_SRC" data-flag="@X" onclick="openSidebar('142_Last Assault_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\178_Manipulative Phantom_SRC.jpg" id="178_Manipulative Phantom_SRC" data-flag="@X" onclick="openSidebar('178_Manipulative Phantom_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\22_Inhibit_SRC.jpg" id="22_Inhibit_SRC" data-flag="@X" onclick="openSidebar('22_Inhibit_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\61_Frankie's Frostmage_SRC.jpg" id="61_Frankies Frostmage_SRC" data-flag="@X" onclick="openSidebar('61_Frankies Frostmage_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\106_Morgue Manager_SRC.jpg" id="106_Morgue Manager_SRC" data-flag="@X" onclick="openSidebar('106_Morgue Manager_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\145_Orphanage Keeper_SRC.jpg" id="145_Orphanage Keeper_SRC" data-flag="@X" onclick="openSidebar('145_Orphanage Keeper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\182_Orc Reporter_SRC.jpg" id="182_Orc Reporter_SRC" data-flag="@X" onclick="openSidebar('182_Orc Reporter_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\24_Jaded Copper_SRC.jpg" id="24_Jaded Copper_SRC" data-flag="@X" onclick="openSidebar('24_Jaded Copper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\64_Master Thief_SRC.jpg" id="64_Master Thief_SRC" data-flag="@X" onclick="openSidebar('64_Master Thief_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\108_Murder_SRC.jpg" id="108_Murder_SRC" data-flag="@X" onclick="openSidebar('108_Murder_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\147_Pencil Pusher_SRC.jpg" id="147_Pencil Pusher_SRC" data-flag="@X" onclick="openSidebar('147_Pencil Pusher_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\185_Protective Detective_SRC.jpg" id="185_Protective Detective_SRC" data-flag="@X" onclick="openSidebar('185_Protective Detective_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\28_Lotus Lane Kidnapper_SRC.jpg" id="28_Lotus Lane Kidnapper_SRC" data-flag="@X" onclick="openSidebar('28_Lotus Lane Kidnapper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\65_Messenger Magpie_SRC.jpg" id="65_Messenger Magpie_SRC" data-flag="@X" onclick="openSidebar('65_Messenger Magpie_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\113_Patron of Veda's Club_SRC.jpg" id="113_Patron of Vedas Club_SRC" data-flag="@X" onclick="openSidebar('113_Patron of Vedas Club_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\149_Sermon of the Way_SRC.jpg" id="149_Sermon of the Way_SRC" data-flag="@X" onclick="openSidebar('149_Sermon of the Way_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\186_Resounding Shot_SRC.jpg" id="186_Resounding Shot_SRC" data-flag="@X" onclick="openSidebar('186_Resounding Shot_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\38_Up the River_SRC.jpg" id="38_Up the River_SRC" data-flag="@X" onclick="openSidebar('38_Up the River_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\74_Slippery Informant_SRC.jpg" id="74_Slippery Informant_SRC" data-flag="@X" onclick="openSidebar('74_Slippery Informant_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\114_Rigged Negotiations_SRC.jpg" id="114_Rigged Negotiations_SRC" data-flag="@X" onclick="openSidebar('114_Rigged Negotiations_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\155_True Love's Moment_SRC.jpg" id="155_True Loves Moment_SRC" data-flag="@X" onclick="openSidebar('155_True Loves Moment_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\190_Share the Concoction_SRC.jpg" id="190_Share the Concoction_SRC" data-flag="@X" onclick="openSidebar('190_Share the Concoction_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\2_Adamant Will_SRC.jpg" id="2_Adamant Will_SRC" data-flag="@X" onclick="openSidebar('2_Adamant Will_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\77_Throw Off the Trail_SRC.jpg" id="77_Throw Off the Trail_SRC" data-flag="@X" onclick="openSidebar('77_Throw Off the Trail_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\116_Stalking Neonate_SRC.jpg" id="116_Stalking Neonate_SRC" data-flag="@X" onclick="openSidebar('116_Stalking Neonate_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\159_Violent Discharge_SRC.jpg" id="159_Violent Discharge_SRC" data-flag="@X" onclick="openSidebar('159_Violent Discharge_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\191_Sinuous Tantalizer_SRC.jpg" id="191_Sinuous Tantalizer_SRC" data-flag="@X" onclick="openSidebar('191_Sinuous Tantalizer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\6_Backup Brigade_SRC.jpg" id="6_Backup Brigade_SRC" data-flag="@X" onclick="openSidebar('6_Backup Brigade_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\79_Witness Protection_SRC.jpg" id="79_Witness Protection_SRC" data-flag="@X" onclick="openSidebar('79_Witness Protection_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\121_Zhang Traveller_SRC.jpg" id="121_Zhang Traveller_SRC" data-flag="@X" onclick="openSidebar('121_Zhang Traveller_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\122_Abrupt Possession_SRC.jpg" id="122_Abrupt Possession_SRC" data-flag="@X" onclick="openSidebar('122_Abrupt Possession_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\195_Spectral Boon_SRC.jpg" id="195_Spectral Boon_SRC" data-flag="@X" onclick="openSidebar('195_Spectral Boon_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\8_Blessing of Hope_SRC.jpg" id="8_Blessing of Hope_SRC" data-flag="@X" onclick="openSidebar('8_Blessing of Hope_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\40_Aerial Sleuth_SRC.jpg" id="40_Aerial Sleuth_SRC" data-flag="@X" onclick="openSidebar('40_Aerial Sleuth_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\82_Alley Shade_SRC.jpg" id="82_Alley Shade_SRC" data-flag="@X" onclick="openSidebar('82_Alley Shade_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\123_Azra Fixer_SRC.jpg" id="123_Azra Fixer_SRC" data-flag="@X" onclick="openSidebar('123_Azra Fixer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\164_Butcher the Shepherd_SRC.jpg" id="164_Butcher the Shepherd_SRC" data-flag="@X" onclick="openSidebar('164_Butcher the Shepherd_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\9_Burden of Guilt_SRC.jpg" id="9_Burden of Guilt_SRC" data-flag="@X" onclick="openSidebar('9_Burden of Guilt_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\41_Amnesiac Sleuth_SRC.jpg" id="41_Amnesiac Sleuth_SRC" data-flag="@X" onclick="openSidebar('41_Amnesiac Sleuth_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\83_Brutalize_SRC.jpg" id="83_Brutalize_SRC" data-flag="@X" onclick="openSidebar('83_Brutalize_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\124_Blazing Shot_SRC.jpg" id="124_Blazing Shot_SRC" data-flag="@X" onclick="openSidebar('124_Blazing Shot_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\165_Cover Up_SRC.jpg" id="165_Cover Up_SRC" data-flag="@X" onclick="openSidebar('165_Cover Up_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\11_Catscratch Mafioso_SRC.jpg" id="11_Catscratch Mafioso_SRC" data-flag="@X" onclick="openSidebar('11_Catscratch Mafioso_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\42_Associate of the Spider_SRC.jpg" id="42_Associate of the Spider_SRC" data-flag="@X" onclick="openSidebar('42_Associate of the Spider_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\85_Choking Demise_SRC.jpg" id="85_Choking Demise_SRC" data-flag="@X" onclick="openSidebar('85_Choking Demise_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\125_Bloodthirst Vampire_SRC.jpg" id="125_Bloodthirst Vampire_SRC" data-flag="@X" onclick="openSidebar('125_Bloodthirst Vampire_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\166_Decipher the Evidence_SRC.jpg" id="166_Decipher the Evidence_SRC" data-flag="@X" onclick="openSidebar('166_Decipher the Evidence_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\12_Cawyer Station Deputy_SRC.jpg" id="12_Cawyer Station Deputy_SRC" data-flag="@X" onclick="openSidebar('12_Cawyer Station Deputy_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\45_Clandestine Snitch_SRC.jpg" id="45_Clandestine Snitch_SRC" data-flag="@X" onclick="openSidebar('45_Clandestine Snitch_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\87_Corrupt Defrauder_SRC.jpg" id="87_Corrupt Defrauder_SRC" data-flag="@X" onclick="openSidebar('87_Corrupt Defrauder_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\126_Buddy Cops_SRC.jpg" id="126_Buddy Cops_SRC" data-flag="@X" onclick="openSidebar('126_Buddy Cops_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\167_Dose of Dust_SRC.jpg" id="167_Dose of Dust_SRC" data-flag="@X" onclick="openSidebar('167_Dose of Dust_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\13_Cawyer Station Veteran_SRC.jpg" id="13_Cawyer Station Veteran_SRC" data-flag="@X" onclick="openSidebar('13_Cawyer Station Veteran_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\47_Conspiracy Vendor_SRC.jpg" id="47_Conspiracy Vendor_SRC" data-flag="@X" onclick="openSidebar('47_Conspiracy Vendor_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\89_Dame on the Run_SRC.jpg" id="89_Dame on the Run_SRC" data-flag="@X" onclick="openSidebar('89_Dame on the Run_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\130_Deranged Cultist_SRC.jpg" id="130_Deranged Cultist_SRC" data-flag="@X" onclick="openSidebar('130_Deranged Cultist_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\168_Dust Smugglers_SRC.jpg" id="168_Dust Smugglers_SRC" data-flag="@X" onclick="openSidebar('168_Dust Smugglers_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\17_Deacon of the Old Ways_SRC.jpg" id="17_Deacon of the Old Ways_SRC" data-flag="@X" onclick="openSidebar('17_Deacon of the Old Ways_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\50_Detective's Intuition_SRC.jpg" id="50_Detectives Intuition_SRC" data-flag="@X" onclick="openSidebar('50_Detectives Intuition_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\91_Duress_SRC.jpg" id="91_Duress_SRC" data-flag="@X" onclick="openSidebar('91_Duress_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\131_Distracting Flapper_SRC.jpg" id="131_Distracting Flapper_SRC" data-flag="@X" onclick="openSidebar('131_Distracting Flapper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\170_Epic Confrontation_SRC.jpg" id="170_Epic Confrontation_SRC" data-flag="@X" onclick="openSidebar('170_Epic Confrontation_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\18_Debt Collection_SRC.jpg" id="18_Debt Collection_SRC" data-flag="@X" onclick="openSidebar('18_Debt Collection_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\57_Examine the Goods_SRC.jpg" id="57_Examine the Goods_SRC" data-flag="@X" onclick="openSidebar('57_Examine the Goods_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\93_Failing Flaw_SRC.jpg" id="93_Failing Flaw_SRC" data-flag="@X" onclick="openSidebar('93_Failing Flaw_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\133_Dwarven Butcher_SRC.jpg" id="133_Dwarven Butcher_SRC" data-flag="@X" onclick="openSidebar('133_Dwarven Butcher_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\171_Following the Matchbook_SRC.jpg" id="171_Following the Matchbook_SRC" data-flag="@X" onclick="openSidebar('171_Following the Matchbook_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\23_Interrogate_SRC.jpg" id="23_Interrogate_SRC" data-flag="@X" onclick="openSidebar('23_Interrogate_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\59_Foiled Plans_SRC.jpg" id="59_Foiled Plans_SRC" data-flag="@X" onclick="openSidebar('59_Foiled Plans_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\94_Fishing for Bodies_SRC.jpg" id="94_Fishing for Bodies_SRC" data-flag="@X" onclick="openSidebar('94_Fishing for Bodies_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\134_Elvish Poet_SRC.jpg" id="134_Elvish Poet_SRC" data-flag="@X" onclick="openSidebar('134_Elvish Poet_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\176_Lamb of the Aberrant_SRC.jpg" id="176_Lamb of the Aberrant_SRC" data-flag="@X" onclick="openSidebar('176_Lamb of the Aberrant_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\26_Lorre Lackey_SRC.jpg" id="26_Lorre Lackey_SRC" data-flag="@X" onclick="openSidebar('26_Lorre Lackey_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\62_Guide Dog_SRC.jpg" id="62_Guide Dog_SRC" data-flag="@X" onclick="openSidebar('62_Guide Dog_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\96_Hound of Rounded Corners_SRC.jpg" id="96_Hound of Rounded Corners_SRC" data-flag="@X" onclick="openSidebar('96_Hound of Rounded Corners_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\136_Getaway Ride_SRC.jpg" id="136_Getaway Ride_SRC" data-flag="@X" onclick="openSidebar('136_Getaway Ride_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\177_Lotus Lane Socialite_SRC.jpg" id="177_Lotus Lane Socialite_SRC" data-flag="@X" onclick="openSidebar('177_Lotus Lane Socialite_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\27_Lorre Lookout_SRC.jpg" id="27_Lorre Lookout_SRC" data-flag="@X" onclick="openSidebar('27_Lorre Lookout_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\63_Malevolent Observer_SRC.jpg" id="63_Malevolent Observer_SRC" data-flag="@X" onclick="openSidebar('63_Malevolent Observer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\100_Lorre Blackmailer_SRC.jpg" id="100_Lorre Blackmailer_SRC" data-flag="@X" onclick="openSidebar('100_Lorre Blackmailer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\139_Heavenly Fire_SRC.jpg" id="139_Heavenly Fire_SRC" data-flag="@X" onclick="openSidebar('139_Heavenly Fire_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\179_Moribund Witness_SRC.jpg" id="179_Moribund Witness_SRC" data-flag="@X" onclick="openSidebar('179_Moribund Witness_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\29_Midnight Call_SRC.jpg" id="29_Midnight Call_SRC" data-flag="@X" onclick="openSidebar('29_Midnight Call_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\66_Occultist of Heirlooms_SRC.jpg" id="66_Occultist of Heirlooms_SRC" data-flag="@X" onclick="openSidebar('66_Occultist of Heirlooms_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\102_Lucky Break_SRC.jpg" id="102_Lucky Break_SRC" data-flag="@X" onclick="openSidebar('102_Lucky Break_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\143_Off-Duty Officer_SRC.jpg" id="143_Off-Duty Officer_SRC" data-flag="@X" onclick="openSidebar('143_Off-Duty Officer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\183_Outlands Farmer_SRC.jpg" id="183_Outlands Farmer_SRC" data-flag="@X" onclick="openSidebar('183_Outlands Farmer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\30_Mob Cleaning_SRC.jpg" id="30_Mob Cleaning_SRC" data-flag="@X" onclick="openSidebar('30_Mob Cleaning_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\67_Overworked_SRC.jpg" id="67_Overworked_SRC" data-flag="@X" onclick="openSidebar('67_Overworked_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\107_Moroii Aristocrat_SRC.jpg" id="107_Moroii Aristocrat_SRC" data-flag="@X" onclick="openSidebar('107_Moroii Aristocrat_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\146_Passionate Reunion_SRC.jpg" id="146_Passionate Reunion_SRC" data-flag="@X" onclick="openSidebar('146_Passionate Reunion_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\189_Sewer Gators_SRC.jpg" id="189_Sewer Gators_SRC" data-flag="@X" onclick="openSidebar('189_Sewer Gators_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\31_Oblivious Handyman_SRC.jpg" id="31_Oblivious Handyman_SRC" data-flag="@X" onclick="openSidebar('31_Oblivious Handyman_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\68_Phantom's Jurisdiction_SRC.jpg" id="68_Phantoms Jurisdiction_SRC" data-flag="@X" onclick="openSidebar('68_Phantoms Jurisdiction_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\109_Ne'er-do-wells_SRC.jpg" id="109_Neer-do-wells_SRC" data-flag="@X" onclick="openSidebar('109_Neer-do-wells_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\148_Reckless Corporal_SRC.jpg" id="148_Reckless Corporal_SRC" data-flag="@X" onclick="openSidebar('148_Reckless Corporal_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\192_Sleuthhound_SRC.jpg" id="192_Sleuthhound_SRC" data-flag="@X" onclick="openSidebar('192_Sleuthhound_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\32_Obsessive Bureaucrat_SRC.jpg" id="32_Obsessive Bureaucrat_SRC" data-flag="@X" onclick="openSidebar('32_Obsessive Bureaucrat_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\69_Private Eye_SRC.jpg" id="69_Private Eye_SRC" data-flag="@X" onclick="openSidebar('69_Private Eye_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\110_Nimble Mothman_SRC.jpg" id="110_Nimble Mothman_SRC" data-flag="@X" onclick="openSidebar('110_Nimble Mothman_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\150_Shank_SRC.jpg" id="150_Shank_SRC" data-flag="@X" onclick="openSidebar('150_Shank_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\196_Towering Aracatnid_SRC.jpg" id="196_Towering Aracatnid_SRC" data-flag="@X" onclick="openSidebar('196_Towering Aracatnid_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\34_Resigned Shepherd_SRC.jpg" id="34_Resigned Shepherd_SRC" data-flag="@X" onclick="openSidebar('34_Resigned Shepherd_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\71_Rescue_SRC.jpg" id="71_Rescue_SRC" data-flag="@X" onclick="openSidebar('71_Rescue_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\112_Ocular Fog_SRC.jpg" id="112_Ocular Fog_SRC" data-flag="@X" onclick="openSidebar('112_Ocular Fog_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\152_Street Razings_SRC.jpg" id="152_Street Razings_SRC" data-flag="@X" onclick="openSidebar('152_Street Razings_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\198_Uncover Evidence_SRC.jpg" id="198_Uncover Evidence_SRC" data-flag="@X" onclick="openSidebar('198_Uncover Evidence_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\35_Shepherd Cop_SRC.jpg" id="35_Shepherd Cop_SRC" data-flag="@X" onclick="openSidebar('35_Shepherd Cop_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\72_Ride to Nowhere_SRC.jpg" id="72_Ride to Nowhere_SRC" data-flag="@X" onclick="openSidebar('72_Ride to Nowhere_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\115_Seductive Gorgon_SRC.jpg" id="115_Seductive Gorgon_SRC" data-flag="@X" onclick="openSidebar('115_Seductive Gorgon_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\153_Threatening Officer_SRC.jpg" id="153_Threatening Officer_SRC" data-flag="@X" onclick="openSidebar('153_Threatening Officer_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\199_Unexplained Behemoth_SRC.jpg" id="199_Unexplained Behemoth_SRC" data-flag="@X" onclick="openSidebar('199_Unexplained Behemoth_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\36_Skyscraper Griffin_SRC.jpg" id="36_Skyscraper Griffin_SRC" data-flag="@X" onclick="openSidebar('36_Skyscraper Griffin_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\73_Sleep with the Fishes_SRC.jpg" id="73_Sleep with the Fishes_SRC" data-flag="@X" onclick="openSidebar('73_Sleep with the Fishes_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\117_Successful Racket_SRC.jpg" id="117_Successful Racket_SRC" data-flag="@X" onclick="openSidebar('117_Successful Racket_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\156_Vehement Rage_SRC.jpg" id="156_Vehement Rage_SRC" data-flag="@X" onclick="openSidebar('156_Vehement Rage_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\200_Vine Street Stoolie_SRC.jpg" id="200_Vine Street Stoolie_SRC" data-flag="@X" onclick="openSidebar('200_Vine Street Stoolie_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\75_Spill the Beans_SRC.jpg" id="75_Spill the Beans_SRC" data-flag="@X" onclick="openSidebar('75_Spill the Beans_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\118_Undead Flapper_SRC.jpg" id="118_Undead Flapper_SRC" data-flag="@X" onclick="openSidebar('118_Undead Flapper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\160_Wealthy Patron_SRC.jpg" id="160_Wealthy Patron_SRC" data-flag="@X" onclick="openSidebar('160_Wealthy Patron_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\201_Wander the Outlands_SRC.jpg" id="201_Wander the Outlands_SRC" data-flag="@X" onclick="openSidebar('201_Wander the Outlands_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\80_Woman with a Story_SRC.jpg" id="80_Woman with a Story_SRC" data-flag="@X" onclick="openSidebar('80_Woman with a Story_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\120_Vile Blessing_SRC.jpg" id="120_Vile Blessing_SRC" data-flag="@X" onclick="openSidebar('120_Vile Blessing_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\202_Writhing Thrasher_SRC.jpg" id="202_Writhing Thrasher_SRC" data-flag="@X" onclick="openSidebar('202_Writhing Thrasher_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\260_Jericho's Assistant_PRO_SRC.jpg" id="260_Jerichos Assistant_PRO_SRC" data-flag="@X" onclick="openSidebar('260_Jerichos Assistant_PRO_SRC',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\223_Wayward Lawkeeper_SRC.jpg" id="223_Wayward Lawkeeper_SRC" data-flag="@X" onclick="openSidebar('223_Wayward Lawkeeper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\207_Cult Leader_SRC.jpg" id="207_Cult Leader_SRC" data-flag="@X" onclick="openSidebar('207_Cult Leader_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\211_Gregor Eddie, Dustmaker_SRC.jpg" id="211_Gregor Eddie, Dustmaker_SRC" data-flag="@X" onclick="openSidebar('211_Gregor Eddie, Dustmaker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\209_Elusive Stranger_SRC.jpg" id="209_Elusive Stranger_SRC" data-flag="@X" onclick="openSidebar('209_Elusive Stranger_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\212_Henry, River Cities Mayor_SRC.jpg" id="212_Henry, River Cities Mayor_SRC" data-flag="@X" onclick="openSidebar('212_Henry, River Cities Mayor_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\221_Prying Lawmaker_SRC.jpg" id="221_Prying Lawmaker_SRC" data-flag="@X" onclick="openSidebar('221_Prying Lawmaker_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\220_Perfect Crime_SRC.jpg" id="220_Perfect Crime_SRC" data-flag="@X" onclick="openSidebar('220_Perfect Crime_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\218_Moroii Cabalist_SRC.jpg" id="218_Moroii Cabalist_SRC" data-flag="@X" onclick="openSidebar('218_Moroii Cabalist_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\203_Agency Detectives_SRC.jpg" id="203_Agency Detectives_SRC" data-flag="@X" onclick="openSidebar('203_Agency Detectives_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\205_Black Dogs of Eve's Garden_SRC.jpg" id="205_Black Dogs of Eves Garden_SRC" data-flag="@X" onclick="openSidebar('205_Black Dogs of Eves Garden_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\210_Frankie &quot;the Spider&quot; Lorre_SRC.jpg" id="210_Frankie &quot;the Spider&quot; Lorre_SRC" data-flag="@X" onclick="openSidebar('210_Frankie &quot;the Spider&quot; Lorre_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\213_Incident on Fourth Street_SRC.jpg" id="213_Incident on Fourth Street_SRC" data-flag="@X" onclick="openSidebar('213_Incident on Fourth Street_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\219_Painter of the Waking Dream_SRC.jpg" id="219_Painter of the Waking Dream_SRC" data-flag="@X" onclick="openSidebar('219_Painter of the Waking Dream_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\204_Ameret, Hope of Night_SRC.jpg" id="204_Ameret, Hope of Night_SRC" data-flag="@X" onclick="openSidebar('204_Ameret, Hope of Night_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\214_Jericho Hudson_SRC.jpg" id="214_Jericho Hudson_SRC" data-flag="@X" onclick="openSidebar('214_Jericho Hudson_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\216_Lorre Underboss_SRC.jpg" id="216_Lorre Underboss_SRC" data-flag="@X" onclick="openSidebar('216_Lorre Underboss_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\222_Scandalous Phantom_SRC.jpg" id="222_Scandalous Phantom_SRC" data-flag="@X" onclick="openSidebar('222_Scandalous Phantom_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\215_Loose End Cutter_SRC.jpg" id="215_Loose End Cutter_SRC" data-flag="@X" onclick="openSidebar('215_Loose End Cutter_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\206_Chief of District Nine_SRC.jpg" id="206_Chief of District Nine_SRC" data-flag="@X" onclick="openSidebar('206_Chief of District Nine_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\208_Eldritch Spirit_SRC.jpg" id="208_Eldritch Spirit_SRC" data-flag="@X" onclick="openSidebar('208_Eldritch Spirit_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\261_Ameret, Hope of Night_PRO_SRC.jpg" id="261_Ameret, Hope of Night_PRO_SRC" data-flag="@X" onclick="openSidebar('261_Ameret, Hope of Night_PRO_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\217_The Masked Benefactor_SRC.jpg" id="217_The Masked Benefactor_SRC" data-flag="@X" onclick="openSidebar('217_The Masked Benefactor_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\239_Tome of the Primordials_SRC.jpg" id="239_Tome of the Primordials_SRC" data-flag="@X" onclick="openSidebar('239_Tome of the Primordials_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\224_Attentive Rabota_SRC.jpg" id="224_Attentive Rabota_SRC" data-flag="@X" onclick="openSidebar('224_Attentive Rabota_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\231_Impenetrable Vault_SRC.jpg" id="231_Impenetrable Vault_SRC" data-flag="@X" onclick="openSidebar('231_Impenetrable Vault_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\237_Shroud of Disguise_SRC.jpg" id="237_Shroud of Disguise_SRC" data-flag="@X" onclick="openSidebar('237_Shroud of Disguise_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\238_Swindler's Trinket_SRC.jpg" id="238_Swindlers Trinket_SRC" data-flag="@X" onclick="openSidebar('238_Swindlers Trinket_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\227_Counterfeit Currency_SRC.jpg" id="227_Counterfeit Currency_SRC" data-flag="@X" onclick="openSidebar('227_Counterfeit Currency_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\229_Detective's Familiar_SRC.jpg" id="229_Detectives Familiar_SRC" data-flag="@X" onclick="openSidebar('229_Detectives Familiar_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\230_Forged Documents_SRC.jpg" id="230_Forged Documents_SRC" data-flag="@X" onclick="openSidebar('230_Forged Documents_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\232_Magnifying Glass_SRC.jpg" id="232_Magnifying Glass_SRC" data-flag="@X" onclick="openSidebar('232_Magnifying Glass_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\233_Murder Weapon_SRC.jpg" id="233_Murder Weapon_SRC" data-flag="@X" onclick="openSidebar('233_Murder Weapon_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\235_Portrait of the Lost_SRC.jpg" id="235_Portrait of the Lost_SRC" data-flag="@X" onclick="openSidebar('235_Portrait of the Lost_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\236_Rabota Bystander_SRC.jpg" id="236_Rabota Bystander_SRC" data-flag="@X" onclick="openSidebar('236_Rabota Bystander_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\241_Unlicensed Pistol_SRC.jpg" id="241_Unlicensed Pistol_SRC" data-flag="@X" onclick="openSidebar('241_Unlicensed Pistol_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\225_Contraband Dagger_SRC.jpg" id="225_Contraband Dagger_SRC" data-flag="@X" onclick="openSidebar('225_Contraband Dagger_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\226_Copper Copper_SRC.jpg" id="226_Copper Copper_SRC" data-flag="@X" onclick="openSidebar('226_Copper Copper_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\228_Cozy Rabota_SRC.jpg" id="228_Cozy Rabota_SRC" data-flag="@X" onclick="openSidebar('228_Cozy Rabota_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\234_Pilfered Jewels_SRC.jpg" id="234_Pilfered Jewels_SRC" data-flag="@X" onclick="openSidebar('234_Pilfered Jewels_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\240_Trench Sweeper_SRC.jpg" id="240_Trench Sweeper_SRC" data-flag="@X" onclick="openSidebar('240_Trench Sweeper_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\250_Riverside View_SRC.jpg" id="250_Riverside View_SRC" data-flag="@X" onclick="openSidebar('250_Riverside View_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\246_Dubious Path_SRC.jpg" id="246_Dubious Path_SRC" data-flag="@X" onclick="openSidebar('246_Dubious Path_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\243_Decadent Hall_SRC.jpg" id="243_Decadent Hall_SRC" data-flag="@X" onclick="openSidebar('243_Decadent Hall_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\252_Secluded Farmland_SRC.jpg" id="252_Secluded Farmland_SRC" data-flag="@X" onclick="openSidebar('252_Secluded Farmland_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\253_Thriving Tower_SRC.jpg" id="253_Thriving Tower_SRC" data-flag="@X" onclick="openSidebar('253_Thriving Tower_SRC',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\245_Downtown Theater_SRC.jpg" id="245_Downtown Theater_SRC" data-flag="@X" onclick="openSidebar('245_Downtown Theater_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\247_Impressive Skyline_SRC.jpg" id="247_Impressive Skyline_SRC" data-flag="@X" onclick="openSidebar('247_Impressive Skyline_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\249_Reliable Market_SRC.jpg" id="249_Reliable Market_SRC" data-flag="@X" onclick="openSidebar('249_Reliable Market_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\242_Beloved Chapel_SRC.jpg" id="242_Beloved Chapel_SRC" data-flag="@X" onclick="openSidebar('242_Beloved Chapel_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\244_Disturbing Locale_SRC.jpg" id="244_Disturbing Locale_SRC" data-flag="@X" onclick="openSidebar('244_Disturbing Locale_SRC',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\248_Luxury District_SRC.jpg" id="248_Luxury District_SRC" data-flag="@X" onclick="openSidebar('248_Luxury District_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\251_Rural Sinkhole_SRC.jpg" id="251_Rural Sinkhole_SRC" data-flag="@X" onclick="openSidebar('251_Rural Sinkhole_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\254_Warped Landscape_SRC.jpg" id="254_Warped Landscape_SRC" data-flag="@X" onclick="openSidebar('254_Warped Landscape_SRC',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\255_Plains_SRC.jpg" id="255_Plains_SRC" data-flag="@X" onclick="openSidebar('255_Plains_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\256_Island_SRC.jpg" id="256_Island_SRC" data-flag="@X" onclick="openSidebar('256_Island_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\259_Forest_SRC.jpg" id="259_Forest_SRC" data-flag="@X" onclick="openSidebar('259_Forest_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\258_Mountain_SRC.jpg" id="258_Mountain_SRC" data-flag="@X" onclick="openSidebar('258_Mountain_SRC',false)"></div>
+			<div class="container"><img alt="/sets\SRC-files\img\257_Swamp_SRC.jpg" id="257_Swamp_SRC" data-flag="@X" onclick="openSidebar('257_Swamp_SRC',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

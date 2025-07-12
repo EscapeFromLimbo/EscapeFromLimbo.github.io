@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/VRD-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>VRD visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/VRD-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/VRD-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\VRD-files\img\15_Elder Mathias Jodan_VRD.jpg" id="15_Elder Mathias Jodan_VRD" data-flag="@X" onclick="openSidebar('15_Elder Mathias Jodan_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\71_Smuggling Kingpin_VRD.jpg" id="71_Smuggling Kingpin_VRD" data-flag="@X" onclick="openSidebar('71_Smuggling Kingpin_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\100_Hugo Darkhand, the Mastermind_VRD.jpg" id="100_Hugo Darkhand, the Mastermind_VRD" data-flag="@X" onclick="openSidebar('100_Hugo Darkhand, the Mastermind_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\127_Calamity Smith In: The Gilded Heist_VRD.jpg" id="127_Calamity Smith In: The Gilded Heist_VRD" data-flag="@N" onclick="openSidebar('127_Calamity Smith In: The Gilded Heist_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\172_Enigmatic Progenitor_VRD.jpg" id="172_Enigmatic Progenitor_VRD" data-flag="@X" onclick="openSidebar('172_Enigmatic Progenitor_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\17_Frank Atran, Augmented Agent_VRD.jpg" id="17_Frank Atran, Augmented Agent_VRD" data-flag="@X" onclick="openSidebar('17_Frank Atran, Augmented Agent_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\72_Theory of Everything_VRD.jpg" id="72_Theory of Everything_VRD" data-flag="@X" onclick="openSidebar('72_Theory of Everything_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\115_Therese Grimblood_VRD.jpg" id="115_Therese Grimblood_VRD" data-flag="@X" onclick="openSidebar('115_Therese Grimblood_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\142_International Manipulation_VRD.jpg" id="142_International Manipulation_VRD" data-flag="@X" onclick="openSidebar('142_International Manipulation_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\178_Iroshi, Blade of the Old Ways_VRD.jpg" id="178_Iroshi, Blade of the Old Ways_VRD" data-flag="@X" onclick="openSidebar('178_Iroshi, Blade of the Old Ways_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\1_Aegis Pocketwatch_VRD.jpg" id="1_Aegis Pocketwatch_VRD" data-flag="@X" onclick="openSidebar('1_Aegis Pocketwatch_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\42_Ancestral Scheme_VRD.jpg" id="42_Ancestral Scheme_VRD" data-flag="@X" onclick="openSidebar('42_Ancestral Scheme_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\81_Awoken Corruptor_VRD.jpg" id="81_Awoken Corruptor_VRD" data-flag="@X" onclick="openSidebar('81_Awoken Corruptor_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\123_Awoken Whelp_VRD.jpg" id="123_Awoken Whelp_VRD" data-flag="@X" onclick="openSidebar('123_Awoken Whelp_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\161_Agent 107_VRD.jpg" id="161_Agent 107_VRD" data-flag="@X" onclick="openSidebar('161_Agent 107_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\3_All According to Plan_VRD.jpg" id="3_All According to Plan_VRD" data-flag="@X" onclick="openSidebar('3_All According to Plan_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\43_Awoken Thunderer_VRD.jpg" id="43_Awoken Thunderer_VRD" data-flag="@X" onclick="openSidebar('43_Awoken Thunderer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\92_Dreamreaper_VRD.jpg" id="92_Dreamreaper_VRD" data-flag="@X" onclick="openSidebar('92_Dreamreaper_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\124_Blunt Instrument_VRD.jpg" id="124_Blunt Instrument_VRD" data-flag="@X" onclick="openSidebar('124_Blunt Instrument_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\164_Awoken Ravager_VRD.jpg" id="164_Awoken Ravager_VRD" data-flag="@X" onclick="openSidebar('164_Awoken Ravager_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\4_Awoken Arbiter_VRD.jpg" id="4_Awoken Arbiter_VRD" data-flag="@X" onclick="openSidebar('4_Awoken Arbiter_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\46_The Clock is Ticking_VRD.jpg" id="46_The Clock is Ticking_VRD" data-flag="@X" onclick="openSidebar('46_The Clock is Ticking_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\95_Facility Detonator_VRD.jpg" id="95_Facility Detonator_VRD" data-flag="@X" onclick="openSidebar('95_Facility Detonator_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\130_Destructive Force_VRD.jpg" id="130_Destructive Force_VRD" data-flag="@X" onclick="openSidebar('130_Destructive Force_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\165_Bankbuster Heavy_VRD.jpg" id="165_Bankbuster Heavy_VRD" data-flag="@X" onclick="openSidebar('165_Bankbuster Heavy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\5_Back in Action_VRD.jpg" id="5_Back in Action_VRD" data-flag="@X" onclick="openSidebar('5_Back in Action_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\65_Presence of the First Dream_VRD.jpg" id="65_Presence of the First Dream_VRD" data-flag="@X" onclick="openSidebar('65_Presence of the First Dream_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\103_Live and Let Die_VRD.jpg" id="103_Live and Let Die_VRD" data-flag="@X" onclick="openSidebar('103_Live and Let Die_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\132_Doomsday Device_VRD.jpg" id="132_Doomsday Device_VRD" data-flag="@X" onclick="openSidebar('132_Doomsday Device_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\176_Flourishing Evil_VRD.jpg" id="176_Flourishing Evil_VRD" data-flag="@X" onclick="openSidebar('176_Flourishing Evil_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\12_Crafty Informant_VRD.jpg" id="12_Crafty Informant_VRD" data-flag="@X" onclick="openSidebar('12_Crafty Informant_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\67_Save the World_VRD.jpg" id="67_Save the World_VRD" data-flag="@X" onclick="openSidebar('67_Save the World_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\104_Organized Espionage_VRD.jpg" id="104_Organized Espionage_VRD" data-flag="@X" onclick="openSidebar('104_Organized Espionage_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\141_Heist of the Century_VRD.jpg" id="141_Heist of the Century_VRD" data-flag="@X" onclick="openSidebar('141_Heist of the Century_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\179_Iroshi's Devotee_VRD.jpg" id="179_Iroshis Devotee_VRD" data-flag="@X" onclick="openSidebar('179_Iroshis Devotee_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\21_Justiciar Overseer_VRD.jpg" id="21_Justiciar Overseer_VRD" data-flag="@X" onclick="openSidebar('21_Justiciar Overseer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\73_Tobias Maxwell, Justiciar Boss_VRD.jpg" id="73_Tobias Maxwell, Justiciar Boss_VRD" data-flag="@X" onclick="openSidebar('73_Tobias Maxwell, Justiciar Boss_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\110_Smirk, Darkhand's Favored_VRD.jpg" id="110_Smirk, Darkhands Favored_VRD" data-flag="@X" onclick="openSidebar('110_Smirk, Darkhands Favored_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\143_One Last Stunt_VRD.jpg" id="143_One Last Stunt_VRD" data-flag="@X" onclick="openSidebar('143_One Last Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\184_Night Drudger_VRD.jpg" id="184_Night Drudger_VRD" data-flag="@X" onclick="openSidebar('184_Night Drudger_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\25_Paragon Agent_VRD.jpg" id="25_Paragon Agent_VRD" data-flag="@X" onclick="openSidebar('25_Paragon Agent_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\74_Trick Questions_VRD.jpg" id="74_Trick Questions_VRD" data-flag="@X" onclick="openSidebar('74_Trick Questions_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\111_Snakewood's Final Servant_VRD.jpg" id="111_Snakewoods Final Servant_VRD" data-flag="@X" onclick="openSidebar('111_Snakewoods Final Servant_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\145_Pit of Sharks_VRD.jpg" id="145_Pit of Sharks_VRD" data-flag="@X" onclick="openSidebar('145_Pit of Sharks_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\190_Somnogoyf_VRD.jpg" id="190_Somnogoyf_VRD" data-flag="@X" onclick="openSidebar('190_Somnogoyf_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\26_Piece Together_VRD.jpg" id="26_Piece Together_VRD" data-flag="@X" onclick="openSidebar('26_Piece Together_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\77_Uncanny Likeness_VRD.jpg" id="77_Uncanny Likeness_VRD" data-flag="@X" onclick="openSidebar('77_Uncanny Likeness_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\118_Unkillable Henchman_VRD.jpg" id="118_Unkillable Henchman_VRD" data-flag="@X" onclick="openSidebar('118_Unkillable Henchman_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\147_Rambling Monologue_VRD.jpg" id="147_Rambling Monologue_VRD" data-flag="@X" onclick="openSidebar('147_Rambling Monologue_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\194_Storm of Monstrosities_VRD.jpg" id="194_Storm of Monstrosities_VRD" data-flag="@X" onclick="openSidebar('194_Storm of Monstrosities_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\31_Sir Hogginsworth, Quartermaster_VRD.jpg" id="31_Sir Hogginsworth, Quartermaster_VRD" data-flag="@X" onclick="openSidebar('31_Sir Hogginsworth, Quartermaster_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\80_The World Is Not Enough_VRD.jpg" id="80_The World Is Not Enough_VRD" data-flag="@X" onclick="openSidebar('80_The World Is Not Enough_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\119_World Domination_VRD.jpg" id="119_World Domination_VRD" data-flag="@X" onclick="openSidebar('119_World Domination_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\156_Steam-Powered Steer_VRD.jpg" id="156_Steam-Powered Steer_VRD" data-flag="@X" onclick="openSidebar('156_Steam-Powered Steer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\199_Veteran Gadgeteer_VRD.jpg" id="199_Veteran Gadgeteer_VRD" data-flag="@X" onclick="openSidebar('199_Veteran Gadgeteer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\8_Citystalker Moth_VRD.jpg" id="8_Citystalker Moth_VRD" data-flag="@X" onclick="openSidebar('8_Citystalker Moth_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\45_City Soarer_VRD.jpg" id="45_City Soarer_VRD" data-flag="@X" onclick="openSidebar('45_City Soarer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\82_Black Spy_VRD.jpg" id="82_Black Spy_VRD" data-flag="@X" onclick="openSidebar('82_Black Spy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\121_Ace in the Hole_VRD.jpg" id="121_Ace in the Hole_VRD" data-flag="@X" onclick="openSidebar('121_Ace in the Hole_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\169_Codename: Heavy Hitter_VRD.jpg" id="169_Codename: Heavy Hitter_VRD" data-flag="@N" onclick="openSidebar('169_Codename: Heavy Hitter_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\9_Codename: High Life_VRD.jpg" id="9_Codename: High Life_VRD" data-flag="@N" onclick="openSidebar('9_Codename: High Life_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\47_Clone_VRD.jpg" id="47_Clone_VRD" data-flag="@X" onclick="openSidebar('47_Clone_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\83_Boss's Favorites_VRD.jpg" id="83_Bosss Favorites_VRD" data-flag="@X" onclick="openSidebar('83_Bosss Favorites_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\125_Brawl Instigator_VRD.jpg" id="125_Brawl Instigator_VRD" data-flag="@X" onclick="openSidebar('125_Brawl Instigator_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\173_Escaped Subject_VRD.jpg" id="173_Escaped Subject_VRD" data-flag="@X" onclick="openSidebar('173_Escaped Subject_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\11_Contain the Monstrous_VRD.jpg" id="11_Contain the Monstrous_VRD" data-flag="@X" onclick="openSidebar('11_Contain the Monstrous_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\48_Codename: Wise Guy_VRD.jpg" id="48_Codename: Wise Guy_VRD" data-flag="@N" onclick="openSidebar('48_Codename: Wise Guy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\84_Brot, Head Honcho_VRD.jpg" id="84_Brot, Head Honcho_VRD" data-flag="@X" onclick="openSidebar('84_Brot, Head Honcho_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\128_Codename: Cold Blood_VRD.jpg" id="128_Codename: Cold Blood_VRD" data-flag="@N" onclick="openSidebar('128_Codename: Cold Blood_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\174_Field Worker_VRD.jpg" id="174_Field Worker_VRD" data-flag="@X" onclick="openSidebar('174_Field Worker_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\13_Daredevil Brandishing_VRD.jpg" id="13_Daredevil Brandishing_VRD" data-flag="@X" onclick="openSidebar('13_Daredevil Brandishing_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\57_Gather Intel_VRD.jpg" id="57_Gather Intel_VRD" data-flag="@X" onclick="openSidebar('57_Gather Intel_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\85_Codename: Half Moon_VRD.jpg" id="85_Codename: Half Moon_VRD" data-flag="@N" onclick="openSidebar('85_Codename: Half Moon_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\129_Deadshot Stunt_VRD.jpg" id="129_Deadshot Stunt_VRD" data-flag="@X" onclick="openSidebar('129_Deadshot Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\175_Fight Scene_VRD.jpg" id="175_Fight Scene_VRD" data-flag="@X" onclick="openSidebar('175_Fight Scene_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\20_Jodanist Bishop_VRD.jpg" id="20_Jodanist Bishop_VRD" data-flag="@X" onclick="openSidebar('20_Jodanist Bishop_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\58_Ghostly Observer_VRD.jpg" id="58_Ghostly Observer_VRD" data-flag="@X" onclick="openSidebar('58_Ghostly Observer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\87_Crooked Politician_VRD.jpg" id="87_Crooked Politician_VRD" data-flag="@X" onclick="openSidebar('87_Crooked Politician_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\133_Dream-Ash Phoenix_VRD.jpg" id="133_Dream-Ash Phoenix_VRD" data-flag="@X" onclick="openSidebar('133_Dream-Ash Phoenix_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\177_Gutter Slosher_VRD.jpg" id="177_Gutter Slosher_VRD" data-flag="@X" onclick="openSidebar('177_Gutter Slosher_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\22_Lay Low_VRD.jpg" id="22_Lay Low_VRD" data-flag="@X" onclick="openSidebar('22_Lay Low_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\59_Inexorable Onslaught_VRD.jpg" id="59_Inexorable Onslaught_VRD" data-flag="@X" onclick="openSidebar('59_Inexorable Onslaught_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\88_Descent of the Nightmares_VRD.jpg" id="88_Descent of the Nightmares_VRD" data-flag="@X" onclick="openSidebar('88_Descent of the Nightmares_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\136_Fireslinger_VRD.jpg" id="136_Fireslinger_VRD" data-flag="@X" onclick="openSidebar('136_Fireslinger_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\183_Mana Smuggler_VRD.jpg" id="183_Mana Smuggler_VRD" data-flag="@X" onclick="openSidebar('183_Mana Smuggler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\24_New Tellison Express_VRD.jpg" id="24_New Tellison Express_VRD" data-flag="@X" onclick="openSidebar('24_New Tellison Express_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\62_Laboratory Maniac_VRD.jpg" id="62_Laboratory Maniac_VRD" data-flag="@X" onclick="openSidebar('62_Laboratory Maniac_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\96_Gild_VRD.jpg" id="96_Gild_VRD" data-flag="@X" onclick="openSidebar('96_Gild_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\137_Flamethrower Volley_VRD.jpg" id="137_Flamethrower Volley_VRD" data-flag="@X" onclick="openSidebar('137_Flamethrower Volley_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\185_Recover the Evidence_VRD.jpg" id="185_Recover the Evidence_VRD" data-flag="@X" onclick="openSidebar('185_Recover the Evidence_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\29_Sainted Agent_VRD.jpg" id="29_Sainted Agent_VRD" data-flag="@X" onclick="openSidebar('29_Sainted Agent_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\63_Mission Briefing_VRD.jpg" id="63_Mission Briefing_VRD" data-flag="@X" onclick="openSidebar('63_Mission Briefing_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\97_Goon Squad_VRD.jpg" id="97_Goon Squad_VRD" data-flag="@X" onclick="openSidebar('97_Goon Squad_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\140_Gearheart Baron_VRD.jpg" id="140_Gearheart Baron_VRD" data-flag="@X" onclick="openSidebar('140_Gearheart Baron_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\192_Steelbane Sniper_VRD.jpg" id="192_Steelbane Sniper_VRD" data-flag="@X" onclick="openSidebar('192_Steelbane Sniper_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\36_Take Out_VRD.jpg" id="36_Take Out_VRD" data-flag="@X" onclick="openSidebar('36_Take Out_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\68_Scheming Sphinx_VRD.jpg" id="68_Scheming Sphinx_VRD" data-flag="@X" onclick="openSidebar('68_Scheming Sphinx_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\99_Grimblood's Mastermind_VRD.jpg" id="99_Grimbloods Mastermind_VRD" data-flag="@X" onclick="openSidebar('99_Grimbloods Mastermind_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\144_Partners in Crime_VRD.jpg" id="144_Partners in Crime_VRD" data-flag="@X" onclick="openSidebar('144_Partners in Crime_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\193_Stoneglare Agent_VRD.jpg" id="193_Stoneglare Agent_VRD" data-flag="@X" onclick="openSidebar('193_Stoneglare Agent_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\38_White Spy_VRD.jpg" id="38_White Spy_VRD" data-flag="@X" onclick="openSidebar('38_White Spy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\69_Scuba Suit_VRD.jpg" id="69_Scuba Suit_VRD" data-flag="@X" onclick="openSidebar('69_Scuba Suit_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\114_Steed of Agonies_VRD.jpg" id="114_Steed of Agonies_VRD" data-flag="@X" onclick="openSidebar('114_Steed of Agonies_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\151_Self-Destructing Message_VRD.jpg" id="151_Self-Destructing Message_VRD" data-flag="@X" onclick="openSidebar('151_Self-Destructing Message_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\198_Upgrade Stunt_VRD.jpg" id="198_Upgrade Stunt_VRD" data-flag="@X" onclick="openSidebar('198_Upgrade Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\40_You Only Live Twice_VRD.jpg" id="40_You Only Live Twice_VRD" data-flag="@X" onclick="openSidebar('40_You Only Live Twice_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\76_Two Heads Are Better_VRD.jpg" id="76_Two Heads Are Better_VRD" data-flag="@X" onclick="openSidebar('76_Two Heads Are Better_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\120_Worldender Engine_VRD.jpg" id="120_Worldender Engine_VRD" data-flag="@X" onclick="openSidebar('120_Worldender Engine_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\152_Sewer Orgg_VRD.jpg" id="152_Sewer Orgg_VRD" data-flag="@X" onclick="openSidebar('152_Sewer Orgg_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\200_Wire Gobbler_VRD.jpg" id="200_Wire Gobbler_VRD" data-flag="@X" onclick="openSidebar('200_Wire Gobbler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\2_Agent of Justiciar_VRD.jpg" id="2_Agent of Justiciar_VRD" data-flag="@X" onclick="openSidebar('2_Agent of Justiciar_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\41_Adept Arcanist_VRD.jpg" id="41_Adept Arcanist_VRD" data-flag="@X" onclick="openSidebar('41_Adept Arcanist_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\86_Cold-Blooded Assassin_VRD.jpg" id="86_Cold-Blooded Assassin_VRD" data-flag="@X" onclick="openSidebar('86_Cold-Blooded Assassin_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\122_Acrobatic Stunt_VRD.jpg" id="122_Acrobatic Stunt_VRD" data-flag="@X" onclick="openSidebar('122_Acrobatic Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\162_Apparatus Operator_VRD.jpg" id="162_Apparatus Operator_VRD" data-flag="@X" onclick="openSidebar('162_Apparatus Operator_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\6_Bodyguard Bruisers_VRD.jpg" id="6_Bodyguard Bruisers_VRD" data-flag="@X" onclick="openSidebar('6_Bodyguard Bruisers_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\44_Brain Backup_VRD.jpg" id="44_Brain Backup_VRD" data-flag="@X" onclick="openSidebar('44_Brain Backup_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\89_Devious Electrocution_VRD.jpg" id="89_Devious Electrocution_VRD" data-flag="@X" onclick="openSidebar('89_Devious Electrocution_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\126_Brutal Butcher_VRD.jpg" id="126_Brutal Butcher_VRD" data-flag="@X" onclick="openSidebar('126_Brutal Butcher_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\163_Archive Bloodhound_VRD.jpg" id="163_Archive Bloodhound_VRD" data-flag="@X" onclick="openSidebar('163_Archive Bloodhound_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\7_Charmed Stray_VRD.jpg" id="7_Charmed Stray_VRD" data-flag="@X" onclick="openSidebar('7_Charmed Stray_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\49_Conniving Spy_VRD.jpg" id="49_Conniving Spy_VRD" data-flag="@X" onclick="openSidebar('49_Conniving Spy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\90_Diabolical Minion_VRD.jpg" id="90_Diabolical Minion_VRD" data-flag="@X" onclick="openSidebar('90_Diabolical Minion_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\131_Disposable Mook_VRD.jpg" id="131_Disposable Mook_VRD" data-flag="@X" onclick="openSidebar('131_Disposable Mook_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\166_Brutal Stunt_VRD.jpg" id="166_Brutal Stunt_VRD" data-flag="@X" onclick="openSidebar('166_Brutal Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\10_Confronter of Evil_VRD.jpg" id="10_Confronter of Evil_VRD" data-flag="@X" onclick="openSidebar('10_Confronter of Evil_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\50_Conquest Terminal_VRD.jpg" id="50_Conquest Terminal_VRD" data-flag="@X" onclick="openSidebar('50_Conquest Terminal_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\91_Dispose Of_VRD.jpg" id="91_Dispose Of_VRD" data-flag="@X" onclick="openSidebar('91_Dispose Of_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\134_Emergent Doom_VRD.jpg" id="134_Emergent Doom_VRD" data-flag="@X" onclick="openSidebar('134_Emergent Doom_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\167_Citypulse Tracker_VRD.jpg" id="167_Citypulse Tracker_VRD" data-flag="@X" onclick="openSidebar('167_Citypulse Tracker_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\14_Deft Wingman_VRD.jpg" id="14_Deft Wingman_VRD" data-flag="@X" onclick="openSidebar('14_Deft Wingman_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\51_Corrupt Form_VRD.jpg" id="51_Corrupt Form_VRD" data-flag="@X" onclick="openSidebar('51_Corrupt Form_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\93_Endless Mooks_VRD.jpg" id="93_Endless Mooks_VRD" data-flag="@X" onclick="openSidebar('93_Endless Mooks_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\135_Explode_VRD.jpg" id="135_Explode_VRD" data-flag="@X" onclick="openSidebar('135_Explode_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\168_Cityweb Sentinel_VRD.jpg" id="168_Cityweb Sentinel_VRD" data-flag="@X" onclick="openSidebar('168_Cityweb Sentinel_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\16_Face It All_VRD.jpg" id="16_Face It All_VRD" data-flag="@X" onclick="openSidebar('16_Face It All_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\52_Crackling Watcher_VRD.jpg" id="52_Crackling Watcher_VRD" data-flag="@X" onclick="openSidebar('52_Crackling Watcher_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\94_Evil Scheme_VRD.jpg" id="94_Evil Scheme_VRD" data-flag="@X" onclick="openSidebar('94_Evil Scheme_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\138_Flare Gunner_VRD.jpg" id="138_Flare Gunner_VRD" data-flag="@X" onclick="openSidebar('138_Flare Gunner_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\170_Cohort Battlemage_VRD.jpg" id="170_Cohort Battlemage_VRD" data-flag="@X" onclick="openSidebar('170_Cohort Battlemage_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\18_Funding Organizer_VRD.jpg" id="18_Funding Organizer_VRD" data-flag="@X" onclick="openSidebar('18_Funding Organizer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\53_Eavesdrop_VRD.jpg" id="53_Eavesdrop_VRD" data-flag="@X" onclick="openSidebar('53_Eavesdrop_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\98_Grimblood Vampire_VRD.jpg" id="98_Grimblood Vampire_VRD" data-flag="@X" onclick="openSidebar('98_Grimblood Vampire_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\139_Full House_VRD.jpg" id="139_Full House_VRD" data-flag="@X" onclick="openSidebar('139_Full House_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\171_Elvish Witness_VRD.jpg" id="171_Elvish Witness_VRD" data-flag="@X" onclick="openSidebar('171_Elvish Witness_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\19_Held for Ransom_VRD.jpg" id="19_Held for Ransom_VRD" data-flag="@X" onclick="openSidebar('19_Held for Ransom_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\54_Electrocution Assistant_VRD.jpg" id="54_Electrocution Assistant_VRD" data-flag="@X" onclick="openSidebar('54_Electrocution Assistant_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\101_Hugo's Watcher_VRD.jpg" id="101_Hugos Watcher_VRD" data-flag="@X" onclick="openSidebar('101_Hugos Watcher_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\146_Prototype Robosaur_VRD.jpg" id="146_Prototype Robosaur_VRD" data-flag="@X" onclick="openSidebar('146_Prototype Robosaur_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\180_Justiciar Dispatcher_VRD.jpg" id="180_Justiciar Dispatcher_VRD" data-flag="@X" onclick="openSidebar('180_Justiciar Dispatcher_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\23_Missing in Action_VRD.jpg" id="23_Missing in Action_VRD" data-flag="@X" onclick="openSidebar('23_Missing in Action_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\55_Frantic Inventory_VRD.jpg" id="55_Frantic Inventory_VRD" data-flag="@X" onclick="openSidebar('55_Frantic Inventory_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\102_Innovations in Interrogation_VRD.jpg" id="102_Innovations in Interrogation_VRD" data-flag="@X" onclick="openSidebar('102_Innovations in Interrogation_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\148_Reckless Spy_VRD.jpg" id="148_Reckless Spy_VRD" data-flag="@X" onclick="openSidebar('148_Reckless Spy_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\181_Lair Butler_VRD.jpg" id="181_Lair Butler_VRD" data-flag="@X" onclick="openSidebar('181_Lair Butler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\27_Political Puppeteer_VRD.jpg" id="27_Political Puppeteer_VRD" data-flag="@X" onclick="openSidebar('27_Political Puppeteer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\56_Frightborn Skyshark_VRD.jpg" id="56_Frightborn Skyshark_VRD" data-flag="@X" onclick="openSidebar('56_Frightborn Skyshark_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\105_Outdated Crony_VRD.jpg" id="105_Outdated Crony_VRD" data-flag="@X" onclick="openSidebar('105_Outdated Crony_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\149_Rocket Shark_VRD.jpg" id="149_Rocket Shark_VRD" data-flag="@X" onclick="openSidebar('149_Rocket Shark_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\182_Lairbuster Vanguard_VRD.jpg" id="182_Lairbuster Vanguard_VRD" data-flag="@X" onclick="openSidebar('182_Lairbuster Vanguard_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\28_Precarious Evasion_VRD.jpg" id="28_Precarious Evasion_VRD" data-flag="@X" onclick="openSidebar('28_Precarious Evasion_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\60_It All Comes Together_VRD.jpg" id="60_It All Comes Together_VRD" data-flag="@X" onclick="openSidebar('60_It All Comes Together_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\106_Paranormal Investigators_VRD.jpg" id="106_Paranormal Investigators_VRD" data-flag="@X" onclick="openSidebar('106_Paranormal Investigators_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\150_Rogue's Palace Bouncer_VRD.jpg" id="150_Rogues Palace Bouncer_VRD" data-flag="@X" onclick="openSidebar('150_Rogues Palace Bouncer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\186_Sabotage Skitterer_VRD.jpg" id="186_Sabotage Skitterer_VRD" data-flag="@X" onclick="openSidebar('186_Sabotage Skitterer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\30_Shoot to Kill_VRD.jpg" id="30_Shoot to Kill_VRD" data-flag="@X" onclick="openSidebar('30_Shoot to Kill_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\61_Justiciar Stormblade_VRD.jpg" id="61_Justiciar Stormblade_VRD" data-flag="@X" onclick="openSidebar('61_Justiciar Stormblade_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\107_Renegade Agent_VRD.jpg" id="107_Renegade Agent_VRD" data-flag="@X" onclick="openSidebar('107_Renegade Agent_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\153_Shock_VRD.jpg" id="153_Shock_VRD" data-flag="@X" onclick="openSidebar('153_Shock_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\187_Shootout Stunt_VRD.jpg" id="187_Shootout Stunt_VRD" data-flag="@X" onclick="openSidebar('187_Shootout Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\32_Standard-Issue Firearm_VRD.jpg" id="32_Standard-Issue Firearm_VRD" data-flag="@X" onclick="openSidebar('32_Standard-Issue Firearm_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\64_Observant Contact_VRD.jpg" id="64_Observant Contact_VRD" data-flag="@X" onclick="openSidebar('64_Observant Contact_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\108_Right Where I Want You_VRD.jpg" id="108_Right Where I Want You_VRD" data-flag="@X" onclick="openSidebar('108_Right Where I Want You_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\154_Signature Stunt_VRD.jpg" id="154_Signature Stunt_VRD" data-flag="@X" onclick="openSidebar('154_Signature Stunt_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\188_Smuggler's Cunning_VRD.jpg" id="188_Smugglers Cunning_VRD" data-flag="@X" onclick="openSidebar('188_Smugglers Cunning_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\33_Suave Jetster_VRD.jpg" id="33_Suave Jetster_VRD" data-flag="@X" onclick="openSidebar('33_Suave Jetster_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\66_Sabotage_VRD.jpg" id="66_Sabotage_VRD" data-flag="@X" onclick="openSidebar('66_Sabotage_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\109_Scampering Journalist_VRD.jpg" id="109_Scampering Journalist_VRD" data-flag="@X" onclick="openSidebar('109_Scampering Journalist_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\155_Smash to Smithereens_VRD.jpg" id="155_Smash to Smithereens_VRD" data-flag="@X" onclick="openSidebar('155_Smash to Smithereens_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\189_Snakewood's Summons_VRD.jpg" id="189_Snakewoods Summons_VRD" data-flag="@X" onclick="openSidebar('189_Snakewoods Summons_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\34_Sweet Talker_VRD.jpg" id="34_Sweet Talker_VRD" data-flag="@X" onclick="openSidebar('34_Sweet Talker_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\70_Scuttling Underling_VRD.jpg" id="70_Scuttling Underling_VRD" data-flag="@X" onclick="openSidebar('70_Scuttling Underling_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\112_Soulsucker_VRD.jpg" id="112_Soulsucker_VRD" data-flag="@X" onclick="openSidebar('112_Soulsucker_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\157_Superweapon Blast_VRD.jpg" id="157_Superweapon Blast_VRD" data-flag="@X" onclick="openSidebar('157_Superweapon Blast_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\191_Sprocketed Brawler_VRD.jpg" id="191_Sprocketed Brawler_VRD" data-flag="@X" onclick="openSidebar('191_Sprocketed Brawler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\35_Swift Gadgeteer_VRD.jpg" id="35_Swift Gadgeteer_VRD" data-flag="@X" onclick="openSidebar('35_Swift Gadgeteer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\75_Trouble Brewing_VRD.jpg" id="75_Trouble Brewing_VRD" data-flag="@X" onclick="openSidebar('75_Trouble Brewing_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\113_Spider's Touch_VRD.jpg" id="113_Spiders Touch_VRD" data-flag="@X" onclick="openSidebar('113_Spiders Touch_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\158_Torch Twirler_VRD.jpg" id="158_Torch Twirler_VRD" data-flag="@X" onclick="openSidebar('158_Torch Twirler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\195_Suspicious Merchant_VRD.jpg" id="195_Suspicious Merchant_VRD" data-flag="@X" onclick="openSidebar('195_Suspicious Merchant_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\37_Taranka's Cohort_VRD.jpg" id="37_Tarankas Cohort_VRD" data-flag="@X" onclick="openSidebar('37_Tarankas Cohort_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\78_Wall Scaler_VRD.jpg" id="78_Wall Scaler_VRD" data-flag="@X" onclick="openSidebar('78_Wall Scaler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\116_Torment Nexus_VRD.jpg" id="116_Torment Nexus_VRD" data-flag="@X" onclick="openSidebar('116_Torment Nexus_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\159_Toughened Goon_VRD.jpg" id="159_Toughened Goon_VRD" data-flag="@X" onclick="openSidebar('159_Toughened Goon_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\196_Talented Dealer_VRD.jpg" id="196_Talented Dealer_VRD" data-flag="@X" onclick="openSidebar('196_Talented Dealer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\39_Workshop Crawler_VRD.jpg" id="39_Workshop Crawler_VRD" data-flag="@X" onclick="openSidebar('39_Workshop Crawler_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\79_Without a Trace_VRD.jpg" id="79_Without a Trace_VRD" data-flag="@X" onclick="openSidebar('79_Without a Trace_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\117_Tough Customer_VRD.jpg" id="117_Tough Customer_VRD" data-flag="@X" onclick="openSidebar('117_Tough Customer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\160_Zap Toady_VRD.jpg" id="160_Zap Toady_VRD" data-flag="@X" onclick="openSidebar('160_Zap Toady_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\197_Thrashing Devourer_VRD.jpg" id="197_Thrashing Devourer_VRD" data-flag="@X" onclick="openSidebar('197_Thrashing Devourer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\277_Elder Mathias Jodan_PRO_VRD.jpg" id="277_Elder Mathias Jodan_PRO_VRD" data-flag="@X" onclick="openSidebar('277_Elder Mathias Jodan_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\278_Eavesdrop_PRO_VRD.jpg" id="278_Eavesdrop_PRO_VRD" data-flag="@X" onclick="openSidebar('278_Eavesdrop_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\279_World Domination_PRO_VRD.jpg" id="279_World Domination_PRO_VRD" data-flag="@X" onclick="openSidebar('279_World Domination_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\280_Shock_PRO_VRD.jpg" id="280_Shock_PRO_VRD" data-flag="@X" onclick="openSidebar('280_Shock_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\281_Elvish Witness_PRO_VRD.jpg" id="281_Elvish Witness_PRO_VRD" data-flag="@X" onclick="openSidebar('281_Elvish Witness_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\285_Diabolical Minion_PRO_VRD.jpg" id="285_Diabolical Minion_PRO_VRD" data-flag="@X" onclick="openSidebar('285_Diabolical Minion_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\286_Destructive Force_PRO_VRD.jpg" id="286_Destructive Force_PRO_VRD" data-flag="@X" onclick="openSidebar('286_Destructive Force_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\282_Iroshi, Blade of the Old Ways_PRO_VRD.jpg" id="282_Iroshi, Blade of the Old Ways_PRO_VRD" data-flag="@X" onclick="openSidebar('282_Iroshi, Blade of the Old Ways_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\221_Tireless Innovation_VRD.jpg" id="221_Tireless Innovation_VRD" data-flag="@X" onclick="openSidebar('221_Tireless Innovation_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\209_Hit Me_VRD.jpg" id="209_Hit Me_VRD" data-flag="@X" onclick="openSidebar('209_Hit Me_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\223_Whirlwind Romantic_VRD.jpg" id="223_Whirlwind Romantic_VRD" data-flag="@X" onclick="openSidebar('223_Whirlwind Romantic_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\216_Rogue's Palace Cardshark_VRD.jpg" id="216_Rogues Palace Cardshark_VRD" data-flag="@X" onclick="openSidebar('216_Rogues Palace Cardshark_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\202_Codename: Viridian_VRD.jpg" id="202_Codename: Viridian_VRD" data-flag="@N" onclick="openSidebar('202_Codename: Viridian_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\212_Jacques Elnis, Jetpack Rocketeer_VRD.jpg" id="212_Jacques Elnis, Jetpack Rocketeer_VRD" data-flag="@X" onclick="openSidebar('212_Jacques Elnis, Jetpack Rocketeer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\224_Within My Grasp_VRD.jpg" id="224_Within My Grasp_VRD" data-flag="@X" onclick="openSidebar('224_Within My Grasp_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\215_Monument to Vanity_VRD.jpg" id="215_Monument to Vanity_VRD" data-flag="@X" onclick="openSidebar('215_Monument to Vanity_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\207_Heart Pounding Action_VRD.jpg" id="207_Heart Pounding Action_VRD" data-flag="@X" onclick="openSidebar('207_Heart Pounding Action_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\222_Undercover Gadgeteer_VRD.jpg" id="222_Undercover Gadgeteer_VRD" data-flag="@X" onclick="openSidebar('222_Undercover Gadgeteer_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\283_Whirlwind Romantic (James Bond, 007)_VRD.jpg" id="283_Whirlwind Romantic (James Bond, 007)_VRD" data-flag="@X" onclick="openSidebar('283_Whirlwind Romantic (James Bond, 007)_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\218_Sim Nichol, Trinket Enchanter_VRD.jpg" id="218_Sim Nichol, Trinket Enchanter_VRD" data-flag="@X" onclick="openSidebar('218_Sim Nichol, Trinket Enchanter_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\214_Lucas Locke, Paranormal Sleuth_VRD.jpg" id="214_Lucas Locke, Paranormal Sleuth_VRD" data-flag="@X" onclick="openSidebar('214_Lucas Locke, Paranormal Sleuth_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\206_Freezefire Corps_VRD.jpg" id="206_Freezefire Corps_VRD" data-flag="@X" onclick="openSidebar('206_Freezefire Corps_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\210_Hugo's Handiwork_VRD.jpg" id="210_Hugos Handiwork_VRD" data-flag="@X" onclick="openSidebar('210_Hugos Handiwork_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\201_Calamity's Cohort_VRD.jpg" id="201_Calamitys Cohort_VRD" data-flag="@X" onclick="openSidebar('201_Calamitys Cohort_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\213_Jebidiah Digsworth, the Mole_VRD.jpg" id="213_Jebidiah Digsworth, the Mole_VRD" data-flag="@X" onclick="openSidebar('213_Jebidiah Digsworth, the Mole_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\204_Firearms Dealer_VRD.jpg" id="204_Firearms Dealer_VRD" data-flag="@X" onclick="openSidebar('204_Firearms Dealer_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\208_Hemec Yor, Flamethrower Dragoon_VRD.jpg" id="208_Hemec Yor, Flamethrower Dragoon_VRD" data-flag="@X" onclick="openSidebar('208_Hemec Yor, Flamethrower Dragoon_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\203_Evelyn Snakewood, Dark Druid_VRD.jpg" id="203_Evelyn Snakewood, Dark Druid_VRD" data-flag="@X" onclick="openSidebar('203_Evelyn Snakewood, Dark Druid_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\211_Ivas Taranka, Rogue Diplomat_VRD.jpg" id="211_Ivas Taranka, Rogue Diplomat_VRD" data-flag="@X" onclick="openSidebar('211_Ivas Taranka, Rogue Diplomat_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\219_Spycraft Survivalist_VRD.jpg" id="219_Spycraft Survivalist_VRD" data-flag="@X" onclick="openSidebar('219_Spycraft Survivalist_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\217_Schemer of Ancient Ways_VRD.jpg" id="217_Schemer of Ancient Ways_VRD" data-flag="@X" onclick="openSidebar('217_Schemer of Ancient Ways_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\220_Taranka's Posse_VRD.jpg" id="220_Tarankas Posse_VRD" data-flag="@X" onclick="openSidebar('220_Tarankas Posse_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\205_The First Dream_VRD.jpg" id="205_The First Dream_VRD" data-flag="@X" onclick="openSidebar('205_The First Dream_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\248_The Sunfire_VRD.jpg" id="248_The Sunfire_VRD" data-flag="@X" onclick="openSidebar('248_The Sunfire_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\225_Annihilator Suit_VRD.jpg" id="225_Annihilator Suit_VRD" data-flag="@X" onclick="openSidebar('225_Annihilator Suit_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\227_Blacklist_VRD.jpg" id="227_Blacklist_VRD" data-flag="@X" onclick="openSidebar('227_Blacklist_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\238_Perspicacity_VRD.jpg" id="238_Perspicacity_VRD" data-flag="@X" onclick="openSidebar('238_Perspicacity_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\241_Prototype Jetmobile_VRD.jpg" id="241_Prototype Jetmobile_VRD" data-flag="@X" onclick="openSidebar('241_Prototype Jetmobile_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\253_Viridian's Trusty Sidearm_VRD.jpg" id="253_Viridians Trusty Sidearm_VRD" data-flag="@X" onclick="openSidebar('253_Viridians Trusty Sidearm_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\226_Arcane Catalyst_VRD.jpg" id="226_Arcane Catalyst_VRD" data-flag="@X" onclick="openSidebar('226_Arcane Catalyst_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\228_Cardboard Box_VRD.jpg" id="228_Cardboard Box_VRD" data-flag="@X" onclick="openSidebar('228_Cardboard Box_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\230_Electric Goon_VRD.jpg" id="230_Electric Goon_VRD" data-flag="@X" onclick="openSidebar('230_Electric Goon_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\233_Granite Harbinger_VRD.jpg" id="233_Granite Harbinger_VRD" data-flag="@X" onclick="openSidebar('233_Granite Harbinger_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\234_Grappling Hook_VRD.jpg" id="234_Grappling Hook_VRD" data-flag="@X" onclick="openSidebar('234_Grappling Hook_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\237_Missile Silo_VRD.jpg" id="237_Missile Silo_VRD" data-flag="@X" onclick="openSidebar('237_Missile Silo_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\239_Pilgrim's Eye_VRD.jpg" id="239_Pilgrims Eye_VRD" data-flag="@X" onclick="openSidebar('239_Pilgrims Eye_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\243_Quickdraw Pistol_VRD.jpg" id="243_Quickdraw Pistol_VRD" data-flag="@X" onclick="openSidebar('243_Quickdraw Pistol_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\244_The Rack_VRD.jpg" id="244_The Rack_VRD" data-flag="@X" onclick="openSidebar('244_The Rack_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\246_Satellite Tower_VRD.jpg" id="246_Satellite Tower_VRD" data-flag="@X" onclick="openSidebar('246_Satellite Tower_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\247_Secret Base Sentinel_VRD.jpg" id="247_Secret Base Sentinel_VRD" data-flag="@X" onclick="openSidebar('247_Secret Base Sentinel_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\249_Tactical Skis_VRD.jpg" id="249_Tactical Skis_VRD" data-flag="@X" onclick="openSidebar('249_Tactical Skis_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\252_Unassuming Hooptie_VRD.jpg" id="252_Unassuming Hooptie_VRD" data-flag="@X" onclick="openSidebar('252_Unassuming Hooptie_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\254_Whirring Sky Gizmo_VRD.jpg" id="254_Whirring Sky Gizmo_VRD" data-flag="@X" onclick="openSidebar('254_Whirring Sky Gizmo_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\229_Concealed Firearms_VRD.jpg" id="229_Concealed Firearms_VRD" data-flag="@X" onclick="openSidebar('229_Concealed Firearms_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\231_Execution Table_VRD.jpg" id="231_Execution Table_VRD" data-flag="@X" onclick="openSidebar('231_Execution Table_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\232_Filigree Familiar_VRD.jpg" id="232_Filigree Familiar_VRD" data-flag="@X" onclick="openSidebar('232_Filigree Familiar_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\235_Lair Assistant_VRD.jpg" id="235_Lair Assistant_VRD" data-flag="@X" onclick="openSidebar('235_Lair Assistant_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\236_Mana Rig_VRD.jpg" id="236_Mana Rig_VRD" data-flag="@X" onclick="openSidebar('236_Mana Rig_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\240_Power Source_VRD.jpg" id="240_Power Source_VRD" data-flag="@X" onclick="openSidebar('240_Power Source_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\242_Pursuit Hovercraft_VRD.jpg" id="242_Pursuit Hovercraft_VRD" data-flag="@X" onclick="openSidebar('242_Pursuit Hovercraft_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\245_Rogue's Palace Colossus_VRD.jpg" id="245_Rogues Palace Colossus_VRD" data-flag="@X" onclick="openSidebar('245_Rogues Palace Colossus_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\250_Tracker's Cigar_VRD.jpg" id="250_Trackers Cigar_VRD" data-flag="@X" onclick="openSidebar('250_Trackers Cigar_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\251_Tyrant's Machine_VRD.jpg" id="251_Tyrants Machine_VRD" data-flag="@X" onclick="openSidebar('251_Tyrants Machine_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\284_The Rack_PRO_VRD.jpg" id="284_The Rack_PRO_VRD" data-flag="@X" onclick="openSidebar('284_The Rack_PRO_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\262_Justiciar Headquarters_VRD.jpg" id="262_Justiciar Headquarters_VRD" data-flag="@X" onclick="openSidebar('262_Justiciar Headquarters_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\270_Thunderbrain Labs_VRD.jpg" id="270_Thunderbrain Labs_VRD" data-flag="@X" onclick="openSidebar('270_Thunderbrain Labs_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\258_Darkhand Enterprises_VRD.jpg" id="258_Darkhand Enterprises_VRD" data-flag="@X" onclick="openSidebar('258_Darkhand Enterprises_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\267_The Rogue's Palace_VRD.jpg" id="267_The Rogues Palace_VRD" data-flag="@X" onclick="openSidebar('267_The Rogues Palace_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\269_Snakewood's Hideout_VRD.jpg" id="269_Snakewoods Hideout_VRD" data-flag="@X" onclick="openSidebar('269_Snakewoods Hideout_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\264_Midnight Square_VRD.jpg" id="264_Midnight Square_VRD" data-flag="@X" onclick="openSidebar('264_Midnight Square_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\260_Glacial Base_VRD.jpg" id="260_Glacial Base_VRD" data-flag="@X" onclick="openSidebar('260_Glacial Base_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\259_Decadent Lobby_VRD.jpg" id="259_Decadent Lobby_VRD" data-flag="@X" onclick="openSidebar('259_Decadent Lobby_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\261_Inconspicuous Volcano_VRD.jpg" id="261_Inconspicuous Volcano_VRD" data-flag="@X" onclick="openSidebar('261_Inconspicuous Volcano_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\256_Biomancer's Workshop_VRD.jpg" id="256_Biomancers Workshop_VRD" data-flag="@X" onclick="openSidebar('256_Biomancers Workshop_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\257_Cultist's Compound_VRD.jpg" id="257_Cultists Compound_VRD" data-flag="@X" onclick="openSidebar('257_Cultists Compound_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\266_Remote Facility_VRD.jpg" id="266_Remote Facility_VRD" data-flag="@X" onclick="openSidebar('266_Remote Facility_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\271_Underground Lab_VRD.jpg" id="271_Underground Lab_VRD" data-flag="@X" onclick="openSidebar('271_Underground Lab_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\265_Penthouse Office_VRD.jpg" id="265_Penthouse Office_VRD" data-flag="@X" onclick="openSidebar('265_Penthouse Office_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\255_Benthic Bunker_VRD.jpg" id="255_Benthic Bunker_VRD" data-flag="@X" onclick="openSidebar('255_Benthic Bunker_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\263_Luxurious Estate_VRD.jpg" id="263_Luxurious Estate_VRD" data-flag="@X" onclick="openSidebar('263_Luxurious Estate_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\268_Shifting Lair_VRD.jpg" id="268_Shifting Lair_VRD" data-flag="@X" onclick="openSidebar('268_Shifting Lair_VRD',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\274_Swamp_VRD.jpg" id="274_Swamp_VRD" data-flag="@X" onclick="openSidebar('274_Swamp_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\275_Mountain_VRD.jpg" id="275_Mountain_VRD" data-flag="@X" onclick="openSidebar('275_Mountain_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\272_Plains_VRD.jpg" id="272_Plains_VRD" data-flag="@X" onclick="openSidebar('272_Plains_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\273_Island_VRD.jpg" id="273_Island_VRD" data-flag="@X" onclick="openSidebar('273_Island_VRD',false)"></div>
+			<div class="container"><img alt="/sets\VRD-files\img\276_Forest_VRD.jpg" id="276_Forest_VRD" data-flag="@X" onclick="openSidebar('276_Forest_VRD',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

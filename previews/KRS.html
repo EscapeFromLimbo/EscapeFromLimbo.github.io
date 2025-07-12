@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/KRS-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>KRS visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/KRS-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/KRS-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\KRS-files\img\4_Argus, Riftguard Captain_KRS.jpg" id="4_Argus, Riftguard Captain_KRS" data-flag="@X" onclick="openSidebar('4_Argus, Riftguard Captain_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\55_Elseworld Intruder_KRS.jpg" id="55_Elseworld Intruder_KRS" data-flag="@X" onclick="openSidebar('55_Elseworld Intruder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\84_Abyssal Yawn_KRS.jpg" id="84_Abyssal Yawn_KRS" data-flag="@X" onclick="openSidebar('84_Abyssal Yawn_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\129_Cosmic Gambit_KRS.jpg" id="129_Cosmic Gambit_KRS" data-flag="@X" onclick="openSidebar('129_Cosmic Gambit_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\179_Elsewurm_KRS.jpg" id="179_Elsewurm_KRS" data-flag="@X" onclick="openSidebar('179_Elsewurm_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\21_Karsi, Worldkeeper_KRS.jpg" id="21_Karsi, Worldkeeper_KRS" data-flag="@X" onclick="openSidebar('21_Karsi, Worldkeeper_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\78_Sinifus the Strange_KRS.jpg" id="78_Sinifus the Strange_KRS" data-flag="@X" onclick="openSidebar('78_Sinifus the Strange_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\113_Skarn, the Bloodless_KRS.jpg" id="113_Skarn, the Bloodless_KRS" data-flag="@X" onclick="openSidebar('113_Skarn, the Bloodless_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\153_Scourge of the Spine_KRS.jpg" id="153_Scourge of the Spine_KRS" data-flag="@X" onclick="openSidebar('153_Scourge of the Spine_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\186_Mana Convergence_KRS.jpg" id="186_Mana Convergence_KRS" data-flag="@X" onclick="openSidebar('186_Mana Convergence_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\29_Planar Exodus_KRS.jpg" id="29_Planar Exodus_KRS" data-flag="@X" onclick="openSidebar('29_Planar Exodus_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\81_Temporal Tunnel_KRS.jpg" id="81_Temporal Tunnel_KRS" data-flag="@X" onclick="openSidebar('81_Temporal Tunnel_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\124_A World Forgotten_KRS.jpg" id="124_A World Forgotten_KRS" data-flag="@X" onclick="openSidebar('124_A World Forgotten_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\163_Variant Handler_KRS.jpg" id="163_Variant Handler_KRS" data-flag="@X" onclick="openSidebar('163_Variant Handler_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\166_Anointer of Force_KRS.jpg" id="166_Anointer of Force_KRS" data-flag="@X" onclick="openSidebar('166_Anointer of Force_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\3_Angelic Aperture_KRS.jpg" id="3_Angelic Aperture_KRS" data-flag="@X" onclick="openSidebar('3_Angelic Aperture_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\50_Disturbing Spirit_KRS_back.jpg" alt="/sets\KRS-files\img\50_Disturbing Spirit_KRS_front.jpg" id="50_Disturbing Spirit_KRS" data-flag="@XD" onclick="openSidebar('50_Disturbing Spirit_KRS',false)"><button class="flip-btn" onclick="imgFlip('50_Disturbing Spirit_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\89_Cruel Ashlord_KRS.jpg" id="89_Cruel Ashlord_KRS" data-flag="@X" onclick="openSidebar('89_Cruel Ashlord_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\127_Churning Channel_KRS.jpg" id="127_Churning Channel_KRS" data-flag="@X" onclick="openSidebar('127_Churning Channel_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\170_Aunglade Awakening_KRS.jpg" id="170_Aunglade Awakening_KRS" data-flag="@X" onclick="openSidebar('170_Aunglade Awakening_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\5_Aunfolk Warguide_KRS.jpg" id="5_Aunfolk Warguide_KRS" data-flag="@X" onclick="openSidebar('5_Aunfolk Warguide_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\51_Draconic Aspirant_KRS.jpg" id="51_Draconic Aspirant_KRS" data-flag="@X" onclick="openSidebar('51_Draconic Aspirant_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\90_Demon of Darker Paths_KRS.jpg" id="90_Demon of Darker Paths_KRS" data-flag="@X" onclick="openSidebar('90_Demon of Darker Paths_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\128_Conjoined Irradiant_KRS.jpg" id="128_Conjoined Irradiant_KRS" data-flag="@X" onclick="openSidebar('128_Conjoined Irradiant_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\187_Mystic Gladetender_KRS.jpg" id="187_Mystic Gladetender_KRS" data-flag="@X" onclick="openSidebar('187_Mystic Gladetender_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\9_Blessing of Unicorns_KRS.jpg" id="9_Blessing of Unicorns_KRS" data-flag="@X" onclick="openSidebar('9_Blessing of Unicorns_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\53_Dragons' Puzzle_KRS.jpg" id="53_Dragons Puzzle_KRS" data-flag="@X" onclick="openSidebar('53_Dragons Puzzle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\102_Hall of Hands_KRS.jpg" id="102_Hall of Hands_KRS" data-flag="@X" onclick="openSidebar('102_Hall of Hands_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\131_Distorting Door_KRS.jpg" id="131_Distorting Door_KRS" data-flag="@X" onclick="openSidebar('131_Distorting Door_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\189_Primordial Dragon_KRS.jpg" id="189_Primordial Dragon_KRS" data-flag="@X" onclick="openSidebar('189_Primordial Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\10_Circle of Fortune_KRS.jpg" id="10_Circle of Fortune_KRS" data-flag="@X" onclick="openSidebar('10_Circle of Fortune_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\56_Elseworld Oracle_KRS.jpg" id="56_Elseworld Oracle_KRS" data-flag="@X" onclick="openSidebar('56_Elseworld Oracle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\104_Igneate Reshaper_KRS.jpg" id="104_Igneate Reshaper_KRS" data-flag="@X" onclick="openSidebar('104_Igneate Reshaper_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\132_Doppelgang_KRS.jpg" id="132_Doppelgang_KRS" data-flag="@X" onclick="openSidebar('132_Doppelgang_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\190_Proving Path_KRS.jpg" id="190_Proving Path_KRS" data-flag="@X" onclick="openSidebar('190_Proving Path_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\15_Diamond Paragon_KRS.jpg" id="15_Diamond Paragon_KRS" data-flag="@X" onclick="openSidebar('15_Diamond Paragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\65_Guileful Gate_KRS.jpg" id="65_Guileful Gate_KRS" data-flag="@X" onclick="openSidebar('65_Guileful Gate_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\106_Oblivion Shards_KRS.jpg" id="106_Oblivion Shards_KRS" data-flag="@X" onclick="openSidebar('106_Oblivion Shards_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\137_Frenzied Pair_KRS.jpg" id="137_Frenzied Pair_KRS" data-flag="@X" onclick="openSidebar('137_Frenzied Pair_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\194_Speaker of Aun_KRS.jpg" id="194_Speaker of Aun_KRS" data-flag="@X" onclick="openSidebar('194_Speaker of Aun_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\24_Lightmare_KRS_back.jpg" alt="/sets\KRS-files\img\24_Lightmare_KRS_front.jpg" id="24_Lightmare_KRS" data-flag="@XD" onclick="openSidebar('24_Lightmare_KRS',false)"><button class="flip-btn" onclick="imgFlip('24_Lightmare_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\66_Ice Shards_KRS.jpg" id="66_Ice Shards_KRS" data-flag="@X" onclick="openSidebar('66_Ice Shards_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\107_Obsidian Elemental_KRS_back.jpg" alt="/sets\KRS-files\img\107_Obsidian Elemental_KRS_front.jpg" id="107_Obsidian Elemental_KRS" data-flag="@XD" onclick="openSidebar('107_Obsidian Elemental_KRS',false)"><button class="flip-btn" onclick="imgFlip('107_Obsidian Elemental_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\140_Hoard Tyrant_KRS.jpg" id="140_Hoard Tyrant_KRS" data-flag="@X" onclick="openSidebar('140_Hoard Tyrant_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\197_Stonekin Summoner_KRS_back.jpg" alt="/sets\KRS-files\img\197_Stonekin Summoner_KRS_front.jpg" id="197_Stonekin Summoner_KRS" data-flag="@XD" onclick="openSidebar('197_Stonekin Summoner_KRS',false)"><button class="flip-btn" onclick="imgFlip('197_Stonekin Summoner_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\35_Righteous Shards_KRS.jpg" id="35_Righteous Shards_KRS" data-flag="@X" onclick="openSidebar('35_Righteous Shards_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\79_Speaker of Dreams_KRS_back.jpg" alt="/sets\KRS-files\img\79_Speaker of Dreams_KRS_front.jpg" id="79_Speaker of Dreams_KRS" data-flag="@XD" onclick="openSidebar('79_Speaker of Dreams_KRS',false)"><button class="flip-btn" onclick="imgFlip('79_Speaker of Dreams_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\108_Obsidian Shaper_KRS_back.jpg" alt="/sets\KRS-files\img\108_Obsidian Shaper_KRS_front.jpg" id="108_Obsidian Shaper_KRS" data-flag="@XD" onclick="openSidebar('108_Obsidian Shaper_KRS',false)"><button class="flip-btn" onclick="imgFlip('108_Obsidian Shaper_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\142_Igneate Inciter_KRS_back.jpg" alt="/sets\KRS-files\img\142_Igneate Inciter_KRS_front.jpg" id="142_Igneate Inciter_KRS" data-flag="@XD" onclick="openSidebar('142_Igneate Inciter_KRS',false)"><button class="flip-btn" onclick="imgFlip('142_Igneate Inciter_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\202_Umberdeep Slitherer_KRS_back.jpg" alt="/sets\KRS-files\img\202_Umberdeep Slitherer_KRS_front.jpg" id="202_Umberdeep Slitherer_KRS" data-flag="@XD" onclick="openSidebar('202_Umberdeep Slitherer_KRS',false)"><button class="flip-btn" onclick="imgFlip('202_Umberdeep Slitherer_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\36_Selfless Protector_KRS_back.jpg" alt="/sets\KRS-files\img\36_Selfless Protector_KRS_front.jpg" id="36_Selfless Protector_KRS" data-flag="@XD" onclick="openSidebar('36_Selfless Protector_KRS',false)"><button class="flip-btn" onclick="imgFlip('36_Selfless Protector_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\82_Thawing Dragon_KRS.jpg" id="82_Thawing Dragon_KRS" data-flag="@X" onclick="openSidebar('82_Thawing Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\109_Painful Threshold_KRS.jpg" id="109_Painful Threshold_KRS" data-flag="@X" onclick="openSidebar('109_Painful Threshold_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\145_Magmatic Shards_KRS.jpg" id="145_Magmatic Shards_KRS" data-flag="@X" onclick="openSidebar('145_Magmatic Shards_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\203_Vital Shards_KRS.jpg" id="203_Vital Shards_KRS" data-flag="@X" onclick="openSidebar('203_Vital Shards_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\39_Tragic Performer_KRS.jpg" id="39_Tragic Performer_KRS" data-flag="@X" onclick="openSidebar('39_Tragic Performer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\83_Worldshift_KRS.jpg" id="83_Worldshift_KRS" data-flag="@X" onclick="openSidebar('83_Worldshift_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\118_Umberdeep Shade_KRS.jpg" id="118_Umberdeep Shade_KRS" data-flag="@X" onclick="openSidebar('118_Umberdeep Shade_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\149_Overflow Hellkite_KRS_back.jpg" alt="/sets\KRS-files\img\149_Overflow Hellkite_KRS_front.jpg" id="149_Overflow Hellkite_KRS" data-flag="@XD" onclick="openSidebar('149_Overflow Hellkite_KRS',false)"><button class="flip-btn" onclick="imgFlip('149_Overflow Hellkite_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\167_Aspect of Karsi_KRS.jpg" id="167_Aspect of Karsi_KRS" data-flag="@X" onclick="openSidebar('167_Aspect of Karsi_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\2_Ancient Arbiter_KRS.jpg" id="2_Ancient Arbiter_KRS" data-flag="@X" onclick="openSidebar('2_Ancient Arbiter_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\46_Cloud Coatl_KRS_back.jpg" alt="/sets\KRS-files\img\46_Cloud Coatl_KRS_front.jpg" id="46_Cloud Coatl_KRS" data-flag="@XD" onclick="openSidebar('46_Cloud Coatl_KRS',false)"><button class="flip-btn" onclick="imgFlip('46_Cloud Coatl_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\85_Amethryn Hoarder_KRS.jpg" id="85_Amethryn Hoarder_KRS" data-flag="@X" onclick="openSidebar('85_Amethryn Hoarder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\133_Draconic Breath_KRS.jpg" id="133_Draconic Breath_KRS" data-flag="@X" onclick="openSidebar('133_Draconic Breath_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\168_Aunfolk Primalist_KRS_back.jpg" alt="/sets\KRS-files\img\168_Aunfolk Primalist_KRS_front.jpg" id="168_Aunfolk Primalist_KRS" data-flag="@XD" onclick="openSidebar('168_Aunfolk Primalist_KRS',false)"><button class="flip-btn" onclick="imgFlip('168_Aunfolk Primalist_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\8_Blessed Spirits_KRS.jpg" id="8_Blessed Spirits_KRS" data-flag="@X" onclick="openSidebar('8_Blessed Spirits_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\52_Draconic Research_KRS.jpg" id="52_Draconic Research_KRS" data-flag="@X" onclick="openSidebar('52_Draconic Research_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\87_Bat Master_KRS.jpg" id="87_Bat Master_KRS" data-flag="@X" onclick="openSidebar('87_Bat Master_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\136_Emgaran Duelist_KRS.jpg" id="136_Emgaran Duelist_KRS" data-flag="@X" onclick="openSidebar('136_Emgaran Duelist_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\173_Aunic Gorgon_KRS_back.jpg" alt="/sets\KRS-files\img\173_Aunic Gorgon_KRS_front.jpg" id="173_Aunic Gorgon_KRS" data-flag="@XD" onclick="openSidebar('173_Aunic Gorgon_KRS',false)"><button class="flip-btn" onclick="imgFlip('173_Aunic Gorgon_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\12_Course of Correction_KRS.jpg" id="12_Course of Correction_KRS" data-flag="@X" onclick="openSidebar('12_Course of Correction_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\54_Elseworld Cryptid_KRS.jpg" id="54_Elseworld Cryptid_KRS" data-flag="@X" onclick="openSidebar('54_Elseworld Cryptid_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\88_Covetous Noble_KRS.jpg" id="88_Covetous Noble_KRS" data-flag="@X" onclick="openSidebar('88_Covetous Noble_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\139_Greed of Dragons_KRS.jpg" id="139_Greed of Dragons_KRS" data-flag="@X" onclick="openSidebar('139_Greed of Dragons_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\175_Cross-Pollinate_KRS.jpg" id="175_Cross-Pollinate_KRS" data-flag="@X" onclick="openSidebar('175_Cross-Pollinate_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\14_Defend the Homeland_KRS.jpg" id="14_Defend the Homeland_KRS" data-flag="@X" onclick="openSidebar('14_Defend the Homeland_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\58_Enprism_KRS.jpg" id="58_Enprism_KRS" data-flag="@X" onclick="openSidebar('58_Enprism_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\91_Devouring Darkness_KRS.jpg" id="91_Devouring Darkness_KRS" data-flag="@X" onclick="openSidebar('91_Devouring Darkness_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\146_Manic Coreling_KRS.jpg" id="146_Manic Coreling_KRS" data-flag="@X" onclick="openSidebar('146_Manic Coreling_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\177_Dazzling Frontiers_KRS.jpg" id="177_Dazzling Frontiers_KRS" data-flag="@X" onclick="openSidebar('177_Dazzling Frontiers_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\20_Hopes Remembered_KRS.jpg" id="20_Hopes Remembered_KRS" data-flag="@X" onclick="openSidebar('20_Hopes Remembered_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\60_Frost Skater_KRS.jpg" id="60_Frost Skater_KRS" data-flag="@X" onclick="openSidebar('60_Frost Skater_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\92_Dooming Door_KRS.jpg" id="92_Dooming Door_KRS" data-flag="@X" onclick="openSidebar('92_Dooming Door_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\150_Rift Cartographers_KRS.jpg" id="150_Rift Cartographers_KRS" data-flag="@X" onclick="openSidebar('150_Rift Cartographers_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\178_Defend the Hoard_KRS.jpg" id="178_Defend the Hoard_KRS" data-flag="@X" onclick="openSidebar('178_Defend the Hoard_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\25_Man of Faith_KRS_back.jpg" alt="/sets\KRS-files\img\25_Man of Faith_KRS_front.jpg" id="25_Man of Faith_KRS" data-flag="@XD" onclick="openSidebar('25_Man of Faith_KRS',false)"><button class="flip-btn" onclick="imgFlip('25_Man of Faith_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\61_Frostflight Hatchling_KRS.jpg" id="61_Frostflight Hatchling_KRS" data-flag="@X" onclick="openSidebar('61_Frostflight Hatchling_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\95_Fatal Flaw_KRS.jpg" id="95_Fatal Flaw_KRS" data-flag="@X" onclick="openSidebar('95_Fatal Flaw_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\151_Rites of Ignea_KRS.jpg" id="151_Rites of Ignea_KRS" data-flag="@X" onclick="openSidebar('151_Rites of Ignea_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\184_Jade Vale Hoarder_KRS.jpg" id="184_Jade Vale Hoarder_KRS" data-flag="@X" onclick="openSidebar('184_Jade Vale Hoarder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\28_Opalwing Hoarder_KRS.jpg" id="28_Opalwing Hoarder_KRS" data-flag="@X" onclick="openSidebar('28_Opalwing Hoarder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\62_Glacial Stomper_KRS.jpg" id="62_Glacial Stomper_KRS" data-flag="@X" onclick="openSidebar('62_Glacial Stomper_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\99_Gemari Seeker_KRS_back.jpg" alt="/sets\KRS-files\img\99_Gemari Seeker_KRS_front.jpg" id="99_Gemari Seeker_KRS" data-flag="@XD" onclick="openSidebar('99_Gemari Seeker_KRS',false)"><button class="flip-btn" onclick="imgFlip('99_Gemari Seeker_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\154_Seditious Schism_KRS.jpg" id="154_Seditious Schism_KRS" data-flag="@X" onclick="openSidebar('154_Seditious Schism_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\188_Primal Egg_KRS.jpg" id="188_Primal Egg_KRS" data-flag="@X" onclick="openSidebar('188_Primal Egg_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\30_Protective Guardian_KRS_back.jpg" alt="/sets\KRS-files\img\30_Protective Guardian_KRS_front.jpg" id="30_Protective Guardian_KRS" data-flag="@XD" onclick="openSidebar('30_Protective Guardian_KRS',false)"><button class="flip-btn" onclick="imgFlip('30_Protective Guardian_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\67_Ice Warden_KRS_back.jpg" alt="/sets\KRS-files\img\67_Ice Warden_KRS_front.jpg" id="67_Ice Warden_KRS" data-flag="@XD" onclick="openSidebar('67_Ice Warden_KRS',false)"><button class="flip-btn" onclick="imgFlip('67_Ice Warden_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\100_Grasping of Aun_KRS.jpg" id="100_Grasping of Aun_KRS" data-flag="@X" onclick="openSidebar('100_Grasping of Aun_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\156_Shardheart Hoarder_KRS.jpg" id="156_Shardheart Hoarder_KRS" data-flag="@X" onclick="openSidebar('156_Shardheart Hoarder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\199_Tallform Stonekin_KRS.jpg" id="199_Tallform Stonekin_KRS" data-flag="@X" onclick="openSidebar('199_Tallform Stonekin_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\31_Punishing Portal_KRS.jpg" id="31_Punishing Portal_KRS" data-flag="@X" onclick="openSidebar('31_Punishing Portal_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\72_Powered Passage_KRS.jpg" id="72_Powered Passage_KRS" data-flag="@X" onclick="openSidebar('72_Powered Passage_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\111_Rift Witch_KRS.jpg" id="111_Rift Witch_KRS" data-flag="@X" onclick="openSidebar('111_Rift Witch_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\158_Splendor_KRS.jpg" id="158_Splendor_KRS" data-flag="@X" onclick="openSidebar('158_Splendor_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\201_Ukshu Reclaimer_KRS.jpg" id="201_Ukshu Reclaimer_KRS" data-flag="@X" onclick="openSidebar('201_Ukshu Reclaimer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\34_Riftguard Knight_KRS.jpg" id="34_Riftguard Knight_KRS" data-flag="@X" onclick="openSidebar('34_Riftguard Knight_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\73_Prismatic Dismissal_KRS.jpg" id="73_Prismatic Dismissal_KRS" data-flag="@X" onclick="openSidebar('73_Prismatic Dismissal_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\115_Stainwing Sprite_KRS_back.jpg" alt="/sets\KRS-files\img\115_Stainwing Sprite_KRS_front.jpg" id="115_Stainwing Sprite_KRS" data-flag="@XD" onclick="openSidebar('115_Stainwing Sprite_KRS',false)"><button class="flip-btn" onclick="imgFlip('115_Stainwing Sprite_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\161_Ukshu Reveler_KRS_back.jpg" alt="/sets\KRS-files\img\161_Ukshu Reveler_KRS_front.jpg" id="161_Ukshu Reveler_KRS" data-flag="@XD" onclick="openSidebar('161_Ukshu Reveler_KRS',false)"><button class="flip-btn" onclick="imgFlip('161_Ukshu Reveler_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\204_Wanderer's Way_KRS.jpg" id="204_Wanderers Way_KRS" data-flag="@X" onclick="openSidebar('204_Wanderers Way_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\37_Start Anew_KRS.jpg" id="37_Start Anew_KRS" data-flag="@X" onclick="openSidebar('37_Start Anew_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\75_Sapphiric Hoarder_KRS.jpg" id="75_Sapphiric Hoarder_KRS" data-flag="@X" onclick="openSidebar('75_Sapphiric Hoarder_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\116_Transgress Identity_KRS.jpg" id="116_Transgress Identity_KRS" data-flag="@X" onclick="openSidebar('116_Transgress Identity_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\164_Waning Window_KRS.jpg" id="164_Waning Window_KRS" data-flag="@X" onclick="openSidebar('164_Waning Window_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\205_Wild Empath_KRS.jpg" id="205_Wild Empath_KRS" data-flag="@X" onclick="openSidebar('205_Wild Empath_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\40_Tunnel Squad_KRS.jpg" id="40_Tunnel Squad_KRS" data-flag="@X" onclick="openSidebar('40_Tunnel Squad_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\76_Seek Between_KRS.jpg" id="76_Seek Between_KRS" data-flag="@X" onclick="openSidebar('76_Seek Between_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\121_Voidform Stonekin_KRS.jpg" id="121_Voidform Stonekin_KRS" data-flag="@X" onclick="openSidebar('121_Voidform Stonekin_KRS',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\165_Wild Erupter_KRS_back.jpg" alt="/sets\KRS-files\img\165_Wild Erupter_KRS_front.jpg" id="165_Wild Erupter_KRS" data-flag="@XD" onclick="openSidebar('165_Wild Erupter_KRS',false)"><button class="flip-btn" onclick="imgFlip('165_Wild Erupter_KRS')"></button></div>
+			<div class="container"><img alt="/sets\KRS-files\img\169_Aunfolk Ranger_KRS.jpg" id="169_Aunfolk Ranger_KRS" data-flag="@X" onclick="openSidebar('169_Aunfolk Ranger_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\6_Aunglade Unicorn_KRS.jpg" id="6_Aunglade Unicorn_KRS" data-flag="@X" onclick="openSidebar('6_Aunglade Unicorn_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\43_Amethryn Hardback_KRS.jpg" id="43_Amethryn Hardback_KRS" data-flag="@X" onclick="openSidebar('43_Amethryn Hardback_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\86_Amethryn Strider_KRS.jpg" id="86_Amethryn Strider_KRS" data-flag="@X" onclick="openSidebar('86_Amethryn Strider_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\125_Brute Strength_KRS.jpg" id="125_Brute Strength_KRS" data-flag="@X" onclick="openSidebar('125_Brute Strength_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\171_Aunglade Boon_KRS.jpg" id="171_Aunglade Boon_KRS" data-flag="@X" onclick="openSidebar('171_Aunglade Boon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\7_Blessed Light_KRS.jpg" id="7_Blessed Light_KRS" data-flag="@X" onclick="openSidebar('7_Blessed Light_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\44_Branching Possibilities_KRS.jpg" id="44_Branching Possibilities_KRS" data-flag="@X" onclick="openSidebar('44_Branching Possibilities_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\93_Dragonsbane Troll_KRS.jpg" id="93_Dragonsbane Troll_KRS" data-flag="@X" onclick="openSidebar('93_Dragonsbane Troll_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\126_Burning Breach_KRS.jpg" id="126_Burning Breach_KRS" data-flag="@X" onclick="openSidebar('126_Burning Breach_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\172_Aunglade Fox_KRS.jpg" id="172_Aunglade Fox_KRS" data-flag="@X" onclick="openSidebar('172_Aunglade Fox_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\11_Climb of Conviction_KRS.jpg" id="11_Climb of Conviction_KRS" data-flag="@X" onclick="openSidebar('11_Climb of Conviction_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\45_Cavern Naiads_KRS.jpg" id="45_Cavern Naiads_KRS" data-flag="@X" onclick="openSidebar('45_Cavern Naiads_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\94_Emgaran Aristocrat_KRS.jpg" id="94_Emgaran Aristocrat_KRS" data-flag="@X" onclick="openSidebar('94_Emgaran Aristocrat_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\130_Covetous Betrayal_KRS.jpg" id="130_Covetous Betrayal_KRS" data-flag="@X" onclick="openSidebar('130_Covetous Betrayal_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\174_Commune with Dragons_KRS.jpg" id="174_Commune with Dragons_KRS" data-flag="@X" onclick="openSidebar('174_Commune with Dragons_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\13_Dazzling Noble_KRS.jpg" id="13_Dazzling Noble_KRS" data-flag="@X" onclick="openSidebar('13_Dazzling Noble_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\47_Cloud Crossing_KRS.jpg" id="47_Cloud Crossing_KRS" data-flag="@X" onclick="openSidebar('47_Cloud Crossing_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\96_Flaying Wind_KRS.jpg" id="96_Flaying Wind_KRS" data-flag="@X" onclick="openSidebar('96_Flaying Wind_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\134_Draconic Indulgence_KRS.jpg" id="134_Draconic Indulgence_KRS" data-flag="@X" onclick="openSidebar('134_Draconic Indulgence_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\176_Dazzling Battle_KRS.jpg" id="176_Dazzling Battle_KRS" data-flag="@X" onclick="openSidebar('176_Dazzling Battle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\16_Duplicats_KRS.jpg" id="16_Duplicats_KRS" data-flag="@X" onclick="openSidebar('16_Duplicats_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\48_Dazzle_KRS.jpg" id="48_Dazzle_KRS" data-flag="@X" onclick="openSidebar('48_Dazzle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\97_Fluorite Mantle_KRS.jpg" id="97_Fluorite Mantle_KRS" data-flag="@X" onclick="openSidebar('97_Fluorite Mantle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\135_Dragon's Favor_KRS.jpg" id="135_Dragons Favor_KRS" data-flag="@X" onclick="openSidebar('135_Dragons Favor_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\180_Emerald Eye Scion_KRS.jpg" id="180_Emerald Eye Scion_KRS" data-flag="@X" onclick="openSidebar('180_Emerald Eye Scion_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\17_Eerie Entrance_KRS.jpg" id="17_Eerie Entrance_KRS" data-flag="@X" onclick="openSidebar('17_Eerie Entrance_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\49_Devious Cover-Up_KRS.jpg" id="49_Devious Cover-Up_KRS" data-flag="@X" onclick="openSidebar('49_Devious Cover-Up_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\98_Gemari Ranger_KRS.jpg" id="98_Gemari Ranger_KRS" data-flag="@X" onclick="openSidebar('98_Gemari Ranger_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\138_Garnet Golem_KRS.jpg" id="138_Garnet Golem_KRS" data-flag="@X" onclick="openSidebar('138_Garnet Golem_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\181_Gemroot Trudger_KRS.jpg" id="181_Gemroot Trudger_KRS" data-flag="@X" onclick="openSidebar('181_Gemroot Trudger_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\18_Emgaran Elitist_KRS.jpg" id="18_Emgaran Elitist_KRS" data-flag="@X" onclick="openSidebar('18_Emgaran Elitist_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\57_Emgaran Scholar_KRS.jpg" id="57_Emgaran Scholar_KRS" data-flag="@X" onclick="openSidebar('57_Emgaran Scholar_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\101_Grim Gateway_KRS.jpg" id="101_Grim Gateway_KRS" data-flag="@X" onclick="openSidebar('101_Grim Gateway_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\141_Igneate Goblin_KRS.jpg" id="141_Igneate Goblin_KRS" data-flag="@X" onclick="openSidebar('141_Igneate Goblin_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\182_Glowform Stonekin_KRS.jpg" id="182_Glowform Stonekin_KRS" data-flag="@X" onclick="openSidebar('182_Glowform Stonekin_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\19_Frostwolf_KRS.jpg" id="19_Frostwolf_KRS" data-flag="@X" onclick="openSidebar('19_Frostwolf_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\59_Essence Scatter_KRS.jpg" id="59_Essence Scatter_KRS" data-flag="@X" onclick="openSidebar('59_Essence Scatter_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\103_Igneate Blisterer_KRS.jpg" id="103_Igneate Blisterer_KRS" data-flag="@X" onclick="openSidebar('103_Igneate Blisterer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\143_Insatiable Dragon_KRS.jpg" id="143_Insatiable Dragon_KRS" data-flag="@X" onclick="openSidebar('143_Insatiable Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\183_Highland Mauler_KRS.jpg" id="183_Highland Mauler_KRS" data-flag="@X" onclick="openSidebar('183_Highland Mauler_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\22_Karsi's Brilliance_KRS.jpg" id="22_Karsis Brilliance_KRS" data-flag="@X" onclick="openSidebar('22_Karsis Brilliance_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\63_Glacian Sentinel_KRS.jpg" id="63_Glacian Sentinel_KRS" data-flag="@X" onclick="openSidebar('63_Glacian Sentinel_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\105_Maddening Maw_KRS.jpg" id="105_Maddening Maw_KRS" data-flag="@X" onclick="openSidebar('105_Maddening Maw_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\144_Magmatic Irruption_KRS.jpg" id="144_Magmatic Irruption_KRS" data-flag="@X" onclick="openSidebar('144_Magmatic Irruption_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\185_Keeper of the Pack_KRS.jpg" id="185_Keeper of the Pack_KRS" data-flag="@X" onclick="openSidebar('185_Keeper of the Pack_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\23_Karsi's Tears_KRS.jpg" id="23_Karsis Tears_KRS" data-flag="@X" onclick="openSidebar('23_Karsis Tears_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\64_Glass Dragon_KRS.jpg" id="64_Glass Dragon_KRS" data-flag="@X" onclick="openSidebar('64_Glass Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\110_Priest of the Eye_KRS.jpg" id="110_Priest of the Eye_KRS" data-flag="@X" onclick="openSidebar('110_Priest of the Eye_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\147_Mightcaller_KRS.jpg" id="147_Mightcaller_KRS" data-flag="@X" onclick="openSidebar('147_Mightcaller_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\191_Reaper of Skies_KRS.jpg" id="191_Reaper of Skies_KRS" data-flag="@X" onclick="openSidebar('191_Reaper of Skies_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\26_Mirror Maneuver_KRS.jpg" id="26_Mirror Maneuver_KRS" data-flag="@X" onclick="openSidebar('26_Mirror Maneuver_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\68_Kaleidoscape_KRS.jpg" id="68_Kaleidoscape_KRS" data-flag="@X" onclick="openSidebar('68_Kaleidoscape_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\112_Riftwing Predator_KRS.jpg" id="112_Riftwing Predator_KRS" data-flag="@X" onclick="openSidebar('112_Riftwing Predator_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\148_Mirror Blades_KRS.jpg" id="148_Mirror Blades_KRS" data-flag="@X" onclick="openSidebar('148_Mirror Blades_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\192_Return to Nature_KRS.jpg" id="192_Return to Nature_KRS" data-flag="@X" onclick="openSidebar('192_Return to Nature_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\27_Opal Ornamentation_KRS.jpg" id="27_Opal Ornamentation_KRS" data-flag="@X" onclick="openSidebar('27_Opal Ornamentation_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\69_Market Watcher_KRS.jpg" id="69_Market Watcher_KRS" data-flag="@X" onclick="openSidebar('69_Market Watcher_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\114_Speaker for the Dead_KRS.jpg" id="114_Speaker for the Dead_KRS" data-flag="@X" onclick="openSidebar('114_Speaker for the Dead_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\152_Roiling Rift_KRS.jpg" id="152_Roiling Rift_KRS" data-flag="@X" onclick="openSidebar('152_Roiling Rift_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\193_Soul's Might_KRS.jpg" id="193_Souls Might_KRS" data-flag="@X" onclick="openSidebar('193_Souls Might_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\32_Quarantine_KRS.jpg" id="32_Quarantine_KRS" data-flag="@X" onclick="openSidebar('32_Quarantine_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\70_Mothrat Irradiant_KRS.jpg" id="70_Mothrat Irradiant_KRS" data-flag="@X" onclick="openSidebar('70_Mothrat Irradiant_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\117_Ukshu Task Mage_KRS.jpg" id="117_Ukshu Task Mage_KRS" data-flag="@X" onclick="openSidebar('117_Ukshu Task Mage_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\155_Shardfall_KRS.jpg" id="155_Shardfall_KRS" data-flag="@X" onclick="openSidebar('155_Shardfall_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\195_Splinter Seer_KRS.jpg" id="195_Splinter Seer_KRS" data-flag="@X" onclick="openSidebar('195_Splinter Seer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\33_Revered Pegasus_KRS.jpg" id="33_Revered Pegasus_KRS" data-flag="@X" onclick="openSidebar('33_Revered Pegasus_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\71_Possibility Prison_KRS.jpg" id="71_Possibility Prison_KRS" data-flag="@X" onclick="openSidebar('71_Possibility Prison_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\119_Unhealthy Obsession_KRS.jpg" id="119_Unhealthy Obsession_KRS" data-flag="@X" onclick="openSidebar('119_Unhealthy Obsession_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\157_Spire Kite_KRS.jpg" id="157_Spire Kite_KRS" data-flag="@X" onclick="openSidebar('157_Spire Kite_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\196_Stonekin Stoic_KRS.jpg" id="196_Stonekin Stoic_KRS" data-flag="@X" onclick="openSidebar('196_Stonekin Stoic_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\38_Symmetrist Ardent_KRS.jpg" id="38_Symmetrist Ardent_KRS" data-flag="@X" onclick="openSidebar('38_Symmetrist Ardent_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\74_Sapphiric Hatchling_KRS.jpg" id="74_Sapphiric Hatchling_KRS" data-flag="@X" onclick="openSidebar('74_Sapphiric Hatchling_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\120_Voidblast_KRS.jpg" id="120_Voidblast_KRS" data-flag="@X" onclick="openSidebar('120_Voidblast_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\159_Surge Protector_KRS.jpg" id="159_Surge Protector_KRS" data-flag="@X" onclick="openSidebar('159_Surge Protector_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\198_Strange Space_KRS.jpg" id="198_Strange Space_KRS" data-flag="@X" onclick="openSidebar('198_Strange Space_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\41_Ukshu Blademaster_KRS.jpg" id="41_Ukshu Blademaster_KRS" data-flag="@X" onclick="openSidebar('41_Ukshu Blademaster_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\77_Sift Through Stones_KRS.jpg" id="77_Sift Through Stones_KRS" data-flag="@X" onclick="openSidebar('77_Sift Through Stones_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\122_Warped Memories_KRS.jpg" id="122_Warped Memories_KRS" data-flag="@X" onclick="openSidebar('122_Warped Memories_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\160_Ukshu Irradiant_KRS.jpg" id="160_Ukshu Irradiant_KRS" data-flag="@X" onclick="openSidebar('160_Ukshu Irradiant_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\200_Territorial Dragon_KRS.jpg" id="200_Territorial Dragon_KRS" data-flag="@X" onclick="openSidebar('200_Territorial Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\42_Watcher of Ways_KRS.jpg" id="42_Watcher of Ways_KRS" data-flag="@X" onclick="openSidebar('42_Watcher of Ways_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\80_Splinter Selector_KRS.jpg" id="80_Splinter Selector_KRS" data-flag="@X" onclick="openSidebar('80_Splinter Selector_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\123_Waste Walker_KRS.jpg" id="123_Waste Walker_KRS" data-flag="@X" onclick="openSidebar('123_Waste Walker_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\162_Ukshu Sellsword_KRS.jpg" id="162_Ukshu Sellsword_KRS" data-flag="@X" onclick="openSidebar('162_Ukshu Sellsword_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\278_Mystic Gladetender_PRO_KRS.jpg" id="278_Mystic Gladetender_PRO_KRS" data-flag="@X" onclick="openSidebar('278_Mystic Gladetender_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\277_Planar Exodus_PRO_KRS.jpg" id="277_Planar Exodus_PRO_KRS" data-flag="@X" onclick="openSidebar('277_Planar Exodus_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\275_Temporal Tunnel_PRO_KRS.jpg" id="275_Temporal Tunnel_PRO_KRS" data-flag="@X" onclick="openSidebar('275_Temporal Tunnel_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\276_Transgress Identity_PRO_KRS.jpg" id="276_Transgress Identity_PRO_KRS" data-flag="@X" onclick="openSidebar('276_Transgress Identity_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\287_Doppelgang_PRO_KRS.jpg" id="287_Doppelgang_PRO_KRS" data-flag="@X" onclick="openSidebar('287_Doppelgang_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\290_Commune with Dragons_PRO_KRS.jpg" id="290_Commune with Dragons_PRO_KRS" data-flag="@X" onclick="openSidebar('290_Commune with Dragons_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\280_Duplicats_PRO_KRS.jpg" id="280_Duplicats_PRO_KRS" data-flag="@X" onclick="openSidebar('280_Duplicats_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\279_Kaleidoscape_PRO_KRS.jpg" id="279_Kaleidoscape_PRO_KRS" data-flag="@X" onclick="openSidebar('279_Kaleidoscape_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\285_Ukshu Task Mage_PRO_KRS.jpg" id="285_Ukshu Task Mage_PRO_KRS" data-flag="@X" onclick="openSidebar('285_Ukshu Task Mage_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\288_Variant Handler (Mobius M. Mobius)_KRS.jpg" id="288_Variant Handler (Mobius M. Mobius)_KRS" data-flag="@X" onclick="openSidebar('288_Variant Handler (Mobius M. Mobius)_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\281_Riftguard Knight_PRO_KRS.jpg" id="281_Riftguard Knight_PRO_KRS" data-flag="@X" onclick="openSidebar('281_Riftguard Knight_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\283_Draconic Aspirant_PRO_KRS.jpg" id="283_Draconic Aspirant_PRO_KRS" data-flag="@X" onclick="openSidebar('283_Draconic Aspirant_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\286_A World Forgotten_PRO_KRS.jpg" id="286_A World Forgotten_PRO_KRS" data-flag="@X" onclick="openSidebar('286_A World Forgotten_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\289_Scourge of the Spine_PRO_KRS.jpg" id="289_Scourge of the Spine_PRO_KRS" data-flag="@X" onclick="openSidebar('289_Scourge of the Spine_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\282_Tragic Performer_PRO_KRS.jpg" id="282_Tragic Performer_PRO_KRS" data-flag="@X" onclick="openSidebar('282_Tragic Performer_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\284_Elseworld Cryptid_PRO_KRS.jpg" id="284_Elseworld Cryptid_PRO_KRS" data-flag="@X" onclick="openSidebar('284_Elseworld Cryptid_PRO_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\212_Cunning Skylord_KRS.jpg" id="212_Cunning Skylord_KRS" data-flag="@X" onclick="openSidebar('212_Cunning Skylord_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\213_Curse of the Failing Throne_KRS.jpg" id="213_Curse of the Failing Throne_KRS" data-flag="@X" onclick="openSidebar('213_Curse of the Failing Throne_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\222_Gozani, Dreadlaugh Hunter_KRS.jpg" id="222_Gozani, Dreadlaugh Hunter_KRS" data-flag="@X" onclick="openSidebar('222_Gozani, Dreadlaugh Hunter_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\228_Nesting Hellkite_KRS.jpg" id="228_Nesting Hellkite_KRS" data-flag="@X" onclick="openSidebar('228_Nesting Hellkite_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\224_Haru, Planar Cartographer_KRS.jpg" id="224_Haru, Planar Cartographer_KRS" data-flag="@X" onclick="openSidebar('224_Haru, Planar Cartographer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\214_Dreamfall_KRS.jpg" id="214_Dreamfall_KRS" data-flag="@X" onclick="openSidebar('214_Dreamfall_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\226_Memory Curator_KRS.jpg" id="226_Memory Curator_KRS" data-flag="@X" onclick="openSidebar('226_Memory Curator_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\219_Gau, Igneate King_KRS.jpg" id="219_Gau, Igneate King_KRS" data-flag="@X" onclick="openSidebar('219_Gau, Igneate King_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\217_Emerald Hide Wyrmling_KRS.jpg" id="217_Emerald Hide Wyrmling_KRS" data-flag="@X" onclick="openSidebar('217_Emerald Hide Wyrmling_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\211_Crystal Lion_KRS.jpg" id="211_Crystal Lion_KRS" data-flag="@X" onclick="openSidebar('211_Crystal Lion_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\239_Worlds Opposed_KRS.jpg" id="239_Worlds Opposed_KRS" data-flag="@X" onclick="openSidebar('239_Worlds Opposed_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\218_Fracture Psyche_KRS.jpg" id="218_Fracture Psyche_KRS" data-flag="@X" onclick="openSidebar('218_Fracture Psyche_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\220_Gau's Fanatic_KRS.jpg" id="220_Gaus Fanatic_KRS" data-flag="@X" onclick="openSidebar('220_Gaus Fanatic_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\238_Ukshu Dragonrider_KRS.jpg" id="238_Ukshu Dragonrider_KRS" data-flag="@X" onclick="openSidebar('238_Ukshu Dragonrider_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\210_Celdren, Aunfolk Regent_KRS.jpg" id="210_Celdren, Aunfolk Regent_KRS" data-flag="@X" onclick="openSidebar('210_Celdren, Aunfolk Regent_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\231_Reality Weaver_KRS.jpg" id="231_Reality Weaver_KRS" data-flag="@X" onclick="openSidebar('231_Reality Weaver_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\223_Gruesome Demise_KRS.jpg" id="223_Gruesome Demise_KRS" data-flag="@X" onclick="openSidebar('223_Gruesome Demise_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\234_Scion of Karsi_KRS.jpg" id="234_Scion of Karsi_KRS" data-flag="@X" onclick="openSidebar('234_Scion of Karsi_KRS',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\215_Eclipse of Realities_KRS.jpg" id="215_Eclipse of Realities_KRS" data-flag="@X" onclick="openSidebar('215_Eclipse of Realities_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\233_Ripplesurge_KRS.jpg" id="233_Ripplesurge_KRS" data-flag="@X" onclick="openSidebar('233_Ripplesurge_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\206_Apex of Night_KRS.jpg" id="206_Apex of Night_KRS" data-flag="@X" onclick="openSidebar('206_Apex of Night_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\208_Athrix, the Bonded Heart_KRS.jpg" id="208_Athrix, the Bonded Heart_KRS" data-flag="@X" onclick="openSidebar('208_Athrix, the Bonded Heart_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\221_Genesis Spiral_KRS.jpg" id="221_Genesis Spiral_KRS" data-flag="@X" onclick="openSidebar('221_Genesis Spiral_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\227_Mirror Mage_KRS.jpg" id="227_Mirror Mage_KRS" data-flag="@X" onclick="openSidebar('227_Mirror Mage_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\237_Sprite Dragon_KRS.jpg" id="237_Sprite Dragon_KRS" data-flag="@X" onclick="openSidebar('237_Sprite Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\225_Megalophobia_KRS.jpg" id="225_Megalophobia_KRS" data-flag="@X" onclick="openSidebar('225_Megalophobia_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\207_Argus's Elite_KRS.jpg" id="207_Arguss Elite_KRS" data-flag="@X" onclick="openSidebar('207_Arguss Elite_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\236_Sparkling Serpent_KRS.jpg" id="236_Sparkling Serpent_KRS" data-flag="@X" onclick="openSidebar('236_Sparkling Serpent_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\216_Elseworld Explorer_KRS.jpg" id="216_Elseworld Explorer_KRS" data-flag="@X" onclick="openSidebar('216_Elseworld Explorer_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\235_Shard Conduction_KRS.jpg" id="235_Shard Conduction_KRS" data-flag="@X" onclick="openSidebar('235_Shard Conduction_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\229_Otherscale Wurm_KRS.jpg" id="229_Otherscale Wurm_KRS" data-flag="@X" onclick="openSidebar('229_Otherscale Wurm_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\232_Rift Seeker_KRS.jpg" id="232_Rift Seeker_KRS" data-flag="@X" onclick="openSidebar('232_Rift Seeker_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\230_Reality Gyre_KRS.jpg" id="230_Reality Gyre_KRS" data-flag="@X" onclick="openSidebar('230_Reality Gyre_KRS',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\209_Aunor, Dragonsire_KRS.jpg" id="209_Aunor, Dragonsire_KRS" data-flag="@X" onclick="openSidebar('209_Aunor, Dragonsire_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\1_Chromatic Dragon_KRS.jpg" id="1_Chromatic Dragon_KRS" data-flag="@X" onclick="openSidebar('1_Chromatic Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\242_The Core Crystal_KRS.jpg" id="242_The Core Crystal_KRS" data-flag="@X" onclick="openSidebar('242_The Core Crystal_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\247_Hungering Mirror_KRS.jpg" id="247_Hungering Mirror_KRS" data-flag="@X" onclick="openSidebar('247_Hungering Mirror_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\248_Lithing Fountain_KRS.jpg" id="248_Lithing Fountain_KRS" data-flag="@X" onclick="openSidebar('248_Lithing Fountain_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\250_Prismborn Emergent_KRS.jpg" id="250_Prismborn Emergent_KRS" data-flag="@X" onclick="openSidebar('250_Prismborn Emergent_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\240_Chroma Collector_KRS.jpg" id="240_Chroma Collector_KRS" data-flag="@X" onclick="openSidebar('240_Chroma Collector_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\243_Crystal Cuirass_KRS.jpg" id="243_Crystal Cuirass_KRS" data-flag="@X" onclick="openSidebar('243_Crystal Cuirass_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\244_Diamond Dragon_KRS.jpg" id="244_Diamond Dragon_KRS" data-flag="@X" onclick="openSidebar('244_Diamond Dragon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\251_Reality Beacon_KRS.jpg" id="251_Reality Beacon_KRS" data-flag="@X" onclick="openSidebar('251_Reality Beacon_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\241_Chromatic Shard_KRS.jpg" id="241_Chromatic Shard_KRS" data-flag="@X" onclick="openSidebar('241_Chromatic Shard_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\245_Elseworld Monolith_KRS.jpg" id="245_Elseworld Monolith_KRS" data-flag="@X" onclick="openSidebar('245_Elseworld Monolith_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\246_Glamorous Tortoise_KRS.jpg" id="246_Glamorous Tortoise_KRS" data-flag="@X" onclick="openSidebar('246_Glamorous Tortoise_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\249_Lobber Golem_KRS.jpg" id="249_Lobber Golem_KRS" data-flag="@X" onclick="openSidebar('249_Lobber Golem_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\265_Thriving Heath_KRS.jpg" id="265_Thriving Heath_KRS" data-flag="@X" onclick="openSidebar('265_Thriving Heath_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\266_Thriving Isle_KRS.jpg" id="266_Thriving Isle_KRS" data-flag="@X" onclick="openSidebar('266_Thriving Isle_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\267_Thriving Moor_KRS.jpg" id="267_Thriving Moor_KRS" data-flag="@X" onclick="openSidebar('267_Thriving Moor_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\263_Thriving Bluff_KRS.jpg" id="263_Thriving Bluff_KRS" data-flag="@X" onclick="openSidebar('263_Thriving Bluff_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\264_Thriving Grove_KRS.jpg" id="264_Thriving Grove_KRS" data-flag="@X" onclick="openSidebar('264_Thriving Grove_KRS',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\258_Icepoint Pass_KRS_back.jpg" alt="/sets\KRS-files\img\258_Icepoint Pass_KRS_front.jpg" id="258_Icepoint Pass_KRS" data-flag="@XD" onclick="openSidebar('258_Icepoint Pass_KRS',false)"><button class="flip-btn" onclick="imgFlip('258_Icepoint Pass_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\269_The Umberdeep, Lost Layer_KRS_back.jpg" alt="/sets\KRS-files\img\269_The Umberdeep, Lost Layer_KRS_front.jpg" id="269_The Umberdeep, Lost Layer_KRS" data-flag="@XD" onclick="openSidebar('269_The Umberdeep, Lost Layer_KRS',false)"><button class="flip-btn" onclick="imgFlip('269_The Umberdeep, Lost Layer_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\255_Caves of Ignea_KRS_back.jpg" alt="/sets\KRS-files\img\255_Caves of Ignea_KRS_front.jpg" id="255_Caves of Ignea_KRS" data-flag="@XD" onclick="openSidebar('255_Caves of Ignea_KRS',false)"><button class="flip-btn" onclick="imgFlip('255_Caves of Ignea_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\260_Karsi's Spine, Great Sierra_KRS_back.jpg" alt="/sets\KRS-files\img\260_Karsi's Spine, Great Sierra_KRS_front.jpg" id="260_Karsis Spine, Great Sierra_KRS" data-flag="@XD" onclick="openSidebar('260_Karsis Spine, Great Sierra_KRS',false)"><button class="flip-btn" onclick="imgFlip('260_Karsis Spine, Great Sierra_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\259_Karsinel, the Crystal Glade_KRS_back.jpg" alt="/sets\KRS-files\img\259_Karsinel, the Crystal Glade_KRS_front.jpg" id="259_Karsinel, the Crystal Glade_KRS" data-flag="@XD" onclick="openSidebar('259_Karsinel, the Crystal Glade_KRS',false)"><button class="flip-btn" onclick="imgFlip('259_Karsinel, the Crystal Glade_KRS')"></button></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\256_Emgara, the Brilliant City_KRS_back.jpg" alt="/sets\KRS-files\img\256_Emgara, the Brilliant City_KRS_front.jpg" id="256_Emgara, the Brilliant City_KRS" data-flag="@XD" onclick="openSidebar('256_Emgara, the Brilliant City_KRS',false)"><button class="flip-btn" onclick="imgFlip('256_Emgara, the Brilliant City_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\261_Kythar, the Frozen Peak_KRS_back.jpg" alt="/sets\KRS-files\img\261_Kythar, the Frozen Peak_KRS_front.jpg" id="261_Kythar, the Frozen Peak_KRS" data-flag="@XD" onclick="openSidebar('261_Kythar, the Frozen Peak_KRS',false)"><button class="flip-btn" onclick="imgFlip('261_Kythar, the Frozen Peak_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\252_The Amethryn Waste_KRS_back.jpg" alt="/sets\KRS-files\img\252_The Amethryn Waste_KRS_front.jpg" id="252_The Amethryn Waste_KRS" data-flag="@XD" onclick="openSidebar('252_The Amethryn Waste_KRS',false)"><button class="flip-btn" onclick="imgFlip('252_The Amethryn Waste_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\268_Ukshu, Crossroads of the West_KRS_back.jpg" alt="/sets\KRS-files\img\268_Ukshu, Crossroads of the West_KRS_front.jpg" id="268_Ukshu, Crossroads of the West_KRS" data-flag="@XD" onclick="openSidebar('268_Ukshu, Crossroads of the West_KRS',false)"><button class="flip-btn" onclick="imgFlip('268_Ukshu, Crossroads of the West_KRS')"></button></div>
+			<div class="container"><img data-alt_src="/sets\KRS-files\img\253_The Aunglade, Haven of Ages_KRS_back.jpg" alt="/sets\KRS-files\img\253_The Aunglade, Haven of Ages_KRS_front.jpg" id="253_The Aunglade, Haven of Ages_KRS" data-flag="@XD" onclick="openSidebar('253_The Aunglade, Haven of Ages_KRS',false)"><button class="flip-btn" onclick="imgFlip('253_The Aunglade, Haven of Ages_KRS')"></button></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\262_Quarry Shaft_KRS.jpg" id="262_Quarry Shaft_KRS" data-flag="@X" onclick="openSidebar('262_Quarry Shaft_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\254_Brilliant Haven_KRS.jpg" id="254_Brilliant Haven_KRS" data-flag="@X" onclick="openSidebar('254_Brilliant Haven_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\257_Evolving Wilds_KRS.jpg" id="257_Evolving Wilds_KRS" data-flag="@X" onclick="openSidebar('257_Evolving Wilds_KRS',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\271_Island_KRS.jpg" id="271_Island_KRS" data-flag="@X" onclick="openSidebar('271_Island_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\270_Plains_KRS.jpg" id="270_Plains_KRS" data-flag="@X" onclick="openSidebar('270_Plains_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\272_Swamp_KRS.jpg" id="272_Swamp_KRS" data-flag="@X" onclick="openSidebar('272_Swamp_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\274_Forest_KRS.jpg" id="274_Forest_KRS" data-flag="@X" onclick="openSidebar('274_Forest_KRS',false)"></div>
+			<div class="container"><img alt="/sets\KRS-files\img\273_Mountain_KRS.jpg" id="273_Mountain_KRS" data-flag="@X" onclick="openSidebar('273_Mountain_KRS',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

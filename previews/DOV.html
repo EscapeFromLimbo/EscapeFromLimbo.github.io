@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/DOV-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>DOV visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/DOV-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/DOV-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\DOV-files\img\12_Empress Cecile Anette_DOV.jpg" id="12_Empress Cecile Anette_DOV" data-flag="@X" onclick="openSidebar('12_Empress Cecile Anette_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\49_Antivo, Foundation Chair_DOV.jpg" id="49_Antivo, Foundation Chair_DOV" data-flag="@X" onclick="openSidebar('49_Antivo, Foundation Chair_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\104_Field Test_DOV.jpg" id="104_Field Test_DOV" data-flag="@X" onclick="openSidebar('104_Field Test_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\152_Fencing Master_DOV.jpg" id="152_Fencing Master_DOV" data-flag="@X" onclick="openSidebar('152_Fencing Master_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\182_Against All Odds_DOV.jpg" id="182_Against All Odds_DOV" data-flag="@X" onclick="openSidebar('182_Against All Odds_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\26_The Love of a Lifetime_DOV.jpg" id="26_The Love of a Lifetime_DOV" data-flag="@X" onclick="openSidebar('26_The Love of a Lifetime_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\57_Ego Split_DOV.jpg" id="57_Ego Split_DOV" data-flag="@X" onclick="openSidebar('57_Ego Split_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\106_Glauna, Decadent Demon_DOV.jpg" id="106_Glauna, Decadent Demon_DOV" data-flag="@X" onclick="openSidebar('106_Glauna, Decadent Demon_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\170_Siege at the Bastion d'Orlet_DOV.jpg" id="170_Siege at the Bastion dOrlet_DOV" data-flag="@X" onclick="openSidebar('170_Siege at the Bastion dOrlet_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\184_Armed Uprising_DOV.jpg" id="184_Armed Uprising_DOV" data-flag="@X" onclick="openSidebar('184_Armed Uprising_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\39_Symbol of the Revolution_DOV.jpg" id="39_Symbol of the Revolution_DOV" data-flag="@X" onclick="openSidebar('39_Symbol of the Revolution_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\90_Waterglass Duelist_DOV.jpg" id="90_Waterglass Duelist_DOV" data-flag="@X" onclick="openSidebar('90_Waterglass Duelist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\126_Tempting Darkfiend_DOV.jpg" id="126_Tempting Darkfiend_DOV" data-flag="@X" onclick="openSidebar('126_Tempting Darkfiend_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\173_Strongarm Gambler_DOV.jpg" id="173_Strongarm Gambler_DOV" data-flag="@X" onclick="openSidebar('173_Strongarm Gambler_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\225_Zolo, the Freehorn_DOV.jpg" id="225_Zolo, the Freehorn_DOV" data-flag="@X" onclick="openSidebar('225_Zolo, the Freehorn_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\11_Divine Rule_DOV.jpg" id="11_Divine Rule_DOV" data-flag="@X" onclick="openSidebar('11_Divine Rule_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\51_Beauclaire's Scorn_DOV.jpg" id="51_Beauclaires Scorn_DOV" data-flag="@X" onclick="openSidebar('51_Beauclaires Scorn_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\94_Cabal Class_DOV.jpg" id="94_Cabal Class_DOV" data-flag="@X" onclick="openSidebar('94_Cabal Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\141_Bourgeois Class_DOV.jpg" id="141_Bourgeois Class_DOV" data-flag="@X" onclick="openSidebar('141_Bourgeois Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\190_Enduring Jentil_DOV.jpg" id="190_Enduring Jentil_DOV" data-flag="@X" onclick="openSidebar('190_Enduring Jentil_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\14_The Fall of Berginon_DOV.jpg" id="14_The Fall of Berginon_DOV" data-flag="@X" onclick="openSidebar('14_The Fall of Berginon_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\54_Disguising Barber_DOV.jpg" id="54_Disguising Barber_DOV" data-flag="@X" onclick="openSidebar('54_Disguising Barber_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\103_Feast of Whispered Knives_DOV.jpg" id="103_Feast of Whispered Knives_DOV" data-flag="@X" onclick="openSidebar('103_Feast of Whispered Knives_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\156_Hold to the Flame_DOV.jpg" id="156_Hold to the Flame_DOV" data-flag="@X" onclick="openSidebar('156_Hold to the Flame_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\201_Into the Bullring_DOV.jpg" id="201_Into the Bullring_DOV" data-flag="@X" onclick="openSidebar('201_Into the Bullring_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\16_Gallant Fancypaw_DOV.jpg" id="16_Gallant Fancypaw_DOV" data-flag="@X" onclick="openSidebar('16_Gallant Fancypaw_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\62_Foundation Magistrate_DOV.jpg" id="62_Foundation Magistrate_DOV" data-flag="@X" onclick="openSidebar('62_Foundation Magistrate_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\115_Mob Hangman_DOV.jpg" id="115_Mob Hangman_DOV" data-flag="@X" onclick="openSidebar('115_Mob Hangman_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\157_Impetuous Knight_DOV.jpg" id="157_Impetuous Knight_DOV" data-flag="@X" onclick="openSidebar('157_Impetuous Knight_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\202_La Bete du Harnelle_DOV.jpg" id="202_La Bete du Harnelle_DOV" data-flag="@X" onclick="openSidebar('202_La Bete du Harnelle_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\18_Heraldic Griffin_DOV.jpg" id="18_Heraldic Griffin_DOV" data-flag="@X" onclick="openSidebar('18_Heraldic Griffin_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\63_Goletre's Disciple_DOV.jpg" id="63_Goletres Disciple_DOV" data-flag="@X" onclick="openSidebar('63_Goletres Disciple_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\120_Progenitor of Plagues_DOV.jpg" id="120_Progenitor of Plagues_DOV" data-flag="@X" onclick="openSidebar('120_Progenitor of Plagues_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\158_Master of the Ring_DOV.jpg" id="158_Master of the Ring_DOV" data-flag="@X" onclick="openSidebar('158_Master of the Ring_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\204_Peasant Class_DOV.jpg" id="204_Peasant Class_DOV" data-flag="@X" onclick="openSidebar('204_Peasant Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\31_One for All_DOV.jpg" id="31_One for All_DOV" data-flag="@X" onclick="openSidebar('31_One for All_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\65_Hoarding Culebre_DOV.jpg" id="65_Hoarding Culebre_DOV" data-flag="@X" onclick="openSidebar('65_Hoarding Culebre_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\122_A Scent to Die For_DOV.jpg" id="122_A Scent to Die For_DOV" data-flag="@X" onclick="openSidebar('122_A Scent to Die For_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\160_Mundaq, Unlikely Savior_DOV.jpg" id="160_Mundaq, Unlikely Savior_DOV" data-flag="@X" onclick="openSidebar('160_Mundaq, Unlikely Savior_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\205_Rallying the Revolutionaries_DOV.jpg" id="205_Rallying the Revolutionaries_DOV" data-flag="@X" onclick="openSidebar('205_Rallying the Revolutionaries_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\34_Pureheart Unicorn_DOV.jpg" id="34_Pureheart Unicorn_DOV" data-flag="@X" onclick="openSidebar('34_Pureheart Unicorn_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\68_Lanternlight Assailant_DOV.jpg" id="68_Lanternlight Assailant_DOV" data-flag="@X" onclick="openSidebar('68_Lanternlight Assailant_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\123_Sire of Bloodlines_DOV.jpg" id="123_Sire of Bloodlines_DOV" data-flag="@X" onclick="openSidebar('123_Sire of Bloodlines_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\161_Passionate Firebrand_DOV.jpg" id="161_Passionate Firebrand_DOV" data-flag="@X" onclick="openSidebar('161_Passionate Firebrand_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\207_Sentinel of the Deep Forest_DOV.jpg" id="207_Sentinel of the Deep Forest_DOV" data-flag="@X" onclick="openSidebar('207_Sentinel of the Deep Forest_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\36_Revolutionary Class_DOV.jpg" id="36_Revolutionary Class_DOV" data-flag="@X" onclick="openSidebar('36_Revolutionary Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\69_Learned Class_DOV.jpg" id="69_Learned Class_DOV" data-flag="@X" onclick="openSidebar('69_Learned Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\127_Undercroft Poisoner_DOV.jpg" id="127_Undercroft Poisoner_DOV" data-flag="@X" onclick="openSidebar('127_Undercroft Poisoner_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\163_Rabid Man-Eaters_DOV.jpg" id="163_Rabid Man-Eaters_DOV" data-flag="@X" onclick="openSidebar('163_Rabid Man-Eaters_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\215_Treasury Pilferer_DOV.jpg" id="215_Treasury Pilferer_DOV" data-flag="@X" onclick="openSidebar('215_Treasury Pilferer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\38_Signature Strike_DOV.jpg" id="38_Signature Strike_DOV" data-flag="@X" onclick="openSidebar('38_Signature Strike_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\76_Parapet Awakener_DOV.jpg" id="76_Parapet Awakener_DOV" data-flag="@X" onclick="openSidebar('76_Parapet Awakener_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\129_Uninvited Vampire_DOV.jpg" id="129_Uninvited Vampire_DOV" data-flag="@X" onclick="openSidebar('129_Uninvited Vampire_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\168_Scorching Condemnation_DOV.jpg" id="168_Scorching Condemnation_DOV" data-flag="@X" onclick="openSidebar('168_Scorching Condemnation_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\220_Unveil the Menagerie_DOV.jpg" id="220_Unveil the Menagerie_DOV" data-flag="@X" onclick="openSidebar('220_Unveil the Menagerie_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\41_Unburnt Maiden_DOV.jpg" id="41_Unburnt Maiden_DOV" data-flag="@X" onclick="openSidebar('41_Unburnt Maiden_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\84_Studies in Cognitive Motion_DOV.jpg" id="84_Studies in Cognitive Motion_DOV" data-flag="@X" onclick="openSidebar('84_Studies in Cognitive Motion_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\131_Vaudlin, the Self-Taught_DOV.jpg" id="131_Vaudlin, the Self-Taught_DOV" data-flag="@X" onclick="openSidebar('131_Vaudlin, the Self-Taught_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\177_Truthflame Absolution_DOV.jpg" id="177_Truthflame Absolution_DOV" data-flag="@X" onclick="openSidebar('177_Truthflame Absolution_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\223_Warden of Herds_DOV.jpg" id="223_Warden of Herds_DOV" data-flag="@X" onclick="openSidebar('223_Warden of Herds_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\2_Banish to the Isle_DOV.jpg" id="2_Banish to the Isle_DOV" data-flag="@X" onclick="openSidebar('2_Banish to the Isle_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\46_Abscond_DOV.jpg" id="46_Abscond_DOV" data-flag="@X" onclick="openSidebar('46_Abscond_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\91_Arrogant Cabalist_DOV.jpg" id="91_Arrogant Cabalist_DOV" data-flag="@X" onclick="openSidebar('91_Arrogant Cabalist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\136_Absolver of Ashes_DOV.jpg" id="136_Absolver of Ashes_DOV" data-flag="@X" onclick="openSidebar('136_Absolver of Ashes_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\185_Barreling Bull_DOV.jpg" id="185_Barreling Bull_DOV" data-flag="@X" onclick="openSidebar('185_Barreling Bull_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\4_Bordertown Watch-Warden_DOV.jpg" id="4_Bordertown Watch-Warden_DOV" data-flag="@X" onclick="openSidebar('4_Bordertown Watch-Warden_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\47_Absorbed Painter_DOV.jpg" id="47_Absorbed Painter_DOV" data-flag="@X" onclick="openSidebar('47_Absorbed Painter_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\93_Bloodfeast Baron_DOV.jpg" id="93_Bloodfeast Baron_DOV" data-flag="@X" onclick="openSidebar('93_Bloodfeast Baron_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\142_Braise_DOV.jpg" id="142_Braise_DOV" data-flag="@X" onclick="openSidebar('142_Braise_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\188_Contagion Brewer_DOV.jpg" id="188_Contagion Brewer_DOV" data-flag="@X" onclick="openSidebar('188_Contagion Brewer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\6_Cecile's Suppressor_DOV.jpg" id="6_Ceciles Suppressor_DOV" data-flag="@X" onclick="openSidebar('6_Ceciles Suppressor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\56_Dominate Mind_DOV.jpg" id="56_Dominate Mind_DOV" data-flag="@X" onclick="openSidebar('56_Dominate Mind_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\95_Catacomb Stewards_DOV.jpg" id="95_Catacomb Stewards_DOV" data-flag="@X" onclick="openSidebar('95_Catacomb Stewards_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\143_Brazen Intimidation_DOV.jpg" id="143_Brazen Intimidation_DOV" data-flag="@X" onclick="openSidebar('143_Brazen Intimidation_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\189_Deep Forest Maiden_DOV.jpg" id="189_Deep Forest Maiden_DOV" data-flag="@X" onclick="openSidebar('189_Deep Forest Maiden_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\9_Decorated Duelist_DOV.jpg" id="9_Decorated Duelist_DOV" data-flag="@X" onclick="openSidebar('9_Decorated Duelist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\59_Enlightened Inductee_DOV.jpg" id="59_Enlightened Inductee_DOV" data-flag="@X" onclick="openSidebar('59_Enlightened Inductee_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\97_Conspiracy of Wealth_DOV.jpg" id="97_Conspiracy of Wealth_DOV" data-flag="@X" onclick="openSidebar('97_Conspiracy of Wealth_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\145_Campaign of Retribution_DOV.jpg" id="145_Campaign of Retribution_DOV" data-flag="@X" onclick="openSidebar('145_Campaign of Retribution_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\191_Epicerie Liberator_DOV.jpg" id="191_Epicerie Liberator_DOV" data-flag="@X" onclick="openSidebar('191_Epicerie Liberator_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\10_Disaffected Seraph_DOV.jpg" id="10_Disaffected Seraph_DOV" data-flag="@X" onclick="openSidebar('10_Disaffected Seraph_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\60_Experimental Flight_DOV.jpg" id="60_Experimental Flight_DOV" data-flag="@X" onclick="openSidebar('60_Experimental Flight_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\98_Corpse Thieves_DOV.jpg" id="98_Corpse Thieves_DOV" data-flag="@X" onclick="openSidebar('98_Corpse Thieves_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\148_Crowdcleaver_DOV.jpg" id="148_Crowdcleaver_DOV" data-flag="@X" onclick="openSidebar('148_Crowdcleaver_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\195_Gargantuan Commander_DOV.jpg" id="195_Gargantuan Commander_DOV" data-flag="@X" onclick="openSidebar('195_Gargantuan Commander_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\19_Heroes Never Die_DOV.jpg" id="19_Heroes Never Die_DOV" data-flag="@X" onclick="openSidebar('19_Heroes Never Die_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\64_Gregarious Grenouille_DOV.jpg" id="64_Gregarious Grenouille_DOV" data-flag="@X" onclick="openSidebar('64_Gregarious Grenouille_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\105_Gato Shinygrabber_DOV.jpg" id="105_Gato Shinygrabber_DOV" data-flag="@X" onclick="openSidebar('105_Gato Shinygrabber_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\150_Diago Maldovo_DOV.jpg" id="150_Diago Maldovo_DOV" data-flag="@X" onclick="openSidebar('150_Diago Maldovo_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\197_Gato Troubador_DOV.jpg" id="197_Gato Troubador_DOV" data-flag="@X" onclick="openSidebar('197_Gato Troubador_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\20_Highborn Cavalry_DOV.jpg" id="20_Highborn Cavalry_DOV" data-flag="@X" onclick="openSidebar('20_Highborn Cavalry_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\71_Lost in the Moment_DOV.jpg" id="71_Lost in the Moment_DOV" data-flag="@X" onclick="openSidebar('71_Lost in the Moment_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\107_Grisly Musketeer_DOV.jpg" id="107_Grisly Musketeer_DOV" data-flag="@X" onclick="openSidebar('107_Grisly Musketeer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\151_Draconic Beckoning_DOV.jpg" id="151_Draconic Beckoning_DOV" data-flag="@X" onclick="openSidebar('151_Draconic Beckoning_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\200_Inspired Youth_DOV.jpg" id="200_Inspired Youth_DOV" data-flag="@X" onclick="openSidebar('200_Inspired Youth_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\23_Indomitable Stand_DOV.jpg" id="23_Indomitable Stand_DOV" data-flag="@X" onclick="openSidebar('23_Indomitable Stand_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\72_Lyceum Project_DOV.jpg" id="72_Lyceum Project_DOV" data-flag="@X" onclick="openSidebar('72_Lyceum Project_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\109_Hans Nehmann_DOV.jpg" id="109_Hans Nehmann_DOV" data-flag="@X" onclick="openSidebar('109_Hans Nehmann_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\159_Mob Instigator_DOV.jpg" id="159_Mob Instigator_DOV" data-flag="@X" onclick="openSidebar('159_Mob Instigator_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\206_Revolutionary Redistributer_DOV.jpg" id="206_Revolutionary Redistributer_DOV" data-flag="@X" onclick="openSidebar('206_Revolutionary Redistributer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\25_Let Them Eat Cake_DOV.jpg" id="25_Let Them Eat Cake_DOV" data-flag="@X" onclick="openSidebar('25_Let Them Eat Cake_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\74_Mathmatimancy_DOV.jpg" id="74_Mathmatimancy_DOV" data-flag="@X" onclick="openSidebar('74_Mathmatimancy_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\119_Patriarch's Call_DOV.jpg" id="119_Patriarchs Call_DOV" data-flag="@X" onclick="openSidebar('119_Patriarchs Call_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\164_Rag to a Bull_DOV.jpg" id="164_Rag to a Bull_DOV" data-flag="@X" onclick="openSidebar('164_Rag to a Bull_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\210_Supporting Crowd_DOV.jpg" id="210_Supporting Crowd_DOV" data-flag="@X" onclick="openSidebar('210_Supporting Crowd_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\27_Marie Laurent_DOV.jpg" id="27_Marie Laurent_DOV" data-flag="@X" onclick="openSidebar('27_Marie Laurent_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\75_Nitrous Elemental_DOV.jpg" id="75_Nitrous Elemental_DOV" data-flag="@X" onclick="openSidebar('75_Nitrous Elemental_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\121_Public Execution_DOV.jpg" id="121_Public Execution_DOV" data-flag="@X" onclick="openSidebar('121_Public Execution_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\167_Revolutionary Supplier_DOV.jpg" id="167_Revolutionary Supplier_DOV" data-flag="@X" onclick="openSidebar('167_Revolutionary Supplier_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\212_Telling Tall Tales_DOV.jpg" id="212_Telling Tall Tales_DOV" data-flag="@X" onclick="openSidebar('212_Telling Tall Tales_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\29_Meowsician_DOV.jpg" id="29_Meowsician_DOV" data-flag="@X" onclick="openSidebar('29_Meowsician_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\77_Parapet Rake_DOV.jpg" id="77_Parapet Rake_DOV" data-flag="@X" onclick="openSidebar('77_Parapet Rake_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\124_Slavering Witchhounds_DOV.jpg" id="124_Slavering Witchhounds_DOV" data-flag="@X" onclick="openSidebar('124_Slavering Witchhounds_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\171_Smolderwing_DOV.jpg" id="171_Smolderwing_DOV" data-flag="@X" onclick="openSidebar('171_Smolderwing_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\213_Thorngrafter_DOV.jpg" id="213_Thorngrafter_DOV" data-flag="@X" onclick="openSidebar('213_Thorngrafter_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\37_Rose Garden Guardian_DOV.jpg" id="37_Rose Garden Guardian_DOV" data-flag="@X" onclick="openSidebar('37_Rose Garden Guardian_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\78_Patron of the Sciences_DOV.jpg" id="78_Patron of the Sciences_DOV" data-flag="@X" onclick="openSidebar('78_Patron of the Sciences_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\128_Underhanded Revolutionary_DOV.jpg" id="128_Underhanded Revolutionary_DOV" data-flag="@X" onclick="openSidebar('128_Underhanded Revolutionary_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\172_Spirited Protest_DOV.jpg" id="172_Spirited Protest_DOV" data-flag="@X" onclick="openSidebar('172_Spirited Protest_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\218_United in Arms_DOV.jpg" id="218_United in Arms_DOV" data-flag="@X" onclick="openSidebar('218_United in Arms_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\44_Wanton Decadence_DOV.jpg" id="44_Wanton Decadence_DOV" data-flag="@X" onclick="openSidebar('44_Wanton Decadence_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\81_Spellbane Sentinel_DOV.jpg" id="81_Spellbane Sentinel_DOV" data-flag="@X" onclick="openSidebar('81_Spellbane Sentinel_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\130_Unstable Concoction_DOV.jpg" id="130_Unstable Concoction_DOV" data-flag="@X" onclick="openSidebar('130_Unstable Concoction_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\174_Telhedo Hoofbruisers_DOV.jpg" id="174_Telhedo Hoofbruisers_DOV" data-flag="@X" onclick="openSidebar('174_Telhedo Hoofbruisers_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\221_Vaudlin's Fleshfinder_DOV.jpg" id="221_Vaudlins Fleshfinder_DOV" data-flag="@X" onclick="openSidebar('221_Vaudlins Fleshfinder_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\45_Wealthy Clergyman_DOV.jpg" id="45_Wealthy Clergyman_DOV" data-flag="@X" onclick="openSidebar('45_Wealthy Clergyman_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\86_Tyrus's Transformation_DOV.jpg" id="86_Tyruss Transformation_DOV" data-flag="@X" onclick="openSidebar('86_Tyruss Transformation_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\134_Wicked Steed_DOV.jpg" id="134_Wicked Steed_DOV" data-flag="@X" onclick="openSidebar('134_Wicked Steed_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\179_Wildcaster Ogre_DOV.jpg" id="179_Wildcaster Ogre_DOV" data-flag="@X" onclick="openSidebar('179_Wildcaster Ogre_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\222_Wallbreaker_DOV.jpg" id="222_Wallbreaker_DOV" data-flag="@X" onclick="openSidebar('222_Wallbreaker_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\1_Anointed Escort_DOV.jpg" id="1_Anointed Escort_DOV" data-flag="@X" onclick="openSidebar('1_Anointed Escort_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\48_Alehana's Eyes_DOV.jpg" id="48_Alehanas Eyes_DOV" data-flag="@X" onclick="openSidebar('48_Alehanas Eyes_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\92_Bleakheart Instructor_DOV.jpg" id="92_Bleakheart Instructor_DOV" data-flag="@X" onclick="openSidebar('92_Bleakheart Instructor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\137_Alehana's Fleshsearer_DOV.jpg" id="137_Alehanas Fleshsearer_DOV" data-flag="@X" onclick="openSidebar('137_Alehanas Fleshsearer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\181_Above the Fog_DOV.jpg" id="181_Above the Fog_DOV" data-flag="@X" onclick="openSidebar('181_Above the Fog_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\3_Baron-at-Court_DOV.jpg" id="3_Baron-at-Court_DOV" data-flag="@X" onclick="openSidebar('3_Baron-at-Court_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\50_Artur's Tightening Vice_DOV.jpg" id="50_Arturs Tightening Vice_DOV" data-flag="@X" onclick="openSidebar('50_Arturs Tightening Vice_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\96_Condemn to Death_DOV.jpg" id="96_Condemn to Death_DOV" data-flag="@X" onclick="openSidebar('96_Condemn to Death_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\138_Bastion Breaker_DOV.jpg" id="138_Bastion Breaker_DOV" data-flag="@X" onclick="openSidebar('138_Bastion Breaker_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\183_Arachnid Ambush_DOV.jpg" id="183_Arachnid Ambush_DOV" data-flag="@X" onclick="openSidebar('183_Arachnid Ambush_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\5_Bravewing Hero_DOV.jpg" id="5_Bravewing Hero_DOV" data-flag="@X" onclick="openSidebar('5_Bravewing Hero_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\52_By Imperial Decree_DOV.jpg" id="52_By Imperial Decree_DOV" data-flag="@X" onclick="openSidebar('52_By Imperial Decree_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\99_Darkhunt Pesanta_DOV.jpg" id="99_Darkhunt Pesanta_DOV" data-flag="@X" onclick="openSidebar('99_Darkhunt Pesanta_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\139_Belligerent Peluda_DOV.jpg" id="139_Belligerent Peluda_DOV" data-flag="@X" onclick="openSidebar('139_Belligerent Peluda_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\186_Beastbond Instructor_DOV.jpg" id="186_Beastbond Instructor_DOV" data-flag="@X" onclick="openSidebar('186_Beastbond Instructor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\7_Crownguard Instructor_DOV.jpg" id="7_Crownguard Instructor_DOV" data-flag="@X" onclick="openSidebar('7_Crownguard Instructor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\53_Carving Instructor_DOV.jpg" id="53_Carving Instructor_DOV" data-flag="@X" onclick="openSidebar('53_Carving Instructor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\100_Doctor's Orders_DOV.jpg" id="100_Doctors Orders_DOV" data-flag="@X" onclick="openSidebar('100_Doctors Orders_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\140_Bladeforge Instructor_DOV.jpg" id="140_Bladeforge Instructor_DOV" data-flag="@X" onclick="openSidebar('140_Bladeforge Instructor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\187_Colossal Tarasque_DOV.jpg" id="187_Colossal Tarasque_DOV" data-flag="@X" onclick="openSidebar('187_Colossal Tarasque_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\8_Decadent Duchess_DOV.jpg" id="8_Decadent Duchess_DOV" data-flag="@X" onclick="openSidebar('8_Decadent Duchess_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\55_Dockside Curfew_DOV.jpg" id="55_Dockside Curfew_DOV" data-flag="@X" onclick="openSidebar('55_Dockside Curfew_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\101_Downtrodden Butcher_DOV.jpg" id="101_Downtrodden Butcher_DOV" data-flag="@X" onclick="openSidebar('101_Downtrodden Butcher_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\144_Break the Line_DOV.jpg" id="144_Break the Line_DOV" data-flag="@X" onclick="openSidebar('144_Break the Line_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\192_Escargoliath_DOV.jpg" id="192_Escargoliath_DOV" data-flag="@X" onclick="openSidebar('192_Escargoliath_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\13_En Garde_DOV.jpg" id="13_En Garde_DOV" data-flag="@X" onclick="openSidebar('13_En Garde_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\58_Enlightened Contributor_DOV.jpg" id="58_Enlightened Contributor_DOV" data-flag="@X" onclick="openSidebar('58_Enlightened Contributor_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\102_Dredge the Graves_DOV.jpg" id="102_Dredge the Graves_DOV" data-flag="@X" onclick="openSidebar('102_Dredge the Graves_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\146_Cinder Hatchling_DOV.jpg" id="146_Cinder Hatchling_DOV" data-flag="@X" onclick="openSidebar('146_Cinder Hatchling_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\193_Follow the Wildtrail_DOV.jpg" id="193_Follow the Wildtrail_DOV" data-flag="@X" onclick="openSidebar('193_Follow the Wildtrail_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\15_Fiefwatcher Gargoyle_DOV.jpg" id="15_Fiefwatcher Gargoyle_DOV" data-flag="@X" onclick="openSidebar('15_Fiefwatcher Gargoyle_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\61_Foundation Assistant_DOV.jpg" id="61_Foundation Assistant_DOV" data-flag="@X" onclick="openSidebar('61_Foundation Assistant_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\108_Gustav's Bargain_DOV.jpg" id="108_Gustavs Bargain_DOV" data-flag="@X" onclick="openSidebar('108_Gustavs Bargain_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\147_Climactic Finish_DOV.jpg" id="147_Climactic Finish_DOV" data-flag="@X" onclick="openSidebar('147_Climactic Finish_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\194_Foundation Herbologist_DOV.jpg" id="194_Foundation Herbologist_DOV" data-flag="@X" onclick="openSidebar('194_Foundation Herbologist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\17_Gato Vigilante_DOV.jpg" id="17_Gato Vigilante_DOV" data-flag="@X" onclick="openSidebar('17_Gato Vigilante_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\66_Intrusive Interrogation_DOV.jpg" id="66_Intrusive Interrogation_DOV" data-flag="@X" onclick="openSidebar('66_Intrusive Interrogation_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\110_Indentured Labourer_DOV.jpg" id="110_Indentured Labourer_DOV" data-flag="@X" onclick="openSidebar('110_Indentured Labourer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\149_Crownguard Enforcer_DOV.jpg" id="149_Crownguard Enforcer_DOV" data-flag="@X" onclick="openSidebar('149_Crownguard Enforcer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\196_Gargantuan's Gluttony_DOV.jpg" id="196_Gargantuans Gluttony_DOV" data-flag="@X" onclick="openSidebar('196_Gargantuans Gluttony_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\21_Humble Barkeep_DOV.jpg" id="21_Humble Barkeep_DOV" data-flag="@X" onclick="openSidebar('21_Humble Barkeep_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\67_J'Accuse!_DOV.jpg" id="67_JAccuse!_DOV" data-flag="@X" onclick="openSidebar('67_JAccuse!_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\111_Inquisitorial Assassin_DOV.jpg" id="111_Inquisitorial Assassin_DOV" data-flag="@X" onclick="openSidebar('111_Inquisitorial Assassin_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\153_Firebrand Disciple_DOV.jpg" id="153_Firebrand Disciple_DOV" data-flag="@X" onclick="openSidebar('153_Firebrand Disciple_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\198_Glowsac Webspinner_DOV.jpg" id="198_Glowsac Webspinner_DOV" data-flag="@X" onclick="openSidebar('198_Glowsac Webspinner_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\22_Impressive Feats_DOV.jpg" id="22_Impressive Feats_DOV" data-flag="@X" onclick="openSidebar('22_Impressive Feats_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\70_Lengthy Lecture_DOV.jpg" id="70_Lengthy Lecture_DOV" data-flag="@X" onclick="openSidebar('70_Lengthy Lecture_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\112_Lavish Host_DOV.jpg" id="112_Lavish Host_DOV" data-flag="@X" onclick="openSidebar('112_Lavish Host_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\154_Heretic Hunters_DOV.jpg" id="154_Heretic Hunters_DOV" data-flag="@X" onclick="openSidebar('154_Heretic Hunters_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\199_Hart of Harnelle Wood_DOV.jpg" id="199_Hart of Harnelle Wood_DOV" data-flag="@X" onclick="openSidebar('199_Hart of Harnelle Wood_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\24_Justice's Decree_DOV.jpg" id="24_Justices Decree_DOV" data-flag="@X" onclick="openSidebar('24_Justices Decree_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\73_Marbled Messenger_DOV.jpg" id="73_Marbled Messenger_DOV" data-flag="@X" onclick="openSidebar('73_Marbled Messenger_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\113_Lehmann's Tenacity_DOV.jpg" id="113_Lehmanns Tenacity_DOV" data-flag="@X" onclick="openSidebar('113_Lehmanns Tenacity_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\155_Heroic Riposte_DOV.jpg" id="155_Heroic Riposte_DOV" data-flag="@X" onclick="openSidebar('155_Heroic Riposte_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\203_On the Hunt_DOV.jpg" id="203_On the Hunt_DOV" data-flag="@X" onclick="openSidebar('203_On the Hunt_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\28_Meat-Market Heifer_DOV.jpg" id="28_Meat-Market Heifer_DOV" data-flag="@X" onclick="openSidebar('28_Meat-Market Heifer_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\79_Peer Review_DOV.jpg" id="79_Peer Review_DOV" data-flag="@X" onclick="openSidebar('79_Peer Review_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\114_Master of the Dark Arts_DOV.jpg" id="114_Master of the Dark Arts_DOV" data-flag="@X" onclick="openSidebar('114_Master of the Dark Arts_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\162_Quell Dissent_DOV.jpg" id="162_Quell Dissent_DOV" data-flag="@X" onclick="openSidebar('162_Quell Dissent_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\208_Stand for the Innocent_DOV.jpg" id="208_Stand for the Innocent_DOV" data-flag="@X" onclick="openSidebar('208_Stand for the Innocent_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\30_Ogre of the Gilded Halls_DOV.jpg" id="30_Ogre of the Gilded Halls_DOV" data-flag="@X" onclick="openSidebar('30_Ogre of the Gilded Halls_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\80_Sheltering Melusine_DOV.jpg" id="80_Sheltering Melusine_DOV" data-flag="@X" onclick="openSidebar('80_Sheltering Melusine_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\116_Needle Out_DOV.jpg" id="116_Needle Out_DOV" data-flag="@X" onclick="openSidebar('116_Needle Out_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\165_Raze the Streets_DOV.jpg" id="165_Raze the Streets_DOV" data-flag="@X" onclick="openSidebar('165_Raze the Streets_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\209_Strongarm Revolutionary_DOV.jpg" id="209_Strongarm Revolutionary_DOV" data-flag="@X" onclick="openSidebar('209_Strongarm Revolutionary_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\32_Ordained Penitence_DOV.jpg" id="32_Ordained Penitence_DOV" data-flag="@X" onclick="openSidebar('32_Ordained Penitence_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\82_Sponsored Apprentice_DOV.jpg" id="82_Sponsored Apprentice_DOV" data-flag="@X" onclick="openSidebar('82_Sponsored Apprentice_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\117_Nosferatu's Embrace_DOV.jpg" id="117_Nosferatus Embrace_DOV" data-flag="@X" onclick="openSidebar('117_Nosferatus Embrace_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\166_Rebel's Reclamation_DOV.jpg" id="166_Rebels Reclamation_DOV" data-flag="@X" onclick="openSidebar('166_Rebels Reclamation_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\211_Telhedo Saboteur_DOV.jpg" id="211_Telhedo Saboteur_DOV" data-flag="@X" onclick="openSidebar('211_Telhedo Saboteur_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\33_Paladin of the Crownguard_DOV.jpg" id="33_Paladin of the Crownguard_DOV" data-flag="@X" onclick="openSidebar('33_Paladin of the Crownguard_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\83_Stonework Infuser_DOV.jpg" id="83_Stonework Infuser_DOV" data-flag="@X" onclick="openSidebar('83_Stonework Infuser_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\118_Ogre Gourmand_DOV.jpg" id="118_Ogre Gourmand_DOV" data-flag="@X" onclick="openSidebar('118_Ogre Gourmand_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\169_Searing Truthflame_DOV.jpg" id="169_Searing Truthflame_DOV" data-flag="@X" onclick="openSidebar('169_Searing Truthflame_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\214_Torro Brawler_DOV.jpg" id="214_Torro Brawler_DOV" data-flag="@X" onclick="openSidebar('214_Torro Brawler_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\35_Revoke Existence_DOV.jpg" id="35_Revoke Existence_DOV" data-flag="@X" onclick="openSidebar('35_Revoke Existence_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\85_Subsidized Studies_DOV.jpg" id="85_Subsidized Studies_DOV" data-flag="@X" onclick="openSidebar('85_Subsidized Studies_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\125_Suppressive Fire_DOV.jpg" id="125_Suppressive Fire_DOV" data-flag="@X" onclick="openSidebar('125_Suppressive Fire_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\175_Thieving Catspaw_DOV.jpg" id="175_Thieving Catspaw_DOV" data-flag="@X" onclick="openSidebar('175_Thieving Catspaw_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\216_Trickster's Gambit_DOV.jpg" id="216_Tricksters Gambit_DOV" data-flag="@X" onclick="openSidebar('216_Tricksters Gambit_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\40_True Dexterity_DOV.jpg" id="40_True Dexterity_DOV" data-flag="@X" onclick="openSidebar('40_True Dexterity_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\87_Understand Phenomena_DOV.jpg" id="87_Understand Phenomena_DOV" data-flag="@X" onclick="openSidebar('87_Understand Phenomena_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\132_Vector Transmission_DOV.jpg" id="132_Vector Transmission_DOV" data-flag="@X" onclick="openSidebar('132_Vector Transmission_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\176_Tormenting Voice_DOV.jpg" id="176_Tormenting Voice_DOV" data-flag="@X" onclick="openSidebar('176_Tormenting Voice_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\217_Truffletusk_DOV.jpg" id="217_Truffletusk_DOV" data-flag="@X" onclick="openSidebar('217_Truffletusk_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\42_United Cause_DOV.jpg" id="42_United Cause_DOV" data-flag="@X" onclick="openSidebar('42_United Cause_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\88_Undo Reality_DOV.jpg" id="88_Undo Reality_DOV" data-flag="@X" onclick="openSidebar('88_Undo Reality_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\133_Vivaire's Hedonist_DOV.jpg" id="133_Vivaires Hedonist_DOV" data-flag="@X" onclick="openSidebar('133_Vivaires Hedonist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\178_Vengeful Mother_DOV.jpg" id="178_Vengeful Mother_DOV" data-flag="@X" onclick="openSidebar('178_Vengeful Mother_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\219_Unruly Villagers_DOV.jpg" id="219_Unruly Villagers_DOV" data-flag="@X" onclick="openSidebar('219_Unruly Villagers_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\43_Waltzing Marquise_DOV.jpg" id="43_Waltzing Marquise_DOV" data-flag="@X" onclick="openSidebar('43_Waltzing Marquise_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\89_Wandering Hedge-Mage_DOV.jpg" id="89_Wandering Hedge-Mage_DOV" data-flag="@X" onclick="openSidebar('89_Wandering Hedge-Mage_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\135_Wretched Sackman_DOV.jpg" id="135_Wretched Sackman_DOV" data-flag="@X" onclick="openSidebar('135_Wretched Sackman_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\180_Zolo's Right Horn_DOV.jpg" id="180_Zolos Right Horn_DOV" data-flag="@X" onclick="openSidebar('180_Zolos Right Horn_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\224_Wildtrail Hermit_DOV.jpg" id="224_Wildtrail Hermit_DOV" data-flag="@X" onclick="openSidebar('224_Wildtrail Hermit_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\296_Florina, Heretical Preacher_DOV.jpg" id="296_Florina, Heretical Preacher_DOV" data-flag="@X" onclick="openSidebar('296_Florina, Heretical Preacher_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\301_Lanternlight Assailant_PRO_DOV.jpg" id="301_Lanternlight Assailant_PRO_DOV" data-flag="@X" onclick="openSidebar('301_Lanternlight Assailant_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\302_Conspiracy of Wealth_PRO_DOV.jpg" id="302_Conspiracy of Wealth_PRO_DOV" data-flag="@X" onclick="openSidebar('302_Conspiracy of Wealth_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\303_Spirited Protest_PRO_DOV.jpg" id="303_Spirited Protest_PRO_DOV" data-flag="@X" onclick="openSidebar('303_Spirited Protest_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\304_La Bete du Harnelle_PRO_DOV.jpg" id="304_La Bete du Harnelle_PRO_DOV" data-flag="@X" onclick="openSidebar('304_La Bete du Harnelle_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\297_Decorated Duelist_PRO_DOV.jpg" id="297_Decorated Duelist_PRO_DOV" data-flag="@X" onclick="openSidebar('297_Decorated Duelist_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\309_Scorching Condemnation_PRO_DOV.jpg" id="309_Scorching Condemnation_PRO_DOV" data-flag="@X" onclick="openSidebar('309_Scorching Condemnation_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\305_Enduring Jentil (Obelix the Gaul)_DOV.jpg" id="305_Enduring Jentil (Obelix the Gaul)_DOV" data-flag="@X" onclick="openSidebar('305_Enduring Jentil (Obelix the Gaul)_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\298_Heraldic Griffin_PRO_DOV.jpg" id="298_Heraldic Griffin_PRO_DOV" data-flag="@X" onclick="openSidebar('298_Heraldic Griffin_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\306_Telling Tall Tales_PRO_DOV.jpg" id="306_Telling Tall Tales_PRO_DOV" data-flag="@X" onclick="openSidebar('306_Telling Tall Tales_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\299_Heroes Never Die_PRO_DOV.jpg" id="299_Heroes Never Die_PRO_DOV" data-flag="@X" onclick="openSidebar('299_Heroes Never Die_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\311_Telling Tall Tales (Fate)_DOV.jpg" id="311_Telling Tall Tales (Fate)_DOV" data-flag="@X" onclick="openSidebar('311_Telling Tall Tales (Fate)_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\300_Let Them Eat Cake_PRO_DOV.jpg" id="300_Let Them Eat Cake_PRO_DOV" data-flag="@X" onclick="openSidebar('300_Let Them Eat Cake_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\310_Revolutionary Class_PRO_DOV.jpg" id="310_Revolutionary Class_PRO_DOV" data-flag="@X" onclick="openSidebar('310_Revolutionary Class_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\248_Palace Gargoyle_DOV.jpg" id="248_Palace Gargoyle_DOV" data-flag="@X" onclick="openSidebar('248_Palace Gargoyle_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\239_Gustav, Pactmaker_DOV.jpg" id="239_Gustav, Pactmaker_DOV" data-flag="@X" onclick="openSidebar('239_Gustav, Pactmaker_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\226_Alehana the Persuader_DOV.jpg" id="226_Alehana the Persuader_DOV" data-flag="@X" onclick="openSidebar('226_Alehana the Persuader_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\230_Blooming Cocollona_DOV.jpg" id="230_Blooming Cocollona_DOV" data-flag="@X" onclick="openSidebar('230_Blooming Cocollona_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\227_Aspiring Hero_DOV.jpg" id="227_Aspiring Hero_DOV" data-flag="@X" onclick="openSidebar('227_Aspiring Hero_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\242_Maelle, Opulent Stoneshaper_DOV.jpg" id="242_Maelle, Opulent Stoneshaper_DOV" data-flag="@X" onclick="openSidebar('242_Maelle, Opulent Stoneshaper_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\246_Noemie Beauclaire_DOV.jpg" id="246_Noemie Beauclaire_DOV" data-flag="@X" onclick="openSidebar('246_Noemie Beauclaire_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\251_Speaker of Ash_DOV.jpg" id="251_Speaker of Ash_DOV" data-flag="@X" onclick="openSidebar('251_Speaker of Ash_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\249_The Running of the Bulls_DOV.jpg" id="249_The Running of the Bulls_DOV" data-flag="@X" onclick="openSidebar('249_The Running of the Bulls_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\243_Minou, the Russet Whisker_DOV.jpg" id="243_Minou, the Russet Whisker_DOV" data-flag="@X" onclick="openSidebar('243_Minou, the Russet Whisker_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\229_Bloodstained Shalena_DOV.jpg" id="229_Bloodstained Shalena_DOV" data-flag="@X" onclick="openSidebar('229_Bloodstained Shalena_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\232_Carlacio, Riot Instigator_DOV.jpg" id="232_Carlacio, Riot Instigator_DOV" data-flag="@X" onclick="openSidebar('232_Carlacio, Riot Instigator_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\307_The Running of the Bulls_PRO_DOV.jpg" id="307_The Running of the Bulls_PRO_DOV" data-flag="@X" onclick="openSidebar('307_The Running of the Bulls_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\255_Vivaire, Sanguine Patriarch_DOV.jpg" id="255_Vivaire, Sanguine Patriarch_DOV" data-flag="@X" onclick="openSidebar('255_Vivaire, Sanguine Patriarch_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\254_Truthcleaver_DOV.jpg" id="254_Truthcleaver_DOV" data-flag="@X" onclick="openSidebar('254_Truthcleaver_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\253_Tenacious Snapvines_DOV.jpg" id="253_Tenacious Snapvines_DOV" data-flag="@X" onclick="openSidebar('253_Tenacious Snapvines_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\252_Storming the Palace_DOV.jpg" id="252_Storming the Palace_DOV" data-flag="@X" onclick="openSidebar('252_Storming the Palace_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\237_Gift-Giver Tyrus_DOV.jpg" id="237_Gift-Giver Tyrus_DOV" data-flag="@X" onclick="openSidebar('237_Gift-Giver Tyrus_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\245_Noble Class_DOV.jpg" id="245_Noble Class_DOV" data-flag="@X" onclick="openSidebar('245_Noble Class_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\231_Burning Witch_DOV.jpg" id="231_Burning Witch_DOV" data-flag="@X" onclick="openSidebar('231_Burning Witch_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\247_Ollitie, Resourceful Tracker_DOV.jpg" id="247_Ollitie, Resourceful Tracker_DOV" data-flag="@X" onclick="openSidebar('247_Ollitie, Resourceful Tracker_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\240_Juana, Telhedo's Last Master_DOV.jpg" id="240_Juana, Telhedos Last Master_DOV" data-flag="@X" onclick="openSidebar('240_Juana, Telhedos Last Master_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\236_Enlightened Naturalist_DOV.jpg" id="236_Enlightened Naturalist_DOV" data-flag="@X" onclick="openSidebar('236_Enlightened Naturalist_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\244_Mortea, Bloodline Keeper_DOV.jpg" id="244_Mortea, Bloodline Keeper_DOV" data-flag="@X" onclick="openSidebar('244_Mortea, Bloodline Keeper_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\250_Samacris the Soulscorcher_DOV.jpg" id="250_Samacris the Soulscorcher_DOV" data-flag="@X" onclick="openSidebar('250_Samacris the Soulscorcher_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\234_Cuernas, Victor of the Ring_DOV.jpg" id="234_Cuernas, Victor of the Ring_DOV" data-flag="@X" onclick="openSidebar('234_Cuernas, Victor of the Ring_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\241_Louna, the Ever-Learning_DOV.jpg" id="241_Louna, the Ever-Learning_DOV" data-flag="@X" onclick="openSidebar('241_Louna, the Ever-Learning_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\308_Truthcleaver_PRO_DOV.jpg" id="308_Truthcleaver_PRO_DOV" data-flag="@X" onclick="openSidebar('308_Truthcleaver_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\312_Storming the Palace_PRO_DOV.jpg" id="312_Storming the Palace_PRO_DOV" data-flag="@X" onclick="openSidebar('312_Storming the Palace_PRO_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\228_The Beauclaire Family_DOV.jpg" id="228_The Beauclaire Family_DOV" data-flag="@X" onclick="openSidebar('228_The Beauclaire Family_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\233_Cathette, Righteous Princess_DOV.jpg" id="233_Cathette, Righteous Princess_DOV" data-flag="@X" onclick="openSidebar('233_Cathette, Righteous Princess_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\235_D'Enzo Orsino_DOV.jpg" id="235_DEnzo Orsino_DOV" data-flag="@X" onclick="openSidebar('235_DEnzo Orsino_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\238_Goletre, Perfected Form_DOV.jpg" id="238_Goletre, Perfected Form_DOV" data-flag="@X" onclick="openSidebar('238_Goletre, Perfected Form_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\256_Witchfinder Artur_DOV.jpg" id="256_Witchfinder Artur_DOV" data-flag="@X" onclick="openSidebar('256_Witchfinder Artur_DOV',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\262_Elephant of the Golden Palace_DOV.jpg" id="262_Elephant of the Golden Palace_DOV" data-flag="@X" onclick="openSidebar('262_Elephant of the Golden Palace_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\261_Crownguard Ban_DOV.jpg" id="261_Crownguard Ban_DOV" data-flag="@X" onclick="openSidebar('261_Crownguard Ban_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\265_Infernal Machine_DOV.jpg" id="265_Infernal Machine_DOV" data-flag="@X" onclick="openSidebar('265_Infernal Machine_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\267_Pagentry Golem_DOV.jpg" id="267_Pagentry Golem_DOV" data-flag="@X" onclick="openSidebar('267_Pagentry Golem_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\269_Thronebreaker Blade_DOV.jpg" id="269_Thronebreaker Blade_DOV" data-flag="@X" onclick="openSidebar('269_Thronebreaker Blade_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\257_Adaptive Blade_DOV.jpg" id="257_Adaptive Blade_DOV" data-flag="@X" onclick="openSidebar('257_Adaptive Blade_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\268_Smuggler's Convoy_DOV.jpg" id="268_Smugglers Convoy_DOV" data-flag="@X" onclick="openSidebar('268_Smugglers Convoy_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\271_Vault of Poisons_DOV.jpg" id="271_Vault of Poisons_DOV" data-flag="@X" onclick="openSidebar('271_Vault of Poisons_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\258_Bastion Walls_DOV.jpg" id="258_Bastion Walls_DOV" data-flag="@X" onclick="openSidebar('258_Bastion Walls_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\259_Brass Baker_DOV.jpg" id="259_Brass Baker_DOV" data-flag="@X" onclick="openSidebar('259_Brass Baker_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\260_Crowdqueller Golem_DOV.jpg" id="260_Crowdqueller Golem_DOV" data-flag="@X" onclick="openSidebar('260_Crowdqueller Golem_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\263_Explosive Canister_DOV.jpg" id="263_Explosive Canister_DOV" data-flag="@X" onclick="openSidebar('263_Explosive Canister_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\264_Fencer's Foil_DOV.jpg" id="264_Fencers Foil_DOV" data-flag="@X" onclick="openSidebar('264_Fencers Foil_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\266_Lurking Gargoyle_DOV.jpg" id="266_Lurking Gargoyle_DOV" data-flag="@X" onclick="openSidebar('266_Lurking Gargoyle_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\270_Traveler's Amulet_DOV.jpg" id="270_Travelers Amulet_DOV" data-flag="@X" onclick="openSidebar('270_Travelers Amulet_DOV',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\291_Pool of Light_DOV.jpg" id="291_Pool of Light_DOV" data-flag="@X" onclick="openSidebar('291_Pool of Light_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\275_Flooded Morass_DOV.jpg" id="275_Flooded Morass_DOV" data-flag="@X" onclick="openSidebar('275_Flooded Morass_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\285_Lavatorn Fields_DOV.jpg" id="285_Lavatorn Fields_DOV" data-flag="@X" onclick="openSidebar('285_Lavatorn Fields_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\276_Flourishing Crevasse_DOV.jpg" id="276_Flourishing Crevasse_DOV" data-flag="@X" onclick="openSidebar('276_Flourishing Crevasse_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\282_Heart of the Glade_DOV.jpg" id="282_Heart of the Glade_DOV" data-flag="@X" onclick="openSidebar('282_Heart of the Glade_DOV',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\281_Gloomcover Steppe_DOV.jpg" id="281_Gloomcover Steppe_DOV" data-flag="@X" onclick="openSidebar('281_Gloomcover Steppe_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\279_Frostfire Geysers_DOV.jpg" id="279_Frostfire Geysers_DOV" data-flag="@X" onclick="openSidebar('279_Frostfire Geysers_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\280_Fungal Mire_DOV.jpg" id="280_Fungal Mire_DOV" data-flag="@X" onclick="openSidebar('280_Fungal Mire_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\293_Spiraling Canyon_DOV.jpg" id="293_Spiraling Canyon_DOV" data-flag="@X" onclick="openSidebar('293_Spiraling Canyon_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\286_Lush Oasis_DOV.jpg" id="286_Lush Oasis_DOV" data-flag="@X" onclick="openSidebar('286_Lush Oasis_DOV',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\272_Court of Miracles_DOV.jpg" id="272_Court of Miracles_DOV" data-flag="@X" onclick="openSidebar('272_Court of Miracles_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\292_Revolutionary's Retreat_DOV.jpg" id="292_Revolutionarys Retreat_DOV" data-flag="@X" onclick="openSidebar('292_Revolutionarys Retreat_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\273_Evolving Wilds_DOV.jpg" id="273_Evolving Wilds_DOV" data-flag="@X" onclick="openSidebar('273_Evolving Wilds_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\274_Extravagant Patisserie_DOV.jpg" id="274_Extravagant Patisserie_DOV" data-flag="@X" onclick="openSidebar('274_Extravagant Patisserie_DOV',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\295_Swamp Romantic_DOV.jpg" id="295_Swamp Romantic_DOV" data-flag="@X" onclick="openSidebar('295_Swamp Romantic_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\277_Forest_DOV.jpg" id="277_Forest_DOV" data-flag="@X" onclick="openSidebar('277_Forest_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\287_Mountain_DOV.jpg" id="287_Mountain_DOV" data-flag="@X" onclick="openSidebar('287_Mountain_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\283_Island_DOV.jpg" id="283_Island_DOV" data-flag="@X" onclick="openSidebar('283_Island_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\290_Plains Romantic_DOV.jpg" id="290_Plains Romantic_DOV" data-flag="@X" onclick="openSidebar('290_Plains Romantic_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\284_Island Romantic_DOV.jpg" id="284_Island Romantic_DOV" data-flag="@X" onclick="openSidebar('284_Island Romantic_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\289_Plains_DOV.jpg" id="289_Plains_DOV" data-flag="@X" onclick="openSidebar('289_Plains_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\288_Mountain Romantic_DOV.jpg" id="288_Mountain Romantic_DOV" data-flag="@X" onclick="openSidebar('288_Mountain Romantic_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\278_Forest Romantic_DOV.jpg" id="278_Forest Romantic_DOV" data-flag="@X" onclick="openSidebar('278_Forest Romantic_DOV',false)"></div>
+			<div class="container"><img alt="/sets\DOV-files\img\294_Swamp_DOV.jpg" id="294_Swamp_DOV" data-flag="@X" onclick="openSidebar('294_Swamp_DOV',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
