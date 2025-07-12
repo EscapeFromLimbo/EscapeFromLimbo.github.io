@@ -1,6 +1,6 @@
 ﻿{
     "name": "Theros: Age of Trax",
-    "formats": "",
+    "formats": "standard",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
@@ -20,8 +20,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traxian Calvary",
@@ -39,8 +38,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Karda's Legacy",
@@ -58,8 +56,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Chosen of Heliod",
@@ -77,7 +74,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Heliod's Glory",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -88,7 +84,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Basilo, Lion of Valor_PRO_TRX",
@@ -106,7 +102,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "The Lion's Charisma_PRO_TRX",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -135,8 +130,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Fathomless Dominion",
@@ -154,8 +148,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Buried Colossus",
@@ -173,8 +166,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traumatic Impact",
@@ -192,8 +184,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Kruphix",
@@ -211,8 +202,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Thundering Serpent",
@@ -230,8 +220,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Guardians of Zakros",
@@ -249,8 +238,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Implacable Shrine-Guard",
@@ -268,8 +256,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Anvilwrought Lion",
@@ -287,8 +274,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Basilo, Lion of Valor",
@@ -306,7 +292,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "The Lion's Charisma",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -317,7 +302,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Phenax's Judgment",
@@ -335,8 +320,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Meeting of the Minds",
@@ -354,8 +338,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Callaphe the Mariner",
@@ -373,7 +356,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Blessing of the Sea",
             "color2": "U",
             "type2": "Enchantment - Aura Blessing",
@@ -402,8 +384,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Temple of Plenty",
@@ -421,8 +402,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Absorb Divinity",
@@ -440,8 +420,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Reaper of Fields",
@@ -459,7 +438,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Fields of Ilysia",
             "color2": "G",
             "type2": "Enchantment - Aura Blessing",
@@ -488,7 +466,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Blessings of the Flock",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -517,8 +494,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nylea's Call",
@@ -536,8 +512,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Triumph",
@@ -555,8 +530,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "The Fall of Trax",
@@ -574,8 +548,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Through Blood, Knowledge",
@@ -593,8 +566,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Nylea",
@@ -612,8 +584,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Revel Watchguard",
@@ -631,8 +602,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Apprentice of the Forge-God",
@@ -650,8 +620,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Olantin Stalwart",
@@ -669,8 +638,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Xarr's Mockery",
@@ -688,8 +656,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Bringer of Heliod's Light",
@@ -707,7 +674,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Blinded by Divinity",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -718,7 +684,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Lost to Memory",
@@ -736,8 +702,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Horror of the Mystic Sea",
@@ -755,8 +720,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ephemeral Mire",
@@ -774,8 +738,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Command from the Front",
@@ -793,8 +756,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Arasta's Burden",
@@ -812,8 +774,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Purphoros",
@@ -831,8 +792,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Karametra, Life-Harvester",
@@ -850,8 +810,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Phenax's Touch",
@@ -869,8 +828,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Slighos the Body-Binder",
@@ -888,8 +846,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Maim",
@@ -907,8 +864,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Thassa's Caress",
@@ -926,8 +882,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skophos Warden",
@@ -945,8 +900,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Biaas the Poison Drinker",
@@ -964,8 +918,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skotha, Titan of Eternal Dark",
@@ -983,8 +936,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Fall from Nyx",
@@ -1002,8 +954,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Stormscraper of Ketaphos",
@@ -1021,8 +972,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Tyranny of Trax",
@@ -1040,8 +990,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Swamp",
@@ -1059,8 +1008,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Flame Whip",
@@ -1078,8 +1026,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Gods Willing",
@@ -1097,8 +1044,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Aphonai's Reveler",
@@ -1116,8 +1062,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nimbus of Thought",
@@ -1135,8 +1080,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Host of the Neverending Revel",
@@ -1154,8 +1098,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pidae Raider",
@@ -1173,8 +1116,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Wolf-Whistle Satyr",
@@ -1192,7 +1134,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Fable of Tooth and Fur",
             "color2": "G",
             "type2": "Enchantment - Aura Blessing",
@@ -1221,8 +1162,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Remnant of Zakros",
@@ -1240,8 +1180,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Gray Merchant of Asphodel",
@@ -1259,8 +1198,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Reaper Archon",
@@ -1278,8 +1216,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Elektes, First King of Akros_PRO_TRX",
@@ -1297,8 +1234,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Petraform Hermit",
@@ -1316,8 +1252,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Archon of Condemnation",
@@ -1335,7 +1270,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Confine to Eternity",
             "color2": "WB",
             "type2": "Enchantment - Aura Blessing",
@@ -1346,7 +1280,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Archon of Glorious Light",
@@ -1364,8 +1298,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Barren Ashlands",
@@ -1383,8 +1316,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pharika, Snake-Twined",
@@ -1402,8 +1334,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Iara, Blessed-Hart",
@@ -1421,8 +1352,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Punishment from Nyx",
@@ -1440,8 +1370,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Klothys's Judgment",
@@ -1459,8 +1388,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Grim Physician",
@@ -1478,8 +1406,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pyros Rider",
@@ -1497,7 +1424,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Consuming Flames",
             "color2": "R",
             "type2": "Enchantment - Aura Blessing",
@@ -1526,8 +1452,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Timedrinker the Bleached",
@@ -1545,8 +1470,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Phenax, Brazen Thief",
@@ -1564,7 +1488,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Phenax, Poison-Tongued",
             "color2": "UB",
             "type2": "Legendary Enchantment Creature - God",
@@ -1593,8 +1516,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pharika's Harbinger",
@@ -1612,7 +1534,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Poison in the Blood",
             "color2": "B",
             "type2": "Enchantment - Aura Blessing",
@@ -1641,7 +1562,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Left to the Sea",
             "color2": "U",
             "type2": "Enchantment - Aura Blessing",
@@ -1670,8 +1590,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Walk the Dead's Path",
@@ -1689,8 +1608,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Evridiki, Queen of Pidae",
@@ -1708,8 +1626,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Tide's Ire",
@@ -1727,8 +1644,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Momentary Petrification",
@@ -1746,8 +1662,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Deceit",
@@ -1765,8 +1680,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Weave Destiny",
@@ -1784,8 +1698,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Epiphany",
@@ -1803,8 +1716,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ride the Tartyx",
@@ -1822,8 +1734,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Keranos's Judgment",
@@ -1841,8 +1752,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Alseid of Stilled Hearts",
@@ -1860,8 +1770,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Terramorphic Expanse",
@@ -1879,8 +1788,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Tidelock Pearl",
@@ -1898,8 +1806,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Kraken Hatchling",
@@ -1917,8 +1824,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Turn to Nyx",
@@ -1936,8 +1842,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "The Burning of Pidae",
@@ -1955,8 +1860,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Mogis's Judgment",
@@ -1974,8 +1878,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Star-Studded Sagittaur",
@@ -1993,7 +1896,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Equinox Mark",
             "color2": "G",
             "type2": "Enchantment - Aura Blessing",
@@ -2004,7 +1906,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Iroas, Honor-Bound",
@@ -2022,8 +1924,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Thraxes, Sire of Dragons",
@@ -2041,8 +1942,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Together Just a Moment More",
@@ -2060,8 +1960,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Behemoth of the Five Rivers",
@@ -2079,8 +1978,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traxian Hoplite",
@@ -2098,8 +1996,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shatter the Reflection",
@@ -2117,8 +2014,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Prince of the Pride",
@@ -2136,8 +2032,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Survivor of Pidae",
@@ -2155,8 +2050,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nikon's Aegis",
@@ -2174,8 +2068,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Underworld Tormentor",
@@ -2193,8 +2086,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Phlage, Titan of Burning Wind",
@@ -2212,8 +2104,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Efimia of the Horse",
@@ -2231,8 +2122,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Eventide Coronet",
@@ -2250,8 +2140,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "The Smoking Strand",
@@ -2269,8 +2158,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Kruphix's Judgment",
@@ -2288,8 +2176,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Gates to the Underworld",
@@ -2307,8 +2194,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Daybreak Rider",
@@ -2326,7 +2212,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "The Sun's Blessing",
             "color2": "W",
             "type2": "Enchantment - Aura Blessing",
@@ -2355,8 +2240,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Invest in the Future",
@@ -2374,8 +2258,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Iroas",
@@ -2393,8 +2276,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Isolated Misery",
@@ -2412,8 +2294,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Spikemane Lion",
@@ -2431,7 +2312,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Spikemane Cloak",
             "color2": "RG",
             "type2": "Enchantment - Aura Blessing",
@@ -2442,7 +2322,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "The Path of Phenax",
@@ -2460,8 +2340,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Mystery",
@@ -2479,8 +2358,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Those Forgotten_PRO_TRX",
@@ -2498,8 +2376,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traxian Strategos",
@@ -2517,8 +2394,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Silence",
@@ -2536,8 +2412,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "The Army of Trax",
@@ -2555,8 +2430,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ordeal of Karametra",
@@ -2574,8 +2448,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ordeal of Ephara",
@@ -2593,8 +2466,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Quality Time",
@@ -2612,8 +2484,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Hunger's Door",
@@ -2631,8 +2502,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Fight the Tides",
@@ -2650,8 +2520,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Divine Mishap",
@@ -2669,8 +2538,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Satyr Arsonist",
@@ -2688,8 +2556,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Iroas's Judgment",
@@ -2707,8 +2574,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Audience at Zakros",
@@ -2726,8 +2592,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Belief-Belying Beast",
@@ -2745,8 +2610,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Omen of Slaughter",
@@ -2764,8 +2628,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Anvilwrought Crane",
@@ -2783,8 +2646,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Athreos, Gold-Eyed",
@@ -2802,8 +2664,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Warden of the Deep-Dwelling",
@@ -2821,8 +2682,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "The Arbiter",
@@ -2840,8 +2700,7 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Hekatan Demagogue",
@@ -2859,8 +2718,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Centaur Mentor",
@@ -2878,8 +2736,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Aegis Assault",
@@ -2897,8 +2754,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Rite of Venom",
@@ -2916,8 +2772,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Monstrous Challenge",
@@ -2935,8 +2790,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Keranos, Fickle-Fortuned",
@@ -2954,8 +2808,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Forest",
@@ -2973,8 +2826,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Archon of the Legion",
@@ -2992,8 +2844,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Builder of Monuments_PRO_TRX",
@@ -3011,8 +2862,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skophos Raid-Veteran",
@@ -3030,8 +2880,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Mogis's Raider",
@@ -3049,7 +2898,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Raider's Blessing",
             "color2": "R",
             "type2": "Enchantment - Aura Blessing",
@@ -3078,8 +2926,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traveler's Amulet",
@@ -3097,8 +2944,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Dakran Shipcrusher",
@@ -3116,7 +2962,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Depths of the Sea",
             "color2": "U",
             "type2": "Enchantment - Aura Blessing",
@@ -3145,8 +2990,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shell Cove",
@@ -3164,8 +3008,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Terror of Olantin",
@@ -3183,8 +3026,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Harmony with Nature",
@@ -3202,8 +3044,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zodiac Griffin",
@@ -3221,8 +3062,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Thrice-Blessed Boon",
@@ -3240,8 +3080,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Molpadia, the Last Acephali",
@@ -3259,8 +3098,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nyxborn Retriever",
@@ -3278,8 +3116,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Clash of the Titans",
@@ -3297,8 +3134,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Fall of Olantin",
@@ -3316,8 +3152,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Star-Seeking Dreamer",
@@ -3335,8 +3170,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Patron of Ephara's Glory",
@@ -3354,8 +3188,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Fall into the Underworld",
@@ -3373,8 +3206,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Punch Out of the Sky",
@@ -3392,8 +3224,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zakros Decree",
@@ -3411,8 +3242,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Eidolon of Graceful Steps",
@@ -3430,8 +3260,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pull of Tizerus",
@@ -3449,8 +3278,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Odunos Smuggler",
@@ -3468,8 +3296,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Agnomakhos's Abomination",
@@ -3487,8 +3314,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Island",
@@ -3506,8 +3332,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Kakomanties Circle",
@@ -3525,8 +3350,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pero, Puppet of Erebos",
@@ -3544,8 +3368,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Raksolcs Ravage-Soul",
@@ -3563,8 +3386,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ordeal of Karda",
@@ -3582,8 +3404,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Deception's Edge",
@@ -3601,8 +3422,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Titan's Stairs",
@@ -3620,8 +3440,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ignite",
@@ -3639,8 +3458,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Furies of the Natural Order",
@@ -3658,7 +3476,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Tether to Reality",
             "color2": "B",
             "type2": "Enchantment - Aura Blessing Curse",
@@ -3687,8 +3504,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "King of the Wilderness",
@@ -3706,8 +3522,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Caller of Ferocity",
@@ -3725,7 +3540,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Ferocity of Nature",
             "color2": "G",
             "type2": "Enchantment - Aura Blessing",
@@ -3754,8 +3568,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Lost Caller of the Sea",
@@ -3773,8 +3586,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Thassa's Tideshaper",
@@ -3792,8 +3604,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Poisoned Strike",
@@ -3811,8 +3622,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Mogis, Rage-Crowned",
@@ -3830,8 +3640,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Ephara",
@@ -3849,8 +3658,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Dedicated Charge",
@@ -3868,8 +3676,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skophos Conqueror",
@@ -3887,8 +3694,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Chrolcatos, Pidae's Founder",
@@ -3906,8 +3712,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Soul-Guide Lantern",
@@ -3925,8 +3730,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Spear of the Sun-Crowned",
@@ -3944,8 +3748,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Xarr of the Eternal Cycle",
@@ -3963,8 +3766,7 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Heliod",
@@ -3982,8 +3784,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Hero in the Making",
@@ -4001,8 +3802,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Thassa",
@@ -4020,8 +3820,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Read the Tides",
@@ -4039,8 +3838,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ordeal of Pharika",
@@ -4058,8 +3856,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Seeker of New Horizons",
@@ -4077,7 +3874,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Ilysian Guardian",
             "color2": "G",
             "type2": "Enchantment - Aura Blessing",
@@ -4088,7 +3884,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Haubay's Familiar",
@@ -4106,8 +3902,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Karda, Battle-Born",
@@ -4125,8 +3920,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Colossus of Trax",
@@ -4144,8 +3938,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "New Recruit",
@@ -4163,8 +3956,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Omen of Victory",
@@ -4182,8 +3974,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Labyrinthine Hydra",
@@ -4201,8 +3992,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Enlightenment",
@@ -4220,8 +4010,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Agent of Deception",
@@ -4239,8 +4028,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Ashlands Phoenix",
@@ -4258,8 +4046,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Lurking Vyrkolakas",
@@ -4277,8 +4064,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ephara's Judgment",
@@ -4296,8 +4082,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Ephara, Hero-Maker",
@@ -4315,8 +4100,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Erebos",
@@ -4334,8 +4118,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Builder of Monuments",
@@ -4353,8 +4136,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Sunbeam Alseid",
@@ -4372,8 +4154,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Karametra",
@@ -4391,8 +4172,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Olantin Emissary",
@@ -4410,8 +4190,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Cybele of the Frozen Faith",
@@ -4429,8 +4208,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Lykaretos, Harvest's Bounty",
@@ -4448,7 +4226,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "The Miraculous Field",
             "color2": "WG",
             "type2": "Enchantment - Aura Blessing",
@@ -4477,8 +4254,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Malady",
@@ -4496,8 +4272,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Midsummer Dream",
@@ -4515,8 +4290,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Arena Champion",
@@ -4534,8 +4308,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ephara's Messenger",
@@ -4553,8 +4326,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nurture the Future",
@@ -4572,8 +4344,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skola Nyxweaver",
@@ -4591,8 +4362,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Oracle of Zakros",
@@ -4610,7 +4380,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Ocular Insight",
             "color2": "U",
             "type2": "Enchantment - Aura Blessing",
@@ -4621,7 +4390,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Leonin Hoplite",
@@ -4639,8 +4408,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Pharika",
@@ -4658,8 +4426,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ephara's Oracle",
@@ -4677,8 +4444,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Stoic Phylaskia",
@@ -4696,8 +4462,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zakros General",
@@ -4715,8 +4480,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Trinity of Fates",
@@ -4734,8 +4498,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Arasta's Handmaiden",
@@ -4753,8 +4516,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nykthos, Architect of Gods",
@@ -4772,8 +4534,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Menelaia, Beloved Lyrist",
@@ -4791,8 +4552,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Claes, Shield of Karda",
@@ -4810,7 +4570,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Claes, Melded Spark",
             "color2": "WU",
             "type2": "Legendary Planeswalker - Claes Haubay",
@@ -4821,7 +4580,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "tag:standard\n!tag:cube"
         },
         {
             "card_name": "Ephara, Hero-Maker_PRO_TRX",
@@ -4839,8 +4598,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Tymaret, Bane of Phenax",
@@ -4858,8 +4616,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Tiro, the Silent Blade",
@@ -4877,8 +4634,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Karda's Emmisary",
@@ -4896,8 +4652,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Mentor of the Dakra Isles",
@@ -4915,8 +4670,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Siphon the Divine",
@@ -4934,8 +4688,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Keranos",
@@ -4953,8 +4706,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Klothys",
@@ -4972,8 +4724,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nikon, Skophos Protector",
@@ -4991,8 +4742,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Abandon",
@@ -5010,8 +4760,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Misbegotten Aims",
@@ -5029,8 +4778,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Those Forgotten",
@@ -5048,8 +4796,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nylea's Grovetender",
@@ -5067,8 +4814,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pull of Tizerus_PRO_TRX",
@@ -5086,8 +4832,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Heedless Cruelty",
@@ -5105,8 +4850,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ebb and Flow",
@@ -5124,8 +4868,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Agent of Pharika",
@@ -5143,8 +4886,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nessian Woods",
@@ -5162,8 +4904,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Orestes, Heroic Scoundrel",
@@ -5181,8 +4922,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Make an Example",
@@ -5200,8 +4940,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Miasmic Cove",
@@ -5219,8 +4958,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Melancholic Oracle",
@@ -5238,8 +4976,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Phenax",
@@ -5257,8 +4994,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Petros, Purphoros's Double",
@@ -5276,8 +5012,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Possibility Savant",
@@ -5295,8 +5030,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Erase from Reality",
@@ -5314,8 +5048,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Split-Hair Asp",
@@ -5333,8 +5066,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zygos, Edge of the Bull",
@@ -5352,7 +5084,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Blessing of Slaughter",
             "color2": "R",
             "type2": "Enchantment - Aura Blessing",
@@ -5381,8 +5112,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Athreos's Judgment",
@@ -5400,8 +5130,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Coward-Eater",
@@ -5419,8 +5148,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Axiomene, Syrurian Tyrant",
@@ -5438,8 +5166,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Inkblooded Basilisk",
@@ -5457,8 +5184,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Kruphix, Far-Seeing",
@@ -5476,8 +5202,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Imposing Serpent",
@@ -5495,8 +5220,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Disciple of the Weavers",
@@ -5514,8 +5238,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Omen of Deception",
@@ -5533,8 +5256,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Koios, Spear of Karda",
@@ -5552,8 +5274,7 @@
             "set": "TRX",
             "loyalty": "4",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Seismic Chimera",
@@ -5571,7 +5292,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Tectonic Rage",
             "color2": "R",
             "type2": "Enchantment - Aura Blessing",
@@ -5600,8 +5320,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Marble Philosopher",
@@ -5619,8 +5338,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Slumbering Serpent",
@@ -5638,8 +5356,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Phenax's Confidant",
@@ -5657,8 +5374,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Garden of Shrines",
@@ -5676,8 +5392,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Voyage to the Siren Sea",
@@ -5695,8 +5410,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Travel Through the Mystic Sea",
@@ -5714,8 +5428,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Pharika's Judgment",
@@ -5733,8 +5446,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shrine to Mogis",
@@ -5752,8 +5464,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Shoreline Crasher",
@@ -5771,8 +5482,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Traxian General",
@@ -5790,8 +5500,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Benthalos of Land and Sea",
@@ -5809,8 +5518,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Eidolon of Empty Thoughts",
@@ -5828,8 +5536,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zakros Stompers",
@@ -5847,8 +5554,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Keeper of the Scale",
@@ -5866,8 +5572,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Koios, Spear of Karda_PRO_TRX",
@@ -5885,8 +5590,7 @@
             "set": "TRX",
             "loyalty": "4",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Omen of Slaughter_PRO_TRX",
@@ -5904,8 +5608,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Kynaios, Blade-Bound",
@@ -5923,8 +5626,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard\ntag:cube"
+            "notes": "!tag:standard\n!tag:cube"
         },
         {
             "card_name": "Dryad of the Keen-Eyed",
@@ -5942,8 +5644,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Phenax's Touch_PRO_TRX",
@@ -5961,8 +5662,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Klothys, Fate-Driven",
@@ -5980,8 +5680,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Temple of Malice",
@@ -5999,8 +5698,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Reply to the Call",
@@ -6018,8 +5716,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Karametra's Judgment",
@@ -6037,8 +5734,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Plead to Erebos",
@@ -6056,8 +5752,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Ordeal of Athreos",
@@ -6075,8 +5770,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Canopy of the Winter Nexus",
@@ -6094,8 +5788,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Nessian Scout-Captain",
@@ -6113,8 +5806,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Elektes's Charge",
@@ -6132,8 +5824,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Plains",
@@ -6151,8 +5842,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Secluded Gorgon",
@@ -6170,7 +5860,6 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
             "card_name2": "Glare of the Gorgon",
             "color2": "B",
             "type2": "Enchantment - Aura Blessing",
@@ -6199,8 +5888,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Skophos Trainee",
@@ -6218,8 +5906,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Zale, Titanohunter",
@@ -6237,8 +5924,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         },
         {
             "card_name": "Omen of Storms",
@@ -6256,8 +5942,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "",
-            "format": "standard",
-            "notes": "tag:standard"
+            "notes": "!tag:standard"
         }
     ],
     "version": 1
