@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/PLANE-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>PLANE visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 60%;
+			max-height: 640px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/PLANE-files/logo.png" />
+	<img class="preload-hidden" src="/sets/KDT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CCR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CNY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYB-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/POP-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/BLR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KRS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SVG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GQC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KUT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MON-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VST-files/icon.png" />
+		<img class="preload-hidden" src="/sets/REV-files/icon.png" />
+		<img class="preload-hidden" src="/sets/PLANE-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="KDT"><img src="/sets/KDT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CCR"><img src="/sets/CCR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CNY"><img src="/sets/CNY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYB"><img src="/sets/CYB-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OLD"><img src="/sets/OLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="POP"><img src="/sets/POP-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOV"><img src="/sets/DOV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="BLR"><img src="/sets/BLR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSV"><img src="/sets/KSV-files/icon.png"></img></a></div>
+		<div class="icon"><a href="KRS"><img src="/sets/KRS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SVG"><img src="/sets/SVG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GQC"><img src="/sets/GQC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KUT"><img src="/sets/KUT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="MON"><img src="/sets/MON-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VST"><img src="/sets/VST-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="REV"><img src="/sets/REV-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="PLANE"><img src="/sets/PLANE-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/PLANE-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\PLANE-files\img\1_Akros.jpg" id="1_Akros" data-flag="@X" onclick="openSidebar('1_Akros',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\2_The Ashen Forges.jpg" id="2_The Ashen Forges" data-flag="@X" onclick="openSidebar('2_The Ashen Forges',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\3_The Bastion d'Orlet.jpg" id="3_The Bastion dOrlet" data-flag="@X" onclick="openSidebar('3_The Bastion dOrlet',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\4_Beauclaire Manor.jpg" id="4_Beauclaire Manor" data-flag="@X" onclick="openSidebar('4_Beauclaire Manor',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\5_Before the Chasmal Rift.jpg" id="5_Before the Chasmal Rift" data-flag="@X" onclick="openSidebar('5_Before the Chasmal Rift',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\6_Boorah Depths.jpg" id="6_Boorah Depths" data-flag="@X" onclick="openSidebar('6_Boorah Depths',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\7_The Broken Fields.jpg" id="7_The Broken Fields" data-flag="@X" onclick="openSidebar('7_The Broken Fields',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\8_Butani Pass.jpg" id="8_Butani Pass" data-flag="@X" onclick="openSidebar('8_Butani Pass',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\9_Castle Stehlia.jpg" id="9_Castle Stehlia" data-flag="@X" onclick="openSidebar('9_Castle Stehlia',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\10_Cawyer Station.jpg" id="10_Cawyer Station" data-flag="@X" onclick="openSidebar('10_Cawyer Station',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\11_Corgan-Ozzen Command.jpg" id="11_Corgan-Ozzen Command" data-flag="@X" onclick="openSidebar('11_Corgan-Ozzen Command',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\12_The Crossroads.jpg" id="12_The Crossroads" data-flag="@X" onclick="openSidebar('12_The Crossroads',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\13_Data Channels.jpg" id="13_Data Channels" data-flag="@X" onclick="openSidebar('13_Data Channels',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\14_Den of the First Dream.jpg" id="14_Den of the First Dream" data-flag="@X" onclick="openSidebar('14_Den of the First Dream',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\15_Eltensia's Toll.jpg" id="15_Eltensias Toll" data-flag="@X" onclick="openSidebar('15_Eltensias Toll',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\16_The Five-Thorn Maw.jpg" id="16_The Five-Thorn Maw" data-flag="@X" onclick="openSidebar('16_The Five-Thorn Maw',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\17_Foundation Headquarters.jpg" id="17_Foundation Headquarters" data-flag="@X" onclick="openSidebar('17_Foundation Headquarters',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\18_Fourth Street.jpg" id="18_Fourth Street" data-flag="@X" onclick="openSidebar('18_Fourth Street',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\19_Fragile Haven.jpg" id="19_Fragile Haven" data-flag="@X" onclick="openSidebar('19_Fragile Haven',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\20_The Golden Palace.jpg" id="20_The Golden Palace" data-flag="@X" onclick="openSidebar('20_The Golden Palace',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\21_Goldpeak Gateway.jpg" id="21_Goldpeak Gateway" data-flag="@X" onclick="openSidebar('21_Goldpeak Gateway',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\22_Goresand.jpg" id="22_Goresand" data-flag="@X" onclick="openSidebar('22_Goresand',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\23_Gravelgate Underpass.jpg" id="23_Gravelgate Underpass" data-flag="@X" onclick="openSidebar('23_Gravelgate Underpass',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\24_Greenglade Campsite.jpg" id="24_Greenglade Campsite" data-flag="@X" onclick="openSidebar('24_Greenglade Campsite',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\25_Halls of Valor.jpg" id="25_Halls of Valor" data-flag="@X" onclick="openSidebar('25_Halls of Valor',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\26_Heaven's Impact.jpg" id="26_Heavens Impact" data-flag="@X" onclick="openSidebar('26_Heavens Impact',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\27_Holo Arts District.jpg" id="27_Holo Arts District" data-flag="@X" onclick="openSidebar('27_Holo Arts District',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\28_Jericho's Abandoned Office.jpg" id="28_Jerichos Abandoned Office" data-flag="@X" onclick="openSidebar('28_Jerichos Abandoned Office',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\29_Justiciar Test Lab.jpg" id="29_Justiciar Test Lab" data-flag="@X" onclick="openSidebar('29_Justiciar Test Lab',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\30_Kaina City Market.jpg" id="30_Kaina City Market" data-flag="@X" onclick="openSidebar('30_Kaina City Market',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\31_Karsi's Spine.jpg" id="31_Karsis Spine" data-flag="@X" onclick="openSidebar('31_Karsis Spine',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\32_Khembul, the Sacred Valley.jpg" id="32_Khembul, the Sacred Valley" data-flag="@X" onclick="openSidebar('32_Khembul, the Sacred Valley',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\33_Kochiba Port.jpg" id="33_Kochiba Port" data-flag="@X" onclick="openSidebar('33_Kochiba Port',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\34_Kywon's Testing Grounds.jpg" id="34_Kywons Testing Grounds" data-flag="@X" onclick="openSidebar('34_Kywons Testing Grounds',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\35_Lower Teqien.jpg" id="35_Lower Teqien" data-flag="@X" onclick="openSidebar('35_Lower Teqien',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\36_Minamo City Contest Hall.jpg" id="36_Minamo City Contest Hall" data-flag="@X" onclick="openSidebar('36_Minamo City Contest Hall',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\37_Mishiro Town.jpg" id="37_Mishiro Town" data-flag="@X" onclick="openSidebar('37_Mishiro Town',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\38_Mokar Valley.jpg" id="38_Mokar Valley" data-flag="@X" onclick="openSidebar('38_Mokar Valley',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\39_Mysterious Ruins.jpg" id="39_Mysterious Ruins" data-flag="@X" onclick="openSidebar('39_Mysterious Ruins',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\40_New Tellison.jpg" id="40_New Tellison" data-flag="@X" onclick="openSidebar('40_New Tellison',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\41_The Ozanwood.jpg" id="41_The Ozanwood" data-flag="@X" onclick="openSidebar('41_The Ozanwood',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\42_Prismatic Pool.jpg" id="42_Prismatic Pool" data-flag="@X" onclick="openSidebar('42_Prismatic Pool',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\43_Professor Maple's Lab.jpg" id="43_Professor Maples Lab" data-flag="@X" onclick="openSidebar('43_Professor Maples Lab',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\44_Queen Solena's Private Collection.jpg" id="44_Queen Solenas Private Collection" data-flag="@X" onclick="openSidebar('44_Queen Solenas Private Collection',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\45_Remains of Morrig Moor.jpg" id="45_Remains of Morrig Moor" data-flag="@X" onclick="openSidebar('45_Remains of Morrig Moor',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\46_Remembrance Tower.jpg" id="46_Remembrance Tower" data-flag="@X" onclick="openSidebar('46_Remembrance Tower',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\47_Rio Mancuna.jpg" id="47_Rio Mancuna" data-flag="@X" onclick="openSidebar('47_Rio Mancuna',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\48_Ruins of Missing Notes.jpg" id="48_Ruins of Missing Notes" data-flag="@X" onclick="openSidebar('48_Ruins of Missing Notes',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\49_Ruins of Olantin.jpg" id="49_Ruins of Olantin" data-flag="@X" onclick="openSidebar('49_Ruins of Olantin',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\50_Ruins of Paro Katsang.jpg" id="50_Ruins of Paro Katsang" data-flag="@X" onclick="openSidebar('50_Ruins of Paro Katsang',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\51_San Jera Raceway.jpg" id="51_San Jera Raceway" data-flag="@X" onclick="openSidebar('51_San Jera Raceway',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\52_Seat of the Rose Court.jpg" id="52_Seat of the Rose Court" data-flag="@X" onclick="openSidebar('52_Seat of the Rose Court',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\53_Setessa.jpg" id="53_Setessa" data-flag="@X" onclick="openSidebar('53_Setessa',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\54_The Silenced Court.jpg" id="54_The Silenced Court" data-flag="@X" onclick="openSidebar('54_The Silenced Court',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\55_Skycrest Estates.jpg" id="55_Skycrest Estates" data-flag="@X" onclick="openSidebar('55_Skycrest Estates',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\56_The Source Chamber.jpg" id="56_The Source Chamber" data-flag="@X" onclick="openSidebar('56_The Source Chamber',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\57_Starfoul Glade.jpg" id="57_Starfoul Glade" data-flag="@X" onclick="openSidebar('57_Starfoul Glade',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\58_Tambara Totem-Forest.jpg" id="58_Tambara Totem-Forest" data-flag="@X" onclick="openSidebar('58_Tambara Totem-Forest',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\59_Test Site Syzygy.jpg" id="59_Test Site Syzygy" data-flag="@X" onclick="openSidebar('59_Test Site Syzygy',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\60_Thorne Chapel.jpg" id="60_Thorne Chapel" data-flag="@X" onclick="openSidebar('60_Thorne Chapel',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\61_Towashi.jpg" id="61_Towashi" data-flag="@X" onclick="openSidebar('61_Towashi',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\62_Tower of the Techmagi.jpg" id="62_Tower of the Techmagi" data-flag="@X" onclick="openSidebar('62_Tower of the Techmagi',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\63_The Tugae.jpg" id="63_The Tugae" data-flag="@X" onclick="openSidebar('63_The Tugae',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\64_Ukshu Wilds.jpg" id="64_Ukshu Wilds" data-flag="@X" onclick="openSidebar('64_Ukshu Wilds',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\65_The Underworld.jpg" id="65_The Underworld" data-flag="@X" onclick="openSidebar('65_The Underworld',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\66_Vaudlin's Laboratory.jpg" id="66_Vaudlins Laboratory" data-flag="@X" onclick="openSidebar('66_Vaudlins Laboratory',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\67_Veda's Club.jpg" id="67_Vedas Club" data-flag="@X" onclick="openSidebar('67_Vedas Club',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\68_The Veilgate.jpg" id="68_The Veilgate" data-flag="@X" onclick="openSidebar('68_The Veilgate',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\69_Whitecliff.jpg" id="69_Whitecliff" data-flag="@X" onclick="openSidebar('69_Whitecliff',false)"></div>
+			<div class="container"><img alt="/sets\PLANE-files\img\70_Zolo's Ring.jpg" id="70_Zolos Ring" data-flag="@X" onclick="openSidebar('70_Zolos Ring',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
