@@ -132,8 +132,8 @@ def generateHTML(setCode):
 		.logo {
 			display: block;
 			margin: auto;
-			max-width: 30%;
-			max-height: 320px;
+			max-width: 60%;
+			max-height: 640px;
 		}
 		.container {
 			position: relative;
