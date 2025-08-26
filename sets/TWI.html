@@ -746,7 +746,7 @@
 
 			link.appendChild(img);
 
-			if ((card_stats.shape.includes("spli") || card_stats.type.includes("Battle")) && rotate_card)
+			if (card_stats.shape.includes("spli") && rotate_card)
 			{
 				const rotated_img = document.createElement("img");
 				rotated_img.className = "h-img";
