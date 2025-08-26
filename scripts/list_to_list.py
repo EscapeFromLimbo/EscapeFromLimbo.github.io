@@ -166,8 +166,8 @@ def convertList(setCode):
 			card['notes'] = 'zzz'
 
 		# clean shape
-		if 'Battle' in card['type']:
-			card['shape'] = card['shape'] + ' split'
+		#if 'Battle' in card['type']:
+		#	card['shape'] = card['shape'] + ' split'
 
 	if len(cards_sorted['gold']) >= 10: # probably has a decent number of tri-color cards
 		tmp = cards_sorted['gold']
