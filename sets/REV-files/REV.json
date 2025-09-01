@@ -213,6 +213,24 @@
             "notes": "\n!tageternal\n!tag rotated"
         },
         {
+            "card_name": "Casus Belli_REV",
+            "color": "W",
+            "rarity": "mythic",
+            "type": "Legendary Enchantment",
+            "number": 91,
+            "color_identity": "W",
+            "cost": "{1}{W}{W}",
+            "rules_text": "When Casus Belli enters, exile up to one target creature or planeswalker until Casus Belli leaves the battlefield.\nCreatures you control get +1/+0.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "Giacoma Bussaglia",
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
             "card_name": "Chromatic Dragon_REV",
             "color": "WUBRG",
             "rarity": "mythic",
@@ -1217,6 +1235,24 @@
             "notes": "\n!tageternal\n!tag rotated"
         },
         {
+            "card_name": "Shigane Manor Burns_REV",
+            "color": "R",
+            "rarity": "mythic",
+            "type": "Enchantment \u2014 Saga",
+            "number": 93,
+            "color_identity": "R",
+            "cost": "{1}{R}",
+            "rules_text": "Time loop\nI - Create a tapped Treasure token.\nII - You may discard a card. If you do, exile the top two cards of your library. You may play one of those cards this turn.\nIII - This Saga deals 2 damage to each opponent.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "Liiga Smilshkalne",
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
             "card_name": "Skarn, the Bloodless_REV",
             "color": "B",
             "rarity": "mythic",
@@ -1450,7 +1486,7 @@
             "number": 69,
             "color_identity": "WUB",
             "cost": "{1}{W}{U}{B}",
-            "rules_text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.\nThe Connaistone can be your commander.",
+            "rules_text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1512,6 +1548,24 @@
             "set": "REV",
             "loyalty": "",
             "artist": "Lordigan",
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
+            "card_name": "Transgressive Trendsetter_REV",
+            "color": "R",
+            "rarity": "mythic",
+            "type": "Creature \u2014 Human Bard",
+            "number": 92,
+            "color_identity": "BR",
+            "cost": "{1}{R}",
+            "rules_text": "Menace\nCorrupt - When this creature enters, if it was cast and you control a permanent with greater mana value, add {B}{R}.",
+            "flavor_text": "[i]What's the point of living forever if no one knows your name?\n[/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "eoryuu_",
             "notes": "\n!tageternal\n!tag rotated"
         },
         {

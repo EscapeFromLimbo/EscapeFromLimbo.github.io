@@ -1,11 +1,11 @@
 ﻿{
     "name": "Theros: Age of Trax",
-    "formats": "eternal,standard,planechase",
+    "formats": "eternal,rotated",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
-            "card_name": "A God Divided",
+            "card_name": "A God Divided_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
@@ -20,10 +20,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Satoru Wada",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Absorb Divinity",
+            "card_name": "Absorb Divinity_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -38,10 +38,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Samantha Shieh",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Aegis Assault",
+            "card_name": "Aegis Assault_TRX",
             "color": "RG",
             "rarity": "common",
             "type": "Instant",
@@ -56,10 +56,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Agent of Deception",
+            "card_name": "Agent of Deception_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Merfolk Rogue",
@@ -74,10 +74,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Gabriel Bulik",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Agent of Pharika",
+            "card_name": "Agent of Pharika_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Gorgon Warrior",
@@ -92,10 +92,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Francisco Castro",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Agnomakhos, Justice",
+            "card_name": "Agnomakhos, Justice_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Archon",
@@ -110,10 +110,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "sandara",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Agnomakhos's Abomination",
+            "card_name": "Agnomakhos's Abomination_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Mutant",
@@ -128,10 +128,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Riccardo Gualdi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alseid of Stilled Hearts",
+            "card_name": "Alseid of Stilled Hearts_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Nymph",
@@ -146,10 +146,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Chris Beatrice",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Anvilwrought Crane",
+            "card_name": "Anvilwrought Crane_TRX",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Bird",
@@ -164,10 +164,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Yannick Corboz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Anvilwrought Lion",
+            "card_name": "Anvilwrought Lion_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Cat",
@@ -182,10 +182,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Phu Thieu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Aphonai's Reveler",
+            "card_name": "Aphonai's Reveler_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Satyr Zombie",
@@ -200,10 +200,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lily Abdullina",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Apprentice of the Forge-God",
+            "card_name": "Apprentice of the Forge-God_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Artificer",
@@ -218,10 +218,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Georgi Madzharov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Arasta's Burden",
+            "card_name": "Arasta's Burden_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -236,10 +236,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Arasta's Handmaiden",
+            "card_name": "Arasta's Handmaiden_TRX",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Spider",
@@ -254,10 +254,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sam Kanios",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Archon of Condemnation",
+            "card_name": "Archon of Condemnation_TRX",
             "color": "WB",
             "rarity": "rare",
             "type": "Creature \u2014 Archon",
@@ -272,7 +272,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Antonio J. Manzanedo",
-            "card_name2": "Confine to Eternity",
+            "card_name2": "Confine to Eternity_TRX",
             "color2": "WB",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}{B}",
@@ -282,10 +282,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Rachel Pugsley",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Archon of Glorious Light",
+            "card_name": "Archon of Glorious Light_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Archon",
@@ -300,10 +300,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Canh Nguyen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Archon of the Legion",
+            "card_name": "Archon of the Legion_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Archon",
@@ -318,10 +318,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Douglas Deri",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Arena Champion",
+            "card_name": "Arena Champion_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -336,10 +336,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Natham Soares",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ashlands Phoenix",
+            "card_name": "Ashlands Phoenix_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Phoenix",
@@ -354,10 +354,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Athreos, Gold-Eyed",
+            "card_name": "Athreos, Gold-Eyed_TRX",
             "color": "WB",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -372,10 +372,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matheus Graef",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Athreos's Judgment",
+            "card_name": "Athreos's Judgment_TRX",
             "color": "WB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -390,10 +390,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "dleoblack",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Audience at Zakros",
+            "card_name": "Audience at Zakros_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
@@ -408,10 +408,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cardin Yanis",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Axiomene, Syrurian Tyrant",
+            "card_name": "Axiomene, Syrurian Tyrant_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Demon",
@@ -426,10 +426,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aaron Miller",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Barren Ashlands",
+            "card_name": "Barren Ashlands_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -444,10 +444,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pablo Dominguez",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Basilo, Lion of Valor",
+            "card_name": "Basilo, Lion of Valor_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -462,7 +462,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miguel Regodon",
-            "card_name2": "The Lion's Charisma",
+            "card_name2": "The Lion's Charisma_TRX",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}",
@@ -472,10 +472,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Nguyen Minh Duc",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Behemoth of the Five Rivers",
+            "card_name": "Behemoth of the Five Rivers_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Leviathan Whale",
@@ -490,10 +490,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jose Munoz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Belief-Belying Beast",
+            "card_name": "Belief-Belying Beast_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Chimera",
@@ -508,10 +508,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alicia Garcia",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Benthalos of Land and Sea",
+            "card_name": "Benthalos of Land and Sea_TRX",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -526,10 +526,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Polar Engine",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Biaas the Poison Drinker",
+            "card_name": "Biaas the Poison Drinker_TRX",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Rogue",
@@ -544,10 +544,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Karolina Nakazato",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Bringer of Heliod's Light",
+            "card_name": "Bringer of Heliod's Light_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Archon",
@@ -562,7 +562,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
-            "card_name2": "Blinded by Divinity",
+            "card_name2": "Blinded by Divinity_TRX",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}",
@@ -572,10 +572,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "David Demaret",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Builder of Monuments",
+            "card_name": "Builder of Monuments_TRX",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Giant Artificer",
@@ -590,10 +590,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lorenzo Tomaselli",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Buried Colossus",
+            "card_name": "Buried Colossus_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -608,10 +608,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rodrigo Vegas",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Callaphe the Mariner",
+            "card_name": "Callaphe the Mariner_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Scout",
@@ -626,7 +626,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelo Adonis Chavez",
-            "card_name2": "Blessing of the Sea",
+            "card_name2": "Blessing of the Sea_TRX",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{6}{U}{U}",
@@ -636,10 +636,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Yapp Jong Rui",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Caller of Ferocity",
+            "card_name": "Caller of Ferocity_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Satyr Bard",
@@ -654,7 +654,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pedro Cova",
-            "card_name2": "Ferocity of Nature",
+            "card_name2": "Ferocity of Nature_TRX",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{G}",
@@ -664,10 +664,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Canopy of the Winter Nexus",
+            "card_name": "Canopy of the Winter Nexus_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -682,10 +682,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Russel Jones",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Centaur Mentor",
+            "card_name": "Centaur Mentor_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Warrior",
@@ -700,10 +700,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexandra Gaudi & Buendia Khitrova",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Charging Brightmare",
+            "card_name": "Charging Brightmare_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Unicorn",
@@ -718,7 +718,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Virgile Boulais",
-            "card_name2": "Blessings of the Flock",
+            "card_name2": "Blessings of the Flock_TRX",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}{W}",
@@ -728,10 +728,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ilse Gort",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Charming Siren",
+            "card_name": "Charming Siren_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Siren Wizard",
@@ -746,7 +746,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "ImmarArt",
-            "card_name2": "Left to the Sea",
+            "card_name2": "Left to the Sea_TRX",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{U}{U}",
@@ -756,10 +756,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Michal Niewiara",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Chosen of Heliod",
+            "card_name": "Chosen of Heliod_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Archer",
@@ -774,7 +774,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Polar Engine",
-            "card_name2": "Heliod's Glory",
+            "card_name2": "Heliod's Glory_TRX",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}",
@@ -784,10 +784,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Sandara Tang",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Chrolcatos, Pidae's Founder",
+            "card_name": "Chrolcatos, Pidae's Founder_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Gorgon Zombie",
@@ -802,10 +802,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bartek Fedyczak",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Chromatic Hart",
+            "card_name": "Chromatic Hart_TRX",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Elk",
@@ -820,10 +820,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeremy Carver",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Claes, Shield of Karda",
+            "card_name": "Claes, Shield of Karda_TRX",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -838,7 +838,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alan Albiach",
-            "card_name2": "Claes, Melded Spark",
+            "card_name2": "Claes, Melded Spark_TRX",
             "color2": "WU",
             "type2": "Legendary Planeswalker \u2014 Claes Haubay",
             "cost2": "",
@@ -848,10 +848,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Hao Zheng",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Clash of the Titans",
+            "card_name": "Clash of the Titans_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -866,10 +866,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Narendra B. Adi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Colossus of Trax",
+            "card_name": "Colossus of Trax_TRX",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Construct",
@@ -884,10 +884,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "zippo514",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Command from the Front",
+            "card_name": "Command from the Front_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -902,10 +902,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Otl Miu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Coward-Eater",
+            "card_name": "Coward-Eater_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Minotaur Warrior",
@@ -920,10 +920,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brandon McCamey",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cybele of the Frozen Faith",
+            "card_name": "Cybele of the Frozen Faith_TRX",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Gorgon Cleric",
@@ -938,10 +938,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giselle Almeida",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Dakran Shipcrusher",
+            "card_name": "Dakran Shipcrusher_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Crab Octopus",
@@ -956,7 +956,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Guillaume Ducos",
-            "card_name2": "Depths of the Sea",
+            "card_name2": "Depths of the Sea_TRX",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{U}",
@@ -966,10 +966,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Juno Viinikka",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Daybreak Rider",
+            "card_name": "Daybreak Rider_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Archon",
@@ -984,7 +984,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
-            "card_name2": "The Sun's Blessing",
+            "card_name2": "The Sun's Blessing_TRX",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{2}{W}",
@@ -994,10 +994,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Francesca Resta",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Deception's Edge",
+            "card_name": "Deception's Edge_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Artifact \u2014 Equipment",
@@ -1012,10 +1012,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Corey Gooch",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Dedicated Charge",
+            "card_name": "Dedicated Charge_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -1030,10 +1030,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Disciple of the Weavers",
+            "card_name": "Disciple of the Weavers_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
@@ -1048,10 +1048,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Amanda Brack",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Divine Mishap",
+            "card_name": "Divine Mishap_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1066,10 +1066,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Garcia",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Dryad of the Keen-Eyed",
+            "card_name": "Dryad of the Keen-Eyed_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Nymph Dryad",
@@ -1084,10 +1084,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sandra Duchiewicz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ebb and Flow",
+            "card_name": "Ebb and Flow_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1102,10 +1102,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pawel Kozera",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Efimia of the Horse",
+            "card_name": "Efimia of the Horse_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -1120,10 +1120,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelina Zhogina",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Eidolon of Empty Thoughts",
+            "card_name": "Eidolon of Empty Thoughts_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
@@ -1138,10 +1138,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vedran Popovic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Eidolon of Graceful Steps",
+            "card_name": "Eidolon of Graceful Steps_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
@@ -1156,10 +1156,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Romain Fournier",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Elektes, First King of Akros",
+            "card_name": "Elektes, First King of Akros_TRX",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Legendary Enchantment Creature \u2014 Demigod",
@@ -1174,10 +1174,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jiunn Kuo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Elektes's Charge",
+            "card_name": "Elektes's Charge_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1192,10 +1192,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "phi8",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ephara, Hero-Maker",
+            "card_name": "Ephara, Hero-Maker_TRX",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -1210,10 +1210,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ephara's Judgment",
+            "card_name": "Ephara's Judgment_TRX",
             "color": "WU",
             "rarity": "rare",
             "type": "Instant",
@@ -1228,10 +1228,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ankou Schnee",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ephara's Messenger",
+            "card_name": "Ephara's Messenger_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Griffin",
@@ -1246,10 +1246,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Boris Badger",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ephara's Oracle",
+            "card_name": "Ephara's Oracle_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Cleric",
@@ -1264,10 +1264,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brian Caleffi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ephemeral Mire",
+            "card_name": "Ephemeral Mire_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1282,10 +1282,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Erase from Reality",
+            "card_name": "Erase from Reality_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1300,10 +1300,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Amagoia Agirre",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Eventide Coronet",
+            "card_name": "Eventide Coronet_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -1318,10 +1318,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jade Dry",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Evridiki, Queen of Pidae",
+            "card_name": "Evridiki, Queen of Pidae_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Gorgon Noble",
@@ -1336,10 +1336,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ellirh Shaan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fall from Nyx",
+            "card_name": "Fall from Nyx_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1354,10 +1354,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Danny Duan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fall into the Underworld",
+            "card_name": "Fall into the Underworld_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -1372,10 +1372,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Swanson",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fall of Olantin",
+            "card_name": "Fall of Olantin_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -1390,10 +1390,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeffery Smith",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fathomless Dominion",
+            "card_name": "Fathomless Dominion_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1408,10 +1408,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fight the Tides",
+            "card_name": "Fight the Tides_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -1426,10 +1426,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Halil Ural",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Flame Whip",
+            "card_name": "Flame Whip_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1444,10 +1444,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rafater",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Forest",
+            "card_name": "Forest_TRX",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -1462,10 +1462,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Furies of the Natural Order",
+            "card_name": "Furies of the Natural Order_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Horror",
@@ -1480,7 +1480,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "John Silva",
-            "card_name2": "Tether to Reality",
+            "card_name2": "Tether to Reality_TRX",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing Curse",
             "cost2": "{2}{B}",
@@ -1490,10 +1490,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Anna Moshak",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Garden of Shrines",
+            "card_name": "Garden of Shrines_TRX",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -1508,10 +1508,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "ilijamandic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gates to the Underworld",
+            "card_name": "Gates to the Underworld_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1526,10 +1526,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Samantha Shieh",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gods Willing",
+            "card_name": "Gods Willing_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -1544,10 +1544,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alan Albiach",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gray Merchant of Asphodel",
+            "card_name": "Gray Merchant of Asphodel_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie",
@@ -1562,10 +1562,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Tan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grim Physician",
+            "card_name": "Grim Physician_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie",
@@ -1580,10 +1580,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mark Zug",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Guardians of Zakros",
+            "card_name": "Guardians of Zakros_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Cyclops Warrior",
@@ -1598,10 +1598,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Javier Franco Santacreu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Harmony with Nature",
+            "card_name": "Harmony with Nature_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1616,10 +1616,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Haubay's Familiar",
+            "card_name": "Haubay's Familiar_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird",
@@ -1634,10 +1634,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Magdalena Radziej",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Heedless Cruelty",
+            "card_name": "Heedless Cruelty_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -1652,10 +1652,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Russel Jones",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Hekatan Demagogue",
+            "card_name": "Hekatan Demagogue_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -1670,10 +1670,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ernanda Souza",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Hero in the Making",
+            "card_name": "Hero in the Making_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Satyr Soldier",
@@ -1688,10 +1688,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taylor Payton",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Horror of the Mystic Sea",
+            "card_name": "Horror of the Mystic Sea_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Hydra Serpent Horror",
@@ -1706,10 +1706,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Rodriguez",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Host of the Neverending Revel",
+            "card_name": "Host of the Neverending Revel_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Satyr Noble",
@@ -1724,10 +1724,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Emanuel Ortiz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Hundred-Handed Pillars",
+            "card_name": "Hundred-Handed Pillars_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1742,10 +1742,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Artur Treffner",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Hunger's Door",
+            "card_name": "Hunger's Door_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Octopus Mutant",
@@ -1760,10 +1760,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jenner Chen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Iara, Blessed-Hart",
+            "card_name": "Iara, Blessed-Hart_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -1778,10 +1778,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Anna Helme",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ignite",
+            "card_name": "Ignite_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1796,10 +1796,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Masaki Hsu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Implacable Shrine-Guard",
+            "card_name": "Implacable Shrine-Guard_TRX",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Sculpture",
@@ -1814,10 +1814,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Junaidi Lim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Imposing Serpent",
+            "card_name": "Imposing Serpent_TRX",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Serpent",
@@ -1832,10 +1832,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Felix Ortiz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Inkblooded Basilisk",
+            "card_name": "Inkblooded Basilisk_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Basilisk",
@@ -1850,10 +1850,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brian Valeza",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Invest in the Future",
+            "card_name": "Invest in the Future_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1868,10 +1868,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sofija Radulovic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Iroas, Honor-Bound",
+            "card_name": "Iroas, Honor-Bound_TRX",
             "color": "WR",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -1886,10 +1886,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Iroas's Judgment",
+            "card_name": "Iroas's Judgment_TRX",
             "color": "WR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1904,10 +1904,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ankou Schnee",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Island",
+            "card_name": "Island_TRX",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -1922,10 +1922,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Isolated Misery",
+            "card_name": "Isolated Misery_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1940,10 +1940,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Kakomanties Circle",
+            "card_name": "Kakomanties Circle_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1958,10 +1958,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Caelan Stokkermans",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Karametra, Life-Harvester",
+            "card_name": "Karametra, Life-Harvester_TRX",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -1976,10 +1976,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "deWitteillustration",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Karametra's Judgment",
+            "card_name": "Karametra's Judgment_TRX",
             "color": "WG",
             "rarity": "rare",
             "type": "Instant",
@@ -1994,10 +1994,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Karda, Battle-Born",
+            "card_name": "Karda, Battle-Born_TRX",
             "color": "WBR",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -2012,10 +2012,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vo Minh Tuan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Karda's Emmisary",
+            "card_name": "Karda's Emmisary_TRX",
             "color": "WR",
             "rarity": "common",
             "type": "Enchantment",
@@ -2030,10 +2030,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bachzim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Karda's Legacy",
+            "card_name": "Karda's Legacy_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
@@ -2048,10 +2048,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juhani Jokinen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Keeper of the Scale",
+            "card_name": "Keeper of the Scale_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Gorgon Wizard",
@@ -2066,10 +2066,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rachel Perciphone",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Keranos, Fickle-Fortuned",
+            "card_name": "Keranos, Fickle-Fortuned_TRX",
             "color": "UR",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -2084,10 +2084,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Titus Lunter",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Keranos's Judgment",
+            "card_name": "Keranos's Judgment_TRX",
             "color": "UR",
             "rarity": "rare",
             "type": "Instant",
@@ -2102,10 +2102,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Muhamx Faizal",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "King of the Wilderness",
+            "card_name": "King of the Wilderness_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Chimera",
@@ -2120,10 +2120,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Michal Kastovsky",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Klothys, Fate-Driven",
+            "card_name": "Klothys, Fate-Driven_TRX",
             "color": "RG",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -2138,10 +2138,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "BOOM Comics (Edit: Scribbl)",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Klothys's Judgment",
+            "card_name": "Klothys's Judgment_TRX",
             "color": "RG",
             "rarity": "rare",
             "type": "Instant",
@@ -2156,10 +2156,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "marcello87",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Koios, Spear of Karda",
+            "card_name": "Koios, Spear of Karda_TRX",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Enchantment Planeswalker \u2014 Koios",
@@ -2174,10 +2174,10 @@
             "set": "TRX",
             "loyalty": "4",
             "artist": "Miseriae Amet Dolor",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Kraken Hatchling",
+            "card_name": "Kraken Hatchling_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Kraken",
@@ -2192,10 +2192,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Phill Berry",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Kruphix, Far-Seeing",
+            "card_name": "Kruphix, Far-Seeing_TRX",
             "color": "UG",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -2210,10 +2210,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joachim Gerlings",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Kruphix's Judgment",
+            "card_name": "Kruphix's Judgment_TRX",
             "color": "UG",
             "rarity": "rare",
             "type": "Instant",
@@ -2228,10 +2228,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pawel Kozera",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Kynaios, Blade-Bound",
+            "card_name": "Kynaios, Blade-Bound_TRX",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -2246,10 +2246,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Muhamx Faizal",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Labyrinthine Hydra",
+            "card_name": "Labyrinthine Hydra_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Hydra",
@@ -2264,10 +2264,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Wayne Reynolds",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Leonin Hoplite",
+            "card_name": "Leonin Hoplite_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Soldier",
@@ -2282,10 +2282,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Shamerli",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Leonin Phalanx",
+            "card_name": "Leonin Phalanx_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Soldier Army",
@@ -2300,10 +2300,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Woari",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Life Begins Anew",
+            "card_name": "Life Begins Anew_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -2318,10 +2318,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rukikun",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lost Caller of the Sea",
+            "card_name": "Lost Caller of the Sea_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Shaman",
@@ -2336,10 +2336,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mike Jordana",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lost to Memory",
+            "card_name": "Lost to Memory_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2354,10 +2354,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taeyoung Kim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lurking Vyrkolakas",
+            "card_name": "Lurking Vyrkolakas_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Beast",
@@ -2372,10 +2372,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Paizo Publishing and Ana Bolumar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lykaretos, Harvest's Bounty",
+            "card_name": "Lykaretos, Harvest's Bounty_TRX",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Cat Druid",
@@ -2390,7 +2390,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
-            "card_name2": "The Miraculous Field",
+            "card_name2": "The Miraculous Field_TRX",
             "color2": "WG",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{G}{W}",
@@ -2400,10 +2400,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "WandererLink",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Maim",
+            "card_name": "Maim_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2418,10 +2418,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sanjin Halimic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Make an Example",
+            "card_name": "Make an Example_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2436,10 +2436,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Marble Philosopher",
+            "card_name": "Marble Philosopher_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Artist",
@@ -2454,10 +2454,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Xavier Leroux",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Meeting of the Minds",
+            "card_name": "Meeting of the Minds_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -2472,10 +2472,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Neo 7",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Melancholic Oracle",
+            "card_name": "Melancholic Oracle_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -2490,10 +2490,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nick Silva",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Menelaia, Beloved Lyrist",
+            "card_name": "Menelaia, Beloved Lyrist_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Enchantment Creature \u2014 Demigod",
@@ -2508,10 +2508,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Eelis Kyttanen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mentor of the Dakra Isles",
+            "card_name": "Mentor of the Dakra Isles_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Sphinx",
@@ -2526,10 +2526,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jinho Bae",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Miasmic Cove",
+            "card_name": "Miasmic Cove_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -2544,10 +2544,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Midsummer Dream",
+            "card_name": "Midsummer Dream_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -2562,10 +2562,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taran Fiddler",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Misbegotten Aims",
+            "card_name": "Misbegotten Aims_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -2580,10 +2580,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Terence Cantal",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mogis, Rage-Crowned",
+            "card_name": "Mogis, Rage-Crowned_TRX",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -2598,10 +2598,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "thesteamhat",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mogis's Judgment",
+            "card_name": "Mogis's Judgment_TRX",
             "color": "BR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2616,10 +2616,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "dleoblack",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mogis's Raider",
+            "card_name": "Mogis's Raider_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Berserker",
@@ -2634,7 +2634,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Even Amundsen",
-            "card_name2": "Raider's Blessing",
+            "card_name2": "Raider's Blessing_TRX",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{R}",
@@ -2644,10 +2644,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jonathan Dawo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Molpadia, the Last Acephali",
+            "card_name": "Molpadia, the Last Acephali_TRX",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Cyclops Warrior",
@@ -2662,10 +2662,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Momentary Petrification",
+            "card_name": "Momentary Petrification_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -2680,10 +2680,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Quentin Regnes",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Monstrous Challenge",
+            "card_name": "Monstrous Challenge_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2698,10 +2698,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bach Nguy",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mountain",
+            "card_name": "Mountain_TRX",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -2716,10 +2716,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nessian Scout-Captain",
+            "card_name": "Nessian Scout-Captain_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Minotaur Soldier",
@@ -2734,10 +2734,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Henrique Dld",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nessian Woods",
+            "card_name": "Nessian Woods_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -2752,10 +2752,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Elaine Ho",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "New Recruit",
+            "card_name": "New Recruit_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -2770,10 +2770,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aurore Folny",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nikon, Skophos Protector",
+            "card_name": "Nikon, Skophos Protector_TRX",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Minotaur Soldier",
@@ -2788,10 +2788,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Frost Llamzon",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nikon's Aegis",
+            "card_name": "Nikon's Aegis_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -2806,10 +2806,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Frost Llamzon",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nimbus of Thought",
+            "card_name": "Nimbus of Thought_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -2824,10 +2824,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nurture the Future",
+            "card_name": "Nurture the Future_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -2842,10 +2842,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vicki Pangestu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nykthos, Architect of Gods",
+            "card_name": "Nykthos, Architect of Gods_TRX",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Enchantment Creature \u2014 Demigod",
@@ -2860,10 +2860,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Voelkle",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nylea's Call",
+            "card_name": "Nylea's Call_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2878,10 +2878,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juan Pablo Corredor",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nylea's Grovetender",
+            "card_name": "Nylea's Grovetender_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Centaur Druid",
@@ -2896,10 +2896,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Iwo Widulinksi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nyxborn Retriever",
+            "card_name": "Nyxborn Retriever_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Dog",
@@ -2914,10 +2914,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Odunos Smuggler",
+            "card_name": "Odunos Smuggler_TRX",
             "color": "UB",
             "rarity": "common",
             "type": "Creature \u2014 Siren Rogue",
@@ -2932,10 +2932,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Stephanie Bouchard",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Olantin Emissary",
+            "card_name": "Olantin Emissary_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Merfolk Soldier",
@@ -2950,10 +2950,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Herckeim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Olantin Stalwart",
+            "card_name": "Olantin Stalwart_TRX",
             "color": "WU",
             "rarity": "common",
             "type": "Creature \u2014 Merfolk Soldier",
@@ -2968,10 +2968,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Chance Miller",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Omen of Deception",
+            "card_name": "Omen of Deception_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment",
@@ -2986,10 +2986,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Wilfred Wang",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Omen of Horizons",
+            "card_name": "Omen of Horizons_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment",
@@ -3004,10 +3004,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rebecca On",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Omen of Slaughter",
+            "card_name": "Omen of Slaughter_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment",
@@ -3022,10 +3022,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Omen of Storms",
+            "card_name": "Omen of Storms_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
@@ -3040,10 +3040,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joseph Qiu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Omen of Victory",
+            "card_name": "Omen of Victory_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
@@ -3058,10 +3058,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Oracle of Zakros",
+            "card_name": "Oracle of Zakros_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cyclops Shaman",
@@ -3076,7 +3076,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miguel Regodon",
-            "card_name2": "Ocular Insight",
+            "card_name2": "Ocular Insight_TRX",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{U}",
@@ -3086,10 +3086,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Olena Shmahalo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ordeal of Athreos",
+            "card_name": "Ordeal of Athreos_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3104,10 +3104,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Hodges",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ordeal of Ephara",
+            "card_name": "Ordeal of Ephara_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3122,10 +3122,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dan Watson",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ordeal of Karametra",
+            "card_name": "Ordeal of Karametra_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3140,10 +3140,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rebecca On",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ordeal of Karda",
+            "card_name": "Ordeal of Karda_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3158,10 +3158,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jerry Padilla",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ordeal of Pharika",
+            "card_name": "Ordeal of Pharika_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3176,10 +3176,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jaime Jasso",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Orestes, Heroic Scoundrel",
+            "card_name": "Orestes, Heroic Scoundrel_TRX",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Satyr Rogue",
@@ -3194,10 +3194,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Grumpygoat",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Patron of Ephara's Glory",
+            "card_name": "Patron of Ephara's Glory_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Artist",
@@ -3212,10 +3212,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bull Storm",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pero, Puppet of Erebos",
+            "card_name": "Pero, Puppet of Erebos_TRX",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Legendary Enchantment Creature \u2014 Demigod",
@@ -3230,10 +3230,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Takiroku-Sama",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Petraform Hermit",
+            "card_name": "Petraform Hermit_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Gorgon Cleric",
@@ -3248,10 +3248,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Swanson",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Petros, Purphoros's Double",
+            "card_name": "Petros, Purphoros's Double_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Enchantment Creature \u2014 Artificer",
@@ -3266,10 +3266,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Oliver Ink",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pharika, Snake-Twined",
+            "card_name": "Pharika, Snake-Twined_TRX",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Enchantment Creature \u2014 God",
@@ -3284,10 +3284,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "fiovske",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pharika's Harbinger",
+            "card_name": "Pharika's Harbinger_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Gorgon Cleric",
@@ -3302,7 +3302,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irina Nordsol Kuzmina",
-            "card_name2": "Poison in the Blood",
+            "card_name2": "Poison in the Blood_TRX",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{2}{B}",
@@ -3312,10 +3312,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Victor Tan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pharika's Judgment",
+            "card_name": "Pharika's Judgment_TRX",
             "color": "BG",
             "rarity": "rare",
             "type": "Instant",
@@ -3330,10 +3330,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kim Aldau",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phenax, Brazen Thief",
+            "card_name": "Phenax, Brazen Thief_TRX",
             "color": "UB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Rogue",
@@ -3348,7 +3348,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Yi Ngo",
-            "card_name2": "Phenax, Poison-Tongued",
+            "card_name2": "Phenax, Poison-Tongued_TRX",
             "color2": "UB",
             "type2": "Legendary Enchantment Creature \u2014 God",
             "cost2": "",
@@ -3358,10 +3358,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Kaizer Chang",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phenax's Confidant",
+            "card_name": "Phenax's Confidant_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie",
@@ -3376,10 +3376,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Astruga",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phenax's Judgment",
+            "card_name": "Phenax's Judgment_TRX",
             "color": "UB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3394,10 +3394,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joshua Raphael",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phenax's Touch",
+            "card_name": "Phenax's Touch_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3412,10 +3412,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dante Liu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pheres-Band Huntmaster",
+            "card_name": "Pheres-Band Huntmaster_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Warrior",
@@ -3430,10 +3430,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Gal Or",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phlage, Titan of Burning Wind",
+            "card_name": "Phlage, Titan of Burning Wind_TRX",
             "color": "UR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Elder Giant",
@@ -3448,10 +3448,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bryan Fogaca Rosado",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pidae Raider",
+            "card_name": "Pidae Raider_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Gorgon Warrior",
@@ -3466,10 +3466,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Plains",
+            "card_name": "Plains_TRX",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -3484,10 +3484,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Plead to Erebos",
+            "card_name": "Plead to Erebos_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3502,10 +3502,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Toru-meow",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Poisoned Strike",
+            "card_name": "Poisoned Strike_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3520,10 +3520,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Danny Pavlov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Possibility Savant",
+            "card_name": "Possibility Savant_TRX",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Minotaur Wizard",
@@ -3538,10 +3538,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Prince of the Pride",
+            "card_name": "Prince of the Pride_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Soldier",
@@ -3556,10 +3556,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Simul",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pull of Tizerus",
+            "card_name": "Pull of Tizerus_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -3574,10 +3574,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Melissa Houpert",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Punch Out of the Sky",
+            "card_name": "Punch Out of the Sky_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3592,10 +3592,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dionisis Milonas",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Punishment from Nyx",
+            "card_name": "Punishment from Nyx_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -3610,10 +3610,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Su Ke",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pyros Rider",
+            "card_name": "Pyros Rider_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Archon",
@@ -3628,7 +3628,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Darekzabrocki",
-            "card_name2": "Consuming Flames",
+            "card_name2": "Consuming Flames_TRX",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{R}{R}",
@@ -3638,10 +3638,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Frost Llamzon",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Quality Time",
+            "card_name": "Quality Time_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
@@ -3656,10 +3656,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Raksolcs Ravage-Soul",
+            "card_name": "Raksolcs Ravage-Soul_TRX",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Minotaur Warrior",
@@ -3674,10 +3674,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sasa Radivojevic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rally the Hoplites",
+            "card_name": "Rally the Hoplites_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -3692,10 +3692,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Read the Tides",
+            "card_name": "Read the Tides_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -3710,10 +3710,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tommy Arnold",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reaper Archon",
+            "card_name": "Reaper Archon_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Archon",
@@ -3728,10 +3728,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "sitoni42",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reaper of Fields",
+            "card_name": "Reaper of Fields_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -3746,7 +3746,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Guilherme Motta",
-            "card_name2": "Fields of Ilysia",
+            "card_name2": "Fields of Ilysia_TRX",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{G}",
@@ -3756,10 +3756,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Lorenzo Tomaselli",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Remnant of Zakros",
+            "card_name": "Remnant of Zakros_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Giant Zombie",
@@ -3774,10 +3774,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ari Matti",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reply to the Call",
+            "card_name": "Reply to the Call_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -3792,10 +3792,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andrew Rimbo Hanzlik",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Revel Watchguard",
+            "card_name": "Revel Watchguard_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Satyr Soldier",
@@ -3810,10 +3810,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ride the Tartyx",
+            "card_name": "Ride the Tartyx_TRX",
             "color": "B",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -3828,10 +3828,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexey Egorov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rite of Venom",
+            "card_name": "Rite of Venom_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3846,10 +3846,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Even Amundsen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Satyr Arsonist",
+            "card_name": "Satyr Arsonist_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Satyr Wizard",
@@ -3864,10 +3864,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jason Strutz + Dall-E",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Secluded Gorgon",
+            "card_name": "Secluded Gorgon_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Gorgon Cleric",
@@ -3882,7 +3882,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Renato Prezioso",
-            "card_name2": "Glare of the Gorgon",
+            "card_name2": "Glare of the Gorgon_TRX",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{B}",
@@ -3892,10 +3892,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Victor Adame",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Seeker of New Horizons",
+            "card_name": "Seeker of New Horizons_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Satyr Scout",
@@ -3910,7 +3910,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lana Monx",
-            "card_name2": "Ilysian Guardian",
+            "card_name2": "Ilysian Guardian_TRX",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{2}{G}",
@@ -3920,10 +3920,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Rousteinire",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Seismic Chimera",
+            "card_name": "Seismic Chimera_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Chimera",
@@ -3938,7 +3938,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Garcia",
-            "card_name2": "Tectonic Rage",
+            "card_name2": "Tectonic Rage_TRX",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{R}",
@@ -3948,10 +3948,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Wojtek Depczynski",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shatter the Reflection",
+            "card_name": "Shatter the Reflection_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -3966,10 +3966,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shell Cove",
+            "card_name": "Shell Cove_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -3984,10 +3984,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rahul Philip",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shoreline Crasher",
+            "card_name": "Shoreline Crasher_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Kraken",
@@ -4002,10 +4002,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelo Lafaye",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Athreos",
+            "card_name": "Shrine to Athreos_TRX",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4020,10 +4020,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Borisut Chamnan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Ephara",
+            "card_name": "Shrine to Ephara_TRX",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4038,10 +4038,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taeyoung Kim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Erebos",
+            "card_name": "Shrine to Erebos_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4056,10 +4056,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jack Sides",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Heliod",
+            "card_name": "Shrine to Heliod_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4074,10 +4074,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Iroas",
+            "card_name": "Shrine to Iroas_TRX",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4092,10 +4092,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Asim A. Steckel",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Karametra",
+            "card_name": "Shrine to Karametra_TRX",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4110,10 +4110,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aela Ervefel",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Keranos",
+            "card_name": "Shrine to Keranos_TRX",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4128,10 +4128,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Katerina Ladon",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Klothys",
+            "card_name": "Shrine to Klothys_TRX",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4146,10 +4146,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Christopher Scoles",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Kruphix",
+            "card_name": "Shrine to Kruphix_TRX",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4164,10 +4164,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pedro Snea",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Mogis",
+            "card_name": "Shrine to Mogis_TRX",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4182,10 +4182,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aaron Miller",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Nylea",
+            "card_name": "Shrine to Nylea_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4200,10 +4200,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tu Chuanhao",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Pharika",
+            "card_name": "Shrine to Pharika_TRX",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4218,10 +4218,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Stijn Windig",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Phenax",
+            "card_name": "Shrine to Phenax_TRX",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4236,10 +4236,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Massimiliano Haemation",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Purphoros",
+            "card_name": "Shrine to Purphoros_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4254,10 +4254,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jan Drenovec",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Thassa",
+            "card_name": "Shrine to Thassa_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Shrine",
@@ -4272,10 +4272,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Hugh Pindur",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Shrine to Those Forgotten",
+            "card_name": "Shrine to Those Forgotten_TRX",
             "color": "",
             "rarity": "common",
             "type": "Enchantment Artifact \u2014 Shrine",
@@ -4290,10 +4290,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Zuzanna Wuzyk",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Siphon the Divine",
+            "card_name": "Siphon the Divine_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
@@ -4308,10 +4308,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexey Egorov and Dall-E",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skola Nyxweaver",
+            "card_name": "Skola Nyxweaver_TRX",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Satyr Soldier Scout",
@@ -4326,10 +4326,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "celeryman6",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skophos Conjuror",
+            "card_name": "Skophos Conjuror_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Minotaur Spirit",
@@ -4344,10 +4344,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Camilo Palma",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skophos Conqueror",
+            "card_name": "Skophos Conqueror_TRX",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Minotaur Warrior",
@@ -4362,10 +4362,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Will Balles",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skophos Raid-Veteran",
+            "card_name": "Skophos Raid-Veteran_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Minotaur Soldier",
@@ -4380,10 +4380,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander William Hansson",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skophos Trainee",
+            "card_name": "Skophos Trainee_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -4398,10 +4398,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dan Watson",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skophos Warden",
+            "card_name": "Skophos Warden_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Minotaur Cleric Scout",
@@ -4416,10 +4416,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vizsla",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skotha, Titan of Eternal Dark",
+            "card_name": "Skotha, Titan of Eternal Dark_TRX",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Elder Giant",
@@ -4434,10 +4434,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joao Pedro Costa",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Slighos the Body-Binder",
+            "card_name": "Slighos the Body-Binder_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Demon",
@@ -4452,10 +4452,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Fail Fox",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Slumbering Serpent",
+            "card_name": "Slumbering Serpent_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -4470,10 +4470,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sasha Rodriguez",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Soul-Guide Lantern",
+            "card_name": "Soul-Guide Lantern_TRX",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -4488,10 +4488,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cliff Childs",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Speaker of the Lightning",
+            "card_name": "Speaker of the Lightning_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Giant Wizard",
@@ -4506,10 +4506,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ozan Pulat",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Spear of the Sun-Crowned",
+            "card_name": "Spear of the Sun-Crowned_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Soldier",
@@ -4524,10 +4524,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Raphael Pinna",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Spikemane Lion",
+            "card_name": "Spikemane Lion_TRX",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Cat",
@@ -4542,7 +4542,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matt Brown",
-            "card_name2": "Spikemane Cloak",
+            "card_name2": "Spikemane Cloak_TRX",
             "color2": "RG",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{R}{G}",
@@ -4552,10 +4552,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "aw anqi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Split-Hair Asp",
+            "card_name": "Split-Hair Asp_TRX",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Snake",
@@ -4570,10 +4570,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Star-Seeking Dreamer",
+            "card_name": "Star-Seeking Dreamer_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Satyr Citizen",
@@ -4588,10 +4588,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ishton",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Star-Studded Sagittaur",
+            "card_name": "Star-Studded Sagittaur_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Centaur Archer",
@@ -4606,7 +4606,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dananayi Muwanigwa",
-            "card_name2": "Equinox Mark",
+            "card_name2": "Equinox Mark_TRX",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{G}{G}",
@@ -4616,10 +4616,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Hugo Puzzuoli",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Stoic Phylaskia",
+            "card_name": "Stoic Phylaskia_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Skeleton Soldier",
@@ -4634,10 +4634,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juan Arrabal",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Stormscraper of Ketaphos",
+            "card_name": "Stormscraper of Ketaphos_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Leviathan",
@@ -4652,10 +4652,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Roiuky",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Sunbeam Alseid",
+            "card_name": "Sunbeam Alseid_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Nymph",
@@ -4670,10 +4670,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Heather Schwartz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Survivor of Pidae",
+            "card_name": "Survivor of Pidae_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Gorgon",
@@ -4688,10 +4688,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Takiroku-Sama",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Swamp",
+            "card_name": "Swamp_TRX",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -4706,10 +4706,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Abandon",
+            "card_name": "Temple of Abandon_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4724,10 +4724,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mon Macairap",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Deceit",
+            "card_name": "Temple of Deceit_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4742,10 +4742,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miro Petrov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Enlightenment",
+            "card_name": "Temple of Enlightenment_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4760,10 +4760,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Javier Franco Santacreu",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Epiphany",
+            "card_name": "Temple of Epiphany_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4778,10 +4778,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lucas Staniec",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Malady",
+            "card_name": "Temple of Malady_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4796,10 +4796,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ivan Mikhalenko",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Malice",
+            "card_name": "Temple of Malice_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4814,10 +4814,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Catatu Capa",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Mystery",
+            "card_name": "Temple of Mystery_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4832,10 +4832,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "quanyi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Plenty",
+            "card_name": "Temple of Plenty_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4850,10 +4850,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Silence",
+            "card_name": "Temple of Silence_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4868,10 +4868,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ling Xiang",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Temple of Triumph",
+            "card_name": "Temple of Triumph_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4886,10 +4886,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nizi Mmexport",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Terramorphic Expanse",
+            "card_name": "Terramorphic Expanse_TRX",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4904,10 +4904,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeff Brown",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Terror of Olantin",
+            "card_name": "Terror of Olantin_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Serpent Hydra",
@@ -4922,10 +4922,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "gerezon",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thassa's Caress",
+            "card_name": "Thassa's Caress_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4940,10 +4940,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Robynn Frauhn",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thassa's Tideshaper",
+            "card_name": "Thassa's Tideshaper_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Merfolk Wizard Rogue",
@@ -4958,10 +4958,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Arbiter",
+            "card_name": "The Arbiter_TRX",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Haubay",
@@ -4976,10 +4976,10 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "Daria Rashev",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Army of Trax",
+            "card_name": "The Army of Trax_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Archon Army",
@@ -4994,10 +4994,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Daniel Kamarudin",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Burning of Pidae",
+            "card_name": "The Burning of Pidae_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5012,10 +5012,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vaggelis Manousakas",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Fall of Trax",
+            "card_name": "The Fall of Trax_TRX",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
@@ -5030,10 +5030,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Claudio Pozas",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Founding of the Twelve",
+            "card_name": "The Founding of the Twelve_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5048,10 +5048,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Deiv Calviz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Path of Phenax",
+            "card_name": "The Path of Phenax_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
@@ -5066,10 +5066,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Demaret",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Sinking of Olantin",
+            "card_name": "The Sinking of Olantin_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
@@ -5084,10 +5084,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Mokhov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "The Smoking Strand",
+            "card_name": "The Smoking Strand_TRX",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact",
@@ -5102,10 +5102,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Asim A. Steckel",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thraxes, Sire of Dragons",
+            "card_name": "Thraxes, Sire of Dragons_TRX",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Enchantment Creature \u2014 Dragon",
@@ -5120,10 +5120,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Romain Kurdi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thrice-Blessed Boon",
+            "card_name": "Thrice-Blessed Boon_TRX",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -5138,10 +5138,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Felipe Gomes Grants",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Through Blood, Knowledge",
+            "card_name": "Through Blood, Knowledge_TRX",
             "color": "UB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5156,10 +5156,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Luka Brico",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thundering Serpent",
+            "card_name": "Thundering Serpent_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Serpent",
@@ -5174,10 +5174,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matt Cowdery",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tide's Ire",
+            "card_name": "Tide's Ire_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5192,10 +5192,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lei Min",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tidelock Pearl",
+            "card_name": "Tidelock Pearl_TRX",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -5210,10 +5210,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jenner Chen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Timedrinker the Bleached",
+            "card_name": "Timedrinker the Bleached_TRX",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Dragon",
@@ -5228,10 +5228,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joshua Raphael",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tiro, the Silent Blade",
+            "card_name": "Tiro, the Silent Blade_TRX",
             "color": "UR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -5246,10 +5246,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Veronika Fedorova",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Titan's Stairs",
+            "card_name": "Titan's Stairs_TRX",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -5264,10 +5264,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Xavier Leroux",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Together Just a Moment More",
+            "card_name": "Together Just a Moment More_TRX",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5282,10 +5282,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traumatic Impact",
+            "card_name": "Traumatic Impact_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5300,10 +5300,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mark Tarrisse",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Travel Through the Mystic Sea",
+            "card_name": "Travel Through the Mystic Sea_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5318,10 +5318,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Beto Lima",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traveler's Amulet",
+            "card_name": "Traveler's Amulet_TRX",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -5336,28 +5336,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tim Guo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traveler's Amulet",
-            "color": "",
-            "rarity": "common",
-            "type": "Artifact",
-            "number": 278,
-            "color_identity": "",
-            "cost": "{1}",
-            "rules_text": "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
-            "flavor_text": "[i]Deep in the Dakra Isles a strand of Klothys's hair twists itself around a statue of a god long forgotten. The Smoking Strand awaits one worthy of the destiny it contains within.\n[/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "TRX",
-            "loyalty": "",
-            "artist": "Tim Guo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
-        },
-        {
-            "card_name": "Traxian Calvary",
+            "card_name": "Traxian Calvary_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -5372,10 +5354,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vincenzo Prattico",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traxian General",
+            "card_name": "Traxian General_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Soldier",
@@ -5390,10 +5372,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ognevka Fenella",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traxian Hoplite",
+            "card_name": "Traxian Hoplite_TRX",
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Cat Soldier",
@@ -5408,10 +5390,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Boli Nolasco",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traxian Strategos",
+            "card_name": "Traxian Strategos_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Soldier",
@@ -5426,10 +5408,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Craig Lee Kentauri",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Trinity of Fates",
+            "card_name": "Trinity of Fates_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -5444,10 +5426,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nephelovia",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Turn to Nyx",
+            "card_name": "Turn to Nyx_TRX",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5462,10 +5444,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Patricia Moh",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tymaret, Bane of Phenax",
+            "card_name": "Tymaret, Bane of Phenax_TRX",
             "color": "BR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Zombie Ranger",
@@ -5480,10 +5462,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Beidak",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tyranny of Trax",
+            "card_name": "Tyranny of Trax_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -5498,10 +5480,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lie Setiawan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Underworld Tormentor",
+            "card_name": "Underworld Tormentor_TRX",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Demon Zombie",
@@ -5516,10 +5498,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mika Koskensalmi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Voyage to the Siren Sea",
+            "card_name": "Voyage to the Siren Sea_TRX",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -5534,10 +5516,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Adam Adamovic",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Walk the Dead's Path",
+            "card_name": "Walk the Dead's Path_TRX",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -5552,10 +5534,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andrew Kim",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Warden of the Deep-Dwelling",
+            "card_name": "Warden of the Deep-Dwelling_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Merfolk Soldier",
@@ -5570,10 +5552,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Justice Wong",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Weave Destiny",
+            "card_name": "Weave Destiny_TRX",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -5588,10 +5570,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sanabil Hassan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Wolf-Whistle Satyr",
+            "card_name": "Wolf-Whistle Satyr_TRX",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Satyr Druid",
@@ -5606,7 +5588,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Karoliina Mustamaa",
-            "card_name2": "Fable of Tooth and Fur",
+            "card_name2": "Fable of Tooth and Fur_TRX",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{4}{G}{G}",
@@ -5616,10 +5598,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Styles Osunde",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Xarr's Mockery",
+            "card_name": "Xarr's Mockery_TRX",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Cyclops Zombie",
@@ -5634,10 +5616,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tim Guo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Xarr of the Eternal Cycle",
+            "card_name": "Xarr of the Eternal Cycle_TRX",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Xarr",
@@ -5652,10 +5634,10 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "Bodo Kr\u00fchn",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zakros Decree",
+            "card_name": "Zakros Decree_TRX",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5670,10 +5652,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Maxime Teppe",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zakros General",
+            "card_name": "Zakros General_TRX",
             "color": "WG",
             "rarity": "common",
             "type": "Creature \u2014 Giant Soldier",
@@ -5688,10 +5670,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zakros Stompers",
+            "card_name": "Zakros Stompers_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Warrior",
@@ -5706,10 +5688,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "sixfoot",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zale, Titanohunter",
+            "card_name": "Zale, Titanohunter_TRX",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -5724,10 +5706,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sveta Pikul",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zodiac Griffin",
+            "card_name": "Zodiac Griffin_TRX",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Griffin",
@@ -5742,10 +5724,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Marc Escachx",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zygos, Edge of the Bull",
+            "card_name": "Zygos, Edge of the Bull_TRX",
             "color": "R",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -5760,7 +5742,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lie Setiawan",
-            "card_name2": "Blessing of Slaughter",
+            "card_name2": "Blessing of Slaughter_TRX",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{2}{R}",
@@ -5770,7 +5752,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Stefan Kopinski",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Basilo, Lion of Valor_PRO_TRX",
@@ -5798,7 +5780,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Saitou Naoki",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Builder of Monuments_PRO_TRX",
@@ -5816,7 +5798,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "qing wen",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Elektes, First King of Akros_PRO_TRX",
@@ -5834,7 +5816,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Ephara, Hero-Maker_PRO_TRX",
@@ -5852,7 +5834,25 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
+            "card_name": "Erase from Reality_PRO_TRX",
+            "color": "W",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 316,
+            "color_identity": "W",
+            "cost": "{1}{W}",
+            "rules_text": "Exile target nonland permanent if its mana value is less than or equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+            "flavor_text": "[i]\"You are not fit for Heliod's sight.\"\n[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TRX",
+            "loyalty": "",
+            "artist": "Joao Queiroz",
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Koios, Spear of Karda_PRO_TRX",
@@ -5870,7 +5870,7 @@
             "set": "TRX",
             "loyalty": "4",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Omen of Slaughter_PRO_TRX",
@@ -5888,7 +5888,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Phenax's Touch_PRO_TRX",
@@ -5906,7 +5906,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pikayou (Midjourney)",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Prince of the Pride_PRO_TRX",
@@ -5924,7 +5924,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "tomatomi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Pull of Tizerus_PRO_TRX",
@@ -5942,7 +5942,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Shrine to Those Forgotten_PRO_TRX",
@@ -5960,7 +5960,7 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         }
     ],
     "version": 1
