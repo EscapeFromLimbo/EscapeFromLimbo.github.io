@@ -27,6 +27,7 @@ def genAllCards(codes):
 	#F: ...goes over all the set codes,
 	for code in codes:
 		#CE: non-indented JSON is driving me insane
+		print(f"Loading json for {code}")
 		prettifyJSON(os.path.join('sets', code + '-files', code + '.json'))	
 		#F: grabs the corresponding file,
 		with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
