@@ -1,0 +1,4521 @@
+
+[Settings]
+{
+	"name": "Viridian's Last Mission",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Ace in the Hole_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/121_Ace in the Hole_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "121",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Add the top card of your library to your evil plan. If you've cast five or more spells this turn, Ace in the Hole deals 11 damage divided as you choose among any number of targets. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Acrobatic Stunt_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/122_Acrobatic Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "122",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature you control gets +3/+0 and gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Adept Arcanist_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/41_Adept Arcanist_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Adept Arcanist enters, create a ward {2} Gadget, then attach it to Adept Arcanist. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Aegis Pocketwatch_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/1_Aegis Pocketwatch_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "1",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Return another target permanent you own to its owner's hand.",
+	},
+	
+	{
+		"name": "Agent 107_VRD",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/161_Agent 107_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "161",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell that targets Agent 107, draw a card.\nWhenever Agent 107 attacks, if you've cast three or more spells that targeted him this turn, return up to three target cards from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Agent of Justiciar_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/2_Agent of Justiciar_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Agent of Justiciar enters, create a lifelink Gadget, then attach it to Agent of Justiciar. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "All According to Plan_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/3_All According to Plan_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "3",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Counter up to one target spell unless its controller pays {1}. Your opponents can't cast spells this turn.",
+	},
+	
+	{
+		"name": "Ancestral Scheme_VRD",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/42_Ancestral Scheme_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "42",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Add the top three cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Annihilator Suit_VRD",
+		"mana_cost": "{7}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/225_Annihilator Suit_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "225",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Annihilator Suit enters, each opponent chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.\nCrew 5",
+	},
+	
+	{
+		"name": "Apparatus Operator_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/162_Apparatus Operator_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "162",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Apparatus Operator enters, create a reach Gadget, then attach it to Apparatus Operator. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Arcane Catalyst_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/226_Arcane Catalyst_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "226",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}, {T}, Sacrifice Arcane Catalyst: Add the top card of your library to your evil plan. Search your library for two basic land cards, reveal them, and put them into your hand, then shuffle. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Archive Bloodhound_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/163_Archive Bloodhound_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "163",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you surveil, target creature gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Awoken Arbiter_VRD",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/4_Awoken Arbiter_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "4",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nAt the beginning of combat on your turn, another target creature you control gains indestructible until end of turn. If you're in your endgame, it also gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Awoken Corruptor_VRD",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/81_Awoken Corruptor_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "81",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nAt the beginning of your upkeep, reveal the top card of your library and put it into your hand. You lose life equal to its mana value unless you're in your endgame.",
+	},
+	
+	{
+		"name": "Awoken Ravager_VRD",
+		"mana_cost": "{X}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/164_Awoken Ravager_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "164",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Awoken Ravager enters with a +1/+1 counter on it for each mana spent to cast it.\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhen Awoken Ravager dies, if you're in your endgame, create a number of 1/1 black Nightmare creature tokens equal to its power.",
+	},
+	
+	{
+		"name": "Awoken Thunderer_VRD",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/43_Awoken Thunderer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "43",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhenever Awoken Thunderer attacks, surveil 2. When you do, if you're in your endgame, you may return target instant or sorcery card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Awoken Whelp_VRD",
+		"mana_cost": "{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/123_Awoken Whelp_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "123",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{R}{R}: Awoken Whelp gets +1/+0 until\nend of turn. If you're in your endgame, it also gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Back in Action_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/5_Back in Action_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "5",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Return target permanent card with mana value 3 or less from your graveyard to the battlefield.\nDraw a card.",
+	},
+	
+	{
+		"name": "Bankbuster Heavy_VRD",
+		"mana_cost": "{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/165_Bankbuster Heavy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "165",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{G}, Sacrifice Bankbuster Heavy: Destroy target noncreature permanent. Activate only if you're in your endgame.",
+	},
+	
+	{
+		"name": "Benthic Bunker_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/255_Benthic Bunker_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "255",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Benthic Bunker enters the battlefield tapped.\nWhen Benthic Bunker enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {G} or {U}.",
+	},
+	
+	{
+		"name": "Biomancer's Workshop_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/256_Biomancer's Workshop_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "256",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Biomancer's Workshop enters the battlefield tapped.\nWhen Biomancer's Workshop enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {G} or {W}.",
+	},
+	
+	{
+		"name": "Black Spy_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/82_Black Spy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "82",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Black Spy enters, create a first strike Gadget, then attach it to Black Spy. (It's an Equipment artifact token with equip {2} that grants that ability.)\nEnchanted creatures and equipped creatures you control have hexproof from white.",
+	},
+	
+	{
+		"name": "Blacklist_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/227_Blacklist_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "227",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Blacklist enters, choose a nonland card name.\nSpells with the chosen name can't be cast.\nCreatures with the chosen name can't attack unless their controller pays {3} for each of those creatures.",
+	},
+	
+	{
+		"name": "Blunt Instrument_VRD",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/124_Blunt Instrument_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "124",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever Blunt Instrument is dealt damage, it deals that much damage to you unless it's enchanted or equipped.",
+	},
+	
+	{
+		"name": "Bodyguard Bruisers_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/6_Bodyguard Bruisers_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nBodyguard Bruisers gets +2/+2 as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "Boss's Favorites_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/83_Boss's Favorites_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "83",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice another creature: Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Brain Backup_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/44_Brain Backup_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "44",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Surveil 1. Activate only as a sorcery. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Brawl Instigator_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/125_Brawl Instigator_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "125",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Brawl Instigator enters, add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nWhenever you cast your second spell each turn, Brawl Instigator fights up to one target creature.",
+	},
+	
+	{
+		"name": "Brot, Head Honcho_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/84_Brot, Head Honcho_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "84",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Brot, Head Honcho or another Minion you control dies, you draw a card and lose 1 life.",
+	},
+	
+	{
+		"name": "Brutal Butcher_VRD",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/126_Brutal Butcher_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "126",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Prowess\nWhen Brutal Butcher enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Brutal Stunt_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/166_Brutal Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "166",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature you control gets +4/+4 until end of turn.",
+	},
+	
+	{
+		"name": "Calamity's Cohort_VRD",
+		"mana_cost": "{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/201_Calamity's Cohort_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "201",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Lifelink, haste\nWhenever Calamity's Cohort attacks, exile the top card of defending player's library. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell. Spend only mana from artifacts to cast that spell.",
+	},
+	
+	{
+		"name": "Calamity Smith In The Gilded Heist_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/127_Calamity Smith In The Gilded Heist_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "127",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Create a Gold token.\n[-X]: You may pay {X}. If you do, Calamity Smith deals X damage to each creature and planeswalker you don't control.\n[-4]: Create a colorless artifact token named Gilded Lotus with \"{T}: Add three mana of any one color.\"",
+	},
+	
+	{
+		"name": "Cardboard Box_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/228_Cardboard Box_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "228",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Cardboard Box enters, draw a card.\nSpells that target you cost {2} more to cast.\n{T}, Sacrifice Cardboard Box: Untap target creature that's attacking you and remove it from combat.",
+	},
+	
+	{
+		"name": "Charmed Stray_VRD",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/7_Charmed Stray_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhen Charmed Stray enters, put a +1/+1 counter on each other creature you control named Charmed Stray.",
+	},
+	
+	{
+		"name": "City Soarer_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/45_City Soarer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "45",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When City Soarer enters, create a flying Gadget and a ward {2} Gadget, then attach them to City Soarer. (They're Equipment artifact tokens with equip {2} that grants those ability.)",
+	},
+	
+	{
+		"name": "Citypulse Tracker_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/167_Citypulse Tracker_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "167",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Citypulse Tracker enters, surveil 2. When you do, you may return a land card from your graveyard to your hand. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Citystalker Moth_VRD",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/8_Citystalker Moth_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "8",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nAt the beginning of combat on your turn, if you're in your endgame, you may tap target creature.",
+	},
+	
+	{
+		"name": "Cityweb Sentinel_VRD",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/168_Cityweb Sentinel_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "168",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach\nWhen Cityweb Sentinel enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Clone_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/47_Clone_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "47",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may have Clone enter as a copy of any creature on the battlefield.",
+	},
+	
+	{
+		"name": "Codename Cold Blood_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/128_Codename Cold Blood_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "128",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Cold Blood attacks, create a first strike Gadget, then attach it to another target attacking creature. (It's an Equipment artifact token with equip {2} that grants that ability.)\nWhenever an enchanted or equipped creature you control becomes the target of a spell or ability an opponent controls, that creature deals damage equal to its power to that player.",
+	},
+	
+	{
+		"name": "Codename Half Moon_VRD",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/85_Codename Half Moon_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "85",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Codename: Half Moon enters, create a menace Gadget, then attach it to Codename: Half Moon. (It's an Equipment artifact token with equip {2} that grants that ability.)\nWhenever you tap a Swamp for mana, if Half Moon is tapped, add an additional {B}.\n{B}: Target equipped or enchanted creature you control gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Codename Heavy Hitter_VRD",
+		"mana_cost": "{3}{G}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/169_Codename Heavy Hitter_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "169",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Codename: Heavy Hitter enters, create four trample Gadgets, then attach them to Codename: Heavy Hitter. (They're Equipment artifact tokens with equip {2} that grant that ability.)\nCreatures you control get +1/+1 for each permanent attached to them.",
+	},
+	
+	{
+		"name": "Codename High Life_VRD",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/9_Codename High Life_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "9",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Codename: High Life enters, create two lifelink Gadgets, then attach them to each of up to two target creatures. (They're Equipment artifact tokens with equip {2} that grant that ability.)\nAt the beginning of your end step, if you gained 4 or more life this turn, create two 1/1 white Soldier creature tokens.",
+	},
+	
+	{
+		"name": "Codename Viridian_VRD",
+		"mana_cost": "{1}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/202_Codename Viridian_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "202",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When Codename: Viridian enters, choose first strike, haste, lifelink, reach, or trample. Create a Gadget of that type, then attach it to her. (It's an Equipment artifact token with equip {2} that grants that ability.)\nNoncreature, non-Equipment spells cost {1} more to cast for each permanent attached to Codename: Viridian.",
+	},
+	
+	{
+		"name": "Codename Wise Guy_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/48_Codename Wise Guy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "48",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Codename: Wise Guy enters, create a prowess Gadget, then attach it to Codename: Wise Guy. (It's an Equipment artifact token with equip {2} that grants that ability.)\nWhenever Wise Guy deals combat damage to a player, draw that many cards.",
+	},
+	
+	{
+		"name": "Cohort Battlemage_VRD",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/170_Cohort Battlemage_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "170",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Cohort Battlemage gets +1/+0 and has trample as long as you control another creature named Cohort Battlemage.",
+	},
+	
+	{
+		"name": "Cold-Blooded Assassin_VRD",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/86_Cold-Blooded Assassin_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "86",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Cold-Blooded Assassin enters, create a menace Gadget, then attach it to Cold-Blooded Assassin. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Concealed Firearms_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/229_Concealed Firearms_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "229",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+1 and has \"Whenever this creature attacks, surveil 1.\" (Look at the top card of your library. You may put that card into your graveyard.)\nEquip {1}",
+	},
+	
+	{
+		"name": "Confronter of Evil_VRD",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/10_Confronter of Evil_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nConfronter of Evil has vigilance as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "Conniving Spy_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/49_Conniving Spy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "49",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Conniving Spy enters, surveil 1, then add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Conquest Terminal_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/50_Conquest Terminal_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "50",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Target player mills a card. If you're in your endgame, that player mills two cards instead.",
+	},
+	
+	{
+		"name": "Contain the Monstrous_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/11_Contain the Monstrous_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "11",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if a player controls a Nightmare.\nWhen Contain the Monstrous enters, exile target nonland permanent until Contain the Monstrous leaves the battlefield.",
+	},
+	
+	{
+		"name": "Corrupt Form_VRD",
+		"mana_cost": "{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/51_Corrupt Form_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "51",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nEnchant artifact or creature\nEnchanted permanent doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "Crackling Watcher_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/52_Crackling Watcher_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Crackling Watcher enters, if you cast it from exile, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Crafty Informant_VRD",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/12_Crafty Informant_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "12",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Crafty Informant enters, look at target player's hand, then choose a card name.\nPrevent all combat damage that would be dealt to Crafty Informant by creatures with the chosen name.",
+	},
+	
+	{
+		"name": "Crooked Politician_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/87_Crooked Politician_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "87",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhenever a nontoken creature you control dies, create a 1/1 black Minion creature token. If you're in your endgame, you gain 1 life. Otherwise, you lose 1 life.",
+	},
+	
+	{
+		"name": "Cultist's Compound_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/257_Cultist's Compound_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "257",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Cultist's Compound enters the battlefield tapped.\nWhen Cultist's Compound enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {W} or {B}.",
+	},
+	
+	{
+		"name": "Daredevil Brandishing_VRD",
+		"mana_cost": "{4}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/13_Daredevil Brandishing_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "13",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Create a double strike Gadget, then you may attach it to target creature you control. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Darkhand Enterprises_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/258_Darkhand Enterprises_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "258",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Darkhand Enterprises enters the battlefield tapped unless you control two or more basic Swamps.\n{T}: Add {B}.\n{B}{B}, {T}: Each player discards a card. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Deadshot Stunt_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/129_Deadshot Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "129",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature you control gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Decadent Lobby_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/259_Decadent Lobby_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "259",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Decadent Lobby enters the battlefield tapped.\nWhen Decadent Lobby enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {B} or {R}.",
+	},
+	
+	{
+		"name": "Deft Wingman_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/14_Deft Wingman_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "Descent of the Nightmares_VRD",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/88_Descent of the Nightmares_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "88",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature. Create X 1/1 black Nightmare creature tokens, where X is that creature's power.",
+	},
+	
+	{
+		"name": "Destructive Force_VRD",
+		"mana_cost": "{5}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/130_Destructive Force_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "130",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player sacrifices five lands. Destructive Force deals 5 damage to each creature.",
+	},
+	
+	{
+		"name": "Devious Electrocution_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/89_Devious Electrocution_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devious Electrocution deals 3 damage to any target. You gain 1 life for each artifact you control.",
+	},
+	
+	{
+		"name": "Diabolical Minion_VRD",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/90_Diabolical Minion_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "90",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a black spell or an artifact spell, each opponent loses 1 life and you gain 1 life.\nWhenever you cast a nonblack, nonartifact spell, you lose 1 life.",
+	},
+	
+	{
+		"name": "Disposable Mook_VRD",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/131_Disposable Mook_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "131",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhen Disposable Mook dies, create a Gold token. Then if you're in your endgame, draw a card. (Gold is an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Dispose Of_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/91_Dispose Of_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "91",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature that isn't enchanted or equipped.",
+	},
+	
+	{
+		"name": "Doomsday Device_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/132_Doomsday Device_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "132",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{R}, {T}: Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{2}{R}, {T}, Sacrifice Doomsday Device: Add seven mana of any one color. Activate only if there are seven or more cards in your evil plan.",
+	},
+	
+	{
+		"name": "Dream-Ash Phoenix_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/133_Dream-Ash Phoenix_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "133",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\n{R}: Return Dream-Ash Phoenix from your graveyard to your hand. Activate only if you've cast two or more spells this turn.",
+	},
+	
+	{
+		"name": "Dreamreaper_VRD",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/92_Dreamreaper_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "92",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Dreamreaper deals damage to a player, that player discards a card.\nWhenever an opponent discards one or more cards, create a 1/1 black Nightmare creature token.",
+	},
+	
+	{
+		"name": "Eavesdrop_VRD",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/53_Eavesdrop_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "53",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDraw a card.",
+	},
+	
+	{
+		"name": "Elder Mathias Jodan_VRD",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/15_Elder Mathias Jodan_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "15",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, create a 1/1 white Cleric creature token.\n{1}{B}, Sacrifice a non-Nightmare creature: Create a 1/1 black Nightmare creature token and draw a card.",
+	},
+	
+	{
+		"name": "Electric Goon_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/230_Electric Goon_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "230",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Add one mana of any color.\nAt the beginning of your upkeep, if you're in your endgame, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Electrocution Assistant_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/54_Electrocution Assistant_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "54",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Electrocution Assistant enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {U}. Spend this mana only to cast your evil plan or cast a noncreature spell.",
+	},
+	
+	{
+		"name": "Elvish Witness_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/171_Elvish Witness_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "171",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Elvish Witness enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Emergent Doom_VRD",
+		"mana_cost": "{6}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/134_Emergent Doom_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "134",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Emergent Doom enters, it gets +2/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Endless Mooks_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/93_Endless Mooks_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "93",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Endless Mooks enters, you may search your library for any number of cards named Endless Mooks, reveal them, put them into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Enigmatic Progenitor_VRD",
+		"mana_cost": "{5}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/172_Enigmatic Progenitor_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "172",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Slivers you control have \"At the beginning of each upkeep, create a 1/1 green Nightmare Sliver creature token.\"",
+	},
+	
+	{
+		"name": "Escaped Subject_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/173_Escaped Subject_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "173",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Add one mana of any color.\n{W}{U}{B}{R}{G}: Draw two cards. Put two +1/+1 counters on Escaped Subject. Activate only as a sorcery and only if you're in your endgame.",
+	},
+	
+	{
+		"name": "Evelyn Snakewood, Dark Druid_VRD",
+		"mana_cost": "{B}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/203_Evelyn Snakewood, Dark Druid_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "203",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Add {B} or {G}.\n{T}, Sacrifice Evelyn Snakewood: Return target creature card from your graveyard to the battlefield tapped. Activate only if you're in your endgame.",
+	},
+	
+	{
+		"name": "Evil Scheme_VRD",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/94_Evil Scheme_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "94",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Surveil 2, then add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Execution Table_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/231_Execution Table_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "231",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{3}, Sacrifice Execution Table: It deals 3 damage to target creature. If you're in your endgame, it deals 5 damage instead.",
+	},
+	
+	{
+		"name": "Explode_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/135_Explode_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "135",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Explode deals 4 damage to target creature without flying.\n• Destroy target artifact.",
+	},
+	
+	{
+		"name": "Face It All_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/16_Face It All_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "16",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nEnchant creature\nWhen Face It All enters, prevent all damage that would be dealt to enchanted creature this turn.\nEnchanted creature gets +1/+1.",
+	},
+	
+	{
+		"name": "Facility Detonator_VRD",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/95_Facility Detonator_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "95",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, destroy all creatures.",
+	},
+	
+	{
+		"name": "Field Worker_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/174_Field Worker_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "174",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Field Worker enters, choose one -\n• Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n• Return target Aura card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Fight Scene_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/175_Fight Scene_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "175",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Fight Scene enters, target creature you control fights up to one target creature.\nWhenever you cast a spell that targets a creature you control, you may return Fight Scene to its owner's hand.",
+	},
+	
+	{
+		"name": "Filigree Familiar_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/232_Filigree Familiar_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "232",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Filigree Familiar enters, you gain 2 life.\nWhen Filigree Familiar dies, draw a card.",
+	},
+	
+	{
+		"name": "Firearms Dealer_VRD",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/204_Firearms Dealer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "204",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever an artifact you control enters, each opponent loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Fireslinger_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/136_Fireslinger_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Fireslinger deals 1 damage to any target and 1 damage to you.",
+	},
+	
+	{
+		"name": "Flamethrower Volley_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/137_Flamethrower Volley_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "137",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flamethrower Volley deals 3 damage to target creature or planeswalker. Then you may pay {6}. If you do, Flamethrower Volley deals 6 damage to that permanent's controller.",
+	},
+	
+	{
+		"name": "Flare Gunner_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/138_Flare Gunner_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "138",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Flare Gunner enters, create a haste Gadget, then attach it to Flare Gunner. (It's an Equipment artifact token with equip {2} that grants that ability.)\n{1}, {T}: Target creature an opponent controls can't block this turn.",
+	},
+	
+	{
+		"name": "Flourishing Evil_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/176_Flourishing Evil_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "176",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Flourishing Evil enters, surveil 2, then add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nOnce each turn, you may reveal a card as you add it to your evil plan. If it's a land card, put it onto the battlefield tapped and add the top card of your library to your evil plan.",
+	},
+	
+	{
+		"name": "Forest_VRD",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/276_Forest_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "276",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Frank Atran, Augmented Agent_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/17_Frank Atran, Augmented Agent_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "17",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When Frank Atran enters, create a vigilance Gadget, then attach it to him. (It's an Equipment artifact token with equip {2} that grants that ability.)\n{W}, {T}, Sacrifice an artifact: Return target enchantment card from your graveyard to your hand.\n{W}, {T}, Sacrifice an enchantment: Return target artifact card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Frantic Inventory_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/55_Frantic Inventory_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.",
+	},
+	
+	{
+		"name": "Freezefire Corps_VRD",
+		"mana_cost": "{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/206_Freezefire Corps_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "206",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Freezefire Corps attacks, exile the top card of your library. You may play that card this turn. It costs {2} less to cast.",
+	},
+	
+	{
+		"name": "Frightborn Skyshark_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/56_Frightborn Skyshark_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "56",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying",
+	},
+	
+	{
+		"name": "Full House_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/139_Full House_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "139",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Add the top three cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nCreate three Gold tokens. (They're artifacts with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Funding Organizer_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/18_Funding Organizer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "18",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Artifact and enchantment spells you cast cost {1} less to cast.",
+	},
+	
+	{
+		"name": "Gather Intel_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/57_Gather Intel_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "57",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+	},
+	
+	{
+		"name": "Gearheart Baron_VRD",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/140_Gearheart Baron_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "140",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nAt the beginning of your end step, if you're in your endgame, Gearheart Baron deals damage to any target equal to the number of tapped artifacts you control.",
+	},
+	
+	{
+		"name": "Ghostly Observer_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/58_Ghostly Observer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "58",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhenever a land card is put into a graveyard from a library, put a +1/+1 counter on Ghostly Observer.",
+	},
+	
+	{
+		"name": "Gild_VRD",
+		"mana_cost": "{3}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/96_Gild_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "96",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target creature. Create a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Glacial Base_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/260_Glacial Base_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "260",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Glacial Base enters the battlefield tapped.\nWhen Glacial Base enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {U} or {B}.",
+	},
+	
+	{
+		"name": "Goon Squad_VRD",
+		"mana_cost": "{4}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/97_Goon Squad_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "97",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Create three 1/1 black Minion creature tokens. Add the top three cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Granite Harbinger_VRD",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/233_Granite Harbinger_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "233",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Granite Harbinger dies, you may search your library for a Nightmare card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Grappling Hook_VRD",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/234_Grappling Hook_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "234",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has double strike.\nWhenever equipped creature attacks, you may have target creature block it this turn if able.\nEquip {4}",
+	},
+	
+	{
+		"name": "Grimblood's Mastermind_VRD",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/99_Grimblood's Mastermind_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "99",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Grimblood's Mastermind enters, add the top four cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nWhenever you cast a spell from exile, put a +1/+1 counter on Grimblood's Mastermind.",
+	},
+	
+	{
+		"name": "Grimblood Vampire_VRD",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/98_Grimblood Vampire_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "98",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink",
+	},
+	
+	{
+		"name": "Gutter Slosher_VRD",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/177_Gutter Slosher_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "177",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever another Nightmare you control enters, you may choose one -\n• Gutter Slosher becomes a copy of that creature until end of turn.\n• That creature becomes a copy of Gutter Slosher until end of turn.",
+	},
+	
+	{
+		"name": "Heart Pounding Action_VRD",
+		"mana_cost": "{R}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/207_Heart Pounding Action_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "207",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Heart Pounding Action enters, look at the top four cards of your library. You may reveal an instant, sorcery, or Aura card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nWhenever you cast a spell that targets a creature you control, you may put a +1/+1 counter on that creature.",
+	},
+	
+	{
+		"name": "Heist of the Century_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/141_Heist of the Century_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "141",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Search your library for up to one artifact card, up to one Rogue card, and up to one Calamity planeswalker card. Reveal those cards, put them into your hand, discard a card at random, then shuffle.",
+	},
+	
+	{
+		"name": "Held for Ransom_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/19_Held for Ransom_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature can't attack or block.\n{8}: Destroy Held for Ransom. Any player may activate this ability.",
+	},
+	
+	{
+		"name": "Hemec Yor, Flamethrower Dragoon_VRD",
+		"mana_cost": "{3}{U}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/208_Hemec Yor, Flamethrower Dragoon_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "208",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nWhenever Hemec Yor attacks, she deals damage to any target equal to the number of spells you've cast this turn.",
+	},
+	
+	{
+		"name": "Hit Me_VRD",
+		"mana_cost": "{3}{U}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/209_Hit Me_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "209",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exile the top card of your library. Then if the total mana value of cards exiled this way is 10 or greater, put those cards into your graveyard. Otherwise, you may repeat this process. If you don't, put all cards exiled this way into your hand.",
+	},
+	
+	{
+		"name": "Hugo's Handiwork_VRD",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/210_Hugo's Handiwork_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "210",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{X}, Sacrifice Hugo's Handiwork: Destroy each nonland, non-Hugo permanent with mana value X or less.",
+	},
+	
+	{
+		"name": "Hugo's Watcher_VRD",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/101_Hugo's Watcher_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "101",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Hugo's Watcher enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Hugo Darkhand, the Mastermind_VRD",
+		"mana_cost": "{4}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/100_Hugo Darkhand, the Mastermind_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "100",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Target player reveals two cards from their hand. You choose one of them. That player discards that card.\n[-2]: Target player sacrifices a creature.\n[-3]: Create Simone Birch, a legendary 3/4 black Human Warlock Minion creature token with deathtouch.\n[-3]: Create Jamesson Stet, a legendary 4/3 black Human Warrior Minion creature token with menace.",
+	},
+	
+	{
+		"name": "Inconspicuous Volcano_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/261_Inconspicuous Volcano_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "261",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Inconspicuous Volcano enters the battlefield tapped.\nWhen Inconspicuous Volcano enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {R} or {G}.",
+	},
+	
+	{
+		"name": "Inexorable Onslaught_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/59_Inexorable Onslaught_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "59",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nCreate two 1/1 black Nightmare creature tokens for each spell you've cast this turn.",
+	},
+	
+	{
+		"name": "Innovations in Interrogation_VRD",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/102_Innovations in Interrogation_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target player discards two cards. Innovations in Interrogation deals 4 damage to that player.",
+	},
+	
+	{
+		"name": "International Manipulation_VRD",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/142_International Manipulation_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "142",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Until your next turn, you choose which creatures attack and block and how those creatures attack and block each combat.",
+	},
+	
+	{
+		"name": "Iroshi, Blade of the Old Ways_VRD",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/178_Iroshi, Blade of the Old Ways_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "178",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flash\nAs long as Iroshi entered this turn, you may activate their loyalty abilities any time you could cast an instant.\n[+1]: You may return a creature you control to its owner's hand. If you do, draw a card.\n[-1]: Create a 2/2 green Ninja creature token.\n[-2]: Target creature you control deals damage equal to its power to target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Iroshi's Devotee_VRD",
+		"mana_cost": "{6}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/179_Iroshi's Devotee_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "179",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nAs an additional cost to cast this spell, you may return any number of creatures you control to their owners' hands. This spell costs {2} less to cast for each creature returned to its owner's hand this way.",
+	},
+	
+	{
+		"name": "Island_VRD",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/273_Island_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "273",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "It All Comes Together_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/60_It All Comes Together_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "60",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nCreate a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Ivas Taranka, Rogue Diplomat_VRD",
+		"mana_cost": "{3}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/211_Ivas Taranka, Rogue Diplomat_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "211",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature deals combat damage to one of your opponents, that creature's controller creates a Gold token.\n{1}, {T}: Target creature attacks target player or planeswalker this turn if able.",
+	},
+	
+	{
+		"name": "Jacques Elnis, Jetpack Rocketeer_VRD",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/212_Jacques Elnis, Jetpack Rocketeer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "212",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Jacques Elnis enters, create a flying Gadget, then attach it to Jacques Elnis. (It's an Equipment artifact token with equip {2} that grants that ability.)\nWhenever a creature you control deals combat damage to a player, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Jebidiah Digsworth, the Mole_VRD",
+		"mana_cost": "{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/213_Jebidiah Digsworth, the Mole_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "213",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Jebidiah Digsworth enters under the control of an opponent of your choice.\nCreatures you control attack each combat if able and attack a player other than Jebidiah Digsworth's owner if able.\nWhenever a creature you control deals combat damage to a player, Jebidiah Digsworth's owner draws a card.",
+	},
+	
+	{
+		"name": "Jodanist Bishop_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/20_Jodanist Bishop_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "20",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Jodanist Bishop enters, create a 1/1 black Nightmare creature token.\n{6}{W}: Create a 1/1 black Nightmare creature token. Creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Justiciar Dispatcher_VRD",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/180_Justiciar Dispatcher_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "180",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Justiciar Dispatcher enters, if you control an Aura or Equipment, draw a card.",
+	},
+	
+	{
+		"name": "Justiciar Headquarters_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/262_Justiciar Headquarters_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "262",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Justiciar Headquarters enters the battlefield tapped unless you control two or more basic Plains.\n{T}: Add {W}.\n{W}{W}, {T}: Create a 1/1 white Soldier creature token. Activate only if you've attacked this turn.",
+	},
+	
+	{
+		"name": "Justiciar Overseer_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/21_Justiciar Overseer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "21",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Justiciar Overseer enters, the next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to any target instead.",
+	},
+	
+	{
+		"name": "Justiciar Stormblade_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/61_Justiciar Stormblade_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "61",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Justiciar Stormblade enters, create a flying Gadget, then attach it to Justiciar Stormblade. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Laboratory Maniac_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/62_Laboratory Maniac_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "62",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "If you would draw a card while your library has no cards in it, you win the game instead.",
+	},
+	
+	{
+		"name": "Lair Assistant_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/235_Lair Assistant_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "235",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Lair Assistant enters, choose one -\n• Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n• Shuffle up to four cards from your graveyard into your library.",
+	},
+	
+	{
+		"name": "Lair Butler_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/181_Lair Butler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "181",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Lair Butler enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Lairbuster Vanguard_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/182_Lairbuster Vanguard_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "182",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhenever you cast a spell that targets Lairbuster Vanguard, if you're in your endgame, put two +1/+1 counters on it.",
+	},
+	
+	{
+		"name": "Lay Low_VRD",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/22_Lay Low_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "22",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Counter target spell that targets you or a permanent you control.\nSurveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Live and Let Die_VRD",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/103_Live and Let Die_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "103",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "If a creature or planeswalker dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nAt the beginning of your upkeep, return up to one target creature or planeswalker card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Lucas Locke, Paranormal Sleuth_VRD",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/214_Lucas Locke, Paranormal Sleuth_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "214",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Lucas Locke enters, exile up to one other target nonland permanent until Lucas Locke leaves the battlefield. Then that permanent's controller reveals their hand and you choose a nonland card from it. Exile that card until Lucas Locke leaves the battlefield.",
+	},
+	
+	{
+		"name": "Luxurious Estate_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/263_Luxurious Estate_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "263",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Luxurious Estate enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Mana Rig_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/236_Mana Rig_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "236",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color.\nWhenever you tap Mana Rig for mana, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Mana Smuggler_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/183_Mana Smuggler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "183",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Mana Smuggler can't be blocked by creatures with power 2 or less.\nAt the beginning of each end step, if you've surveiled this turn, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Midnight Square_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/264_Midnight Square_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "264",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Midnight Square enters the battlefield tapped.\nWhen Midnight Square enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {W} or {U}.",
+	},
+	
+	{
+		"name": "Missile Silo_VRD",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/237_Missile Silo_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "237",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Missile Silo enters with two charge counters on it.\n{T}: Put a charge counter on Missile Silo.\n{T}, Sacrifice Missile Silo: It deals damage equal to the number of charge counters on it to any target.",
+	},
+	
+	{
+		"name": "Missing in Action_VRD",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/23_Missing in Action_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target nonland permanent. Its controller may surveil 1. (That player looks at the top card of their library, then may put it into their graveyard.)",
+	},
+	
+	{
+		"name": "Mission Briefing_VRD",
+		"mana_cost": "{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/63_Mission Briefing_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "63",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast it this turn. If that spell would be put into your graveyard this turn, exile it instead. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Monument to Vanity_VRD",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/215_Monument to Vanity_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "215",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Add {B}{R}.\nWhenever you tap Monument to Vanity for mana, if you're in your endgame, exile the top card of your library. You may play that card this turn.",
+	},
+	
+	{
+		"name": "Mountain_VRD",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/275_Mountain_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "275",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "New Tellison Express_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/24_New Tellison Express_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "24",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhenever another artifact you control enters, put a +1/+1 counter on New Tellison Express.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Night Drudger_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/184_Night Drudger_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "184",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{G}: Exile target creature card from a graveyard. Put a +1/+1 counter on Night Drudger. If you're in your endgame, you gain 2 life.",
+	},
+	
+	{
+		"name": "Observant Contact_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/64_Observant Contact_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "64",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Observant Contact dies, choose one -\n• Return target instant or sorcery card from your graveyard to your hand.\n• Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "One Last Stunt_VRD",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/143_One Last Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "143",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As long as lands you control could produce {3}{R} and you've cast another spell that targeted a creature this turn, you may exile a red card from your hand rather than pay this spell's mana cost.\nUntap target creature. After this main phase, there is an additional combat phase followed by an additional main phase.",
+	},
+	
+	{
+		"name": "Organized Espionage_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/104_Organized Espionage_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "104",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Black creatures you control get +1/+1.\nWhenever a creature you control deals combat damage to a player, you may sacrifice it and pay 3 life. If you do, that player discards a card and you draw a card.",
+	},
+	
+	{
+		"name": "Outdated Crony_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/105_Outdated Crony_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "105",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another artifact you control enters, you may sacrifice Outdated Crony. If you do, draw two cards.",
+	},
+	
+	{
+		"name": "Paragon Agent_VRD",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/25_Paragon Agent_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "25",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Paragon Agent enters, create a first strike Gadget, then attach it to Paragon Agent. (It's an Equipment artifact token with equip {2} that grants that ability.)\nEquipment you control have equip {0}.",
+	},
+	
+	{
+		"name": "Paranormal Investigators_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/106_Paranormal Investigators_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "106",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Paranormal Investigators dies, you may put it on the bottom of its owner's library. If you do, return target creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Partners in Crime_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/144_Partners in Crime_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "144",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Partners in Crime attacks, create a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")\nWhenever you cast a spell, if mana from an artifact was spent to cast that spell, put a +1/+1 counter on Partners in Crime.",
+	},
+	
+	{
+		"name": "Penthouse Office_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/265_Penthouse Office_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "265",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Penthouse Office enters the battlefield tapped.\nWhen Penthouse Office enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {R} or {W}.",
+	},
+	
+	{
+		"name": "Perspicacity_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/238_Perspicacity_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "238",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more other artifacts and/or creatures you control die for the first time each turn, draw a card.\nWhenever you cast a colorless spell, create a 1/1 colorless Minion artifact creature token.",
+	},
+	
+	{
+		"name": "Piece Together_VRD",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/26_Piece Together_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "26",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of each end step, if three or more types of permanents you control entered this turn, draw a card.",
+	},
+	
+	{
+		"name": "Pilgrim's Eye_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/239_Pilgrim's Eye_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "239",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Pilgrim's Eye enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Pit of Sharks_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/145_Pit of Sharks_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "145",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, if you've cast two or more spells this turn, create an X/X red Shark creature token, where X is the number of spells you've cast this turn. If you've cast six or more spells this turn, Sharks you control gain haste and trample until end of turn.",
+	},
+	
+	{
+		"name": "Plains_VRD",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/272_Plains_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "272",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Political Puppeteer_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/27_Political Puppeteer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "27",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever an artifact you control enters for the first time each turn, you may pay {2}. If you do, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Power Source_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/240_Power Source_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "240",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Power Source enters, draw two cards, then discard two cards.\n{1}, {T}: Add one mana of any color. This ability costs {1} less to activate if you control three or more artifacts named Power Source.",
+	},
+	
+	{
+		"name": "Precarious Evasion_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/28_Precarious Evasion_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Prevent all damage that would be dealt to you this turn.",
+	},
+	
+	{
+		"name": "Presence of the First Dream_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/65_Presence of the First Dream_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "65",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Presence of the First Dream enters, return up to one target creature to its owner's hand.\nAt the beginning of each end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, draw a card.",
+	},
+	
+	{
+		"name": "Prototype Jetmobile_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/241_Prototype Jetmobile_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "241",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nPrototype Jetmobile is an artifact creature as long as you're in your endgame.\nCrew 3",
+	},
+	
+	{
+		"name": "Prototype Robosaur_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/146_Prototype Robosaur_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Prototype Robosaur.\n{2}{R}: Prototype Robosaur gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Pursuit Hovercraft_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/242_Pursuit Hovercraft_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "242",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Pursuit Hovercraft enters, draw a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Quickdraw Pistol_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/243_Quickdraw Pistol_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "243",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Quickdraw Pistol enters, you may attach it to target creature you control.\nEquipped creature gets +2/+0.\nEquip {2}",
+	},
+	
+	{
+		"name": "Rambling Monologue_VRD",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/147_Rambling Monologue_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "147",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell, put a verse counter on Rambling Monologue, then Rambling Monologue deals damage to each opponent equal to the number of verse counters on it.\nWhenever an opponent casts a spell, remove all verse counters from Rambling Monologue.",
+	},
+	
+	{
+		"name": "Reckless Spy_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/148_Reckless Spy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "148",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Reckless Spy attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Recover the Evidence_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/185_Recover the Evidence_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "185",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Surveil 3. When you do, return target permanent card from your graveyard to your hand. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Remote Facility_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/266_Remote Facility_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "266",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Remote Facility enters the battlefield tapped.\nWhen Remote Facility enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {U} or {R}.",
+	},
+	
+	{
+		"name": "Renegade Agent_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/107_Renegade Agent_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "107",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Renegade Agent dies, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Right Where I Want You_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/108_Right Where I Want You_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "108",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nCreate a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Rocket Shark_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/149_Rocket Shark_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "149",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nRocket Shark has flying as long as you've cast two or more spells this turn.",
+	},
+	
+	{
+		"name": "Rogue's Palace Bouncer_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/150_Rogue's Palace Bouncer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "150",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\nEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nRogue's Palace Bouncer can attack as though it didn't have defender as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "Rogue's Palace Cardshark_VRD",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/216_Rogue's Palace Cardshark_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "216",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Rogue's Palace Cardshark enters, an opponent looks at the top four cards of your library and separates them into a face-down pile and a face-up pile. Reveal one of those piles, then put all permanent cards with mana value 3 or less from that pile onto the battlefield under your control. Put the rest and the other pile into your graveyard.",
+	},
+	
+	{
+		"name": "Rogue's Palace Colossus_VRD",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/245_Rogue's Palace Colossus_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "245",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast your second spell each turn, put a +1/+1 counter on Rogue's Palace Colossus. It gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Sabotage_VRD",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/66_Sabotage_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "66",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Counter target spell.\n• Draw two cards, then discard a card.",
+	},
+	
+	{
+		"name": "Sabotage Skitterer_VRD",
+		"mana_cost": "{G}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/186_Sabotage Skitterer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "186",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{G}, {T}, Sacrifice Sabotage Skitterer: Destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Sainted Agent_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/29_Sainted Agent_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "29",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nIf a nontoken creature an opponent controls would die, instead exile that card and put a +1/+1 counter on Sainted Agent.",
+	},
+	
+	{
+		"name": "Satellite Tower_VRD",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/246_Satellite Tower_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "246",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color.\nAt the beginning of your end step, untap target artifact.",
+	},
+	
+	{
+		"name": "Save the World_VRD",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/67_Save the World_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "67",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Counter all other spells.",
+	},
+	
+	{
+		"name": "Scampering Journalist_VRD",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/109_Scampering Journalist_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "109",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Scampering Journalist enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{B}: Scampering Journalist gains deathtouch until end of turn.",
+	},
+	
+	{
+		"name": "Schemer of Ancient Ways_VRD",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/217_Schemer of Ancient Ways_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "217",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {B} or {G}.\n{2}{B}{G}, {T}: Surveil 2, then add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Scheming Sphinx_VRD",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/68_Scheming Sphinx_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "68",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Scheming Sphinx attacks, draw a card, then add a card from your hand to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Scuba Suit_VRD",
+		"mana_cost": "{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/69_Scuba Suit_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "69",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has ward {X}, where X is the number of permanents attached to it. (Multiple instances of ward trigger separately.)\n{1}: Equipped creature can't be blocked this turn.\nEquip {1}",
+	},
+	
+	{
+		"name": "Scuttling Underling_VRD",
+		"mana_cost": "{5}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/70_Scuttling Underling_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "70",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Scuttling Underling enters or dies, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Secret Base Sentinel_VRD",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/247_Secret Base Sentinel_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "247",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "First strike\nWard-Discard a card. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.)\nOther artifacts and creatures you control have \"Ward-Discard a card.\"",
+	},
+	
+	{
+		"name": "Self-Destructing Message_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/151_Self-Destructing Message_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "151",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Draw three cards. Discard three cards at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Sewer Orgg_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/152_Sewer Orgg_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "152",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nSewer Orgg can't attack or block unless you pay {3} or sacrifice a nonland permanent.",
+	},
+	
+	{
+		"name": "Shifting Lair_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/268_Shifting Lair_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "268",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Shifting Lair enters the battlefield tapped.\nWhen Shifting Lair enters, return a land you control to its owner's hand.\n{T}: Add {C} and one mana of any color.",
+	},
+	
+	{
+		"name": "Shock_VRD",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/153_Shock_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "153",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Shock deals 2 damage to any target.",
+	},
+	
+	{
+		"name": "Shoot to Kill_VRD",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/30_Shoot to Kill_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Shoot to Kill deals 2 damage to target attacking creature.\n• Put a +1/+1 counter on target creature. If it's your turn, it gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Shootout Stunt_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/187_Shootout Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "187",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature you control gets +1/+1 until end of turn. It fights target creature an opponent controls.",
+	},
+	
+	{
+		"name": "Signature Stunt_VRD",
+		"mana_cost": "{3}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/154_Signature Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "154",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {3} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature you control deals damage equal to its power to target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Sim Nichol, Trinket Enchanter_VRD",
+		"mana_cost": "{3}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/218_Sim Nichol, Trinket Enchanter_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "218",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, draw a card if you attacked with an equipped creature this turn, then draw a card if you attacked with an enchanted creature this turn.",
+	},
+	
+	{
+		"name": "Sir Hogginsworth, Quartermaster_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/31_Sir Hogginsworth, Quartermaster_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "31",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Sir Hogginsworth, Quartermaster enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\nWhenever you cast an Equipment spell, choose first strike, flying, or lifelink. Create a Gadget of that type. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Smash to Smithereens_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/155_Smash to Smithereens_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "155",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target artifact. Smash to Smithereens deals 3 damage to that artifact's controller.",
+	},
+	
+	{
+		"name": "Smirk, Darkhand's Favored_VRD",
+		"mana_cost": "{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/110_Smirk, Darkhand's Favored_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "110",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Smirk enters, add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nWhenever you cast your second spell each turn, you draw a card and you lose 2 life.",
+	},
+	
+	{
+		"name": "Smuggler's Cunning_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/188_Smuggler's Cunning_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "188",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+2.\nWhen Smuggler's Cunning enters, surveil 2, then draw a card. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Smuggling Kingpin_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/71_Smuggling Kingpin_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "71",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, you may put a contraband counter on Smuggling Kingpin.\nOnce each turn, you may cast a spell with mana value X from your hand without paying its mana cost, where X is the number of contraband counters on Smuggling Kingpin.",
+	},
+	
+	{
+		"name": "Snakewood's Final Servant_VRD",
+		"mana_cost": "{3}{B}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/111_Snakewood's Final Servant_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "111",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, trample\nOther Nightmares you control get +2/+2.\nAt the beginning of your upkeep, choose one -\n• Sacrifice a creature. You gain 8 life.\n• Put target creature card from a graveyard onto the battlefield under your control, except it's a Nightmare in addition to its other types. Snakewood's Final Servant deals 8 damage to you.",
+	},
+	
+	{
+		"name": "Snakewood's Hideout_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/269_Snakewood's Hideout_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "269",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Snakewood's Hideout enters the battlefield tapped unless you control two or more basic Forests.\n{T}: Add {G}.\n{G}{G}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Snakewood's Summons_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/189_Snakewood's Summons_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "189",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Somnogoyf_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/190_Somnogoyf_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "190",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Somnogoyf's power and toughness are each equal to the number of different mana values among nonland cards in your graveyard.",
+	},
+	
+	{
+		"name": "Soulsucker_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/112_Soulsucker_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "112",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Soulsucker enters, target opponent discards a card.",
+	},
+	
+	{
+		"name": "Spider's Touch_VRD",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/113_Spider's Touch_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Up to one target creature gains deathtouch until end of turn.\nDraw a card.",
+	},
+	
+	{
+		"name": "Sprocketed Brawler_VRD",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/191_Sprocketed Brawler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "191",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sprocketed Brawler enters, create a trample Gadget, then attach it to Sprocketed Brawler. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Spycraft Survivalist_VRD",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/219_Spycraft Survivalist_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "219",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you surveil, draw a card. (Do this after your surveil.)",
+	},
+	
+	{
+		"name": "Standard-Issue Firearm_VRD",
+		"mana_cost": "{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/32_Standard-Issue Firearm_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "32",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nEquipped creature gets +2/+2.\nEquip {4}. This ability costs {3} less to activate as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "Steam-Powered Steer_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/156_Steam-Powered Steer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "156",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample, haste\nWhen Steam-Powered Steer enters, it deals damage to any target equal to the amount of mana from artifacts spent to cast it.",
+	},
+	
+	{
+		"name": "Steed of Agonies_VRD",
+		"mana_cost": "{5}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/114_Steed of Agonies_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "114",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, trample\nAt the beginning of your end step, if you control six or more Swamps, put a +1/+1 counter on Steed of Agonies.",
+	},
+	
+	{
+		"name": "Steelbane Sniper_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/192_Steelbane Sniper_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "192",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Steelbane Sniper enters, choose one -\n• Create a reach Gadget, then attach it to Steelbane Sniper. (It's an Equipment artifact token with equip {2} that grants that ability.)\n• Destroy target artifact creature.",
+	},
+	
+	{
+		"name": "Stoneglare Agent_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/193_Stoneglare Agent_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "193",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Stoneglare Agent enters, create a deathtouch Gadget, then attach it to Stoneglare Agent. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Storm of Monstrosities_VRD",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/194_Storm of Monstrosities_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "194",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Reveal the top seven cards of your library. You may put a creature card from among them onto the battlefield. If you do, create a token that's a copy of it. Put the rest into your graveyard.",
+	},
+	
+	{
+		"name": "Suave Jetster_VRD",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/33_Suave Jetster_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "33",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Suave Jetster enters, create a flying Gadget, then attach it to Suave Jetster. (It's an Equipment artifact token with equip {2} that grants that ability.)",
+	},
+	
+	{
+		"name": "Superweapon Blast_VRD",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/157_Superweapon Blast_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "157",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Superweapon Blast deals 7 damage to target creature. Destroy all Equipment attached to that creature.",
+	},
+	
+	{
+		"name": "Suspicious Merchant_VRD",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/195_Suspicious Merchant_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "195",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach, deathtouch",
+	},
+	
+	{
+		"name": "Swamp_VRD",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/274_Swamp_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "274",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Sweet Talker_VRD",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/34_Sweet Talker_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "34",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sweet Talker enters, you gain 3 life.",
+	},
+	
+	{
+		"name": "Swift Gadgeteer_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/35_Swift Gadgeteer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever an artifact you control enters, target creature gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Tactical Skis_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/249_Tactical Skis_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "249",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has haste and ward {2}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless its controller pays {2}.)\nEquip {0}",
+	},
+	
+	{
+		"name": "Take Out_VRD",
+		"mana_cost": "{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/36_Take Out_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "36",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy target tapped creature.",
+	},
+	
+	{
+		"name": "Talented Dealer_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/196_Talented Dealer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "196",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Talented Dealer enters, add the top card of your library to your evil plan. You gain 2 life. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Taranka's Cohort_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/37_Taranka's Cohort_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "37",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{W}, {T}: Tap target creature.",
+	},
+	
+	{
+		"name": "Taranka's Posse_VRD",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/220_Taranka's Posse_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "220",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhen Taranka's Posse enters, create a Gold token.\nTaranka's Posse gets +3/+3 as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "The Clock is Ticking_VRD",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/46_The Clock is Ticking_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "46",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of each opponent's end step, put a time counter on The Clock is Ticking. When you do, choose one for each time counter on The Clock is Ticking. You may choose the same mode more than once.\n• Target player mills a card.\n• Draw a card, then discard a card.",
+	},
+	
+	{
+		"name": "The First Dream_VRD",
+		"mana_cost": "{3}{W}{U}{B}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/205_The First Dream_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "205",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nTrample, ward {4}\nYour opponents play with cards they own from outside the game revealed.\nYou may cast spells any player owns from outside the game or from the command zone.",
+	},
+	
+	{
+		"name": "The Rack_VRD",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/244_The Rack_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "244",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As The Rack enters, choose an opponent.\nAt the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.",
+	},
+	
+	{
+		"name": "The Rogue's Palace_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/267_The Rogue's Palace_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "267",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "The Rogue's Palace enters the battlefield tapped unless you control two or more basic Mountains.\n{T}: Add {R}.\n{R}{R}, {T}, Discard your hand: Draw a card.",
+	},
+	
+	{
+		"name": "The Sunfire_VRD",
+		"mana_cost": "{2}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/248_The Sunfire_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "248",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+2.\nWhenever equipped creature attacks, choose any number -\n• Pay {R}. When you do, The Sunfire deals 2 damage to any target.\n• Pay {W}. When you do, tap target creature you don't control. You gain life equal to its power.\nEquip {2}",
+	},
+	
+	{
+		"name": "The World Is Not Enough_VRD",
+		"mana_cost": "{7}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/80_The World Is Not Enough_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "80",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Target opponent shuffles their library. Then exile the top X cards of their library, where X is the number of spells you've cast this turn. Until end of turn, you may play cards exiled this way without paying their mana costs.\n{U}, Discard The World Is Not Enough: Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Theory of Everything_VRD",
+		"mana_cost": "{5}{U}{U}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/72_Theory of Everything_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "72",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "If you would draw a card, you may draw two cards instead.\nWhenever you cast a spell, you may copy it. If you do, you may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+	},
+	
+	{
+		"name": "Therese Grimblood_VRD",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/115_Therese Grimblood_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "115",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast your first black spell each turn, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\nYou may pay {B}{B}{B}{B} and 4 life rather than {7} to cast your evil plan.",
+	},
+	
+	{
+		"name": "Thrashing Devourer_VRD",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/197_Thrashing Devourer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "197",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "Thunderbrain Labs_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/270_Thunderbrain Labs_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "270",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Thunderbrain Labs enters the battlefield tapped unless you control two or more basic Islands.\n{T}: Add {U}.\n{U}{U}, {T}: Create a token that's a copy of target artifact token you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Tireless Innovation_VRD",
+		"mana_cost": "{W}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/221_Tireless Innovation_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "221",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}, Sacrifice an artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put that card onto the battlefield, then shuffle. Activate only once each turn and only as a sorcery.",
+	},
+	
+	{
+		"name": "Tobias Maxwell, Justiciar Boss_VRD",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/73_Tobias Maxwell, Justiciar Boss_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "73",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Tobias Maxwell enters, reveal the top three cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.\nAt the beginning of combat on your turn, choose another target creature you control. Whenever that creature deals combat damage to a player this turn, draw a card.",
+	},
+	
+	{
+		"name": "Torch Twirler_VRD",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/158_Torch Twirler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "158",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Torch Twirler enters, you may discard a card. If you do, add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Torment Nexus_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/116_Torment Nexus_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\n{T}: Target player loses 1 life.\n{T}, Sacrifice Torment Nexus: Target player loses 3 life. Activate only if you're in your endgame.",
+	},
+	
+	{
+		"name": "Tough Customer_VRD",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/117_Tough Customer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nWhen Tough Customer dies, up to one target creature gets -1/-1 until end of turn. If you're in your endgame, that creature gets -2/-2 until end of turn instead.",
+	},
+	
+	{
+		"name": "Toughened Goon_VRD",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/159_Toughened Goon_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "159",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace",
+	},
+	
+	{
+		"name": "Tracker's Cigar_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/250_Tracker's Cigar_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "250",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Tracker's Cigar enters, search your library for a basic land card, reveal it, and put it into your hand, then shuffle.\nEquipped creature gets +1/+1.\nEquip {1}",
+	},
+	
+	{
+		"name": "Trick Questions_VRD",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/74_Trick Questions_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "74",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Repeat the following process X times. Reveal the top two cards of your library. Target opponent chooses one of those cards. Put that card into your hand and the rest on the bottom of your library in any order.",
+	},
+	
+	{
+		"name": "Trouble Brewing_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/75_Trouble Brewing_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "75",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.\n• Draw two cards, then add a card from your hand to your evil plan. (Exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Two Heads Are Better_VRD",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/76_Two Heads Are Better_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "76",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}{U}: Surveil 2. Activate only as a sorcery. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{1}{U}, Sacrifice Two Heads Are Better: Add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Tyrant's Machine_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/251_Tyrant's Machine_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "251",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{4}, {T}: Tap target creature.",
+	},
+	
+	{
+		"name": "Unassuming Hooptie_VRD",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/252_Unassuming Hooptie_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "252",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Unassuming Hooptie becomes a creature, attach any number of Equipment you control to it.\nUnassuming Hooptie gets +1/+1 for each Equipment attached to it.\nCrew 1",
+	},
+	
+	{
+		"name": "Uncanny Likeness_VRD",
+		"mana_cost": "{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/77_Uncanny Likeness_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "77",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Uncanny Likeness enters, exile target creature card from a graveyard with mana value less than or equal to enchanted creature's mana value.\nEnchanted creature is a copy of the exiled card.",
+	},
+	
+	{
+		"name": "Undercover Gadgeteer_VRD",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/222_Undercover Gadgeteer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "222",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Undercover Gadgeteer enters, draw a card for each differently named Equipment you control.\nYou may activate equip abilities any time you could cast an instant.",
+	},
+	
+	{
+		"name": "Underground Lab_VRD",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/271_Underground Lab_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "271",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Underground Lab enters the battlefield tapped.\nWhen Underground Lab enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)\n{T}: Add {B} or {G}.",
+	},
+	
+	{
+		"name": "Unkillable Henchman_VRD",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/118_Unkillable Henchman_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "118",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nUnkillable Henchman can't block.\nYou may cast Unkillable Henchman from your graveyard as long as you're in your endgame.",
+	},
+	
+	{
+		"name": "Upgrade Stunt_VRD",
+		"mana_cost": "{4}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/198_Upgrade Stunt_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "198",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {4} less to cast if you've cast another spell that targeted a creature this turn.\nTarget creature gets +4/+4 and gains trample until end of turn. It must be blocked this turn if able.",
+	},
+	
+	{
+		"name": "Veteran Gadgeteer_VRD",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/199_Veteran Gadgeteer_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "199",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Sacrifice an Aura or Equipment attached to a creature you control: That creature gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Viridian's Trusty Sidearm_VRD",
+		"mana_cost": "{2}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/253_Viridian's Trusty Sidearm_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "253",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)\nEquipped creature gets +2/+0.\nSacrifice Viridian's Trusty Sidearm: Equipped creature gains indestructible until end of turn. If you're in your endgame, draw a card.\nEquip {1}",
+	},
+	
+	{
+		"name": "Wall Scaler_VRD",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/78_Wall Scaler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "78",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhenever Wall Scaler deals damage to a player, draw a card.",
+	},
+	
+	{
+		"name": "Whirlwind Romantic_VRD",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/223_Whirlwind Romantic_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "223",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Whirlwind Romantic attacks, you may gain control of target creature defending player controls with mana value 2 or less until end of turn. If you do, tap it. It's attacking its owner.",
+	},
+	
+	{
+		"name": "Whirring Sky Gizmo_VRD",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/254_Whirring Sky Gizmo_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "254",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Whirring Sky Gizmo enters, you may exile target non-Thopter artifact or creature you control, then return that card to the battlefield under your control.",
+	},
+	
+	{
+		"name": "White Spy_VRD",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/38_White Spy_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "38",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When White Spy enters, create a first strike Gadget, then attach it to White Spy. (It's an Equipment artifact token with equip {2} that grants that ability.)\nEnchanted creatures and equipped creatures you control have hexproof from black.",
+	},
+	
+	{
+		"name": "Wire Gobbler_VRD",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/200_Wire Gobbler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Wire Gobbler enters, you may sacrifice an artifact or enchantment. If you do, draw two cards.",
+	},
+	
+	{
+		"name": "Within My Grasp_VRD",
+		"mana_cost": "{U}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/224_Within My Grasp_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "224",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay {7} once a turn as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)",
+	},
+	
+	{
+		"name": "Without a Trace_VRD",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/79_Without a Trace_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "79",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put target creature into its owner's library third from the top.",
+	},
+	
+	{
+		"name": "Workshop Crawler_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/39_Workshop Crawler_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "39",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Workshop Crawler enters, you may pay {X}. If you do, put X +1/+1 counters on it.",
+	},
+	
+	{
+		"name": "World Domination_VRD",
+		"mana_cost": "{X}{B}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/119_World Domination_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "119",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When World Domination enters, you draw X cards and you lose X life.\nAt the beginning of your end step, World Domination deals damage to any target equal to the number of noncreature spells you've cast this turn. You gain that much life.",
+	},
+	
+	{
+		"name": "Worldender Engine_VRD",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/120_Worldender Engine_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "120",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWorldender Engine doesn't untap during its controller's untap step.\nWhenever an artifact you control enters, untap Worldender Engine.",
+	},
+	
+	{
+		"name": "You Only Live Twice_VRD",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/40_You Only Live Twice_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "40",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +3/+3.\nWhen enchanted creature dies, return that card to its owner's hand.",
+	},
+	
+	{
+		"name": "Zap Toady_VRD",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/160_Zap Toady_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "160",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Zap Toady enters, create a Gold token for each creature you control named Zap Toady. (Gold is an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Whirlwind Romantic (James Bond, 007)_VRD",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/283_Whirlwind Romantic (James Bond, 007)_VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "283",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Whirlwind Romantic attacks, you may gain control of target creature defending player controls with mana value 2 or less until end of turn. If you do, tap it. It's attacking that player.",
+	},
+	
+	{
+		"name": "Gilded Lotus VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/16t_Gilded Lotus VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "16",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add three mana of any one color.",
+	},
+	
+	{
+		"name": "black Nightmare 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/7t_black Nightmare 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Gold",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/17t_Gold.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sacrifice this artifact: Add one mana of any color.",
+	},
+	
+	{
+		"name": "white Soldier 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/4t_white Soldier 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "black Minion 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/6t_black Minion 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Cleric 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/3t_white Cleric 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Nightmare Sliver 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/10t_green Nightmare Sliver 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Ninja 22VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/11t_green Ninja 22VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "colorless Minion 11VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/22t_colorless Minion 11VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "red Shark VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/9t_red Shark VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Deathtouch Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/12t_Deathtouch Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "12",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has deathtouch.\nEquip {2}",
+	},
+	
+	{
+		"name": "Double Strike Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/13t_Double Strike Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has double strike.\nEquip {2}",
+	},
+	
+	{
+		"name": "Endgame VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/1t_Endgame VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "If you control eight or more tapped permanents, enter your Endgame for the rest of the game.",
+	},
+	
+	{
+		"name": "Evil Plan VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/2t_Evil Plan VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may pay {7} once each turn as a sorcery to cast any number of spells exiled in your evil plan without paying their mana costs.",
+	},
+	
+	{
+		"name": "First Strike Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/14t_First Strike Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has first strike.\nEquip {2}",
+	},
+	
+	{
+		"name": "Flying Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/15t_Flying Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "15",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has flying.\nEquip {2}",
+	},
+	
+	{
+		"name": "Haste Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/18t_Haste Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "18",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has haste.\nEquip {2}",
+	},
+	
+	{
+		"name": "Lifelink Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/19t_Lifelink Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has lifelink.\nEquip {2}",
+	},
+	
+	{
+		"name": "Melee Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/20t_Melee Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has melee. (Whenever it attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)\nEquip {2}",
+	},
+	
+	{
+		"name": "Menace Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/21t_Menace Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "21",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has menace.\nEquip {2}",
+	},
+	
+	{
+		"name": "Prowess Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/23t_Prowess Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has prowess.\nEquip {2}",
+	},
+	
+	{
+		"name": "Reach Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/24t_Reach Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has reach.\nEquip {2}",
+	},
+	
+	{
+		"name": "Trample Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/25t_Trample Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "25",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has trample.\nEquip {2}",
+	},
+	
+	{
+		"name": "Vigilance Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/26t_Vigilance Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has vigilance.\nEquip {2}",
+	},
+	
+	{
+		"name": "Ward Gadget VRD",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/27t_Ward Gadget VRD.jpg",
+		"colors": [],
+		"set": "VRD",
+		"collector_number": "27",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has ward {2}.\nEquip {2}",
+	},
+	]
+[Common]
+20 Acrobatic Stunt_VRD
+20 Adept Arcanist_VRD
+20 Agent of Justiciar_VRD
+20 Apparatus Operator_VRD
+20 Archive Bloodhound_VRD
+20 Bodyguard Bruisers_VRD
+20 Brain Backup_VRD
+20 Brutal Butcher_VRD
+20 Brutal Stunt_VRD
+20 Charmed Stray_VRD
+20 Citypulse Tracker_VRD
+20 Cityweb Sentinel_VRD
+20 Cohort Battlemage_VRD
+20 Cold-Blooded Assassin_VRD
+20 Concealed Firearms_VRD
+20 Confronter of Evil_VRD
+20 Conniving Spy_VRD
+20 Conquest Terminal_VRD
+20 Corrupt Form_VRD
+20 Crackling Watcher_VRD
+20 Deft Wingman_VRD
+20 Devious Electrocution_VRD
+20 Diabolical Minion_VRD
+20 Disposable Mook_VRD
+20 Dispose Of_VRD
+20 Eavesdrop_VRD
+20 Electrocution Assistant_VRD
+20 Elvish Witness_VRD
+20 Emergent Doom_VRD
+20 Endless Mooks_VRD
+20 Evil Scheme_VRD
+20 Execution Table_VRD
+20 Explode_VRD
+20 Face It All_VRD
+20 Filigree Familiar_VRD
+20 Flare Gunner_VRD
+20 Frantic Inventory_VRD
+20 Frightborn Skyshark_VRD
+20 Full House_VRD
+20 Funding Organizer_VRD
+20 Grimblood Vampire_VRD
+20 Held for Ransom_VRD
+20 Hugo's Watcher_VRD
+20 Innovations in Interrogation_VRD
+20 It All Comes Together_VRD
+20 Justiciar Dispatcher_VRD
+20 Justiciar Stormblade_VRD
+20 Lair Assistant_VRD
+20 Lair Butler_VRD
+20 Lairbuster Vanguard_VRD
+20 Mana Rig_VRD
+20 Missing in Action_VRD
+20 Observant Contact_VRD
+20 Outdated Crony_VRD
+20 Paranormal Investigators_VRD
+20 Political Puppeteer_VRD
+20 Power Source_VRD
+20 Precarious Evasion_VRD
+20 Prototype Robosaur_VRD
+20 Pursuit Hovercraft_VRD
+20 Reckless Spy_VRD
+20 Renegade Agent_VRD
+20 Right Where I Want You_VRD
+20 Rocket Shark_VRD
+20 Rogue's Palace Bouncer_VRD
+20 Rogue's Palace Colossus_VRD
+20 Sabotage_VRD
+20 Sabotage Skitterer_VRD
+20 Scampering Journalist_VRD
+20 Scuttling Underling_VRD
+20 Shock_VRD
+20 Shoot to Kill_VRD
+20 Shootout Stunt_VRD
+20 Signature Stunt_VRD
+20 Smash to Smithereens_VRD
+20 Smuggler's Cunning_VRD
+20 Snakewood's Summons_VRD
+20 Soulsucker_VRD
+20 Spider's Touch_VRD
+20 Sprocketed Brawler_VRD
+20 Standard-Issue Firearm_VRD
+20 Suave Jetster_VRD
+20 Superweapon Blast_VRD
+20 Suspicious Merchant_VRD
+20 Sweet Talker_VRD
+20 Swift Gadgeteer_VRD
+20 Talented Dealer_VRD
+20 Taranka's Cohort_VRD
+20 Thrashing Devourer_VRD
+20 Torch Twirler_VRD
+20 Torment Nexus_VRD
+20 Tough Customer_VRD
+20 Toughened Goon_VRD
+20 Tracker's Cigar_VRD
+20 Trouble Brewing_VRD
+20 Tyrant's Machine_VRD
+20 Wall Scaler_VRD
+20 Without a Trace_VRD
+20 Workshop Crawler_VRD
+20 Zap Toady_VRD
+
+[Uncommon]
+10 Ace in the Hole_VRD
+10 Arcane Catalyst_VRD
+10 Black Spy_VRD
+10 Boss's Favorites_VRD
+10 Brawl Instigator_VRD
+10 Brot, Head Honcho_VRD
+10 Cardboard Box_VRD
+10 City Soarer_VRD
+10 Citystalker Moth_VRD
+10 Clone_VRD
+10 Codename Cold Blood_VRD
+10 Codename Half Moon_VRD
+10 Codename Heavy Hitter_VRD
+10 Codename High Life_VRD
+10 Codename Wise Guy_VRD
+10 Contain the Monstrous_VRD
+10 Crooked Politician_VRD
+10 Daredevil Brandishing_VRD
+10 Deadshot Stunt_VRD
+10 Descent of the Nightmares_VRD
+10 Dream-Ash Phoenix_VRD
+10 Electric Goon_VRD
+10 Escaped Subject_VRD
+10 Field Worker_VRD
+10 Fight Scene_VRD
+10 Firearms Dealer_VRD
+10 Fireslinger_VRD
+10 Flamethrower Volley_VRD
+10 Gather Intel_VRD
+10 Gearheart Baron_VRD
+10 Ghostly Observer_VRD
+10 Gild_VRD
+10 Goon Squad_VRD
+10 Granite Harbinger_VRD
+10 Grappling Hook_VRD
+10 Grimblood's Mastermind_VRD
+10 Gutter Slosher_VRD
+10 Heart Pounding Action_VRD
+10 Hemec Yor, Flamethrower Dragoon_VRD
+10 Inexorable Onslaught_VRD
+10 Jacques Elnis, Jetpack Rocketeer_VRD
+10 Jodanist Bishop_VRD
+10 Laboratory Maniac_VRD
+10 Lay Low_VRD
+10 Mana Smuggler_VRD
+10 Missile Silo_VRD
+10 Mission Briefing_VRD
+10 Monument to Vanity_VRD
+10 New Tellison Express_VRD
+10 Partners in Crime_VRD
+10 Pilgrim's Eye_VRD
+10 Quickdraw Pistol_VRD
+10 Recover the Evidence_VRD
+10 Sainted Agent_VRD
+10 Satellite Tower_VRD
+10 Schemer of Ancient Ways_VRD
+10 Scheming Sphinx_VRD
+10 Scuba Suit_VRD
+10 Secret Base Sentinel_VRD
+10 Self-Destructing Message_VRD
+10 Sewer Orgg_VRD
+10 Shifting Lair_VRD
+10 Sim Nichol, Trinket Enchanter_VRD
+10 Spycraft Survivalist_VRD
+10 Steed of Agonies_VRD
+10 Steelbane Sniper_VRD
+10 Stoneglare Agent_VRD
+10 Tactical Skis_VRD
+10 Take Out_VRD
+10 Taranka's Posse_VRD
+10 The Rack_VRD
+10 Two Heads Are Better_VRD
+10 Unassuming Hooptie_VRD
+10 Upgrade Stunt_VRD
+10 Whirring Sky Gizmo_VRD
+10 White Spy_VRD
+10 Wire Gobbler_VRD
+10 Within My Grasp_VRD
+10 Worldender Engine_VRD
+10 You Only Live Twice_VRD
+
+[Rare]
+4 Aegis Pocketwatch_VRD
+4 Agent 107_VRD
+4 All According to Plan_VRD
+4 Ancestral Scheme_VRD
+4 Annihilator Suit_VRD
+4 Awoken Arbiter_VRD
+4 Awoken Corruptor_VRD
+4 Awoken Ravager_VRD
+4 Awoken Thunderer_VRD
+4 Awoken Whelp_VRD
+4 Back in Action_VRD
+4 Bankbuster Heavy_VRD
+4 Blacklist_VRD
+4 Blunt Instrument_VRD
+4 Crafty Informant_VRD
+4 Darkhand Enterprises_VRD
+4 Destructive Force_VRD
+4 Doomsday Device_VRD
+4 Dreamreaper_VRD
+4 Evelyn Snakewood, Dark Druid_VRD
+4 Facility Detonator_VRD
+4 Flourishing Evil_VRD
+4 Freezefire Corps_VRD
+4 Heist of the Century_VRD
+4 Hit Me_VRD
+4 Iroshi's Devotee_VRD
+4 Ivas Taranka, Rogue Diplomat_VRD
+4 Jebidiah Digsworth, the Mole_VRD
+4 Justiciar Headquarters_VRD
+4 Justiciar Overseer_VRD
+4 Live and Let Die_VRD
+4 Lucas Locke, Paranormal Sleuth_VRD
+4 Luxurious Estate_VRD
+4 Night Drudger_VRD
+4 One Last Stunt_VRD
+4 Organized Espionage_VRD
+4 Paragon Agent_VRD
+4 Perspicacity_VRD
+4 Piece Together_VRD
+4 Pit of Sharks_VRD
+4 Presence of the First Dream_VRD
+4 Prototype Jetmobile_VRD
+4 Rambling Monologue_VRD
+4 Rogue's Palace Cardshark_VRD
+4 Save the World_VRD
+4 Sir Hogginsworth, Quartermaster_VRD
+4 Smirk, Darkhand's Favored_VRD
+4 Snakewood's Final Servant_VRD
+4 Snakewood's Hideout_VRD
+4 Somnogoyf_VRD
+4 Steam-Powered Steer_VRD
+4 Storm of Monstrosities_VRD
+4 The Clock is Ticking_VRD
+4 The Rogue's Palace_VRD
+4 The World Is Not Enough_VRD
+4 Thunderbrain Labs_VRD
+4 Tireless Innovation_VRD
+4 Tobias Maxwell, Justiciar Boss_VRD
+4 Trick Questions_VRD
+4 Uncanny Likeness_VRD
+4 Undercover Gadgeteer_VRD
+4 Unkillable Henchman_VRD
+4 Veteran Gadgeteer_VRD
+4 Viridian's Trusty Sidearm_VRD
+4 Whirlwind Romantic_VRD
+4 World Domination_VRD
+2 Calamity's Cohort_VRD
+2 Calamity Smith In The Gilded Heist_VRD
+2 Codename Viridian_VRD
+2 Elder Mathias Jodan_VRD
+2 Enigmatic Progenitor_VRD
+2 Frank Atran, Augmented Agent_VRD
+2 Hugo's Handiwork_VRD
+2 Hugo Darkhand, the Mastermind_VRD
+2 International Manipulation_VRD
+2 Iroshi, Blade of the Old Ways_VRD
+2 Smuggling Kingpin_VRD
+2 The First Dream_VRD
+2 The Sunfire_VRD
+2 Theory of Everything_VRD
+2 Therese Grimblood_VRD
+
+[Land]
+10 Benthic Bunker_VRD
+10 Biomancer's Workshop_VRD
+10 Cultist's Compound_VRD
+10 Decadent Lobby_VRD
+10 Glacial Base_VRD
+10 Inconspicuous Volcano_VRD
+10 Midnight Square_VRD
+10 Penthouse Office_VRD
+10 Remote Facility_VRD
+10 Underground Lab_VRD
+20 Forest_VRD
+20 Island_VRD
+20 Mountain_VRD
+20 Plains_VRD
+20 Swamp_VRD
+
+[Token]
+20 Gilded Lotus VRD
+20 black Nightmare 11VRD
+20 Gold
+20 white Soldier 11VRD
+20 black Minion 11VRD
+20 white Cleric 11VRD
+20 green Nightmare Sliver 11VRD
+20 green Ninja 22VRD
+20 colorless Minion 11VRD
+20 red Shark VRD
+20 Deathtouch Gadget VRD
+20 Double Strike Gadget VRD
+20 Endgame VRD
+20 Evil Plan VRD
+20 First Strike Gadget VRD
+20 Flying Gadget VRD
+20 Haste Gadget VRD
+20 Lifelink Gadget VRD
+20 Melee Gadget VRD
+20 Menace Gadget VRD
+20 Prowess Gadget VRD
+20 Reach Gadget VRD
+20 Trample Gadget VRD
+20 Vigilance Gadget VRD
+20 Ward Gadget VRD
+
+[Wildcard]
+6 Acrobatic Stunt_VRD
+6 Adept Arcanist_VRD
+6 Agent of Justiciar_VRD
+6 Apparatus Operator_VRD
+6 Archive Bloodhound_VRD
+6 Bodyguard Bruisers_VRD
+6 Brain Backup_VRD
+6 Brutal Butcher_VRD
+6 Brutal Stunt_VRD
+6 Charmed Stray_VRD
+6 Citypulse Tracker_VRD
+6 Cityweb Sentinel_VRD
+6 Cohort Battlemage_VRD
+6 Cold-Blooded Assassin_VRD
+6 Concealed Firearms_VRD
+6 Confronter of Evil_VRD
+6 Conniving Spy_VRD
+6 Conquest Terminal_VRD
+6 Corrupt Form_VRD
+6 Crackling Watcher_VRD
+6 Deft Wingman_VRD
+6 Devious Electrocution_VRD
+6 Diabolical Minion_VRD
+6 Disposable Mook_VRD
+6 Dispose Of_VRD
+6 Eavesdrop_VRD
+6 Electrocution Assistant_VRD
+6 Elvish Witness_VRD
+6 Emergent Doom_VRD
+6 Endless Mooks_VRD
+6 Evil Scheme_VRD
+6 Execution Table_VRD
+6 Explode_VRD
+6 Face It All_VRD
+6 Filigree Familiar_VRD
+6 Flare Gunner_VRD
+6 Frantic Inventory_VRD
+6 Frightborn Skyshark_VRD
+6 Full House_VRD
+6 Funding Organizer_VRD
+6 Grimblood Vampire_VRD
+6 Held for Ransom_VRD
+6 Hugo's Watcher_VRD
+6 Innovations in Interrogation_VRD
+6 It All Comes Together_VRD
+6 Justiciar Dispatcher_VRD
+6 Justiciar Stormblade_VRD
+6 Lair Assistant_VRD
+6 Lair Butler_VRD
+6 Lairbuster Vanguard_VRD
+6 Mana Rig_VRD
+6 Missing in Action_VRD
+6 Observant Contact_VRD
+6 Outdated Crony_VRD
+6 Paranormal Investigators_VRD
+6 Political Puppeteer_VRD
+6 Power Source_VRD
+6 Precarious Evasion_VRD
+6 Prototype Robosaur_VRD
+6 Pursuit Hovercraft_VRD
+6 Reckless Spy_VRD
+6 Renegade Agent_VRD
+6 Right Where I Want You_VRD
+6 Rocket Shark_VRD
+6 Rogue's Palace Bouncer_VRD
+6 Rogue's Palace Colossus_VRD
+6 Sabotage_VRD
+6 Sabotage Skitterer_VRD
+6 Scampering Journalist_VRD
+6 Scuttling Underling_VRD
+6 Shock_VRD
+6 Shoot to Kill_VRD
+6 Shootout Stunt_VRD
+6 Signature Stunt_VRD
+6 Smash to Smithereens_VRD
+6 Smuggler's Cunning_VRD
+6 Snakewood's Summons_VRD
+6 Soulsucker_VRD
+6 Spider's Touch_VRD
+6 Sprocketed Brawler_VRD
+6 Standard-Issue Firearm_VRD
+6 Suave Jetster_VRD
+6 Superweapon Blast_VRD
+6 Suspicious Merchant_VRD
+6 Sweet Talker_VRD
+6 Swift Gadgeteer_VRD
+6 Talented Dealer_VRD
+6 Taranka's Cohort_VRD
+6 Thrashing Devourer_VRD
+6 Torch Twirler_VRD
+6 Torment Nexus_VRD
+6 Tough Customer_VRD
+6 Toughened Goon_VRD
+6 Tracker's Cigar_VRD
+6 Trouble Brewing_VRD
+6 Tyrant's Machine_VRD
+6 Wall Scaler_VRD
+6 Without a Trace_VRD
+6 Workshop Crawler_VRD
+6 Zap Toady_VRD
+4 Ace in the Hole_VRD
+4 Arcane Catalyst_VRD
+4 Black Spy_VRD
+4 Boss's Favorites_VRD
+4 Brawl Instigator_VRD
+4 Brot, Head Honcho_VRD
+4 Cardboard Box_VRD
+4 City Soarer_VRD
+4 Citystalker Moth_VRD
+4 Clone_VRD
+4 Codename Cold Blood_VRD
+4 Codename Half Moon_VRD
+4 Codename Heavy Hitter_VRD
+4 Codename High Life_VRD
+4 Codename Wise Guy_VRD
+4 Contain the Monstrous_VRD
+4 Crooked Politician_VRD
+4 Daredevil Brandishing_VRD
+4 Deadshot Stunt_VRD
+4 Descent of the Nightmares_VRD
+4 Dream-Ash Phoenix_VRD
+4 Electric Goon_VRD
+4 Escaped Subject_VRD
+4 Field Worker_VRD
+4 Fight Scene_VRD
+4 Firearms Dealer_VRD
+4 Fireslinger_VRD
+4 Flamethrower Volley_VRD
+4 Gather Intel_VRD
+4 Gearheart Baron_VRD
+4 Ghostly Observer_VRD
+4 Gild_VRD
+4 Goon Squad_VRD
+4 Granite Harbinger_VRD
+4 Grappling Hook_VRD
+4 Grimblood's Mastermind_VRD
+4 Gutter Slosher_VRD
+4 Heart Pounding Action_VRD
+4 Hemec Yor, Flamethrower Dragoon_VRD
+4 Inexorable Onslaught_VRD
+4 Jacques Elnis, Jetpack Rocketeer_VRD
+4 Jodanist Bishop_VRD
+4 Laboratory Maniac_VRD
+4 Lay Low_VRD
+4 Mana Smuggler_VRD
+4 Missile Silo_VRD
+4 Mission Briefing_VRD
+4 Monument to Vanity_VRD
+4 New Tellison Express_VRD
+4 Partners in Crime_VRD
+4 Pilgrim's Eye_VRD
+4 Quickdraw Pistol_VRD
+4 Recover the Evidence_VRD
+4 Sainted Agent_VRD
+4 Satellite Tower_VRD
+4 Schemer of Ancient Ways_VRD
+4 Scheming Sphinx_VRD
+4 Scuba Suit_VRD
+4 Secret Base Sentinel_VRD
+4 Self-Destructing Message_VRD
+4 Sewer Orgg_VRD
+4 Shifting Lair_VRD
+4 Sim Nichol, Trinket Enchanter_VRD
+4 Spycraft Survivalist_VRD
+4 Steed of Agonies_VRD
+4 Steelbane Sniper_VRD
+4 Stoneglare Agent_VRD
+4 Tactical Skis_VRD
+4 Take Out_VRD
+4 Taranka's Posse_VRD
+4 The Rack_VRD
+4 Two Heads Are Better_VRD
+4 Unassuming Hooptie_VRD
+4 Upgrade Stunt_VRD
+4 Whirring Sky Gizmo_VRD
+4 White Spy_VRD
+4 Wire Gobbler_VRD
+4 Within My Grasp_VRD
+4 Worldender Engine_VRD
+4 You Only Live Twice_VRD
+2 Aegis Pocketwatch_VRD
+2 Agent 107_VRD
+2 All According to Plan_VRD
+2 Ancestral Scheme_VRD
+2 Annihilator Suit_VRD
+2 Awoken Arbiter_VRD
+2 Awoken Corruptor_VRD
+2 Awoken Ravager_VRD
+2 Awoken Thunderer_VRD
+2 Awoken Whelp_VRD
+2 Back in Action_VRD
+2 Bankbuster Heavy_VRD
+2 Blacklist_VRD
+2 Blunt Instrument_VRD
+2 Crafty Informant_VRD
+2 Darkhand Enterprises_VRD
+2 Destructive Force_VRD
+2 Doomsday Device_VRD
+2 Dreamreaper_VRD
+2 Evelyn Snakewood, Dark Druid_VRD
+2 Facility Detonator_VRD
+2 Flourishing Evil_VRD
+2 Freezefire Corps_VRD
+2 Heist of the Century_VRD
+2 Hit Me_VRD
+2 Iroshi's Devotee_VRD
+2 Ivas Taranka, Rogue Diplomat_VRD
+2 Jebidiah Digsworth, the Mole_VRD
+2 Justiciar Headquarters_VRD
+2 Justiciar Overseer_VRD
+2 Live and Let Die_VRD
+2 Lucas Locke, Paranormal Sleuth_VRD
+2 Luxurious Estate_VRD
+2 Night Drudger_VRD
+2 One Last Stunt_VRD
+2 Organized Espionage_VRD
+2 Paragon Agent_VRD
+2 Perspicacity_VRD
+2 Piece Together_VRD
+2 Pit of Sharks_VRD
+2 Presence of the First Dream_VRD
+2 Prototype Jetmobile_VRD
+2 Rambling Monologue_VRD
+2 Rogue's Palace Cardshark_VRD
+2 Save the World_VRD
+2 Sir Hogginsworth, Quartermaster_VRD
+2 Smirk, Darkhand's Favored_VRD
+2 Snakewood's Final Servant_VRD
+2 Snakewood's Hideout_VRD
+2 Somnogoyf_VRD
+2 Steam-Powered Steer_VRD
+2 Storm of Monstrosities_VRD
+2 The Clock is Ticking_VRD
+2 The Rogue's Palace_VRD
+2 The World Is Not Enough_VRD
+2 Thunderbrain Labs_VRD
+2 Tireless Innovation_VRD
+2 Tobias Maxwell, Justiciar Boss_VRD
+2 Trick Questions_VRD
+2 Uncanny Likeness_VRD
+2 Undercover Gadgeteer_VRD
+2 Unkillable Henchman_VRD
+2 Veteran Gadgeteer_VRD
+2 Viridian's Trusty Sidearm_VRD
+2 Whirlwind Romantic_VRD
+2 World Domination_VRD
+1 Calamity's Cohort_VRD
+1 Calamity Smith In The Gilded Heist_VRD
+1 Codename Viridian_VRD
+1 Elder Mathias Jodan_VRD
+1 Enigmatic Progenitor_VRD
+1 Frank Atran, Augmented Agent_VRD
+1 Hugo's Handiwork_VRD
+1 Hugo Darkhand, the Mastermind_VRD
+1 International Manipulation_VRD
+1 Iroshi, Blade of the Old Ways_VRD
+1 Smuggling Kingpin_VRD
+1 The First Dream_VRD
+1 The Sunfire_VRD
+1 Theory of Everything_VRD
+1 Therese Grimblood_VRD

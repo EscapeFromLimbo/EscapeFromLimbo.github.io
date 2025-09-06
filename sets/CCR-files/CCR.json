@@ -23,24 +23,6 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "A Journey Begins",
-            "color": "G",
-            "rarity": "common",
-            "type": "Sorcery",
-            "number": 174,
-            "color_identity": "G",
-            "cost": "{G}",
-            "rules_text": "Look at the top five cards of your library. You may reveal a permanent card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
-            "flavor_text": "[i]Every journey starts with a small step.\n[/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "CCR",
-            "loyalty": "",
-            "artist": "bluekomadori",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
-        },
-        {
             "card_name": "A Journey Begins (shiny)",
             "color": "G",
             "rarity": "common",
@@ -6796,7 +6778,7 @@
         },
         {
             "card_name": "blue Human Pirate 21CCR",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Human Pirate",
             "number": 6,
@@ -6832,7 +6814,7 @@
         },
         {
             "card_name": "green Plant 11CCR",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Plant",
             "number": 8,
@@ -6850,7 +6832,7 @@
         },
         {
             "card_name": "Looks Like Rain CCR",
-            "color": "",
+            "color": "WUBRG",
             "rarity": "common",
             "type": "Token Enchantment - Weather",
             "number": 9,
@@ -6868,7 +6850,7 @@
         },
         {
             "card_name": "white Golem 11CCR",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Golem",
             "number": 1,
@@ -6976,7 +6958,7 @@
         },
         {
             "card_name": "Shigana CCR",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Legendary Creature - Beast",
             "number": 3,
@@ -6994,7 +6976,7 @@
         },
         {
             "card_name": "red Bird Warrior 24CCR",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature - Bird Warrior",
             "number": 7,
@@ -7012,7 +6994,7 @@
         },
         {
             "card_name": "white and black Bird 33CCR",
-            "color": "",
+            "color": "WB",
             "rarity": "common",
             "type": "Token Creature - Bird",
             "number": 12,
@@ -7030,7 +7012,7 @@
         },
         {
             "card_name": "Bird Warrior xe2x98x85",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature - Bird Warrior",
             "number": 20,
@@ -7048,7 +7030,7 @@
         },
         {
             "card_name": "Bird xe2x98x85",
-            "color": "",
+            "color": "WB",
             "rarity": "common",
             "type": "Token Creature - Bird",
             "number": 21,
@@ -7066,7 +7048,7 @@
         },
         {
             "card_name": "blue Fish 11CCR",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Fish",
             "number": 5,
@@ -7084,7 +7066,7 @@
         },
         {
             "card_name": "white and blue Seal Orb 22CCR",
-            "color": "",
+            "color": "WU",
             "rarity": "common",
             "type": "Token Creature - Seal Orb",
             "number": 10,
@@ -7102,7 +7084,7 @@
         },
         {
             "card_name": "Seal Orb xe2x98x85",
-            "color": "",
+            "color": "WU",
             "rarity": "common",
             "type": "Token Creature - Seal Orb",
             "number": 11,
@@ -7120,7 +7102,7 @@
         },
         {
             "card_name": "blue Aura CCR",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Enchantment - Aura",
             "number": 4,
@@ -7156,7 +7138,7 @@
         },
         {
             "card_name": "Golem xe2x98x85",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Golem",
             "number": 2,

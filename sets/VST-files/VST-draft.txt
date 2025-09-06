@@ -1,0 +1,3937 @@
+
+[Settings]
+{
+	"name": "Vastuum",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Abandoned Astrolabe_VST",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/217_Abandoned Astrolabe_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "217",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Each opponent mills a card.\n{3}, {T}: Exile three target cards from an opponent's graveyard. Draw a card.",
+	},
+	
+	{
+		"name": "Abandoned Excavation_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/236_Abandoned Excavation_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "236",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Abandoned Excavation enters with a charge counter on it.\n{T}: Add {C}.\n{T}, Remove a charge counter from Abandoned Excavation: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Aethanis, the Fallen Capital_VST",
+		"mana_cost": "",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/237_Aethanis, the Fallen Capital_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "237",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{C}{C}{C}{C}, {T}: Target player exiles a card from their hand or a nontoken permanent they control, then loses 1 life for each card exiled with Aethanis, the Fallen Capital. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Aethanis Conservator_VST",
+		"mana_cost": "{2}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/218_Aethanis Conservator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "218",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, choose one -\n• Exile target creature an opponent controls until Aethanis Conservator leaves the battlefield.\n• Target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Aethanis Conservator leaves the battlefield.",
+	},
+	
+	{
+		"name": "Aethanis Leylinker_VST",
+		"mana_cost": "{2}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/219_Aethanis Leylinker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "219",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\n{T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Aethanis Sentinel_VST",
+		"mana_cost": "{2}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/220_Aethanis Sentinel_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "220",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Aethanis Sentinel enters, each player may scry 1.",
+	},
+	
+	{
+		"name": "Aethanis Strider_VST",
+		"mana_cost": "{4}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/221_Aethanis Strider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "221",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Aether Conductor_VST",
+		"mana_cost": "{1}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/222_Aether Conductor_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "222",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Aether Conductor attacks, put a charge counter on it, then you may put a permanent card with mana value equal to or less than the number of charge counters on Aether Conductor from your hand onto the battlefield tapped and attacking.",
+	},
+	
+	{
+		"name": "Ancient Shelter_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/238_Ancient Shelter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "238",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Ancient Shelter enters, up to one target creature gains indestructible until end of turn.\n{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Angel of Dismay_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/2_Angel of Dismay_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "2",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Angel of Dismay enters, put a -1/-1 counter on each tapped creature your opponents control.\nCreatures your opponents control with -1/-1 counters on them can't attack or block unless their controller pays {2} for each of those creatures they control.",
+	},
+	
+	{
+		"name": "Antiquity Seeker_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/40_Antiquity Seeker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "40",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Antiquity Seeker enters, put up to one target instant or sorcery card from your graveyard on top of your library, then journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Ashen Dunekite_VST",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/118_Ashen Dunekite_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "118",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, first strike\nWhen Ashen Dunekite enters, creatures without flying can't block this turn.",
+	},
+	
+	{
+		"name": "Biramous Entity_VST",
+		"mana_cost": "{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/196_Biramous Entity_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "196",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Biramous Entity enters, search your library for a permanent card with the same name as another target nontoken permanent you control. Reveal it and put that card into your hand. Then shuffle.",
+	},
+	
+	{
+		"name": "Bitter Redemption_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/157_Bitter Redemption_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "157",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Return a permanent card from your graveyard to your hand for each creature that died this turn.",
+	},
+	
+	{
+		"name": "Blind Wyvern_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/41_Blind Wyvern_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying",
+	},
+	
+	{
+		"name": "Bloodrage Brawler_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/119_Bloodrage Brawler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "119",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Bloodrage Brawler enters, discard a card.",
+	},
+	
+	{
+		"name": "Brackcliff Drakes_VST",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/42_Brackcliff Drakes_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\n{1}: Brackcliff Drakes gets +1/-1 until end of turn.",
+	},
+	
+	{
+		"name": "Buried Ruin_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/239_Buried Ruin_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "239",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Buried Ruin: Return target artifact card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Caravan Skyrider_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/3_Caravan Skyrider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Caravan Skyrider enters, you may return another permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Carrion Divers_VST",
+		"mana_cost": "{6}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/79_Carrion Divers_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "79",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast for each -1/-1 counter among creatures your opponents control.\nFlying, lifelink",
+	},
+	
+	{
+		"name": "Chosen of the Faultless_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/4_Chosen of the Faultless_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "4",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, choose one -\n• Tap target creature you don't control.\n• Put a -1/-1 counter on target tapped creature an opponent controls.",
+	},
+	
+	{
+		"name": "Claim What Remains_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/120_Claim What Remains_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "120",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Discard a land card: Add {R}, then exile the top card of your library. Until end of turn, you may play that card.",
+	},
+	
+	{
+		"name": "Consign to Failure_VST",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/80_Consign to Failure_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "80",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has \"You can't win the game and your opponents can't lose the game.\"",
+	},
+	
+	{
+		"name": "Consumption Tyrant_VST",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/158_Consumption Tyrant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "158",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Consumption Tyrant enters or dies, you may sacrifice another creature. If you do, you draw cards equal to the sacrificed creature's power, then you gain life equal to its toughness.",
+	},
+	
+	{
+		"name": "Convoy Forerunner_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/5_Convoy Forerunner_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "5",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Convoy Forerunner dies, choose one -\n• Create a 1/1 white Nomad creature token with vigilance.\n• Search your library for a Nomad card, reveal it, then shuffle and put that card on top of it.",
+	},
+	
+	{
+		"name": "Convoy Laggu-Rider_VST",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/6_Convoy Laggu-Rider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{5}{W}: Creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Council of Vaya_VST",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/81_Council of Vaya_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "81",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Council of Vaya enters, each player sacrifices a creature.\nWhenever Council of Vaya or another creature dies, target player loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Crafted Exogene_VST",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/43_Crafted Exogene_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "43",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Crafted Exogene enters, each opponent mills four cards.",
+	},
+	
+	{
+		"name": "Deathraider Elite_VST",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/197_Deathraider Elite_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Dash {B}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)\nMenace\nWhenever Deathraider Elite attacks, other Hyenas you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Debris Surveyors_VST",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/159_Debris Surveyors_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "159",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Debris Surveyors leaves the battlefield, create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Desperate Animist_VST",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/160_Desperate Animist_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "160",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Desperate Animist attacks, you may waste a nonwastes land you control. If you do, Desperate Animist gets +2/+2 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Destari Blightwing_VST",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/82_Destari Blightwing_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "82",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Destari Blightwing dies, put a -1/-1 counter on target creature you don't control, then put a -1/-1 counter on any number of other target creatures with a -1/-1 counter on them.",
+	},
+	
+	{
+		"name": "Destari Skylord_VST",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/7_Destari Skylord_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "7",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance\nOther creatures you control have vigilance.\nTap two other untapped creatures you control: Destari Skylord gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Disciple of the Faultless_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/8_Disciple of the Faultless_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Disciple of the Faultless enters, you may put a -1/-1 counter on target creature with power 4 or greater.",
+	},
+	
+	{
+		"name": "Doomed Undertaking_VST",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/83_Doomed Undertaking_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "83",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may cast this spell as though it had flash if you pay {2} more to cast it.\nExile target creature.",
+	},
+	
+	{
+		"name": "Dusk Dancer_VST",
+		"mana_cost": "{4}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/198_Dusk Dancer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "198",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nAt the beginning of your upkeep, you scry 1 and each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Dust Enigma_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/44_Dust Enigma_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "44",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Dust Enigma becomes the target of a spell, sacrifice it.\nWhile choosing targets as part of casting a spell, players must choose at least Dust Enigma if able.",
+	},
+	
+	{
+		"name": "Dustborn Phoenix_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/121_Dustborn Phoenix_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "121",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nExile three instant and/or sorcery cards from your graveyard: Return Dustborn Phoenix from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Ego Collapse_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/84_Ego Collapse_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "84",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent exiles two cards from their hand.",
+	},
+	
+	{
+		"name": "Embraced by Dusk_VST",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/85_Embraced by Dusk_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "85",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+1 and has menace.",
+	},
+	
+	{
+		"name": "Endtimes Hatchling_VST",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/9_Endtimes Hatchling_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\n{6}{C}: Creatures you control gain flying until end of turn.",
+	},
+	
+	{
+		"name": "Endtimes Hunter_VST",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/122_Endtimes Hunter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "122",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach\n{6}{C}: Target creature gets +4/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Endtimes Monstrosity_VST",
+		"mana_cost": "{5}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/45_Endtimes Monstrosity_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "45",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{6}{C}: Until end of turn, Endtimes Monstrosity can attack as though it didn't have defender and can't be blocked.",
+	},
+	
+	{
+		"name": "Endtimes Pilgrim_VST",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/161_Endtimes Pilgrim_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "161",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{6}{C}: Return target card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Endtimes Steward_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/86_Endtimes Steward_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "86",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\n{6}{C}: Distribute two -1/-1 counters among one or two target creatures.",
+	},
+	
+	{
+		"name": "Enigmatic Constructor_VST",
+		"mana_cost": "{4}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/223_Enigmatic Constructor_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "223",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Triggered abilities from other sources you control trigger an additional time.\nWhenever an activated ability of a permanent you control is activated, if it isn't a mana ability, copy that ability. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Enrobe in Light_VST",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/10_Enrobe in Light_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "10",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Enrobe in Light enters, tap all creatures your opponents control.\nEnchanted creature gets +2/+2 and has lifelink.",
+	},
+	
+	{
+		"name": "Eon Overwatch_VST",
+		"mana_cost": "{3}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/224_Eon Overwatch_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "224",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Eon Overwatch enters, return target nonland permanent an opponent controls to its owner's hand. That permanent's owner can't cast spells with the same name as that permanent until your next turn.",
+	},
+	
+	{
+		"name": "Eradicator Engine_VST",
+		"mana_cost": "{2}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/225_Eradicator Engine_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "225",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Eradicator Engine enters or attacks, destroy target nonland permanent with the least mana value or tied for the least mana value.",
+	},
+	
+	{
+		"name": "Erode to Nothing_VST",
+		"mana_cost": "{X}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/87_Erode to Nothing_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "87",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "For each of X target creatures, put a number of -1/-1 counters on that creature equal to its toughness minus 1.",
+	},
+	
+	{
+		"name": "Essence Scatter_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/46_Essence Scatter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "46",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target creature spell.",
+	},
+	
+	{
+		"name": "Eternal Wanderer_VST",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/47_Eternal Wanderer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "47",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Eternal Wanderer enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nWhenever you put a journeyed card into your hand, you may pay {2}. If you do, journey.",
+	},
+	
+	{
+		"name": "Evaldi, Genesis of Hope_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/162_Evaldi, Genesis of Hope_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "162",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, return a permanent you control to its owner's hand.\nYou may play an additional land on each of your turns.",
+	},
+	
+	{
+		"name": "Evaldi's Harmonizer_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/48_Evaldi's Harmonizer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "48",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nIf a permanent would be put into your hand from the battlefield, you may put that card on the bottom of your library instead. If you do, you draw two cards.",
+	},
+	
+	{
+		"name": "Evaldi's Masterpiece_VST",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/163_Evaldi's Masterpiece_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "163",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever Evaldi's Masterpiece attacks, you may pay {X}. If you do, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.\nDash {1}{G}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Evaldi's Muse_VST",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/164_Evaldi's Muse_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "164",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Evaldi's Muse or another nontoken creature you control enters, you gain 2 life.\nWhen Evaldi's Muse leaves the battlefield, create two 1/1 green and blue Elf creature tokens.",
+	},
+	
+	{
+		"name": "Evaldi's Search_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/165_Evaldi's Search_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "165",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, look at the top card of your library. If it's a land or Mutant card, you may reveal it and put it into your hand.",
+	},
+	
+	{
+		"name": "Exiled Channeler_VST",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/166_Exiled Channeler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "166",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Waste a nonwastes land you control: Add one mana of any color. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Exogene Prowler_VST",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/167_Exogene Prowler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "167",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, Exogene Prowler gains your choice of vigilance, deathtouch, indestructible, or trample until end of turn.",
+	},
+	
+	{
+		"name": "Exogene Spitter_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/49_Exogene Spitter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "49",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Exogene Spitter enters, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Fall Lurker_VST",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/88_Fall Lurker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "88",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch, lifelink",
+	},
+	
+	{
+		"name": "Falltouched Emergence_VST",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/90_Falltouched Emergence_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "90",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Create two 2/2 black Zombie Mutant creature tokens with deathtouch.\n• Put target creature card from a graveyard onto the battlefield under your control.",
+	},
+	
+	{
+		"name": "Falltouched Hunger_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/168_Falltouched Hunger_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "168",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a -1/-1 counter on target creature an opponent controls. Then target creature you control deals damage equal to its power to that creature.",
+	},
+	
+	{
+		"name": "Falltouched Predator_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/91_Falltouched Predator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "91",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}: Falltouched Predator gets +1/+1 until end of turn.\nDash {1}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Faultless Bloodhunter_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/92_Faultless Bloodhunter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "92",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Field of Ruin_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/240_Field of Ruin_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "240",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.",
+	},
+	
+	{
+		"name": "Fierce Infighting_VST",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/123_Fierce Infighting_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "123",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +3/+0 until end of turn and fights another target creature. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Find of a Lifetime_VST",
+		"mana_cost": "{3}{U}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/199_Find of a Lifetime_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "199",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Discard your hand. Reveal cards from the top of your library until you reveal seven nonland cards. Put those cards into your hand and put all other cards revealed this way on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Flareshot Bow_VST",
+		"mana_cost": "{0}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/226_Flareshot Bow_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "226",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature has vigilance and reach.\nEquip {2}",
+	},
+	
+	{
+		"name": "Flawed Undertaking_VST",
+		"mana_cost": "{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/11_Flawed Undertaking_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may cast this spell as though it had flash if you pay {2} more to cast it.\nPut two -1/-1 counters on target tapped creature.",
+	},
+	
+	{
+		"name": "Fluorescent Sprinter_VST",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/169_Fluorescent Sprinter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "169",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Fluorescent Sprinter deals combat damage to a player, draw a card.\nDash {2}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Forest_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/256_Forest_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "256",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Forlorn Firstspear_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/12_Forlorn Firstspear_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "12",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "First strike\nWhenever Forlorn Firstspear attacks, you may waste a nonwastes land you control. If you do, creatures you control get +1/+1 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Foug, Indulgent Broker_VST",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/93_Foug, Indulgent Broker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "93",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Target opponent reveals all the cards in their hand except one. You choose a card revealed this way. That player discards that card.\n[-3]: Destroy target creature unless its controller sacrifices two other creatures.\n[-7]: You get an emblem with \"At the beginning of your end step, draw two cards unless target opponent sacrifices two creatures or pays 6 life.\"",
+	},
+	
+	{
+		"name": "Foug's Quandary_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/94_Foug's Quandary_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "94",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Any opponent may pay 5 life. If no one does, you draw three cards.",
+	},
+	
+	{
+		"name": "Gene Gorger_VST",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/170_Gene Gorger_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "170",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Gene Gorger enters, return another permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Geneshifted Goliath_VST",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/171_Geneshifted Goliath_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "171",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, return a creature or land you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Geneshifted Warbler_VST",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/172_Geneshifted Warbler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "172",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Geneshifted Warbler enters, look at the top four cards of your library. You may reveal a Mutant card from among them and put it into your hand. Put the rest in your graveyard.",
+	},
+	
+	{
+		"name": "Geneshifter Adept_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/50_Geneshifter Adept_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "50",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Geneshifter Adept enters, until your next turn, up to one target creature loses all abilities and becomes a blue Mutant with base power and toughness 1/1.",
+	},
+	
+	{
+		"name": "Geneshifting_VST",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/51_Geneshifting_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "51",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has \"At the beginning of each opponent's end step, exile this creature. Reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and attach Geneshifting to it, then put all other cards revealed this way on the bottom of your library in a random order.\"",
+	},
+	
+	{
+		"name": "Getting Lost_VST",
+		"mana_cost": "{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/52_Getting Lost_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Gnoll Deathraider_VST",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/95_Gnoll Deathraider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "95",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, you may have target Hyena get +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Gnoll Raidleaders_VST",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/124_Gnoll Raidleaders_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "124",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Gnoll Raidleaders attacks, creatures you control get +1/+0 until end of turn.\nDash {4}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Gnoll Ravager_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/125_Gnoll Ravager_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "125",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gnoll Ravager can't attack or block alone.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Goresand Marauder_VST",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/126_Goresand Marauder_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "126",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Goresand Marauder enters, target creature can't block this turn.\nDash {3}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Goresand Remnant_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/241_Goresand Remnant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "241",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Goresand Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {B} or {R}.",
+	},
+	
+	{
+		"name": "Goresand Wardriver_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/127_Goresand Wardriver_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "127",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Grasp of the Fallen_VST",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/96_Grasp of the Fallen_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "96",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put three -1/-1 counters on target creature.",
+	},
+	
+	{
+		"name": "Grievous Confrontation_VST",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/173_Grievous Confrontation_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "173",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "All creatures able to block target creature this turn do so. Until end of turn, whenever a creature blocks that creature, put a -1/-1 counter on the blocking creature.",
+	},
+	
+	{
+		"name": "Griffin Taming_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/13_Griffin Taming_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Griffin Taming enters, create a 1/1 white Nomad creature token with vigilance.\nEnchanted creature gets +1/+1 and has flying.",
+	},
+	
+	{
+		"name": "Grim Determination_VST",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/97_Grim Determination_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "97",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+	},
+	
+	{
+		"name": "Grin, Scourge of Goresand_VST",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/128_Grin, Scourge of Goresand_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "128",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Grin, Scourge of Goresand attacks, when next cast an instant or sorcery spell this turn with mana value 3 or less, copy that spell. You may choose new targets for the copy.\nDash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Grin's Reaver_VST",
+		"mana_cost": "{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/129_Grin's Reaver_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "129",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "First strike\nWhenever Grin's Reaver deals combat damage to a player, exile the top card of that player's library. Until end of turn, you may cast that card and mana of any type can be spent to cast that spell.",
+	},
+	
+	{
+		"name": "Growthblazers_VST",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/200_Growthblazers_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Growthblazers enters, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+	},
+	
+	{
+		"name": "Harvester of Vigor_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/98_Harvester of Vigor_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "98",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Waste a nonwastes land you control: Each opponent loses 2 life and you gain 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Hateseer Elder_VST",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/130_Hateseer Elder_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "130",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Hyena spells you cast cost {1} less to cast.\nWhenever another Hyena you control enters, Hateseer Elder deals 1 damage to target creature you don't control.",
+	},
+	
+	{
+		"name": "Holdout Settlement_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/242_Holdout Settlement_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "242",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}, Tap an untapped creature you control: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Hopeless Predicament_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/99_Hopeless Predicament_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "99",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning your upkeep, put a -1/-1 counter on a creature with the greatest toughness or tied for greatest toughness among creatures your opponents control.",
+	},
+	
+	{
+		"name": "Horizon Eater_VST",
+		"mana_cost": "{2}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/174_Horizon Eater_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "174",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Hostile Undertaking_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/131_Hostile Undertaking_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "131",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may cast this spell as though it had flash if you pay {2} more to cast it.\nCreatures you control get +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Hunter's Tenacity_VST",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/175_Hunter's Tenacity_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "175",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Hunter's Tenacity enters, draw a card.\nEnchanted creature gets +1/+1 and has reach.",
+	},
+	
+	{
+		"name": "Huntscent Pillagers_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/132_Huntscent Pillagers_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "132",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Huntscent Pillagers attacks, if you control another Hyena, Huntscent Pillagers gets +1/+1 and gains menace until end of turn.",
+	},
+	
+	{
+		"name": "Incandescent Rain_VST",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/133_Incandescent Rain_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "133",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Incandescent Rain deals 1 damage to each creature. Put a -1/-1 counter on each creature.",
+	},
+	
+	{
+		"name": "Insistent Lightning_VST",
+		"mana_cost": "{X}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/134_Insistent Lightning_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "134",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Insistent Lightning deals X damage to any target.\nYou may cast Insistent Lightning from your graveyard if you have no cards in hand. If you do, if it would be put into your graveyard this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Instincts of the Pack_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/135_Instincts of the Pack_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "135",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each creature spell you cast has dash. The dash cost is equal to its mana cost.\nWhenever a creature you control enters, Instincts of the Pack deals 1 damage to each opponent. If that creature is a Hyena, this deals 2 damage to each opponent instead.",
+	},
+	
+	{
+		"name": "Irradiated Amalgam_VST",
+		"mana_cost": "{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/201_Irradiated Amalgam_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "201",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{6}, {T}, Sacrifice Irradiated Amalgam: Create two tapped 2/2 black Zombie Mutant creature tokens with deathtouch.",
+	},
+	
+	{
+		"name": "Island_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/253_Island_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "253",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Isolation Zone_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/14_Isolation Zone_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Isolation Zone enters, exile target creature or enchantment an opponent controls until Isolation Zone leaves the battlefield. (That permanent returns under its owner's control.)",
+	},
+	
+	{
+		"name": "Karn, Heart of Guilt_VST",
+		"mana_cost": "{4}{C}{C}{C}{C}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/1_Karn, Heart of Guilt_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "1",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+2]: Until your next turn, creatures can't attack you or planeswalkers you control unless their controller pays {4} for each of those creatures.\n[-1]: Each opponent exiles a card from their hand, a permanent they control, and the top card of their library.\n[-4]: For each other nonland permanent, its owner puts it on the top or bottom of their library.\n[-10]: Put any number of non-Karn permanent cards from your hand, graveyard, or exiled with Karn onto the battlefield under your control.",
+	},
+	
+	{
+		"name": "Know the Way_VST",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/53_Know the Way_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "53",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Laggu Outrider_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/176_Laggu Outrider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "176",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, Laggu Outrider gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Landscape Decay_VST",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/177_Landscape Decay_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "177",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle. Then waste two nonwastes lands you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Last of Us_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/15_Last of Us_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "15",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player chooses a creature they control. Destroy the rest.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Leave to the Sands_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/54_Leave to the Sands_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "54",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Leave to the Sands enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEnchanted creature doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "Left to Time_VST",
+		"mana_cost": "{X}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/16_Left to Time_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "16",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy X target enchantments.",
+	},
+	
+	{
+		"name": "Lethal Dose_VST",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/100_Lethal Dose_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "100",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exile target creature or planeswalker with mana value 4 or less.",
+	},
+	
+	{
+		"name": "Leyline Feedback_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/55_Leyline Feedback_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target permanent you control and target permanent you don't control to their owners' hands.",
+	},
+	
+	{
+		"name": "Leyline Feeder_VST",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/178_Leyline Feeder_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "178",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}, Waste a nonwastes land you control: Leyline Feeder gets +2/+2 and gains hexproof until end of turn. Activate this ability only once each turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Leyline Reaper_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/101_Leyline Reaper_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "101",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Leyline Reaper enters, you may waste two nonwastes lands you control. If you do, target creature gets -3/-3 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Leyline Router_VST",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/56_Leyline Router_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "56",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Leyline Router enters, you may waste two nonwastes lands you control. If you do, return target creature to its owner's hand. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Life Desecrator_VST",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/102_Life Desecrator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Life Desecrator dies, you may waste two nonwastes lands you control. If you do, return another target creature card from your graveyard to your hand. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Liminal Observer_VST",
+		"mana_cost": "{2}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/227_Liminal Observer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "227",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, draw a card.",
+	},
+	
+	{
+		"name": "Lore Investigator_VST",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/57_Lore Investigator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "57",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}{U}, Sacrifice Lore Investigator: Return target instant or sorcery card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Lost in the Past_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/179_Lost in the Past_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "179",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Prevent all damage that would be dealt this turn. Return up to one target permanent card from your graveyard to your hand. Exile Lost in the Past.",
+	},
+	
+	{
+		"name": "Luma, Guiding Star_VST",
+		"mana_cost": "{3}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/202_Luma, Guiding Star_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "202",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Luma, Guiding Star deals 1 damage to any target. If a creature is dealt damage this way, it can't attack or block until your next turn.\n[-3]: Create three 1/1 white Nomad creature tokens with vigilance, then journey three times.\n[-6]: Luma, Guiding Star deals 20 damage to target creature or planeswalker. Your life total becomes equal to your starting life total.",
+	},
+	
+	{
+		"name": "Luma's Acolyte_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/136_Luma's Acolyte_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, you may discard a card or put a journeyed card you own in exile into your graveyard. If you do, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Luma's Kindred_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/17_Luma's Kindred_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Malformed Rebirth_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/103_Malformed Rebirth_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "103",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return up to two target creature cards from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Malign Outskirts_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/243_Malign Outskirts_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "243",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice Malign Outskirts: Put a -1/-1 counter on target creature. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Manta Wrangler_VST",
+		"mana_cost": "{2}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/203_Manta Wrangler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "203",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nAt the beginning of each end step, if you've cast a noncreature spell this turn, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Marauder's Fire_VST",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/137_Marauder's Fire_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "137",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Marauder's Fire deals 5 damage to target creature and 2 damage to that creature's controller.",
+	},
+	
+	{
+		"name": "Market Festival_VST",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/180_Market Festival_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "180",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.",
+	},
+	
+	{
+		"name": "Mirage Oddity_VST",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/58_Mirage Oddity_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "58",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWaste two nonwastes lands you control: Exile Mirage Oddity. Return it to the battlefield under its owner's control at the beginning of the next end step. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Mountain_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/255_Mountain_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "255",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Mysterious Undertaking_VST",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/59_Mysterious Undertaking_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "59",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may cast this spell as though it had flash if you pay {2} more to cast it.\nPut target nonland permanent on top of its owner's library.",
+	},
+	
+	{
+		"name": "Naomi, Pathleader_VST",
+		"mana_cost": "{1}{U}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/204_Naomi, Pathleader_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "204",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you put a journeyed card from exile into your hand, you can't lose the game until the end of your next turn.\nAt the beginning of your upkeep, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Naomi's Vanguard_VST",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/18_Naomi's Vanguard_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "18",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhenever Naomi's Vanguard attacks, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Neglected Nexus_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/244_Neglected Nexus_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "244",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Neglected Nexus: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if that land is a wastes, untap it.",
+	},
+	
+	{
+		"name": "Nimbus Drifters_VST",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/60_Nimbus Drifters_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "60",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Nimbus Drifters deals combat damage to a player, you may exile target permanent you control, then return that card to the battlefield under its owner's control.",
+	},
+	
+	{
+		"name": "Nivia, Last of the Aethanis_VST",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/205_Nivia, Last of the Aethanis_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "205",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, you may exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.\nOnce each turn, you may cast a copy of an artifact exiled with Nivia, Last of the Aethanis. Spells you cast this way cost {2} less to cast.",
+	},
+	
+	{
+		"name": "Nivia's Regret_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/19_Nivia's Regret_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "19",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Destroy target creature with power 4 or greater.\n• Destroy target artifact.",
+	},
+	
+	{
+		"name": "Nivia's Safekeeper_VST",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/206_Nivia's Safekeeper_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "206",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{2}{W}{U}: Exile another target permanent you control, then return that card to the battlefield under your control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Nomad's Companion_VST",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/21_Nomad's Companion_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "21",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, Nomad's Companion gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Nomad Enforcer_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/20_Nomad Enforcer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Nomad Enforcer enters, target creature gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Oasis Seeker_VST",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/22_Oasis Seeker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Oasis Seeker enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Overcome the Dunes_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/23_Overcome the Dunes_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +2/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Part Ways_VST",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/61_Part Ways_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "61",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exchange control of two target creatures.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Path of Brutality_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/139_Path of Brutality_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "139",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Path of Brutality enters, journey twice. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Path of Caution_VST",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/62_Path of Caution_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "62",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Path of Caution enters, journey three times. (Exile the top three cards of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature an opponent controls gets -5/-0 until end of turn.",
+	},
+	
+	{
+		"name": "Path of Resilience_VST",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/24_Path of Resilience_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "24",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Path of Resilience enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gets +1/+1 and gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Pathfinder's Tools_VST",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/228_Pathfinder's Tools_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "228",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, {T}: Add one mana of any color.\n{3}, {T}: Scry 1.",
+	},
+	
+	{
+		"name": "Plains_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/252_Plains_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "252",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Plated Charger_VST",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/181_Plated Charger_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "181",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Plated Charger has hexproof as long as it entered this turn.\nDash {3}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Plunder and Maim_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/140_Plunder and Maim_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "140",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a -1/-1 counter on target creature an opponent controls. Plunder and Maim deals 1 damage to each other creature that opponent controls.",
+	},
+	
+	{
+		"name": "Preacher of the Faultless_VST",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/207_Preacher of the Faultless_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "207",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nIf one or more -1/-1 counters would be put on a creature an opponent controls, that many plus one -1/-1 counters are put on it instead.",
+	},
+	
+	{
+		"name": "Pursued Eremite_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/104_Pursued Eremite_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "104",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Pursued Eremite leaves the battlefield, create a 2/2 black Zombie Mutant creature token with deathtouch.\nDash {3}{B}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Quintessence Manta_VST",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/63_Quintessence Manta_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "63",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Quintessence Manta enters, exile target instant or sorcery spell.\nWhen Quintessence Manta leaves the battlefield, you may cast the exiled card without paying its mana cost.",
+	},
+	
+	{
+		"name": "Rabid Whelps_VST",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/141_Rabid Whelps_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "141",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Rabid Whelps gets +1/+0 as long as you control another Hyena.\nDash {R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Radaran Butcher_VST",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/105_Radaran Butcher_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "105",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Radaran Butcher enters, discard a card.\nDash {1}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Radaran Corruption_VST",
+		"mana_cost": "{4}{B}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/208_Radaran Corruption_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "208",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Radaran Corruption enters, target opponent reveals their hand. You may choose a creature card from their hand or graveyard and exile it.\nYou may have creatures you control enter as a copy of the exiled card.",
+	},
+	
+	{
+		"name": "Radaran Hunter_VST",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/182_Radaran Hunter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "182",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nDash {3}{G}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Radaran Monstrosity_VST",
+		"mana_cost": "{6}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/106_Radaran Monstrosity_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "106",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Radaran Monstrosity enters, each opponent discards a card.",
+	},
+	
+	{
+		"name": "Radaran Pioneer_VST",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/142_Radaran Pioneer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "142",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "First strike\nWhen Radaran Pioneer dies, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Radaran Reclaimer_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/183_Radaran Reclaimer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "183",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Radaran Reclaimer enters or attacks, you may waste a nonwastes land you control. If you do, you gain 4 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Radaran Remnant_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/245_Radaran Remnant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "245",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Radaran Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {U} or {B}.",
+	},
+	
+	{
+		"name": "Radaran Stirrings_VST",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/107_Radaran Stirrings_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "107",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{2}, Waste two nonwastes lands you control: Create a tapped 2/2 black Zombie Mutant creature token with deathtouch. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Radaran Undying_VST",
+		"mana_cost": "{6}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/108_Radaran Undying_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "108",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may waste any number of nonwastes lands you control as an additional cost to cast this spell. It costs {1} less to cast for each land wasted this way. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nYou may cast Radaran Undying from your graveyard if you spend 5 or less mana to cast it.\nDeathtouch, menace",
+	},
+	
+	{
+		"name": "Raid Preparations_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/143_Raid Preparations_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "143",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Search your library for a creature card with haste or dash, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Raid Veteran_VST",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/209_Raid Veteran_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "209",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "First strike, haste\nWhenever you put a journeyed card into your hand, create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Raider's Loyalty_VST",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/144_Raider's Loyalty_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "144",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature until end of turn. Untap it. That creature gains haste until end of turn. Put a -1/-1 counter on it at end of combat.",
+	},
+	
+	{
+		"name": "Ransack and Burn_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/145_Ransack and Burn_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "145",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ransack and Burn deals 3 damage to target creature. Then you may discard a card. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Rayak, Radaran Overlord_VST",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/109_Rayak, Radaran Overlord_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "109",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Rayak, Radaran Overlord enters or attacks, put a -1/-1 counter on up to two target creatures.\nWhenever a creature an opponent controls with a -1/-1 counter on it dies, draw a card.",
+	},
+	
+	{
+		"name": "Rayak's Prelate_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/110_Rayak's Prelate_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "110",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Rayak's Prelate enters, you may waste two nonwastes lands you control. If you do, you draw two cards and you lose 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Realm Siphoner_VST",
+		"mana_cost": "{3}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/210_Realm Siphoner_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "210",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you waste one or more lands, each opponent loses 2 life, you gain 2 life, and you draw a card.\nPay 1 life, Tap an untapped land you control: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Reduce to Earth_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/184_Reduce to Earth_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "184",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target artifact, enchantment, or creature with flying.",
+	},
+	
+	{
+		"name": "Regard the Remnants_VST",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/146_Regard the Remnants_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may discard two cards. If you do, draw three cards.",
+	},
+	
+	{
+		"name": "Relic Wayfarer_VST",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/64_Relic Wayfarer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "64",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Relic Wayfarer can't be blocked except by artifact creatures.",
+	},
+	
+	{
+		"name": "Render Inert_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/65_Render Inert_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "65",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nEnchant creature or artifact\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "Repel the Impure_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/25_Repel the Impure_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "25",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, you may exile target creature if it has a -1/-1 counter on it.",
+	},
+	
+	{
+		"name": "Resigned Seraph_VST",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/26_Resigned Seraph_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nAt the beginning of combat on your turn, you may waste a nonwastes land you control. If you do, target creature gets +1/+1 and gains vigilance until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Resilient Raiders_VST",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/111_Resilient Raiders_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "111",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Resilient Raiders is put into your graveyard from anywhere, put it on top of its owner's library, then they journey. (To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Revel in Perfection_VST",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/211_Revel in Perfection_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "211",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +1/+1 until end of turn. Put a -1/-1 counter on each creature you don't control.",
+	},
+	
+	{
+		"name": "Rubble Messenger_VST",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/147_Rubble Messenger_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "147",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Rubble Messenger enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Ruinstorm Remnant_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/246_Ruinstorm Remnant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "246",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Ruinstorm Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {R} or {G}.",
+	},
+	
+	{
+		"name": "Ruinstorm Wurm_VST",
+		"mana_cost": "{3}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/212_Ruinstorm Wurm_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "212",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may look at the top card of your library any time.\nYou may cast the top card of your library if it's a creature card. If you do, it gains haste. Return the permanent it becomes to your hand at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Runic Sealer_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/27_Runic Sealer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "27",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Runic Sealer enters, choose a noncreature, nonland card name.\nSpells with the chosen name can't be cast.\nActivated abilities of sources with the chosen name can't be activated.",
+	},
+	
+	{
+		"name": "Sanctis Banneret_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/28_Sanctis Banneret_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Sanctis Banneret attacks, you may waste a nonwastes land you control. If you do, create a 1/1 white Nomad creature token with vigilance. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Sanctis Griffin_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/29_Sanctis Griffin_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "29",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Sanctis Griffin deals combat damage to a player, permanents entering the battlefield under that player's control don't cause abilities to trigger until the beginning of your next turn.",
+	},
+	
+	{
+		"name": "Sanctis Remnant_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/247_Sanctis Remnant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "247",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Sanctis Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {G} or {W}.",
+	},
+	
+	{
+		"name": "Sanctum's Light_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/30_Sanctum's Light_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain 6 life.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Sand Manipulator_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/66_Sand Manipulator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "66",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Waste a nonwastes land you control: Tap target creature. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Sandscald_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/148_Sandscald_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "148",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Sandscald deals 4 damage to any target. If a creature is dealt damage this way, it loses indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Sandstalker Duo_VST",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/185_Sandstalker Duo_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "185",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Dash costs you pay cost {2} less.\nWhenever a creature you control enters, target creature gets +2/+2 until end if turn.",
+	},
+	
+	{
+		"name": "Sandtrap Spider_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/186_Sandtrap Spider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "186",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sandtrap Spider has deathtouch as long as it's attacking, otherwise it has reach.\nDash {1}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Sandwarp_VST",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/67_Sandwarp_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "67",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may pay {U} and waste three nonwastes lands you control rather than pay this spell's mana cost. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nCounter target spell.",
+	},
+	
+	{
+		"name": "Savage Undertaking_VST",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/187_Savage Undertaking_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "187",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may cast this spell as though it had flash if you pay {2} more to cast it.\nTarget creature gets +3/+3 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Saviour of the Lost_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/31_Saviour of the Lost_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "31",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, lifelink\nWhenever Saviour of the Lost attacks, you may waste two nonwastes lands you control. If you do, return up to two target creature cards with total mana value 2 or less from your graveyard to the battlefield. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Savor the Torment_VST",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/112_Savor the Torment_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "112",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Savor the Torment enters, put two -1/-1 counters on target creature.\nWhenever a creature dies, you gain 1 life for each -1/-1 counter on it.",
+	},
+	
+	{
+		"name": "Scrapfire Technician_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/149_Scrapfire Technician_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "149",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, Scrapfire Technician gets +2/+0 until end of turn and deals 1 damage to each opponent.",
+	},
+	
+	{
+		"name": "Seawing Shrieker_VST",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/68_Seawing Shrieker_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "68",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Seawing Shrieker enters, you may exile another target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Secrets of the Sands_VST",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/69_Secrets of the Sands_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "69",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Draw two cards, then you may return a permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Seek Out Survivors_VST",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/32_Seek Out Survivors_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "32",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return target creature card with mana value 2 or less from your graveyard to the battlefield.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Seize the Initiative_VST",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/33_Seize the Initiative_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "33",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+1 and gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Sephius, Endtime Scholar_VST",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/70_Sephius, Endtime Scholar_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "70",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{T}, Waste a nonwastes land you control: You may pay {0} rather than pay the mana cost for the next spell you cast this turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Sephius's Research_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/71_Sephius's Research_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "71",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Waste two nonwastes lands you control. If you do, search your library for a colorless card, reveal it, put it into your hand, then shuffle. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "Settlement Convoy_VST",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/213_Settlement Convoy_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "213",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Settlement Convoy gets +1/+1 for each creature you control.\nWhenever another nontoken creature you control enters, create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Shi-Fang Ambusher_VST",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/150_Shi-Fang Ambusher_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "150",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Shi-Fang Ambusher enters, it deals 1 damage to target player or planeswalker.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Shi-Fang Bandits_VST",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/113_Shi-Fang Bandits_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Dash {B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Shimmering Dunekite_VST",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/151_Shimmering Dunekite_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "151",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Shimmering Dunekite or another creature you control enters, if you cast that creature from your hand, you may create a token that's a copy of that creature, except it has haste and \"At the beginning of the end step, sacrifice this creature.\"",
+	},
+	
+	{
+		"name": "Sidetracked_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/72_Sidetracked_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "72",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return target creature to its owner's hand.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Sink into Doubt_VST",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/73_Sink into Doubt_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "73",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nCounter target spell unless its controller pays {X}.",
+	},
+	
+	{
+		"name": "Skytouch Wurm_VST",
+		"mana_cost": "{8}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/188_Skytouch Wurm_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "188",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nThis spell costs {1} less to cast for each creature you control.\nReach",
+	},
+	
+	{
+		"name": "Skywatch Brigade_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/34_Skywatch Brigade_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "34",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nCreature tokens you control get +1/+1.",
+	},
+	
+	{
+		"name": "Source Conduits_VST",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/230_Source Conduits_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "230",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Source Conduits: Add three mana in any combination of colors. Draw a card.",
+	},
+	
+	{
+		"name": "Source Sentries_VST",
+		"mana_cost": "{1}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/231_Source Sentries_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "231",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Source Sentries attacks, you may exile target land you control, then return that card to the battlefield tapped under your control.",
+	},
+	
+	{
+		"name": "Specimen Observer_VST",
+		"mana_cost": "{2}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/232_Specimen Observer_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "232",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As Specimen Observer enters, choose a creature type.\nSpecimen Observer is the chosen type in addition to its other types.\nOther creatures you control of the chosen type get +1/+1.",
+	},
+	
+	{
+		"name": "Stampeding Orvs_VST",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/189_Stampeding Orvs_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "189",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Stampeding Orvs attacks, creatures you control get +2/+2 until end of turn.\nDash {6}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Starved Oasis_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/248_Starved Oasis_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "248",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{2}, Pay 2 life: Starved Oasis becomes a 4/2 Elemental creature until end of turn. It's still a land.",
+	},
+	
+	{
+		"name": "Strip Away_VST",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/152_Strip Away_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "152",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Destroy target artifact.\n• Strip Away deals 1 damage to any target.",
+	},
+	
+	{
+		"name": "Struggle for Survival_VST",
+		"mana_cost": "{4}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/190_Struggle for Survival_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "190",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Sun-Mad Dunekite_VST",
+		"mana_cost": "{5}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/153_Sun-Mad Dunekite_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "153",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Sun-Mad Dunekite attacks, it deals 2 damage to each creature defending player controls.\nDash {5}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "Supply Raid_VST",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/114_Supply Raid_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "114",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target player reveals their hand. You choose a nonland card from it. Put that card on top of its owner's library, then they journey. (To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Survey What's Left_VST",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/35_Survey What's Left_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile two target permanents you control, then return those cards to the battlefield under your control.",
+	},
+	
+	{
+		"name": "Survival Gear_VST",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/233_Survival Gear_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "233",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Survival Gear enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEquipped creature gets +2/+1.\nEquip {2}",
+	},
+	
+	{
+		"name": "Swamp_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/254_Swamp_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "254",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Territorial Sandshark_VST",
+		"mana_cost": "{5}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/154_Territorial Sandshark_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "154",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Territorial Sandshark dies, it deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "The Fall of Aethanis_VST",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/89_The Fall of Aethanis_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "89",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When The Fall of Aethanis enters, if it was cast from your hand, destroy all creatures.\nAt the beginning of your upkeep, you may waste a nonwastes land you control. If you do, each opponent loses 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+	},
+	
+	{
+		"name": "The Pack Feasts_VST",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/138_The Pack Feasts_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "138",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 2/2 red Hyena creature tokens.",
+	},
+	
+	{
+		"name": "The Source_VST",
+		"mana_cost": "{4}{C}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/229_The Source_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "229",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Indestructible\n{T}, Waste a nonwastes land you control: Add three mana in any combination of colors. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nAs long as you control seven or more lands that can produce {C}, you may play cards you own from outside the game.",
+	},
+	
+	{
+		"name": "Timeless Custodian_VST",
+		"mana_cost": "{2}{C}{C}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/234_Timeless Custodian_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "234",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nTimeless Custodian can't have counters put on it.",
+	},
+	
+	{
+		"name": "Tradeway Remnant_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/249_Tradeway Remnant_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "249",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Tradeway Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {W} or {U}.",
+	},
+	
+	{
+		"name": "Tradeway Scholar_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/74_Tradeway Scholar_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "74",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Tradeway Scholar enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Travel Together_VST",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/36_Travel Together_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "36",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when one or more creature tokens are created under your control, create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Twilight Depths_VST",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/250_Twilight Depths_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "250",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Twilight Depths enters, each opponent loses 1 life.\n{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Twilight Screechers_VST",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/115_Twilight Screechers_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "115",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Twilight Screechers enters, put a -1/-1 counter on a creature with the greatest toughness or tied for greatest toughness among creatures an opponent controls.",
+	},
+	
+	{
+		"name": "Twisted Endurance_VST",
+		"mana_cost": "{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/191_Twisted Endurance_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "191",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+1 and gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Umbral Glider_VST",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/75_Umbral Glider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "75",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Umbral Glider attacks, return target permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Unbridled Antoch_VST",
+		"mana_cost": "{3}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/214_Unbridled Antoch_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "214",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Unbridled Antoch enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Uneasy Encounter_VST",
+		"mana_cost": "{6}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/76_Uneasy Encounter_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "76",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Tap up to three target creatures. Those creatures don't untap during their controller's next untap step.\nDraw three cards.",
+	},
+	
+	{
+		"name": "United in Survival_VST",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/37_United in Survival_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "37",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, choose one -\n• Create a 1/1 white Nomad creature token with vigilance.\n• Creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Unprecedented Genius_VST",
+		"mana_cost": "{4}{U}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/77_Unprecedented Genius_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "77",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Skip your draw step.\nAt the beginning of each upkeep, if you have fewer than seven cards in hand, draw cards equal to the difference.",
+	},
+	
+	{
+		"name": "Unstable Relic_VST",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/235_Unstable Relic_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "235",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Target player loses 1 life.",
+	},
+	
+	{
+		"name": "Valley Carver_VST",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/192_Valley Carver_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "192",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Valley Carver can't be blocked by creatures with power 2 or less.\n{1}{G}, Discard Valley Carver: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Vaya, Arbiter of Perfection_VST",
+		"mana_cost": "{3}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/215_Vaya, Arbiter of Perfection_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "215",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Creatures your opponents control enter tapped and with an additional -1/-1 counter on them.\nAt the beginning of combat on each opponent's turn, put a -1/-1 counter on target creature that player controls and tap it.",
+	},
+	
+	{
+		"name": "Vaya's Subjugator_VST",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/38_Vaya's Subjugator_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "38",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance\nWhenever a -1/-1 counter is put on a creature an opponent controls, create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Vlad-Shi, Packmother_VST",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/216_Vlad-Shi, Packmother_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "216",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample, haste\nAttacking creatures you control get +1/+0.\nWhenever a Hyena you control dies, if it entered this turn, return it to its owner's hand.",
+	},
+	
+	{
+		"name": "Wall of Mysteries_VST",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/78_Wall of Mysteries_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "78",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender\nWhen Wall of Mysteries enters, draw a card.",
+	},
+	
+	{
+		"name": "Wander the Ruins_VST",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/39_Wander the Ruins_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "39",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 1/1 white Nomad creature tokens with vigilance.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+	},
+	
+	{
+		"name": "Warpath Minotaur_VST",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/155_Warpath Minotaur_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "155",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Warpath Minotaur enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEach player must attack with at least one creature each combat if able.",
+	},
+	
+	{
+		"name": "Warped Worshipper_VST",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/116_Warped Worshipper_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Warped Worshipper deals combat damage to a player, you may put a -1/-1 counter on target creature.",
+	},
+	
+	{
+		"name": "Wastes_VST",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/251_Wastes_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "251",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {C}.)",
+	},
+	
+	{
+		"name": "Way of the Raider_VST",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/156_Way of the Raider_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "156",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Way of the Raider enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEnchanted creature gets +3/+2.",
+	},
+	
+	{
+		"name": "Wayfarer's Destination_VST",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/193_Wayfarer's Destination_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "193",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle. Create a 1/1 white Nomad creature token with vigilance.",
+	},
+	
+	{
+		"name": "Wither Away_VST",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/117_Wither Away_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Put a -1/-1 counter on target creature.\n• Destroy target creature with a -1/-1 counter on it.",
+	},
+	
+	{
+		"name": "Wurm's Wake_VST",
+		"mana_cost": "{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/194_Wurm's Wake_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "194",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{2}{G}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{9}{G}{G}{G}, Sacrifice Wurm's Wake: Create Wurm of World's End, a legendary 15/15 green Wurm creature token with trample and hexproof.",
+	},
+	
+	{
+		"name": "Zerul Mangler_VST",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/195_Zerul Mangler_VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "195",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Zerul Mangler enters, you gain 2 life.\nDash {2}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+	},
+	
+	{
+		"name": "red Hyena 22VST",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/3t_red Hyena 22VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Nomad 11VST",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/1t_white Nomad 11VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "black Zombie Mutant 22VST",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/2t_black Zombie Mutant 22VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch",
+	},
+	
+	{
+		"name": "Wurm of World's End VST",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/4t_Wurm of World's End VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample, hexproof",
+	},
+	
+	{
+		"name": "blue and green Elf 11VST",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/VST-files/img/5t_blue and green Elf 11VST.jpg",
+		"colors": [],
+		"set": "VST",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	]
+[Common]
+20 Aethanis Sentinel_VST
+20 Aethanis Strider_VST
+20 Blind Wyvern_VST
+20 Brackcliff Drakes_VST
+20 Caravan Skyrider_VST
+20 Convoy Laggu-Rider_VST
+20 Crafted Exogene_VST
+20 Debris Surveyors_VST
+20 Desperate Animist_VST
+20 Disciple of the Faultless_VST
+20 Doomed Undertaking_VST
+20 Ego Collapse_VST
+20 Embraced by Dusk_VST
+20 Endtimes Hatchling_VST
+20 Endtimes Hunter_VST
+20 Endtimes Monstrosity_VST
+20 Endtimes Pilgrim_VST
+20 Endtimes Steward_VST
+20 Essence Scatter_VST
+20 Exiled Channeler_VST
+20 Exogene Spitter_VST
+20 Fall Lurker_VST
+20 Falltouched Hunger_VST
+20 Falltouched Predator_VST
+20 Faultless Bloodhunter_VST
+20 Flareshot Bow_VST
+20 Flawed Undertaking_VST
+20 Gene Gorger_VST
+20 Getting Lost_VST
+20 Gnoll Deathraider_VST
+20 Gnoll Ravager_VST
+20 Goresand Marauder_VST
+20 Goresand Wardriver_VST
+20 Grasp of the Fallen_VST
+20 Griffin Taming_VST
+20 Grim Determination_VST
+20 Harvester of Vigor_VST
+20 Holdout Settlement_VST
+20 Horizon Eater_VST
+20 Hostile Undertaking_VST
+20 Hunter's Tenacity_VST
+20 Huntscent Pillagers_VST
+20 Isolation Zone_VST
+20 Know the Way_VST
+20 Laggu Outrider_VST
+20 Leave to the Sands_VST
+20 Leyline Feedback_VST
+20 Leyline Router_VST
+20 Life Desecrator_VST
+20 Lore Investigator_VST
+20 Luma's Kindred_VST
+20 Malformed Rebirth_VST
+20 Marauder's Fire_VST
+20 Market Festival_VST
+20 Mysterious Undertaking_VST
+20 Neglected Nexus_VST
+20 Nomad's Companion_VST
+20 Nomad Enforcer_VST
+20 Oasis Seeker_VST
+20 Overcome the Dunes_VST
+20 Pathfinder's Tools_VST
+20 Plunder and Maim_VST
+20 Radaran Hunter_VST
+20 Radaran Monstrosity_VST
+20 Radaran Pioneer_VST
+20 Raider's Loyalty_VST
+20 Ransack and Burn_VST
+20 Reduce to Earth_VST
+20 Regard the Remnants_VST
+20 Relic Wayfarer_VST
+20 Resigned Seraph_VST
+20 Rubble Messenger_VST
+20 Sanctis Banneret_VST
+20 Sanctum's Light_VST
+20 Sand Manipulator_VST
+20 Sandtrap Spider_VST
+20 Savage Undertaking_VST
+20 Seawing Shrieker_VST
+20 Secrets of the Sands_VST
+20 Seize the Initiative_VST
+20 Shi-Fang Ambusher_VST
+20 Shi-Fang Bandits_VST
+20 Strip Away_VST
+20 Survey What's Left_VST
+20 Survival Gear_VST
+20 Territorial Sandshark_VST
+20 The Pack Feasts_VST
+20 Timeless Custodian_VST
+20 Tradeway Scholar_VST
+20 Twilight Depths_VST
+20 Twilight Screechers_VST
+20 Twisted Endurance_VST
+20 Unstable Relic_VST
+20 Valley Carver_VST
+20 Wander the Ruins_VST
+20 Warped Worshipper_VST
+20 Way of the Raider_VST
+20 Wayfarer's Destination_VST
+20 Wither Away_VST
+20 Zerul Mangler_VST
+
+[Uncommon]
+10 Abandoned Astrolabe_VST
+10 Abandoned Excavation_VST
+10 Aethanis Leylinker_VST
+10 Antiquity Seeker_VST
+10 Ashen Dunekite_VST
+10 Bloodrage Brawler_VST
+10 Buried Ruin_VST
+10 Carrion Divers_VST
+10 Chosen of the Faultless_VST
+10 Council of Vaya_VST
+10 Deathraider Elite_VST
+10 Destari Blightwing_VST
+10 Dusk Dancer_VST
+10 Dust Enigma_VST
+10 Enrobe in Light_VST
+10 Evaldi's Search_VST
+10 Exogene Prowler_VST
+10 Falltouched Emergence_VST
+10 Field of Ruin_VST
+10 Fierce Infighting_VST
+10 Fluorescent Sprinter_VST
+10 Forlorn Firstspear_VST
+10 Foug's Quandary_VST
+10 Geneshifted Goliath_VST
+10 Geneshifted Warbler_VST
+10 Geneshifter Adept_VST
+10 Gnoll Raidleaders_VST
+10 Grievous Confrontation_VST
+10 Growthblazers_VST
+10 Hateseer Elder_VST
+10 Hopeless Predicament_VST
+10 Incandescent Rain_VST
+10 Irradiated Amalgam_VST
+10 Landscape Decay_VST
+10 Left to Time_VST
+10 Lost in the Past_VST
+10 Luma's Acolyte_VST
+10 Malign Outskirts_VST
+10 Manta Wrangler_VST
+10 Naomi's Vanguard_VST
+10 Nimbus Drifters_VST
+10 Nivia's Regret_VST
+10 Nivia's Safekeeper_VST
+10 Part Ways_VST
+10 Path of Brutality_VST
+10 Path of Caution_VST
+10 Path of Resilience_VST
+10 Plated Charger_VST
+10 Preacher of the Faultless_VST
+10 Rabid Whelps_VST
+10 Radaran Butcher_VST
+10 Radaran Reclaimer_VST
+10 Radaran Stirrings_VST
+10 Raid Preparations_VST
+10 Raid Veteran_VST
+10 Rayak's Prelate_VST
+10 Repel the Impure_VST
+10 Resilient Raiders_VST
+10 Sanctis Griffin_VST
+10 Sandscald_VST
+10 Sandstalker Duo_VST
+10 Savor the Torment_VST
+10 Scrapfire Technician_VST
+10 Seek Out Survivors_VST
+10 Sephius's Research_VST
+10 Settlement Convoy_VST
+10 Sidetracked_VST
+10 Sink into Doubt_VST
+10 Skytouch Wurm_VST
+10 Skywatch Brigade_VST
+10 Source Conduits_VST
+10 Source Sentries_VST
+10 Specimen Observer_VST
+10 Supply Raid_VST
+10 Umbral Glider_VST
+10 Unbridled Antoch_VST
+10 Uneasy Encounter_VST
+10 Vaya's Subjugator_VST
+10 Wall of Mysteries_VST
+
+[Rare]
+4 Aethanis, the Fallen Capital_VST
+4 Aethanis Conservator_VST
+4 Aether Conductor_VST
+4 Ancient Shelter_VST
+4 Biramous Entity_VST
+4 Bitter Redemption_VST
+4 Claim What Remains_VST
+4 Consumption Tyrant_VST
+4 Convoy Forerunner_VST
+4 Destari Skylord_VST
+4 Dustborn Phoenix_VST
+4 Enigmatic Constructor_VST
+4 Eon Overwatch_VST
+4 Eradicator Engine_VST
+4 Erode to Nothing_VST
+4 Eternal Wanderer_VST
+4 Evaldi, Genesis of Hope_VST
+4 Evaldi's Harmonizer_VST
+4 Evaldi's Muse_VST
+4 Find of a Lifetime_VST
+4 Geneshifting_VST
+4 Goresand Remnant_VST
+4 Grin, Scourge of Goresand_VST
+4 Grin's Reaver_VST
+4 Insistent Lightning_VST
+4 Instincts of the Pack_VST
+4 Last of Us_VST
+4 Lethal Dose_VST
+4 Leyline Feeder_VST
+4 Leyline Reaper_VST
+4 Liminal Observer_VST
+4 Mirage Oddity_VST
+4 Pursued Eremite_VST
+4 Quintessence Manta_VST
+4 Radaran Corruption_VST
+4 Radaran Remnant_VST
+4 Radaran Undying_VST
+4 Rayak, Radaran Overlord_VST
+4 Realm Siphoner_VST
+4 Render Inert_VST
+4 Revel in Perfection_VST
+4 Ruinstorm Remnant_VST
+4 Ruinstorm Wurm_VST
+4 Runic Sealer_VST
+4 Sanctis Remnant_VST
+4 Sandwarp_VST
+4 Saviour of the Lost_VST
+4 Stampeding Orvs_VST
+4 Starved Oasis_VST
+4 Struggle for Survival_VST
+4 Sun-Mad Dunekite_VST
+4 The Fall of Aethanis_VST
+4 Tradeway Remnant_VST
+4 Travel Together_VST
+4 United in Survival_VST
+4 Warpath Minotaur_VST
+2 Angel of Dismay_VST
+2 Consign to Failure_VST
+2 Evaldi's Masterpiece_VST
+2 Foug, Indulgent Broker_VST
+2 Karn, Heart of Guilt_VST
+2 Luma, Guiding Star_VST
+2 Naomi, Pathleader_VST
+2 Nivia, Last of the Aethanis_VST
+2 Sephius, Endtime Scholar_VST
+2 Shimmering Dunekite_VST
+2 The Source_VST
+2 Unprecedented Genius_VST
+2 Vaya, Arbiter of Perfection_VST
+2 Vlad-Shi, Packmother_VST
+2 Wurm's Wake_VST
+
+[Land]
+20 Forest_VST
+20 Island_VST
+20 Mountain_VST
+20 Plains_VST
+20 Swamp_VST
+20 Wastes_VST
+
+[Token]
+20 red Hyena 22VST
+20 white Nomad 11VST
+20 black Zombie Mutant 22VST
+20 Wurm of World's End VST
+20 blue and green Elf 11VST
+
+[Wildcard]
+6 Aethanis Sentinel_VST
+6 Aethanis Strider_VST
+6 Blind Wyvern_VST
+6 Brackcliff Drakes_VST
+6 Caravan Skyrider_VST
+6 Convoy Laggu-Rider_VST
+6 Crafted Exogene_VST
+6 Debris Surveyors_VST
+6 Desperate Animist_VST
+6 Disciple of the Faultless_VST
+6 Doomed Undertaking_VST
+6 Ego Collapse_VST
+6 Embraced by Dusk_VST
+6 Endtimes Hatchling_VST
+6 Endtimes Hunter_VST
+6 Endtimes Monstrosity_VST
+6 Endtimes Pilgrim_VST
+6 Endtimes Steward_VST
+6 Essence Scatter_VST
+6 Exiled Channeler_VST
+6 Exogene Spitter_VST
+6 Fall Lurker_VST
+6 Falltouched Hunger_VST
+6 Falltouched Predator_VST
+6 Faultless Bloodhunter_VST
+6 Flareshot Bow_VST
+6 Flawed Undertaking_VST
+6 Gene Gorger_VST
+6 Getting Lost_VST
+6 Gnoll Deathraider_VST
+6 Gnoll Ravager_VST
+6 Goresand Marauder_VST
+6 Goresand Wardriver_VST
+6 Grasp of the Fallen_VST
+6 Griffin Taming_VST
+6 Grim Determination_VST
+6 Harvester of Vigor_VST
+6 Holdout Settlement_VST
+6 Horizon Eater_VST
+6 Hostile Undertaking_VST
+6 Hunter's Tenacity_VST
+6 Huntscent Pillagers_VST
+6 Isolation Zone_VST
+6 Know the Way_VST
+6 Laggu Outrider_VST
+6 Leave to the Sands_VST
+6 Leyline Feedback_VST
+6 Leyline Router_VST
+6 Life Desecrator_VST
+6 Lore Investigator_VST
+6 Luma's Kindred_VST
+6 Malformed Rebirth_VST
+6 Marauder's Fire_VST
+6 Market Festival_VST
+6 Mysterious Undertaking_VST
+6 Neglected Nexus_VST
+6 Nomad's Companion_VST
+6 Nomad Enforcer_VST
+6 Oasis Seeker_VST
+6 Overcome the Dunes_VST
+6 Pathfinder's Tools_VST
+6 Plunder and Maim_VST
+6 Radaran Hunter_VST
+6 Radaran Monstrosity_VST
+6 Radaran Pioneer_VST
+6 Raider's Loyalty_VST
+6 Ransack and Burn_VST
+6 Reduce to Earth_VST
+6 Regard the Remnants_VST
+6 Relic Wayfarer_VST
+6 Resigned Seraph_VST
+6 Rubble Messenger_VST
+6 Sanctis Banneret_VST
+6 Sanctum's Light_VST
+6 Sand Manipulator_VST
+6 Sandtrap Spider_VST
+6 Savage Undertaking_VST
+6 Seawing Shrieker_VST
+6 Secrets of the Sands_VST
+6 Seize the Initiative_VST
+6 Shi-Fang Ambusher_VST
+6 Shi-Fang Bandits_VST
+6 Strip Away_VST
+6 Survey What's Left_VST
+6 Survival Gear_VST
+6 Territorial Sandshark_VST
+6 The Pack Feasts_VST
+6 Timeless Custodian_VST
+6 Tradeway Scholar_VST
+6 Twilight Depths_VST
+6 Twilight Screechers_VST
+6 Twisted Endurance_VST
+6 Unstable Relic_VST
+6 Valley Carver_VST
+6 Wander the Ruins_VST
+6 Warped Worshipper_VST
+6 Way of the Raider_VST
+6 Wayfarer's Destination_VST
+6 Wither Away_VST
+6 Zerul Mangler_VST
+4 Abandoned Astrolabe_VST
+4 Abandoned Excavation_VST
+4 Aethanis Leylinker_VST
+4 Antiquity Seeker_VST
+4 Ashen Dunekite_VST
+4 Bloodrage Brawler_VST
+4 Buried Ruin_VST
+4 Carrion Divers_VST
+4 Chosen of the Faultless_VST
+4 Council of Vaya_VST
+4 Deathraider Elite_VST
+4 Destari Blightwing_VST
+4 Dusk Dancer_VST
+4 Dust Enigma_VST
+4 Enrobe in Light_VST
+4 Evaldi's Search_VST
+4 Exogene Prowler_VST
+4 Falltouched Emergence_VST
+4 Field of Ruin_VST
+4 Fierce Infighting_VST
+4 Fluorescent Sprinter_VST
+4 Forlorn Firstspear_VST
+4 Foug's Quandary_VST
+4 Geneshifted Goliath_VST
+4 Geneshifted Warbler_VST
+4 Geneshifter Adept_VST
+4 Gnoll Raidleaders_VST
+4 Grievous Confrontation_VST
+4 Growthblazers_VST
+4 Hateseer Elder_VST
+4 Hopeless Predicament_VST
+4 Incandescent Rain_VST
+4 Irradiated Amalgam_VST
+4 Landscape Decay_VST
+4 Left to Time_VST
+4 Lost in the Past_VST
+4 Luma's Acolyte_VST
+4 Malign Outskirts_VST
+4 Manta Wrangler_VST
+4 Naomi's Vanguard_VST
+4 Nimbus Drifters_VST
+4 Nivia's Regret_VST
+4 Nivia's Safekeeper_VST
+4 Part Ways_VST
+4 Path of Brutality_VST
+4 Path of Caution_VST
+4 Path of Resilience_VST
+4 Plated Charger_VST
+4 Preacher of the Faultless_VST
+4 Rabid Whelps_VST
+4 Radaran Butcher_VST
+4 Radaran Reclaimer_VST
+4 Radaran Stirrings_VST
+4 Raid Preparations_VST
+4 Raid Veteran_VST
+4 Rayak's Prelate_VST
+4 Repel the Impure_VST
+4 Resilient Raiders_VST
+4 Sanctis Griffin_VST
+4 Sandscald_VST
+4 Sandstalker Duo_VST
+4 Savor the Torment_VST
+4 Scrapfire Technician_VST
+4 Seek Out Survivors_VST
+4 Sephius's Research_VST
+4 Settlement Convoy_VST
+4 Sidetracked_VST
+4 Sink into Doubt_VST
+4 Skytouch Wurm_VST
+4 Skywatch Brigade_VST
+4 Source Conduits_VST
+4 Source Sentries_VST
+4 Specimen Observer_VST
+4 Supply Raid_VST
+4 Umbral Glider_VST
+4 Unbridled Antoch_VST
+4 Uneasy Encounter_VST
+4 Vaya's Subjugator_VST
+4 Wall of Mysteries_VST
+2 Aethanis, the Fallen Capital_VST
+2 Aethanis Conservator_VST
+2 Aether Conductor_VST
+2 Ancient Shelter_VST
+2 Biramous Entity_VST
+2 Bitter Redemption_VST
+2 Claim What Remains_VST
+2 Consumption Tyrant_VST
+2 Convoy Forerunner_VST
+2 Destari Skylord_VST
+2 Dustborn Phoenix_VST
+2 Enigmatic Constructor_VST
+2 Eon Overwatch_VST
+2 Eradicator Engine_VST
+2 Erode to Nothing_VST
+2 Eternal Wanderer_VST
+2 Evaldi, Genesis of Hope_VST
+2 Evaldi's Harmonizer_VST
+2 Evaldi's Muse_VST
+2 Find of a Lifetime_VST
+2 Geneshifting_VST
+2 Goresand Remnant_VST
+2 Grin, Scourge of Goresand_VST
+2 Grin's Reaver_VST
+2 Insistent Lightning_VST
+2 Instincts of the Pack_VST
+2 Last of Us_VST
+2 Lethal Dose_VST
+2 Leyline Feeder_VST
+2 Leyline Reaper_VST
+2 Liminal Observer_VST
+2 Mirage Oddity_VST
+2 Pursued Eremite_VST
+2 Quintessence Manta_VST
+2 Radaran Corruption_VST
+2 Radaran Remnant_VST
+2 Radaran Undying_VST
+2 Rayak, Radaran Overlord_VST
+2 Realm Siphoner_VST
+2 Render Inert_VST
+2 Revel in Perfection_VST
+2 Ruinstorm Remnant_VST
+2 Ruinstorm Wurm_VST
+2 Runic Sealer_VST
+2 Sanctis Remnant_VST
+2 Sandwarp_VST
+2 Saviour of the Lost_VST
+2 Stampeding Orvs_VST
+2 Starved Oasis_VST
+2 Struggle for Survival_VST
+2 Sun-Mad Dunekite_VST
+2 The Fall of Aethanis_VST
+2 Tradeway Remnant_VST
+2 Travel Together_VST
+2 United in Survival_VST
+2 Warpath Minotaur_VST
+1 Angel of Dismay_VST
+1 Consign to Failure_VST
+1 Evaldi's Masterpiece_VST
+1 Foug, Indulgent Broker_VST
+1 Karn, Heart of Guilt_VST
+1 Luma, Guiding Star_VST
+1 Naomi, Pathleader_VST
+1 Nivia, Last of the Aethanis_VST
+1 Sephius, Endtime Scholar_VST
+1 Shimmering Dunekite_VST
+1 The Source_VST
+1 Unprecedented Genius_VST
+1 Vaya, Arbiter of Perfection_VST
+1 Vlad-Shi, Packmother_VST
+1 Wurm's Wake_VST

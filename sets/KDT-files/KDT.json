@@ -1247,24 +1247,6 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "Duress",
-            "color": "B",
-            "rarity": "common",
-            "type": "Sorcery",
-            "number": 68,
-            "color_identity": "B",
-            "cost": "{B}",
-            "rules_text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
-            "flavor_text": "[i]When one peers into the Coiling Abyss, they best not blink.\n[/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "KDT",
-            "loyalty": "",
-            "artist": "Dark Dock",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
-        },
-        {
             "card_name": "Dynasty's Benediction",
             "color": "UG",
             "rarity": "uncommon",
@@ -5892,7 +5874,7 @@
         },
         {
             "card_name": "blue Bird 11KDT",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Bird",
             "number": 6,
@@ -5910,7 +5892,7 @@
         },
         {
             "card_name": "blue Ninja 11KDT",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Ninja",
             "number": 8,
@@ -5964,7 +5946,7 @@
         },
         {
             "card_name": "Time Bubble KDT",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Enchantment",
             "number": 9,
@@ -5982,7 +5964,7 @@
         },
         {
             "card_name": "black Demon KDT",
-            "color": "",
+            "color": "B",
             "rarity": "common",
             "type": "Token Creature - Demon",
             "number": 10,
@@ -6000,7 +5982,7 @@
         },
         {
             "card_name": "black Demon Insect 11KDT",
-            "color": "",
+            "color": "B",
             "rarity": "common",
             "type": "Token Creature - Demon Insect",
             "number": 11,
@@ -6018,7 +6000,7 @@
         },
         {
             "card_name": "red and green Spirit Beast 43KDT",
-            "color": "",
+            "color": "RG",
             "rarity": "common",
             "type": "Token Creature - Spirit Beast",
             "number": 15,
@@ -6036,7 +6018,7 @@
         },
         {
             "card_name": "green Spirit 11KDT",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Spirit",
             "number": 13,
@@ -6054,7 +6036,7 @@
         },
         {
             "card_name": "white Samurai 22KDT",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Samurai",
             "number": 5,
@@ -6072,7 +6054,7 @@
         },
         {
             "card_name": "white Monk 11KDT",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Monk",
             "number": 3,
@@ -6090,7 +6072,7 @@
         },
         {
             "card_name": "blue Kraken 88KDT",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Kraken",
             "number": 7,
@@ -6126,7 +6108,7 @@
         },
         {
             "card_name": "green Serpent 66KDT",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Serpent",
             "number": 12,
@@ -6162,7 +6144,7 @@
         },
         {
             "card_name": "white Monkey 11KDT",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Monkey",
             "number": 4,

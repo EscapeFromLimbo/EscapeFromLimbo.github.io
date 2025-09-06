@@ -1,0 +1,4794 @@
+
+[Settings]
+{
+	"name": "Kitsuo: Dusk of Time",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Abandon the Code",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/158_Abandon the Code.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "158",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Target opponent reveals their hand. You choose a nonland card from it and exile that card.\n• Target opponent exiles a creature or enchantment they control.",
+	},
+	
+	{
+		"name": "Absolution Flock",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/159_Absolution Flock.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "159",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Create two 1/1 blue Bird creature tokens with flying, then create a token that's a copy of a token you control.",
+	},
+	
+	{
+		"name": "Adorned Kitsune",
+		"mana_cost": "{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/160_Adorned Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "160",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nThis creature gets +1/+0 for each counter among creatures you control.\n{2}{R}{G}: Put a +1/+1 counter on this creature.",
+	},
+	
+	{
+		"name": "Aether Dancer",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/161_Aether Dancer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "161",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, create a 1/1 blue Bird creature token with flying.\nFlow - {10}{W}{U}: Draw cards equal to half the number of cards in your library, rounded up. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Ageless Seishin",
+		"mana_cost": "{2}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/127_Ageless Seishin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "127",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nIf you would put one or more counters on a permanent or player, put three times as many of each of those kinds of counters on that permanent or player instead.",
+	},
+	
+	{
+		"name": "Akai and Toyotomi",
+		"mana_cost": "{B}{R}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/162_Akai and Toyotomi.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "162",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever a creature you control attacks alone, put four +1/+1 counters on it.",
+	},
+	
+	{
+		"name": "Akihiko, Wayfinder",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/163_Akihiko, Wayfinder.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "163",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhenever one or more nontoken creatures you control leave the battlefield without dying, create a 1/1 blue Ninja creature token with \"This creature can't be blocked by creatures with greater power.\"",
+	},
+	
+	{
+		"name": "Akuryo, the Sweet Fang",
+		"mana_cost": "{W}{U}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/164_Akuryo, the Sweet Fang.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "164",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Menace, lifelink\nWhenever a tapped creature you control dies, draw a card.",
+	},
+	
+	{
+		"name": "Amagaseto, Mother Spirit",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/165_Amagaseto, Mother Spirit.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "165",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control.\nOnce during each of your turns, you may cast a creature spell from your graveyard by removing a number of counters from among creatures you control equal to that spell's mana value in addition to paying its other costs.",
+	},
+	
+	{
+		"name": "Ancestor's Guidance",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/128_Ancestor's Guidance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "128",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a nontoken creature you control enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{G}, Exile this enchantment: Return target card from your graveyard to your hand. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Aonuma, Princely Traveler",
+		"mana_cost": "{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/168_Aonuma, Princely Traveler.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "168",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another nontoken permanent you control is returned to hand, you may create a token that's a copy of it. Do this only once each turn.\nEach creature card with mana value 3 or less in your hand has ninjutsu {G}{U}. ({G}{U}, Return an unblocked attacker you control to hand: Put that card onto the battlefield from your hand tapped and attacking.)",
+	},
+	
+	{
+		"name": "Aonuma's Students",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/129_Aonuma's Students.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "129",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n-----\nInfiltration {4}{U}\nInstant - Adventure\nDraw two cards, then discard a card. You may cast a spell with mana value 3 or less from your hand without paying its mana cost.",
+	},
+	
+	{
+		"name": "Aoushun's Presence",
+		"mana_cost": "{B/R}{B/R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/236_Aoushun's Presence.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "236",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the end of combat on your turn, you may sacrifice another creature. If you do, Aoushun's Presence deals 2 damage to each opponent that creature attacked this turn and you draw a card.\n{B}{R}: Aoushun's Presence becomes a 3/2 Dragon creature with flying in addition to its other types.",
+	},
+	
+	{
+		"name": "Arushi, Shigane Heirloom",
+		"mana_cost": "{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/130_Arushi, Shigane Heirloom.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "130",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+1.\nNinjutsu abilities you activate cost {1} less to activate.\nWhenever a Ninja creature you control enters, you may attach Arushi to that creature.\nEquip {1}",
+	},
+	
+	{
+		"name": "Ascended Salamander",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/33_Ascended Salamander.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "33",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nFlow - {3}{U}: Target player mills three cards. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Assaulted by Shadows",
+		"mana_cost": "{G}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/169_Assaulted by Shadows.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "169",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Choose target creature you control. When that creature leaves the battlefield this turn, choose one -\n• Create a token that's a copy of it.\n• Search your library for a creature card with lesser mana value, put it onto the battlefield, then shuffle.",
+	},
+	
+	{
+		"name": "Attuned Acolyte",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/170_Attuned Acolyte.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "170",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, create a 4/4 colorless Vehicle artifact token named Hardsuit with crew 3.\nArtifact tokens and enchantment tokens you control have exalted. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+	},
+	
+	{
+		"name": "Auspicious Return",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/1_Auspicious Return.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "1",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters, if it was cast, return target creature card from your graveyard to the battlefield.\nAt the beginning of your upkeep, exile up to one target creature you control, then return that card to the battlefield under its owner's control.",
+	},
+	
+	{
+		"name": "Avatar's Whim",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/34_Avatar's Whim.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Create a token that's a copy of target creature you control, except it has base power and toughness X/X, where X is the number of Islands you control plus the number of cards with a cycling ability in your graveyard.\nIslandcycling {2}",
+	},
+	
+	{
+		"name": "Ayeshi, Time's Jailer",
+		"mana_cost": "{2}{G}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/172_Ayeshi, Time's Jailer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "172",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Draw a card for each different mana value among spells you've cast this turn.\n[-X]: Exile target nonland, nontoken permanent with mana value X or less. You create a colorless Saga enchantment token with time loop and \"r3- You may cast a copy of the exiled card without paying its mana cost.\" (Remove all lore counters after r3 without sacrificing the Saga.)\n[-8]: You take an extra turn after this one, and each opponent takes an extra turn after the last extra turn. You gain control of each opponent during that player's next turn.",
+	},
+	
+	{
+		"name": "Ayeshi's Agent",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/2_Ayeshi's Agent.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "2",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more cards are put into exile from graveyards and/or the battlefield during your turn, create a 1/1 blue Bird creature token with flying.\n-----\nPerimeter Seal {1}{W}\nInstant - Adventure\nExile target creature you control, then return that card to the battlefield under its owner's control. *(Then exile this card. You may cast the creature later from exile.)*",
+	},
+	
+	{
+		"name": "Ayeshi Breaks the Loop",
+		"mana_cost": "{X}{G}{W}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/171_Ayeshi Breaks the Loop.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "171",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Choose one or more -\n• Exile each artifact with mana value X or less.\n• Exile each creature with mana value X or less. \n• Exile each enchantment with mana value X or less.",
+	},
+	
+	{
+		"name": "Balance of the Realms",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/131_Balance of the Realms.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "131",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on each creature you control.\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)\nWhen you cycle this card, put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Banish into Nothingness",
+		"mana_cost": "{4}{W}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/173_Banish into Nothingness.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "173",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Put target nonland permanent on the bottom of its owner's library. You gain 3 life.\nCycling {W/U} ({W/U}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Banished Dragon",
+		"mana_cost": "{3}{W/B}{W/B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/237_Banished Dragon.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "237",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever you cast a noncreature spell, put a +1/+1 counter on this creature.",
+	},
+	
+	{
+		"name": "Banisher Rifle",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/174_Banisher Rifle.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "174",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exalted, exalted (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)\nWhen this artifact enters, if it was cast, exile target nonland permanent an opponent controls.",
+	},
+	
+	{
+		"name": "Basking Kitsune",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/132_Basking Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "132",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nTrample",
+	},
+	
+	{
+		"name": "Bladecross Student",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/3_Bladecross Student.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{1}{W}, {T}: Tap target creature.",
+	},
+	
+	{
+		"name": "Blazing Kitsune",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/95_Blazing Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "95",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen this creature enters, put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Bleeding Out",
+		"mana_cost": "{R}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/96_Bleeding Out.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "96",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Bleeding Out deals 3 damage to any target. Excess damage dealt to a creature or planeswalker this way is dealt to its controller instead.",
+	},
+	
+	{
+		"name": "Blighted Mistress",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/64_Blighted Mistress.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "64",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{1}{B}, {T}, Sacrifice a creature: Target opponent discards a card. Activate only as a sorcery.\n{2}{B}, {T}, Exile a creature card from your graveyard: You draw a card and you lose 1 life. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Blood-Cursed Ape",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/97_Blood-Cursed Ape.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "97",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Damned - When this creature enters, if you've sacrificed a permanent this turn, this creature deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Blossoming Ocelot",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/98_Blossoming Ocelot.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "98",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature attacks, you may pay {2} and discard a card. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Blur Strike",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/4_Blur Strike.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "4",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has double strike.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Born From Fire",
+		"mana_cost": "{12}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/99_Born From Fire.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "99",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell costs {X} less to cast, where X is the number of Mountains you control plus the number of cards with a cycling ability in your graveyard.\nSearch your library for a Dragon or Phoenix card, put it onto the battlefield, then shuffle.\nMountaincycling {2}",
+	},
+	
+	{
+		"name": "Breath of the Spirit Realm",
+		"mana_cost": "{6}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/133_Breath of the Spirit Realm.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "133",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +X/+X and gain vigilance and trample until end of turn, where X is the number of Forests you control plus the number of cards with a cycling ability in your graveyard.\nForestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Brutal Throatcrusher",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/134_Brutal Throatcrusher.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "134",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{G} ({2}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen this creature enters, another target creature you control gains indestructible until end of turn. Untap it.",
+	},
+	
+	{
+		"name": "Butchery",
+		"mana_cost": "{B}{B/R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/238_Butchery.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "238",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a source you control deals noncombat damage to an opponent, you draw a card and you lose 1 life. This ability triggers only once each turn.\nAt the beginning of your end step, if you sacrificed three or more permanents this turn, this enchantment deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Butterfly Dragonling",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/35_Butterfly Dragonling.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nIslandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Cartographer's Skill",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/135_Cartographer's Skill.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "135",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters and whenever you draw your second card each turn, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nCycling {G} ({G}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Chittering Ascetic",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/175_Chittering Ascetic.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "175",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat each turn, untap this creature.",
+	},
+	
+	{
+		"name": "Chomei, the Hostmother",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/176_Chomei, the Hostmother.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "176",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Chomei enters, create a tapped Treasure token.\nWhenever you sacrifice a permanent, you may pay {1}. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Chomei's Brawler",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/100_Chomei's Brawler.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "100",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "If you would create one or more artifact tokens, instead create those tokens plus an additional Treasure token.\n{2}{R}, Sacrifice X artifacts: This creature gets +X/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Commander Tachibana",
+		"mana_cost": "{3}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/177_Commander Tachibana.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "177",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "If a creature you control attacking causes a triggered ability of a permanent you control to trigger, if that creature is attacking alone, that ability triggers two additional times.",
+	},
+	
+	{
+		"name": "Confronting Time's Jailer",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/36_Confronting Time's Jailer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "36",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI - Up to one other target nonland permanent phases out.\nII - Draw two cards.\nIII - Create a blue enchantment token named Time Bubble with \"Spells you cast cost {1} more to cast.\"",
+	},
+	
+	{
+		"name": "Conqueror's Favored",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/178_Conqueror's Favored.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "178",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Damned - When this creature enters, mill three cards. If you've sacrificed a permanent this turn, you may return one of the milled cards to your hand.",
+	},
+	
+	{
+		"name": "Conqueror's Glee",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/65_Conqueror's Glee.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "65",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever an opponent loses life for the first time each turn, they lose 3 life.\nWhenever an opponent discards a card for the first time each turn, they discard a card.\nWhenever an opponent sacrifices a permanent for the first time each turn, they sacrifice a nonland permanent.",
+	},
+	
+	{
+		"name": "Crane Dancer",
+		"mana_cost": "{2}{W/U}{W/U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/239_Crane Dancer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "239",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nFlow - {2}{W/U}: Another target creature you control gains flying until end of turn. Activate only as a sorcery. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Creation's Combustion",
+		"mana_cost": "{B}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/179_Creation's Combustion.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "179",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature, or pay 3 life.\nDestroy target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Damn to Hell",
+		"mana_cost": "{4}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/66_Damn to Hell.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "66",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Damn to Hell deals X damage divided as you choose among any number of target creatures and/or planeswalkers and you gain X life, where X is the number of Swamps you control plus the number of cards with a cycling ability in your graveyard.\nSwampcycling {2}",
+	},
+	
+	{
+		"name": "Danuja, Emperor's Pet",
+		"mana_cost": "{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/5_Danuja, Emperor's Pet.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "5",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever a creature you control attacks alone, if a creature you control that isn't attacking has flying, the attacking creature gains flying until end of turn. The same is true for first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, protection, and trample.",
+	},
+	
+	{
+		"name": "Daring Shinobi",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/37_Daring Shinobi.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "37",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player or planeswalker, you may draw a card. If you do, discard a card unless this creature entered this turn.",
+	},
+	
+	{
+		"name": "Deadly Combatant",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/136_Deadly Combatant.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "136",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "\n-----\nSharpened Fangs {G}\nSorcery - Adventure\nPut a +1/+1 counter on target creature. It gains trample until end of turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Deathdealer Oni",
+		"mana_cost": "{B}{B}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/180_Deathdealer Oni.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "180",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nOther creatures you control have trample.\nWhen this creature dies, it deals 5 damage to target opponent unless they have you draw two cards.",
+	},
+	
+	{
+		"name": "Deepborn Calamity",
+		"mana_cost": "{3}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/181_Deepborn Calamity.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "181",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen this creature dies, exile the top five cards of your library. Until the end of your next turn, you may cast a nonland card from among them by paying life equal to its mana value rather than pay its mana cost.",
+	},
+	
+	{
+		"name": "Deflecting Kitsune",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/182_Deflecting Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "182",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen this creature enters, if it was cast, counter target noncreature spell unless its controller pays {1} for each creature you control.",
+	},
+	
+	{
+		"name": "Deft Deflection",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/38_Deft Deflection.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "38",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Counter target spell unless its controller pays {2}.\n• Counter target activated or triggered ability from a nonland source unless its controller pays {2}.",
+	},
+	
+	{
+		"name": "Demon of Dire Storms",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/101_Demon of Dire Storms.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "101",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you sacrifice a permanent, double this creature's power until end of turn.\nWhen this creature dies, create an X/X black Demon creature token, where X is this creature's power.",
+	},
+	
+	{
+		"name": "Demonic Reposession",
+		"mana_cost": "{4}{B}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/183_Demonic Reposession.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "183",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature. Untap it. It gains trample and haste until end of turn. Sacrifice it at the beginning of the next end step.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Desolate Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/281_Desolate Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "281",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {W} or {B}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Devouring Seishin",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/184_Devouring Seishin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "184",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\n{R/G}, Sacrifice another creature: Put a +1/+1 counter on this creature. If the sacrificed creature had one or more counters on it, exile the top card of your library. You may play that card until your next end step.",
+	},
+	
+	{
+		"name": "Disguised Hermit",
+		"mana_cost": "{W}{W}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/185_Disguised Hermit.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "185",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exalted, exalted, exalted (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn. If a creature has multiple instances of exalted, each triggers separately.)",
+	},
+	
+	{
+		"name": "Distant Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/282_Distant Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "282",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {W} or {U}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Distinguished Weaverkin",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/137_Distinguished Weaverkin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "137",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reach\n{T}: You may put a land card from your hand onto the battlefield tapped.\n-----\nGrowing Web {2}{G}\nSorcery - Adventure\nSearch your library for up to two Forest cards, reveal them, put them into your hand, then shuffle. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Drag into the Dark",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/67_Drag into the Dark.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "67",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Damned - Destroy target creature if it has mana value 3 or less or if you've sacrificed a permanent this turn.",
+	},
+	
+	{
+		"name": "Dragon's Court",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/39_Dragon's Court.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "39",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you discard a card, you may have this enchantment become a 3/3 Dragon creature with flying in addition to its other types until end of turn.\n{U}, Sacrifice this enchantment: Return target card you discarded this turn from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Dragon's Repose",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/40_Dragon's Repose.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "40",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast if you control a creature with flying.\nReturn target nonland permanent to its owner's hand.",
+	},
+	
+	{
+		"name": "Dragon of Recollection",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/6_Dragon of Recollection.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "6",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen this creature enters, if it was cast, return up to three target creature cards with total mana value 3 or less from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Duress",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/68_Duress.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "68",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+	},
+	
+	{
+		"name": "Dynasty's Benediction",
+		"mana_cost": "{4}{G}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/186_Dynasty's Benediction.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "186",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Draw four cards. You may put up to two land cards from your hand onto the battlefield tapped.\nCycling {G/U} ({G/U}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Dynasty Pendant",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/261_Dynasty Pendant.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "261",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a multicolored spell, you gain 1 life.\n{T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Eager Eelpup",
+		"mana_cost": "{R}{R}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/187_Eager Eelpup.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "187",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, put X +1/+1 counters on it, where X is this creature's power.",
+	},
+	
+	{
+		"name": "Elder Tattooist",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/8_Elder Tattooist.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "8",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nFlow - {4}{W}: Exile target permanent card with mana value 3 or less from your graveyard. Create a tapped token that's a copy of it. Activate only as a sorcery. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Elope",
+		"mana_cost": "{5}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/41_Elope.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {4} less to cast if each of its targets are owned by different players.\nReturn up to two target nonland permanents to their owners' hands.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Emperor Tzuhan",
+		"mana_cost": "{2}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/9_Emperor Tzuhan.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "9",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you cycle a card, exile up to one other target creature you control. Return that card to the battlefield under its owner's control at the beginning of he next end step.\n-----\nBy Right {W}{U}{B}{R}{G}\nSorcery - Adventure\nYou may pay 1 life rather than pay the cycling cost of cards you cycle this turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Enchanted Pauldron",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/262_Enchanted Pauldron.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "262",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever equipped creature dies, put two soul counters on this Equipment and draw a card.\nEquipped creature gets +1/+1 for each soul counter on this Equipment.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+	},
+	
+	{
+		"name": "Ensorcell",
+		"mana_cost": "{G}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/188_Ensorcell.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "188",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Counter target permanent spell.",
+	},
+	
+	{
+		"name": "Equanimity",
+		"mana_cost": "{W}{W/U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/240_Equanimity.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "240",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "If you would create one or more tokens, you may instead create that many tokens that are copies of a token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
+	},
+	
+	{
+		"name": "Erosive Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/283_Erosive Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "283",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {B} or {R}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Ethereal Blossom",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/138_Ethereal Blossom.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "138",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\n{T}: Add {G}.",
+	},
+	
+	{
+		"name": "Expert Bladework",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/42_Expert Bladework.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Draw a card. The next ninjutsu ability you activate this turn costs {1} less to activate.",
+	},
+	
+	{
+		"name": "Fablewoven Kitsune",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/189_Fablewoven Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "189",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nLandfall - Whenever a land you control enters, put a +1/+1 counter on this creature. Then if you control eight or more lands, double the number of +1/+1 counters on this creature.",
+	},
+	
+	{
+		"name": "Face of Animosity",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/102_Face of Animosity.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on target creature. It gets +2/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Faces of the Faceless",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/263_Faces of the Faceless.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "263",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Cards can't leave the graveyards. (Including by being cast.)\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Fall Upon Your Blade",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/103_Fall Upon Your Blade.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "103",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nFall Upon Your Blade deals damage equal to the sacrificed creature's power to any target.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Fallen Heartseeker",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/69_Fallen Heartseeker.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "69",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control attacks alone, you may pay {1}{B}. If you do, return this card from your graveyard to the battlefield tapped and attacking.",
+	},
+	
+	{
+		"name": "Fatal Flourish",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/190_Fatal Flourish.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "190",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Fatal Flourish deals 4 damage to target creature. If excess damage is dealt this way, put that many +1/+1 counters on a creature you control.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Foreign Encounter",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/191_Foreign Encounter.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "191",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Look at the top six cards of your library. You may put a creature card with mana value 3 or less from among them onto the battlefield. It enters with an additional +1/+1 counter on it. Put the rest on the bottom of your library in a random order.\nCycling {R/G} ({R/G}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Forest_KDT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/300_Forest_KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "300",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Forlorn Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/284_Forlorn Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "284",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {B} or {G}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Friendly Dragonling",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/10_Friendly Dragonling.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, target creature you control gets +2/+2 until end of turn.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Frilled Seishin",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/104_Frilled Seishin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "104",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature attacks, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+	},
+	
+	{
+		"name": "Frolicking Tatsuko",
+		"mana_cost": "{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/192_Frolicking Tatsuko.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "192",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "If one or more +1/+1 counters would be put on another permanent you control, that many plus one +1/+1 counters are put on that permanent instead.",
+	},
+	
+	{
+		"name": "Gate to Fujinobe",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/285_Gate to Fujinobe.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "285",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{2}, {T}: Add two mana of different colors.\n{4}, {T}: Look at the top X cards of your library, where X is the number of different color pairs among permanents you control that are exactly two colors. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "General of the Damned",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/70_General of the Damned.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "70",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nDamned - Whenever this creature enters or attacks, if you've sacrificed a permanent this turn, this creature deals 3 damage to any target and you gain 3 life.",
+	},
+	
+	{
+		"name": "Gereishin, the Stormlord",
+		"mana_cost": "{5}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/105_Gereishin, the Stormlord.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "105",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Gereishin enters, if it was cast, you may cast a Dragon spell or a spell with mana value 6 or less from your hand without paying its mana cost.\nOnce during each of your turns, when you spend less mana to cast a spell than its mana value, you may have Gereishin deal damage to up to one target creature equal to the difference.",
+	},
+	
+	{
+		"name": "Gereishin's Entrance",
+		"mana_cost": "{5}{R}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/193_Gereishin's Entrance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "193",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Look at the top six cards of your library. You may put a permanent card from among them onto the battlefield. If a creature is put onto the battlefield this way, put X +1/+1 counters on it, where X is its power. Put the rest of the cards on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Gereishin's Presence",
+		"mana_cost": "{1}{R/G}{R/G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/241_Gereishin's Presence.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "241",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, you may put a +1/+1 counter on another target creature you control.\n{R}{G}: Gereishin's Presence becomes a 3/2 Dragon creature with flying in addition to its other types.",
+	},
+	
+	{
+		"name": "Giant Hewn Toad",
+		"mana_cost": "{7}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/264_Giant Hewn Toad.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "264",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each card with a cycling ability in your graveyard.\nReach",
+	},
+	
+	{
+		"name": "Gifts of the Kitsune",
+		"mana_cost": "{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/139_Gifts of the Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "139",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen this Aura enters, draw a card.\nIf one or more +1/+1 counters would be put on enchanted creature, that many plus one +1/+1 counters are put on it instead.",
+	},
+	
+	{
+		"name": "Giyama, Scion of Kage",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/194_Giyama, Scion of Kage.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "194",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: You may discard a card, sacrifice another nonland permanent, or pay 3 life. If you do, draw a card.\n[-2]: You may discard a card, sacrifice another nonland permanent, or pay 3 life. If you do, target opponent discards a card, sacrifices a nonland permanent, and loses 3 life.\n[-6]: You get an emblem with \"Whenever a creature dies, you may exile it from its owner's graveyard. If you do, until your next end step, you may cast copies of the exiled card.\"",
+	},
+	
+	{
+		"name": "Godslaughter Titan",
+		"mana_cost": "{4}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/195_Godslaughter Titan.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "195",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Damned - This spell costs {1} less to cast for each permanent you've sacrificed this turn.\nWhenever you sacrifice a permanent, this creature deals 2 damage to target opponent unless they exile a permanent they control. You may play cards exiled this way for as long as they remain exiled, and you may spend mana of any type to cast them.",
+	},
+	
+	{
+		"name": "Gongwielder Abbot",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/11_Gongwielder Abbot.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flow - {2}{W}: This creature gains indestructible until end of turn. Activate only as a sorcery. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Grasp of the Elements",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/44_Grasp of the Elements.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "44",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "The owner of up to one target nonland permanent puts it on the top or bottom of their library. Return each other nonland permanent to its owner's hand.",
+	},
+	
+	{
+		"name": "Hakodate Regent",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/106_Hakodate Regent.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "106",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nFlying\nIf this creature would deal damage to a permanent or player, it deals double that damage instead.",
+	},
+	
+	{
+		"name": "Haughty Bulwark",
+		"mana_cost": "{4}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/196_Haughty Bulwark.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "196",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control attacks alone, double its power and toughness until end of turn.",
+	},
+	
+	{
+		"name": "Heartfire Lantern",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/265_Heartfire Lantern.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "265",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice a creature: Until the end of your next turn, if you would lose unspent mana, that mana becomes colorless instead.\n{2}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Hell's Boon",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/107_Hell's Boon.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "107",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Hell's Boon deals 3 damage to up to one target creature or planeswalker.\nDamned - If you've sacrificed a permanent this turn, Hell's Boon deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Hellfire Crafting",
+		"mana_cost": "{B}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/197_Hellfire Crafting.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Damned - At the beginning of your end step, exile the top card of your library if you've sacrificed a permanent this turn. You may play that card until you exile another card with this enchantment.",
+	},
+	
+	{
+		"name": "High Seas Samurai",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/198_High Seas Samurai.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "198",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen this creature enters, if a creature you controlled attacked alone this turn, you draw a card and you lose 1 life.",
+	},
+	
+	{
+		"name": "Hwacha",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/266_Hwacha.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "266",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{4}, {T}, Sacrifice this artifact: It deals 100 damage to target creature an opponent controls. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Hyomon, Cloud Conductor",
+		"mana_cost": "{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/199_Hyomon, Cloud Conductor.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "199",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Hyomon deals combat damage to a player, you may create a token that's a copy of target token you control that entered this turn.",
+	},
+	
+	{
+		"name": "Ikurimoko's Presence",
+		"mana_cost": "{G/U}{G/U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/242_Ikurimoko's Presence.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "242",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nYou may cast creature spells as though they have flash.\n{G}{U}: Ikurimoko's Presence becomes a 3/2 Dragon creature with flying in addition to its other types.",
+	},
+	
+	{
+		"name": "Illusory Savior",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/12_Illusory Savior.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "12",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nSacrifice this creature: Choose another target creature you control. When it's put into a graveyard this turn, return that card to the battlefield tapped under its owner's control with a finality counter on it.",
+	},
+	
+	{
+		"name": "Impenetrable Ronin",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/200_Impenetrable Ronin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "200",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{2}{W}: Target attacking creature gains double strike until end of turn.\n{2}{B}: Target attacking creature gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Imperial Dragon",
+		"mana_cost": "{5}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/108_Imperial Dragon.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "108",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever you cast a spell from exile, this creature deals damage equal to that spell's mana value to any target.\n-----\nDraconic Ire {2}{R}\nSorcery - Adventure\nDraconic Ire deals 3 damage to target creature or planeswalker. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Imperial Honor Guard",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/13_Imperial Honor Guard.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "13",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nNonbasic, non-Samurai permanents enter tapped.",
+	},
+	
+	{
+		"name": "Imperial Production",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/109_Imperial Production.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "109",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you draw a card, exile the top card of your library. You may play that card this turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Imperial Tour",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/14_Imperial Tour.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "14",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhen this enchantment enters, if it was cast, you may search your library for a legendary white card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Impulsive Underling",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/110_Impulsive Underling.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "110",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Damned - Whenever this creature attacks, put a +1/+1 counter on it if you've sacrificed a permanent this turn.\nWhen this creature dies, it deals damage equal to its power to each opponent.",
+	},
+	
+	{
+		"name": "Infernal Kitsune",
+		"mana_cost": "{5}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/111_Infernal Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "111",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature attacks, creatures you control get +1/+0 until end of turn.\n-----\nRun Riot {2}{G}\nInstant - Adventure\nPut a +1/+1 counter on target creature you control, then double the number of +1/+1 counters on it. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Inklight Dancer",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/72_Inklight Dancer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "72",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{B}, Sacrifice a creature: This creature deals 1 damage to each opponent and you gain 1 life.\n-----\nStroke of Light {1}{B}\nInstant - Adventure\nTarget creature gets -2/-2 until end of turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Inner Fortitude",
+		"mana_cost": "{W/U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/243_Inner Fortitude.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "243",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nCycling {W/U} ({W/U}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Instantaneous End",
+		"mana_cost": "{3}{W/B}{W/B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/244_Instantaneous End.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "244",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target creature or planeswalker. Up to one target creature you control gets +1/+0 and gains lifelink until end of turn.\nCycling {W/B} ({W/B}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Iri Sentinel",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/15_Iri Sentinel.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "15",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "First strike\nNo more than one creature can attack each combat.\nNo more than one creature can block each combat.\n-----\nTerrible Skill {1}{B}\nSorcery - Adventure\nChoose two target creatures controlled by the same player. That player sacrifices one of them of their choice.",
+	},
+	
+	{
+		"name": "Iron-Calm Acolyte",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/201_Iron-Calm Acolyte.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "201",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever this creature becomes tapped, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+	},
+	
+	{
+		"name": "Island_KDT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/297_Island_KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "297",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Iwai and Oda",
+		"mana_cost": "{1}{U}{B}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/202_Iwai and Oda.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "202",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever Iwai and Oda or another permanent you control leaves the battlefield, Iwai and Oda deals 2 damage to any target and you gain 2 life.",
+	},
+	
+	{
+		"name": "Jubilant Docks",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/286_Jubilant Docks.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "286",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped. As it enters, choose a color.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {C} and one mana of the chosen color.",
+	},
+	
+	{
+		"name": "Judgment of the Seishin",
+		"mana_cost": "{2}{R/G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/245_Judgment of the Seishin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "245",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control.\nCycling {R/G} ({R/G}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Jun, Twinblade Master",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/203_Jun, Twinblade Master.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "203",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Double strike\nWhenever an enchantment you control enters, you may create a token that's a copy of it, except the token isn't legendary and has exalted. Do this only once each turn. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+	},
+	
+	{
+		"name": "Kage, Cursed Conqueror",
+		"mana_cost": "{4}{B}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/73_Kage, Cursed Conqueror.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "73",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever you pay life, draw seven cards.",
+	},
+	
+	{
+		"name": "Kage's Mercenary",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/74_Kage's Mercenary.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "74",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a nontoken creature you control dies, you draw a card and you lose 1 life.\n{2}{B}, Sacrifice this creature: Create an X/X black Demon creature token, where X is the number of creatures you controlled that died this turn. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Kage's Slayer",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/112_Kage's Slayer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "112",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever a creature you control dies, if it attacked this turn, this creature deals 1 damage to each opponent.",
+	},
+	
+	{
+		"name": "Kei, Exiled Survivor",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/204_Kei, Exiled Survivor.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "204",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance, lifelink\nWhenever Kei attacks alone, it gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Keuya's Presence",
+		"mana_cost": "{2}{W/B}{W/B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/246_Keuya's Presence.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "246",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Once during each of your turns, you may cast a creature spell with mana value 2 or less from your graveyard. If you do, it enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)\n{W}{B}: Keuya's Presence becomes a 3/2 Dragon creature with flying in addition to its other types.",
+	},
+	
+	{
+		"name": "Kimja Deadeye",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/75_Kimja Deadeye.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "75",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever a creature you control attacks alone, you may reveal the top card of your library, then put it into your hand. If you do, each player loses life equal to that card's mana value.",
+	},
+	
+	{
+		"name": "Kimja Jailer",
+		"mana_cost": "{5}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/16_Kimja Jailer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "16",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhen this creature enters, exile target creature an opponent controls until this creature leaves the battlefield.",
+	},
+	
+	{
+		"name": "Kimja Steelshaper",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/205_Kimja Steelshaper.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "205",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhen this creature enters, return target artifact or enchantment card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "King of Shallow Shores",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/45_King of Shallow Shores.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "45",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever one or more creatures you control become tapped, tap up to one target creature an opponent controls.\n-----\nRoyal Dominion {1}{U}\nInstant - Adventure\nTap up to two target creatures. Put a stun counter on one of them. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Kinscale Reckoner",
+		"mana_cost": "{3}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/206_Kinscale Reckoner.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "206",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{G}{U} ({2}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may search your library for a land card, put it onto the battlefield tapped, then shuffle. That land becomes a 4/4 Dragon creature in addition to its other types.",
+	},
+	
+	{
+		"name": "Kirin of Boons",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/113_Kirin of Boons.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "113",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature attacks, target creature defending player controls can't block this turn if its power is less than this creature's power.",
+	},
+	
+	{
+		"name": "Kitsune Duelist",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/17_Kitsune Duelist.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Double strike\n-----\nEffortless Strike {1}{W}\nInstant - Adventure\nTarget creature gets +2/+2 until end of turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Kitsune Matriarch",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/18_Kitsune Matriarch.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "18",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you create one or more tokens, put a +1/+1 counter on this creature.",
+	},
+	
+	{
+		"name": "Knight of Kage",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/114_Knight of Kage.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nDamned - At the beginning of your end step, put a +1/+1 counter on this creature if you've sacrificed a permanent this turn.",
+	},
+	
+	{
+		"name": "Koi-Tail Mer",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/115_Koi-Tail Mer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "115",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace, haste\nWhenever you discard one or more cards, you may sacrifice this creature. If you do, return one of the discarded cards from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Koi Float",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/267_Koi Float.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "267",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever this Vehicle attacks, reveal cards from the top of your library until you reveal a nonland card. Exile that card and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost if the resulting spell has mana value 2 or less.\nCrew 2",
+	},
+	
+	{
+		"name": "Koraja, the Broken Blade",
+		"mana_cost": "{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/207_Koraja, the Broken Blade.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "207",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you sacrifice Koraja, exile it. Until the end of your next turn, you may cast it from exile.\nWhen Koraja enters, if it wasn't cast from your hand, you may discard your hand. If you do, draw two cards.",
+	},
+	
+	{
+		"name": "Koraja's Centipede",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/208_Koraja's Centipede.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "208",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Damned - At the beginning of your end step, put a +1/+1 counter on this creature if you've sacrificed a permanent this turn.\nWhen this creature dies, create X 1/1 black Demon Insect creature tokens, where X is this creature's power.",
+	},
+	
+	{
+		"name": "Lantern Festival",
+		"mana_cost": "{W}{U}{B}{R}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/209_Lantern Festival.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "209",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost if its mana value is less than or equal to the number of cards with cycling abilities in your graveyard. If you don't cast it, put it into your hand. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Lesser Dragon",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/76_Lesser Dragon.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "76",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nSwampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Leyline Attuner",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/46_Leyline Attuner.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "46",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\nAs long as you control another tapped creature, this creature can attack as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Living Wave",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/47_Living Wave.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "47",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever this creature enters or leaves the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+	},
+	
+	{
+		"name": "Luraana, Loop's End",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/48_Luraana, Loop's End.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "48",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Luraana enters tapped with twelve stun counters on it.\nWhen Luraana enters, until your next turn, you may cast spells as though they have flash.\nUntap all permanents you control during each other player's untap step.",
+	},
+	
+	{
+		"name": "Maiden of the Waters",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/49_Maiden of the Waters.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "49",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flow - {3}{U}: Copy target triggered ability you control. You may choose new targets for the copy. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Majesty",
+		"mana_cost": "{R}{R/G}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/247_Majesty.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "247",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell with mana value 4 or greater, create a 4/3 red and green Spirit Beast creature token.\nWhenever a creature you control deals 4 or more damage to a player, draw a card. This ability triggers only once each turn.",
+	},
+	
+	{
+		"name": "Make an Escape",
+		"mana_cost": "{G/U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/248_Make an Escape.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "248",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target permanent gains hexproof until end of turn. If it's a creature, it also gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Mapper's Wanderings",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/140_Mapper's Wanderings.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "140",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{3}{G}: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Mask Thief",
+		"mana_cost": "{2}{G/U}{G/U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/249_Mask Thief.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "249",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, you may return another creature you control to its owner's hand. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Master of Stances",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/141_Master of Stances.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "141",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{G} ({2}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen this creature enters, creatures you control gain trample until end of turn.",
+	},
+	
+	{
+		"name": "Master of the Peaks",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/19_Master of the Peaks.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "19",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nFlow - {7}{W}: Tap all creatures target player controls. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Mastery",
+		"mana_cost": "{W}{W/B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/250_Mastery.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "250",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, put an exalted counter on this enchantment. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)\nWhenever a creature you control attacks, draw X cards if its power is greater than 7, where X is the difference.",
+	},
+	
+	{
+		"name": "Meandering Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/287_Meandering Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "287",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {R} or {G}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Meditation",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/210_Meditation.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "210",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain 2 life and draw two cards.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Menreiki, the Resplendent",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/211_Menreiki, the Resplendent.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "211",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature deals combat damage to a player, create a 1/1 green Spirit creature token.",
+	},
+	
+	{
+		"name": "Merciless Ruiner",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/77_Merciless Ruiner.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "77",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhen this creature enters, each player sacrifices a creature or planeswalker of their choice.",
+	},
+	
+	{
+		"name": "Midnight Duo",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/78_Midnight Duo.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "78",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, create a 2/2 white Samurai creature token with exalted. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Mirageform Shinobi",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/142_Mirageform Shinobi.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "142",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {G} ({G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, put a +1/+1 counter on target creature you control that doesn't have a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Mist-Draped Delver",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/212_Mist-Draped Delver.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "212",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {1}{G}{U} ({1}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Momentous Strike",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/143_Momentous Strike.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "143",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control deals damage equal to its power to target creature or planeswalker an opponent controls.",
+	},
+	
+	{
+		"name": "Monastery Teacher",
+		"mana_cost": "{W}{W}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/213_Monastery Teacher.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "213",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhen this creature enters, create three 1/1 white Monk creature tokens with vigilance.",
+	},
+	
+	{
+		"name": "Moonblade Ninja",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/50_Moonblade Ninja.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "50",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen this creature enters, you may return another creature you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Moonlight Adversary",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/79_Moonlight Adversary.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "79",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, you may pay X life. When you do, return X target cards you discarded this turn from your graveyard to your hand.\nWhenever you discard a card, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Moonlit Gateway",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/268_Moonlit Gateway.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "268",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this artifact enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.\n{1}, Sacrifice this artifact: Draw a card.\n{3}, Sacrifice this artifact: Exile each opponent's graveyard. Draw a card.",
+	},
+	
+	{
+		"name": "Mortal Blade",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/269_Mortal Blade.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "269",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+1.\nEquipped creature has first strike during your turn.\nEquip {2}",
+	},
+	
+	{
+		"name": "Mountain_KDT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/299_Mountain_KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "299",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Murky Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/288_Murky Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "288",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {U} or {B}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Natori Skyblade",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/51_Natori Skyblade.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "51",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {3}{U}{U} ({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nFlying\nWhenever this creature deals combat damage to a player, create a token that's a copy of target attacking creature you control that entered this turn.",
+	},
+	
+	{
+		"name": "Nerve-Strike Disciple",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/52_Nerve-Strike Disciple.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, create a 1/1 white Monk creature token with vigilance.\nFlow - {3}{U}: This creature can't be blocked this turn. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Newborn Oni",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/116_Newborn Oni.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Pay 1 life: This creature gets +1/+0 until end of turn. Activate only once each turn and only as a sorcery.\nWhen this creature dies, if its power was 2 or greater, create a Treasure token.",
+	},
+	
+	{
+		"name": "Nimble Mentor",
+		"mana_cost": "{G}{G}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/214_Nimble Mentor.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "214",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{G}{U} ({2}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nYou may pay {0} rather than pay the ninjutsu cost of the first ninjutsu ability you activate each turn.",
+	},
+	
+	{
+		"name": "Nimomae, Who Flows",
+		"mana_cost": "{3}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/215_Nimomae, Who Flows.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "215",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Other creatures you control get +1/+1.\nWhenever Nimomae attacks, create two 1/1 blue Bird creature tokens with flying.\nThe first noncreature spell you cast each turn costs {X} less to cast, where X is the number of tokens you control.",
+	},
+	
+	{
+		"name": "Noble Kitsune",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/117_Noble Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nHaste",
+	},
+	
+	{
+		"name": "Noble Shrineguard",
+		"mana_cost": "{3}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/216_Noble Shrineguard.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "216",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample \nWhen this creature enters, double the number of +1/+1 counters on another target creature you control. Then for each counter on that creature, you may put a counter of that kind on this creature.",
+	},
+	
+	{
+		"name": "Nocturnal Glintblade",
+		"mana_cost": "{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/217_Nocturnal Glintblade.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "217",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhen this creature enters, another target creature you control gains deathtouch until end of turn.",
+	},
+	
+	{
+		"name": "Ofuda Mistress",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/20_Ofuda Mistress.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "20",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever this creature becomes tapped, exile up to one target card from an opponent's graveyard.\n{3}{W}, {T}: Create a 1/1 white Monk creature token with vigilance.",
+	},
+	
+	{
+		"name": "Omen Skulker",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/80_Omen Skulker.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "80",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a multicolored spell, this creature deals 1 damage to each opponent and you gain 1 life.\nWhen this creature dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Ominous Seas",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/53_Ominous Seas.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "53",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you draw a card, put a foreshadow counter on this enchantment.\nRemove eight foreshadow counters from this enchantment: Create an 8/8 blue Kraken creature token.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Oni of Tongues",
+		"mana_cost": "{1}{B/R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/251_Oni of Tongues.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "251",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Damned - When this creature enters, if you've sacrificed a permanent this turn, create a Treasure token.",
+	},
+	
+	{
+		"name": "Opulent Vantage",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/289_Opulent Vantage.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "289",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When this land enters, you gain 2 life.\n{T}: Add {C}. You may spend this mana as though it were mana of any color to activate cycling abilities or cast spells with a cycling ability.",
+	},
+	
+	{
+		"name": "Orochi Soulfang",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/144_Orochi Soulfang.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "144",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, if that creature's power is greater than this creature's power, you may put a +1/+1 counter on this creature.\n{2}{G}: Move any number of +1/+1 counters from this creature to another target creature you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Overflow",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/145_Overflow.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "145",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on each creature you control. They get +1/+1 and gain trample until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Painted Officer",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/218_Painted Officer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "218",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, this creature gets +2/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Pass Judgment",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/54_Pass Judgment.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "54",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each tapped creature you control.\nCounter target spell unless its controller pays {X}.",
+	},
+	
+	{
+		"name": "Path's End",
+		"mana_cost": "{2}{W}{W}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/219_Path's End.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "219",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nDestroy all permanents without activated abilities.",
+	},
+	
+	{
+		"name": "Perils of Eternity",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/21_Perils of Eternity.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "21",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player who doesn't control a planeswalker can't cast more than one spell each turn.\nAyeshicycling {3} ({3}, Discard this card: Search your library for an Ayeshi card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Plains_KDT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/296_Plains_KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "296",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Portal Guardian",
+		"mana_cost": "{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/220_Portal Guardian.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "220",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell with mana value 4 or greater, put two +1/+1 counters on this creature.",
+	},
+	
+	{
+		"name": "Portal to the Spirit Realm",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/146_Portal to the Spirit Realm.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "146",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI - Create a 1/1 green Spirit creature token.\nII - Put a +1/+1 counter on target creature you control.\nIII - Put a +1/+1 counter on each creature you control with a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Precognitive Combatant",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/221_Precognitive Combatant.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "221",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {3}{G}{U} ({3}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may put a creature card with mana value X or less that you own from outside the game onto the battlefield, where X is the amount of combat damage that has been dealt to that player this turn.",
+	},
+	
+	{
+		"name": "Prideful Reaper",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/222_Prideful Reaper.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "222",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever one or more creatures you control deal combat damage to a player, sacrifice one of them.",
+	},
+	
+	{
+		"name": "Primordial Gateway",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/270_Primordial Gateway.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "270",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As this artifact enters, choose mourning, oblation, or prayer.\n• Mourning - Players can't discard cards to cast spells or activate abilities.\n• Oblation - Players can't sacrifice nonland permanents to cast spells or activate abilities.\n• Prayer - Players can't pay life to cast spells or activate abilities.",
+	},
+	
+	{
+		"name": "Prophetic Prism",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/271_Prophetic Prism.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "271",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this artifact enters, draw a card.\n{1}, {T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Protean Boughs",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/290_Protean Boughs.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "290",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}. If this land entered this turn, you may add one mana of any color instead.\n{4}, {T}: Create a tapped 1/1 colorless Fox Shapeshifter creature token with changeling. (It is every creature type.)",
+	},
+	
+	{
+		"name": "Protean Golem",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/272_Protean Golem.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "272",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As this creature enters, choose a creature type.\nThis creature is the chosen creature type in addition to its other types.\n{2}: This creature becomes a copy of another target creature you control of the chosen type until end of turn.",
+	},
+	
+	{
+		"name": "Ravenous Slaughterlord",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/81_Ravenous Slaughterlord.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "81",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, create a Treasure token.\nDamned - At the beginning of your end step, this creature deals 1 damage to each opponent and you gain 1 life if you've sacrificed a permanent this turn.",
+	},
+	
+	{
+		"name": "Realm-Delver Whelp",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/118_Realm-Delver Whelp.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "118",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nAs long as it's your turn, this creature has first strike.\nMountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Realm Violator",
+		"mana_cost": "{5}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/147_Realm Violator.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "147",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen this creature enters, you may sacrifice two nonland, non-Serpent permanents. If you do, create a 6/6 green Serpent creature token with trample. Repeat this process any number of times.",
+	},
+	
+	{
+		"name": "Realmweft Implosion",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/148_Realmweft Implosion.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "148",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target artifact, battle, or enchantment.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Realmweft Kitsune",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/149_Realmweft Kitsune.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "149",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature deals combat damage to a player, draw a card.",
+	},
+	
+	{
+		"name": "Resolute Natori",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/82_Resolute Natori.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "82",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nExalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+	},
+	
+	{
+		"name": "Revolt at the Palace",
+		"mana_cost": "{4}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/22_Revolt at the Palace.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "22",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI, II - Look at the top six cards of your library. Put up to one nonland permanent card with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\nIII - Creatures you control gain double strike until end of turn.",
+	},
+	
+	{
+		"name": "Revolutionary's Monument",
+		"mana_cost": "{7}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/273_Revolutionary's Monument.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "273",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, reveal the top ten cards of your library. For each nonland, non-Golem permanent card revealed this way, you may sacrifice a permanent that shares a card type with it. If you do, put that permanent card onto the battlefield under your control. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Ribbon Dancer",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/150_Ribbon Dancer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "150",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {2}{G} ({2}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nThis creature enters with three +1/+1 counters on it.\nWhenever another creature you control enters, you may move a +1/+1 counter from this creature onto that creature.",
+	},
+	
+	{
+		"name": "River Guardian",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/55_River Guardian.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "55",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen this creature enters, you may pay {3}{U}. If you do, create two 1/1 blue Bird creature tokens with flying.\nOther creatures you control with flying get +1/+1.",
+	},
+	
+	{
+		"name": "Rousing Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/291_Rousing Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "291",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {U} or {R}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Royal Balcony",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/292_Royal Balcony.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "292",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {C}.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Ruiner's Execution",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/83_Ruiner's Execution.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "83",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Each opponent sacrifices a creature that's one or fewer colors.\n• Each opponent sacrifices a creature that's two or more colors.",
+	},
+	
+	{
+		"name": "Ruiner's Hijacking",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/84_Ruiner's Hijacking.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "84",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Put target creature card from a graveyard onto the battlefield under your control.\nCycling {1}{B} ({1}{B}, Discard this card: Draw a card.)\nWhen you cycle this card, target player mills three cards.",
+	},
+	
+	{
+		"name": "Ruiner's Procession",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/223_Ruiner's Procession.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "223",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose any number of permanent cards in your graveyard put there from the battlefield this turn. Return one of them to the battlefield and the rest to your hand.\nCycling {W/B} ({W/B}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Ruiner Battlesuit",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/274_Ruiner Battlesuit.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "274",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever you cast a noncreature spell, put a +1/+1 counter on this Vehicle.\nCrew 1\n-----\nRuiner's Find {2}\nSorcery - Adventure\nReturn target artifact card from your graveyard to your hand. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Ruinous Portents",
+		"mana_cost": "{1}{B}{B}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/224_Ruinous Portents.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "224",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Sacrifice any number of permanents. Ruinous Portents deals X damage to each creature your opponents control and you draw X cards, where X is the number of permanents sacrificed this way.",
+	},
+	
+	{
+		"name": "Sabotage the Supply Lines",
+		"mana_cost": "{G}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/225_Sabotage the Supply Lines.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "225",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one or both -\n• Target creature gets +1/+1 until end of turn.\n• Return target creature to its owner's hand.",
+	},
+	
+	{
+		"name": "Saboteur's Immolation",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/119_Saboteur's Immolation.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "119",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Saboteur's Immolation deals 2 damage to each creature.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Sacrificial Mentor",
+		"mana_cost": "{W/B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/252_Sacrificial Mentor.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "252",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}, Sacrifice this creature: Create a 2/2 white Samurai creature token with exalted. Activate only as a sorcery. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+	},
+	
+	{
+		"name": "Sakura Dance",
+		"mana_cost": "{6}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/56_Sakura Dance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "56",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you discard a nonland card, copy it. You may cast the copy without paying its mana cost.",
+	},
+	
+	{
+		"name": "Sanctuary of Fragile Unity",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/275_Sanctuary of Fragile Unity.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "275",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Each player draws a card.\n{1}, {T}: Each player draws two cards.\n{2}, {T}: Each player draws three cards.",
+	},
+	
+	{
+		"name": "Scions of War",
+		"mana_cost": "{B/R}{B/R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/253_Scions of War.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "253",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sacrifice another creature: This creature gets +2/+1 until end of turn. Activate only once each turn.",
+	},
+	
+	{
+		"name": "Scorching Gecko",
+		"mana_cost": "{R/G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/254_Scorching Gecko.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "254",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nThis creature enters with a +1/+1 counter on it.\nWhen this creature dies, you may put its counters on target creature you control.",
+	},
+	
+	{
+		"name": "Scouring the Riverbed",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/120_Scouring the Riverbed.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "120",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters, create a tapped Treasure token.\nAt the beginning of your upkeep, exile the top three cards of your library. Until end of turn, you may cast each of those cards by sacrificing a permanent in addition to paying their other costs.",
+	},
+	
+	{
+		"name": "Sculptor's Replica",
+		"mana_cost": "{1}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/23_Sculptor's Replica.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "23",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flow - {4}{W}: Create a tapped 0/0 colorless Golem artifact creature token with \"This creature gets +1/+1 for each artifact you control.\" (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Sealing Strike",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/24_Sealing Strike.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Secrecy",
+		"mana_cost": "{G}{G/U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/255_Secrecy.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "255",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever this enchantment or another nonland, nontoken permanent you control enters, if it wasn't cast, draw a card. You may put a land card from your hand onto the battlefield tapped.\nCreatures you control with power or toughness 1 or less can't be blocked.",
+	},
+	
+	{
+		"name": "Seishin of Sun's Radiance",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/121_Seishin of Sun's Radiance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "121",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.\n-----\nSeishin Glare {R}\nSorcery - Adventure\nDestroy target artifact. *(Then exile this card. You may cast the creature later from exile.)*",
+	},
+	
+	{
+		"name": "Settler's Caravan",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/151_Settler's Caravan.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "151",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a multicolored spell, create a Treasure token.",
+	},
+	
+	{
+		"name": "Shigane Clan Head",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/226_Shigane Clan Head.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "226",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, create a 1/1 blue Ninja creature token with \"This creature can't be blocked by creatures with greater power.\"\nWhenever you activate a ninjutsu ability for the first time each turn, untap up to two target lands you control.",
+	},
+	
+	{
+		"name": "Shigane Cyclone",
+		"mana_cost": "{5}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/152_Shigane Cyclone.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "152",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {4}{G} ({4}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)",
+	},
+	
+	{
+		"name": "Shigane Elder",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/153_Shigane Elder.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "153",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {6}{G}. This ability costs {1} less to activate for each attacking creature you control. ({6}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nTrample",
+	},
+	
+	{
+		"name": "Shigane Manor Burns",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/122_Shigane Manor Burns.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "122",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI - Create a tapped Treasure token.\nII - You may discard a card. If you do, exile the top two cards of your library. You may play one of those cards this turn.\nIII - This Saga deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Shigane Troupe Leader",
+		"mana_cost": "{3}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/227_Shigane Troupe Leader.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "227",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control leaves the battlefield without dying, you may put a permanent card with lesser mana value from your hand onto the battlefield.",
+	},
+	
+	{
+		"name": "Shiori, the Trickster",
+		"mana_cost": "{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/228_Shiori, the Trickster.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "228",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhenever one or more counters are put on another creature you control, you may put a +1/+1 counter on Shiori.\n{2}: Change a target of target spell to a creature or enchantment you control with one or more counters on it.",
+	},
+	
+	{
+		"name": "Simian Pupil",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/57_Simian Pupil.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "57",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhenever a creature token you control deals combat damage to a player, draw a card.\n-----\nMonkey Around {X}{W}\nSorcery - Adventure\nCreate X 1/1 white Monkey creature tokens. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Sky's Flourishing",
+		"mana_cost": "{1}{W/U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/256_Sky's Flourishing.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "256",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When you cast this spell, copy it if you control a creature with flying. You may choose new targets for the copy.\nTap up to one target artifact or creature. Create a 1/1 blue Bird creature token with flying.",
+	},
+	
+	{
+		"name": "Slayer of Numachi",
+		"mana_cost": "{4}{B/R}{B/R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/257_Slayer of Numachi.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "257",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature dies, it deals 3 damage to any target.\nCycling {B/R} ({B/R}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Sludge Drudge",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/85_Sludge Drudge.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "85",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever this creature or another creature you control enters, if it entered from a graveyard or was cast from a graveyard, put two exalted counters on it. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+	},
+	
+	{
+		"name": "Soaring Kites",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/276_Soaring Kites.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "276",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+0 and has flying.\nEquip {2}",
+	},
+	
+	{
+		"name": "Sodden Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/293_Sodden Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "293",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {G} or {U}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Spiralhorn Kirin",
+		"mana_cost": "{2}{R/G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/258_Spiralhorn Kirin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "258",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever this creature deals combat damage to a player or planeswalker, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Spirit Realm Medallion",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/277_Spirit Realm Medallion.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "277",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As this artifact enters, choose two different colors.\nEach spell you cast that's one or more of the chosen colors costs {1} less to cast.",
+	},
+	
+	{
+		"name": "Spirit Realm Phoenix",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/123_Spirit Realm Phoenix.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "123",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nWhenever one or more +1/+1 counters are put on this creature, it deals that much damage to each opponent.\nAt the beginning of your end step, you may pay {1} if one or more +1/+1 counters were put on a creature you control this turn. If you do, return this card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Spiteful Banditry",
+		"mana_cost": "{X}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/124_Spiteful Banditry.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "124",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When this enchantment enters, it deals X damage to each creature.\nWhenever one or more creatures your opponents control die, you create a Treasure token. This ability triggers only once each turn.",
+	},
+	
+	{
+		"name": "Spiteful Liberation",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/229_Spiteful Liberation.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "229",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature or planeswalker. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Staff of Balance",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/230_Staff of Balance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "230",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{1}, {T}: Tap target creature.\n{2}, {T}: Draw a card.\nFlow - {3}: Untap this artifact. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Stained Strokes",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/86_Stained Strokes.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "86",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield with an exalted counter on it. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+	},
+	
+	{
+		"name": "Stonework Titan",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/154_Stonework Titan.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "154",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, you may search your library for a creature or land card with mana value 1 or less, put it onto the battlefield, then shuffle.\n{1}{G}: You may return another creature or land you control to its owner's hand. If you do, this creature gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Storm Jelly",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/25_Storm Jelly.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "25",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "Stormfist Monk",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/26_Stormfist Monk.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever this creature attacks, if you control another tapped creature, this creature gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Stratostorm",
+		"mana_cost": "{3}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/231_Stratostorm.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "231",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance\nAs long as this creature is on the battlefield, it has all activated abilities of cards in your graveyard. You may activate each of those abilities only once each turn.",
+	},
+	
+	{
+		"name": "Sundering the Fleet",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/87_Sundering the Fleet.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "87",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards.",
+	},
+	
+	{
+		"name": "Sunset Warrior",
+		"mana_cost": "{5}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/88_Sunset Warrior.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "88",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\n-----\nImpose {2}{B}\nSorcery - Adventure\nEach creature your opponents control gets -1/-1 until end of turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Suppressing-Fist Pupil",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/58_Suppressing-Fist Pupil.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "58",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, tap up to one target creature.\nFlow - {3}{U}: Tap target creature. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Swamp_KDT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/298_Swamp_KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "298",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Swift Reproach",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/27_Swift Reproach.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "27",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target battle, creature, or planeswalker an opponent controls. Its controller may draw a card unless they have more cards in hand than you. Otherwise, they may scry 2.",
+	},
+	
+	{
+		"name": "Takashi, City on the Wind",
+		"mana_cost": "{4}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/278_Takashi, City on the Wind.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "278",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Takashi attacks, draw a card for each creature that crewed it this turn. Then you may put any number of land cards from your hand onto the battlefield tapped.\nCrew 2",
+	},
+	
+	{
+		"name": "Teshima, Living Balance",
+		"mana_cost": "{R}{G}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/232_Teshima, Living Balance.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "232",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When Teshima enters, create two 1/1 white Monk creature tokens with vigilance.\nWhenever Teshima attacks, put X +1/+1 counters on each other creature you control, where X is Teshima's power.",
+	},
+	
+	{
+		"name": "The Ancestral Legion",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/166_The Ancestral Legion.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "166",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever you attack, return target creature card from your graveyard to the battlefield tapped and attacking with a finality counter on it if it has mana value X or less, where X is the greatest power among attacking creatures you control.",
+	},
+	
+	{
+		"name": "The Ancient Master",
+		"mana_cost": "{1}{G}{W}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/167_The Ancient Master.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "167",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever The Ancient Master attacks alone, put any number of creature cards with total mana value 4 or less from your hand onto the battlefield tapped and attacking. Then return any number of creature cards with total mana value 4 or less from your graveyard to the battlefield tapped and attacking.",
+	},
+	
+	{
+		"name": "The Dutiful Wanderer",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/7_The Dutiful Wanderer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "7",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Each opponent can't attack unless the total power of attacking creatures they control is 4 or less.\n[+1]: Until end of turn, The Dutiful Wanderer becomes a 3/3 Human Samurai creature with double strike and indestructible. (She doesn't lose loyalty while she's not a planeswalker.)\n[-3]: Exile up to one target creature you control and up to one target creature you don't control, then return the creature you controlled to the battlefield under its owner's control.",
+	},
+	
+	{
+		"name": "The God-Tree Chimes",
+		"mana_cost": "{2}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/43_The God-Tree Chimes.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "43",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cycle a card, draw a card.\nCycling {2}{U} ({2}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, copy target triggered ability you control. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "The Inferno Gate Opens",
+		"mana_cost": "{4}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/71_The Inferno Gate Opens.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "71",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI - Pay any amount of life. Create an X/X black Demon creature token, where X is the amount of life paid.\nII - You draw a card and you lose 1 life.\nIII - Target creature you control gains lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Thicketed Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/294_Thicketed Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "294",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {G} or {W}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Thousand Depths Cutthroat",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/89_Thousand Depths Cutthroat.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice another creature: Put a +1/+1 counter on this creature.",
+	},
+	
+	{
+		"name": "Threadweaver Shinobi",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/59_Threadweaver Shinobi.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "59",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nIf you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.",
+	},
+	
+	{
+		"name": "Titanic Behemoth",
+		"mana_cost": "{4}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/233_Titanic Behemoth.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "233",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nThis creature can't be blocked by creatures with power 2 or less.",
+	},
+	
+	{
+		"name": "Torpid Colossus",
+		"mana_cost": "{5}{G/U}{G/U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/259_Torpid Colossus.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "259",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nCycling {G/U} ({G/U}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Torrid Path",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/295_Torrid Path.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "295",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This land enters the battlefield tapped unless you control one or fewer other lands.\n{T}: Add {R} or {W}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Tsubasa Shigane",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/234_Tsubasa Shigane.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "234",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {1}{G}{U} ({1}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nAs long as Tsubasa Shigane entered during combat this turn, he's a 4/4 Ninja creature with hexproof and you may activate his loyalty abilities any time you could cast an instant.\n[+1]: Up to one other target creature gains indestructible until end of turn.\n[-1]: Double another target creature's power until end of turn.\n[-2]: Return target creature to its owner's hand.",
+	},
+	
+	{
+		"name": "Twilight Agent",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/60_Twilight Agent.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "60",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may have it become a copy of another target creature, except it's a Ninja in addition to its other types.",
+	},
+	
+	{
+		"name": "Tzuhan's Lotus",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/279_Tzuhan's Lotus.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "279",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice another nonland permanent: Add X mana in any combination of the sacrificed permanent's colors, where X is 1 plus that permanent's mana value.",
+	},
+	
+	{
+		"name": "Uiki Cloudchaser",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/61_Uiki Cloudchaser.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "61",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever this creature becomes tapped, surveil 1. If it isn't attacking, surveil 2 instead.\n-----\nWind Dance {2}{U}\nInstant - Adventure\nTarget creature you control has base power and toughness 4/4 until end of turn. *(Then exile this card. You may cast the creature later.)*",
+	},
+	
+	{
+		"name": "Uiki Initiate",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/28_Uiki Initiate.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flow - {2}{W}: This creature has base power and toughness 4/4 until end of turn. Activate only as a sorcery. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Ukina, Aethersong Basker",
+		"mana_cost": "{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/235_Ukina, Aethersong Basker.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "235",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Ukina enters, create a 1/1 blue Bird creature token with flying.\nFlow - {5}{W/U}: Look at the top two cards of your library. Put one into your hand and the other on the bottom of your library. (Each creature you tap while activating pays for {1}.)",
+	},
+	
+	{
+		"name": "Uncoiling Realmspawn",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/155_Uncoiling Realmspawn.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "155",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nTrample \nWhenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature.",
+	},
+	
+	{
+		"name": "Uplifting Melody",
+		"mana_cost": "{4}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/29_Uplifting Melody.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "29",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Untap all creatures you control. They get +2/+1 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Veiled Branchstalker",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/62_Veiled Branchstalker.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "62",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen this creature enters, if a nontoken creature you controlled left the battlefield without dying this turn, draw a card.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Vengeful Artificer",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/90_Vengeful Artificer.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "90",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, you may sacrifice another creature. If you do, create a number of Treasure tokens equal to that creature's power.\n-----\nOni Artifice {2}{R}\nSorcery - Adventure\nCreate a token that's a copy of target creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step. ",
+	},
+	
+	{
+		"name": "Verdant Winder",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/156_Verdant Winder.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "156",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature enters, put a +1/+1 counter on each of up to two target creatures you control.\nForestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",
+	},
+	
+	{
+		"name": "Vicious Backstab",
+		"mana_cost": "{4}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/125_Vicious Backstab.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "125",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vicious Backstab deals 5 damage to target creature.\nCycling {1}{R} ({1}{R}, Discard this card: Draw a card.)\nWhen you cycle this card, you may discard a card. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Volatile Prosthetic",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/280_Volatile Prosthetic.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "280",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+0.\nIf a source you control would deal noncombat damage to a player while this Equipment is attached to a creature, you may have it deal damage equal to equipped creature's power instead.\nEquip {2}",
+	},
+	
+	{
+		"name": "Wandering Thrumhorn",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/157_Wandering Thrumhorn.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "157",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhen this creature dies, create a 1/1 green Spirit creature token.",
+	},
+	
+	{
+		"name": "Welkin Eviction",
+		"mana_cost": "{6}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/30_Welkin Eviction.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "30",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nThis spell costs {X} less to cast, where X is the number of Plains you control plus the number of cards with a cycling ability in your graveyard.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nPlainscycling {2}",
+	},
+	
+	{
+		"name": "Whirlwind Kick",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/31_Whirlwind Kick.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "31",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target tapped creature.",
+	},
+	
+	{
+		"name": "Wicked Manifestation",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/91_Wicked Manifestation.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "91",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This creature gets +1/+1 for each card with a cycling ability in your graveyard.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+	},
+	
+	{
+		"name": "Willing Acolyte",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/92_Willing Acolyte.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "92",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When this creature dies, it deals 2 damage to each opponent and you gain 2 life.\n{6}{B}, Exile this card from your graveyard: It deals 3 damage to each opponent and you gain 3 life.",
+	},
+	
+	{
+		"name": "Wisping Kirin",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/126_Wisping Kirin.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "126",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Revered (This creature shares the following abilities with other creatures you control that have counters on them.)\nWhenever this creature attacks, create a tapped and attacking token that's a copy of it. For each counter on this creature, put a counter of that kind on that token. Sacrifice the token at the end of combat.",
+	},
+	
+	{
+		"name": "Wretched Bargain",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/93_Wretched Bargain.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "93",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You draw two cards and you lose 2 life.\nDamned - If you've sacrificed a permanent this turn, add {B}{B}.",
+	},
+	
+	{
+		"name": "Yingjun's Presence",
+		"mana_cost": "{1}{W/U}{W/U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/260_Yingjun's Presence.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "260",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the end of combat on your turn, untap all nonland permanents you control.\n{W}{U}: Yingjun's Presence becomes a 3/2 Dragon creature with flying in addition to its other types.",
+	},
+	
+	{
+		"name": "Yokinzan General",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/32_Yokinzan General.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "32",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever another creature you control attacks alone, draw a card.",
+	},
+	
+	{
+		"name": "Yokinzan Hermit",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/94_Yokinzan Hermit.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "94",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever a creature you control attacks alone, this creature deals 1 damage to each opponent and you gain 1 life.",
+	},
+	
+	{
+		"name": "Yokinzan Pathfinder",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/63_Yokinzan Pathfinder.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "63",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, up to one target creature you control can't be blocked this turn. Return that creature to its owner's hand at end of combat.",
+	},
+	
+	{
+		"name": "blue Bird 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/6t_blue Bird 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "blue Ninja 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/8t_blue Ninja 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This creature can't be blocked by creatures with greater power.",
+	},
+	
+	{
+		"name": "Hardsuit KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/17t_Hardsuit KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Treasure KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/18t_Treasure KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "18",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice this token: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Time Bubble KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/9t_Time Bubble KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Spells you cast cost {1} more to cast.",
+	},
+	
+	{
+		"name": "black Demon KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/10t_black Demon KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "black Demon Insect 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/11t_black Demon Insect 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "red and green Spirit Beast 43KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/15t_red and green Spirit Beast 43KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "15",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Spirit 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/13t_green Spirit 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Samurai 22KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/5t_white Samurai 22KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+	},
+	
+	{
+		"name": "white Monk 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/3t_white Monk 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "blue Kraken 88KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/7t_blue Kraken 88KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "colorless Fox Shapeshifter 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/1t_colorless Fox Shapeshifter 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Changeling (This token is every creature type.)",
+	},
+	
+	{
+		"name": "green Serpent 66KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/12t_green Serpent 66KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "12",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "colorless Golem 00KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/16t_colorless Golem 00KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "16",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This creature gets +1/+1 for each artifact you control.",
+	},
+	
+	{
+		"name": "white Monkey 11KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/4t_white Monkey 11KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Hardsuit KDT 2",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/20t_Hardsuit KDT 2.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "On An Adventure KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/14t_On An Adventure KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "After an Adventure resolves, you can place the exiled card here. You may cast the creature from exile.",
+	},
+	
+	{
+		"name": "colorless Saga KDT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/2t_colorless Saga KDT.jpg",
+		"colors": [],
+		"set": "KDT",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)\nI - \"Here, I will make my home, my prison, my rock to which I am forever bound.\"\nII - \"If I am to live in this world in perpetuity, it will join me at the dusk of time.\"\nIII - You may cast a copy of the exiled card without paying its mana cost.",
+	},
+	]
+[Common]
+20 Abandon the Code
+20 Balance of the Realms
+20 Banished Dragon
+20 Basking Kitsune
+20 Bladecross Student
+20 Blazing Kitsune
+20 Blood-Cursed Ape
+20 Blossoming Ocelot
+20 Butterfly Dragonling
+20 Chittering Ascetic
+20 Conqueror's Favored
+20 Crane Dancer
+20 Daring Shinobi
+20 Deadly Combatant
+20 Deft Deflection
+20 Demonic Reposession
+20 Drag into the Dark
+20 Dragon's Repose
+20 Duress
+20 Dynasty Pendant
+20 Elope
+20 Expert Bladework
+20 Face of Animosity
+20 Fall Upon Your Blade
+20 Fatal Flourish
+20 Friendly Dragonling
+20 Giant Hewn Toad
+20 Gifts of the Kitsune
+20 Gongwielder Abbot
+20 Hell's Boon
+20 High Seas Samurai
+20 Hwacha
+20 Inner Fortitude
+20 Instantaneous End
+20 Iron-Calm Acolyte
+20 Jubilant Docks
+20 Judgment of the Seishin
+20 Kimja Jailer
+20 Kimja Steelshaper
+20 Kitsune Duelist
+20 Kitsune Matriarch
+20 Knight of Kage
+20 Lesser Dragon
+20 Leyline Attuner
+20 Living Wave
+20 Make an Escape
+20 Mapper's Wanderings
+20 Mask Thief
+20 Master of Stances
+20 Meditation
+20 Midnight Duo
+20 Mirageform Shinobi
+20 Mist-Draped Delver
+20 Momentous Strike
+20 Moonblade Ninja
+20 Moonlit Gateway
+20 Mortal Blade
+20 Nerve-Strike Disciple
+20 Newborn Oni
+20 Noble Kitsune
+20 Nocturnal Glintblade
+20 Oni of Tongues
+20 Portal Guardian
+20 Prophetic Prism
+20 Ravenous Slaughterlord
+20 Realm-Delver Whelp
+20 Realmweft Implosion
+20 Resolute Natori
+20 Royal Balcony
+20 Sabotage the Supply Lines
+20 Sacrificial Mentor
+20 Scions of War
+20 Scorching Gecko
+20 Sealing Strike
+20 Seishin of Sun's Radiance
+20 Shigane Cyclone
+20 Sky's Flourishing
+20 Slayer of Numachi
+20 Soaring Kites
+20 Spiralhorn Kirin
+20 Spiteful Liberation
+20 Storm Jelly
+20 Stormfist Monk
+20 Sundering the Fleet
+20 Sunset Warrior
+20 Thousand Depths Cutthroat
+20 Titanic Behemoth
+20 Torpid Colossus
+20 Uiki Cloudchaser
+20 Uiki Initiate
+20 Uplifting Melody
+20 Veiled Branchstalker
+20 Verdant Winder
+20 Vicious Backstab
+20 Wandering Thrumhorn
+20 Whirlwind Kick
+20 Willing Acolyte
+20 Wretched Bargain
+20 Yokinzan Hermit
+
+[Uncommon]
+10 Absolution Flock
+10 Adorned Kitsune
+10 Akihiko, Wayfinder
+10 Ancestor's Guidance
+10 Aoushun's Presence
+10 Ascended Salamander
+10 Ayeshi's Agent
+10 Banish into Nothingness
+10 Bleeding Out
+10 Blighted Mistress
+10 Blur Strike
+10 Cartographer's Skill
+10 Chomei, the Hostmother
+10 Chomei's Brawler
+10 Creation's Combustion
+10 Deathdealer Oni
+10 Deflecting Kitsune
+10 Disguised Hermit
+10 Distinguished Weaverkin
+10 Dragon's Court
+10 Dragon of Recollection
+10 Dynasty's Benediction
+10 Eager Eelpup
+10 Enchanted Pauldron
+10 Ensorcell
+10 Ethereal Blossom
+10 Faces of the Faceless
+10 Fallen Heartseeker
+10 Foreign Encounter
+10 Frilled Seishin
+10 Frolicking Tatsuko
+10 General of the Damned
+10 Gereishin's Presence
+10 Haughty Bulwark
+10 Hellfire Crafting
+10 Ikurimoko's Presence
+10 Illusory Savior
+10 Imperial Dragon
+10 Imperial Production
+10 Imperial Tour
+10 Inklight Dancer
+10 Kage's Slayer
+10 Kei, Exiled Survivor
+10 Keuya's Presence
+10 King of Shallow Shores
+10 Kirin of Boons
+10 Koi-Tail Mer
+10 Koraja's Centipede
+10 Lantern Festival
+10 Master of the Peaks
+10 Menreiki, the Resplendent
+10 Merciless Ruiner
+10 Monastery Teacher
+10 Nimble Mentor
+10 Ofuda Mistress
+10 Ominous Seas
+10 Opulent Vantage
+10 Overflow
+10 Painted Officer
+10 Pass Judgment
+10 Realmweft Kitsune
+10 Ribbon Dancer
+10 River Guardian
+10 Ruiner's Execution
+10 Ruiner's Hijacking
+10 Ruiner's Procession
+10 Ruiner Battlesuit
+10 Saboteur's Immolation
+10 Settler's Caravan
+10 Shigane Elder
+10 Shigane Troupe Leader
+10 Spirit Realm Medallion
+10 Stained Strokes
+10 Suppressing-Fist Pupil
+10 Swift Reproach
+10 Twilight Agent
+10 Ukina, Aethersong Basker
+10 Wicked Manifestation
+10 Yingjun's Presence
+10 Yokinzan General
+10 Yokinzan Pathfinder
+
+[Rare]
+4 Amagaseto, Mother Spirit
+4 Aonuma, Princely Traveler
+4 Aonuma's Students
+4 Arushi, Shigane Heirloom
+4 Assaulted by Shadows
+4 Attuned Acolyte
+4 Auspicious Return
+4 Avatar's Whim
+4 Ayeshi Breaks the Loop
+4 Banisher Rifle
+4 Born From Fire
+4 Breath of the Spirit Realm
+4 Brutal Throatcrusher
+4 Butchery
+4 Confronting Time's Jailer
+4 Damn to Hell
+4 Deepborn Calamity
+4 Demon of Dire Storms
+4 Desolate Path
+4 Devouring Seishin
+4 Distant Path
+4 Elder Tattooist
+4 Equanimity
+4 Erosive Path
+4 Fablewoven Kitsune
+4 Forlorn Path
+4 Gereishin's Entrance
+4 Grasp of the Elements
+4 Heartfire Lantern
+4 Hyomon, Cloud Conductor
+4 Impenetrable Ronin
+4 Imperial Honor Guard
+4 Impulsive Underling
+4 Infernal Kitsune
+4 Iri Sentinel
+4 Jun, Twinblade Master
+4 Kage's Mercenary
+4 Kimja Deadeye
+4 Koi Float
+4 Koraja, the Broken Blade
+4 Maiden of the Waters
+4 Majesty
+4 Mastery
+4 Meandering Path
+4 Moonlight Adversary
+4 Murky Path
+4 Natori Skyblade
+4 Omen Skulker
+4 Orochi Soulfang
+4 Path's End
+4 Perils of Eternity
+4 Portal to the Spirit Realm
+4 Precognitive Combatant
+4 Prideful Reaper
+4 Primordial Gateway
+4 Protean Boughs
+4 Protean Golem
+4 Revolt at the Palace
+4 Rousing Path
+4 Ruinous Portents
+4 Sanctuary of Fragile Unity
+4 Scouring the Riverbed
+4 Sculptor's Replica
+4 Secrecy
+4 Shigane Clan Head
+4 Shigane Manor Burns
+4 Simian Pupil
+4 Sludge Drudge
+4 Sodden Path
+4 Spirit Realm Phoenix
+4 Staff of Balance
+4 Stonework Titan
+4 Stratostorm
+4 The God-Tree Chimes
+4 The Inferno Gate Opens
+4 Thicketed Path
+4 Threadweaver Shinobi
+4 Torrid Path
+4 Uncoiling Realmspawn
+4 Vengeful Artificer
+4 Volatile Prosthetic
+4 Welkin Eviction
+4 Wisping Kirin
+2 Aether Dancer
+2 Ageless Seishin
+2 Akai and Toyotomi
+2 Akuryo, the Sweet Fang
+2 Ayeshi, Time's Jailer
+2 Commander Tachibana
+2 Conqueror's Glee
+2 Danuja, Emperor's Pet
+2 Emperor Tzuhan
+2 Gate to Fujinobe
+2 Gereishin, the Stormlord
+2 Giyama, Scion of Kage
+2 Godslaughter Titan
+2 Hakodate Regent
+2 Iwai and Oda
+2 Kage, Cursed Conqueror
+2 Kinscale Reckoner
+2 Luraana, Loop's End
+2 Nimomae, Who Flows
+2 Noble Shrineguard
+2 Realm Violator
+2 Revolutionary's Monument
+2 Sakura Dance
+2 Shiori, the Trickster
+2 Spiteful Banditry
+2 Takashi, City on the Wind
+2 Teshima, Living Balance
+2 The Ancestral Legion
+2 The Ancient Master
+2 The Dutiful Wanderer
+2 Tsubasa Shigane
+2 Tzuhan's Lotus
+
+[Land]
+20 Forest_KDT
+20 Island_KDT
+20 Mountain_KDT
+20 Plains_KDT
+20 Swamp_KDT
+
+[Token]
+20 blue Bird 11KDT
+20 blue Ninja 11KDT
+20 Hardsuit KDT
+20 Treasure KDT
+20 Time Bubble KDT
+20 black Demon KDT
+20 black Demon Insect 11KDT
+20 red and green Spirit Beast 43KDT
+20 green Spirit 11KDT
+20 white Samurai 22KDT
+20 white Monk 11KDT
+20 blue Kraken 88KDT
+20 colorless Fox Shapeshifter 11KDT
+20 green Serpent 66KDT
+20 colorless Golem 00KDT
+20 white Monkey 11KDT
+20 Hardsuit KDT 2
+20 On An Adventure KDT
+20 colorless Saga KDT
+
+[Wildcard]
+6 Abandon the Code
+6 Balance of the Realms
+6 Banished Dragon
+6 Basking Kitsune
+6 Bladecross Student
+6 Blazing Kitsune
+6 Blood-Cursed Ape
+6 Blossoming Ocelot
+6 Butterfly Dragonling
+6 Chittering Ascetic
+6 Conqueror's Favored
+6 Crane Dancer
+6 Daring Shinobi
+6 Deadly Combatant
+6 Deft Deflection
+6 Demonic Reposession
+6 Drag into the Dark
+6 Dragon's Repose
+6 Duress
+6 Dynasty Pendant
+6 Elope
+6 Expert Bladework
+6 Face of Animosity
+6 Fall Upon Your Blade
+6 Fatal Flourish
+6 Friendly Dragonling
+6 Giant Hewn Toad
+6 Gifts of the Kitsune
+6 Gongwielder Abbot
+6 Hell's Boon
+6 High Seas Samurai
+6 Hwacha
+6 Inner Fortitude
+6 Instantaneous End
+6 Iron-Calm Acolyte
+6 Jubilant Docks
+6 Judgment of the Seishin
+6 Kimja Jailer
+6 Kimja Steelshaper
+6 Kitsune Duelist
+6 Kitsune Matriarch
+6 Knight of Kage
+6 Lesser Dragon
+6 Leyline Attuner
+6 Living Wave
+6 Make an Escape
+6 Mapper's Wanderings
+6 Mask Thief
+6 Master of Stances
+6 Meditation
+6 Midnight Duo
+6 Mirageform Shinobi
+6 Mist-Draped Delver
+6 Momentous Strike
+6 Moonblade Ninja
+6 Moonlit Gateway
+6 Mortal Blade
+6 Nerve-Strike Disciple
+6 Newborn Oni
+6 Noble Kitsune
+6 Nocturnal Glintblade
+6 Oni of Tongues
+6 Portal Guardian
+6 Prophetic Prism
+6 Ravenous Slaughterlord
+6 Realm-Delver Whelp
+6 Realmweft Implosion
+6 Resolute Natori
+6 Royal Balcony
+6 Sabotage the Supply Lines
+6 Sacrificial Mentor
+6 Scions of War
+6 Scorching Gecko
+6 Sealing Strike
+6 Seishin of Sun's Radiance
+6 Shigane Cyclone
+6 Sky's Flourishing
+6 Slayer of Numachi
+6 Soaring Kites
+6 Spiralhorn Kirin
+6 Spiteful Liberation
+6 Storm Jelly
+6 Stormfist Monk
+6 Sundering the Fleet
+6 Sunset Warrior
+6 Thousand Depths Cutthroat
+6 Titanic Behemoth
+6 Torpid Colossus
+6 Uiki Cloudchaser
+6 Uiki Initiate
+6 Uplifting Melody
+6 Veiled Branchstalker
+6 Verdant Winder
+6 Vicious Backstab
+6 Wandering Thrumhorn
+6 Whirlwind Kick
+6 Willing Acolyte
+6 Wretched Bargain
+6 Yokinzan Hermit
+4 Absolution Flock
+4 Adorned Kitsune
+4 Akihiko, Wayfinder
+4 Ancestor's Guidance
+4 Aoushun's Presence
+4 Ascended Salamander
+4 Ayeshi's Agent
+4 Banish into Nothingness
+4 Bleeding Out
+4 Blighted Mistress
+4 Blur Strike
+4 Cartographer's Skill
+4 Chomei, the Hostmother
+4 Chomei's Brawler
+4 Creation's Combustion
+4 Deathdealer Oni
+4 Deflecting Kitsune
+4 Disguised Hermit
+4 Distinguished Weaverkin
+4 Dragon's Court
+4 Dragon of Recollection
+4 Dynasty's Benediction
+4 Eager Eelpup
+4 Enchanted Pauldron
+4 Ensorcell
+4 Ethereal Blossom
+4 Faces of the Faceless
+4 Fallen Heartseeker
+4 Foreign Encounter
+4 Frilled Seishin
+4 Frolicking Tatsuko
+4 General of the Damned
+4 Gereishin's Presence
+4 Haughty Bulwark
+4 Hellfire Crafting
+4 Ikurimoko's Presence
+4 Illusory Savior
+4 Imperial Dragon
+4 Imperial Production
+4 Imperial Tour
+4 Inklight Dancer
+4 Kage's Slayer
+4 Kei, Exiled Survivor
+4 Keuya's Presence
+4 King of Shallow Shores
+4 Kirin of Boons
+4 Koi-Tail Mer
+4 Koraja's Centipede
+4 Lantern Festival
+4 Master of the Peaks
+4 Menreiki, the Resplendent
+4 Merciless Ruiner
+4 Monastery Teacher
+4 Nimble Mentor
+4 Ofuda Mistress
+4 Ominous Seas
+4 Opulent Vantage
+4 Overflow
+4 Painted Officer
+4 Pass Judgment
+4 Realmweft Kitsune
+4 Ribbon Dancer
+4 River Guardian
+4 Ruiner's Execution
+4 Ruiner's Hijacking
+4 Ruiner's Procession
+4 Ruiner Battlesuit
+4 Saboteur's Immolation
+4 Settler's Caravan
+4 Shigane Elder
+4 Shigane Troupe Leader
+4 Spirit Realm Medallion
+4 Stained Strokes
+4 Suppressing-Fist Pupil
+4 Swift Reproach
+4 Twilight Agent
+4 Ukina, Aethersong Basker
+4 Wicked Manifestation
+4 Yingjun's Presence
+4 Yokinzan General
+4 Yokinzan Pathfinder
+2 Amagaseto, Mother Spirit
+2 Aonuma, Princely Traveler
+2 Aonuma's Students
+2 Arushi, Shigane Heirloom
+2 Assaulted by Shadows
+2 Attuned Acolyte
+2 Auspicious Return
+2 Avatar's Whim
+2 Ayeshi Breaks the Loop
+2 Banisher Rifle
+2 Born From Fire
+2 Breath of the Spirit Realm
+2 Brutal Throatcrusher
+2 Butchery
+2 Confronting Time's Jailer
+2 Damn to Hell
+2 Deepborn Calamity
+2 Demon of Dire Storms
+2 Desolate Path
+2 Devouring Seishin
+2 Distant Path
+2 Elder Tattooist
+2 Equanimity
+2 Erosive Path
+2 Fablewoven Kitsune
+2 Forlorn Path
+2 Gereishin's Entrance
+2 Grasp of the Elements
+2 Heartfire Lantern
+2 Hyomon, Cloud Conductor
+2 Impenetrable Ronin
+2 Imperial Honor Guard
+2 Impulsive Underling
+2 Infernal Kitsune
+2 Iri Sentinel
+2 Jun, Twinblade Master
+2 Kage's Mercenary
+2 Kimja Deadeye
+2 Koi Float
+2 Koraja, the Broken Blade
+2 Maiden of the Waters
+2 Majesty
+2 Mastery
+2 Meandering Path
+2 Moonlight Adversary
+2 Murky Path
+2 Natori Skyblade
+2 Omen Skulker
+2 Orochi Soulfang
+2 Path's End
+2 Perils of Eternity
+2 Portal to the Spirit Realm
+2 Precognitive Combatant
+2 Prideful Reaper
+2 Primordial Gateway
+2 Protean Boughs
+2 Protean Golem
+2 Revolt at the Palace
+2 Rousing Path
+2 Ruinous Portents
+2 Sanctuary of Fragile Unity
+2 Scouring the Riverbed
+2 Sculptor's Replica
+2 Secrecy
+2 Shigane Clan Head
+2 Shigane Manor Burns
+2 Simian Pupil
+2 Sludge Drudge
+2 Sodden Path
+2 Spirit Realm Phoenix
+2 Staff of Balance
+2 Stonework Titan
+2 Stratostorm
+2 The God-Tree Chimes
+2 The Inferno Gate Opens
+2 Thicketed Path
+2 Threadweaver Shinobi
+2 Torrid Path
+2 Uncoiling Realmspawn
+2 Vengeful Artificer
+2 Volatile Prosthetic
+2 Welkin Eviction
+2 Wisping Kirin
+1 Aether Dancer
+1 Ageless Seishin
+1 Akai and Toyotomi
+1 Akuryo, the Sweet Fang
+1 Ayeshi, Time's Jailer
+1 Commander Tachibana
+1 Conqueror's Glee
+1 Danuja, Emperor's Pet
+1 Emperor Tzuhan
+1 Gate to Fujinobe
+1 Gereishin, the Stormlord
+1 Giyama, Scion of Kage
+1 Godslaughter Titan
+1 Hakodate Regent
+1 Iwai and Oda
+1 Kage, Cursed Conqueror
+1 Kinscale Reckoner
+1 Luraana, Loop's End
+1 Nimomae, Who Flows
+1 Noble Shrineguard
+1 Realm Violator
+1 Revolutionary's Monument
+1 Sakura Dance
+1 Shiori, the Trickster
+1 Spiteful Banditry
+1 Takashi, City on the Wind
+1 Teshima, Living Balance
+1 The Ancestral Legion
+1 The Ancient Master
+1 The Dutiful Wanderer
+1 Tsubasa Shigane
+1 Tzuhan's Lotus

@@ -1,0 +1,4823 @@
+
+[Settings]
+{
+	"name": "Duelists of Vereaux",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "A Scent to Die For_DOV",
+		"mana_cost": "{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/122_A Scent to Die For_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "122",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a non-Spirit creature you control leaves the battlefield, if it had counters on it, put those counters on A Scent to Die For.\nAt the beginning of your end step, if A Scent to Die For has counters on it, you may create a 0/0 black Spirit creature token and move all counters from A Scent to Die For onto it.",
+	},
+	
+	{
+		"name": "Above the Fog_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/181_Above the Fog_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "181",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on up to one target creature you control. Prevent all damage that would be dealt this turn except by creatures target player controls with counters on them.",
+	},
+	
+	{
+		"name": "Abscond_DOV",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/46_Abscond_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "46",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return up to one target tapped artifact or creature to its owner's hand. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Absolver of Ashes_DOV",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/136_Absolver of Ashes_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Absolver of Ashes enters with a trample, first strike, menace, and +1/+1 counter on it.\nAt the beginning of your upkeep, remove a counter from Absolver of Ashes. If you can't, sacrifice it.",
+	},
+	
+	{
+		"name": "Absorbed Painter_DOV",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/47_Absorbed Painter_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "47",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Absorbed Painter enters with a +1/+1 counter, a flying counter, and a vigilance counter on it.\nAbsorbed Painter can't attack or block as long as it has a counter on it.\n{U}, {T}: You may move a counter from a creature you control to another creature you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Adaptive Blade_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/257_Adaptive Blade_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "257",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Adaptive Blade enters with your choice of two different counters on it from among menace, haste, first strike, or trample.\nEquipped creature gets +1/+0.\nKeyword counters on Adaptive Blade apply to equipped creature.\nEquip {1}",
+	},
+	
+	{
+		"name": "Against All Odds_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/182_Against All Odds_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "182",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +X/+X, gains trample, and becomes a legendary Rebel until end of turn, where X is its power. Sacrifice that creature at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Alehana's Eyes_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/48_Alehana's Eyes_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "48",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Alehana's Eyes has +1/+1 and can't be blocked as long as you've cast an instant or sorcery spell with mana value 4 or greater this turn.",
+	},
+	
+	{
+		"name": "Alehana's Fleshsearer_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/137_Alehana's Fleshsearer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "137",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever you cast an instant or sorcery spell with mana value 4 or greater, put a +1/+1 counter on Alehana's Fleshsearer.",
+	},
+	
+	{
+		"name": "Alehana the Persuader_DOV",
+		"mana_cost": "{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/226_Alehana the Persuader_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "226",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of each opponent's upkeep, that player may pay life equal to the number of pain counters they have plus 1. If they don't, look at their hand, choose a card from it, and exile that card. If they do, that player gets a pain counter.\nYou may cast cards exiled with Alehana, and mana of any type can be spent to cast them.",
+	},
+	
+	{
+		"name": "Anointed Escort_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/1_Anointed Escort_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create a 1/1 white Cleric Noble creature token with lifelink and a 1/1 white Soldier creature token with vigilance.",
+	},
+	
+	{
+		"name": "Antivo, Foundation Chair_DOV",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/49_Antivo, Foundation Chair_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "49",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Ward {2}\nAt the beginning of your end step, if it's not an extra turn and you've cast three or more instant or sorcery spells with different mana values this turn, take an extra turn after this one.",
+	},
+	
+	{
+		"name": "Arachnid Ambush_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/183_Arachnid Ambush_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "183",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a deathtouch counter on target creature you control. Untap that creature. It gains hexproof, reach and indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Armed Uprising_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/184_Armed Uprising_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "184",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Distribute a trample counter, a vigilance counter, a reach counter, and a deathtouch counter among any number of creatures you control. Then draw a card for each creature you control with one or more counters on it.",
+	},
+	
+	{
+		"name": "Arrogant Cabalist_DOV",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/91_Arrogant Cabalist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "91",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Arrogant Cabalist enters, if you control another Noble, each opponent loses 3 life and you gain 3 life.",
+	},
+	
+	{
+		"name": "Artur's Tightening Vice_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/50_Artur's Tightening Vice_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "50",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature loses all abilities and is a white Peasant with base power and toughness 1/1 named Penitent Prisoner. (It loses all other colors, card types, creature types, and names.)\nWhen enchanted creature leaves the battlefield, you may draw a card.",
+	},
+	
+	{
+		"name": "Aspiring Hero_DOV",
+		"mana_cost": "{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/227_Aspiring Hero_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "227",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, put a first strike counter on Aspiring Hero if that creature has first strike and Aspiring Hero doesn't. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, trample, vigilance, and ward.",
+	},
+	
+	{
+		"name": "Banish to the Isle_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/2_Banish to the Isle_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "2",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Banish to the Isle enters, exile up to one target nonland permanent you don't control until Banish to the Isle leaves the battlefield. You gain 3 life.",
+	},
+	
+	{
+		"name": "Baron-at-Court_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/3_Baron-at-Court_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Barreling Bull_DOV",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/185_Barreling Bull_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "185",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Barreling Bull can't be blocked by creatures with power 2 or less.\nWhen Barreling Bull enters, return a creature you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Bastion Breaker_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/138_Bastion Breaker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "138",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nBastion Breaker can't block.",
+	},
+	
+	{
+		"name": "Bastion Walls_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/258_Bastion Walls_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "258",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender, reach",
+	},
+	
+	{
+		"name": "Beastbond Instructor_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/186_Beastbond Instructor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "186",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Beastbond Instructor enters, put a trample counter on target creature you control.",
+	},
+	
+	{
+		"name": "Beauclaire's Scorn_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/51_Beauclaire's Scorn_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "51",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Counter target noncreature spell. Search its controller's graveyard, hand, and library for any number of cards with the same name as that spell and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
+	},
+	
+	{
+		"name": "Belligerent Peluda_DOV",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/139_Belligerent Peluda_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "139",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Belligerent Peluda enters, it deals 2 damage to any target.",
+	},
+	
+	{
+		"name": "Bladeforge Instructor_DOV",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/140_Bladeforge Instructor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "140",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Bladeforge Instructor enters, put a first strike counter on target creature you control.",
+	},
+	
+	{
+		"name": "Bleakheart Instructor_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/92_Bleakheart Instructor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "92",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Bleakheart Instructor enters, put a lifelink counter on target creature you control.",
+	},
+	
+	{
+		"name": "Bloodfeast Baron_DOV",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/93_Bloodfeast Baron_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "93",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever you gain life, you may pay {B}. If you do, put a +1/+1 counter on target creature you control with lifelink.\n{4}{B}: Whenever you gain life this turn, each opponent loses that much life.",
+	},
+	
+	{
+		"name": "Bloodstained Shalena_DOV",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/229_Bloodstained Shalena_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "229",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace, first strike\nExile a card from your graveyard, Pay 1 life: Add {C}. Spend this mana only to cast an instant or sorcery spell.",
+	},
+	
+	{
+		"name": "Blooming Cocollona_DOV",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/230_Blooming Cocollona_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "230",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying, trample\nWhen Blooming Cocollona enters, you may have it deal 3 damage to another target creature or planeswalker. If you do, that permanent's controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Bordertown Watch-Warden_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/4_Bordertown Watch-Warden_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "4",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nOther creatures you control with vigilance get +1/+1.\nWhenever one or more creatures with vigilance you control attack, you may tap target creature.",
+	},
+	
+	{
+		"name": "Bourgeois Class_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/141_Bourgeois Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "141",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nOnce each turn, when you play a card from anywhere but your hand, you may create a tapped Treasure token.\n{2}{R}: Level 2\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\n{3}{R}: Level 3\nWhenever another permanent you control leaves the battlefield, this Class deals 1 damage to any target.",
+	},
+	
+	{
+		"name": "Braise_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/142_Braise_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "142",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Braise deals 5 damage to target creature or planeswalker. When it dies this turn, its controller creates a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Brass Baker_DOV",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/259_Brass Baker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "259",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Brass Baker enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Bravewing Hero_DOV",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/5_Bravewing Hero_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever another creature you control enters, you may have Bravewing Hero dare 2. (It becomes a legendary Rebel with base power and toughness 2/2 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Brazen Intimidation_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/143_Brazen Intimidation_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "143",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Creatures you control with menace get +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Break the Line_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/144_Break the Line_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "144",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target attacking creature gets +3/+3 until end of turn. Put a trample counter on that creature.",
+	},
+	
+	{
+		"name": "Burning Witch_DOV",
+		"mana_cost": "{2}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/231_Burning Witch_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "231",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nWhenever you cast an instant or sorcery spell with mana value 4 or greater, you may return Burning Witch to its owner's hand. If you do, copy that spell. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "By Imperial Decree_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/52_By Imperial Decree_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell unless its controller pays {2}. Until end of turn, spells your opponents cast cost {1} more to cast.",
+	},
+	
+	{
+		"name": "Cabal Class_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/94_Cabal Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "94",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nWhenever a player finishes exiling cards from anywhere, each opponent loses 1 life.\n{2}{B}: Level 2\nAt the beginning of your upkeep, exile the top card of target opponent's library face down. You may look at it for as long as it remains exiled.\n{3}{B}: Level 3\nYou may cast spells exiled with this Class. Those spells cost {1} less to cast, and mana of any type can be spent to cast those spells.",
+	},
+	
+	{
+		"name": "Campaign of Retribution_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/145_Campaign of Retribution_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "145",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control dies during your turn, you may exile the top card of your library. You may play that card until you exile another card with Campaign of Retribution.",
+	},
+	
+	{
+		"name": "Carlacio, Riot Instigator_DOV",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/232_Carlacio, Riot Instigator_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "232",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever Carlacio, Riot Instigator attacks, you may have another target attacking creature you control dare X, where X is Carlacio's power. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Carving Instructor_DOV",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/53_Carving Instructor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "53",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Carving Instructor enters, put a flying counter on target creature you control.",
+	},
+	
+	{
+		"name": "Catacomb Stewards_DOV",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/95_Catacomb Stewards_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "95",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may return target creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Cathette, Righteous Princess_DOV",
+		"mana_cost": "{1}{R}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/233_Cathette, Righteous Princess_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "233",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Up to one target creature you control dares 4 and gains vigilance until end of turn.\n[-2]: Cathette deals 2 damage to any target and you gain 2 life. Target player creates two 1/1 white Warrior creature tokens.\n[-6]: You get an emblem with \"At the end of the first combat phase on each of your turns, untap each creature you control. After this phase, there is an additional combat phase.\"",
+	},
+	
+	{
+		"name": "Cecile's Suppressor_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/6_Cecile's Suppressor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "6",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Each player can't cast more than one spell or activate more than one activated ability that isn't a mana ability each turn.",
+	},
+	
+	{
+		"name": "Cinder Hatchling_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/146_Cinder Hatchling_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Cinder Hatchling gets +3/+0 as long as you've cast an instant or sorcery spell with mana value 4 or greater this turn.",
+	},
+	
+	{
+		"name": "Climactic Finish_DOV",
+		"mana_cost": "{X}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/147_Climactic Finish_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "147",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +X/+0 until end of turn.\nDraw a card.",
+	},
+	
+	{
+		"name": "Colossal Tarasque_DOV",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/187_Colossal Tarasque_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "187",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Colossal Tarasque can't be blocked by creatures with power 2 or less.\n{2}, Discard Colossal Tarasque: Search your library for a basic Forest card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Condemn to Death_DOV",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/96_Condemn to Death_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "96",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature. That creature's controller loses 1 life for each kind of counter among permanents you control.",
+	},
+	
+	{
+		"name": "Conspiracy of Wealth_DOV",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/97_Conspiracy of Wealth_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "97",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhen Conspiracy of Wealth enters, draw a card.\nWhenever you indulge, you may exile target card from a graveyard.",
+	},
+	
+	{
+		"name": "Contagion Brewer_DOV",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/188_Contagion Brewer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "188",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhenever a creature you control with deathtouch deals damage to a planeswalker, destroy that planeswalker.\n{2}{G}, Exile Contagion Brewer from your graveyard: Return target creature card with deathtouch from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Corpse Thieves_DOV",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/98_Corpse Thieves_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "98",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhen Corpse Thieves enters, mill three cards. (Put the top three cards from your library into your graveyard.)\nCorpse Thieves's power is equal to the greatest mana value among cards in your graveyard.",
+	},
+	
+	{
+		"name": "Court of Miracles_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/272_Court of Miracles_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "272",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{X}{1}: Court of Miracles dares X. (It becomes a legendary Rebel creature with base power and toughness X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Crowdcleaver_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/148_Crowdcleaver_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "148",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever one or more creatures you control with trample deal combat damage to a player or planeswalker, put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Crowdqueller Golem_DOV",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/260_Crowdqueller Golem_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "260",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Crowdqueller Golem enters the battlefield tapped.",
+	},
+	
+	{
+		"name": "Crownguard Ban_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/261_Crownguard Ban_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "261",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Crownguard Ban enters, choose a card name.\nSpells with the chosen name can't be cast.\n{3}, Exile a card from your hand with the chosen name: Draw a card. Any player may activate this ability.",
+	},
+	
+	{
+		"name": "Crownguard Enforcer_DOV",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/149_Crownguard Enforcer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "149",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Target creature you control gains menace until end of turn. If it already had menace, it gets +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Crownguard Instructor_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/7_Crownguard Instructor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Crownguard Instructor enters, put a vigilance counter on target creature you control.",
+	},
+	
+	{
+		"name": "Cuernas, Victor of the Ring_DOV",
+		"mana_cost": "{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/234_Cuernas, Victor of the Ring_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "234",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nHaste\nWhen Cuernas, Victor of the Ring enters, it and other legendary creatures you control gain trample and indestructible until end of turn.",
+	},
+	
+	{
+		"name": "D'Enzo Orsino_DOV",
+		"mana_cost": "{2}{R}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/235_D'Enzo Orsino_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "235",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When D'Enzo Orsino enters, you may search your library for a card named Marie Laurent, a card named Hans Nehmann and a card named Diago Maldovo, reveal them, put them into your hand, then shuffle.\nPrevent all combat damage that would be dealt to legendary Allies you control.",
+	},
+	
+	{
+		"name": "Darkhunt Pesanta_DOV",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/99_Darkhunt Pesanta_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "99",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n{2}, Discard Darkhunt Pesanta: Search your library for a basic Swamp card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Decadent Duchess_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/8_Decadent Duchess_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Decorated Duelist_DOV",
+		"mana_cost": "{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/9_Decorated Duelist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "9",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ward {1}\nDecorated Duelist enters with your choice of two different counters on it from among lifelink, vigilance, and first strike.",
+	},
+	
+	{
+		"name": "Deep Forest Maiden_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/189_Deep Forest Maiden_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "189",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nCreatures you control with vigilance have \"{T}: Add {G}.\"",
+	},
+	
+	{
+		"name": "Diago Maldovo_DOV",
+		"mana_cost": "{3}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/150_Diago Maldovo_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "150",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Diago Maldovo enters, you may search your library for a card named Marie Laurent or Hans Nehmann and reveal that card. If you do, shuffle, then put the card on top of it.\nLegendary Allies you control have trample.",
+	},
+	
+	{
+		"name": "Disaffected Seraph_DOV",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/10_Disaffected Seraph_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "10",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Disaffected Seraph enters, you gain X life, where X is the number of creatures with flying you control.",
+	},
+	
+	{
+		"name": "Disguising Barber_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/54_Disguising Barber_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "54",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Disguising Barber enters, you may have another target creature you control become a copy of any creature on the battlefield for as long as you control Disguising Barber.",
+	},
+	
+	{
+		"name": "Divine Rule_DOV",
+		"mana_cost": "{3}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/11_Divine Rule_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "11",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nIf a source an opponent controls would deal damage to you, prevent 1 of that damage.\nWhenever you indulge, create a 4/4 white Angel creature token with flying.",
+	},
+	
+	{
+		"name": "Dockside Curfew_DOV",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/55_Dockside Curfew_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "The owner of target nonland permanent puts it on the top or bottom of their library. \n{2}, Discard Dockside Curfew: Search your library for a basic Island card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Doctor's Orders_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/100_Doctor's Orders_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "100",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Mill two cards. Each opponent discards two cards and loses 2 life.",
+	},
+	
+	{
+		"name": "Dominate Mind_DOV",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/56_Dominate Mind_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "56",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature.\n{1}{U}, Discard Dominate Mind: Tap target creature. It doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Downtrodden Butcher_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/101_Downtrodden Butcher_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "101",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sacrifice another creature or Food: Downtrodden Butcher dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Draconic Beckoning_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/151_Draconic Beckoning_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "151",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Create a 4/4 red Dragon creature token with flying.\n{R}, Discard Draconic Beckoning: It deals 1 damage to any target.",
+	},
+	
+	{
+		"name": "Dredge the Graves_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/102_Dredge the Graves_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return any number of target creature cards with total mana value 6 or less from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Ego Split_DOV",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/57_Ego Split_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "57",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Create two tokens that are copies of target creature. Put a ward {2} counter on one of those tokens and a flying counter on the other.",
+	},
+	
+	{
+		"name": "Elephant of the Golden Palace_DOV",
+		"mana_cost": "{7}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/262_Elephant of the Golden Palace_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "262",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Elephant of the Golden Palace enters with your choice of a lifelink counter or an indestructible counter on it if {W} was spent to cast it. The same is true for flying or ward {2} and {U}, deathtouch or menace and {B}, haste or double strike and {R}, and vigilance or trample and {G}.",
+	},
+	
+	{
+		"name": "Empress Cecile Anette_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/12_Empress Cecile Anette_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "12",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nNonbasic permanents your opponents control enter tapped as long as you have more life than that player.",
+	},
+	
+	{
+		"name": "En Garde_DOV",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/13_En Garde_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gains protection from the color of your choice until end of turn. Scry 1.",
+	},
+	
+	{
+		"name": "Enduring Jentil_DOV",
+		"mana_cost": "{3}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/190_Enduring Jentil_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "190",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance, reach\nWhen Enduring Jentil enters, create an artifact token named Menhir with \"{2}, {T}, Exile a creature or land card from your graveyard: Draw a card. You gain 2 life.\" \nWhenever Enduring Jentil attacks, you may sacrifice an artifact. If you do, Enduring Jentil deals damage equal to its power to target creature.",
+	},
+	
+	{
+		"name": "Enlightened Contributor_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/58_Enlightened Contributor_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "58",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Enlightened Inductee_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/59_Enlightened Inductee_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "59",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell with mana value 4 or greater, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",
+	},
+	
+	{
+		"name": "Enlightened Naturalist_DOV",
+		"mana_cost": "{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/236_Enlightened Naturalist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "236",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ward {1}\nWhenever one or more counters are put on Enlightened Naturalist, draw a card for each kind of counter put on it on it that it didn't have already.",
+	},
+	
+	{
+		"name": "Epicerie Liberator_DOV",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/191_Epicerie Liberator_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "191",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Epicerie Liberator attacks, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, you may put your choice of counter from among trample, vigilance, or +1/+1 on target creature you control.",
+	},
+	
+	{
+		"name": "Escargoliath_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/192_Escargoliath_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "192",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Escargoliath has deathtouch as long as it's your turn.",
+	},
+	
+	{
+		"name": "Evolving Wilds_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/273_Evolving Wilds_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "273",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Experimental Flight_DOV",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/60_Experimental Flight_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "60",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target artifact, creature, or planeswalker you control, then return that card to the battlefield under its owner's control. If it enters as a creature, it enters with a flying counter on it.",
+	},
+	
+	{
+		"name": "Explosive Canister_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/263_Explosive Canister_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "263",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{3}, {T}, Sacrifice Explosive Canister: Explosive Canister deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Extravagant Patisserie_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/274_Extravagant Patisserie_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "274",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may have Extravagant Patisserie enter tapped. When you do, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Feast of Whispered Knives_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/103_Feast of Whispered Knives_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "103",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, choose one -\n• Scry 2. Each opponent loses 2 life.\n• Create a tapped 2/1 black Rogue creature token with menace.\n• Target creature gets -2/-2 until end of turn.",
+	},
+	
+	{
+		"name": "Fencer's Foil_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/264_Fencer's Foil_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "264",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Fencer's Foil enters, you may attach it to target creature you control.\nEquipped creature gets +2/+0.\nEquip {3}",
+	},
+	
+	{
+		"name": "Fencing Master_DOV",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/152_Fencing Master_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "152",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever Fencing Master attacks, you may pay {R}. If you do, put a double strike counter on another target attacking creature.\n{1}{R}: Target creature you control gets +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Fiefwatcher Gargoyle_DOV",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/15_Fiefwatcher Gargoyle_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "15",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\n{2}, Discard Fiefwatcher Gargoyle: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Field Test_DOV",
+		"mana_cost": "{X}{X}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/104_Field Test_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "104",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Choose up to two -\n• Each creature gets -X/-X until end of turn.\n• Each opponent discards X cards.\n• You draw X cards and you lose X life.\n• Create an X/X black Zombie Horror creature token with menace.",
+	},
+	
+	{
+		"name": "Firebrand Disciple_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/153_Firebrand Disciple_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "153",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Firebrand Disciple enters, you may exile an instant or sorcery card from your graveyard. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Flooded Morass_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/275_Flooded Morass_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "275",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U} or {B}.)\nFlooded Morass enters the battlefield tapped unless you control a basic Island or a basic Swamp.",
+	},
+	
+	{
+		"name": "Florina, Heretical Preacher_DOV",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/296_Florina, Heretical Preacher_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "296",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Vigilance, lifelink\nRevolt - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, you may exile target permanent card with mana 2 or less from your graveyard. If you do, create a tapped token that's a copy of that card.",
+	},
+	
+	{
+		"name": "Flourishing Crevasse_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/276_Flourishing Crevasse_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "276",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R} or {G}.)\nFlourishing Crevasse enters the battlefield tapped unless you control a basic Mountain or a basic Forest.",
+	},
+	
+	{
+		"name": "Follow the Wildtrail_DOV",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/193_Follow the Wildtrail_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "193",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Search your library for a basic land card, reveal it, then shuffle. If you control six or more lands, put it onto the battlefield tapped. Otherwise, put it into your hand.",
+	},
+	
+	{
+		"name": "Forest_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/277_Forest_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "277",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Forest Romantic_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/278_Forest Romantic_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "278",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Foundation Assistant_DOV",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/61_Foundation Assistant_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "61",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{3}{U}: Draw a card, then discard a card.",
+	},
+	
+	{
+		"name": "Foundation Herbologist_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/194_Foundation Herbologist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "194",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {G}.",
+	},
+	
+	{
+		"name": "Foundation Magistrate_DOV",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/62_Foundation Magistrate_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "62",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may exile target instant or sorcery card from your graveyard. If you do, cast a copy of that card without paying its mana cost.",
+	},
+	
+	{
+		"name": "Frostfire Geysers_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/279_Frostfire Geysers_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "279",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U} or {R}.)\nFrostfire Geysers enters the battlefield tapped unless you control a basic Island or a basic Mountain.",
+	},
+	
+	{
+		"name": "Fungal Mire_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/280_Fungal Mire_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "280",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B} or {G}.)\nFungal Mire enters the battlefield tapped unless you control a basic Swamp or a basic Forest.",
+	},
+	
+	{
+		"name": "Gallant Fancypaw_DOV",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/16_Gallant Fancypaw_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "16",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ward {1}\nGallant Fancypaw can't be blocked by creatures with power 3 or greater.\nWhenever you cast an Aura or Equipment spell, you may pay {W}. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Gargantuan's Gluttony_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/196_Gargantuan's Gluttony_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "196",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Gargantuan's Gluttony enters, put three +1/+1 counters on enchanted creature.\nWhenever enchanted creature attacks, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Gargantuan Commander_DOV",
+		"mana_cost": "{6}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/195_Gargantuan Commander_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "195",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each kind of counter among permanents you control.\nReach, trample",
+	},
+	
+	{
+		"name": "Gato Shinygrabber_DOV",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/105_Gato Shinygrabber_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "105",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Gato Shinygrabber can't block.\nWhen Gato Shinygrabber dies, you may put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Gato Troubador_DOV",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/197_Gato Troubador_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nVigilance\nWhen Gato Troubador enters, untap each other creature you control. Other creatures you control with vigilance gain indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Gato Vigilante_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/17_Gato Vigilante_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\n{1}{W}: Gato Vigilante dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Gift-Giver Tyrus_DOV",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/237_Gift-Giver Tyrus_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "237",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Put a +1/+1 counter and your choice of counter from among deathtouch, flying or vigilance on up to one target creature.\n[-3]: Draw a card for each kind of counter among permanents you control.\n[-8]: You get an emblem with \"At the beginning of combat on your turn, you may double the number of each kind of counter on any number of target permanents you control.\"",
+	},
+	
+	{
+		"name": "Glauna, Decadent Demon_DOV",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/106_Glauna, Decadent Demon_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "106",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a loyalty counter on Glauna, Decadent Demon.\n[-1]: Create a 2/1 black Imp creature token with flying and \"This creature can't block.\"\n[-2]: Destroy target creature or planeswalker. Its controller loses 2 life.",
+	},
+	
+	{
+		"name": "Gloomcover Steppe_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/281_Gloomcover Steppe_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "281",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W} or {B}.)\nGloomcover Steppe enters the battlefield tapped unless you control a basic Plains or a basic Swamp.",
+	},
+	
+	{
+		"name": "Glowsac Webspinner_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/198_Glowsac Webspinner_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "198",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Glowsac Webspinner enters with a reach counter on it.\nWhen Glowsac Webspinner enters, you gain 1 life for each different kind of counter among permanents you control.",
+	},
+	
+	{
+		"name": "Goletre, Perfected Form_DOV",
+		"mana_cost": "{2}{B}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/238_Goletre, Perfected Form_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "238",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Goletre, Perfected Form enters with a lifelink counter, a +1/+1 counter, and a flying counter on it.\nWhenever a creature you control attacks, choose a kind of counter on it. You may put a counter of that kind on target creature you control other than that creature.",
+	},
+	
+	{
+		"name": "Goletre's Disciple_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/63_Goletre's Disciple_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "63",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Goletre's Disciple enters or attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it.",
+	},
+	
+	{
+		"name": "Gregarious Grenouille_DOV",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/64_Gregarious Grenouille_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "64",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nThis spell costs {1} less to cast for each kind of counter among permanents you control.\nWhenever Gregarious Grenouille enters or attacks, choose a counter on a permanent you control. Put a counter of that kind on Gregarious Grenouille if it doesn't have a counter of that kind on it.",
+	},
+	
+	{
+		"name": "Grisly Musketeer_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/107_Grisly Musketeer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "107",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Grisly Musketeer enters the battlefield tapped.\n{B}, Remove a counter from a creature or planeswalker you control: Return Grisly Musketeer from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Gustav, Pactmaker_DOV",
+		"mana_cost": "{3}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/239_Gustav, Pactmaker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "239",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, look at the top seven cards of your library. You may reveal an instant, sorcery, Demon, or Glauna card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Gustav's Bargain_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/108_Gustav's Bargain_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "108",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target player draws two cards and loses 2 life. Put a menace counter on up to one target creature you control.",
+	},
+	
+	{
+		"name": "Hans Nehmann_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/109_Hans Nehmann_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "109",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Hans Nehmann enters, you may search your library for a card named Marie Laurent or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top of it.\nLegendary Allies you control have lifelink.",
+	},
+	
+	{
+		"name": "Hart of Harnelle Wood_DOV",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/199_Hart of Harnelle Wood_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "199",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhen Hart of Harnelle Wood dies, you may put two +1/+1 counters on target creature you control.",
+	},
+	
+	{
+		"name": "Heart of the Glade_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/282_Heart of the Glade_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "282",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W} or {G}.)\nHeart of the Glade enters the battlefield tapped unless you control a basic Plains or a basic Forest.",
+	},
+	
+	{
+		"name": "Heraldic Griffin_DOV",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/18_Heraldic Griffin_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "18",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Heraldic Griffin or another creature you control enters, you may put your choice of counter from among lifelink, first strike or vigilance on that creature.\n{1}{W}, Remove a counter from a creature you control: That creature gains hexproof and indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Heretic Hunters_DOV",
+		"mana_cost": "{7}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/154_Heretic Hunters_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "154",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each instant and/or sorcery card in your graveyard.\nWhen Heretic Hunters enters, you may discard your hand. If you do, draw a card and Heretic Hunters deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Heroes Never Die_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/19_Heroes Never Die_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "19",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reveal the top three cards of your library. You may put a nonland permanent card with mana value 2 or less from among them or from your graveyard onto the battlefield tapped. Put the rest of the revealed cards on the bottom of your library in a random order. If a legendary permanent was put onto the battlefield this way, you gain 2 life.",
+	},
+	
+	{
+		"name": "Heroic Riposte_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/155_Heroic Riposte_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "155",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Target creature you control gets +1/+1 and gains first strike until end of turn.\n• Target legendary creature you control gets +1/+1 and gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Highborn Cavalry_DOV",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/20_Highborn Cavalry_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "20",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on each other creature you control.",
+	},
+	
+	{
+		"name": "Hoarding Culebre_DOV",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/65_Hoarding Culebre_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "65",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nFlying, ward {2}\nWhenever Hoarding Culebre enters or attacks, draw a card. Then if you have five or more cards in hand, create a Treasure token. ",
+	},
+	
+	{
+		"name": "Hold to the Flame_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/156_Hold to the Flame_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "156",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Hold to the Flame enters with a blaze counter on it.\nWhenever you cast an instant or sorcery spell with mana value 4 or greater, put a blaze counter on Hold to the Flame. Then it deals damage equal to the number of blaze counters on it to any target.",
+	},
+	
+	{
+		"name": "Humble Barkeep_DOV",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/21_Humble Barkeep_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "21",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Humble Barkeep enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, put a +1/+1 counter on Humble Barkeep.",
+	},
+	
+	{
+		"name": "Impetuous Knight_DOV",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/157_Impetuous Knight_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "157",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample, haste\nWhen Impetuous Knight enters, target opponent creates a Windmill artifact token with \"{T}: Prevent all combat damage target Knight would deal to you this turn\".\nImpetuous Knight attacks each combat if able as long as an opponent controls a Windmill.",
+	},
+	
+	{
+		"name": "Impressive Feats_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/22_Impressive Feats_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +2/+2 until end of turn. Untap that creature. Put a flying counter on it.",
+	},
+	
+	{
+		"name": "Indentured Labourer_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/110_Indentured Labourer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "110",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Indentured Labourer enters, you draw a card and lose 1 life.",
+	},
+	
+	{
+		"name": "Indomitable Stand_DOV",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/23_Indomitable Stand_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "23",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target blocking creature you control dares 10. (It becomes a legendary Rebel with base power and toughness 10/10 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Infernal Machine_DOV",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/265_Infernal Machine_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "265",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{3}, {T}: Choose a number between 1 and 4. Flip a coin. If you win the flip, Infernal Machine deals that much damage to any target. Otherwise, Infernal Machine deals that much damage to you.",
+	},
+	
+	{
+		"name": "Inquisitorial Assassin_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/111_Inquisitorial Assassin_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "111",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nDeathtouch",
+	},
+	
+	{
+		"name": "Inspired Youth_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/200_Inspired Youth_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, you may have Inspired Youth dare X, where X is that creature's power. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Into the Bullring_DOV",
+		"mana_cost": "{4}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/201_Into the Bullring_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "201",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control attacks alone, it fights up to one target creature defending player controls. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Intrusive Interrogation_DOV",
+		"mana_cost": "{X}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/66_Intrusive Interrogation_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "66",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target player mills twice X cards. (That player puts the top twice X cards from their library into their graveyard.)",
+	},
+	
+	{
+		"name": "Island Romantic_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/284_Island Romantic_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "284",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Island_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/283_Island_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "283",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "J'Accuse!_DOV",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/67_J'Accuse!_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "67",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell. That spell's controller reveals their hand.",
+	},
+	
+	{
+		"name": "Juana, Telhedo's Last Master_DOV",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/240_Juana, Telhedo's Last Master_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "240",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Other legendary creatures you control get +1/+1.\nWhenever a legendary creature you control attacks, exile the top card of your library. You may play that card this turn.\nWhenever you cast your fifth spell each turn, Juana deals 10 damage to any target.",
+	},
+	
+	{
+		"name": "Justice's Decree_DOV",
+		"mana_cost": "{4}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/24_Justice's Decree_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target nonland permanent. You gain 1 life for each counter on that permanent.",
+	},
+	
+	{
+		"name": "La Bete du Harnelle_DOV",
+		"mana_cost": "{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/202_La Bete du Harnelle_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "202",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, remove all counters from La Bete du Harnelle, then put two different counters of your choice not removed this way from among deathtouch, reach, vigilance, trample, or hexproof on it.",
+	},
+	
+	{
+		"name": "Lanternlight Assailant_DOV",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/68_Lanternlight Assailant_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "68",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell, surveil 1. Lanternlight Assailant gets +1/+0 and gains flying until end of turn.\nAs long as there are five or more instant and/or sorcery cards in your graveyard, instant and sorcery spells you cast cost {1} less to cast.",
+	},
+	
+	{
+		"name": "Lavatorn Fields_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/285_Lavatorn Fields_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "285",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B} or {R}.)\nLavatorn Fields enters the battlefield tapped unless you control a basic Swamp or a basic Mountain.",
+	},
+	
+	{
+		"name": "Lavish Host_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/112_Lavish Host_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "112",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on Lavish Host.",
+	},
+	
+	{
+		"name": "Learned Class_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/69_Learned Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "69",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}: Level 2\nWhen this Class becomes level 2, you may return target instant or sorcery card from your graveyard to your hand.\n{3}{U}: Level 3\nOnce each turn, when you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copies.",
+	},
+	
+	{
+		"name": "Lehmann's Tenacity_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/113_Lehmann's Tenacity_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +2/+0 and gains indestructible and lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Lengthy Lecture_DOV",
+		"mana_cost": "{5}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/70_Lengthy Lecture_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "70",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Draw three cards.\n• Return up to two target creatures to their owners' hands.",
+	},
+	
+	{
+		"name": "Let Them Eat Cake_DOV",
+		"mana_cost": "{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/25_Let Them Eat Cake_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "25",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target creature or planeswalker with mana value 3 or less. Its controller creates a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Lost in the Moment_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/71_Lost in the Moment_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "71",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhen Lost in the Moment enters, draw a card then discard a card.\nWhenever you indulge, each opponent mills four cards. (Those players put the top four cards from their library into their graveyard.)",
+	},
+	
+	{
+		"name": "Louna, the Ever-Learning_DOV",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/241_Louna, the Ever-Learning_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "241",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Louna, the Ever-Learning enters, for each kind of counter among permanents you control, you may put a counter of that kind on Louna, the Ever-Learning.",
+	},
+	
+	{
+		"name": "Lurking Gargoyle_DOV",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/266_Lurking Gargoyle_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "266",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nLurking Gargoyle enters with your choice of counter from among deathtouch, menace or vigilance on it.",
+	},
+	
+	{
+		"name": "Lush Oasis_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/286_Lush Oasis_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "286",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G} or {U}.)\nLush Oasis enters the battlefield tapped unless you control a basic Forest or a basic Island.",
+	},
+	
+	{
+		"name": "Lyceum Project_DOV",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/72_Lyceum Project_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "72",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nLyceum Project enters with a +1/+1 counter and a flying counter on it.\nWhen Lyceum Project dies, you may put its counters on target creature.",
+	},
+	
+	{
+		"name": "Maelle, Opulent Stoneshaper_DOV",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/242_Maelle, Opulent Stoneshaper_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "242",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a 1/1 blue Gargoyle artifact creature token with flying.",
+	},
+	
+	{
+		"name": "Marbled Messenger_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/73_Marbled Messenger_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "73",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Marbled Messenger enters, draw a card.",
+	},
+	
+	{
+		"name": "Marie Laurent_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/27_Marie Laurent_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "27",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Marie Laurent enters, you may search your library for a card named Hans Nehmann or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top of it.\nLegendary Allies you control have double strike.",
+	},
+	
+	{
+		"name": "Master of the Dark Arts_DOV",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/114_Master of the Dark Arts_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Master of the Dark Arts enters, you may exile an instant or sorcery card from your graveyard. If you do, each opponent sacrifices a creature.\nPay 2 life: Master of the Dark Arts gains flying and deathtouch until end of turn.",
+	},
+	
+	{
+		"name": "Master of the Ring_DOV",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/158_Master of the Ring_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "158",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of the Ring enters with an opponent's choice of two different counters on it from among menace, first strike, and trample.",
+	},
+	
+	{
+		"name": "Mathmatimancy_DOV",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/74_Mathmatimancy_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "74",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose a number between 0 and 5. Counter up to one target spell unless its controller pays {X}, where X is the chosen number. Then mill five minus X cards. You may return a card milled this way to your hand.",
+	},
+	
+	{
+		"name": "Meat-Market Heifer_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/28_Meat-Market Heifer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Meat-Market Heifer is put into a graveyard from anywhere, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Meowsician_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/29_Meowsician_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "29",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{3}{W}: Meowsician dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever a creature you control becomes a Rebel, create a 1/1 white Warrior creature token.",
+	},
+	
+	{
+		"name": "Minou, the Russet Whisker_DOV",
+		"mana_cost": "{1}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/243_Minou, the Russet Whisker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "243",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Minou, the Russet Whisker attacks, you may tap up to one target creature an opponent controls and untap up to one target creature you control. If the creature you control had vigilance, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Mob Hangman_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/115_Mob Hangman_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "115",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{1}{B}, Pay 2 life: Mob Hangman dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever Mob Hangman attacks, if it's a Rebel, each opponent sacrifices a creature or planeswalker unless they discard a card.",
+	},
+	
+	{
+		"name": "Mob Instigator_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/159_Mob Instigator_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "159",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control becomes a Rebel, creatures you control get +1/+0 until end of turn.\n{2}{R}: Mob Instigator dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Mortea, Bloodline Keeper_DOV",
+		"mana_cost": "{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/244_Mortea, Bloodline Keeper_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "244",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{B}, Pay 2 life: Mortea, Bloodline Keeper gets +1/+1 until end of turn.\nAt the beginning of your end step, if you have at least 7 life more than your starting life total, you may return Mortea from your graveyard to the battlefield tapped.",
+	},
+	
+	{
+		"name": "Mountain Romantic_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/288_Mountain Romantic_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "288",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Mountain_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/287_Mountain_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "287",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Mundaq, Unlikely Savior_DOV",
+		"mana_cost": "{2}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/160_Mundaq, Unlikely Savior_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "160",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Mundaq, Unlikely Savior can't be blocked by creatures whose power and toughness are equal.\n{1}{W}, Return another creature you control to its owner's hand: Put a +1/+1 counter on Mundaq.",
+	},
+	
+	{
+		"name": "Needle Out_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/116_Needle Out_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand. You choose a nonland card from it with mana value 4 or less. If you do, exile that card. Otherwise, draw a card.",
+	},
+	
+	{
+		"name": "Nitrous Elemental_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/75_Nitrous Elemental_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "75",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nOther creatures you control with flying get +1/+0.",
+	},
+	
+	{
+		"name": "Noble Class_DOV",
+		"mana_cost": "{W}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/245_Noble Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "245",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nNobles you control get +1/+1 and have ward {1}.\n{B}{W}: Level 2\nWhen this Class becomes level 2, you may search your library for a Noble card, reveal it, put it into your hand, then shuffle.\n{1}{B}{W}: Level 3\nWhen this Class becomes level 3, each opponent loses 3 life and you gain 3 life.",
+	},
+	
+	{
+		"name": "Noemie Beauclaire_DOV",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/246_Noemie Beauclaire_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "246",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may put a toxin counter on target creature an opponent controls. Surveil 1.\nCreatures your opponents control get -1/-1 for each toxin counter on them.",
+	},
+	
+	{
+		"name": "Nosferatu's Embrace_DOV",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/117_Nosferatu's Embrace_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+1.\n{2}{B}, Discard a card: Enchanted creature gains indestructible until end of turn. Tap it.",
+	},
+	
+	{
+		"name": "Ogre Gourmand_DOV",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/118_Ogre Gourmand_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "118",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Ogre Gourmand enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Ogre of the Gilded Halls_DOV",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/30_Ogre of the Gilded Halls_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{2}{W}: Ogre of the Gilded Halls gains indestructible until end of turn. Tap it.",
+	},
+	
+	{
+		"name": "Ollitie, Resourceful Tracker_DOV",
+		"mana_cost": "{B}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/247_Ollitie, Resourceful Tracker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "247",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reach, deathtouch\nOnce each turn, when a counter is put on a creature you control, you may put a counter of that kind on another creature you control.",
+	},
+	
+	{
+		"name": "On the Hunt_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/203_On the Hunt_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "203",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a vigilance counter on target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.",
+	},
+	
+	{
+		"name": "One for All_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/31_One for All_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "31",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Enchant creature you control\nAt the beginning of each combat, other creatures you control gain first strike until end of turn if enchanted creature has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, trample, vigilance, and ward.",
+	},
+	
+	{
+		"name": "Ordained Penitence_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/32_Ordained Penitence_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "32",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Ordained Penitence enters, you may put a lifelink counter on target creature you control.\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
+	},
+	
+	{
+		"name": "Pagentry Golem_DOV",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/267_Pagentry Golem_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "267",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a tapped token that's a copy of Pagentry Golem.",
+	},
+	
+	{
+		"name": "Palace Gargoyle_DOV",
+		"mana_cost": "{W}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/248_Palace Gargoyle_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "248",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nPalace Gargoyle can't attack or block unless you indulged during your last turn.",
+	},
+	
+	{
+		"name": "Paladin of the Crownguard_DOV",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/33_Paladin of the Crownguard_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "33",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Paladin of the Crownguard enters, you gain 3 life.\nPaladin of the Crownguard has first strike as long as it's your turn.",
+	},
+	
+	{
+		"name": "Parapet Awakener_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/76_Parapet Awakener_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "76",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, ward {1}\nParapet Awakener's power is equal to the number of creatures you control with flying.\n{4}{U}: Create a 1/1 blue Gargoyle artifact creature token with flying for each nontoken creature you control with flying.",
+	},
+	
+	{
+		"name": "Parapet Rake_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/77_Parapet Rake_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "77",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Parapet Rake deals combat damage to a player, you may put your choice of a flying counter or hexproof counter on Parapet Rake. If you don't, draw a card.",
+	},
+	
+	{
+		"name": "Passionate Firebrand_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/161_Passionate Firebrand_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "161",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell, you may have target creature you control dare X and gain flying until end of turn, where X is that spell's mana value. (That creature becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Patriarch's Call_DOV",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/119_Patriarch's Call_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "119",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Mill three cards, then you may return a creature card from your graveyard to the battlefield with a menace counter on it.",
+	},
+	
+	{
+		"name": "Patron of the Sciences_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/78_Patron of the Sciences_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "78",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Peasant Class_DOV",
+		"mana_cost": "{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/204_Peasant Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "204",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nTap an untapped land you control: Add one mana of any color. Activate only once each turn.\n{2}{G}: Level 2\nWhenever a land you control enters, create a Food token.\n{G}: Level 3\nWhen this Class becomes level 3, you may sacrifice a land. If you did, search your library for a land card, put that card onto the battlefield, then shuffle.",
+	},
+	
+	{
+		"name": "Peer Review_DOV",
+		"mana_cost": "{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/79_Peer Review_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "79",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose up to three different kinds of counters on permanents you control. For each of those kinds, you may put a counter of that kind on a permanent you control that doesn't have one.\nDraw a card.",
+	},
+	
+	{
+		"name": "Plains Romantic_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/290_Plains Romantic_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "290",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Plains_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/289_Plains_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "289",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Pool of Light_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/291_Pool of Light_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "291",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W} or {U}.)\nPool of Light enters the battlefield tapped unless you control a basic Plains or a basic Island.",
+	},
+	
+	{
+		"name": "Progenitor of Plagues_DOV",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/120_Progenitor of Plagues_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "120",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, you may pay 1 life. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Public Execution_DOV",
+		"mana_cost": "{5}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/121_Public Execution_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "121",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature an opponent controls. Each other creature that player controls gets -2/-0 until end of turn.",
+	},
+	
+	{
+		"name": "Pureheart Unicorn_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/34_Pureheart Unicorn_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nOther creatures you control with lifelink get +1/+1.\nIf another source you control with lifelink dealing damage would cause you to gain life, you gain twice that much life instead.",
+	},
+	
+	{
+		"name": "Quell Dissent_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/162_Quell Dissent_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "162",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Quell Dissent deals 3 damage to target creature. If that creature is legendary and/or a Rebel, Quell Dissent deals 5 damage to it instead.",
+	},
+	
+	{
+		"name": "Rabid Man-Eaters_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/163_Rabid Man-Eaters_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "163",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever another creature you control with menace attacks, create a token that's a copy of that creature that's tapped and attacking. Exile that token at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Rag to a Bull_DOV",
+		"mana_cost": "{5}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/164_Rag to a Bull_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "164",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Up to two target creatures can't block this turn. Create an X/1 red Ox creature token with trample and haste, where X is the total power of those creatures. Exile that token at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Rallying the Revolutionaries_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/205_Rallying the Revolutionaries_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "205",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Rallying the Revolutionaries enters, draw a card.\nActivated abilities of creatures you control cost up to {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
+	},
+	
+	{
+		"name": "Raze the Streets_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/165_Raze the Streets_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "165",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raze the Streets deals 4 damage to any target.\n{2}, Discard Raze the Streets: Search your library for a basic Mountain card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Rebel's Reclamation_DOV",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/166_Rebel's Reclamation_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "166",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one or both -\n• Destroy target artifact.\n• Put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Revoke Existence_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/35_Revoke Existence_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Revolutionary's Retreat_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/292_Revolutionary's Retreat_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "292",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast legendary spells or activate abilities of legendary permanents.\n{3}, {T}, Sacrifice Revolutionary's Retreat: You may return target legendary card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Revolutionary Class_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/36_Revolutionary Class_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "36",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nOnce each turn, when a creature with power 2 or less you control enters, you may pay {1}. If you do, draw a card.\n{1}{W}: Level 2\nAt the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.\n{3}{W}: Level 3\nWhen this Class becomes level 3, exile target nonland permanent an opponent controls until this Class leaves the battlefield.",
+	},
+	
+	{
+		"name": "Revolutionary Redistributer_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/206_Revolutionary Redistributer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "206",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Revolutionary Redistributer enters with three +1/+1 counters on it.\nAt the beginning of combat on your turn, you may move a counter from a permanent you control to a second permanent you control.",
+	},
+	
+	{
+		"name": "Revolutionary Supplier_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/167_Revolutionary Supplier_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "167",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Revolutionary Supplier enters, you may search your library for a card named Explosive Canister and/or a card named Fencer's Foil, reveal them, put them into your hand, then shuffle.\nThe first artifact spell you cast each turn costs {1} less to cast.",
+	},
+	
+	{
+		"name": "Rose Garden Guardian_DOV",
+		"mana_cost": "{5}{W}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/37_Rose Garden Guardian_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "37",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {X} less to cast, where X is the amount of life you have more than your starting life total\nLifelink\nWhen Rose Garden Guardian enters, put a +1/+1 counter on each other creature you control with lifelink.",
+	},
+	
+	{
+		"name": "Samacris the Soulscorcher_DOV",
+		"mana_cost": "{U}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/250_Samacris the Soulscorcher_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "250",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Instant and sorcery spells with mana value 4 or greater you cast cost {1} less to cast.\n{U}{R}, Sacrifice Samacris: Return target instant or sorcery card from your graveyard to your hand. The next spell you cast this turn with the same name as that card costs {2} less to cast.",
+	},
+	
+	{
+		"name": "Scorching Condemnation_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/168_Scorching Condemnation_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "168",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nPlayers can't gain life.\n{1}{R}: Scorching Condemnation becomes a 4/4 red Elemental creature with trample and haste in addition to its other types until end of turn. Activate only during your turn.",
+	},
+	
+	{
+		"name": "Searing Truthflame_DOV",
+		"mana_cost": "{5}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/169_Searing Truthflame_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "169",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, you may put a card from your hand on the bottom of your library. If you do, it costs {5} less to cast.\nSearing Truthflame deals 5 damage to target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Sentinel of the Deep Forest_DOV",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/207_Sentinel of the Deep Forest_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "207",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhenever a creature you control with vigilance attacks, put a +1/+1 counter on that creature.",
+	},
+	
+	{
+		"name": "Sheltering Melusine_DOV",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/80_Sheltering Melusine_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "80",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Sheltering Melusine enters, creatures your opponents control get -X/-0 until end of turn, where X is the number of instant and/or sorcery cards in your graveyard.",
+	},
+	
+	{
+		"name": "Siege at the Bastion d'Orlet_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/170_Siege at the Bastion d'Orlet_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "170",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, choose one at random. Create a colorless artifact Construct creature token with those characteristics.\n• 3/2 with trample named Battering Ram.\n• 1/3 with \"{T}: This creature deals 1 damage to any target\" named Bombard.\n• 0/4 with \"Whenever this creature attacks, create two 1/1 white Warrior creature tokens that are tapped and attacking\" named Siege Tower.",
+	},
+	
+	{
+		"name": "Signature Strike_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/38_Signature Strike_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "38",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +1/+1 until end of turn. Put a double strike counter on that creature.",
+	},
+	
+	{
+		"name": "Sire of Bloodlines_DOV",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/123_Sire of Bloodlines_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "123",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ward-Pay 3 life.\nWhenever another creature you control dies, put your choice of counter from among lifelink, deathtouch, menace or +1/+1 on Sire of Bloodlines.",
+	},
+	
+	{
+		"name": "Slavering Witchhounds_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/124_Slavering Witchhounds_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "124",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nOther creatures you control with menace get +1/+1.\nWhenever a creature you control with menace becomes blocked, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Smolderwing_DOV",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/171_Smolderwing_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "171",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nAt the beginning of combat on your turn, if you've cast an instant or sorcery spell with mana value 4 or greater this turn, you may return Smolderwing from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Smuggler's Convoy_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/268_Smuggler's Convoy_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "268",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more creatures crew Smuggler's Convoy, you may move any number of counters from those creatures to Smuggler's Convoy.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Speaker of Ash_DOV",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/251_Speaker of Ash_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "251",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Speaker of Ash enters, you may sacrifice a nonland permanent or discard a card. If you do, each opponent sacrifices a nonland permanent with mana value equal to the sacrificed permanent or discarded card's mana value.",
+	},
+	
+	{
+		"name": "Spellbane Sentinel_DOV",
+		"mana_cost": "{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/81_Spellbane Sentinel_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "81",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nSacrifice Spellbane Sentinel: Counter target noncreature spell unless its controller pays {1}.",
+	},
+	
+	{
+		"name": "Spiraling Canyon_DOV",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/293_Spiraling Canyon_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "293",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R} or {W}.)\nSpiraling Canyon enters the battlefield tapped unless you control a basic Mountain or basic Plains.",
+	},
+	
+	{
+		"name": "Spirited Protest_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/172_Spirited Protest_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "172",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Spirited Protest enters, create two 1/1 white Warrior creature tokens.\n{1}, Sacrifice Spirited Protest: Target creature you control gains haste until end of turn.",
+	},
+	
+	{
+		"name": "Sponsored Apprentice_DOV",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/82_Sponsored Apprentice_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "82",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may tap target artifact or creature. That permanent doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Stand for the Innocent_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/208_Stand for the Innocent_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "208",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control dares 6. (It becomes a legendary Rebel with base power and toughness 6/6 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Stonework Infuser_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/83_Stonework Infuser_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "83",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Stonework Infuser enters, create a 1/1 blue Gargoyle artifact creature token with flying.",
+	},
+	
+	{
+		"name": "Storming the Palace_DOV",
+		"mana_cost": "{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/252_Storming the Palace_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "252",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever an attacking creature you control dies, Storming the Palace deals 1 damage to each opponent and you gain 1 life.\nAt the beginning of combat on your turn, you may pay {R/W}. If you do, create a 1/1 red and white Peasant creature token with haste and \"This creature attacks each combat if able.\"",
+	},
+	
+	{
+		"name": "Strongarm Gambler_DOV",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/173_Strongarm Gambler_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "173",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when an opponent is dealt damage, you may pay {R} and discard up to X cards, where X is equal to the damage dealt. If you do, draw that many cards. Put a +1/+1 counter on Strongarm Gambler.",
+	},
+	
+	{
+		"name": "Strongarm Revolutionary_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/209_Strongarm Revolutionary_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "209",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Strongarm Revolutionary attacks, you may have it dare 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Studies in Cognitive Motion_DOV",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/84_Studies in Cognitive Motion_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "84",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, put X cards from your hand on the bottom of your library. This spell costs {X} less to cast.\nScry 2, then draw three cards.",
+	},
+	
+	{
+		"name": "Subsidized Studies_DOV",
+		"mana_cost": "{3}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/85_Subsidized Studies_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "85",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Surveil 2, then draw two cards. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Supporting Crowd_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/210_Supporting Crowd_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "210",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Supporting Crowd enters, you may have another target creature you control dare 5. (It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Suppressive Fire_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/125_Suppressive Fire_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "125",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets -3/-3 until end of turn. If that creature would die this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Swamp_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/294_Swamp_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "294",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Swamp Romantic_DOV",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/295_Swamp Romantic_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "295",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Symbol of the Revolution_DOV",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/39_Symbol of the Revolution_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "39",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{X}: Symbol of the Revolution dares X. X can't be 0. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)\nAs long as Symbol of the Revolution is a Rebel, it has flying, lifelink, and vigilance.",
+	},
+	
+	{
+		"name": "Telhedo Hoofbruisers_DOV",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/174_Telhedo Hoofbruisers_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "174",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Rebels you control have double strike.\n{2}{R}: Telhedo Hoofbruisers dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Telhedo Saboteur_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/211_Telhedo Saboteur_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "211",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n{1}, Sacrifice Telhedo Saboteur: Destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Telling Tall Tales_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/212_Telling Tall Tales_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "212",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Legendary creatures you control have ward {1}.\nAt the beginning of your end step, if you control a legendary creature, you may draw a card.",
+	},
+	
+	{
+		"name": "Tempting Darkfiend_DOV",
+		"mana_cost": "{2}{B}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/126_Tempting Darkfiend_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "126",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Tempting Darkfiend enters with a flying counter on it unless an opponent pays 2 life. The same is true for menace, deathtouch, lifelink, and indestructible counters.",
+	},
+	
+	{
+		"name": "Tenacious Snapvines_DOV",
+		"mana_cost": "{X}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/253_Tenacious Snapvines_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "253",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Tenacious Snapvines enters with X +1/+1 counters and your choice of up to X different counters from among deathtouch, lifelink, vigilance, trample, menace, reach or ward {2} on it.\nIf damage would be dealt to Tenacious Snapvines, remove a +1/+1 counter and another kind of counter from it. If you do, prevent that damage.",
+	},
+	
+	{
+		"name": "The Beauclaire Family_DOV",
+		"mana_cost": "{2}{W}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/228_The Beauclaire Family_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "228",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may gain control of target nonland permanent for as long as you control The Beauclaire Family.",
+	},
+	
+	{
+		"name": "The Fall of Berginon_DOV",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/14_The Fall of Berginon_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "14",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Choose one or both -\n• Remove all counters from all permanents.\n• Destroy all creatures.",
+	},
+	
+	{
+		"name": "The Love of a Lifetime_DOV",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/26_The Love of a Lifetime_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "26",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When The Love of a Lifetime enters, you may search your library for a legendary creature card that doesn't share a name with a creature you control, reveal it, put it into your hand, then shuffle.\nCreatures you control get +1/+1.",
+	},
+	
+	{
+		"name": "The Running of the Bulls_DOV",
+		"mana_cost": "{3}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/249_The Running of the Bulls_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "249",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, create a 3/3 red and green Ox creature token with haste. It attacks this combat if able.\nCreatures your opponents control with power less than or equal to the number of Oxen and Minotaurs you control can't block.",
+	},
+	
+	{
+		"name": "Thieving Catspaw_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/175_Thieving Catspaw_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "175",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}{R}: Thieving Catspaw dares 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)\nWhenever Thieving Catspaw becomes a Rebel, you may discard a card. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Thorngrafter_DOV",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/213_Thorngrafter_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "213",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Thorngrafter enters with a +1/+1 counter and your choice of counter from among deathtouch, reach, trample or vigilance on it.\n{1}, {T}: Put a +1/+1 counter on Thorngrafter.\n{T}: You may move a counter from Thorngrafter to another creature you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Thronebreaker Blade_DOV",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/269_Thronebreaker Blade_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "269",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever equipped creature attacks, you may have it dare 7 until end of turn. (It becomes a legendary Rebel with base power and toughness 7/7 in addition to its other types until end of turn.)\nEquip {3}",
+	},
+	
+	{
+		"name": "Tormenting Voice_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/176_Tormenting Voice_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "176",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+	},
+	
+	{
+		"name": "Torro Brawler_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/214_Torro Brawler_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "214",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance, trample",
+	},
+	
+	{
+		"name": "Traveler's Amulet_DOV",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/270_Traveler's Amulet_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "270",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Treasury Pilferer_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/215_Treasury Pilferer_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "215",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Treasury Pilferer becomes the target of a spell you control, you may have it dare 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever a Rebel you control deals combat damage to a player, you draw a card and create a Treasure token.",
+	},
+	
+	{
+		"name": "Trickster's Gambit_DOV",
+		"mana_cost": "{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/216_Trickster's Gambit_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "216",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +2/+2 until end of turn. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "True Dexterity_DOV",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/40_True Dexterity_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "40",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "True Dexterity deals 4 damage to target attacking, blocking or tapped creature.",
+	},
+	
+	{
+		"name": "Truffletusk_DOV",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/217_Truffletusk_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "217",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Truffletusk enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, you may create a 1/1 white Soldier creature token with vigilance.",
+	},
+	
+	{
+		"name": "Truthcleaver_DOV",
+		"mana_cost": "{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/254_Truthcleaver_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "254",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Truthcleaver attacks, you may have each player discard a card, then draw a card.\n{T}, Sacrifice Truthcleaver: Exile target card from a graveyard. If it was a noncreature, nonland card, you may cast a copy of it. (You still pay its costs.)",
+	},
+	
+	{
+		"name": "Truthflame Absolution_DOV",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/177_Truthflame Absolution_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "177",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player discards their hand, then draws seven cards. Create an X/X red Elemental creature token with haste, where X is the number of cards discarded this way.",
+	},
+	
+	{
+		"name": "Tyrus's Transformation_DOV",
+		"mana_cost": "{3}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/86_Tyrus's Transformation_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "86",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nCreate a 4/4 white Angel creature token with flying.\nDraw a card.",
+	},
+	
+	{
+		"name": "Unburnt Maiden_DOV",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/41_Unburnt Maiden_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "41",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "First strike, vigilance\nWhenever Unburnt Maiden enters or attacks, you may have it dare X, where X is the number of creatures you control. If you don't, create a 1/1 white Warrior creature token. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Undercroft Poisoner_DOV",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/127_Undercroft Poisoner_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "127",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n{1}{B}, {T}, Pay 1 life: Create a Food token.\nOnce each turn, when you sacrifice one or more non-Rat permanents, you may pay {B}. If you do, create a 1/1 black Rat creature token with \"This creature can't block.\"",
+	},
+	
+	{
+		"name": "Underhanded Revolutionary_DOV",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/128_Underhanded Revolutionary_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "128",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhenever another creature you control dies, you may have Underhanded Revolutionary dare 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Understand Phenomena_DOV",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/87_Understand Phenomena_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "87",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+1 until end of turn. Put a hexproof counter on that creature.",
+	},
+	
+	{
+		"name": "Undo Reality_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/88_Undo Reality_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "88",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target nonland permanent an opponent controls to its owner's hand. You may draw a card. If you do, discard a card.",
+	},
+	
+	{
+		"name": "Uninvited Vampire_DOV",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/129_Uninvited Vampire_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "129",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, menace\nAs Uninvited Vampire enters, choose a creature an opponent controls. Uninvited Vampire has defender as long as that creature is on the battlefield.",
+	},
+	
+	{
+		"name": "United Cause_DOV",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/42_United Cause_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +1/+1 until end of turn. Legendary creatures you control gain indestructible until end of turn.",
+	},
+	
+	{
+		"name": "United in Arms_DOV",
+		"mana_cost": "{X}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/218_United in Arms_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "218",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Untap up to two target creatures you control. You may have those creatures dare X until end of turn. (They become legendary Rebels with base power and toughness X/X in addition to their other types until end of turn.)",
+	},
+	
+	{
+		"name": "Unruly Villagers_DOV",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/219_Unruly Villagers_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "219",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\n{1}{G}: Unruly Villagers dares 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Unstable Concoction_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/130_Unstable Concoction_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "130",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target player sacrifices a creature or planeswalker. You may put a deathtouch counter on up to one target creature you control, then that player loses 1 life for each creature you control with deathtouch.",
+	},
+	
+	{
+		"name": "Unveil the Menagerie_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/220_Unveil the Menagerie_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "220",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Look at the top six cards of your library. Put up to two creature cards with total mana value 5 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order. Put a trample counter on one of them. Then put a vigilance counter on one of them.",
+	},
+	
+	{
+		"name": "Vaudlin, the Self-Taught_DOV",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/131_Vaudlin, the Self-Taught_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "131",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Protection from deathtouch (This creature can't be blocked, targeted, dealt damage, or enchanted by anything with deathtouch.)\n{T}: Put a deathtouch counter on another target creature. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Vaudlin's Fleshfinder_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/221_Vaudlin's Fleshfinder_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "221",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{G}: Exile target card from a graveyard. If it was a creature card, you gain 1 life. If it was a noncreature, nonland card, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Vault of Poisons_DOV",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/271_Vault of Poisons_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "271",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vault of Poisons enters with a dose counter on it.\nWhenever a Noble you control enters, put a dose counter on Vault of Poisons.\n{4}, {T}: Each opponent loses X life and you gain X life, where X is the number of dose counters on Vault of Poisons.",
+	},
+	
+	{
+		"name": "Vector Transmission_DOV",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/132_Vector Transmission_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "132",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature or Food.\nDestroy target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Vengeful Mother_DOV",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/178_Vengeful Mother_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "178",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\n{2}{R}: Vengeful Mother gets +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Vivaire, Sanguine Patriarch_DOV",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/255_Vivaire, Sanguine Patriarch_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "255",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Lifelink, deathtouch\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on each Noble you control.",
+	},
+	
+	{
+		"name": "Vivaire's Hedonist_DOV",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/133_Vivaire's Hedonist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "133",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, each opponent loses 2 life.",
+	},
+	
+	{
+		"name": "Wallbreaker_DOV",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/222_Wallbreaker_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "222",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Wallbreaker enters, put a +1/+1 counter on up to one other target creature you control with trample. If you do, you may have that creature deal damage equal to its power to target creature or planeswalker you don't control.",
+	},
+	
+	{
+		"name": "Waltzing Marquise_DOV",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/43_Waltzing Marquise_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "43",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may untap target permanent you control.",
+	},
+	
+	{
+		"name": "Wandering Hedge-Mage_DOV",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/89_Wandering Hedge-Mage_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Wandering Hedge-Mage enters, you may return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a Treasure token.",
+	},
+	
+	{
+		"name": "Wanton Decadence_DOV",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/44_Wanton Decadence_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "44",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more creatures attack you, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+	},
+	
+	{
+		"name": "Warden of Herds_DOV",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/223_Warden of Herds_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "223",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Ward {3}\nAt the beginning of your end step, create a 1/1 green Goat Spirit creature token. For each kind of counter on Warden of Herds, you may put that many counters of that kind on that token.",
+	},
+	
+	{
+		"name": "Waterglass Duelist_DOV",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/90_Waterglass Duelist_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "90",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when you cast an instant or sorcery spell, you may create a 1/0 blue Elemental creature token.\nElementals you control get +1/+1.\n{2}{U}, Sacrifice an Elemental: Tap up to one target creature. Scry 1.",
+	},
+	
+	{
+		"name": "Wealthy Clergyman_DOV",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/45_Wealthy Clergyman_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "45",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice Wealthy Clergyman: Another target creature you control gains hexproof and indestructible until end of turn. If that creature is a Noble, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Wicked Steed_DOV",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/134_Wicked Steed_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "134",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature dies, if it had one or more counters on it, you may put one of those counters on Wicked Steed.",
+	},
+	
+	{
+		"name": "Wildcaster Ogre_DOV",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/179_Wildcaster Ogre_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "179",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Wildcaster Ogre enters, exile an instant or sorcery card from your graveyard at random. You may cast a copy of that spell without paying its mana cost.",
+	},
+	
+	{
+		"name": "Wildtrail Hermit_DOV",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/224_Wildtrail Hermit_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "224",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Wildtrail Hermit enters with a +1/+1 counter on it.\nWhen Wildtrail Hermit dies, you may put its counters on target creature you control.",
+	},
+	
+	{
+		"name": "Witchfinder Artur_DOV",
+		"mana_cost": "{1}{U}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/256_Witchfinder Artur_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "256",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever Witchfinder Artur enters or attacks, each opponent mills two cards and loses 2 life.\nWhenever you cast an instant or sorcery spell, you may exile target instant or sorcery card with mana value less than that spell's mana value from an opponent's graveyard. If you do, cast a copy of the exiled card without paying its mana cost.",
+	},
+	
+	{
+		"name": "Wretched Sackman_DOV",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/135_Wretched Sackman_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "135",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhen Wretched Sackman dies, create a 2/2 black Zombie creature token with \"This creature can't block.\"",
+	},
+	
+	{
+		"name": "Zolo, the Freehorn_DOV",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/225_Zolo, the Freehorn_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "225",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Trample\nRebels you control have trample.\n{X}{G}: Another target creature you control dares twice X. Activate only as a sorcery. (That creature becomes a legendary Rebel with base power and toughness twice X/X in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Zolo's Right Horn_DOV",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/180_Zolo's Right Horn_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "180",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control becomes a Rebel, Zolo's Right Horn deals 2 damage to each opponent.\n{3}{R}: Zolo's Right Horn dares 5. (It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)",
+	},
+	
+	{
+		"name": "Enduring Jentil (Obelix the Gaul)_DOV",
+		"mana_cost": "{3}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/305_Enduring Jentil (Obelix the Gaul)_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "305",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Vigilance, reach\nWhen Enduring Jentil enters, create an artifact token named Menhir with \"{2}, {T}, Exile a creature or land card from your graveyard: Draw a card. You gain 2 life.\" \nWhenever Enduring Jentil attacks, you may sacrifice an artifact. If you do, Enduring Jentil deals damage equal to its power to target creature.",
+	},
+	
+	{
+		"name": "Telling Tall Tales (Fate)_DOV",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/311_Telling Tall Tales (Fate)_DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "311",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Legendary creatures you control have ward {1}.\nAt the beginning of your end step, if you control a legendary creature, you may draw a card.",
+	},
+	
+	{
+		"name": "red Dragon 44DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/13t_red Dragon 44DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "red and green Ox 33DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/17t_red and green Ox 33DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste",
+	},
+	
+	{
+		"name": "black Spirit 00DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/10t_black Spirit 00DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Cleric Noble 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/2t_white Cleric Noble 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink",
+	},
+	
+	{
+		"name": "white Soldier 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/3t_white Soldier 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "Treasure DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/25t_Treasure DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "25",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Food",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/22t_Food.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.",
+	},
+	
+	{
+		"name": "white Warrior 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/4t_white Warrior 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Angel 44DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/1t_white Angel 44DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "Menhir DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/23t_Menhir DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}, Exile a creature or land card from your graveyard: Draw a card. You gain 2 life.",
+	},
+	
+	{
+		"name": "black Rogue 21DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/9t_black Rogue 21DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace",
+	},
+	
+	{
+		"name": "black Zombie Horror DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/12t_black Zombie Horror DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "12",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace",
+	},
+	
+	{
+		"name": "black Imp 21DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/7t_black Imp 21DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nThis creature can't block.",
+	},
+	
+	{
+		"name": "colorless Windmill DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/26t_colorless Windmill DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Prevent all combat damage target Knight would deal to you this turn.",
+	},
+	
+	{
+		"name": "Siege Tower DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/24t_Siege Tower DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever this creature attacks, create two 1/1 white Warrior creature tokens that are tapped and attacking",
+	},
+	
+	{
+		"name": "red and white Peasant 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/18t_red and white Peasant 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "18",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nThis creature attacks each combat if able.",
+	},
+	
+	{
+		"name": "red Elemental DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/14t_red Elemental DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste",
+	},
+	
+	{
+		"name": "black Rat 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/8t_black Rat 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This creature can't block.",
+	},
+	
+	{
+		"name": "green Goat Spirit 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/16t_green Goat Spirit 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "16",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "blue Elemental 10DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/5t_blue Elemental 10DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "black Zombie 22DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/11t_black Zombie 22DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This creature can't block.",
+	},
+	
+	{
+		"name": "Battering Ram DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/19t_Battering Ram DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "Bombard DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/20t_Bombard DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: This creature deals 1 damage to any target.",
+	},
+	
+	{
+		"name": "blue Gargoyle 11DOV",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/6t_blue Gargoyle 11DOV.jpg",
+		"colors": [],
+		"set": "DOV",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	]
+[Common]
+20 Above the Fog_DOV
+20 Alehana's Eyes_DOV
+20 Alehana's Fleshsearer_DOV
+20 Anointed Escort_DOV
+20 Arachnid Ambush_DOV
+20 Artur's Tightening Vice_DOV
+20 Baron-at-Court_DOV
+20 Bastion Breaker_DOV
+20 Bastion Walls_DOV
+20 Beastbond Instructor_DOV
+20 Belligerent Peluda_DOV
+20 Bladeforge Instructor_DOV
+20 Bleakheart Instructor_DOV
+20 Brass Baker_DOV
+20 Bravewing Hero_DOV
+20 Break the Line_DOV
+20 By Imperial Decree_DOV
+20 Carving Instructor_DOV
+20 Cinder Hatchling_DOV
+20 Climactic Finish_DOV
+20 Colossal Tarasque_DOV
+20 Condemn to Death_DOV
+20 Crowdqueller Golem_DOV
+20 Crownguard Enforcer_DOV
+20 Crownguard Instructor_DOV
+20 Darkhunt Pesanta_DOV
+20 Decadent Duchess_DOV
+20 Dockside Curfew_DOV
+20 Doctor's Orders_DOV
+20 Downtrodden Butcher_DOV
+20 Dredge the Graves_DOV
+20 En Garde_DOV
+20 Enlightened Contributor_DOV
+20 Escargoliath_DOV
+20 Evolving Wilds_DOV
+20 Explosive Canister_DOV
+20 Extravagant Patisserie_DOV
+20 Fencer's Foil_DOV
+20 Fiefwatcher Gargoyle_DOV
+20 Firebrand Disciple_DOV
+20 Follow the Wildtrail_DOV
+20 Foundation Assistant_DOV
+20 Foundation Herbologist_DOV
+20 Gargantuan's Gluttony_DOV
+20 Gato Vigilante_DOV
+20 Glowsac Webspinner_DOV
+20 Gustav's Bargain_DOV
+20 Hart of Harnelle Wood_DOV
+20 Heretic Hunters_DOV
+20 Heroic Riposte_DOV
+20 Humble Barkeep_DOV
+20 Impressive Feats_DOV
+20 Indentured Labourer_DOV
+20 Inquisitorial Assassin_DOV
+20 Intrusive Interrogation_DOV
+20 J'Accuse!_DOV
+20 Justice's Decree_DOV
+20 Lavish Host_DOV
+20 Lehmann's Tenacity_DOV
+20 Lengthy Lecture_DOV
+20 Lurking Gargoyle_DOV
+20 Marbled Messenger_DOV
+20 Master of the Dark Arts_DOV
+20 Meat-Market Heifer_DOV
+20 Needle Out_DOV
+20 Nosferatu's Embrace_DOV
+20 Ogre Gourmand_DOV
+20 Ogre of the Gilded Halls_DOV
+20 On the Hunt_DOV
+20 Ordained Penitence_DOV
+20 Paladin of the Crownguard_DOV
+20 Peer Review_DOV
+20 Quell Dissent_DOV
+20 Raze the Streets_DOV
+20 Rebel's Reclamation_DOV
+20 Revoke Existence_DOV
+20 Searing Truthflame_DOV
+20 Sheltering Melusine_DOV
+20 Sponsored Apprentice_DOV
+20 Stand for the Innocent_DOV
+20 Stonework Infuser_DOV
+20 Strongarm Revolutionary_DOV
+20 Subsidized Studies_DOV
+20 Suppressive Fire_DOV
+20 Telhedo Saboteur_DOV
+20 Thieving Catspaw_DOV
+20 Tormenting Voice_DOV
+20 Torro Brawler_DOV
+20 Traveler's Amulet_DOV
+20 Trickster's Gambit_DOV
+20 True Dexterity_DOV
+20 Truffletusk_DOV
+20 Understand Phenomena_DOV
+20 Undo Reality_DOV
+20 United Cause_DOV
+20 Unruly Villagers_DOV
+20 Vector Transmission_DOV
+20 Vengeful Mother_DOV
+20 Vivaire's Hedonist_DOV
+20 Waltzing Marquise_DOV
+20 Wandering Hedge-Mage_DOV
+20 Wildtrail Hermit_DOV
+20 Wretched Sackman_DOV
+20 Zolo's Right Horn_DOV
+
+[Uncommon]
+10 Abscond_DOV
+10 Absolver of Ashes_DOV
+10 Absorbed Painter_DOV
+10 Adaptive Blade_DOV
+10 Arrogant Cabalist_DOV
+10 Banish to the Isle_DOV
+10 Barreling Bull_DOV
+10 Bloodfeast Baron_DOV
+10 Bloodstained Shalena_DOV
+10 Bordertown Watch-Warden_DOV
+10 Braise_DOV
+10 Brazen Intimidation_DOV
+10 Campaign of Retribution_DOV
+10 Carlacio, Riot Instigator_DOV
+10 Catacomb Stewards_DOV
+10 Cecile's Suppressor_DOV
+10 Conspiracy of Wealth_DOV
+10 Contagion Brewer_DOV
+10 Corpse Thieves_DOV
+10 Crowdcleaver_DOV
+10 Cuernas, Victor of the Ring_DOV
+10 Decorated Duelist_DOV
+10 Deep Forest Maiden_DOV
+10 Diago Maldovo_DOV
+10 Disaffected Seraph_DOV
+10 Dominate Mind_DOV
+10 Draconic Beckoning_DOV
+10 Enlightened Inductee_DOV
+10 Epicerie Liberator_DOV
+10 Experimental Flight_DOV
+10 Gargantuan Commander_DOV
+10 Gato Shinygrabber_DOV
+10 Gato Troubador_DOV
+10 Gregarious Grenouille_DOV
+10 Grisly Musketeer_DOV
+10 Hans Nehmann_DOV
+10 Heroes Never Die_DOV
+10 Highborn Cavalry_DOV
+10 Indomitable Stand_DOV
+10 Inspired Youth_DOV
+10 Let Them Eat Cake_DOV
+10 Lost in the Moment_DOV
+10 Louna, the Ever-Learning_DOV
+10 Lyceum Project_DOV
+10 Maelle, Opulent Stoneshaper_DOV
+10 Marie Laurent_DOV
+10 Mathmatimancy_DOV
+10 Meowsician_DOV
+10 Minou, the Russet Whisker_DOV
+10 Mob Instigator_DOV
+10 Mortea, Bloodline Keeper_DOV
+10 Nitrous Elemental_DOV
+10 Noemie Beauclaire_DOV
+10 Ollitie, Resourceful Tracker_DOV
+10 Parapet Rake_DOV
+10 Patriarch's Call_DOV
+10 Patron of the Sciences_DOV
+10 Public Execution_DOV
+10 Rag to a Bull_DOV
+10 Revolutionary's Retreat_DOV
+10 Revolutionary Redistributer_DOV
+10 Revolutionary Supplier_DOV
+10 Rose Garden Guardian_DOV
+10 Samacris the Soulscorcher_DOV
+10 Slavering Witchhounds_DOV
+10 Smolderwing_DOV
+10 Smuggler's Convoy_DOV
+10 Spellbane Sentinel_DOV
+10 Spirited Protest_DOV
+10 Supporting Crowd_DOV
+10 Telhedo Hoofbruisers_DOV
+10 Telling Tall Tales_DOV
+10 Thorngrafter_DOV
+10 Tyrus's Transformation_DOV
+10 Underhanded Revolutionary_DOV
+10 United in Arms_DOV
+10 Unstable Concoction_DOV
+10 Vaudlin's Fleshfinder_DOV
+10 Vault of Poisons_DOV
+10 Wallbreaker_DOV
+10 Wanton Decadence_DOV
+10 Wealthy Clergyman_DOV
+10 Wicked Steed_DOV
+10 Wildcaster Ogre_DOV
+
+[Rare]
+4 A Scent to Die For_DOV
+4 Aspiring Hero_DOV
+4 Beauclaire's Scorn_DOV
+4 Bourgeois Class_DOV
+4 Burning Witch_DOV
+4 Cabal Class_DOV
+4 Court of Miracles_DOV
+4 Crownguard Ban_DOV
+4 Disguising Barber_DOV
+4 Divine Rule_DOV
+4 Enduring Jentil_DOV
+4 Enlightened Naturalist_DOV
+4 Feast of Whispered Knives_DOV
+4 Flooded Morass_DOV
+4 Flourishing Crevasse_DOV
+4 Foundation Magistrate_DOV
+4 Frostfire Geysers_DOV
+4 Fungal Mire_DOV
+4 Gallant Fancypaw_DOV
+4 Gloomcover Steppe_DOV
+4 Goletre's Disciple_DOV
+4 Gustav, Pactmaker_DOV
+4 Heart of the Glade_DOV
+4 Heraldic Griffin_DOV
+4 Hoarding Culebre_DOV
+4 Hold to the Flame_DOV
+4 Impetuous Knight_DOV
+4 Infernal Machine_DOV
+4 Into the Bullring_DOV
+4 Juana, Telhedo's Last Master_DOV
+4 La Bete du Harnelle_DOV
+4 Lanternlight Assailant_DOV
+4 Lavatorn Fields_DOV
+4 Learned Class_DOV
+4 Lush Oasis_DOV
+4 Master of the Ring_DOV
+4 Mob Hangman_DOV
+4 Mundaq, Unlikely Savior_DOV
+4 Noble Class_DOV
+4 One for All_DOV
+4 Pagentry Golem_DOV
+4 Palace Gargoyle_DOV
+4 Parapet Awakener_DOV
+4 Passionate Firebrand_DOV
+4 Peasant Class_DOV
+4 Pool of Light_DOV
+4 Progenitor of Plagues_DOV
+4 Pureheart Unicorn_DOV
+4 Rabid Man-Eaters_DOV
+4 Rallying the Revolutionaries_DOV
+4 Revolutionary Class_DOV
+4 Scorching Condemnation_DOV
+4 Sentinel of the Deep Forest_DOV
+4 Signature Strike_DOV
+4 Sire of Bloodlines_DOV
+4 Speaker of Ash_DOV
+4 Spiraling Canyon_DOV
+4 Studies in Cognitive Motion_DOV
+4 Tenacious Snapvines_DOV
+4 The Fall of Berginon_DOV
+4 The Running of the Bulls_DOV
+4 Thronebreaker Blade_DOV
+4 Treasury Pilferer_DOV
+4 Truthflame Absolution_DOV
+4 Unburnt Maiden_DOV
+4 Undercroft Poisoner_DOV
+4 Uninvited Vampire_DOV
+4 Unveil the Menagerie_DOV
+4 Vaudlin, the Self-Taught_DOV
+4 Warden of Herds_DOV
+2 Against All Odds_DOV
+2 Alehana the Persuader_DOV
+2 Antivo, Foundation Chair_DOV
+2 Armed Uprising_DOV
+2 Blooming Cocollona_DOV
+2 Cathette, Righteous Princess_DOV
+2 D'Enzo Orsino_DOV
+2 Ego Split_DOV
+2 Elephant of the Golden Palace_DOV
+2 Empress Cecile Anette_DOV
+2 Fencing Master_DOV
+2 Field Test_DOV
+2 Gift-Giver Tyrus_DOV
+2 Glauna, Decadent Demon_DOV
+2 Goletre, Perfected Form_DOV
+2 Siege at the Bastion d'Orlet_DOV
+2 Storming the Palace_DOV
+2 Strongarm Gambler_DOV
+2 Symbol of the Revolution_DOV
+2 Tempting Darkfiend_DOV
+2 The Beauclaire Family_DOV
+2 The Love of a Lifetime_DOV
+2 Truthcleaver_DOV
+2 Vivaire, Sanguine Patriarch_DOV
+2 Waterglass Duelist_DOV
+2 Witchfinder Artur_DOV
+2 Zolo, the Freehorn_DOV
+
+[Land]
+20 Forest_DOV
+20 Forest Romantic_DOV
+20 Island Romantic_DOV
+20 Island_DOV
+20 Mountain Romantic_DOV
+20 Mountain_DOV
+20 Plains Romantic_DOV
+20 Plains_DOV
+20 Swamp_DOV
+20 Swamp Romantic_DOV
+
+[Token]
+20 red Dragon 44DOV
+20 red and green Ox 33DOV
+20 black Spirit 00DOV
+20 white Cleric Noble 11DOV
+20 white Soldier 11DOV
+20 Treasure DOV
+20 Food
+20 white Warrior 11DOV
+20 white Angel 44DOV
+20 Menhir DOV
+20 black Rogue 21DOV
+20 black Zombie Horror DOV
+20 black Imp 21DOV
+20 colorless Windmill DOV
+20 Siege Tower DOV
+20 red and white Peasant 11DOV
+20 red Elemental DOV
+20 black Rat 11DOV
+20 green Goat Spirit 11DOV
+20 blue Elemental 10DOV
+20 black Zombie 22DOV
+20 Battering Ram DOV
+20 Bombard DOV
+20 blue Gargoyle 11DOV
+
+[Wildcard]
+6 Above the Fog_DOV
+6 Alehana's Eyes_DOV
+6 Alehana's Fleshsearer_DOV
+6 Anointed Escort_DOV
+6 Arachnid Ambush_DOV
+6 Artur's Tightening Vice_DOV
+6 Baron-at-Court_DOV
+6 Bastion Breaker_DOV
+6 Bastion Walls_DOV
+6 Beastbond Instructor_DOV
+6 Belligerent Peluda_DOV
+6 Bladeforge Instructor_DOV
+6 Bleakheart Instructor_DOV
+6 Brass Baker_DOV
+6 Bravewing Hero_DOV
+6 Break the Line_DOV
+6 By Imperial Decree_DOV
+6 Carving Instructor_DOV
+6 Cinder Hatchling_DOV
+6 Climactic Finish_DOV
+6 Colossal Tarasque_DOV
+6 Condemn to Death_DOV
+6 Crowdqueller Golem_DOV
+6 Crownguard Enforcer_DOV
+6 Crownguard Instructor_DOV
+6 Darkhunt Pesanta_DOV
+6 Decadent Duchess_DOV
+6 Dockside Curfew_DOV
+6 Doctor's Orders_DOV
+6 Downtrodden Butcher_DOV
+6 Dredge the Graves_DOV
+6 En Garde_DOV
+6 Enlightened Contributor_DOV
+6 Escargoliath_DOV
+6 Evolving Wilds_DOV
+6 Explosive Canister_DOV
+6 Extravagant Patisserie_DOV
+6 Fencer's Foil_DOV
+6 Fiefwatcher Gargoyle_DOV
+6 Firebrand Disciple_DOV
+6 Follow the Wildtrail_DOV
+6 Foundation Assistant_DOV
+6 Foundation Herbologist_DOV
+6 Gargantuan's Gluttony_DOV
+6 Gato Vigilante_DOV
+6 Glowsac Webspinner_DOV
+6 Gustav's Bargain_DOV
+6 Hart of Harnelle Wood_DOV
+6 Heretic Hunters_DOV
+6 Heroic Riposte_DOV
+6 Humble Barkeep_DOV
+6 Impressive Feats_DOV
+6 Indentured Labourer_DOV
+6 Inquisitorial Assassin_DOV
+6 Intrusive Interrogation_DOV
+6 J'Accuse!_DOV
+6 Justice's Decree_DOV
+6 Lavish Host_DOV
+6 Lehmann's Tenacity_DOV
+6 Lengthy Lecture_DOV
+6 Lurking Gargoyle_DOV
+6 Marbled Messenger_DOV
+6 Master of the Dark Arts_DOV
+6 Meat-Market Heifer_DOV
+6 Needle Out_DOV
+6 Nosferatu's Embrace_DOV
+6 Ogre Gourmand_DOV
+6 Ogre of the Gilded Halls_DOV
+6 On the Hunt_DOV
+6 Ordained Penitence_DOV
+6 Paladin of the Crownguard_DOV
+6 Peer Review_DOV
+6 Quell Dissent_DOV
+6 Raze the Streets_DOV
+6 Rebel's Reclamation_DOV
+6 Revoke Existence_DOV
+6 Searing Truthflame_DOV
+6 Sheltering Melusine_DOV
+6 Sponsored Apprentice_DOV
+6 Stand for the Innocent_DOV
+6 Stonework Infuser_DOV
+6 Strongarm Revolutionary_DOV
+6 Subsidized Studies_DOV
+6 Suppressive Fire_DOV
+6 Telhedo Saboteur_DOV
+6 Thieving Catspaw_DOV
+6 Tormenting Voice_DOV
+6 Torro Brawler_DOV
+6 Traveler's Amulet_DOV
+6 Trickster's Gambit_DOV
+6 True Dexterity_DOV
+6 Truffletusk_DOV
+6 Understand Phenomena_DOV
+6 Undo Reality_DOV
+6 United Cause_DOV
+6 Unruly Villagers_DOV
+6 Vector Transmission_DOV
+6 Vengeful Mother_DOV
+6 Vivaire's Hedonist_DOV
+6 Waltzing Marquise_DOV
+6 Wandering Hedge-Mage_DOV
+6 Wildtrail Hermit_DOV
+6 Wretched Sackman_DOV
+6 Zolo's Right Horn_DOV
+4 Abscond_DOV
+4 Absolver of Ashes_DOV
+4 Absorbed Painter_DOV
+4 Adaptive Blade_DOV
+4 Arrogant Cabalist_DOV
+4 Banish to the Isle_DOV
+4 Barreling Bull_DOV
+4 Bloodfeast Baron_DOV
+4 Bloodstained Shalena_DOV
+4 Bordertown Watch-Warden_DOV
+4 Braise_DOV
+4 Brazen Intimidation_DOV
+4 Campaign of Retribution_DOV
+4 Carlacio, Riot Instigator_DOV
+4 Catacomb Stewards_DOV
+4 Cecile's Suppressor_DOV
+4 Conspiracy of Wealth_DOV
+4 Contagion Brewer_DOV
+4 Corpse Thieves_DOV
+4 Crowdcleaver_DOV
+4 Cuernas, Victor of the Ring_DOV
+4 Decorated Duelist_DOV
+4 Deep Forest Maiden_DOV
+4 Diago Maldovo_DOV
+4 Disaffected Seraph_DOV
+4 Dominate Mind_DOV
+4 Draconic Beckoning_DOV
+4 Enlightened Inductee_DOV
+4 Epicerie Liberator_DOV
+4 Experimental Flight_DOV
+4 Gargantuan Commander_DOV
+4 Gato Shinygrabber_DOV
+4 Gato Troubador_DOV
+4 Gregarious Grenouille_DOV
+4 Grisly Musketeer_DOV
+4 Hans Nehmann_DOV
+4 Heroes Never Die_DOV
+4 Highborn Cavalry_DOV
+4 Indomitable Stand_DOV
+4 Inspired Youth_DOV
+4 Let Them Eat Cake_DOV
+4 Lost in the Moment_DOV
+4 Louna, the Ever-Learning_DOV
+4 Lyceum Project_DOV
+4 Maelle, Opulent Stoneshaper_DOV
+4 Marie Laurent_DOV
+4 Mathmatimancy_DOV
+4 Meowsician_DOV
+4 Minou, the Russet Whisker_DOV
+4 Mob Instigator_DOV
+4 Mortea, Bloodline Keeper_DOV
+4 Nitrous Elemental_DOV
+4 Noemie Beauclaire_DOV
+4 Ollitie, Resourceful Tracker_DOV
+4 Parapet Rake_DOV
+4 Patriarch's Call_DOV
+4 Patron of the Sciences_DOV
+4 Public Execution_DOV
+4 Rag to a Bull_DOV
+4 Revolutionary's Retreat_DOV
+4 Revolutionary Redistributer_DOV
+4 Revolutionary Supplier_DOV
+4 Rose Garden Guardian_DOV
+4 Samacris the Soulscorcher_DOV
+4 Slavering Witchhounds_DOV
+4 Smolderwing_DOV
+4 Smuggler's Convoy_DOV
+4 Spellbane Sentinel_DOV
+4 Spirited Protest_DOV
+4 Supporting Crowd_DOV
+4 Telhedo Hoofbruisers_DOV
+4 Telling Tall Tales_DOV
+4 Thorngrafter_DOV
+4 Tyrus's Transformation_DOV
+4 Underhanded Revolutionary_DOV
+4 United in Arms_DOV
+4 Unstable Concoction_DOV
+4 Vaudlin's Fleshfinder_DOV
+4 Vault of Poisons_DOV
+4 Wallbreaker_DOV
+4 Wanton Decadence_DOV
+4 Wealthy Clergyman_DOV
+4 Wicked Steed_DOV
+4 Wildcaster Ogre_DOV
+2 A Scent to Die For_DOV
+2 Aspiring Hero_DOV
+2 Beauclaire's Scorn_DOV
+2 Bourgeois Class_DOV
+2 Burning Witch_DOV
+2 Cabal Class_DOV
+2 Court of Miracles_DOV
+2 Crownguard Ban_DOV
+2 Disguising Barber_DOV
+2 Divine Rule_DOV
+2 Enduring Jentil_DOV
+2 Enlightened Naturalist_DOV
+2 Feast of Whispered Knives_DOV
+2 Flooded Morass_DOV
+2 Flourishing Crevasse_DOV
+2 Foundation Magistrate_DOV
+2 Frostfire Geysers_DOV
+2 Fungal Mire_DOV
+2 Gallant Fancypaw_DOV
+2 Gloomcover Steppe_DOV
+2 Goletre's Disciple_DOV
+2 Gustav, Pactmaker_DOV
+2 Heart of the Glade_DOV
+2 Heraldic Griffin_DOV
+2 Hoarding Culebre_DOV
+2 Hold to the Flame_DOV
+2 Impetuous Knight_DOV
+2 Infernal Machine_DOV
+2 Into the Bullring_DOV
+2 Juana, Telhedo's Last Master_DOV
+2 La Bete du Harnelle_DOV
+2 Lanternlight Assailant_DOV
+2 Lavatorn Fields_DOV
+2 Learned Class_DOV
+2 Lush Oasis_DOV
+2 Master of the Ring_DOV
+2 Mob Hangman_DOV
+2 Mundaq, Unlikely Savior_DOV
+2 Noble Class_DOV
+2 One for All_DOV
+2 Pagentry Golem_DOV
+2 Palace Gargoyle_DOV
+2 Parapet Awakener_DOV
+2 Passionate Firebrand_DOV
+2 Peasant Class_DOV
+2 Pool of Light_DOV
+2 Progenitor of Plagues_DOV
+2 Pureheart Unicorn_DOV
+2 Rabid Man-Eaters_DOV
+2 Rallying the Revolutionaries_DOV
+2 Revolutionary Class_DOV
+2 Scorching Condemnation_DOV
+2 Sentinel of the Deep Forest_DOV
+2 Signature Strike_DOV
+2 Sire of Bloodlines_DOV
+2 Speaker of Ash_DOV
+2 Spiraling Canyon_DOV
+2 Studies in Cognitive Motion_DOV
+2 Tenacious Snapvines_DOV
+2 The Fall of Berginon_DOV
+2 The Running of the Bulls_DOV
+2 Thronebreaker Blade_DOV
+2 Treasury Pilferer_DOV
+2 Truthflame Absolution_DOV
+2 Unburnt Maiden_DOV
+2 Undercroft Poisoner_DOV
+2 Uninvited Vampire_DOV
+2 Unveil the Menagerie_DOV
+2 Vaudlin, the Self-Taught_DOV
+2 Warden of Herds_DOV
+1 Against All Odds_DOV
+1 Alehana the Persuader_DOV
+1 Antivo, Foundation Chair_DOV
+1 Armed Uprising_DOV
+1 Blooming Cocollona_DOV
+1 Cathette, Righteous Princess_DOV
+1 D'Enzo Orsino_DOV
+1 Ego Split_DOV
+1 Elephant of the Golden Palace_DOV
+1 Empress Cecile Anette_DOV
+1 Fencing Master_DOV
+1 Field Test_DOV
+1 Gift-Giver Tyrus_DOV
+1 Glauna, Decadent Demon_DOV
+1 Goletre, Perfected Form_DOV
+1 Siege at the Bastion d'Orlet_DOV
+1 Storming the Palace_DOV
+1 Strongarm Gambler_DOV
+1 Symbol of the Revolution_DOV
+1 Tempting Darkfiend_DOV
+1 The Beauclaire Family_DOV
+1 The Love of a Lifetime_DOV
+1 Truthcleaver_DOV
+1 Vivaire, Sanguine Patriarch_DOV
+1 Waterglass Duelist_DOV
+1 Witchfinder Artur_DOV
+1 Zolo, the Freehorn_DOV

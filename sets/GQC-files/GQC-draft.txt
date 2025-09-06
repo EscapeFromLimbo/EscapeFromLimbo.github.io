@@ -1,0 +1,4015 @@
+
+[Settings]
+{
+	"name": "Ghariv: the Quaking City",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Aberrant Uproar_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/175_Aberrant Uproar_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "175",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTarget creature you control gets +2/+2 until end of turn if it's colorless. That creature fights target creature you don't control. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Admire the Flawed Form_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/94_Admire the Flawed Form_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "94",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return up to two target creature cards from your graveyard to your hand. You lose 2 life.",
+	},
+	
+	{
+		"name": "All Is Dust_GQC",
+		"mana_cost": "{7}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/1_All Is Dust_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "1",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player sacrifices each permanent they control that's one or more colors.",
+	},
+	
+	{
+		"name": "Ancient Stirrings_GQC",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/176_Ancient Stirrings_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "176",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Look at the top five cards of your library. You may reveal a colorless card from among them and put it into your hand. Then put the rest on the bottom of your library in any order.",
+	},
+	
+	{
+		"name": "Angel of Remembrance_GQC",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/13_Angel of Remembrance_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "13",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever you scry, you may return target creature card with mana value 3 or less from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Angelic Smite_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/14_Angelic Smite_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "14",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target blocked or blocking creature.",
+	},
+	
+	{
+		"name": "Anointer of Fresh Graves_GQC",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/215_Anointer of Fresh Graves_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "215",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Anointer of Fresh Graves enters, create two 1/1 black Horror creature tokens.\nWhenever another creature dies, put a +1/+1 counter on Anointer of Fresh Graves.",
+	},
+	
+	{
+		"name": "Anomalous Shrine_GQC",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/241_Anomalous Shrine_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "241",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}{C}{C}.\n{5}, {T}: Draw a card.",
+	},
+	
+	{
+		"name": "Arcane Strategist_GQC",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/54_Arcane Strategist_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "54",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Arcane Strategist enters, mill two cards, then scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+	},
+	
+	{
+		"name": "Archangel of Rekindling_GQC",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/15_Archangel of Rekindling_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "15",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Archangel of Rekindling enters, exile up to one other target permanent. Return that card to the battlefield under its owner's control at the beginning of their next upkeep.",
+	},
+	
+	{
+		"name": "Ashen Progenitor_GQC",
+		"mana_cost": "{9}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/2_Ashen Progenitor_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "2",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Ashen Progenitor enters, create three 3/2 colorless Eldrazi creature tokens.",
+	},
+	
+	{
+		"name": "Azumoth, the Fated Ruin_GQC",
+		"mana_cost": "{14}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/3_Azumoth, the Fated Ruin_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "3",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "When you cast this spell, gain control of target player until the end of their next main phase.\nIndestructible\nWhenever Azumoth enters or attacks, each opponent exiles two permanents they control with different mana values.\nIf Azumoth would be put into a graveyard from anywhere, reveal Azumoth and shuffle it into its owner's library instead.",
+	},
+	
+	{
+		"name": "Baptize in His Brilliance_GQC",
+		"mana_cost": "{W}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/16_Baptize in His Brilliance_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "16",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control enters this turn, put a flying counter, a first strike counter, and a lifelink counter on it.\nCoalesce {3}{W}{W} (You may cast this for {3}{W}{W} from your graveyard. If you do, put it onto the battlefield as an Angel Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Battering Savage_GQC",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/134_Battering Savage_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "134",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Battering Savage dies, you may destroy target nonbasic colorless permanent.",
+	},
+	
+	{
+		"name": "Battlefront Lancer_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/17_Battlefront Lancer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "17",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "First strike\nAt the beginning of combat on your turn, target creature you control gets +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Beacon of the Lost_GQC",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/216_Beacon of the Lost_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "216",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, lifelink\nYou may cast Beacon of the Lost from your graveyard if you've lost life and gained life this turn.",
+	},
+	
+	{
+		"name": "Bearer of Last Wishes_GQC",
+		"mana_cost": "{5}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/95_Bearer of Last Wishes_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "95",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Bearer of Last Wishes enters, you may discard your hand. If you do, search your library for two cards and put those cards into your hand, then shuffle.",
+	},
+	
+	{
+		"name": "Become the Behemoth_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/177_Become the Behemoth_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "177",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTarget creature gets +5/+5 until end of turn.",
+	},
+	
+	{
+		"name": "Behold Bizarre Sublimity_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/55_Behold Bizarre Sublimity_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "55",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nDraw two cards.\nCoalesce {5}{U} (You may cast this for {5}{U} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nFlying",
+	},
+	
+	{
+		"name": "Bestower of Haloes_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/18_Bestower of Haloes_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "18",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Bestower of Haloes enters, you may search your library for a reverent creature card, reveal it, put it into your hand, then shuffle. (Angels, Clerics, and Demons are reverent.)\n{2}{W}{W}: Bestower of Haloes gets +3/+3 and gains lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Blood Churner_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/135_Blood Churner_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "135",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\n{4}{R}: Blood Churner deals 2 damage to target player.",
+	},
+	
+	{
+		"name": "Bloodied Champion_GQC",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/136_Bloodied Champion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Bloodied Champion enters, you may pay {2}{R}. If you do, Bloodied Champion deals 5 damage to target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Bloodshed Paramour_GQC",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/217_Bloodshed Paramour_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "217",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you lose life during your turn, Bloodshed Paramour gets +1/+0 until end of turn.\nWhenever Bloodshed Paramour attacks, it gains your choice of first strike or menace until end of turn.",
+	},
+	
+	{
+		"name": "Bloodwoken Demon_GQC",
+		"mana_cost": "{5}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/96_Bloodwoken Demon_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "96",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Bloodwoken Demon enters, choose target creature card in your graveyard. If that card is reverent, return it to the battlefield. Otherwise, return it to your hand. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Bringer of Antithesis_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/56_Bringer of Antithesis_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "56",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\nColorless permanents you control have \"Whenever this permanent becomes the target of a spell for the first time each turn, counter that spell.\"",
+	},
+	
+	{
+		"name": "Brood Drudge_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/178_Brood Drudge_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "178",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Burgeoning Thrall_GQC",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/137_Burgeoning Thrall_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "137",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen Burgeoning Thrall enters, put your choice of a +1/+1 counter or menace counter on target colorless creature you control.",
+	},
+	
+	{
+		"name": "Callous Tactician_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/97_Callous Tactician_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "97",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever an opponent sacrifices a permanent, put a +1/+1 counter on Callous Tactician and that player loses 1 life.\n{3}{B}: Each player sacrifices a creature.",
+	},
+	
+	{
+		"name": "Cataclysmic Witness_GQC",
+		"mana_cost": "{6}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/138_Cataclysmic Witness_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "138",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nMenace\n{1}{R}, Sacrifice a nonland permanent: Cataclysmic Witness gets +2/+0 until end of turn. If the sacrificed permanent was colorless, Cataclysmic Witness deals 2 damage to any target.",
+	},
+	
+	{
+		"name": "Cathartic Reunion_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/139_Cathartic Reunion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "139",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, discard two cards.\nDraw three cards.",
+	},
+	
+	{
+		"name": "Celestial Shepherd_GQC",
+		"mana_cost": "{3}{G}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/218_Celestial Shepherd_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "218",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying, trample, haste\nAt the beginning of combat on your turn, look at the top three cards of your library. You may exile a creature card with mana value 3 or less from among them or from your hand. Put the rest of the revealed cards on the bottom of your library in any order, then put all creature cards exiled with Celestial Shepherd onto the battlefield. They gain flying, trample, and haste until end of turn. Exile them at end of combat.",
+	},
+	
+	{
+		"name": "Cerebral Leech_GQC",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/57_Cerebral Leech_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "57",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nCounter target spell an opponent controls. If a card would be put into that player's graveyard this turn, exile that card instead.",
+	},
+	
+	{
+		"name": "Cerebral Twinge_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/58_Cerebral Twinge_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "58",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nCounter target spell unless its controller pays {3}. Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Chamber of Penance_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/19_Chamber of Penance_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "19",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Chamber of Penance enters, exile target nonland permanent an opponent controls until Chamber of Penance leaves the battlefield.",
+	},
+	
+	{
+		"name": "Clutch of the Pale Moon_GQC",
+		"mana_cost": "{4}{U}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/219_Clutch of the Pale Moon_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "219",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return up to one target creature card from your graveyard to the battlefield, then return up to one target noncreature card from your graveyard to your hand. Exile Clutch of the Pale Moon.",
+	},
+	
+	{
+		"name": "Cobalt Basin_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/246_Cobalt Basin_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "246",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Consecrated Wrath_GQC",
+		"mana_cost": "{X}{R}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/140_Consecrated Wrath_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "140",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Consecrated Wrath deals X damage to each of up to X targets.",
+	},
+	
+	{
+		"name": "Consumed Temple_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/247_Consumed Temple_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "247",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{3}, {T}: Add {C} for each Eldrazi you control. Spend this mana only to cast colorless spells.",
+	},
+	
+	{
+		"name": "Courtyard Obelisk_GQC",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/243_Courtyard Obelisk_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "243",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color.\n{3}, {T}, Sacrifice Courtyard Obelisk: Draw two cards.",
+	},
+	
+	{
+		"name": "Crimson Finale_GQC",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/141_Crimson Finale_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "141",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nCrimson Finale deals 1 damage to each player and each creature your opponents control. If a creature dealt damage this way would die this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Crucify_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/98_Crucify_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "98",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may pay {B} and 4 life rather than pay this spell's mana cost.\nTarget creature gets -5/-5 until end of turn.",
+	},
+	
+	{
+		"name": "Cursory Glance_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/59_Cursory Glance_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "59",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell with mana value 3 or less.",
+	},
+	
+	{
+		"name": "Cybres-Clan Arbiter_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/20_Cybres-Clan Arbiter_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "20",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nAs Cybres-Clan Arbiter enters, look at an opponent's hand, then choose a noncreature card name.\nSpells with the chosen name cost {2} more to cast.",
+	},
+	
+	{
+		"name": "Cybres-Clan Chieftain_GQC",
+		"mana_cost": "{3}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/220_Cybres-Clan Chieftain_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "220",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\n{1}{G}{W}: Put a +1/+1 counter on target Centaur you control.",
+	},
+	
+	{
+		"name": "Cybres-Clan Squire_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/21_Cybres-Clan Squire_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "21",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever another Centaur you control enters, put a +1/+1 counter on Cybres-Clan Squire.",
+	},
+	
+	{
+		"name": "Cybres-Clan Warband_GQC",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/179_Cybres-Clan Warband_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "179",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Cybres-Clan Warband enters or dies, you gain 3 life.\nWhenever Cybres-Clan Warband becomes the target of a spell, you may draw a card.",
+	},
+	
+	{
+		"name": "Dark Blood Font_GQC",
+		"mana_cost": "{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/99_Dark Blood Font_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "99",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, each player loses 1 life.\n{B}, Sacrifice Dark Blood Font: Search your library for a card and put it into your hand, then shuffle. Activate only if a player lost life three or more times this turn.",
+	},
+	
+	{
+		"name": "Dark Blood Seer_GQC",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/100_Dark Blood Seer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "100",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, look at the top X cards of your library, where X is the number of reverent creatures you control. Reveal one of them and put it into your hand, then put the rest into your graveyard. You lose life equal to the mana value of the revealed card. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Dark Blood Zealots_GQC",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/60_Dark Blood Zealots_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "60",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Shroud (This permanent can't be the target of spells or abilities.)\n{U}: Dark Blood Zealots gets +1/-1 until end of turn.",
+	},
+	
+	{
+		"name": "Dark Rite Cleric_GQC",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/101_Dark Rite Cleric_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "101",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{1}{B}, {T}: If you lost life this turn and you discarded a card or sacrificed a nonland permanent this turn, Dark Rite Cleric becomes a 5/5 Demon and gains flying. (This effect lasts indefinitely.)\nWhenever Dark Rite Cleric attacks, if it's a Demon, you may pay 5 life. If you do, draw five cards.",
+	},
+	
+	{
+		"name": "Dawning Angel_GQC",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/22_Dawning Angel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Dawning Angel enters, you gain 4 life.",
+	},
+	
+	{
+		"name": "Deserted Steppe_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/255_Deserted Steppe_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "255",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W} or {B}.)\nDeserted Steppe enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Diving Skyknight_GQC",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/61_Diving Skyknight_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "61",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Diving Skyknight enters, return another target creature to its owner's hand.",
+	},
+	
+	{
+		"name": "Dreadful Deal_GQC",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/102_Dreadful Deal_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "102",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You gain 2 life and draw two cards. Each opponent loses 2 life and discards two cards.",
+	},
+	
+	{
+		"name": "Drifting Drone_GQC",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/62_Drifting Drone_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "62",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Dross Incubator_GQC",
+		"mana_cost": "{2}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/221_Dross Incubator_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "221",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever you cast an instant, sorcery, or colorless spell, create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\" Then if it's the third spell you've cast this turn, creatures you control get +2/+1 and gain haste until end of turn.",
+	},
+	
+	{
+		"name": "Duel at Thorne Chapel_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/103_Duel at Thorne Chapel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "103",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target creature with mana value 3 or less.",
+	},
+	
+	{
+		"name": "Eerie Ambush_GQC",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/180_Eerie Ambush_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "180",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPut your choice of a +1/+1 counter or trample counter on target creature you control. It deals damage equal to its power to target creature you don't control.",
+	},
+	
+	{
+		"name": "Eldrazi Depredator_GQC",
+		"mana_cost": "{8}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/4_Eldrazi Depredator_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Eldrazi Depredator enters, each opponent sacrifices two permanents.",
+	},
+	
+	{
+		"name": "Eldrazi Fleshripper_GQC",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/142_Eldrazi Fleshripper_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "142",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTrample, haste",
+	},
+	
+	{
+		"name": "Eldritch Aria_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/143_Eldritch Aria_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "143",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you lose life during your turn, choose one that hasn't been chosen -\n• Discard a card, then draw a card.\n• Target creature can't block this turn.\n• Target creature gets +2/+0 until end of turn.\n• Sacrifice Eldritch Aria. It deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Embrace Hellfire_GQC",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/144_Embrace Hellfire_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "144",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if you've lost life this turn.\nEmbrace Hellfire deals 5 damage to target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Embrace Unending Frost_GQC",
+		"mana_cost": "{U}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/63_Embrace Unending Frost_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "63",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTap up to one target creature. It doesn't untap during its controller's next untap step.\nCoalesce {3}{U} (You may cast this for {3}{U} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Emerald Lieutenant_GQC",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/181_Emerald Lieutenant_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "181",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nOther untapped Centaurs you control get +1/+1.\n{1}{G}: Target Centaur you control gains vigilance until end of turn.",
+	},
+	
+	{
+		"name": "Empyrean Bastion_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/23_Empyrean Bastion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "23",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Defender\nAt the beginning of your upkeep, create a 0/3 colorless Wall artifact creature token with defender. If you control six or more creatures with defender, create three 3/3 white Angel creature tokens with flying instead.",
+	},
+	
+	{
+		"name": "Esoteric Power_GQC",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/145_Esoteric Power_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "145",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nEsoteric Power deals 3 damage to target creature and 1 damage to you.",
+	},
+	
+	{
+		"name": "Evolving Wilds_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/248_Evolving Wilds_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "248",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Exotic Game Hunter_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/182_Exotic Game Hunter_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "182",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on Exotic Game Hunter.",
+	},
+	
+	{
+		"name": "Eyeless Encroacher_GQC",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/146_Eyeless Encroacher_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Faith in Darkness_GQC",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/24_Faith in Darkness_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +2/+2 until end of turn. Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Fashion Temples from Flesh_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/104_Fashion Temples from Flesh_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "104",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Up to one target creature gets -2/-2 until end of turn. Create a 1/1 black Horror creature token.\nCoalesce {6}{B} (You may cast this for {6}{B} from your graveyard. If you do, put it onto the battlefield as a Demon Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Feed the Nyrmouth_GQC",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/105_Feed the Nyrmouth_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "105",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature. Create a 1/1 black Horror creature token.",
+	},
+	
+	{
+		"name": "Flexile Maw_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/147_Flexile Maw_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "147",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nMenace\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Flourish in Calamity_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/183_Flourish in Calamity_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "183",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nDraw a card. You may put a basic land card from your hand onto the battlefield tapped.\nCoalesce {5}{G}{G} (You may cast this for {5}{G}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Forest_GQC",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/254_Forest_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "254",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Forlorn Templar_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/148_Forlorn Templar_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "148",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Forlorn Templar enters, it deals 1 damage to target creature an opponent controls and 1 damage to you.",
+	},
+	
+	{
+		"name": "Forsaken Devotee_GQC",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/149_Forsaken Devotee_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "149",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{R}, {T}: Target creature with power 2 or less can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Fortified Palisade_GQC",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/222_Fortified Palisade_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "222",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender\n{1}{R}{W}, {T}: Fortified Palisade deals 3 damage to any target and you gain 3 life. Activate this ability only if you control three or more creatures with defender.",
+	},
+	
+	{
+		"name": "Forum Arbalestier_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/184_Forum Arbalestier_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "184",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach\nWhen Forum Arbalestier enters, draw a card.",
+	},
+	
+	{
+		"name": "Forum Patrol_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/25_Forum Patrol_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "25",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you scry for the first time each turn, you gain life equal to the number of cards you looked at.",
+	},
+	
+	{
+		"name": "Fractured Terror_GQC",
+		"mana_cost": "{5}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/5_Fractured Terror_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "5",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{1}: Fractured Terror gains haste until end of turn.\n{2}: Fractured Terror gets +2/+0 until end of turn.\nWhenever Fractured Terror becomes the target of a spell an opponent controls, that player reveals their hand. You choose a nonland card from it and exile that card.",
+	},
+	
+	{
+		"name": "Frontier Markswomen_GQC",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/185_Frontier Markswomen_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "185",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance, reach",
+	},
+	
+	{
+		"name": "Frontline Cavalier_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/26_Frontline Cavalier_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "Gallant Centaur_GQC",
+		"mana_cost": "{5}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/186_Gallant Centaur_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "186",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gallant Centaur can't be blocked by more than one creature.",
+	},
+	
+	{
+		"name": "Gaping Pursuer_GQC",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/150_Gaping Pursuer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "150",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFirst strike\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Ghariv, the Quaking City_GQC",
+		"mana_cost": "{6}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/244_Ghariv, the Quaking City_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "244",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Indestructible (Effects that say \"destroy\" don't destroy this permanent.)\n[+1]: Draw a card, then you may put a card from your hand onto the battlefield face down as a 2/2 artifact creature.\n[-2]: Choose a permanent an opponent controls. That player sacrifices that permanent unless they sacrifice two other permanents.\n[-8]: Sacrifice any number of permanents, then put up to that many permanent cards you own from outside the game onto the battlefield.",
+	},
+	
+	{
+		"name": "Ghirin, Cerulean Sibyl_GQC",
+		"mana_cost": "{7}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/64_Ghirin, Cerulean Sibyl_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "64",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen you cast Ghirin, return up to two target permanents to their owner's hand.\nWhenever an opponent casts a spell, they mill ten cards.\n{3}{U}: Cast target nonland card in an opponent's graveyard without paying its mana cost.",
+	},
+	
+	{
+		"name": "Glade Missionary_GQC",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/187_Glade Missionary_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "187",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Glade Missionary enters, choose one -\n• Mill four cards.\n• You gain 4 life.",
+	},
+	
+	{
+		"name": "Gnarled Henge_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/256_Gnarled Henge_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "256",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R} or {W}.)\nGnarled Henge enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Gossamer Tyrant_GQC",
+		"mana_cost": "{7}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/65_Gossamer Tyrant_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "65",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen Gossamer Tyrant enters, draw a card.",
+	},
+	
+	{
+		"name": "Grasp at Frail Dreams_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/66_Grasp at Frail Dreams_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "66",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nLook at the top three cards of your library. Put one into your hand and the rest into your graveyard.\nCoalesce {5}{U}{U} (You may cast this for {5}{U}{U} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Grave Conscription_GQC",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/106_Grave Conscription_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "106",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return target creature card with mana value 4 or less from your graveyard to the battlefield. Put your choice of a +1/+1 counter or deathtouch counter on it.",
+	},
+	
+	{
+		"name": "Greenglade Advocate_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/188_Greenglade Advocate_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "188",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Greenglade Advocate enters, put a +1/+1 counter on each Centaur you control.\n{G}, Remove a +1/+1 counter from a creature you control: That creature gains indestructible until end of turn. Tap it.",
+	},
+	
+	{
+		"name": "Greenglade Purifier_GQC",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/189_Greenglade Purifier_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "189",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Greenglade Purifier enters, you may destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Grind Vacant Husks_GQC",
+		"mana_cost": "{G}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/190_Grind Vacant Husks_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "190",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever a creature you control enters this turn, it fights target creature you don't control.\nCoalesce {4}{G}{G}{G} (You may cast this for {4}{G}{G}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Grotesque Skimmer_GQC",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/67_Grotesque Skimmer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "67",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Harbinger of Dusk_GQC",
+		"mana_cost": "{7}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/191_Harbinger of Dusk_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "191",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nReach\nWhen Harbinger of Dusk enters, exile target noncreature permanent an opponent controls.",
+	},
+	
+	{
+		"name": "Harrowing Revivalist_GQC",
+		"mana_cost": "{3}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/223_Harrowing Revivalist_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "223",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Harrowing Revivalist enters, create four 1/1 black Horror creature tokens.\nHorrors you control get +1/+1.\nAt the beginning of your upkeep, sacrifice a creature.",
+	},
+	
+	{
+		"name": "Haze Herald_GQC",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/151_Haze Herald_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "151",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nDouble strike\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")\nOther colorless creatures you control get +2/+0.",
+	},
+	
+	{
+		"name": "Hematic Contract_GQC",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/107_Hematic Contract_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "107",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has \"At the beginning of your upkeep, sacrifice a creature.\"\nWhen enchanted creature dies, return it to the battlefield under your control.",
+	},
+	
+	{
+		"name": "Hero of a Lost War_GQC",
+		"mana_cost": "{1}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/224_Hero of a Lost War_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "224",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, target Centaur you control has base power and toughness 4/4 and gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "High Holy Chaplain_GQC",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/225_High Holy Chaplain_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "225",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nOther reverent creatures you control get +1/+1. (Angels, Clerics, and Demons are reverent.)\n{4}{W}{B}: Another target reverent creature gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Hinterland Refiner_GQC",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/226_Hinterland Refiner_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "226",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\n{T}: Add {C}{C}.\nWhenever you cast a spell from your graveyard, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",
+	},
+	
+	{
+		"name": "His High Council_GQC",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/68_His High Council_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "68",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{U}, {T}: Draw a card, then discard a card.",
+	},
+	
+	{
+		"name": "His Holiness Jorah_GQC",
+		"mana_cost": "{4}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/227_His Holiness Jorah_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "227",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+2]: Reveal the top card of your library and put that card into your hand. If it's a land card, you gain 3 life. Otherwise, you gain life equal to its mana value.\n[-3]: Destroy target nonland permanent, then exile each opponent's graveyard.\n[-11]: Restart the game. Then you get an emblem with \"{W}{B}: Create a 3/3 white Angel creature token with flying.\"",
+	},
+	
+	{
+		"name": "Hivemind Thrall_GQC",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/69_Hivemind Thrall_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "69",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\n{2}{U}, {T}, Sacrifice Hivemind Thrall: Return target instant or sorcery card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Holtun-Clan Assailant_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/192_Holtun-Clan Assailant_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "192",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Holtun-Clan Assailant enters, you may have it fight target creature an opponent controls. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Holtun-Clan Eldhand_GQC",
+		"mana_cost": "{5}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/27_Holtun-Clan Eldhand_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "27",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink",
+	},
+	
+	{
+		"name": "Holtun-Clan Neophyte_GQC",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/193_Holtun-Clan Neophyte_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "193",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\n{4}{G}: Holtun-Clan Neophyte gets +3/+3 until end of turn.",
+	},
+	
+	{
+		"name": "Howling Butcher_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/108_Howling Butcher_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "108",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, you lose 1 life.",
+	},
+	
+	{
+		"name": "Hunting Party_GQC",
+		"mana_cost": "{6}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/109_Hunting Party_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "109",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Hunting Party enters, each opponent discards a card. Each opponent who can't loses 3 life.",
+	},
+	
+	{
+		"name": "Ichthyic Vermin_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/70_Ichthyic Vermin_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "70",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Incense Healer_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/28_Incense Healer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Incense Healer enters, exile up to two target cards from graveyards.",
+	},
+	
+	{
+		"name": "Into the Breach_GQC",
+		"mana_cost": "{4}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/152_Into the Breach_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "152",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control have haste.\nAt the beginning of your upkeep, you may put a creature card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Invoke the Divine_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/29_Invoke the Divine_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "29",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target artifact or enchantment. You gain 4 life.",
+	},
+	
+	{
+		"name": "Island_GQC",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/251_Island_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "251",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Jade Champion_GQC",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/194_Jade Champion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "194",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Jade Champion enters, search your library for a land card, put it onto the battlefield tapped, then shuffle.\nWhenever Jade Champion deals combat damage to a player, untap all lands you control.",
+	},
+	
+	{
+		"name": "Jorah's Apostle_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/30_Jorah's Apostle_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Jorah's Apostle attacks, if you control another attacking reverent creature, put a +1/+1 counter on Jorah's Apostle. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Kr'tah, Corporeal Sculptor_GQC",
+		"mana_cost": "{7}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/153_Kr'tah, Corporeal Sculptor_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "153",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen you cast Kr'tah, exile the top seven cards of your library. You may cast nonland cards from among them for as long as they remain exiled.\nWhenever you cast or copy a spell, Kr'tah deals damage to any target equal to that spell's mana value.\n{2}{R}: Copy target instant or sorcery spell. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Lacerate_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/154_Lacerate_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "154",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nLacerate deals 4 damage to target creature or planeswalker an opponent controls. If a card would be put into that player's graveyard this turn, exile that card instead.",
+	},
+	
+	{
+		"name": "Last Confession_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/31_Last Confession_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "31",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Last Confession enters, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)\nEnchanted creature can't attack or block.",
+	},
+	
+	{
+		"name": "Lavish Fiend_GQC",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/110_Lavish Fiend_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "110",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Pay 4 life: Lavish Fiend gains flying until end of turn.",
+	},
+	
+	{
+		"name": "Lay Waste to Civilization_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/195_Lay Waste to Civilization_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "195",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever a creature attacks this turn, it gets +1/+1 and gains trample until end of turn.\nCoalesce {6}{G}{G} (You may cast this for {6}{G}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nHaste",
+	},
+	
+	{
+		"name": "Let the Truth In_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/111_Let the Truth In_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "111",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature or discard a creature card.\nDraw two cards.",
+	},
+	
+	{
+		"name": "Lucent Peacekeeper_GQC",
+		"mana_cost": "{3}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/228_Lucent Peacekeeper_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "228",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, trample\nLucent Peacekeeper enters with two defender counters on it.\n{1}{R}{W}: Move a counter from Lucent Peacekeeper to target creature an opponent controls.",
+	},
+	
+	{
+		"name": "Lush Cyclone_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/196_Lush Cyclone_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "196",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Prevent all combat damage that would be dealt this turn by creatures your opponents control.\n• Destroy target creature with flying.",
+	},
+	
+	{
+		"name": "Lust for War_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/155_Lust for War_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "155",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhenever enchanted creature becomes tapped, Lust for War deals 3 damage to that creature's controller.\nEnchanted creature attacks each combat if able.",
+	},
+	
+	{
+		"name": "Malignant Wanderer_GQC",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/197_Malignant Wanderer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever Malignant Wanderer deals combat damage to a player, reveal cards from the top of your library until you reveal a colorless card or a permanent card. Put that card into your hand and the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Marrow Reaver_GQC",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/112_Marrow Reaver_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "112",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\n{2}, Sacrifice a creature: Put a +1/+1 counter on Marrow Reaver and draw a card.",
+	},
+	
+	{
+		"name": "Material Machinations_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/156_Material Machinations_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "156",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTarget creature gains double strike until end of turn. Put a +1/+1 counter on that creature if it's colorless.",
+	},
+	
+	{
+		"name": "Meandering Titan_GQC",
+		"mana_cost": "{6}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/198_Meandering Titan_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "198",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTrample\nPropagate 3 (When this enters, either put three +1/+1 counters on it or create three 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Merciless Brute_GQC",
+		"mana_cost": "{5}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/157_Merciless Brute_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "157",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}{R}: Merciless Brute gets +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Merciless Shieldbreaker_GQC",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/158_Merciless Shieldbreaker_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "158",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever Merciless Shieldbreaker enters or attacks, target opponent puts three rust counters on a permanent they control with no rust counters on it. That permanent gains \"At the beginning of your upkeep, remove a rust counter from this permanent. Then if there are no rust counters on this permanent, sacrifice it and it deals 4 damage to you.\"",
+	},
+	
+	{
+		"name": "Michal, the Anointed_GQC",
+		"mana_cost": "{3}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/229_Michal, the Anointed_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "229",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance, trample, lifelink\nSpells and abilities your opponents control can't cause you to sacrifice permanents.",
+	},
+	
+	{
+		"name": "Mindless Incursion_GQC",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/159_Mindless Incursion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "159",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nGain control of target creature until end of turn. Untap it. It gains haste and menace until end of turn.",
+	},
+	
+	{
+		"name": "Misfortunes of War_GQC",
+		"mana_cost": "{4}{B}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/230_Misfortunes of War_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "230",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Misfortunes of War enters and at the beginning of your upkeep, put a chaos counter on Misfortunes of War, then sacrifice it unless you pay life equal to the number of chaos counters on it.\nAt the beginning of each opponent's upkeep, they sacrifice a permanent or discard a card for each chaos counter on Misfortunes of War.",
+	},
+	
+	{
+		"name": "Mossy Shrine_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/257_Mossy Shrine_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "257",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B} or {G}.)\nMossy Shrine enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Mother of Hooves_GQC",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/32_Mother of Hooves_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "32",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a nontoken creature enters under an opponent's control, if it wasn't cast from their hand, create two 2/2 white Centaur creature tokens with vigilance.\n{T}: Another target creature you control gains protection from the color of your choice or from colorless until end of turn.",
+	},
+	
+	{
+		"name": "Mountain_GQC",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/253_Mountain_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "253",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Myra, Crypt Priestess_GQC",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/231_Myra, Crypt Priestess_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "231",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "{1}: You may cast target creature card from your graveyard this turn.\nWhenever you cast your first creature spell each turn, you may pay life equal to its mana value. If you do, copy that spell. (It becomes a token.)",
+	},
+	
+	{
+		"name": "Nest Parasite_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/160_Nest Parasite_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "160",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Nightmare Feaster_GQC",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/232_Nightmare Feaster_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "232",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nIf a spell or ability an opponent controls would cause that player to draw a card, they exile the top card of their library instead. Until end of turn, they may play that card. After the current turn has ended, you may play that card for as long as it remains exiled, and mana of any type can be spent to cast cast it.",
+	},
+	
+	{
+		"name": "Obsidian Outcast_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/71_Obsidian Outcast_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "71",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Obsidian Outcast enters, mill three cards.",
+	},
+	
+	{
+		"name": "Of Men and Monsters_GQC",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/72_Of Men and Monsters_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "72",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nThis spell can't be countered.\nDraw cards equal to the greatest mana value among permanents you control minus the smallest mana value among nonland permanents you control.",
+	},
+	
+	{
+		"name": "Oko, Trickster of the Trade_GQC",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/233_Oko, Trickster of the Trade_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "233",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Create an Idol token. (It's a colorless artifact with \"{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.\")\n[0]: Until your next turn, prevent all damage that would be dealt to Oko, and he becomes a copy of another target nonland permanent, except he's a planeswalker in addition to his other types.\n[-2]: Another target nonland permanent loses all abilities and becomes a colorless Eldrazi creature with base power and toughness 3/2.\n[-6]: Gain control of target permanent. Any number of permanents you control become copies of that permanent.",
+	},
+	
+	{
+		"name": "Ophidian Invader_GQC",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/234_Ophidian Invader_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "234",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")\n{4}{R}{G}: Creatures you control get +X/+X until end of turn, where X is Ophidian Invader's power.",
+	},
+	
+	{
+		"name": "Opt_GQC",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/73_Opt_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "73",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)\nDraw a card.",
+	},
+	
+	{
+		"name": "Orc Sentry_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/161_Orc Sentry_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "161",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender",
+	},
+	
+	{
+		"name": "Orcish Bloodhunter_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/162_Orcish Bloodhunter_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "162",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "First strike\nAt the beginning of your upkeep, Orcish Bloodhunter deals 1 damage to each player.\nAt the beginning of your end step, if an opponent lost life three or more times this turn, put a +1/+1 counter on Orcish Bloodhunter.",
+	},
+	
+	{
+		"name": "Orcish Twin-Axes_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/163_Orcish Twin-Axes_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "163",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Orcish Twin-Axes enters, attach it to target creature you control.\nEquipped creature gets +3/+1.\nEquip {2}{R}",
+	},
+	
+	{
+		"name": "Orovus, the Worldcarver_GQC",
+		"mana_cost": "{7}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/199_Orovus, the Worldcarver_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "199",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen you cast Orovus, gain control of up to two target noncreature permanents.\nPermanents you control have \"{T}: Add {C}{C}.\"\n{10}: You may cast a permanent card you own from outside the game without paying its mana cost.",
+	},
+	
+	{
+		"name": "Outskirts Chapel_GQC",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/33_Outskirts Chapel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "33",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{2}, {T}: Tap target creature.",
+	},
+	
+	{
+		"name": "Parapet Creep_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/113_Parapet Creep_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Parapet Creep enters, each opponent loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Parish Tithe_GQC",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/34_Parish Tithe_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures with power greater than the number of cards in your hand can't attack.\nAt the beginning each opponent's upkeep, if that player has no cards in hand, they may have you gain 5 life and draw two cards. If they do, sacrifice Parish Tithe.",
+	},
+	
+	{
+		"name": "Perimeter Warden_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/35_Perimeter Warden_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "35",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Perimeter Warden enters, create a 0/3 colorless Wall artifact creature token with defender.\n{W}, Sacrifice Perimeter Warden: Target creature you control gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Permeating Maggot_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/200_Permeating Maggot_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Persuasive Orator_GQC",
+		"mana_cost": "{X}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/74_Persuasive Orator_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "74",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Persuasive Orator enters, gain control of target nonland permanent with mana value X until Persuasive Orator leaves the battlefield.",
+	},
+	
+	{
+		"name": "Pilfered Memories_GQC",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/75_Pilfered Memories_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "75",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nDraw three cards, then discard two cards unless you discard a colorless card.",
+	},
+	
+	{
+		"name": "Pious Nomad_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/36_Pious Nomad_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "36",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Pious Nomad enters, scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+	},
+	
+	{
+		"name": "Plains_GQC",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/250_Plains_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "250",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Play the Mortal Fool_GQC",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/76_Play the Mortal Fool_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "76",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nCreate a token that's a copy of target creature.\nCoalesce {4}{U}{U} (You may cast this for {4}{U}{U} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nYou may have Play the Mortal Fool enters as a copy of any creature on the battlefield.",
+	},
+	
+	{
+		"name": "Plead for Asylum_GQC",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/114_Plead for Asylum_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+0 and gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Pontiff's Page_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/77_Pontiff's Page_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "77",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Pontiff's Page gets +1/+0 and can't be blocked as long as you scried this turn.",
+	},
+	
+	{
+		"name": "Portent of the Blighted_GQC",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/115_Portent of the Blighted_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "115",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Horrors you control get +1/+0.\nAt the beginning of your end step, if a creature died this turn, create a 1/1 black Horror creature token.",
+	},
+	
+	{
+		"name": "Preach His Hallowed Gospel_GQC",
+		"mana_cost": "{W}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/37_Preach His Hallowed Gospel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "37",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You gain 4 life.\nCoalesce {4}{W}{W} (You may cast this for {4}{W}{W} from your graveyard. If you do, put it onto the battlefield as an Angel Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nFlying",
+	},
+	
+	{
+		"name": "Preordained Vessel_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/116_Preordained Vessel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "116",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}{B}, Discard a card, Pay 2 life, Exile Preordained Vessel from your graveyard: Create a 5/5 black Demon creature token with flying. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Prevail_GQC",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/38_Prevail_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "38",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose any target. The next time damage would be dealt to it this turn, prevent that damage.\nScry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Primordial Migration_GQC",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/164_Primordial Migration_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "164",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever a creature you control enters, it deals damage to any target equal to its power or its toughness, whichever is greater.",
+	},
+	
+	{
+		"name": "Prison Architect_GQC",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/39_Prison Architect_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "39",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Prison Architect enters, exile target creature an opponent controls until target creature you control with defender leaves the battlefield.",
+	},
+	
+	{
+		"name": "Profane Exonerator_GQC",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/117_Profane Exonerator_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace, lifelink",
+	},
+	
+	{
+		"name": "Prognostic Angel_GQC",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/235_Prognostic Angel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "235",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Prognostic Angel enters, scry 2.\n{2}{W}{U}: Choose a card name, then mill a card. If that card has the chosen name, draw two cards.",
+	},
+	
+	{
+		"name": "Prognostic Enormity_GQC",
+		"mana_cost": "{6}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/6_Prognostic Enormity_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Prognostic Enormity enters, scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+	},
+	
+	{
+		"name": "Protoplasmera_GQC",
+		"mana_cost": "{X}{X}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/7_Protoplasmera_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "7",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Protoplasmera enters with X +1/+1 counters on it.\nRemove a +1/+1 counter from Protoplasmera: Target creature gets -1/-1 until end of turn.\nRemove two +1/+1 counters from Protoplasmera: Draw a card.\n{4}: Put a +1/+1 counter on Protoplasmera.",
+	},
+	
+	{
+		"name": "Province Demolisher_GQC",
+		"mana_cost": "{8}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/201_Province Demolisher_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "201",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nThis spell costs {1} less to cast for each creature that died this turn.\nTrample",
+	},
+	
+	{
+		"name": "Pus Gorger_GQC",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/165_Pus Gorger_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "165",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 1 (When this enters, either put a +1/+1 counter on it or create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Putrescent Carrier_GQC",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/202_Putrescent Carrier_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "202",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTrample\nAt the beginning of your upkeep, if you control eight or more colorless permanents, put four +1/+1 counters on Putrescent Carrier.",
+	},
+	
+	{
+		"name": "Quelling Goliath_GQC",
+		"mana_cost": "{6}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/78_Quelling Goliath_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "78",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever Quelling Goliath attacks, tap up to two target permanents.\n{1}{U}, Discard Quelling Goliath: Scry 1, then draw a card. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Radiant Seraph_GQC",
+		"mana_cost": "{5}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/40_Radiant Seraph_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "40",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, lifelink\nWhen Radiant Seraph enters, for each other reverent creature you control, put your choice of a +1/+1 counter or lifelink counter on that creature. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Rampant Colossus_GQC",
+		"mana_cost": "{6}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/166_Rampant Colossus_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "166",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nRampant Colossus attacks each combat if able.\nWhenever Rampant Colossus attacks, defending player sacrifices a permanent.",
+	},
+	
+	{
+		"name": "Ranging Ruffian_GQC",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/167_Ranging Ruffian_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "167",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Ranging Ruffian attacks, if you've lost life this turn, Ranging Ruffian gets +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Rapacious Demon_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/118_Rapacious Demon_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "118",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sacrifice a creature: Rapacious Demon gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Realize the Delicate Ideal_GQC",
+		"mana_cost": "{R}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/168_Realize the Delicate Ideal_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "168",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nExile the top two cards of your library. You may play one of those cards until the end of your next turn.\nCoalesce {3}{R}{R} (You may cast this for {3}{R}{R} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nDouble strike",
+	},
+	
+	{
+		"name": "Realm Ravager_GQC",
+		"mana_cost": "{6}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/203_Realm Ravager_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "203",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nRealm Ravager can't be blocked by creatures with power 2 or less.",
+	},
+	
+	{
+		"name": "Rejuvenating Drone_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/79_Rejuvenating Drone_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "79",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\nWhenever a creature you control enters, if it entered from your graveyard or you cast it from your graveyard, put your choice of a +1/+1 counter or flying counter on it.",
+	},
+	
+	{
+		"name": "Rekindle Orphic Memories_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/204_Rekindle Orphic Memories_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "204",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nReturn up to one target colorless permanent card from your graveyard to your hand.\nCoalesce {4}{G} (You may cast this for {4}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Resplendent Guardian_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/41_Resplendent Guardian_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender, flying\n{2}{W}{W}: Resplendent Guardian can attack this turn as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Ride at Dawn_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/42_Ride at Dawn_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 2/2 white Centaur creature tokens with vigilance.",
+	},
+	
+	{
+		"name": "Rift Spelunking_GQC",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/80_Rift Spelunking_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "80",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose three. You may choose the same mode more than once.\n• Exile target creature. Return it to the battlefield under its owner's control at the beginning of its controller's next upkeep.\n• Draw a card.",
+	},
+	
+	{
+		"name": "Rise Again_GQC",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/119_Rise Again_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "119",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target creature card from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Rivha, Heiress of Pinions_GQC",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/43_Rivha, Heiress of Pinions_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "43",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Rivha and at least two other creatures attack, exile all other attacking creatures you control. For each creature exiled this way, create a 3/3 white Angel creature token with flying that's tapped and attacking.",
+	},
+	
+	{
+		"name": "Rivha's Blessed Blade_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/44_Rivha's Blessed Blade_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "44",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+1 and has flying.\nEquipped creature dealing combat damage to a player causes abilities of that creature to trigger as though it entered.\nEquip {1}{W}",
+	},
+	
+	{
+		"name": "Rusted Orrery_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/81_Rusted Orrery_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "81",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Scry 1.\n{1}{U}, {T}: Draw a card, then discard a card.\n{3}{U}, {T}: Shuffle your hand and graveyard into your library, then draw seven cards. Exile Rusted Orrery.",
+	},
+	
+	{
+		"name": "Sacred Thunder_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/169_Sacred Thunder_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "169",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Destroy target artifact.\n• Sacred Thunder deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Sacrosanct Rider_GQC",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/120_Sacrosanct Rider_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "120",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sacrosanct Rider enters, you may return target reverent card from your graveyard to your hand. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Sanctuary Scourge_GQC",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/82_Sanctuary Scourge_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "82",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Sanguine Proselyte_GQC",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/121_Sanguine Proselyte_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "121",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sanguine Proselyte dies, create a 1/1 black Horror creature token.",
+	},
+	
+	{
+		"name": "Scour from Existence_GQC",
+		"mana_cost": "{7}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/8_Scour from Existence_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target permanent.",
+	},
+	
+	{
+		"name": "Scowling Brawler_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/170_Scowling Brawler_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "170",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, you may pay 2 life. If you do, Scowling Brawler gets +2/+0 until end of turn.\n{1}{R}: Target creature can't block Scowling Brawler this turn.",
+	},
+	
+	{
+		"name": "Secluded Cascade_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/258_Secluded Cascade_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "258",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G} or {U}.)\nSecluded Cascade enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Seek His Blessed Light_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/45_Seek His Blessed Light_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "45",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on each of up to two target creatures you control.\nCoalesce {6}{W} (You may cast this for {6}{W} from your graveyard. If you do, put it onto the battlefield as an Angel Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nFlying",
+	},
+	
+	{
+		"name": "Shed the Human Rind_GQC",
+		"mana_cost": "{U}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/83_Shed the Human Rind_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "83",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nUp to one target creature can't be blocked this turn.\nCoalesce {2}{U}{U} (You may cast this for {2}{U}{U} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nShed the Human Rind can't be blocked.",
+	},
+	
+	{
+		"name": "Shriveled Varlet_GQC",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/122_Shriveled Varlet_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "122",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you lose life during your turn, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Sights of Blind Eyes_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/84_Sights of Blind Eyes_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "84",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target nonland permanent to its owner's hand. If you controlled that permanent, draw a card.",
+	},
+	
+	{
+		"name": "Sigrid, the Hollow Queen_GQC",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/236_Sigrid, the Hollow Queen_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "236",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Each player exiles a card from their hand. Cards exiled this way may be cast by their owner until the beginning of that player's next end step.\n[-2]: Sigrid, the Hollow Queen deals 3 damage to target creature or planeswalker.\n[-6]: Gain control of up to four target permanents. They gain haste until end of turn. Sacrifice them at end of turn.",
+	},
+	
+	{
+		"name": "Sinful Pontifex_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/123_Sinful Pontifex_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "123",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhen Sinful Pontifex enters, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top in any order.",
+	},
+	
+	{
+		"name": "Sinuous Atrocity_GQC",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/205_Sinuous Atrocity_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "205",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")\n{1}{G}{G}, Sacrifice a creature: Draw cards equal to the sacrificed creature's toughness.",
+	},
+	
+	{
+		"name": "Siphon Memory_GQC",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/85_Siphon Memory_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "85",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Return target spell to its owner's hand unless its controller pays {2}.\nDraw a card.",
+	},
+	
+	{
+		"name": "Skeletal Prophet_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/124_Skeletal Prophet_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "124",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Skeletal Prophet enters, if you control another reverent creature, draw a card and you lose 1 life. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Skyknight Champion_GQC",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/86_Skyknight Champion_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "86",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Skyknight Champion deals combat damage to a player, return up to one other permanent you control to its owner's hand, then you may cast a card with mana value 4 or less from your hand without paying its mana cost.",
+	},
+	
+	{
+		"name": "Skyline Maven_GQC",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/237_Skyline Maven_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "237",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance\nYou may look at an additional card each time you scry.",
+	},
+	
+	{
+		"name": "Soul Healer_GQC",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/46_Soul Healer_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "46",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when you gain life, you may scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Target creature you control gains lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Sound the Blauhorn_GQC",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/206_Sound the Blauhorn_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "206",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Look at the top five cards of your library. Reveal up to two creature cards with total mana value 5 or less from among them. Put all Centaur cards revealed this way onto the battlefield, all other creature cards revealed this way into your hand, and the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Specular Grub_GQC",
+		"mana_cost": "{3}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/9_Specular Grub_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "9",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a colorless spell, you may have Specular Grub's base power become equal to that spell's mana value until end of turn.",
+	},
+	
+	{
+		"name": "Splinter Luminary_GQC",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/238_Splinter Luminary_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "238",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nFlying\nWhenever you cast a colorless spell, colorless creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Squallsnatch_GQC",
+		"mana_cost": "{5}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/87_Squallsnatch_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "87",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return up to two target creatures to their owner's hands. You may mill four cards.",
+	},
+	
+	{
+		"name": "Starlit Exeunt_GQC",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/47_Starlit Exeunt_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "47",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, you may tap two untapped creatures you control.\nExile target creature, then return that card to the battlefield under its owner's control unless you paid this spell's additional cost.",
+	},
+	
+	{
+		"name": "Stitch Ephemeral Sinew_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/171_Stitch Ephemeral Sinew_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "171",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nUp to two target creatures can't block this turn.\nCoalesce {4}{R}{R} (You may cast this for {4}{R}{R} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Stroke of Nescience_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/125_Stroke of Nescience_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "125",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand and the top card of their library. You choose a nonland card revealed this way. Exile that card. You lose 1 life.",
+	},
+	
+	{
+		"name": "Sublime Envoy_GQC",
+		"mana_cost": "{5}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/10_Sublime Envoy_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "10",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Spawn creatures you control have \"Sacrifice this creature: Add one mana of any color.\"\n{W}{U}{B}{R}{G}: Sublime Envoy gets +2/+0 and gains flying, vigilance, and lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Suffer Vile Retribution_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/126_Suffer Vile Retribution_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "126",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target player sacrifices a creature.\nCoalesce {5}{B}{B} (You may cast this for {5}{B}{B} from your graveyard. If you do, put it onto the battlefield as a Demon Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Supernal Host_GQC",
+		"mana_cost": "{5}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/88_Supernal Host_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "88",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")\nSacrifice a Spawn: Scry 2.\nRemove a +1/+1 counter from Supernal Host: Tap target nonland permanent.",
+	},
+	
+	{
+		"name": "Sure Strike_GQC",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/172_Sure Strike_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "172",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +3/+0 and gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Surrender to Dread_GQC",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/127_Surrender to Dread_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "127",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target player exiles two cards from their hand. Exile up to two target cards from that player's graveyard.",
+	},
+	
+	{
+		"name": "Swamp_GQC",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/252_Swamp_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "252",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Tangle Glutton_GQC",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/207_Tangle Glutton_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "207",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nPropagate 2 (When this enters, either put two +1/+1 counters on it or create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\")",
+	},
+	
+	{
+		"name": "Tender to His Dark Blood_GQC",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/128_Tender to His Dark Blood_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "128",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, {T}: Look at the top card of your library. You may put it into your graveyard.",
+	},
+	
+	{
+		"name": "The Chasmal Rift_GQC",
+		"mana_cost": "{5}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/242_The Chasmal Rift_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "242",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When The Chasmal Rift enters, search your library for a card with mana value 6 or greater, reveal it, then shuffle and put that card on top.\nSpells you cast cost {1} less to cast.\nAt the beginning of your end step, if you cast a spell this turn, draw a card.",
+	},
+	
+	{
+		"name": "The Severed Cradle_GQC",
+		"mana_cost": "",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/249_The Severed Cradle_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "249",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a colorless spell, put a brood counter on The Severed Cradle.\n{T}: Add {C}.\n{2}, {T}: Add an amount of {C} equal to the number of brood counters on The Severed Cradle. Spend this mana only to cast colorless spells.",
+	},
+	
+	{
+		"name": "Threzak, the Heinous_GQC",
+		"mana_cost": "{1}{B}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/129_Threzak, the Heinous_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "129",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Threzak, the Heinous enters, choose up to three. You lose 3 life for each mode you choose.\n• Put three +1/+1 counters on Threzak.\n• Target creature gets -3/-3 until end of turn.\n• Draw three cards.",
+	},
+	
+	{
+		"name": "Thrive in Exotic Chaos_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Kindred",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/208_Thrive in Exotic Chaos_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "208",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nSearch your library for a basic land card and put it onto the battlefield tapped, then shuffle.\nCoalesce {5}{G}{G} (You may cast this for {5}{G}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)",
+	},
+	
+	{
+		"name": "Timeworn Vapors_GQC",
+		"mana_cost": "{3}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/11_Timeworn Vapors_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "11",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, reveal a colorless card from your hand.\nTarget opponent sacrifices a nonland permanent with mana value greater than or equal to the revealed card's mana value.",
+	},
+	
+	{
+		"name": "Tireless Scrivener_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/89_Tireless Scrivener_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Tireless Scrivener attacks, scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+	},
+	
+	{
+		"name": "Torrid Geysers_GQC",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/259_Torrid Geysers_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "259",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U} or {R}.)\nTorrid Geysers enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Touch of the Beyond_GQC",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/90_Touch of the Beyond_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "90",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, you may sacrifice any number of Eldrazi Spawn. This spell costs {2} less to cast for each Eldrazi Spawn sacrificed this way.\nEnchant creature\nYou control enchanted creature.",
+	},
+	
+	{
+		"name": "Trade Lives_GQC",
+		"mana_cost": "{3}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/130_Trade Lives_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "130",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exile target creature or planeswalker. You may put a creature or planeswalker card from your graveyard on top of your library.",
+	},
+	
+	{
+		"name": "Transcendent Effigy_GQC",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/245_Transcendent Effigy_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "245",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender, reach\n{1}, {T}: You gain 1 life.",
+	},
+	
+	{
+		"name": "Trench Ballista_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/173_Trench Ballista_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "173",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{T}: Trench Ballista deals 1 damage to target player.\nWhenever another creature with defender you control enters, untap Trench Ballista.",
+	},
+	
+	{
+		"name": "Twisting Tendrils_GQC",
+		"mana_cost": "{X}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/209_Twisting Tendrils_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "209",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nTwisting Tendrils enters with X +1/+1 counters on it.\nWhenever you spend five or more mana to cast a spell, put a +1/+1 counter on Twisting Tendrils.",
+	},
+	
+	{
+		"name": "Umbral Fiend_GQC",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/131_Umbral Fiend_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "131",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature or pay {1}{B}.\nFlying, lifelink",
+	},
+	
+	{
+		"name": "Utopian Delusions_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/91_Utopian Delusions_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "91",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Utopian Delusions enters, if enchanted creature's power is 3 or less, tap it.\nEnchanted creature doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "Variegated Channeler_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/210_Variegated Channeler_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "210",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\n{T}: Add {G}.\n{T}: Add one mana of any color. Spend this mana only to cast a colorless spell.",
+	},
+	
+	{
+		"name": "Vassal of Violet Smoke_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/48_Vassal of Violet Smoke_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "48",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Vassal of Violet Smoke enters, creatures you control get +1/+1 until end of turn. Reverent creatures you control gain vigilance until end of turn. (Angels, Clerics, and Demons are reverent.)",
+	},
+	
+	{
+		"name": "Verdant Faith_GQC",
+		"mana_cost": "{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/211_Verdant Faith_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "211",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +2/+2 until end of turn. Untap it.",
+	},
+	
+	{
+		"name": "Vermin Skinner_GQC",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/132_Vermin Skinner_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "132",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\n{1}{B}{B}: All other creatures get -1/-1 until end of turn.\nAt the beginning of each end step, each opponent loses life equal to the number of creatures that died this turn and you gain that much life.",
+	},
+	
+	{
+		"name": "Vestry Ingester_GQC",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/239_Vestry Ingester_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "239",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhen Vestry Ingester enters, create two 0/1 colorless Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\"\nWhenever you spend five or more mana to cast a spell, put a +1/+1 counter on each creature you control.",
+	},
+	
+	{
+		"name": "Vigorous Courser_GQC",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/49_Vigorous Courser_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "49",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhenever Vigorous Courser attacks, create a 2/2 white Centaur creature token with vigilance that's attacking. Exile that token at end of combat unless you pay {1}{W}.",
+	},
+	
+	{
+		"name": "Virtuous Mentor_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/50_Virtuous Mentor_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "50",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Virtuous Mentor attacks, another target attacking creature gains flying until end of turn.",
+	},
+	
+	{
+		"name": "Wailing Stalker_GQC",
+		"mana_cost": "{7}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/12_Wailing Stalker_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "12",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever Wailing Stalker becomes blocked, defending player sacrifices a creature blocking it.",
+	},
+	
+	{
+		"name": "War-Clan Boon_GQC",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/52_War-Clan Boon_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen War-Clan Boon enters, create a 2/2 white Centaur creature token with vigilance.\nEnchanted creature gets +2/+2.",
+	},
+	
+	{
+		"name": "War-Clan Dowager_GQC",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/212_War-Clan Dowager_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "212",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "War-Clan Dowager gets +1/+1 as long as you control another Centaur.",
+	},
+	
+	{
+		"name": "War Provisions_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/51_War Provisions_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "51",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +0/+2, assigns combat damage equal to its toughness rather than its power, and can attack as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Warded Battlements_GQC",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/53_Warded Battlements_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "53",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\nAttacking creatures you control get +1/+0.",
+	},
+	
+	{
+		"name": "Warforged Citadel_GQC",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/174_Warforged Citadel_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "174",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender, reach\n{1}{R}: Target opponent must attack you or a planeswalker you control with at least one creature this turn if able.",
+	},
+	
+	{
+		"name": "Warhorse's Grit_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/213_Warhorse's Grit_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "213",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nSacrifice Warhorse's Grit: Enchanted creature gains indestructible until end of turn. Tap it.",
+	},
+	
+	{
+		"name": "Warped Manifestation_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/92_Warped Manifestation_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "92",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nWhenever you cast a colorless spell, you may have Warped Manifestation become a 3/2 Eldrazi creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)",
+	},
+	
+	{
+		"name": "Weave into the Fabric_GQC",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/240_Weave into the Fabric_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "240",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Devoid (This card has no color.)\nGain control of target permanent with mana value 3 or less. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+	},
+	
+	{
+		"name": "Welkin Outrider_GQC",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/93_Welkin Outrider_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "93",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever you scry, put a +1/+1 counter on Welkin Outrider.",
+	},
+	
+	{
+		"name": "Woodland Altar_GQC",
+		"mana_cost": "{2}{G}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/214_Woodland Altar_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "214",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Woodland Altar enters, mill three cards, then return a permanent card from your graveyard to your hand.\nWhenever a card leaves your graveyard for the first time each turn, look at the top card of your library. If it's a land card, you may put it into your graveyard.",
+	},
+	
+	{
+		"name": "Worn Survivor_GQC",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/133_Worn Survivor_GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "133",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you lose life during your turn, you may return Worn Survivor from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "colorless Eldrazi Spawn 01GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/2t_colorless Eldrazi Spawn 01GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sacrifice this creature: Add {C}.",
+	},
+	
+	{
+		"name": "white Centaur 22GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/4t_white Centaur 22GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "black Demon 55GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/5t_black Demon 55GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "black Horror 11GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/6t_black Horror 11GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "colorless Eldrazi 32GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/1t_colorless Eldrazi 32GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "colorless Wall 03GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/8t_colorless Wall 03GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender",
+	},
+	
+	{
+		"name": "white Angel 33GQC",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/3t_white Angel 33GQC.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "Idol",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/GQC-files/img/7t_Idol.jpg",
+		"colors": [],
+		"set": "GQC",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+	},
+	]
+[Common]
+20 Aberrant Uproar_GQC
+20 Admire the Flawed Form_GQC
+20 Angelic Smite_GQC
+20 Become the Behemoth_GQC
+20 Blood Churner_GQC
+20 Brood Drudge_GQC
+20 Cathartic Reunion_GQC
+20 Cerebral Twinge_GQC
+20 Courtyard Obelisk_GQC
+20 Crimson Finale_GQC
+20 Cursory Glance_GQC
+20 Dawning Angel_GQC
+20 Diving Skyknight_GQC
+20 Drifting Drone_GQC
+20 Duel at Thorne Chapel_GQC
+20 Eldrazi Depredator_GQC
+20 Embrace Hellfire_GQC
+20 Embrace Unending Frost_GQC
+20 Esoteric Power_GQC
+20 Evolving Wilds_GQC
+20 Exotic Game Hunter_GQC
+20 Eyeless Encroacher_GQC
+20 Faith in Darkness_GQC
+20 Fashion Temples from Flesh_GQC
+20 Feed the Nyrmouth_GQC
+20 Flexile Maw_GQC
+20 Forlorn Templar_GQC
+20 Forsaken Devotee_GQC
+20 Forum Arbalestier_GQC
+20 Forum Patrol_GQC
+20 Frontier Markswomen_GQC
+20 Frontline Cavalier_GQC
+20 Gallant Centaur_GQC
+20 Glade Missionary_GQC
+20 Gossamer Tyrant_GQC
+20 Grasp at Frail Dreams_GQC
+20 His High Council_GQC
+20 Hivemind Thrall_GQC
+20 Holtun-Clan Eldhand_GQC
+20 Holtun-Clan Neophyte_GQC
+20 Howling Butcher_GQC
+20 Hunting Party_GQC
+20 Ichthyic Vermin_GQC
+20 Incense Healer_GQC
+20 Invoke the Divine_GQC
+20 Jorah's Apostle_GQC
+20 Last Confession_GQC
+20 Lavish Fiend_GQC
+20 Let the Truth In_GQC
+20 Lush Cyclone_GQC
+20 Material Machinations_GQC
+20 Meandering Titan_GQC
+20 Merciless Brute_GQC
+20 Obsidian Outcast_GQC
+20 Opt_GQC
+20 Orc Sentry_GQC
+20 Outskirts Chapel_GQC
+20 Parapet Creep_GQC
+20 Pilfered Memories_GQC
+20 Pious Nomad_GQC
+20 Plead for Asylum_GQC
+20 Pontiff's Page_GQC
+20 Profane Exonerator_GQC
+20 Prognostic Enormity_GQC
+20 Pus Gorger_GQC
+20 Rampant Colossus_GQC
+20 Ranging Ruffian_GQC
+20 Rapacious Demon_GQC
+20 Realm Ravager_GQC
+20 Rekindle Orphic Memories_GQC
+20 Resplendent Guardian_GQC
+20 Ride at Dawn_GQC
+20 Rise Again_GQC
+20 Sacred Thunder_GQC
+20 Sacrosanct Rider_GQC
+20 Sanctuary Scourge_GQC
+20 Sanguine Proselyte_GQC
+20 Scour from Existence_GQC
+20 Seek His Blessed Light_GQC
+20 Shriveled Varlet_GQC
+20 Sights of Blind Eyes_GQC
+20 Skeletal Prophet_GQC
+20 Squallsnatch_GQC
+20 Stitch Ephemeral Sinew_GQC
+20 Sure Strike_GQC
+20 Surrender to Dread_GQC
+20 Tangle Glutton_GQC
+20 Tender to His Dark Blood_GQC
+20 Thrive in Exotic Chaos_GQC
+20 Tireless Scrivener_GQC
+20 Transcendent Effigy_GQC
+20 Trench Ballista_GQC
+20 Utopian Delusions_GQC
+20 Variegated Channeler_GQC
+20 Vassal of Violet Smoke_GQC
+20 Verdant Faith_GQC
+20 Virtuous Mentor_GQC
+20 War-Clan Boon_GQC
+20 War-Clan Dowager_GQC
+20 Warded Battlements_GQC
+20 Warhorse's Grit_GQC
+
+[Uncommon]
+10 Ancient Stirrings_GQC
+10 Angel of Remembrance_GQC
+10 Anointer of Fresh Graves_GQC
+10 Anomalous Shrine_GQC
+10 Arcane Strategist_GQC
+10 Battlefront Lancer_GQC
+10 Behold Bizarre Sublimity_GQC
+10 Bloodied Champion_GQC
+10 Bloodshed Paramour_GQC
+10 Bloodwoken Demon_GQC
+10 Burgeoning Thrall_GQC
+10 Cerebral Leech_GQC
+10 Chamber of Penance_GQC
+10 Clutch of the Pale Moon_GQC
+10 Consumed Temple_GQC
+10 Crucify_GQC
+10 Cybres-Clan Chieftain_GQC
+10 Cybres-Clan Squire_GQC
+10 Cybres-Clan Warband_GQC
+10 Dark Blood Font_GQC
+10 Dark Blood Zealots_GQC
+10 Dreadful Deal_GQC
+10 Eerie Ambush_GQC
+10 Eldrazi Fleshripper_GQC
+10 Eldritch Aria_GQC
+10 Emerald Lieutenant_GQC
+10 Flourish in Calamity_GQC
+10 Fortified Palisade_GQC
+10 Gaping Pursuer_GQC
+10 Grave Conscription_GQC
+10 Greenglade Purifier_GQC
+10 Grotesque Skimmer_GQC
+10 High Holy Chaplain_GQC
+10 Hinterland Refiner_GQC
+10 Holtun-Clan Assailant_GQC
+10 Lacerate_GQC
+10 Lay Waste to Civilization_GQC
+10 Lust for War_GQC
+10 Malignant Wanderer_GQC
+10 Marrow Reaver_GQC
+10 Mindless Incursion_GQC
+10 Nest Parasite_GQC
+10 Orcish Twin-Axes_GQC
+10 Perimeter Warden_GQC
+10 Permeating Maggot_GQC
+10 Portent of the Blighted_GQC
+10 Preach His Hallowed Gospel_GQC
+10 Preordained Vessel_GQC
+10 Prevail_GQC
+10 Prison Architect_GQC
+10 Province Demolisher_GQC
+10 Quelling Goliath_GQC
+10 Radiant Seraph_GQC
+10 Realize the Delicate Ideal_GQC
+10 Rejuvenating Drone_GQC
+10 Rift Spelunking_GQC
+10 Scowling Brawler_GQC
+10 Shed the Human Rind_GQC
+10 Sinful Pontifex_GQC
+10 Siphon Memory_GQC
+10 Skyline Maven_GQC
+10 Soul Healer_GQC
+10 Splinter Luminary_GQC
+10 Starlit Exeunt_GQC
+10 Stroke of Nescience_GQC
+10 Sublime Envoy_GQC
+10 Suffer Vile Retribution_GQC
+10 Timeworn Vapors_GQC
+10 Touch of the Beyond_GQC
+10 Twisting Tendrils_GQC
+10 Umbral Fiend_GQC
+10 Vestry Ingester_GQC
+10 Vigorous Courser_GQC
+10 Wailing Stalker_GQC
+10 War Provisions_GQC
+10 Warforged Citadel_GQC
+10 Warped Manifestation_GQC
+10 Welkin Outrider_GQC
+10 Woodland Altar_GQC
+10 Worn Survivor_GQC
+
+[Rare]
+4 All Is Dust_GQC
+4 Archangel of Rekindling_GQC
+4 Ashen Progenitor_GQC
+4 Battering Savage_GQC
+4 Beacon of the Lost_GQC
+4 Bearer of Last Wishes_GQC
+4 Bestower of Haloes_GQC
+4 Bringer of Antithesis_GQC
+4 Callous Tactician_GQC
+4 Cataclysmic Witness_GQC
+4 Cobalt Basin_GQC
+4 Consecrated Wrath_GQC
+4 Cybres-Clan Arbiter_GQC
+4 Dark Blood Seer_GQC
+4 Dark Rite Cleric_GQC
+4 Dross Incubator_GQC
+4 Empyrean Bastion_GQC
+4 Fractured Terror_GQC
+4 Greenglade Advocate_GQC
+4 Grind Vacant Husks_GQC
+4 Harbinger of Dusk_GQC
+4 Harrowing Revivalist_GQC
+4 Haze Herald_GQC
+4 Hematic Contract_GQC
+4 Hero of a Lost War_GQC
+4 Into the Breach_GQC
+4 Jade Champion_GQC
+4 Lucent Peacekeeper_GQC
+4 Misfortunes of War_GQC
+4 Mother of Hooves_GQC
+4 Nightmare Feaster_GQC
+4 Of Men and Monsters_GQC
+4 Ophidian Invader_GQC
+4 Orcish Bloodhunter_GQC
+4 Parish Tithe_GQC
+4 Persuasive Orator_GQC
+4 Play the Mortal Fool_GQC
+4 Primordial Migration_GQC
+4 Prognostic Angel_GQC
+4 Protoplasmera_GQC
+4 Putrescent Carrier_GQC
+4 Rivha's Blessed Blade_GQC
+4 Rusted Orrery_GQC
+4 Sinuous Atrocity_GQC
+4 Skyknight Champion_GQC
+4 Sound the Blauhorn_GQC
+4 Specular Grub_GQC
+4 Supernal Host_GQC
+4 The Chasmal Rift_GQC
+4 The Severed Cradle_GQC
+4 Trade Lives_GQC
+4 Vermin Skinner_GQC
+4 Weave into the Fabric_GQC
+2 Azumoth, the Fated Ruin_GQC
+2 Baptize in His Brilliance_GQC
+2 Celestial Shepherd_GQC
+2 Ghariv, the Quaking City_GQC
+2 Ghirin, Cerulean Sibyl_GQC
+2 His Holiness Jorah_GQC
+2 Kr'tah, Corporeal Sculptor_GQC
+2 Merciless Shieldbreaker_GQC
+2 Michal, the Anointed_GQC
+2 Myra, Crypt Priestess_GQC
+2 Oko, Trickster of the Trade_GQC
+2 Orovus, the Worldcarver_GQC
+2 Rivha, Heiress of Pinions_GQC
+2 Sigrid, the Hollow Queen_GQC
+2 Threzak, the Heinous_GQC
+
+[Land]
+20 Forest_GQC
+20 Island_GQC
+20 Mountain_GQC
+20 Plains_GQC
+20 Swamp_GQC
+
+[Token]
+20 colorless Eldrazi Spawn 01GQC
+20 white Centaur 22GQC
+20 black Demon 55GQC
+20 black Horror 11GQC
+20 colorless Eldrazi 32GQC
+20 colorless Wall 03GQC
+20 white Angel 33GQC
+20 Idol
+
+[Wildcard]
+6 Aberrant Uproar_GQC
+6 Admire the Flawed Form_GQC
+6 Angelic Smite_GQC
+6 Become the Behemoth_GQC
+6 Blood Churner_GQC
+6 Brood Drudge_GQC
+6 Cathartic Reunion_GQC
+6 Cerebral Twinge_GQC
+6 Courtyard Obelisk_GQC
+6 Crimson Finale_GQC
+6 Cursory Glance_GQC
+6 Dawning Angel_GQC
+6 Diving Skyknight_GQC
+6 Drifting Drone_GQC
+6 Duel at Thorne Chapel_GQC
+6 Eldrazi Depredator_GQC
+6 Embrace Hellfire_GQC
+6 Embrace Unending Frost_GQC
+6 Esoteric Power_GQC
+6 Evolving Wilds_GQC
+6 Exotic Game Hunter_GQC
+6 Eyeless Encroacher_GQC
+6 Faith in Darkness_GQC
+6 Fashion Temples from Flesh_GQC
+6 Feed the Nyrmouth_GQC
+6 Flexile Maw_GQC
+6 Forlorn Templar_GQC
+6 Forsaken Devotee_GQC
+6 Forum Arbalestier_GQC
+6 Forum Patrol_GQC
+6 Frontier Markswomen_GQC
+6 Frontline Cavalier_GQC
+6 Gallant Centaur_GQC
+6 Glade Missionary_GQC
+6 Gossamer Tyrant_GQC
+6 Grasp at Frail Dreams_GQC
+6 His High Council_GQC
+6 Hivemind Thrall_GQC
+6 Holtun-Clan Eldhand_GQC
+6 Holtun-Clan Neophyte_GQC
+6 Howling Butcher_GQC
+6 Hunting Party_GQC
+6 Ichthyic Vermin_GQC
+6 Incense Healer_GQC
+6 Invoke the Divine_GQC
+6 Jorah's Apostle_GQC
+6 Last Confession_GQC
+6 Lavish Fiend_GQC
+6 Let the Truth In_GQC
+6 Lush Cyclone_GQC
+6 Material Machinations_GQC
+6 Meandering Titan_GQC
+6 Merciless Brute_GQC
+6 Obsidian Outcast_GQC
+6 Opt_GQC
+6 Orc Sentry_GQC
+6 Outskirts Chapel_GQC
+6 Parapet Creep_GQC
+6 Pilfered Memories_GQC
+6 Pious Nomad_GQC
+6 Plead for Asylum_GQC
+6 Pontiff's Page_GQC
+6 Profane Exonerator_GQC
+6 Prognostic Enormity_GQC
+6 Pus Gorger_GQC
+6 Rampant Colossus_GQC
+6 Ranging Ruffian_GQC
+6 Rapacious Demon_GQC
+6 Realm Ravager_GQC
+6 Rekindle Orphic Memories_GQC
+6 Resplendent Guardian_GQC
+6 Ride at Dawn_GQC
+6 Rise Again_GQC
+6 Sacred Thunder_GQC
+6 Sacrosanct Rider_GQC
+6 Sanctuary Scourge_GQC
+6 Sanguine Proselyte_GQC
+6 Scour from Existence_GQC
+6 Seek His Blessed Light_GQC
+6 Shriveled Varlet_GQC
+6 Sights of Blind Eyes_GQC
+6 Skeletal Prophet_GQC
+6 Squallsnatch_GQC
+6 Stitch Ephemeral Sinew_GQC
+6 Sure Strike_GQC
+6 Surrender to Dread_GQC
+6 Tangle Glutton_GQC
+6 Tender to His Dark Blood_GQC
+6 Thrive in Exotic Chaos_GQC
+6 Tireless Scrivener_GQC
+6 Transcendent Effigy_GQC
+6 Trench Ballista_GQC
+6 Utopian Delusions_GQC
+6 Variegated Channeler_GQC
+6 Vassal of Violet Smoke_GQC
+6 Verdant Faith_GQC
+6 Virtuous Mentor_GQC
+6 War-Clan Boon_GQC
+6 War-Clan Dowager_GQC
+6 Warded Battlements_GQC
+6 Warhorse's Grit_GQC
+4 Ancient Stirrings_GQC
+4 Angel of Remembrance_GQC
+4 Anointer of Fresh Graves_GQC
+4 Anomalous Shrine_GQC
+4 Arcane Strategist_GQC
+4 Battlefront Lancer_GQC
+4 Behold Bizarre Sublimity_GQC
+4 Bloodied Champion_GQC
+4 Bloodshed Paramour_GQC
+4 Bloodwoken Demon_GQC
+4 Burgeoning Thrall_GQC
+4 Cerebral Leech_GQC
+4 Chamber of Penance_GQC
+4 Clutch of the Pale Moon_GQC
+4 Consumed Temple_GQC
+4 Crucify_GQC
+4 Cybres-Clan Chieftain_GQC
+4 Cybres-Clan Squire_GQC
+4 Cybres-Clan Warband_GQC
+4 Dark Blood Font_GQC
+4 Dark Blood Zealots_GQC
+4 Dreadful Deal_GQC
+4 Eerie Ambush_GQC
+4 Eldrazi Fleshripper_GQC
+4 Eldritch Aria_GQC
+4 Emerald Lieutenant_GQC
+4 Flourish in Calamity_GQC
+4 Fortified Palisade_GQC
+4 Gaping Pursuer_GQC
+4 Grave Conscription_GQC
+4 Greenglade Purifier_GQC
+4 Grotesque Skimmer_GQC
+4 High Holy Chaplain_GQC
+4 Hinterland Refiner_GQC
+4 Holtun-Clan Assailant_GQC
+4 Lacerate_GQC
+4 Lay Waste to Civilization_GQC
+4 Lust for War_GQC
+4 Malignant Wanderer_GQC
+4 Marrow Reaver_GQC
+4 Mindless Incursion_GQC
+4 Nest Parasite_GQC
+4 Orcish Twin-Axes_GQC
+4 Perimeter Warden_GQC
+4 Permeating Maggot_GQC
+4 Portent of the Blighted_GQC
+4 Preach His Hallowed Gospel_GQC
+4 Preordained Vessel_GQC
+4 Prevail_GQC
+4 Prison Architect_GQC
+4 Province Demolisher_GQC
+4 Quelling Goliath_GQC
+4 Radiant Seraph_GQC
+4 Realize the Delicate Ideal_GQC
+4 Rejuvenating Drone_GQC
+4 Rift Spelunking_GQC
+4 Scowling Brawler_GQC
+4 Shed the Human Rind_GQC
+4 Sinful Pontifex_GQC
+4 Siphon Memory_GQC
+4 Skyline Maven_GQC
+4 Soul Healer_GQC
+4 Splinter Luminary_GQC
+4 Starlit Exeunt_GQC
+4 Stroke of Nescience_GQC
+4 Sublime Envoy_GQC
+4 Suffer Vile Retribution_GQC
+4 Timeworn Vapors_GQC
+4 Touch of the Beyond_GQC
+4 Twisting Tendrils_GQC
+4 Umbral Fiend_GQC
+4 Vestry Ingester_GQC
+4 Vigorous Courser_GQC
+4 Wailing Stalker_GQC
+4 War Provisions_GQC
+4 Warforged Citadel_GQC
+4 Warped Manifestation_GQC
+4 Welkin Outrider_GQC
+4 Woodland Altar_GQC
+4 Worn Survivor_GQC
+2 All Is Dust_GQC
+2 Archangel of Rekindling_GQC
+2 Ashen Progenitor_GQC
+2 Battering Savage_GQC
+2 Beacon of the Lost_GQC
+2 Bearer of Last Wishes_GQC
+2 Bestower of Haloes_GQC
+2 Bringer of Antithesis_GQC
+2 Callous Tactician_GQC
+2 Cataclysmic Witness_GQC
+2 Cobalt Basin_GQC
+2 Consecrated Wrath_GQC
+2 Cybres-Clan Arbiter_GQC
+2 Dark Blood Seer_GQC
+2 Dark Rite Cleric_GQC
+2 Dross Incubator_GQC
+2 Empyrean Bastion_GQC
+2 Fractured Terror_GQC
+2 Greenglade Advocate_GQC
+2 Grind Vacant Husks_GQC
+2 Harbinger of Dusk_GQC
+2 Harrowing Revivalist_GQC
+2 Haze Herald_GQC
+2 Hematic Contract_GQC
+2 Hero of a Lost War_GQC
+2 Into the Breach_GQC
+2 Jade Champion_GQC
+2 Lucent Peacekeeper_GQC
+2 Misfortunes of War_GQC
+2 Mother of Hooves_GQC
+2 Nightmare Feaster_GQC
+2 Of Men and Monsters_GQC
+2 Ophidian Invader_GQC
+2 Orcish Bloodhunter_GQC
+2 Parish Tithe_GQC
+2 Persuasive Orator_GQC
+2 Play the Mortal Fool_GQC
+2 Primordial Migration_GQC
+2 Prognostic Angel_GQC
+2 Protoplasmera_GQC
+2 Putrescent Carrier_GQC
+2 Rivha's Blessed Blade_GQC
+2 Rusted Orrery_GQC
+2 Sinuous Atrocity_GQC
+2 Skyknight Champion_GQC
+2 Sound the Blauhorn_GQC
+2 Specular Grub_GQC
+2 Supernal Host_GQC
+2 The Chasmal Rift_GQC
+2 The Severed Cradle_GQC
+2 Trade Lives_GQC
+2 Vermin Skinner_GQC
+2 Weave into the Fabric_GQC
+1 Azumoth, the Fated Ruin_GQC
+1 Baptize in His Brilliance_GQC
+1 Celestial Shepherd_GQC
+1 Ghariv, the Quaking City_GQC
+1 Ghirin, Cerulean Sibyl_GQC
+1 His Holiness Jorah_GQC
+1 Kr'tah, Corporeal Sculptor_GQC
+1 Merciless Shieldbreaker_GQC
+1 Michal, the Anointed_GQC
+1 Myra, Crypt Priestess_GQC
+1 Oko, Trickster of the Trade_GQC
+1 Orovus, the Worldcarver_GQC
+1 Rivha, Heiress of Pinions_GQC
+1 Sigrid, the Hollow Queen_GQC
+1 Threzak, the Heinous_GQC

@@ -1,0 +1,3385 @@
+
+[Settings]
+{
+	"name": "Svergard",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Aldur Giant_SVG",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/94_Aldur Giant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "94",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nRaid - When Aldur Giant enters, if you attacked this turn, Aldur Giant deals 3 damage to target opponent.",
+	},
+	
+	{
+		"name": "Aldur Peak-Terror_SVG",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/95_Aldur Peak-Terror_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "95",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\nWhenever a creature you control with power 4 or greater attacks, you may have it fight target creature defending player controls.",
+	},
+	
+	{
+		"name": "Algrond, Storm-Serpent_SVG",
+		"mana_cost": "{5}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/32_Algrond, Storm-Serpent_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "32",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nAlgrond can't be blocked except by Gods.\nWhenever Algrond attacks, you may put target nonland, non-God permanent on top of its owner's library.",
+	},
+	
+	{
+		"name": "Algrond's Awakening_SVG",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/33_Algrond's Awakening_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "33",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Return target permanent an opponent controls to its owner's hand.\nIII - Search your library for a Kraken, Leviathan, Octopus, or Serpent card, reveal it, put it into your hand, then shuffle.\n",
+	},
+	
+	{
+		"name": "Amos, Rune-Mage_SVG",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/34_Amos, Rune-Mage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you scry, put a loyalty counter on Amos, Rune-Mage.\n[+1]: Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this Scry 1.\")\n[-1]: Return target creature to its owner's hand.\n[-5]: Draw three cards.",
+	},
+	
+	{
+		"name": "Ancestral Mantle_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/125_Ancestral Mantle_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "125",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 for each enchantment you control.",
+	},
+	
+	{
+		"name": "Ascendant Peak_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/186_Ascendant Peak_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "186",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{7}, {T}: Exile your graveyard. If you do, create a token that's a copy of a creature card exiled this way except it's a 4/4 Spirit enchantment creature. It gains haste until end of turn. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Bandit Brigade_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/63_Bandit Brigade_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "63",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 1/1 white Warrior creature tokens. Each opponent loses 2 life and mills two cards.",
+	},
+	
+	{
+		"name": "Banish to the Ice_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/1_Banish to the Ice_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "1",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target creature. Its controller creates a tapped colorless land token named Far-Off Lands with \"{T}: Add one mana of any color.\"",
+	},
+	
+	{
+		"name": "Bearer of Tidings_SVG",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/35_Bearer of Tidings_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+	},
+	
+	{
+		"name": "Biting Gale_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/36_Biting Gale_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "36",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target nonland permanent to its owner's hand. Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")",
+	},
+	
+	{
+		"name": "Blessed Valkyrie_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/2_Blessed Valkyrie_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "Bloodied Longspear_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/96_Bloodied Longspear_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "96",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Bloodied Longspear enters, attach it to target creature you control.\nEquipped creature gets +2/+0.\nEquip {1}{W} or {3}",
+	},
+	
+	{
+		"name": "Bloodprice_SVG",
+		"mana_cost": "{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/64_Bloodprice_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "64",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature. Its controller creates a Treasure token. (It's an artifact with {T}, Sacrifice this: Add one mana of any color.)",
+	},
+	
+	{
+		"name": "Boon of Might_SVG",
+		"mana_cost": "{X}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/126_Boon of Might_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "126",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Put X +1/+1 counters on target creature.\nRaid - If you attacked this turn, put twice X +1/+1 counters on that creature instead.",
+	},
+	
+	{
+		"name": "Brallatt, Light-Maiden_SVG",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/3_Brallatt, Light-Maiden_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "3",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nOther creatures you control get +1/+1.\nGlory (When this dies while attacking, return her to the battlefield transformed.)",
+		"back": {
+			"name": "Legend of Brallatt_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/3_Brallatt, Light-Maiden_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "3",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Create a 1/1 white Warrior creature token.\nIII - Exile Legend of Brallatt, then return it to the battlefield. (It enters as a God.)",
+		}
+	},
+	
+	{
+		"name": "Brallatt's Chosen_SVG",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/4_Brallatt's Chosen_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Brallatt's Blessing_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/4_Brallatt's Chosen_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "4",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Enchant creature you control\nEnchanted creature gets +1/+1 and has vigilance.",
+		}
+	},
+	
+	{
+		"name": "Brallatt's Light_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/5_Brallatt's Light_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "5",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II, III - Return target nonland permanent card with mana value less than or equal to the number of lore counters on Brallatt's Light from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Braveheart Charger_SVG",
+		"mana_cost": "{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/156_Braveheart Charger_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "156",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink, haste\nWhenever you cast a spell, if Braveheart Charger is attacking, creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Bridge of Prismafrost_SVG",
+		"mana_cost": "{4}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/127_Bridge of Prismafrost_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "127",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may play land cards from your graveyard.\nWhen Bridge of Prismafrost enters, for each basic land type, you may search your library for a card of that type, put it into your graveyard, then shuffle.",
+	},
+	
+	{
+		"name": "Ceaseless Assault_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/97_Ceaseless Assault_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "97",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Untap all creatures. After this phase, there is an additional combat phase followed by an additional main phase.",
+	},
+	
+	{
+		"name": "Ceaseless Ranks_SVG",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/98_Ceaseless Ranks_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "98",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\n{1}{R}, {T}: Search your library for a card named Ceaseless Ranks, put it onto the battlefield, then shuffle.",
+	},
+	
+	{
+		"name": "Cedric, Battle-Skald_SVG",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/157_Cedric, Battle-Skald_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "157",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "[+1]: You choose if and how up to one target creature blocks this turn. You choose before other blockers are declared.\n[-1]: Create a 0/0 red Spirit Warrior creature token with haste. Creatures you control get +1/+1 until end of turn.\n[-7]: Creatures you control gain vigilance until end of turn. After this phase, there are three additional combat phases followed by an additional main phase.",
+	},
+	
+	{
+		"name": "Challenge the Monstrous_SVG",
+		"mana_cost": "{2}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/6_Challenge the Monstrous_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature if it's tapped or has power 4 or greater.",
+	},
+	
+	{
+		"name": "Chronicler's Effigy_SVG",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/176_Chronicler's Effigy_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "176",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color.\n{2}, {T}: Put a lore counter on target Saga you control. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Climb to the Peak_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/99_Climb to the Peak_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "99",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI - Exile the top five cards of your library.\nII, III, IV - Choose a card exiled with Climb to the Peak. You may play it until end of turn.",
+	},
+	
+	{
+		"name": "Coax Soul_SVG",
+		"mana_cost": "{4}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/65_Coax Soul_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "65",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Mill five cards. When you do, you may return a creature card from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Coldstorm Channeler_SVG",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/158_Coldstorm Channeler_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "158",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Coldstorm Channeler enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\nWhenever you scry, Coldstorm Channeler gets +2/+0 until end of turn and can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Darg Frontline_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/66_Darg Frontline_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "66",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\n{2}{R}, Discard a card: Draw a card.",
+	},
+	
+	{
+		"name": "Darg Lieutenant_SVG",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/159_Darg Lieutenant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "159",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nRaid - At the beginning of your end step, if you attacked this turn, Darg Lieutenant deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Darg Raider_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/100_Darg Raider_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "100",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Darg Raider enters, exile the top three cards of your library.\nRaid - During each of your turns, if you've attacked this turn, you may play cards exiled with Darg Raider.",
+	},
+	
+	{
+		"name": "Dark Covenant_SVG",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/67_Dark Covenant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "67",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Dark Covenant enters, you draw a card and you lose 1 life.\n{1}{B}, Sacrifice Dark Covenant: You draw a card and you lose 1 life.",
+	},
+	
+	{
+		"name": "Dawn on the Highlands_SVG",
+		"mana_cost": "{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/128_Dawn on the Highlands_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "128",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant land\nWhen Dawn on the Highlands enters, put a +1/+1 counter on target creature you control.\nEnchanted land has \"{T}: Add one mana of any color.\"",
+	},
+	
+	{
+		"name": "Dawnglade Assailant_SVG",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/129_Dawnglade Assailant_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "129",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Dawnglade Assailant deals combat damage to a player, draw a card.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Dawnglade Invoker_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/129_Dawnglade Assailant_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "129",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Dawnglade Invoker must be blocked if able and must be blocked by two or more creatures if able.\nWhenever an Elf you control deals combat damage to a player, draw a card.",
+		}
+	},
+	
+	{
+		"name": "Dawnglade Cultivator_SVG",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/130_Dawnglade Cultivator_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "130",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Dawnglade Cultivator enters, you may put a land card from your hand onto the battlefield tapped.",
+	},
+	
+	{
+		"name": "Dawnglade Packleader_SVG",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/160_Dawnglade Packleader_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "160",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nOther Elves you control get +1/+1.",
+	},
+	
+	{
+		"name": "Dawnglade Wildbear_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/131_Dawnglade Wildbear_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "131",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever Dawnglade Wildbear deals combat damage to a player, return a permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Defiant Strike_SVG",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/7_Defiant Strike_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+0 until end of turn.\nDraw a card.",
+	},
+	
+	{
+		"name": "Desolation_SVG",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/8_Desolation_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "8",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if you control more creatures than an opponent.\nDestroy all creatures.",
+	},
+	
+	{
+		"name": "Devoted Glyph-Mage_SVG",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/161_Devoted Glyph-Mage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "161",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Devoted Glyph-Mage enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever an artifact you control enters, you gain 1 life. If it's a Glyph, scry 1.",
+	},
+	
+	{
+		"name": "Devout Sword-Thane_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/9_Devout Sword-Thane_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "9",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Light-Maiden's Chosen_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/9_Devout Sword-Thane_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "9",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Lifelink\nSpells your opponents cast that target other creatures you control cost {1} more to cast.",
+		}
+	},
+	
+	{
+		"name": "Dishonor_SVG",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/68_Dishonor_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "68",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets -1/-2. \nIf enchanted creature would die, exile it instead.",
+	},
+	
+	{
+		"name": "Divination_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/37_Divination_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "37",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Draw two cards.",
+	},
+	
+	{
+		"name": "Divine Binding_SVG",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/10_Divine Binding_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Divine Binding enters, exile target nonland permanent an opponent controls until Divine Binding leaves the battlefield.",
+	},
+	
+	{
+		"name": "Dullrock Giant_SVG",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/132_Dullrock Giant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "132",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Dullrock Giant and other creatures you control with power 4 or greater can't be blocked by creatures with power 2 or less.",
+	},
+	
+	{
+		"name": "Duskborn Warrior_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/69_Duskborn Warrior_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "69",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Duskborn Mantle_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/69_Duskborn Warrior_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "69",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Enchant creature\nEnchanted creature has lifelink.",
+		}
+	},
+	
+	{
+		"name": "Dwarven Rallier_SVG",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/101_Dwarven Rallier_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "101",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nCreatures you control with power 2 or less can't be blocked.",
+	},
+	
+	{
+		"name": "Dwarven Skyship_SVG",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/177_Dwarven Skyship_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "177",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Dwarven Skyship attacks a player or planeswalker, it deals 2 damage to the player or planeswalker it's attacking.\nCrew 1",
+	},
+	
+	{
+		"name": "Eikre, Sciurine Messenger_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/133_Eikre, Sciurine Messenger_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "133",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Eikre must be blocked if able and can't be blocked by more than one creature.\nWhenever Eikre deals combat damage to a player, you gain 3 life and draw a card. You may play an additional land this turn.",
+	},
+	
+	{
+		"name": "Elvish Visionary_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/134_Elvish Visionary_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "134",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Elvish Visionary enters, draw a card.",
+	},
+	
+	{
+		"name": "Enraged Assailant_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/102_Enraged Assailant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raid - When Enraged Assailant enters, if you attacked this turn, you may discard a card. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Entrapped in Ice_SVG",
+		"mana_cost": "{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/38_Entrapped in Ice_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "38",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nEnchant creature\nEnchanted creature doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "Evolving Wilds_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/187_Evolving Wilds_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "187",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Experienced Armorsmith_SVG",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/11_Experienced Armorsmith_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "11",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Experienced Armorsmith enters, you may search your library for an artifact card, reveal it, shuffle, then put that card on top.\n{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts on the battlefield.",
+	},
+	
+	{
+		"name": "Explore_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/135_Explore_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "135",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You may play an additional land this turn.\nDraw a card.",
+	},
+	
+	{
+		"name": "Explorer's Knarr_SVG",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/178_Explorer's Knarr_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "178",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Explorer's Knarr enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Feast of the Crows_SVG",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/70_Feast of the Crows_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "70",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nAll creatures get -1/-1 for each lore counter on Feast of the Crows.\nI, II, III - You may return a creature card from your graveyard to your hand.\n",
+	},
+	
+	{
+		"name": "Fell the Mighty_SVG",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/71_Fell the Mighty_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "71",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature or planeswalker.",
+	},
+	
+	{
+		"name": "Fenran Bloodlust_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/72_Fenran Bloodlust_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "72",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has menace.\n{2}{G}: Return Fenran Bloodlust from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Fenran Vanguard_SVG",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/73_Fenran Vanguard_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "73",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\n{5}{B}, {T}, Sacrifice Fenran Vanguard: Target creature gets -2/-2 until end of turn. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Ferocious Flame_SVG",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/103_Ferocious Flame_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "103",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ferocious Flame deals 2 damage to any target. If you control a creature with power 4 or greater, it deals 4 damage instead.",
+	},
+	
+	{
+		"name": "Fierce Infantry_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/104_Fierce Infantry_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "104",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell, if Fierce Infantry is attacking, it gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Fire-Gem Amulet_SVG",
+		"mana_cost": "{3}{R}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/105_Fire-Gem Amulet_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "105",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {R}.\n{2}{R}, {T}: Copy target instant spell, sorcery spell, activated ability, or triggered ability you control. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Foothill Settlement_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/191_Foothill Settlement_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "191",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Foothill Settlement enters the battlefield tapped.\nWhen Foothill Settlement enters, each opponent loses 1 life.\n{T}: Add {G} or {W}.",
+	},
+	
+	{
+		"name": "Forest_SVG",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/205_Forest_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "205",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Frigid Port_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/192_Frigid Port_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "192",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Frigid Port enters the battlefield tapped.\nWhen Frigid Port enters, each opponent loses 1 life.\n{T}: Add {W} or {U}.",
+	},
+	
+	{
+		"name": "Froskur Armsleader_SVG",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/12_Froskur Armsleader_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "12",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhen Froskur Armsleader enters, create a 1/1 white Warrior creature token.",
+	},
+	
+	{
+		"name": "Furious Twinblade_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/13_Furious Twinblade_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "13",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhenever you cast a spell, if Furious Twinblade is attacking, it gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Gate of Realms_SVG",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/179_Gate of Realms_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "179",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Gate of Realms enters, you may search your library for a land card, reveal it, and put that card into your hand. If you do, shuffle.\n{10}, {T}: Gate of Realms deals 3 damage to any target. This ability costs {1} less to activate for each different name among lands you control.",
+	},
+	
+	{
+		"name": "Glyph-Gift Berserker_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/106_Glyph-Gift Berserker_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "106",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Glyph-Gift Berserker enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, Glyph-Gift Berserker gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Glyph of Protection_SVG",
+		"mana_cost": "{W}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/14_Glyph of Protection_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "14",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Glyph of Protection enters, draw a card and create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{1}, Sacrifice a Glyph: You gain 1 life. Scry 1.",
+	},
+	
+	{
+		"name": "Grovecloak Fighter_SVG",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/136_Grovecloak Fighter_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Spells your opponents cast that target Grovecloak Fighter cost {1} more to cast.\nSpells you cast that target Grovecloak Fighter cost {1} less to cast.",
+	},
+	
+	{
+		"name": "Guiding Valkyrie_SVG",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/15_Guiding Valkyrie_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "15",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Guiding Valkyrie attacks, you may sacrifice another attacking creature. If you do, creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Havdan, Dawnglade Elder_SVG",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/162_Havdan, Dawnglade Elder_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "162",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Untap all other Elves you control during each other player's untap step.\nYou may cast spells as though they had flash.",
+	},
+	
+	{
+		"name": "Hergarv, Pass Sentinel_SVG",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/163_Hergarv, Pass Sentinel_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "163",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+	},
+	
+	{
+		"name": "Highland Homestead_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/193_Highland Homestead_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "193",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Highland Homestead enters the battlefield tapped.\nWhen Highland Homestead enters, each opponent loses 1 life.\n{T}: Add {R} or {G}.",
+	},
+	
+	{
+		"name": "Highland Warband_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/107_Highland Warband_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "107",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever you cast a spell, if Highland Warband is attacking, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Holmgang_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/137_Holmgang_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "137",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control fights target creature you don't control.\nRaid - If you attacked this turn, put a +1/+1 counter on the creature you control before it fights.",
+	},
+	
+	{
+		"name": "Honorless Devourer_SVG",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/74_Honorless Devourer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "74",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Honorless Devourer enters, for each permanent type other than artifact among permanents target opponent controls, they lose 3 life unless they sacrifice a permanent of that type or discard a card.",
+	},
+	
+	{
+		"name": "Huntmaster's Bear_SVG",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/164_Huntmaster's Bear_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "164",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Huntmaster's Bear enters, you may return another creature you control to its owner's hand.\nWhenever another creature you control enters, put a +1/+1 counter on Huntmaster's Bear.",
+	},
+	
+	{
+		"name": "Hyperboarean_SVG",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/138_Hyperboarean_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "138",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Spells you cast that target Hyperboarean cost {2} less to cast.",
+	},
+	
+	{
+		"name": "Ill Omen_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/75_Ill Omen_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "75",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets -2/-2 until end of turn.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Imposing Dreadship_SVG",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/76_Imposing Dreadship_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "76",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Imposing Dreadship enters, return target creature card with mana value 3 or less from your graveyard to the battlefield.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Imposing Hall_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/194_Imposing Hall_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "194",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Imposing Hall enters the battlefield tapped.\nWhen Imposing Hall enters, each opponent loses 1 life.\n{T}: Add {W} or {B}.",
+	},
+	
+	{
+		"name": "Inconspicuous Sloop_SVG",
+		"mana_cost": "{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/39_Inconspicuous Sloop_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "39",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Inconspicuous Sloop deals damage to a player, draw a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Island_SVG",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/202_Island_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "202",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Keseran, Wicked Manipulator_SVG",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/165_Keseran, Wicked Manipulator_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "165",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "[+1]: Draw a card, then you lose life equal to the number of cards in your hand.\n[0]: Each player discards a card, then Keseran deals 2 damage to each player who didn't discard a nonland card this way.\n[-2]: Keseran deals 2 damage to any target and you gain 2 life.",
+	},
+	
+	{
+		"name": "Light-Maiden Shrine_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/16_Light-Maiden Shrine_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "16",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, create a 1/1 white Warrior creature token for each differently named Shrine you control.",
+	},
+	
+	{
+		"name": "Lightning Splinters_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/108_Lightning Splinters_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "108",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raid - This spell costs {2} less to cast if you attacked this turn.\nLightning Splinters deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Loyal Shield-Bearer_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/139_Loyal Shield-Bearer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "139",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance\n{2}{W}: Return another target permanent you control to its owner's hand. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Lumbering Mammoth_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/77_Lumbering Mammoth_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "77",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nRaid - At the beginning of your end step, you lose 3 life unless you attacked this turn.",
+	},
+	
+	{
+		"name": "Lyrehorn Stag_SVG",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/140_Lyrehorn Stag_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "140",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Lyrehorn Stag enters, you may search your library for an enchantment card, reveal it, then shuffle and put that card on top of it.\nWhenever Lyrehorn Stag attacks, you may put a lore counter on any number of Sagas you control.",
+	},
+	
+	{
+		"name": "Maldunn, Raven-Wise_SVG",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/40_Maldunn, Raven-Wise_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "40",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever an artifact you control enters for the first time each turn, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{1}, Sacrifice a Glyph: Scry 1. Draw a card.\nGlory (When this dies while attacking, return him to the battlefield transformed.)",
+		"back": {
+			"name": "Legend of Maldunn_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/40_Maldunn, Raven-Wise_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "40",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Create a Glyph token.\nII, III - Draw a card.\nExile Legend of Maldunn, then return it to the battlefield. (It enters as a God.)",
+		}
+	},
+	
+	{
+		"name": "Maldunn's Devotee_SVG",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/109_Maldunn's Devotee_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "109",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Maldunn's Devotee enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, Maldunn's Devotee deals 1 damage to each opponent.",
+	},
+	
+	{
+		"name": "Maldunn's Rejection_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/41_Maldunn's Rejection_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell unless its controller pays {2}. That player mills three cards.",
+	},
+	
+	{
+		"name": "Marauder's Den_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/188_Marauder's Den_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "188",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\nRaid - {T}: Add one mana of any color. Activate this ability only if you attacked this turn.",
+	},
+	
+	{
+		"name": "Marauder's Hatchet_SVG",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/180_Marauder's Hatchet_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "180",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+0.\nEquip {2}",
+	},
+	
+	{
+		"name": "Memorial to the Fallen_SVG",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/181_Memorial to the Fallen_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "181",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Target player mills two cards.\n{2}, {T}: Target player mills four cards.\n{4}, {T}: Draw two cards. Activate this ability only if a player has ten or more cards in their graveyard.",
+	},
+	
+	{
+		"name": "Mistcall Mariner_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/42_Mistcall Mariner_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Mistcall Mariner becomes tapped, up to one target creature gets -2/-0 until end of turn.",
+	},
+	
+	{
+		"name": "Mistwreath Stones_SVG",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/182_Mistwreath Stones_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "182",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Mistwreath Stones enters, scry 1.\n{1}, Sacrifice Mistwreath Stones: Scry 1.\n{1}, Exile Mistwreath Stones from your graveyard: Exile all cards from all graveyards. Draw a card.",
+	},
+	
+	{
+		"name": "Morkfar, Ship of the Dead_SVG",
+		"mana_cost": "{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/166_Morkfar, Ship of the Dead_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "166",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vehicles you control can't be blocked by Humans.\nCrew 3\nDuring your main phase, you may sacrifice a creature or exile a creature card from your graveyard rather than pay Morkfar's crew cost.",
+	},
+	
+	{
+		"name": "Mountain_SVG",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/204_Mountain_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "204",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Multiplying Ring_SVG",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/183_Multiplying Ring_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "183",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Multiplying Ring enters the battlefield tapped.\nAt the beginning of your upkeep, create a token that's a copy of Multiplying Ring, except it doesn't have this ability.\n{T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Munigg's Wisdom_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/78_Munigg's Wisdom_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "78",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Search your library for a card, reveal it, then shuffle. If it's an enchantment card, put it into your hand. Otherwise, put it on top of your library.",
+	},
+	
+	{
+		"name": "Myrkalt, Shade-Bound_SVG",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/79_Myrkalt, Shade-Bound_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "79",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nAs long as an opponent has 10 or less life, Myrkalt gets +2/+2 and has menace.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Legend of Myrkalt_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/79_Myrkalt, Shade-Bound_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "79",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Each player loses 2 life.\nIII - Exile Legend of Myrkalt, then return it to the battlefield. (It enters as a God.)",
+		}
+	},
+	
+	{
+		"name": "Myrkalt's Rager_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/80_Myrkalt's Rager_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "80",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Glory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Battle-Hardened Berserker_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/80_Myrkalt's Rager_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "80",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		}
+	},
+	
+	{
+		"name": "Mystic's Visions_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/110_Mystic's Visions_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "110",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards, then create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Negate_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/43_Negate_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "43",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target noncreature spell.",
+	},
+	
+	{
+		"name": "Nordhavn Hawk_SVG",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/17_Nordhavn Hawk_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Nordhavn Hawk enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Nordhavn Serpent_SVG",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/44_Nordhavn Serpent_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "44",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Nordhavn Serpent enters, tap up to one target creature or Vehicle. It doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Northlands Revenant_SVG",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/81_Northlands Revenant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "81",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Northlands Revenant can't block.\nRaid - As long as you've attacked this turn, you may cast Northlands Revenant from your graveyard by discarding a card as an additional cost to cast it.",
+	},
+	
+	{
+		"name": "Northwind Adventurer_SVG",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/45_Northwind Adventurer_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "45",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Northwind Adventurer enters, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Northwind Hero_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/45_Northwind Adventurer_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "45",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "When Northwind Hero enters, tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Northwind Hero.",
+		}
+	},
+	
+	{
+		"name": "Ond-Fen Auramancer_SVG",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/167_Ond-Fen Auramancer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "167",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may spend mana as though it were mana of any color to cast enchantment spells.\nWhenever an enchantment you control enters, you may pay 1 life. If you do, draw a card.",
+	},
+	
+	{
+		"name": "Ond-Fen Channeler_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/82_Ond-Fen Channeler_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "82",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever an enchantment you control enters, each opponent loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Oracle's Sanctuary_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/195_Oracle's Sanctuary_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "195",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Oracle's Sanctuary enters the battlefield tapped.\nWhen Oracle's Sanctuary enters, each opponent loses 1 life.\n{T}: Add {U} or {R}.",
+	},
+	
+	{
+		"name": "Orrivan's Victory_SVG",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/141_Orrivan's Victory_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "141",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Put a +1/+1 counter on each of up to two target creatures you control.\nIII - Creatures you control with power 4 or greater get +1/+1 and gain vigilance until end of turn.\n",
+	},
+	
+	{
+		"name": "Overwhelmed Sentry_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/18_Overwhelmed Sentry_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "18",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vigilance\nWhen Overwhelmed Sentry dies, create two 1/1 white Warrior creature tokens.",
+	},
+	
+	{
+		"name": "Overwhelming Grizzly_SVG",
+		"mana_cost": "{3}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/142_Overwhelming Grizzly_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "142",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Overwhelming Grizzly enters, creatures you control get +2/+2 and gain trample until end of turn.",
+	},
+	
+	{
+		"name": "Peak Refuge_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/196_Peak Refuge_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "196",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Peak Refuge enters the battlefield tapped.\nWhen Peak Refuge enters, each opponent loses 1 life.\n{T}: Add {R} or {W}.",
+	},
+	
+	{
+		"name": "Plains_SVG",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/201_Plains_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "201",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Rage-Fueled Razorback_SVG",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/168_Rage-Fueled Razorback_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "168",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample, haste\nCreatures you control with power 4 or greater can attack as though they had haste.",
+	},
+	
+	{
+		"name": "Rage-Heart Shrine_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/111_Rage-Heart Shrine_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "111",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, up to X target creatures can't block this turn, where X is the number of differently named Shrines you control.",
+	},
+	
+	{
+		"name": "Rasnif, Rage-Heart_SVG",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/112_Rasnif, Rage-Heart_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "112",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever Rasnif attacks, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Legend of Rasnif_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/112_Rasnif, Rage-Heart_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "112",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Exile the top card of your library. You may play it until Legend of Rasnif leaves the battlefield.\nIII - Exile Legend of Rasnif, then return it to the battlefield. (It enters as a God.)",
+		}
+	},
+	
+	{
+		"name": "Raven-Wise Shrine_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/46_Raven-Wise Shrine_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "46",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, look at the top X cards of your library, where X is the number of differently named Shrines you control. Put one of them into your hand and the rest into your graveyard.",
+	},
+	
+	{
+		"name": "Raven-Wise Warrior_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/47_Raven-Wise Warrior_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "47",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Raven-Wise Warrior enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{2}{R}: Raven-Wise Warrior gets +2/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Raven's Ire_SVG",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/83_Raven's Ire_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "83",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand. You choose a creature or sorcery card from it. That player discards that card.",
+	},
+	
+	{
+		"name": "Realm's Rebirth_SVG",
+		"mana_cost": "{6}{B}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/169_Realm's Rebirth_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "169",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Destroy all other creatures and enchantments.\nII - Mill three cards.\nIII - Until end of turn, you may play cards from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Realm Nexus_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/189_Realm Nexus_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "189",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}: Put a charge counter on each land you control named Realm Nexus.\n{T}, Remove a charge counter from Realm Nexus: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Reclamation Sage_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/143_Reclamation Sage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "143",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Reclamation Sage enters, you may destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Regal Hart_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/113_Regal Hart_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\n{3}{G}: Regal Hart gets +2/+2 until end of turn. Activate this ability only once each turn.",
+	},
+	
+	{
+		"name": "Rise of the Draugr_SVG",
+		"mana_cost": "{3}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/84_Rise of the Draugr_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "84",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Create a tapped 2/2 black Zombie creature token.\nIII - Rise of the Draugr deals 2 damage to each opponent and you gain 2 life.",
+	},
+	
+	{
+		"name": "Rite of Spring_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/144_Rite of Spring_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "144",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nYou gain 3 life.",
+	},
+	
+	{
+		"name": "Rotbile Mage_SVG",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/85_Rotbile Mage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "85",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raid - When Rotbile Mage enters, if you attacked this turn, target creature you don't control gets -3/-3 until end of turn.",
+	},
+	
+	{
+		"name": "Run Amok_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/114_Run Amok_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target attacking creature gets +3/+3 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Rune-Clad Sneak_SVG",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/48_Rune-Clad Sneak_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "48",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Rune-Clad Sneak enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\nWhenever you scry, Rune-Clad Sneak gets +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Rune-Mage's Wrath_SVG",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/115_Rune-Mage's Wrath_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "115",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Rune-Mage's Wrath deals 3 damage to each creature. Whenever a creature is dealt excess damage this way, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Rune's Insight_SVG",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/49_Rune's Insight_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "49",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each artifact you control.\nDraw two cards.",
+	},
+	
+	{
+		"name": "Runemend_SVG",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/19_Runemend_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain 4 life.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Runeweave Elder_SVG",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/170_Runeweave Elder_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "170",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Runeweave Elder enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you cast your first spell each turn, reveal the top card of your library. If that card has lesser mana value than that spell, you may put it into your hand.",
+	},
+	
+	{
+		"name": "Runic Fireworks_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/116_Runic Fireworks_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Up to three target creatures can't block this turn.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+	},
+	
+	{
+		"name": "Sail-Road's Scourge_SVG",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/50_Sail-Road's Scourge_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "50",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Sail-Road's Scourge can't be blocked by creatures with power less than the number of lands you control.",
+	},
+	
+	{
+		"name": "Scaravi Skald_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/145_Scaravi Skald_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "145",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Scaravi Skald enters, return target enchantment card or card with glory from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Shade-Bound Shrine_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/86_Shade-Bound Shrine_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "86",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, each opponent loses 1 life for each differently named Shrine you control.",
+	},
+	
+	{
+		"name": "Sheltered Slipway_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/197_Sheltered Slipway_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "197",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sheltered Slipway enters the battlefield tapped.\nWhen Sheltered Slipway enters, each opponent loses 1 life.\n{T}: Add {U} or {B}.",
+	},
+	
+	{
+		"name": "Shifting Forms_SVG",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/117_Shifting Forms_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "117",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target nonenchantment permanent. Its controller reveals cards from the top of their library until they reveal a card that shares a card type with it. They put that card onto the battlefield, then shuffle the rest into their library.",
+	},
+	
+	{
+		"name": "Siege of the Frost Giants_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/51_Siege of the Frost Giants_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "51",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nSpells your opponents cast that target you or a permanent you control cost {2} more to cast.\nI, II, III - Tap up to one target nonland permanent. It doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Silverarm Spellblade_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/52_Silverarm Spellblade_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "52",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Spells your opponents cast that target Silverarm Spellblade cost {2} more to cast.\nWhenever Silverarm Spellblade deals damage to a player, draw a card.\nDiscard a card: Silverarm Spellblade can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Skagar, Wild-Lord_SVG",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/146_Skagar, Wild-Lord_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "146",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever another creature you control with power 4 or greater attacks, it gains trample until end of turn.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Legend of Skagar_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/146_Skagar, Wild-Lord_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "146",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Put a +1/+1 counter on target creature you control.\nIII - Exile Legend of Skagar then return it to the battlefield. (It enters as a God.)",
+		}
+	},
+	
+	{
+		"name": "Skagar's Favored_SVG",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/147_Skagar's Favored_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "147",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Skagar's Rancor_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/147_Skagar's Favored_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "147",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has trample.",
+		}
+	},
+	
+	{
+		"name": "Skagar's Mark_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/148_Skagar's Mark_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "148",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nWhen Skagar's Mark enters, draw a card.\nEnchanted creature gets +2/+2.",
+	},
+	
+	{
+		"name": "Skilled Axeman_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/118_Skilled Axeman_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "118",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Skilled Axeman has first strike as long as it's attacking.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Rasnif's Fury_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/118_Skilled Axeman_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "118",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Enchant creature you control\nEnchanted creature has first strike as long as it's attacking.",
+		}
+	},
+	
+	{
+		"name": "Skofa Ambusher_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/53_Skofa Ambusher_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "53",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhenever you cast an Elf spell or a spell during an opponent's turn, put a +1/+1 counter on Skofa Ambusher.",
+	},
+	
+	{
+		"name": "Skofa Commander_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/149_Skofa Commander_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "149",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Raid - Elves you control get +1/+1 as long as you've attacked this turn.\n{T}: Add {G}.",
+	},
+	
+	{
+		"name": "Skofa Elite_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/54_Skofa Elite_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "54",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Skofa Elite deals combat damage to a player, you may draw a card. If you do, discard a card.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+		"back": {
+			"name": "Skofa Blessing_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/54_Skofa Elite_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "54",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Enchant creature\nEnchanted creature has flying.\nWhenever enchanted creature deals combat damage to a player, you may draw a card. If you do, discard a card.",
+		}
+	},
+	
+	{
+		"name": "Skofa Shaman_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/150_Skofa Shaman_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "150",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Skofa Shaman enters, put a +1/+1 counter on target Elf you control.\n{2}{U}: Target Elf you control can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Skofa Sigilsoul_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/55_Skofa Sigilsoul_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhenever Skofa Sigilsoul becomes tapped, tap target creature you don't control.",
+	},
+	
+	{
+		"name": "Skygga Pillager_SVG",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/87_Skygga Pillager_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "87",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raid - When Skygga Pillager enters, if you attacked this turn, you draw a card and you lose 1 life.",
+	},
+	
+	{
+		"name": "Skygga Reinforcement_SVG",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/88_Skygga Reinforcement_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "88",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Raid - This spell costs {2} less to cast if you attacked this turn.\nWhen Skygga Reinforcement enters, each opponent sacrifices a creature.",
+	},
+	
+	{
+		"name": "Skygga Vanguard_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/20_Skygga Vanguard_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{6}{B}: Each opponent loses 2 life and you gain 2 life.",
+	},
+	
+	{
+		"name": "Smokewreath Raven_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/89_Smokewreath Raven_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "89",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nSmokewreath Raven can't block.",
+	},
+	
+	{
+		"name": "Spill Forth_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/21_Spill Forth_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "21",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Create four 1/1 white Warrior creature tokens.",
+	},
+	
+	{
+		"name": "Spirit of the World's Edge_SVG",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/56_Spirit of the World's Edge_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "56",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Spirit of the World's Edge enters, you may search your library for a card named Biting Gale or Divination, reveal it, and put it into your hand.",
+	},
+	
+	{
+		"name": "Star-Forged Hammer_SVG",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/184_Star-Forged Hammer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "184",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Indestructible\nWhen Star-Forged Hammer enters, attach it to target creature you control.\nEquipped creature gets +2/+2.\nEquip {3}",
+	},
+	
+	{
+		"name": "Stone-Circle Oracle_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/22_Stone-Circle Oracle_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "22",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Stone-Circle Oracle enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{2}{U}, Sacrifice a Glyph: Scry 1. Draw a card.",
+	},
+	
+	{
+		"name": "Stone Circle_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/190_Stone Circle_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "190",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may have Stone Circle enter tapped. When you do, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{T}: Add {C}.\n{3}, {T}, Sacrifice a Glyph: Draw a card.",
+	},
+	
+	{
+		"name": "Stoneskin Bogwalker_SVG",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/151_Stoneskin Bogwalker_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "151",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nRaid - Stoneskin Bogwalker enters with a +1/+1 counter on it if you attacked this turn.",
+	},
+	
+	{
+		"name": "Sturmslang Bruiser_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/90_Sturmslang Bruiser_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "90",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Sturmslang Bruiser becomes tapped, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Sturmslang Drakkar_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/57_Sturmslang Drakkar_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "57",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}{B}: Sturmslang Drakkar gets +1/+1 until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Sturmslang Plunderer_SVG",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/58_Sturmslang Plunderer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "58",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Sturmslang Plunderer becomes tapped, another target creature or Vehicle you control can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Sturmslang Smuggler_SVG",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/171_Sturmslang Smuggler_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "171",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Sturmslang Smuggler enters, you may search your library for a Vehicle card, reveal it, put it into your hand, then shuffle.\nWhenever Sturmslang Smuggler crews a Vehicle, that Vehicle gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Sturmslang Warship_SVG",
+		"mana_cost": "{2}{B}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/91_Sturmslang Warship_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "91",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Raid - When Sturmslang Warship enters, if you attacked this turn, target player discards a card.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Sublime Heartland_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/198_Sublime Heartland_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "198",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Sublime Heartland enters the battlefield tapped.\nWhen Sublime Heartland enters, each opponent loses 1 life.\n{T}: Add {G} or {U}.",
+	},
+	
+	{
+		"name": "Swamp_SVG",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/203_Swamp_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "203",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Talented Blacksmith_SVG",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/119_Talented Blacksmith_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "119",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Talented Blacksmith enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever Talented Blacksmith attacks, you may sacrifice an artifact. When you do, scry 1 and put a +1/+1 counter on a creature you control.",
+	},
+	
+	{
+		"name": "Thunder-Blessed Rager_SVG",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/172_Thunder-Blessed Rager_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "172",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Thunder-Blessed Rager enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, attacking creatures you control get +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Thunderous Smite_SVG",
+		"mana_cost": "{3}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/120_Thunderous Smite_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "120",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Thunderous Smite deals 4 damage to target creature.",
+	},
+	
+	{
+		"name": "Thurog Nomad_SVG",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/121_Thurog Nomad_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "121",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\n{3}{R}: Target creature you don't control can't block this turn.",
+	},
+	
+	{
+		"name": "Touch the Skies_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/23_Touch the Skies_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Up to two target creatures each gain flying until end of turn. Creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Travel to the Otherworlds_SVG",
+		"mana_cost": "{2}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/24_Travel to the Otherworlds_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile up to two target permanents you control, then return those cards to the battlefield under their owner's control.",
+	},
+	
+	{
+		"name": "Trumpet Blast_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/122_Trumpet Blast_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "122",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Attacking creatures get +2/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Unexplored Expanse_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/199_Unexplored Expanse_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "199",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unexplored Expanse enters the battlefield tapped.\nWhen Unexplored Expanse enters, each opponent loses 1 life.\n{T}: Add {B} or {G}.",
+	},
+	
+	{
+		"name": "Unite the Clans_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/25_Unite the Clans_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "25",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Look at the top six cards of your library. Put any number of creature cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Unrelenting Assault_SVG",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/92_Unrelenting Assault_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "92",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Unrelenting Assault enters, target opponent discards a card.\nRaid - At the beginning of your end step, if you attacked this turn, you draw a card and you lose 1 life.",
+	},
+	
+	{
+		"name": "Valdin, Axe Maiden_SVG",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/173_Valdin, Axe Maiden_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "173",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Valdin, Axe Maiden has first strike as long as she's attacking.\nWhenever Valdin attacks, other attacking creatures get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Valdulfr, Unshackled_SVG",
+		"mana_cost": "{3}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/93_Valdulfr, Unshackled_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "93",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another permanent leaves the battlefield, put a +1/+1 counter on Valdulfr, Unshackled.\nWhen Valdulfr dies, each opponent loses life equal to his toughness.",
+	},
+	
+	{
+		"name": "Valiant Swordsman_SVG",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/26_Valiant Swordsman_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "26",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice Valiant Swordsman: Target creature gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Valkyrie Commander_SVG",
+		"mana_cost": "{3}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/174_Valkyrie Commander_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "174",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Valkyrie Commander attacks, defending player loses 1 life for each attacking creature you control and you gain that much life.",
+	},
+	
+	{
+		"name": "Varsmidd Brawler_SVG",
+		"mana_cost": "{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/123_Varsmidd Brawler_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "123",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Varsmidd Brawler can't block.",
+	},
+	
+	{
+		"name": "Vengeful Icemage_SVG",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/27_Vengeful Icemage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "27",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Vengeful Icemage enters, exile target creature you don't control until Vengeful Icemage leaves the battlefield.\n{3}{W}: Exile target creature you control, then return it to the battlefield tapped under its owner's control.",
+	},
+	
+	{
+		"name": "Vigor of the Wilds_SVG",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/152_Vigor of the Wilds_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "152",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance and reach.\nIf enchanted creature would die, instead sacrifice Vigor of the Wilds and it gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Voyager's Vessel_SVG",
+		"mana_cost": "{3}{U}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/59_Voyager's Vessel_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "59",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Voyager's Vessel enters, look at the top five cards of your library. You may reveal an artifact, instant, or sorcery card from among them and put it into your hand. Put the rest on the bottom in a random order.\nCrew 3",
+	},
+	
+	{
+		"name": "Warband Reinforcements_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/28_Warband Reinforcements_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 1/1 white Warrior creature tokens.",
+	},
+	
+	{
+		"name": "Warcaller's Horn_SVG",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/185_Warcaller's Horn_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "185",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +1/+1.\n{3}, {T}: Look at the top three cards of your library. You may put a creature card with mana value 3 or less from among them into your hand. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Warforge Zealot_SVG",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/124_Warforge Zealot_SVG_front.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "124",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Warforge Zealot enters, it deals 2 damage to each opponent.\nGlory (When this dies while attacking, return it to the battlefield transformed.) ",
+		"back": {
+			"name": "Lightning-Born Einherjar_SVG",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/124_Warforge Zealot_SVG_back.jpg",
+			"colors": [],
+			"set": "SVG",
+			"collector_number": "124",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Whenever Lightning-Born Einherjar attacks, it deals 2 damage to each opponent.",
+		}
+	},
+	
+	{
+		"name": "Warrior Encampment_SVG",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/200_Warrior Encampment_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "200",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Warrior Encampment enters the battlefield tapped.\nWhen Warrior Encampment enters, each opponent loses 1 life.\n{T}: Add {B} or {R}.",
+	},
+	
+	{
+		"name": "Weaving of the World_SVG",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/153_Weaving of the World_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "153",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nYou may play an additional land on each of your turns.\nI, II - Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nIII - You gain 1 life for each land you control.",
+	},
+	
+	{
+		"name": "Wild-Lord's Progeny_SVG",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/175_Wild-Lord's Progeny_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "175",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nRaid - At the beginning of each end step, if you attacked this turn, put a +1/+1 counter on Wild-Lord's Progeny.",
+	},
+	
+	{
+		"name": "Wild-Lord Shrine_SVG",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/154_Wild-Lord Shrine_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "154",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you attack, you gain 2 life for each differently named Shrine you control.",
+	},
+	
+	{
+		"name": "Wildbond Tamer_SVG",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/155_Wildbond Tamer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "155",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Wildbond Tamer attacks or blocks, if you control a creature with power 4 or greater, Wildbond Tamer gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Winterholm Healer_SVG",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/29_Winterholm Healer_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "29",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhenever another creature you control enters, you gain 1 life.",
+	},
+	
+	{
+		"name": "Winterholm Hersir_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/30_Winterholm Hersir_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "30",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nAbilities your opponents activate cost {1} more to activate unless they're mana abilities.",
+	},
+	
+	{
+		"name": "Winterholm Valiant_SVG",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/31_Winterholm Valiant_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "31",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast a spell, if Winterholm Valiant is attacking, it gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Witness Beyonds_SVG",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/60_Witness Beyonds_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "60",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Reveal the top seven cards of your library. An opponent exiles two of them. Put another two of them into your hand and the rest into your graveyard.",
+	},
+	
+	{
+		"name": "Wizened Sage_SVG",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/61_Wizened Sage_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "61",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Elves you control can't be blocked by creatures with toughness 3 or greater.\nWhenever an Elf you control attacks and isn't blocked, create a tapped and attacking token that's a copy of it. Exile that token at the beginning of your next end step.",
+	},
+	
+	{
+		"name": "Writhing Fog_SVG",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/62_Writhing Fog_SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "62",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Creatures you don't control get -2/-0 until end of turn. Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")",
+	},
+	
+	{
+		"name": "Copy SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/1t_Copy SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(This is a copy of a creature exiled with Ascendant Peak.)",
+	},
+	
+	{
+		"name": "white Warrior 11SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/2t_white Warrior 11SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Far-Off Lands SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/8t_Far-Off Lands SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Treasure SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/7t_Treasure SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Treasure: Add one mana of any color.",
+	},
+	
+	{
+		"name": "red Spirit Warrior 00SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/4t_red Spirit Warrior 00SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste",
+	},
+	
+	{
+		"name": "black Zombie 22SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/3t_black Zombie 22SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "colorless Glyph SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/5t_colorless Glyph SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice this artifact: Scry 1.",
+	},
+	
+	{
+		"name": "Multiplying Ring SVG",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/6t_Multiplying Ring SVG.jpg",
+		"colors": [],
+		"set": "SVG",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Multiplying Ring enters tapped.\n{T}: Add one mana of any color.",
+	},
+	]
+[Common]
+20 Aldur Giant_SVG
+20 Bandit Brigade_SVG
+20 Bearer of Tidings_SVG
+20 Biting Gale_SVG
+20 Blessed Valkyrie_SVG
+20 Bloodied Longspear_SVG
+20 Brallatt's Chosen_SVG
+20 Ceaseless Ranks_SVG
+20 Challenge the Monstrous_SVG
+20 Chronicler's Effigy_SVG
+20 Darg Frontline_SVG
+20 Dark Covenant_SVG
+20 Dawn on the Highlands_SVG
+20 Dawnglade Cultivator_SVG
+20 Defiant Strike_SVG
+20 Dishonor_SVG
+20 Divination_SVG
+20 Divine Binding_SVG
+20 Duskborn Warrior_SVG
+20 Elvish Visionary_SVG
+20 Enraged Assailant_SVG
+20 Entrapped in Ice_SVG
+20 Evolving Wilds_SVG
+20 Explore_SVG
+20 Explorer's Knarr_SVG
+20 Fell the Mighty_SVG
+20 Fenran Bloodlust_SVG
+20 Fenran Vanguard_SVG
+20 Fierce Infantry_SVG
+20 Froskur Armsleader_SVG
+20 Holmgang_SVG
+20 Hyperboarean_SVG
+20 Ill Omen_SVG
+20 Lightning Splinters_SVG
+20 Loyal Shield-Bearer_SVG
+20 Maldunn's Devotee_SVG
+20 Maldunn's Rejection_SVG
+20 Marauder's Hatchet_SVG
+20 Mistcall Mariner_SVG
+20 Mystic's Visions_SVG
+20 Negate_SVG
+20 Nordhavn Hawk_SVG
+20 Nordhavn Serpent_SVG
+20 Ond-Fen Channeler_SVG
+20 Raven-Wise Warrior_SVG
+20 Raven's Ire_SVG
+20 Realm Nexus_SVG
+20 Regal Hart_SVG
+20 Rite of Spring_SVG
+20 Rotbile Mage_SVG
+20 Run Amok_SVG
+20 Rune-Clad Sneak_SVG
+20 Runemend_SVG
+20 Runic Fireworks_SVG
+20 Scaravi Skald_SVG
+20 Skagar's Favored_SVG
+20 Skagar's Mark_SVG
+20 Skilled Axeman_SVG
+20 Skofa Elite_SVG
+20 Skofa Shaman_SVG
+20 Skofa Sigilsoul_SVG
+20 Skygga Pillager_SVG
+20 Skygga Vanguard_SVG
+20 Stone-Circle Oracle_SVG
+20 Stoneskin Bogwalker_SVG
+20 Sturmslang Bruiser_SVG
+20 Sturmslang Drakkar_SVG
+20 Sturmslang Plunderer_SVG
+20 Sturmslang Warship_SVG
+20 Thunderous Smite_SVG
+20 Thurog Nomad_SVG
+20 Touch the Skies_SVG
+20 Travel to the Otherworlds_SVG
+20 Trumpet Blast_SVG
+20 Vigor of the Wilds_SVG
+20 Voyager's Vessel_SVG
+20 Warband Reinforcements_SVG
+20 Wildbond Tamer_SVG
+20 Winterholm Healer_SVG
+20 Winterholm Valiant_SVG
+
+[Uncommon]
+10 Ancestral Mantle_SVG
+10 Banish to the Ice_SVG
+10 Bloodprice_SVG
+10 Boon of Might_SVG
+10 Brallatt's Light_SVG
+10 Braveheart Charger_SVG
+10 Climb to the Peak_SVG
+10 Coldstorm Channeler_SVG
+10 Darg Lieutenant_SVG
+10 Dawnglade Assailant_SVG
+10 Dawnglade Packleader_SVG
+10 Dawnglade Wildbear_SVG
+10 Devoted Glyph-Mage_SVG
+10 Devout Sword-Thane_SVG
+10 Dullrock Giant_SVG
+10 Dwarven Skyship_SVG
+10 Ferocious Flame_SVG
+10 Glyph-Gift Berserker_SVG
+10 Glyph of Protection_SVG
+10 Grovecloak Fighter_SVG
+10 Guiding Valkyrie_SVG
+10 Highland Warband_SVG
+10 Huntmaster's Bear_SVG
+10 Imposing Dreadship_SVG
+10 Inconspicuous Sloop_SVG
+10 Light-Maiden Shrine_SVG
+10 Memorial to the Fallen_SVG
+10 Mistwreath Stones_SVG
+10 Myrkalt's Rager_SVG
+10 Northlands Revenant_SVG
+10 Northwind Adventurer_SVG
+10 Ond-Fen Auramancer_SVG
+10 Overwhelmed Sentry_SVG
+10 Rage-Fueled Razorback_SVG
+10 Rage-Heart Shrine_SVG
+10 Raven-Wise Shrine_SVG
+10 Reclamation Sage_SVG
+10 Rise of the Draugr_SVG
+10 Rune's Insight_SVG
+10 Sail-Road's Scourge_SVG
+10 Shade-Bound Shrine_SVG
+10 Shifting Forms_SVG
+10 Siege of the Frost Giants_SVG
+10 Skofa Ambusher_SVG
+10 Skygga Reinforcement_SVG
+10 Smokewreath Raven_SVG
+10 Spill Forth_SVG
+10 Spirit of the World's Edge_SVG
+10 Star-Forged Hammer_SVG
+10 Stone Circle_SVG
+10 Sturmslang Smuggler_SVG
+10 Talented Blacksmith_SVG
+10 Unrelenting Assault_SVG
+10 Valdin, Axe Maiden_SVG
+10 Valiant Swordsman_SVG
+10 Varsmidd Brawler_SVG
+10 Warforge Zealot_SVG
+10 Weaving of the World_SVG
+10 Wild-Lord Shrine_SVG
+10 Writhing Fog_SVG
+
+[Rare]
+4 Aldur Peak-Terror_SVG
+4 Algrond, Storm-Serpent_SVG
+4 Algrond's Awakening_SVG
+4 Amos, Rune-Mage_SVG
+4 Ascendant Peak_SVG
+4 Brallatt, Light-Maiden_SVG
+4 Bridge of Prismafrost_SVG
+4 Ceaseless Assault_SVG
+4 Cedric, Battle-Skald_SVG
+4 Coax Soul_SVG
+4 Darg Raider_SVG
+4 Desolation_SVG
+4 Dwarven Rallier_SVG
+4 Eikre, Sciurine Messenger_SVG
+4 Experienced Armorsmith_SVG
+4 Feast of the Crows_SVG
+4 Fire-Gem Amulet_SVG
+4 Furious Twinblade_SVG
+4 Gate of Realms_SVG
+4 Havdan, Dawnglade Elder_SVG
+4 Hergarv, Pass Sentinel_SVG
+4 Honorless Devourer_SVG
+4 Keseran, Wicked Manipulator_SVG
+4 Lumbering Mammoth_SVG
+4 Lyrehorn Stag_SVG
+4 Maldunn, Raven-Wise_SVG
+4 Marauder's Den_SVG
+4 Morkfar, Ship of the Dead_SVG
+4 Multiplying Ring_SVG
+4 Munigg's Wisdom_SVG
+4 Myrkalt, Shade-Bound_SVG
+4 Orrivan's Victory_SVG
+4 Overwhelming Grizzly_SVG
+4 Rasnif, Rage-Heart_SVG
+4 Realm's Rebirth_SVG
+4 Rune-Mage's Wrath_SVG
+4 Runeweave Elder_SVG
+4 Silverarm Spellblade_SVG
+4 Skagar, Wild-Lord_SVG
+4 Skofa Commander_SVG
+4 Thunder-Blessed Rager_SVG
+4 Unite the Clans_SVG
+4 Valdulfr, Unshackled_SVG
+4 Valkyrie Commander_SVG
+4 Vengeful Icemage_SVG
+4 Warcaller's Horn_SVG
+4 Wild-Lord's Progeny_SVG
+4 Winterholm Hersir_SVG
+4 Witness Beyonds_SVG
+4 Wizened Sage_SVG
+
+[Land]
+10 Foothill Settlement_SVG
+10 Frigid Port_SVG
+10 Highland Homestead_SVG
+10 Imposing Hall_SVG
+10 Oracle's Sanctuary_SVG
+10 Peak Refuge_SVG
+10 Sheltered Slipway_SVG
+10 Sublime Heartland_SVG
+10 Unexplored Expanse_SVG
+10 Warrior Encampment_SVG
+20 Forest_SVG
+20 Island_SVG
+20 Mountain_SVG
+20 Plains_SVG
+20 Swamp_SVG
+
+[Token]
+20 Copy SVG
+20 white Warrior 11SVG
+20 Far-Off Lands SVG
+20 Treasure SVG
+20 red Spirit Warrior 00SVG
+20 black Zombie 22SVG
+20 colorless Glyph SVG
+20 Multiplying Ring SVG
+
+[Wildcard]
+6 Aldur Giant_SVG
+6 Bandit Brigade_SVG
+6 Bearer of Tidings_SVG
+6 Biting Gale_SVG
+6 Blessed Valkyrie_SVG
+6 Bloodied Longspear_SVG
+6 Brallatt's Chosen_SVG
+6 Ceaseless Ranks_SVG
+6 Challenge the Monstrous_SVG
+6 Chronicler's Effigy_SVG
+6 Darg Frontline_SVG
+6 Dark Covenant_SVG
+6 Dawn on the Highlands_SVG
+6 Dawnglade Cultivator_SVG
+6 Defiant Strike_SVG
+6 Dishonor_SVG
+6 Divination_SVG
+6 Divine Binding_SVG
+6 Duskborn Warrior_SVG
+6 Elvish Visionary_SVG
+6 Enraged Assailant_SVG
+6 Entrapped in Ice_SVG
+6 Evolving Wilds_SVG
+6 Explore_SVG
+6 Explorer's Knarr_SVG
+6 Fell the Mighty_SVG
+6 Fenran Bloodlust_SVG
+6 Fenran Vanguard_SVG
+6 Fierce Infantry_SVG
+6 Froskur Armsleader_SVG
+6 Holmgang_SVG
+6 Hyperboarean_SVG
+6 Ill Omen_SVG
+6 Lightning Splinters_SVG
+6 Loyal Shield-Bearer_SVG
+6 Maldunn's Devotee_SVG
+6 Maldunn's Rejection_SVG
+6 Marauder's Hatchet_SVG
+6 Mistcall Mariner_SVG
+6 Mystic's Visions_SVG
+6 Negate_SVG
+6 Nordhavn Hawk_SVG
+6 Nordhavn Serpent_SVG
+6 Ond-Fen Channeler_SVG
+6 Raven-Wise Warrior_SVG
+6 Raven's Ire_SVG
+6 Realm Nexus_SVG
+6 Regal Hart_SVG
+6 Rite of Spring_SVG
+6 Rotbile Mage_SVG
+6 Run Amok_SVG
+6 Rune-Clad Sneak_SVG
+6 Runemend_SVG
+6 Runic Fireworks_SVG
+6 Scaravi Skald_SVG
+6 Skagar's Favored_SVG
+6 Skagar's Mark_SVG
+6 Skilled Axeman_SVG
+6 Skofa Elite_SVG
+6 Skofa Shaman_SVG
+6 Skofa Sigilsoul_SVG
+6 Skygga Pillager_SVG
+6 Skygga Vanguard_SVG
+6 Stone-Circle Oracle_SVG
+6 Stoneskin Bogwalker_SVG
+6 Sturmslang Bruiser_SVG
+6 Sturmslang Drakkar_SVG
+6 Sturmslang Plunderer_SVG
+6 Sturmslang Warship_SVG
+6 Thunderous Smite_SVG
+6 Thurog Nomad_SVG
+6 Touch the Skies_SVG
+6 Travel to the Otherworlds_SVG
+6 Trumpet Blast_SVG
+6 Vigor of the Wilds_SVG
+6 Voyager's Vessel_SVG
+6 Warband Reinforcements_SVG
+6 Wildbond Tamer_SVG
+6 Winterholm Healer_SVG
+6 Winterholm Valiant_SVG
+4 Ancestral Mantle_SVG
+4 Banish to the Ice_SVG
+4 Bloodprice_SVG
+4 Boon of Might_SVG
+4 Brallatt's Light_SVG
+4 Braveheart Charger_SVG
+4 Climb to the Peak_SVG
+4 Coldstorm Channeler_SVG
+4 Darg Lieutenant_SVG
+4 Dawnglade Assailant_SVG
+4 Dawnglade Packleader_SVG
+4 Dawnglade Wildbear_SVG
+4 Devoted Glyph-Mage_SVG
+4 Devout Sword-Thane_SVG
+4 Dullrock Giant_SVG
+4 Dwarven Skyship_SVG
+4 Ferocious Flame_SVG
+4 Glyph-Gift Berserker_SVG
+4 Glyph of Protection_SVG
+4 Grovecloak Fighter_SVG
+4 Guiding Valkyrie_SVG
+4 Highland Warband_SVG
+4 Huntmaster's Bear_SVG
+4 Imposing Dreadship_SVG
+4 Inconspicuous Sloop_SVG
+4 Light-Maiden Shrine_SVG
+4 Memorial to the Fallen_SVG
+4 Mistwreath Stones_SVG
+4 Myrkalt's Rager_SVG
+4 Northlands Revenant_SVG
+4 Northwind Adventurer_SVG
+4 Ond-Fen Auramancer_SVG
+4 Overwhelmed Sentry_SVG
+4 Rage-Fueled Razorback_SVG
+4 Rage-Heart Shrine_SVG
+4 Raven-Wise Shrine_SVG
+4 Reclamation Sage_SVG
+4 Rise of the Draugr_SVG
+4 Rune's Insight_SVG
+4 Sail-Road's Scourge_SVG
+4 Shade-Bound Shrine_SVG
+4 Shifting Forms_SVG
+4 Siege of the Frost Giants_SVG
+4 Skofa Ambusher_SVG
+4 Skygga Reinforcement_SVG
+4 Smokewreath Raven_SVG
+4 Spill Forth_SVG
+4 Spirit of the World's Edge_SVG
+4 Star-Forged Hammer_SVG
+4 Stone Circle_SVG
+4 Sturmslang Smuggler_SVG
+4 Talented Blacksmith_SVG
+4 Unrelenting Assault_SVG
+4 Valdin, Axe Maiden_SVG
+4 Valiant Swordsman_SVG
+4 Varsmidd Brawler_SVG
+4 Warforge Zealot_SVG
+4 Weaving of the World_SVG
+4 Wild-Lord Shrine_SVG
+4 Writhing Fog_SVG
+2 Aldur Peak-Terror_SVG
+2 Algrond, Storm-Serpent_SVG
+2 Algrond's Awakening_SVG
+2 Amos, Rune-Mage_SVG
+2 Ascendant Peak_SVG
+2 Brallatt, Light-Maiden_SVG
+2 Bridge of Prismafrost_SVG
+2 Ceaseless Assault_SVG
+2 Cedric, Battle-Skald_SVG
+2 Coax Soul_SVG
+2 Darg Raider_SVG
+2 Desolation_SVG
+2 Dwarven Rallier_SVG
+2 Eikre, Sciurine Messenger_SVG
+2 Experienced Armorsmith_SVG
+2 Feast of the Crows_SVG
+2 Fire-Gem Amulet_SVG
+2 Furious Twinblade_SVG
+2 Gate of Realms_SVG
+2 Havdan, Dawnglade Elder_SVG
+2 Hergarv, Pass Sentinel_SVG
+2 Honorless Devourer_SVG
+2 Keseran, Wicked Manipulator_SVG
+2 Lumbering Mammoth_SVG
+2 Lyrehorn Stag_SVG
+2 Maldunn, Raven-Wise_SVG
+2 Marauder's Den_SVG
+2 Morkfar, Ship of the Dead_SVG
+2 Multiplying Ring_SVG
+2 Munigg's Wisdom_SVG
+2 Myrkalt, Shade-Bound_SVG
+2 Orrivan's Victory_SVG
+2 Overwhelming Grizzly_SVG
+2 Rasnif, Rage-Heart_SVG
+2 Realm's Rebirth_SVG
+2 Rune-Mage's Wrath_SVG
+2 Runeweave Elder_SVG
+2 Silverarm Spellblade_SVG
+2 Skagar, Wild-Lord_SVG
+2 Skofa Commander_SVG
+2 Thunder-Blessed Rager_SVG
+2 Unite the Clans_SVG
+2 Valdulfr, Unshackled_SVG
+2 Valkyrie Commander_SVG
+2 Vengeful Icemage_SVG
+2 Warcaller's Horn_SVG
+2 Wild-Lord's Progeny_SVG
+2 Winterholm Hersir_SVG
+2 Witness Beyonds_SVG
+2 Wizened Sage_SVG

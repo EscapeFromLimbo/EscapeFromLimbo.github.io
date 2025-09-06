@@ -5009,24 +5009,6 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "Winding Way",
-            "color": "G",
-            "rarity": "common",
-            "type": "Sorcery",
-            "number": 220,
-            "color_identity": "G",
-            "cost": "{1}{G}",
-            "rules_text": "Choose creature or land. Reveal the top four cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard.",
-            "flavor_text": "[i]All paths lead to death, but sometimes you can take the scenic route.\n[/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "OLD",
-            "loyalty": "",
-            "artist": "Jocelin Carmes",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
-        },
-        {
             "card_name": "Winds of Winter",
             "color": "U",
             "rarity": "uncommon",
@@ -5370,7 +5352,7 @@
         },
         {
             "card_name": "green Yeti 33OLD",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Yeti",
             "number": 13,
@@ -5388,7 +5370,7 @@
         },
         {
             "card_name": "white Human 11OLD",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Human",
             "number": 4,
@@ -5424,7 +5406,7 @@
         },
         {
             "card_name": "red Human Warrior 21OLD",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature - Human Warrior",
             "number": 8,
@@ -5442,7 +5424,7 @@
         },
         {
             "card_name": "green Elemental 1010OLD",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Elemental",
             "number": 10,
@@ -5460,7 +5442,7 @@
         },
         {
             "card_name": "white Bird 11OLD",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Bird",
             "number": 2,
@@ -5478,7 +5460,7 @@
         },
         {
             "card_name": "black Cat 22MSEMAR",
-            "color": "",
+            "color": "B",
             "rarity": "common",
             "type": "Token Creature - Cat",
             "number": 7,
@@ -5496,7 +5478,7 @@
         },
         {
             "card_name": "green Saproling 11OLD",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Saproling",
             "number": 11,
@@ -5514,7 +5496,7 @@
         },
         {
             "card_name": "blue and black Fish OLD",
-            "color": "",
+            "color": "UB",
             "rarity": "common",
             "type": "Token Creature - Fish",
             "number": 14,
@@ -5532,7 +5514,7 @@
         },
         {
             "card_name": "green Wolf 22OLD",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Wolf",
             "number": 12,
@@ -5568,7 +5550,7 @@
         },
         {
             "card_name": "green Bear 22OLD",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Bear",
             "number": 9,
@@ -5586,7 +5568,7 @@
         },
         {
             "card_name": "white Insect 11OLD",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Insect",
             "number": 5,
@@ -5604,7 +5586,7 @@
         },
         {
             "card_name": "blue Drake OLD",
-            "color": "",
+            "color": "U",
             "rarity": "common",
             "type": "Token Creature - Drake",
             "number": 6,
@@ -5622,7 +5604,7 @@
         },
         {
             "card_name": "white Goat 01OLD",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Goat",
             "number": 3,
@@ -5640,7 +5622,7 @@
         },
         {
             "card_name": "green Yeti 33OLD 2",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Yeti",
             "number": 16,

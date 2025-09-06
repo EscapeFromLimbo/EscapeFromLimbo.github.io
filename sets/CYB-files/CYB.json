@@ -5303,24 +5303,6 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "Wastes",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land",
-            "number": 291,
-            "color_identity": "",
-            "cost": "",
-            "rules_text": "({T}: Add {C}.)",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "CYB",
-            "loyalty": "",
-            "artist": "Esuthio",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
-        },
-        {
             "card_name": "Wayward Drek",
             "color": "WB",
             "rarity": "uncommon",
@@ -6018,7 +6000,7 @@
         },
         {
             "card_name": "Red Ragtag CYB",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature",
             "number": 10,
@@ -6054,7 +6036,7 @@
         },
         {
             "card_name": "red Soldier 11CYB",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature - Soldier",
             "number": 11,
@@ -6126,7 +6108,7 @@
         },
         {
             "card_name": "white Goat 01CYB",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Goat",
             "number": 5,
@@ -6144,7 +6126,7 @@
         },
         {
             "card_name": "black Zombie 22CYB",
-            "color": "",
+            "color": "B",
             "rarity": "common",
             "type": "Token Artifact Creature - Zombie",
             "number": 8,
@@ -6162,7 +6144,7 @@
         },
         {
             "card_name": "black Cyborg Knight 33CYB",
-            "color": "",
+            "color": "B",
             "rarity": "common",
             "type": "Token Artifact Creature - Cyborg Knight",
             "number": 7,
@@ -6180,7 +6162,7 @@
         },
         {
             "card_name": "white Knight 31CYB",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Knight",
             "number": 6,
@@ -6198,7 +6180,7 @@
         },
         {
             "card_name": "green Citizen 11CYB",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Citizen",
             "number": 12,
@@ -6216,7 +6198,7 @@
         },
         {
             "card_name": "white Avatar CYB",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Avatar",
             "number": 4,
@@ -6252,7 +6234,7 @@
         },
         {
             "card_name": "red Dinosaur 31CYB",
-            "color": "",
+            "color": "R",
             "rarity": "common",
             "type": "Token Creature - Dinosaur",
             "number": 9,
@@ -6270,7 +6252,7 @@
         },
         {
             "card_name": "white Advisor 22CYB",
-            "color": "",
+            "color": "W",
             "rarity": "common",
             "type": "Token Creature - Advisor",
             "number": 3,
@@ -6288,7 +6270,7 @@
         },
         {
             "card_name": "Green Ragtag CYB",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature",
             "number": 14,
@@ -6324,7 +6306,7 @@
         },
         {
             "card_name": "green Elf 11CYB",
-            "color": "",
+            "color": "G",
             "rarity": "common",
             "type": "Token Creature - Elf",
             "number": 13,

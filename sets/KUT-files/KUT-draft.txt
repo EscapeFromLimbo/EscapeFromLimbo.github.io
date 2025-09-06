@@ -1,0 +1,4861 @@
+
+[Settings]
+{
+	"name": "Kuutalya",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "Aglu, Tugit Chieftain_KUT",
+		"mana_cost": "{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/177_Aglu, Tugit Chieftain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "177",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{X}{U}{B}, {T}: Exile the top X cards of target opponent's library. You may cast a nonland card from among them with mana value X or less without paying its mana cost. Put the rest on the bottom of that library in a random order.",
+	},
+	
+	{
+		"name": "Aglu's Ghostwarden_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/36_Aglu's Ghostwarden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "36",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Aglu's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Alonzo, Departed Detective_KUT",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/178_Alonzo, Departed Detective_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "178",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever a nontoken creature you control dies, create a 1/1 black Spirit creature token with flying.\n[+1]: Each opponent loses 2 life and you gain 2 life.\n[-2]: Sacrifice a creature. When you do, destroy target nonland permanent.",
+	},
+	
+	{
+		"name": "Alonzo's Whispers_KUT",
+		"mana_cost": "{3}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/71_Alonzo's Whispers_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "71",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Surveil 2. When you do, return up to two target creature cards from your graveyard to your hand. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Alruq Migration_KUT",
+		"mana_cost": "{5}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/142_Alruq Migration_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "142",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle. Put a +1/+1 counter on each creature you control.",
+	},
+	
+	{
+		"name": "Alruq Veil-Boundary_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/246_Alruq Veil-Boundary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "246",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Alruq Veil-Boundary enters the battlefield tapped.\nWhen Alruq Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {W}.",
+	},
+	
+	{
+		"name": "Anigul, the Setting Sun_KUT",
+		"mana_cost": "{1}{B}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/179_Anigul, the Setting Sun_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "179",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Anigul, the Setting Sun enters, each opponent discards a card.\nWhenever Anigul deals combat damage to an opponent, exile up to two target cards from that player's graveyard. For each of those exiled cards, Anigul deals 1 damage to that card's owner.",
+	},
+	
+	{
+		"name": "Anigul's Fall_KUT",
+		"mana_cost": "{3}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/72_Anigul's Fall_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "72",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature or planeswalker. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Arctic Drake_KUT",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/37_Arctic Drake_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "37",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of Frost Breath (When this enters, you may put Frost Breath into your hand from your library, then shuffle.)\nFlying\nWhenever Arctic Drake attacks, target tapped creature defending player controls doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Arctic Tenacity_KUT",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/1_Arctic Tenacity_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain 3 life.\nInvoke {W} ({W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Frostback Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/1_Arctic Tenacity_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "1",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+2.",
+		}
+	},
+	
+	{
+		"name": "Ashenflame_KUT",
+		"mana_cost": "{X}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/106_Ashenflame_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "106",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Ashenflame deals X damage to target creature. If that creature would die this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Atrah's Chantkeeper_KUT",
+		"mana_cost": "{8}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/232_Atrah's Chantkeeper_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "232",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each Mantra card in your graveyard.\nMenace\nWhenever you cast a Mantra spell, you may put Atrah's Chantkeeper from your graveyard on top of your library.",
+	},
+	
+	{
+		"name": "Atrah's Utterance_KUT",
+		"mana_cost": "{5}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/38_Atrah's Utterance_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "38",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "For any number of target Mantra instant and/or sorcery cards in your graveyard with different names, copy that card and you may cast the copy without paying its mana cost.",
+	},
+	
+	{
+		"name": "Atrah of the First Word_KUT",
+		"mana_cost": "{W}{U}{B}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/180_Atrah of the First Word_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "180",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Atrah of the First Word enters or attacks, you may search your library for a Mantra card and cast it without paying its mana cost. If you do, shuffle.",
+	},
+	
+	{
+		"name": "Auroric Banisher_KUT",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/2_Auroric Banisher_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "2",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Auroric Banisher enters, exile target nontoken creature or planeswalker an opponent controls until Auroric Banisher leaves the battlefield. (That permanent returns under its owner's control.)",
+	},
+	
+	{
+		"name": "Auroric Guidance_KUT",
+		"mana_cost": "{G}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/181_Auroric Guidance_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "181",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, put a +1/+1 counter on each creature you control that entered this turn.\n{2}, Sacrifice Auroric Guidance: You gain life equal to the number of creatures you control.",
+	},
+	
+	{
+		"name": "Auroric Resurgence_KUT",
+		"mana_cost": "{4}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/143_Auroric Resurgence_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "143",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Surveil 4, then you may return any number of land cards from your graveyard to the battlefield tapped. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Auroric Span_KUT",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/182_Auroric Span_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "182",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. You gain 2 life.\nInvoke {X}{G}{U} ({X}{G}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Worldspan Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/182_Auroric Span_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "182",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nAs Worldspan Totem enters, put X +1/+1 counters on enchanted Totem.\nEnchanted Totem has flying.",
+		}
+	},
+	
+	{
+		"name": "Auroric Waygate_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/233_Auroric Waygate_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "233",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{3}, {T}, Sacrifice Auroric Waygate: Return target card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Avalanche's Advance_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/3_Avalanche's Advance_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Avalanche's Advance deals 5 damage to target attacking or blocking creature.",
+	},
+	
+	{
+		"name": "Awakened Guardian_KUT",
+		"mana_cost": "{6}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/234_Awakened Guardian_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "234",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nAwakened Guardian enters with a +1/+1 counter on it for each land card in your graveyard.",
+	},
+	
+	{
+		"name": "Baleful Gaze_KUT",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/39_Baleful Gaze_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "39",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets -2/-0 until end of turn.\nInvoke {3}{U} ({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Hooting Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/39_Baleful Gaze_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "39",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has flying.",
+		}
+	},
+	
+	{
+		"name": "Beguiling Kichkandi_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/73_Beguiling Kichkandi_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "73",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice another creature: Each opponent loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Behemoth of Tusk Bay_KUT",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/40_Behemoth of Tusk Bay_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "40",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\nTap two other untapped creatures you control: Behemoth of Tusk Bay can attack this turn as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Bellowing Takin_KUT",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/144_Bellowing Takin_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "144",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Bellowing Takin enters, you may discard a card. When you do, create a 2/2 green Ox creature token.",
+	},
+	
+	{
+		"name": "Beyond the Veil_KUT",
+		"mana_cost": "{4}{G}{U}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/183_Beyond the Veil_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "183",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You can't cast spells from your hand.\nAt the beginning of your upkeep, you may reveal five nonland cards you own with different names from outside the game. If you do, cast one of them at random without paying its mana cost.",
+	},
+	
+	{
+		"name": "Blaze of Seqineq_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/107_Blaze of Seqineq_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "107",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Blaze of Seqineq deals 2 damage to each creature.\nInvoke {1}{R} ({1}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Sunhart Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/107_Blaze of Seqineq_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "107",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem becomes blocked by a creature, it deals X damage to that creature, where X is the number of Auras attached to enchanted Totem.",
+		}
+	},
+	
+	{
+		"name": "Blightling_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/74_Blightling_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "74",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Spreader of Veilblight.)\nLifelink\n{1}{B}: Blightling gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Blizzard Maiden_KUT",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/184_Blizzard Maiden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "184",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Blizzard Maiden enters, you may have target creature get -X/-X until end of turn, where X is the greatest toughness among creatures you control.",
+	},
+	
+	{
+		"name": "Bloodfell Caves_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/247_Bloodfell Caves_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "247",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Bloodfell Caves enters the battlefield tapped.\nWhen Bloodfell Caves enters, you gain 1 life.\n{T}: Add {B} or {R}.",
+	},
+	
+	{
+		"name": "Bloodmaw_KUT",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/108_Bloodmaw_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "108",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nBloodmaw attacks each combat if able.\nWhenever Bloodmaw attacks, it fights another target creature at random. When that creature dies this turn, its controller draws a card and you put a +1/+1 counter on Bloodmaw.",
+	},
+	
+	{
+		"name": "Bloodstitched Tupilaq_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/75_Bloodstitched Tupilaq_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "75",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may have Bloodstitched Tupilaq enter as a copy of any creature card in a graveyard with mana value 4 or less.",
+	},
+	
+	{
+		"name": "Blossoming Sands_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/248_Blossoming Sands_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "248",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters, you gain 1 life.\n{T}: Add {G} or {W}.",
+	},
+	
+	{
+		"name": "Bonewhisper Idol_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/235_Bonewhisper Idol_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "235",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{3}, {T}, Sacrifice Bonewhisper Idol: It deals 3 damage to target creature.",
+	},
+	
+	{
+		"name": "Bottled Sunlight_KUT",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/236_Bottled Sunlight_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "236",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}, Sacrifice Bottled Sunlight: Shuffle up to five other target cards from your graveyard into your library, then draw a card.",
+	},
+	
+	{
+		"name": "Bounce Off_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/41_Bounce Off_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "41",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Counter target spell unless its controller pays {2}.\nInvoke {3}{U} ({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Shellsworn Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/41_Bounce Off_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "41",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSpells your opponents cast that target enchanted Totem cost {2} more to cast.",
+		}
+	},
+	
+	{
+		"name": "Boundary Guardian_KUT",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/145_Boundary Guardian_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "145",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a land you control enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nExile three cards from your graveyard: Put a +1/+1 counter on Boundary Guardian. Activate this ability only once each turn.",
+	},
+	
+	{
+		"name": "Brink of the End_KUT",
+		"mana_cost": "{X}{B}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/185_Brink of the End_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "185",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Choose one or both -\n• Brink of the End deals X damage to target creature or planeswalker.\n• Target player loses X life.",
+	},
+	
+	{
+		"name": "Burning Dawn_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/109_Burning Dawn_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "109",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Burning Dawn deals 4 damage to any target.\nInvoke {4}{R}{R} ({4}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Sunscale Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/109_Burning Dawn_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "109",
+			"rarity": "mythic",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +4/+4 and has flying.\nWhen Sunscale Totem enters, enchanted Totem deals damage equal to its power to each opponent.",
+		}
+	},
+	
+	{
+		"name": "Butani Pass Ravager_KUT",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/110_Butani Pass Ravager_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "110",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nButani Pass Ravager enters with a +1/+1 counter on it if you control a creature with the greatest power or tied for the greatest power.",
+	},
+	
+	{
+		"name": "Butani Shaman_KUT",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/146_Butani Shaman_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Butani Warleader.)\nWhen Butani Shaman enters, target creature you control gets +2/+2 until end of turn.",
+	},
+	
+	{
+		"name": "Butani Warleader_KUT",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/147_Butani Warleader_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "147",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Butani Shaman (When this enters, you may put Butani Shaman into your hand from your library, then shuffle.)\nWhenever Butani Warleader attacks, another target attacking creature you control gets +X/+X until end of turn, where X is Butani Warleader's power.",
+	},
+	
+	{
+		"name": "Caldera's Gift_KUT",
+		"mana_cost": "{R}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/186_Caldera's Gift_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "186",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nCaldera's Gift deals 3 damage to target creature or planeswalker and you gain 3 life.",
+	},
+	
+	{
+		"name": "Caldera Elemental_KUT",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/111_Caldera Elemental_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "111",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Narwa Igniter.)\nTrample",
+	},
+	
+	{
+		"name": "Caller of the Great Bears_KUT",
+		"mana_cost": "{5}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/148_Caller of the Great Bears_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "148",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Caller of the Great Bears unites creatures, create an X/X green Bear Spirit creature token with trample, where X is twice the number of creatures it united.",
+	},
+	
+	{
+		"name": "Carrion Viper_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/76_Carrion Viper_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "76",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhen Carrion Viper enters, you may discard a card. When you do, return target creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Champion of the Many_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/112_Champion of the Many_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "112",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{3}{G}{W}: Champion of the Many gets +X/+X and gains trample until end of turn, where X is the number of creatures you control.",
+	},
+	
+	{
+		"name": "Chilling Wind_KUT",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/42_Chilling Wind_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target creature with power X or less to its owner's hand.\nDraw a card.",
+	},
+	
+	{
+		"name": "Clearwater Grotto_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/249_Clearwater Grotto_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "249",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Clearwater Grotto enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {G} or {U}.",
+	},
+	
+	{
+		"name": "Cliff-Pouncer Leopard_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/113_Cliff-Pouncer Leopard_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "113",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Cliff-Pouncer Leopard enters, you may discard a card. When you do, it deals 2 damage to any target.",
+	},
+	
+	{
+		"name": "Coldhearted Cryomancer_KUT",
+		"mana_cost": "{W}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/187_Coldhearted Cryomancer_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "187",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, you may have another target creature you control assign combat damage equal to its toughness rather than its power this turn. If it has defender, it may attack this turn as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Combat-Form Instructor_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/4_Combat-Form Instructor_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "4",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Combat-Form Instructor unites creatures, put a +1/+1 counter on each creature it united.",
+	},
+	
+	{
+		"name": "Commune with the Veil_KUT",
+		"mana_cost": "{B}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/188_Commune with the Veil_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "188",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Surveil 1. When you do, return target card from your graveyard to your hand. Exile Commune with the Veil. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Courtyard Sanctifier_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/5_Courtyard Sanctifier_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "5",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Courtyard Sanctifier unites creatures, you may destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Crossed Abomination_KUT",
+		"mana_cost": "{4}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/149_Crossed Abomination_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "149",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vigilance, reach, trample\nReturn three lands you control to their owner's hand: Crossed Abomination gains hexproof and indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Cryostasis_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/43_Cryostasis_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "43",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature is a blue Elemental Wall creature with base power and toughness 0/4 and has defender, and it loses all other abilities, card types, and creature types.\n{2}{W}: Exile enchanted creature.",
+	},
+	
+	{
+		"name": "Cunning Pal Rai Yuk_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/44_Cunning Pal Rai Yuk_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "44",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Cunning Pal Rai Yuk unites creatures, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Curator of Myth_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/237_Curator of Myth_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "237",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Monument to the Thirty (When this enters, you may put Monument to the Thirty into your hand from your library, then shuffle.)\n{30}: Curator of Myth deals 30 damage to any target.",
+	},
+	
+	{
+		"name": "Dawnbreak Stampede_KUT",
+		"mana_cost": "{2}{R}{G}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/189_Dawnbreak Stampede_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "189",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +2/+2 and gain vigilance, menace, and lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Dawnchime, Lhosei's Staff_KUT",
+		"mana_cost": "{2}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/238_Dawnchime, Lhosei's Staff_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "238",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, you may mill three cards. If a creature card was milled this way, create a 1/1 blue Spirit creature token with flying. If a land card was milled this way, you gain 3 life.\nEquip {2}",
+	},
+	
+	{
+		"name": "Descend into Darkness_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/77_Descend into Darkness_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "77",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets -3/-3 until end of turn. You gain 3 life.",
+	},
+	
+	{
+		"name": "Devouring Amautalik_KUT",
+		"mana_cost": "{3}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/190_Devouring Amautalik_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "190",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\nAt the beginning of your end step, if a creature died under your control this turn, create a 1/1 black Spirit creature token with flying.",
+	},
+	
+	{
+		"name": "Dhagiri Style_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/114_Dhagiri Style_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Dhagiri Style enters, create two 0/1 white Monk creature tokens.\nWhenever a creature you control with power 2 or less attacks, Dhagiri Style deals 1 damage to each opponent.",
+	},
+	
+	{
+		"name": "Dhagiri Veil-Boundary_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/250_Dhagiri Veil-Boundary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "250",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Dhagiri Veil-Boundary enters the battlefield tapped.\nWhen Dhagiri Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {U}.",
+	},
+	
+	{
+		"name": "Disciple of Seqineq_KUT",
+		"mana_cost": "{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/191_Disciple of Seqineq_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "191",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Disciple of Seqineq has double strike as long as you have at least 10 life more than each opponent.\nWhenever another creature you control dies, each opponent loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Dismal Backwater_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/251_Dismal Backwater_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "251",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters, you gain 1 life.\n{T}: Add {U} or {B}.",
+	},
+	
+	{
+		"name": "Druk-Style Practitioner_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/115_Druk-Style Practitioner_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "115",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Druk-Style Practitioner has first strike as long as it's your turn.\n{2}{U}: Target creature you control gains flying until end of turn.",
+	},
+	
+	{
+		"name": "Drumbone Ahkiyyini_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/78_Drumbone Ahkiyyini_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "78",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n{3}{B}, {T}, Exile a creature card from your graveyard: Each opponent loses X life, where X is the exiled card's toughness.",
+	},
+	
+	{
+		"name": "Elder's Might_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/150_Elder's Might_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "150",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Ujuraq's Tusk.)\nPut a +1/+1 counter on up to two target creatures you control.",
+	},
+	
+	{
+		"name": "Elder of Offerings_KUT",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/79_Elder of Offerings_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "79",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Sacrifice another creature: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+	},
+	
+	{
+		"name": "Emberwind Visionary_KUT",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/192_Emberwind Visionary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "192",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Emberwind Visionary attacks, look at the top six cards of your library. You may cast an instant or sorcery spell with mana value 1 from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Eternal Ghostwarden_KUT",
+		"mana_cost": "{1}{B}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/193_Eternal Ghostwarden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "193",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nOnce each turn, when you surveil, you may return target creature card from your graveyard to your hand. (Do this after you've surveiled.)",
+	},
+	
+	{
+		"name": "Eternal Night_KUT",
+		"mana_cost": "{5}{B}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/80_Eternal Night_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "80",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Exile all cards from target opponent's library, then shuffle all cards from that player's graveyard into their library.",
+	},
+	
+	{
+		"name": "Evening Meditation_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/6_Evening Meditation_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Create two 0/1 white Monk creature tokens.\nDraw a card.",
+	},
+	
+	{
+		"name": "Evolving Wilds_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/252_Evolving Wilds_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "252",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Feasting Atshen_KUT",
+		"mana_cost": "{5}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/81_Feasting Atshen_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "81",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender, menace\nAt the beginning of combat on your turn, you may sacrifice another creature or land. If you do, Feasting Atshen can attack this turn as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Flaring Despair_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/116_Flaring Despair_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "116",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature with power 4 or less until end of turn. Untap that creature. It gains haste until end of turn.",
+	},
+	
+	{
+		"name": "Follow the Herd_KUT",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/151_Follow the Herd_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "151",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nInvoke {5}{G} ({5}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Trumpeting Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/151_Follow the Herd_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "151",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +5/+5.",
+		}
+	},
+	
+	{
+		"name": "Forest_KUT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/277_Forest_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "277",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Fortunous Windhorse_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/7_Fortunous Windhorse_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "7",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender, flying, vigilance\nAs long as you control two or more other creatures with defender, Fortunous Windhorse may attack as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Frigid Landscape_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/253_Frigid Landscape_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "253",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Frigid Landscape enters the battlefield tapped.\n{T}: Add {W}, {U}, or {B}.",
+	},
+	
+	{
+		"name": "Frost Breath_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/45_Frost Breath_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "45",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Arctic Drake.)\nTap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+	},
+	
+	{
+		"name": "Frostbite Spider_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/152_Frostbite Spider_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "152",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach\nWhenever Frostbite Spider blocks a creature with flying, it gains deathtouch until end of turn.",
+	},
+	
+	{
+		"name": "Frozen Bones_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/82_Frozen Bones_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "82",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{3}{B}: Return Frozen Bones from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Gaze Beyond_KUT",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/46_Gaze Beyond_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "46",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Play with the top card of your library revealed.\nYou may play lands and cast spells from the top of your library.\n{1}{U}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Ghostwarden's Claim_KUT",
+		"mana_cost": "{B}{G}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/194_Ghostwarden's Claim_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "194",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Exile target nonland permanent. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Ghostwarden's Lantern_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/239_Ghostwarden's Lantern_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "239",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.) (Look at the top card of your library. You may put that card into your graveyard.)\nEquip {2}",
+	},
+	
+	{
+		"name": "Glacial Entrenchment_KUT",
+		"mana_cost": "{W}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/195_Glacial Entrenchment_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "195",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Creature spells you cast with defender cost {1} less to cast.\nWhenever a creature with defender you control enters, look at the top two cards of your library. Put up to one of them on top of your library and the rest on the bottom of your library in any order.",
+	},
+	
+	{
+		"name": "Glacier Sentinel_KUT",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/8_Glacier Sentinel_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{2}, {T}: Tap target creature without defender.",
+	},
+	
+	{
+		"name": "Glorious Confrontation_KUT",
+		"mana_cost": "{2}{R}{W}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/196_Glorious Confrontation_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "196",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Until end of turn, creatures you control gain \"When this creature dies, return it to the battlefield under its owner's control.\" At the end of your next combat this turn, untap all creatures you control. There's an additional combat phase after this one.",
+	},
+	
+	{
+		"name": "Grasping Tentacles_KUT",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/47_Grasping Tentacles_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "47",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Gain control of target non-Totem creature. Tap that creature. It doesn't untap during its controller's next untap step.\nInvoke {1}{U} ({1}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Octopoid Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/47_Grasping Tentacles_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "47",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem deals combat damage to a creature, tap that creature. It doesn't untap during its controller's next untap step.",
+		}
+	},
+	
+	{
+		"name": "Guide's Trappings_KUT",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/240_Guide's Trappings_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "240",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature attacks, you may untap target land.\nEquip {1}",
+	},
+	
+	{
+		"name": "Guru of Tumbling Stone_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/117_Guru of Tumbling Stone_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "117",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Guru of Tumbling Stone unites creatures, exile the top card of your library. You may play that card this turn.",
+	},
+	
+	{
+		"name": "Harrowing Visit_KUT",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/83_Harrowing Visit_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "83",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target card from an opponent's graveyard. That player loses 1 life.\nDraw a card.",
+	},
+	
+	{
+		"name": "Harsh Conditions_KUT",
+		"mana_cost": "{4}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/48_Harsh Conditions_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "48",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put target creature into its owner's library second from the top.",
+	},
+	
+	{
+		"name": "Haunt of Paro Katsang_KUT",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/153_Haunt of Paro Katsang_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "153",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch",
+	},
+	
+	{
+		"name": "Heartsong Invoker_KUT",
+		"mana_cost": "{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/197_Heartsong Invoker_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you activate an invoke ability of a card in your graveyard, create a 3/1 red and green Elemental creature token with trample and haste. Exile that token at the beginning of your next end step.",
+	},
+	
+	{
+		"name": "Helping Hands_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/9_Helping Hands_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "9",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may reveal a planeswalker card you own from outside the game and put it into your hand. You gain 2 life.",
+	},
+	
+	{
+		"name": "Herald of Anigul_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/84_Herald of Anigul_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "84",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of Purge from Memory (When this enters, you may put Purge from Memory into your hand from your library, then shuffle.)\nWhenever an opponent discards one or more cards, put a +1/+1 counter on Herald of Anigul.",
+	},
+	
+	{
+		"name": "Hero of the Alruq_KUT",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/198_Hero of the Alruq_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "198",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink, haste\nHero of the Alruq enters with a +1/+1 counter on it for each creature you control.\nWhenever another creature you control enters, put a +1/+1 counter on Hero of the Alruq.",
+	},
+	
+	{
+		"name": "Hornrush_KUT",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/118_Hornrush_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "118",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +2/+2 until end of turn.\nInvoke {2}{R} ({2}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Woolly Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/118_Hornrush_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "118",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.",
+		}
+	},
+	
+	{
+		"name": "Hundred-Chant Elder_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/119_Hundred-Chant Elder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "119",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of any Mantra (When this enters, you may put any Mantra into your hand from your library, then shuffle.)\nYou may spend mana as though it were mana of any color to cast Mantra spells.",
+	},
+	
+	{
+		"name": "Hunker Down_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/10_Hunker Down_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "10",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You gain 2 life for each creature you control.\nInvoke {4}{W} ({4}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Herding Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/10_Hunker Down_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "10",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Herding Totem or another Aura becomes attached to enchanted Totem, you gain 2 life.",
+		}
+	},
+	
+	{
+		"name": "Huntmaster's Amarok_KUT",
+		"mana_cost": "{4}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/11_Huntmaster's Amarok_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\n{1}{B}, Sacrifice another creature: Huntmaster's Amarok gets +2/+0 and gains menace until end of turn.",
+	},
+	
+	{
+		"name": "Ice-Drake Nest_KUT",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/49_Ice-Drake Nest_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "49",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Defender\nAt the beginning of combat on your turn, any number of target creatures you control with defender become blue Elemental Drakes with base power and toughness each equal to that creature's toughness and have flying, and lose all other abilities until end of turn.",
+	},
+	
+	{
+		"name": "Ice-Hole Sentry_KUT",
+		"mana_cost": "{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/199_Ice-Hole Sentry_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "199",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender\n{5}, {T}: Draw a card. This ability costs {1} less to activate for each other creature with defender you control.",
+	},
+	
+	{
+		"name": "Invoker's Expertise_KUT",
+		"mana_cost": "{U}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/200_Invoker's Expertise_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell with invoke, you may pay {2}. If you do, copy that spell. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Island_KUT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/274_Island_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "274",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Isolated Meditation_KUT",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/12_Isolated Meditation_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "12",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "You have hexproof and can't cast creature or planeswalker spells.\nNo more than one creature can attack you each combat.\nWhenever you cast a spell, you gain 1 life.",
+	},
+	
+	{
+		"name": "Jirrisa, Neqanak Chieftain_KUT",
+		"mana_cost": "{1}{B}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/201_Jirrisa, Neqanak Chieftain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "201",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nOnce each turn, while you're looking at one or more cards on top of your library except while searching, you may reveal one of those cards and put it into your hand. (You look at cards when you surveil.)",
+	},
+	
+	{
+		"name": "Jirrisa's Charm_KUT",
+		"mana_cost": "{B}{G}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/202_Jirrisa's Charm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "202",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Exile up to three target cards from graveyards. For each card exiled this way, each opponent loses 1 life and you gain 1 life.\n• Create a 2/2 green Ox creature token. Then creatures you control gain indestructible until end of turn.\n• Counter target noncreature spell.",
+	},
+	
+	{
+		"name": "Jirrisa's Ghostwarden_KUT",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/85_Jirrisa's Ghostwarden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "85",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Jirrisa's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Jungle Hollow_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/254_Jungle Hollow_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "254",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Jungle Hollow enters the battlefield tapped.\nWhen Jungle Hollow enters, you gain 1 life.\n{T}: Add {B} or {G}.",
+	},
+	
+	{
+		"name": "Keen-Eyed Dive_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/50_Keen-Eyed Dive_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "50",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\nInvoke {2}{U} ({2}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Pamiuqtuuq Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/50_Keen-Eyed Dive_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "50",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+3.",
+		}
+	},
+	
+	{
+		"name": "Keeper of Kugaq_KUT",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/51_Keeper of Kugaq_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "51",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{6}{U}, Sacrifice Keeper of Kugaq: Draw three cards.",
+	},
+	
+	{
+		"name": "Khembul, Paradise Valley_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/255_Khembul, Paradise Valley_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "255",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{3}, {T}: You gain 2 life.\n{2}, {T}: Draw a card. Activate this ability only if you have at least 10 life more than your starting life total.",
+	},
+	
+	{
+		"name": "Khembul Protector_KUT",
+		"mana_cost": "{1}{R}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/203_Khembul Protector_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "203",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Trample\nOnce each turn, when another creature you control enters, you may put a +1/+1 counter on Khembul Protector. It gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Kugaq, the Waking Glacier_KUT",
+		"mana_cost": "{3}{W}{U}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/204_Kugaq, the Waking Glacier_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "204",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Defender\nAt the beginning of your declare attackers step, you may put a creature card with defender from your hand onto the battlefield tapped and attacking. It can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Kugaq's Brood_KUT",
+		"mana_cost": "{2}{W}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/205_Kugaq's Brood_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "205",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying, vigilance\nWhen Kugaq's Brood enters, you may return another target spell or nonland permanent to its owner's hand. Then each opponent discards a card.",
+	},
+	
+	{
+		"name": "Kugaq's Charm_KUT",
+		"mana_cost": "{W}{U}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/206_Kugaq's Charm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "206",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• You gain life equal to the greatest toughness among creatures you control.\n• Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.\n• Destroy target creature or planeswalker with mana value 4 or less.",
+	},
+	
+	{
+		"name": "Lakhey Guardian_KUT",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/154_Lakhey Guardian_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "154",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{4}{R}: Create a 1/1 green Shaman creature token. It gains haste until end of turn.",
+	},
+	
+	{
+		"name": "Lhosei's Determination_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/52_Lhosei's Determination_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target creature spell or spell with invoke. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
+	},
+	
+	{
+		"name": "Lhosei the Determined_KUT",
+		"mana_cost": "{3}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/207_Lhosei the Determined_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "207",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you activate a loyalty ability of Lhosei, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n[+2]: Create a 1/1 blue Spirit creature token with flying.\n[-3]: Return up to one target nonland permanent to its owner's hand. You may return another card from your graveyard to your hand.\n[-11]: Any number of target nonland, non-Aura permanents become lands with \"{T}: Add one mana of any color\" and lose all other card types and abilities.",
+	},
+	
+	{
+		"name": "Loving Reunion_KUT",
+		"mana_cost": "{4}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/120_Loving Reunion_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "120",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Discard any number of cards, then draw that many cards plus one. Add {R} for each card you discarded this way.",
+	},
+	
+	{
+		"name": "Loxodon Memorialist_KUT",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/155_Loxodon Memorialist_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "155",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Loxodon Memorialist enters, mill four cards. When you do, you may return target Mantra card from your graveyard to your hand. (To mill four cards, put the top four cards of your library into your graveyard.)",
+	},
+	
+	{
+		"name": "Maddening Roar_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/121_Maddening Roar_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "121",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Gain control of target nonland permanent until end of turn. Untap that permanent. It gains haste until end of turn.\nInvoke {5}{R}{R} ({5}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Migu's Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/121_Maddening Roar_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "121",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +5/+5.\nWhenever enchanted Totem attacks, you may gain control of target nonland permanent until end of turn. Untap that permanent unless it's a creature. If it is, tap it. It's attacking.",
+		}
+	},
+	
+	{
+		"name": "Mantra of Fire_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/122_Mantra of Fire_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "122",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Mantra of Fire deals X damage to any target, where X is 2 plus the number of Mantra cards in your graveyard.",
+	},
+	
+	{
+		"name": "Mantra of Sunrise_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/13_Mantra of Sunrise_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put X +1/+1 counters on target creature, where X is 1 plus the number of Mantra cards in your graveyard.",
+	},
+	
+	{
+		"name": "Mantra of the Depths_KUT",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/53_Mantra of the Depths_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "53",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Draw X cards, where X is one plus the number of Mantra cards in your graveyard.",
+	},
+	
+	{
+		"name": "Mantra of the Night_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/86_Mantra of the Night_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "86",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Each opponent discards X cards, where X is one plus the number of Mantra cards in your graveyard.",
+	},
+	
+	{
+		"name": "Mantra of the Veil_KUT",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/156_Mantra of the Veil_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "156",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain three times X life, where X is 1 plus the number of Mantra cards in your graveyard.",
+	},
+	
+	{
+		"name": "Mayuk Claw-Sage_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/123_Mayuk Claw-Sage_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "123",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, Mayuk Claw-Sage gets +1/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Mayuk Denwarden_KUT",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/157_Mayuk Denwarden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "157",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever another creature you control enters, put a +1/+1 counter on Mayuk Denwarden.",
+	},
+	
+	{
+		"name": "Mentor of Inner Peace_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/14_Mentor of Inner Peace_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "14",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Student of Inner Peace (When this enters, you may put Student of Inner Peace into your hand from your library, then shuffle.)\nWhenever you gain life, put that many +1/+1 counters on Mentor of Inner Peace.",
+	},
+	
+	{
+		"name": "Migu, Terror of the Pass_KUT",
+		"mana_cost": "{4}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/208_Migu, Terror of the Pass_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "208",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Other Yetis you control get +1/+1 and have trample.\nWhenever Migu, Terror of the Pass or another Yeti you control enters, you may have that creature deal damage equal to its power to any target.",
+	},
+	
+	{
+		"name": "Migu's Ravager_KUT",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/209_Migu's Ravager_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "209",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when another creature you control enters, you may have Migu's Ravager fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+	},
+	
+	{
+		"name": "Misty Peak_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/256_Misty Peak_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "256",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Misty Peak enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {U} or {R}.",
+	},
+	
+	{
+		"name": "Monastery Flagdancers_KUT",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/54_Monastery Flagdancers_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "54",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Monastery Flagdancers unites creatures, return up to X target nonland permanents to their owner's hands, where X is the number of creatures it united.",
+	},
+	
+	{
+		"name": "Monastery Ibex_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/15_Monastery Ibex_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "15",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Monastery Ibex enters or dies, create a 0/1 white Monk creature token.",
+	},
+	
+	{
+		"name": "Monument to the Thirty_KUT",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/241_Monument to the Thirty_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "241",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Curator of Myth.)\nMonument to the Thirty enters the battlefield tapped.\n{T}: Add X mana of any one color, where X is the number of Monuments you control.\nA deck can have up to thirty cards named Monument to the Thirty.",
+	},
+	
+	{
+		"name": "Mountain_KUT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/276_Mountain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "276",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Nanuk Elder_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/158_Nanuk Elder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "158",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Mill a card: Add {G}. (To mill a card, put the top card of your library into your graveyard.)",
+	},
+	
+	{
+		"name": "Narwa Igniter_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/124_Narwa Igniter_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "124",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Caldera Elemental (When this enters, you may put Caldera Elemental into your hand from your library, then shuffle.)\n{T}: Add {R}{R}. Spend this mana only to cast Elemental spells or activate abilities of Elementals.",
+	},
+	
+	{
+		"name": "Narwa Veil-Boundary_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/257_Narwa Veil-Boundary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "257",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Narwa Veil-Boundary enters the battlefield tapped.\nWhen Narwa Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {R}.",
+	},
+	
+	{
+		"name": "Narwa Wardrover_KUT",
+		"mana_cost": "{2}{R}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/210_Narwa Wardrover_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "210",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Double strike, trample\nSacrifice another creature: Narwa Wardrover gets +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Narwa Warmaker_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/16_Narwa Warmaker_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "16",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{3}{B}{R}: Another target creature gets +2/+0 until end of turn. When that creature dies this turn, return it to the battlefield under its owner's control.",
+	},
+	
+	{
+		"name": "Neqanak Veil-Boundary_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/258_Neqanak Veil-Boundary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "258",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Neqanak Veil-Boundary enters the battlefield tapped.\nWhen Neqanak Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {B}.",
+	},
+	
+	{
+		"name": "Niyma, the Survivor_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/87_Niyma, the Survivor_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "87",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nAt the beginning of your upkeep, draw a card. You lose twice X life, where X is the number of creatures you control.",
+	},
+	
+	{
+		"name": "Niyma's Style_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/88_Niyma's Style_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "88",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +1/+0 and gains deathtouch until end of turn.\nDraw a card.",
+	},
+	
+	{
+		"name": "One with the Storm_KUT",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/125_One with the Storm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "125",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell, create a 4/4 red Dragon creature token with flying.",
+	},
+	
+	{
+		"name": "Onslaught of Winter_KUT",
+		"mana_cost": "{3}{W}{U}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/211_Onslaught of Winter_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "211",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Put each creature without defender and each planeswalker on the bottom of their owners' libraries.",
+	},
+	
+	{
+		"name": "Overseer of Forms_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/126_Overseer of Forms_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "126",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Overseer of Forms enters, create a 0/1 white Monk creature token.",
+	},
+	
+	{
+		"name": "Paro Katsang Avenger_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/127_Paro Katsang Avenger_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "127",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Paro Katsang Avenger unites creatures, it deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Pass Pilgrim_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/55_Pass Pilgrim_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nUnite with three creatures (When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)\nWhen Pass Pilgrim unites creatures, draw a card.",
+	},
+	
+	{
+		"name": "Pathar, Alruq Chieftain_KUT",
+		"mana_cost": "{5}{R}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/212_Pathar, Alruq Chieftain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "212",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, other creatures you control get +X/+X and gain haste until end of turn, where X is the number of creatures you control.",
+	},
+	
+	{
+		"name": "Pathar's Charm_KUT",
+		"mana_cost": "{R}{G}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/213_Pathar's Charm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "213",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Pathar's Charm deals 3 damage to any target.\n• Put a +1/+1 counter on each of up to three target creatures you control. Those creatures gain trample until end of turn.\n• Exile target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Pathar's Ghostwarden_KUT",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/159_Pathar's Ghostwarden_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "159",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Pathar's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Pathar's Lightchaser_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/17_Pathar's Lightchaser_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "17",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, you gain 1 life.",
+	},
+	
+	{
+		"name": "Patriarch's Challenge_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/160_Patriarch's Challenge_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "160",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control.\nInvoke {2}{G} ({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Antler Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/160_Patriarch's Challenge_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "160",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has vigilance.",
+		}
+	},
+	
+	{
+		"name": "Patriarch of Spring_KUT",
+		"mana_cost": "{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/214_Patriarch of Spring_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "214",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, Patriarch of Spring gets +1/+1 until end of turn and you gain 1 life.\n{1}{G}{W}: Create a 1/1 green Shaman creature token.",
+	},
+	
+	{
+		"name": "Peaceful Journey_KUT",
+		"mana_cost": "{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/161_Peaceful Journey_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "161",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.\nInvoke {2}{G} ({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Auroric Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/161_Peaceful Journey_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "161",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem attacks, exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.",
+		}
+	},
+	
+	{
+		"name": "Peerless Monk_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/18_Peerless Monk_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "18",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of Pressure Point (When this enters, you may put Pressure Point into your hand from your library, then shuffle.)\nPeerless Monk has vigilance as long as an opponent controls a tapped creature.",
+	},
+	
+	{
+		"name": "Pikgryff Pridemother_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/19_Pikgryff Pridemother_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever another creature you control enters, Pikgryff Pridemother gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Pilgrim's Trails_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/259_Pilgrim's Trails_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "259",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Pilgrim's Trails enters the battlefield tapped.\n{T}: Add {R}, {G}, or {W}.",
+	},
+	
+	{
+		"name": "Pinnacle Warground_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/260_Pinnacle Warground_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "260",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Pinnacle Warground enters the battlefield tapped.\n{T}: Add {R}, {W}, or {B}.",
+	},
+	
+	{
+		"name": "Plains_KUT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/273_Plains_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "273",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Pouncing Snowlion_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/20_Pouncing Snowlion_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Pouncing Snowlion enters, you may exile target card from a graveyard.",
+	},
+	
+	{
+		"name": "Pressure Point_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/21_Pressure Point_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "21",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Peerless Monk.)\nTap target creature.\nDraw a card.",
+	},
+	
+	{
+		"name": "Priest of the Caldera_KUT",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/22_Priest of the Caldera_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "22",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\n{2}, Sacrifice a creature: Another target creature you control gains protection from the color of your choice until end of turn.",
+	},
+	
+	{
+		"name": "Primal Genesis_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/162_Primal Genesis_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "162",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Create a 2/2 green Ox creature token. You gain 2 life.\nInvoke {4}{G}{G} ({4}{G}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Genesis Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/162_Primal Genesis_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "162",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +4/+4.\nWhenever enchanted Totem attacks, create a 2/2 green Ox creature token and you gain 2 life.",
+		}
+	},
+	
+	{
+		"name": "Prismatic Permafrost_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/242_Prismatic Permafrost_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "242",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{1}, {T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Profane Grove_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/261_Profane Grove_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "261",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Profane Grove enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {B} or {G}.",
+	},
+	
+	{
+		"name": "Prophet of the Veil_KUT",
+		"mana_cost": "{B}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/215_Prophet of the Veil_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "215",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "While you're looking at one or more cards on top of your library except while searching, you may put Prophet of the Veil from among them into your graveyard. When you do, each opponent loses 2 life and you gain 2 life.\n{2}{G}: Return Prophet of the Veil from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Purge from Memory_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/89_Purge from Memory_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Herald of Anigul.)\nTarget opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then exile up to one card from that player's graveyard.",
+	},
+	
+	{
+		"name": "Pursued Snowrunner_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/128_Pursued Snowrunner_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "128",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Pursued Snowrunner enters, look at the top six cards of your library. You may reveal a Yeti card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Qalupalik Snatcher_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/56_Qalupalik Snatcher_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "56",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{1}{U}, {T}: Target player mills X cards, where X is the number of creatures with defender you control. (They put the top X cards of their library into their graveyard.)",
+	},
+	
+	{
+		"name": "Qamutiik Snowrunner_KUT",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/243_Qamutiik Snowrunner_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "243",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}: Exile the top card of your library face down and look at it.\nWhen Qamutiik Snowrunner attacks, you may put a card exiled with it into your hand.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+	},
+	
+	{
+		"name": "Rakshasa Initiate_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/23_Rakshasa Initiate_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "23",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "First strike\nUnite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Rakshasa Initiate unites creatures, it gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Rescuer of the Lost_KUT",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/24_Rescuer of the Lost_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "24",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Rescuer of the Lost enters, you may return another target creature you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Rugged Highlands_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/262_Rugged Highlands_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "262",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Rugged Highlands enters the battlefield tapped.\nWhen Rugged Highlands enters, you gain 1 life.\n{T}: Add {R} or {G}.",
+	},
+	
+	{
+		"name": "Runecarved Remnant_KUT",
+		"mana_cost": "{1}{G}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/216_Runecarved Remnant_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "216",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Runecarved Remnant enters, you may search your library for a card with invoke, put that card into your graveyard, then shuffle.\nWhenever you activate an invoke ability of a card in your graveyard, Runecarved Remnant deals 2 damage to each opponent.",
+	},
+	
+	{
+		"name": "Samaka, Ancient Totemist_KUT",
+		"mana_cost": "{G}{U}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/217_Samaka, Ancient Totemist_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "217",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}: Draw a card, then discard a card.\nAt the beginning of combat on your turn, you may have Samaka, Ancient Totemist get +1/+1 for each totemic Aura you control and gain all abilities of Totems you control until end of turn.",
+	},
+	
+	{
+		"name": "Samaka's Boonweaver_KUT",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/163_Samaka's Boonweaver_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "163",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Spells your opponents cast that target Totems you control cost {1} more to cast for each Aura you control.\nWhenever an Aura you control enters, draw a card. If it was a totemic Aura, you gain 1 life.",
+	},
+	
+	{
+		"name": "Samaka's Charm_KUT",
+		"mana_cost": "{G}{U}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/218_Samaka's Charm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "218",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Target creature gets +3/+3 and gains hexproof until end of turn. Untap that creature.\n• Counter target creature spell.\n• Exile the top three cards of your library. You may play those cards until the end of your next turn.",
+	},
+	
+	{
+		"name": "Scavenging Keelut_KUT",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/219_Scavenging Keelut_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "219",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever another creature you control with power 2 or less dies, draw a card.\n{3}{B}, Sacrifice a creature: Each opponent loses 2 life.",
+	},
+	
+	{
+		"name": "Scion of Seqineq_KUT",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/129_Scion of Seqineq_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "129",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying, haste\n{5}{R}{R}, Exile five other cards from your graveyard: Return Scion of Seqineq from your graveyard to the battlefield.",
+	},
+	
+	{
+		"name": "Scoured Barrens_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/263_Scoured Barrens_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "263",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Scoured Barrens enters the battlefield tapped.\nWhen Scoured Barrens enters, you gain 1 life.\n{T}: Add {W} or {B}.",
+	},
+	
+	{
+		"name": "Scourge of Spirits_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/90_Scourge of Spirits_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "90",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Once during each of your turns, when you lose life, you may put a +1/+1 counter on Scourge of Spirits.\n{1}{B}, Pay 2 life: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Seal in Blood_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/91_Seal in Blood_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "91",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 1 life.\nInvoke {5}{B}{B} ({5}{B}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Forbidden Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/91_Seal in Blood_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "91",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Forbidden Totem or another Aura becomes attached to enchanted creature, each opponent discards a card.",
+		}
+	},
+	
+	{
+		"name": "Seekers of Khembul_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/57_Seekers of Khembul_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "57",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Seekers of Khembul unites creatures, it can't be blocked this turn.",
+	},
+	
+	{
+		"name": "Seeking for Allies_KUT",
+		"mana_cost": "{6}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/58_Seeking for Allies_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "58",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each card type among cards in your graveyard.\nSurveil 3, then draw three cards.",
+	},
+	
+	{
+		"name": "Sentinel's Denial_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/59_Sentinel's Denial_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "59",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell unless its controller pays {4}. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Sentinel's Glade_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/264_Sentinel's Glade_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "264",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Sentinel's Glade enters the battlefield tapped.\n{T}: Add {B}, {G}, or {U}.",
+	},
+	
+	{
+		"name": "Seqineq, the Rising Sun_KUT",
+		"mana_cost": "{3}{R}{R}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/220_Seqineq, the Rising Sun_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "220",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Seqineq, the Rising Sun enters, your life total becomes 7. When it does, Seqineq deals X damage divided as you choose among any number of nonplayer targets, where X is the amount of life you gained or lost this way.",
+	},
+	
+	{
+		"name": "Seqineq's Radiance_KUT",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/25_Seqineq's Radiance_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "25",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Exile target creature you control, then return that card to the battlefield under its owner's control.\n• Exile target card from a graveyard.\n• Put a +1/+1 counter on target creature you control.",
+	},
+	
+	{
+		"name": "Serene Mediator_KUT",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/221_Serene Mediator_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "221",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Serene Mediator enters, counter target noncreature spell unless its controller pays {1}.",
+	},
+	
+	{
+		"name": "Shattering Kick_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/130_Shattering Kick_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "130",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature with defender or artifact.",
+	},
+	
+	{
+		"name": "Shed the Material_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/26_Shed the Material_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Exile target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Shelter in Paradise_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/27_Shelter in Paradise_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "27",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Any number of target creatures you control gain protection from everything until end of turn.",
+	},
+	
+	{
+		"name": "Silverfrost Monal_KUT",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/60_Silverfrost Monal_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "60",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Silverfrost Monal enters, you may discard a card. When you do, tap target creature and that creature doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Snow-Pass Guardian_KUT",
+		"mana_cost": "{6}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/164_Snow-Pass Guardian_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "164",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Snow-Pass Guardian unites creatures, it gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Snowcrash_KUT",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/165_Snowcrash_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "165",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n• Destroy target creature with flying.",
+	},
+	
+	{
+		"name": "Snowsifter Yeti_KUT",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/131_Snowsifter Yeti_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "131",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}{R}, Discard a card: Draw a card.",
+	},
+	
+	{
+		"name": "Sojourner Pilgrim_KUT",
+		"mana_cost": "{4}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/61_Sojourner Pilgrim_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "61",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sojourner Pilgrim enters, return target instant or sorcery card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Solar Meditation_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/132_Solar Meditation_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "132",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.\nInvoke {4}{R} ({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Sunhorn Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/132_Solar Meditation_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "132",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3 and has trample.",
+		}
+	},
+	
+	{
+		"name": "Solara, Sun Speaker_KUT",
+		"mana_cost": "{2}{R}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/133_Solara, Sun Speaker_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "133",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "[+1]: Add {R}{R}. You may discard a card. If you do, draw a card.\n[-X]: Solara deals X damage to each other creature and planeswalker.\n[-8]: Solara deals damage to each opponent equal to twice the number of {R} in the mana cost of cards in your graveyard.",
+	},
+	
+	{
+		"name": "Solara's Machinations_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/134_Solara's Machinations_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "134",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Solara's Machinations enters, create two 1/1 black Spirit creature tokens with flying.\nSacrifice a creature: Exile the top two cards of your library. You may play one of them this turn. Activate this ability only once each turn. (The other remains exiled.)",
+	},
+	
+	{
+		"name": "Solara's Pyromancer_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/135_Solara's Pyromancer_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "135",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of Wrap in Flames (When this enters, you may put Wrap in Flames into your hand from your library, then shuffle.)\nWhenever Solara's Pyromancer deals combat damage to a player, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Sonam the Hunted_KUT",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/222_Sonam the Hunted_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "222",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control becomes tapped, Sonam the Hunted deals 1 damage to each opponent and you gain 1 life.\nPay 5 life: Another target creature you control gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Soul Slaver_KUT",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/62_Soul Slaver_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "62",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Subjugated Spirit (When this enters, you may put Subjugated Spirit into your hand from your library, then shuffle.)\nWhenever one or more creatures you control deal combat damage to an opponent, draw a card.",
+	},
+	
+	{
+		"name": "Souldrain_KUT",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/92_Souldrain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "92",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature. Create a 1/1 black Spirit creature token with flying.",
+	},
+	
+	{
+		"name": "Spectral Throatsinger_KUT",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/93_Spectral Throatsinger_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "93",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhen Spectral Throatsinger enters, create a 1/1 black Spirit creature token with flying for each Mantra card in your graveyard.",
+	},
+	
+	{
+		"name": "Spirit of the First Dawn_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/136_Spirit of the First Dawn_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Spirit of the First Dawn unites creatures, for each creature it united, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+	},
+	
+	{
+		"name": "Spiritual Bonds_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/166_Spiritual Bonds_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "166",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gets +1/+1 until end of turn for each creature you control.",
+	},
+	
+	{
+		"name": "Splashback_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/63_Splashback_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "63",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Return target nonland permanent to its owner's hand.\nInvoke {3}{U}{U}{U} ({3}{U}{U}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Deepdrift Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/63_Splashback_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "63",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nWhen Deepdrift Totem enters, draw cards equal to enchanted creature's power.\nEnchanted Totem gets +2/+2.",
+		}
+	},
+	
+	{
+		"name": "Splendid Victory_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/28_Splendid Victory_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target creature with power 4 or greater. Put a +1/+1 counter on up to one target creature you control.",
+	},
+	
+	{
+		"name": "Spreader of Veilblight_KUT",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/94_Spreader of Veilblight_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "94",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Master of Blightling (When this enters, you may put Blightling into your hand from your library, then shuffle.)\nSwamps you control have \"{T}, Pay 1 life: Add {B}{B}.\"",
+	},
+	
+	{
+		"name": "Stand Guard_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/29_Stand Guard_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "29",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Creatures you control get +1/+1 and gain indestructible until end of turn.\nInvoke {1}{W} ({1}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Protector's Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/29_Stand Guard_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "29",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSacrifice an Aura attached to enchanted Totem: Enchanted Totem gains indestructible until end of turn.",
+		}
+	},
+	
+	{
+		"name": "Stark Expanse_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/265_Stark Expanse_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "265",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Stark Expanse enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {W} or {B}.",
+	},
+	
+	{
+		"name": "Stoic Sentinel_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/167_Stoic Sentinel_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "167",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Stoic Sentinel enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{T}, Exile a card from your graveyard: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Student of Inner Peace_KUT",
+		"mana_cost": "{5}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/30_Student of Inner Peace_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Mentor of Inner Peace.)\nWhen Student of Inner Peace enters, you gain 5 life.",
+	},
+	
+	{
+		"name": "Subjugated Spirit_KUT",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/64_Subjugated Spirit_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "64",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Soul Slaver.)\nFlying",
+	},
+	
+	{
+		"name": "Submerged Icehorn_KUT",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/65_Submerged Icehorn_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "65",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender, hexproof\n{2}{U}: Submerged Icehorn loses hexproof until end of turn. It may attack as though it didn't have defender this turn.",
+	},
+	
+	{
+		"name": "Sunflare Disciple_KUT",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/137_Sunflare Disciple_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "137",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nUnite with three creatures (When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)\nAt the beginning of your end step, return Sunflare Disciple to its owner's hand unless it has a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Sunless Miasma_KUT",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/95_Sunless Miasma_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "95",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Each creature gets -2/-2 until end of turn. Each player loses 2 life. Remove two loyalty counters from each planeswalker.",
+	},
+	
+	{
+		"name": "Sunless Scrounger_KUT",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/96_Sunless Scrounger_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "96",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sunless Scrounger dies, you may exile it. If you do, return target creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Sunrise Mentor_KUT",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/31_Sunrise Mentor_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "31",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)",
+	},
+	
+	{
+		"name": "Suntouched Ascension_KUT",
+		"mana_cost": "{5}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/32_Suntouched Ascension_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "32",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Suntouched Ascension enters, create three 0/1 white Monk creature tokens.\nWhenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of creatures you control.",
+	},
+	
+	{
+		"name": "Swamp_KUT",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/275_Swamp_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "275",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Swiftwater Cliffs_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/266_Swiftwater Cliffs_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "266",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters, you gain 1 life.\n{T}: Add {U} or {R}.",
+	},
+	
+	{
+		"name": "Takedown Strike_KUT",
+		"mana_cost": "{5}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/168_Takedown Strike_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "168",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put three +1/+1 counters on target creature you control. You may have that creature fight target creature you don't control.",
+	},
+	
+	{
+		"name": "Tambara's Growth_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/170_Tambara's Growth_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "170",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reveal the top four cards of your library. You may put a land card or card with invoke from among them into your hand. Put the rest into your graveyard.\nInvoke {3}{G} ({3}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Barkbound Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/170_Tambara's Growth_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "170",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 for each Aura attached to it.",
+		}
+	},
+	
+	{
+		"name": "Tambara Kinbonder_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/138_Tambara Kinbonder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "138",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nInvoke costs you pay cost {1} less to pay.\nWhenever Tambara Kinbonder attacks, it gets +X/+0 until end of turn, where X is the greatest power among other creatures you control.",
+	},
+	
+	{
+		"name": "Tambara Totem-Binder_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/66_Tambara Totem-Binder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "66",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{R}{G}: Target creature you control gets +1/+0 and gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Tambara Tracker_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/169_Tambara Tracker_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "169",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever you activate an invoke ability of a card in your graveyard, Tambara Tracker gets +1/+1 until end of turn and you gain 2 life.",
+	},
+	
+	{
+		"name": "Tambara Veil-Boundary_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/267_Tambara Veil-Boundary_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "267",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Tambara Veil-Boundary enters the battlefield tapped.\nWhen Tambara Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {G}.",
+	},
+	
+	{
+		"name": "Tartok Wanderer_KUT",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/97_Tartok Wanderer_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "97",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Tartok Wanderer dies, create a 1/1 black Spirit creature token with flying.",
+	},
+	
+	{
+		"name": "Tender of the Heartglade_KUT",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/171_Tender of the Heartglade_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "171",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Tender of the Heartglade unites creatures, draw a card for each creature it united.",
+	},
+	
+	{
+		"name": "Thin the Veil_KUT",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/98_Thin the Veil_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "98",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Search your library for a nonland card not named Thin the Veil, exile it, then shuffle. If it has mana value less than or equal to the number of card types among cards in your graveyard, you may cast it without paying its mana cost. If you don't, put it into your hand.",
+	},
+	
+	{
+		"name": "Thornwood Falls_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/268_Thornwood Falls_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "268",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Thornwood Falls enters the battlefield tapped.\nWhen Thornwood Falls enters, you gain 1 life.\n{T}: Add {G} or {U}.",
+	},
+	
+	{
+		"name": "Tigal, Guru of Dhagiri_KUT",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/67_Tigal, Guru of Dhagiri_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "67",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell from your hand, you may cast target instant or sorcery card with lesser mana value from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Totem-Forest Huntress_KUT",
+		"mana_cost": "{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/223_Totem-Forest Huntress_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "223",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reach\nWhen Totem-Forest Huntress enters, mill two cards. (Put the top two cards of your library into your graveyard.)\nInvoke costs you pay cost {1} less to pay.",
+	},
+	
+	{
+		"name": "Totemic Kigatilik_KUT",
+		"mana_cost": "{2}{G}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/224_Totemic Kigatilik_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "224",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Flying, trample\nWhenever Totemic Kigatilik attacks, draw three cards, then discard two cards at random. When you do, Totemic Kigatilik deals damage equal to the total mana value of the discarded cards to any target.",
+	},
+	
+	{
+		"name": "Totemic Thicket_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/269_Totemic Thicket_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "269",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Totemic Thicket enters the battlefield tapped.\n{T}: Add {G}, {U} or {R}.",
+	},
+	
+	{
+		"name": "Trailblazer's Records_KUT",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/244_Trailblazer's Records_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "244",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when a land card is put into your graveyard from anywhere other than the battlefield, you may put it onto the battlefield tapped.",
+	},
+	
+	{
+		"name": "Tranquil Cove_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/270_Tranquil Cove_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "270",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters, you gain 1 life.\n{T}: Add {W} or {U}.",
+	},
+	
+	{
+		"name": "Treading Thin Ice_KUT",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/68_Treading Thin Ice_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "68",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, each opponent mills X cards, where X is the greatest toughness among creatures you control.",
+	},
+	
+	{
+		"name": "Tugit Icefisher_KUT",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/99_Tugit Icefisher_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "99",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender\n{2}{B}, {T}: Each opponent loses X life and you gain X life, where X is the number of creatures with defender you control.",
+	},
+	
+	{
+		"name": "Tusk Bay Seal_KUT",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/33_Tusk Bay Seal_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "33",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nDefender\nWhen Tusk Bay Seal enters, prevent the next 4 damage that would be dealt to any target this turn.",
+	},
+	
+	{
+		"name": "Tusker's Rage_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/139_Tusker's Rage_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "139",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +1/+1 and gains double strike until end of turn.\nInvoke {4}{R} ({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Bloodtusk Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/139_Tusker's Rage_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "139",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has double strike.",
+		}
+	},
+	
+	{
+		"name": "Ujuraq, Elder Watcher_KUT",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/172_Ujuraq, Elder Watcher_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "172",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Whenever Ujuraq, Elder Watcher enters or attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nUjuraq gets +3/+3 and has trample as long as there are eight or more cards in your graveyard.",
+	},
+	
+	{
+		"name": "Ujuraq's Tusk_KUT",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/173_Ujuraq's Tusk_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "173",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Master of Elder's Might (When this enters, you may put Elder's Might into your hand from your library, then shuffle.)\nCreatures with power less than Ujuraq's Tusk's power can't block it.",
+	},
+	
+	{
+		"name": "Unending Hunger_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/100_Unending Hunger_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "100",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Each opponent sacrifices a creature.\nInvoke {5}{B} ({5}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Bloodsoaked Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/100_Unending Hunger_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "100",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3 and has menace.",
+		}
+	},
+	
+	{
+		"name": "Unnatural Rebirth_KUT",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/101_Unnatural Rebirth_KUT_front.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "101",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Return target creature card with mana value 7 or less from your graveyard to the battlefield.\nInvoke {1}{B} ({1}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+		"back": {
+			"name": "Carrion Totem_KUT",
+			"mana_cost": "",
+			"type": "Totemic",
+			"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/101_Unnatural Rebirth_KUT_back.jpg",
+			"colors": [],
+			"set": "KUT",
+			"collector_number": "101",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1 and has deathtouch.",
+		}
+	},
+	
+	{
+		"name": "Veilsight Elder_KUT",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/174_Veilsight Elder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "174",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{3}{U}{B}: Surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+	},
+	
+	{
+		"name": "Veilsight Watcher_KUT",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/102_Veilsight Watcher_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\n{2}{G}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+	},
+	
+	{
+		"name": "Veiltouched Soulbinder_KUT",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/34_Veiltouched Soulbinder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Veiltouched Soulbinder enters or attacks, exile up to one target card from a graveyard. Then if there are four or more cards exiled with Veiltouched Soulbinder, create a 1/1 black Spirit creature token with flying.",
+	},
+	
+	{
+		"name": "Volcanic Claim_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/140_Volcanic Claim_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "140",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Volcanic Claim deals 4 damage to target creature.",
+	},
+	
+	{
+		"name": "Vow of Silence_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/35_Vow of Silence_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "35",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Vow of Silence enters, exile target creature an opponent controls with power 3 or less until Vow of Silence leaves the battlefield. (That creature returns under its owner's control.)",
+	},
+	
+	{
+		"name": "Warden's Akhlut_KUT",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/226_Warden's Akhlut_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "226",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Warden's Akhlut has hexproof as long as it's untapped.\nOnce during each turn, when you surveil, put a +1/+1 counter on Warden's Akhlut.",
+	},
+	
+	{
+		"name": "Warden of Stolen Souls_KUT",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/225_Warden of Stolen Souls_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "225",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nOnce during each turn, when you surveil, each opponent loses 2 life.",
+	},
+	
+	{
+		"name": "Warden of Tartok Valley_KUT",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/175_Warden of Tartok Valley_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "175",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+	},
+	
+	{
+		"name": "Watcher's Roost_KUT",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/69_Watcher's Roost_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "69",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever you surveil, you may have Watcher's Roost become a 3/3 Bird creature with flying until end of turn.\n{2}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+	},
+	
+	{
+		"name": "Waystone Herder_KUT",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/176_Waystone Herder_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "176",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when you surveil, you may pay {G}. If you do, create a 2/2 green Ox creature token.",
+	},
+	
+	{
+		"name": "Waystone Reaper_KUT",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/103_Waystone Reaper_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "103",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Defender, flying\nWaystone Reaper can attack opponents with 6 or less life as though it didn't have defender.\nAt the beginning of your upkeep, each opponent loses 2 life and discards a card.",
+	},
+	
+	{
+		"name": "Whalebone Huntsman_KUT",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/104_Whalebone Huntsman_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "104",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{3}{W}{U}: Tap target creature. You gain 2 life.",
+	},
+	
+	{
+		"name": "Whipchain Warlord_KUT",
+		"mana_cost": "{R}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/227_Whipchain Warlord_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "227",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever Whipchain Warlord deals combat damage to a player, you may return target creature card with mana value 2 or less from your graveyard to your hand.\nSacrifice another creature: Whipchain Warlord gains your choice of deathtouch or indestructible until end of turn. Tap it.",
+	},
+	
+	{
+		"name": "Wilderkin Behemoth_KUT",
+		"mana_cost": "{1}{R}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/228_Wilderkin Behemoth_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "228",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nTrample\nHexproof from mana value 3 or less (This creature can't be the target of spells or abilities your opponents control with mana value 3 or less.)",
+	},
+	
+	{
+		"name": "Wind-Scarred Crag_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/271_Wind-Scarred Crag_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "271",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Wind-Scarred Crag enters the battlefield tapped.\nWhen Wind-Scarred Crag enters, you gain 1 life.\n{T}: Add {R} or {W}.",
+	},
+	
+	{
+		"name": "Windbeaten Stones_KUT",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/272_Windbeaten Stones_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "272",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Windbeaten Stones enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {R} or {W}.",
+	},
+	
+	{
+		"name": "Winding Trails_KUT",
+		"mana_cost": "{3}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/70_Winding Trails_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "70",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one or both -\n• Return target creature with power 3 or less to its owner's hand.\n• Return target creature with power 4 or greater to its owner's hand.",
+	},
+	
+	{
+		"name": "Witness the Ages_KUT",
+		"mana_cost": "{4}{B}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/229_Witness the Ages_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "229",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "For each card type, you may return a card of that type from your graveyard to your hand. Exile Witness the Ages.",
+	},
+	
+	{
+		"name": "Witness to the First Word_KUT",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/245_Witness to the First Word_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "245",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "If Witness to the First Word is in any zone, effects from spells and abilities you control count it as a Mantra.",
+	},
+	
+	{
+		"name": "Wrap in Flames_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/141_Wrap in Flames_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "141",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Solara's Pyromancer.)\nWrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
+	},
+	
+	{
+		"name": "Wretched Monstrosity_KUT",
+		"mana_cost": "{5}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/105_Wretched Monstrosity_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "105",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Yiskola, Narwa Chieftain_KUT",
+		"mana_cost": "{3}{R}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/230_Yiskola, Narwa Chieftain_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "230",
+		"rarity": "mythic",
+		"subtypes": [],
+		"oracle_text": "Lifelink, haste\nOther creatures you control have lifelink and haste.\nOnce each turn, when a creature you control dies during your turn, you may gain control of target creature an opponent controls until end of turn. Untap that creature.",
+	},
+	
+	{
+		"name": "Yiskola's Charm_KUT",
+		"mana_cost": "{R}{W}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/231_Yiskola's Charm_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "231",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Target creature you control gets +2/+0 until end of turn. It deals damage equal to its power to up to one target creature or planeswalker.\n• Return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield tapped.\n• Target player discards two cards.",
+	},
+	
+	{
+		"name": "Anigul, the Setting Sun (Unalaq, One with Vaatu)_KUT",
+		"mana_cost": "{1}{B}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/299_Anigul, the Setting Sun (Unalaq, One with Vaatu)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "299",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhen Anigul, the Setting Sun enters, each opponent discards a card.\nWhenever Anigul deals combat damage to an opponent, exile up to two target cards from that player's graveyard. For each of those exiled cards, Anigul deals 1 damage to that card's owner.",
+	},
+	
+	{
+		"name": "Atrah of the First Word (Aang, Avatar State)_KUT",
+		"mana_cost": "{W}{U}{B}{R}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/293_Atrah of the First Word (Aang, Avatar State)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "293",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Atrah of the First Word enters or attacks, you may search your library for a Mantra card and cast it without paying its mana cost. If you do, shuffle.",
+	},
+	
+	{
+		"name": "Boundary Guardian (Lin Beifong, Chief of Police)_KUT",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/292_Boundary Guardian (Lin Beifong, Chief of Police)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "292",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Whenever a land you control enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nExile three cards from your graveyard: Put a +1/+1 counter on Boundary Guardian. Activate this ability only once each turn.",
+	},
+	
+	{
+		"name": "Caldera Elemental (Future Industries Mecha)_KUT",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/287_Caldera Elemental (Future Industries Mecha)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "287",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Narwa Igniter.)\nTrample",
+	},
+	
+	{
+		"name": "Combat-Form Instructor (Sokka, Heart of the Team)_KUT",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/281_Combat-Form Instructor (Sokka, Heart of the Team)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "281",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Combat-Form Instructor unites creatures, put a +1/+1 counter on each creature it united.",
+	},
+	
+	{
+		"name": "Emberwind Visionary (Tenzin, Airbending Expert)_KUT",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/298_Emberwind Visionary (Tenzin, Airbending Expert)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "298",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Emberwind Visionary attacks, look at the top six cards of your library. You may cast an instant or sorcery spell with mana value 1 from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Fortunous Windhorse (Appa, Aang's Companion)_KUT",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/278_Fortunous Windhorse (Appa, Aang's Companion)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "278",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Defender, flying, vigilance\nAs long as you control two or more other creatures with defender, Fortunous Windhorse may attack as though it didn't have defender.",
+	},
+	
+	{
+		"name": "Guru of Tumbling Stone (Toph, Blind Bender)_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/288_Guru of Tumbling Stone (Toph, Blind Bender)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "288",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Unite with two creatures\nWhen Guru of Tumbling Stone unites creatures, exile the top card of your library. You may play that card this turn.",
+	},
+	
+	{
+		"name": "Isolated Meditation (Frozen in Ice)_KUT",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/279_Isolated Meditation (Frozen in Ice)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "279",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "You have hexproof and can't cast creature or planeswalker spells.\nNo more than one creature can attack you each combat.\nWhenever you cast a spell, you gain 1 life.",
+	},
+	
+	{
+		"name": "Monastery Flagdancers (Korra, Avatar Reborn)_KUT",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/283_Monastery Flagdancers (Korra, Avatar Reborn)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "283",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Monastery Flagdancers unites creatures, return up to X target nonland permanents to their owner's hands, where X is the number of creatures it united.",
+	},
+	
+	{
+		"name": "Narwa Igniter (Asami of Future Industries)_KUT",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/284_Narwa Igniter (Asami of Future Industries)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "284",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Master of Caldera Elemental (When this enters, you may put Caldera Elemental into your hand from your library, then shuffle.)\n{T}: Add {R}{R}. Spend this mana only to cast Elemental spells or activate abilities of Elementals.",
+	},
+	
+	{
+		"name": "Rescuer of the Lost (Momo, Leaping Lemur)_KUT",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/280_Rescuer of the Lost (Momo, Leaping Lemur)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "280",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Rescuer of the Lost enters, you may return another target creature you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Seqineq, the Rising Sun (Korra, One with Raava)_KUT",
+		"mana_cost": "{3}{R}{R}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/296_Seqineq, the Rising Sun (Korra, One with Raava)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "296",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Seqineq, the Rising Sun enters, your life total becomes 7. When it does, Seqineq deals X damage divided as you choose among any number of nonplayer targets, where X is the amount of life you gained or lost this way.",
+	},
+	
+	{
+		"name": "Serene Mediator (Aang, the Lost Avatar)_KUT",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/294_Serene Mediator (Aang, the Lost Avatar)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "294",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Serene Mediator enters, counter target noncreature spell unless its controller pays {1}.",
+	},
+	
+	{
+		"name": "Solara, Sun Speaker (Firelord Ozai)_KUT",
+		"mana_cost": "{2}{R}{R}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/286_Solara, Sun Speaker (Firelord Ozai)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "286",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "[+1]: Add {R}{R}. You may discard a card. If you do, draw a card.\n[-X]: Solara deals X damage to each other creature and planeswalker.\n[-8]: Solara deals damage to each opponent equal to twice the number of {R} in the mana cost of cards in your graveyard.",
+	},
+	
+	{
+		"name": "Solara's Pyromancer (Azula, Raging Firebender)_KUT",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/285_Solara's Pyromancer (Azula, Raging Firebender)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "285",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Master of Wrap in Flames (When this enters, you may put Wrap in Flames into your hand from your library, then shuffle.)\nWhenever Solara's Pyromancer deals combat damage to a player, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Sonam the Hunted (Iroh, Dragon of the West)_KUT",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/295_Sonam the Hunted (Iroh, Dragon of the West)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "295",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control becomes tapped, Sonam the Hunted deals 1 damage to each opponent and you gain 1 life.\nPay 5 life: Another target creature you control gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "Sunflare Disciple (Zuko, Scarred Prince)_KUT",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/290_Sunflare Disciple (Zuko, Scarred Prince)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "290",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Haste\nUnite with three creatures\nAt the beginning of your end step, return Sunflare Disciple to its owner's hand unless it has a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Tigal, Guru of Dhagiri (Katara, Proven Waterbender)_KUT",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/282_Tigal, Guru of Dhagiri (Katara, Proven Waterbender)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "282",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Whenever you cast an instant or sorcery spell from your hand, you may cast target instant or sorcery card with lesser mana value from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
+	},
+	
+	{
+		"name": "Ujuraq, Elder Watcher (Avatar Kyoshi)_KUT",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/291_Ujuraq, Elder Watcher (Avatar Kyoshi)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "291",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "Whenever Ujuraq, Elder Watcher enters or attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nUjuraq gets +3/+3 and has trample as long as there are eight or more cards in your graveyard.",
+	},
+	
+	{
+		"name": "Wilderkin Behemoth (Naga, Loyal Beardog)_KUT",
+		"mana_cost": "{1}{R}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/297_Wilderkin Behemoth (Naga, Loyal Beardog)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "297",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "This spell can't be countered.\nTrample, hexproof from mana value 3 or less",
+	},
+	
+	{
+		"name": "Wrap in Flames (Wild Lightning)_KUT",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/289_Wrap in Flames (Wild Lightning)_KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "289",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "(Mastered by Solara's Pyromancer.)\nWrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
+	},
+	
+	{
+		"name": "black Spirit 11KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/4t_black Spirit 11KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "colorless Totem 00KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/1t_colorless Totem 00KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Ox 22KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/7t_green Ox 22KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Bear Spirit KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/6t_green Bear Spirit KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "blue Spirit 11KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/3t_blue Spirit 11KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "white Monk 01KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/2t_white Monk 01KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "red and green Elemental 31KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/9t_red and green Elemental 31KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample, haste",
+	},
+	
+	{
+		"name": "green Shaman 11KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/8t_green Shaman 11KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "red Dragon 44KUT",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/KUT-files/img/5t_red Dragon 44KUT.jpg",
+		"colors": [],
+		"set": "KUT",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	]
+[Common]
+20 Aglu's Ghostwarden_KUT
+20 Alonzo's Whispers_KUT
+20 Alruq Veil-Boundary_KUT
+20 Arctic Tenacity_KUT
+20 Ashenflame_KUT
+20 Avalanche's Advance_KUT
+20 Baleful Gaze_KUT
+20 Beguiling Kichkandi_KUT
+20 Behemoth of Tusk Bay_KUT
+20 Bellowing Takin_KUT
+20 Blightling_KUT
+20 Bonewhisper Idol_KUT
+20 Butani Pass Ravager_KUT
+20 Butani Shaman_KUT
+20 Caldera Elemental_KUT
+20 Carrion Viper_KUT
+20 Chilling Wind_KUT
+20 Cliff-Pouncer Leopard_KUT
+20 Cryostasis_KUT
+20 Descend into Darkness_KUT
+20 Dhagiri Style_KUT
+20 Dhagiri Veil-Boundary_KUT
+20 Druk-Style Practitioner_KUT
+20 Elder's Might_KUT
+20 Evening Meditation_KUT
+20 Evolving Wilds_KUT
+20 Flaring Despair_KUT
+20 Follow the Herd_KUT
+20 Frost Breath_KUT
+20 Frostbite Spider_KUT
+20 Frozen Bones_KUT
+20 Ghostwarden's Lantern_KUT
+20 Glacier Sentinel_KUT
+20 Guru of Tumbling Stone_KUT
+20 Harrowing Visit_KUT
+20 Harsh Conditions_KUT
+20 Haunt of Paro Katsang_KUT
+20 Hornrush_KUT
+20 Huntmaster's Amarok_KUT
+20 Jirrisa's Ghostwarden_KUT
+20 Keen-Eyed Dive_KUT
+20 Keeper of Kugaq_KUT
+20 Lakhey Guardian_KUT
+20 Lhosei's Determination_KUT
+20 Mantra of Fire_KUT
+20 Mantra of Sunrise_KUT
+20 Mantra of the Depths_KUT
+20 Mantra of the Night_KUT
+20 Mantra of the Veil_KUT
+20 Mayuk Claw-Sage_KUT
+20 Mayuk Denwarden_KUT
+20 Monastery Ibex_KUT
+20 Monument to the Thirty_KUT
+20 Nanuk Elder_KUT
+20 Narwa Veil-Boundary_KUT
+20 Neqanak Veil-Boundary_KUT
+20 Niyma's Style_KUT
+20 Overseer of Forms_KUT
+20 Paro Katsang Avenger_KUT
+20 Pass Pilgrim_KUT
+20 Pathar's Ghostwarden_KUT
+20 Pathar's Lightchaser_KUT
+20 Patriarch's Challenge_KUT
+20 Pikgryff Pridemother_KUT
+20 Pouncing Snowlion_KUT
+20 Pressure Point_KUT
+20 Prismatic Permafrost_KUT
+20 Purge from Memory_KUT
+20 Qalupalik Snatcher_KUT
+20 Rakshasa Initiate_KUT
+20 Seekers of Khembul_KUT
+20 Sentinel's Denial_KUT
+20 Shattering Kick_KUT
+20 Shed the Material_KUT
+20 Silverfrost Monal_KUT
+20 Snow-Pass Guardian_KUT
+20 Snowcrash_KUT
+20 Snowsifter Yeti_KUT
+20 Sojourner Pilgrim_KUT
+20 Solar Meditation_KUT
+20 Souldrain_KUT
+20 Spiritual Bonds_KUT
+20 Splendid Victory_KUT
+20 Student of Inner Peace_KUT
+20 Subjugated Spirit_KUT
+20 Sunless Scrounger_KUT
+20 Sunrise Mentor_KUT
+20 Takedown Strike_KUT
+20 Tambara Tracker_KUT
+20 Tambara Veil-Boundary_KUT
+20 Tartok Wanderer_KUT
+20 Tugit Icefisher_KUT
+20 Tusk Bay Seal_KUT
+20 Unending Hunger_KUT
+20 Veilsight Watcher_KUT
+20 Volcanic Claim_KUT
+20 Vow of Silence_KUT
+20 Warden of Tartok Valley_KUT
+20 Witness to the First Word_KUT
+20 Wrap in Flames_KUT
+20 Wretched Monstrosity_KUT
+
+[Uncommon]
+10 Alruq Migration_KUT
+10 Anigul's Fall_KUT
+10 Arctic Drake_KUT
+10 Atrah's Chantkeeper_KUT
+10 Auroric Banisher_KUT
+10 Auroric Guidance_KUT
+10 Auroric Waygate_KUT
+10 Awakened Guardian_KUT
+10 Blaze of Seqineq_KUT
+10 Blizzard Maiden_KUT
+10 Bottled Sunlight_KUT
+10 Bounce Off_KUT
+10 Caldera's Gift_KUT
+10 Caller of the Great Bears_KUT
+10 Champion of the Many_KUT
+10 Coldhearted Cryomancer_KUT
+10 Commune with the Veil_KUT
+10 Courtyard Sanctifier_KUT
+10 Cunning Pal Rai Yuk_KUT
+10 Devouring Amautalik_KUT
+10 Drumbone Ahkiyyini_KUT
+10 Elder of Offerings_KUT
+10 Eternal Ghostwarden_KUT
+10 Feasting Atshen_KUT
+10 Fortunous Windhorse_KUT
+10 Frigid Landscape_KUT
+10 Glacial Entrenchment_KUT
+10 Grasping Tentacles_KUT
+10 Guide's Trappings_KUT
+10 Heartsong Invoker_KUT
+10 Herald of Anigul_KUT
+10 Hero of the Alruq_KUT
+10 Hundred-Chant Elder_KUT
+10 Hunker Down_KUT
+10 Ice-Hole Sentry_KUT
+10 Invoker's Expertise_KUT
+10 Jirrisa's Charm_KUT
+10 Khembul Protector_KUT
+10 Kugaq's Charm_KUT
+10 Loxodon Memorialist_KUT
+10 Migu's Ravager_KUT
+10 Narwa Wardrover_KUT
+10 Narwa Warmaker_KUT
+10 Pathar's Charm_KUT
+10 Peaceful Journey_KUT
+10 Peerless Monk_KUT
+10 Pilgrim's Trails_KUT
+10 Pinnacle Warground_KUT
+10 Priest of the Caldera_KUT
+10 Pursued Snowrunner_KUT
+10 Runecarved Remnant_KUT
+10 Samaka's Charm_KUT
+10 Scavenging Keelut_KUT
+10 Scion of Seqineq_KUT
+10 Seal in Blood_KUT
+10 Seeking for Allies_KUT
+10 Sentinel's Glade_KUT
+10 Seqineq's Radiance_KUT
+10 Solara's Machinations_KUT
+10 Solara's Pyromancer_KUT
+10 Spectral Throatsinger_KUT
+10 Spirit of the First Dawn_KUT
+10 Stoic Sentinel_KUT
+10 Submerged Icehorn_KUT
+10 Sunless Miasma_KUT
+10 Suntouched Ascension_KUT
+10 Tambara's Growth_KUT
+10 Tambara Totem-Binder_KUT
+10 Totem-Forest Huntress_KUT
+10 Totemic Thicket_KUT
+10 Tusker's Rage_KUT
+10 Ujuraq's Tusk_KUT
+10 Veilsight Elder_KUT
+10 Warden's Akhlut_KUT
+10 Warden of Stolen Souls_KUT
+10 Watcher's Roost_KUT
+10 Waystone Herder_KUT
+10 Whalebone Huntsman_KUT
+10 Winding Trails_KUT
+10 Yiskola's Charm_KUT
+
+[Rare]
+4 Aglu, Tugit Chieftain_KUT
+4 Atrah's Utterance_KUT
+4 Atrah of the First Word_KUT
+4 Auroric Resurgence_KUT
+4 Auroric Span_KUT
+4 Beyond the Veil_KUT
+4 Bloodmaw_KUT
+4 Bloodstitched Tupilaq_KUT
+4 Boundary Guardian_KUT
+4 Brink of the End_KUT
+4 Butani Warleader_KUT
+4 Clearwater Grotto_KUT
+4 Combat-Form Instructor_KUT
+4 Crossed Abomination_KUT
+4 Curator of Myth_KUT
+4 Dawnbreak Stampede_KUT
+4 Dawnchime, Lhosei's Staff_KUT
+4 Disciple of Seqineq_KUT
+4 Emberwind Visionary_KUT
+4 Gaze Beyond_KUT
+4 Ghostwarden's Claim_KUT
+4 Glorious Confrontation_KUT
+4 Helping Hands_KUT
+4 Ice-Drake Nest_KUT
+4 Jirrisa, Neqanak Chieftain_KUT
+4 Khembul, Paradise Valley_KUT
+4 Kugaq's Brood_KUT
+4 Loving Reunion_KUT
+4 Maddening Roar_KUT
+4 Mentor of Inner Peace_KUT
+4 Migu, Terror of the Pass_KUT
+4 Misty Peak_KUT
+4 Monastery Flagdancers_KUT
+4 Narwa Igniter_KUT
+4 Niyma, the Survivor_KUT
+4 One with the Storm_KUT
+4 Onslaught of Winter_KUT
+4 Patriarch of Spring_KUT
+4 Primal Genesis_KUT
+4 Profane Grove_KUT
+4 Qamutiik Snowrunner_KUT
+4 Rescuer of the Lost_KUT
+4 Samaka, Ancient Totemist_KUT
+4 Samaka's Boonweaver_KUT
+4 Scourge of Spirits_KUT
+4 Serene Mediator_KUT
+4 Shelter in Paradise_KUT
+4 Sonam the Hunted_KUT
+4 Soul Slaver_KUT
+4 Splashback_KUT
+4 Spreader of Veilblight_KUT
+4 Stand Guard_KUT
+4 Stark Expanse_KUT
+4 Sunflare Disciple_KUT
+4 Tambara Kinbonder_KUT
+4 Tender of the Heartglade_KUT
+4 Thin the Veil_KUT
+4 Trailblazer's Records_KUT
+4 Treading Thin Ice_KUT
+4 Unnatural Rebirth_KUT
+4 Veiltouched Soulbinder_KUT
+4 Waystone Reaper_KUT
+4 Whipchain Warlord_KUT
+4 Wilderkin Behemoth_KUT
+4 Windbeaten Stones_KUT
+4 Witness the Ages_KUT
+2 Alonzo, Departed Detective_KUT
+2 Anigul, the Setting Sun_KUT
+2 Burning Dawn_KUT
+2 Eternal Night_KUT
+2 Isolated Meditation_KUT
+2 Kugaq, the Waking Glacier_KUT
+2 Lhosei the Determined_KUT
+2 Pathar, Alruq Chieftain_KUT
+2 Prophet of the Veil_KUT
+2 Seqineq, the Rising Sun_KUT
+2 Solara, Sun Speaker_KUT
+2 Tigal, Guru of Dhagiri_KUT
+2 Totemic Kigatilik_KUT
+2 Ujuraq, Elder Watcher_KUT
+2 Yiskola, Narwa Chieftain_KUT
+
+[Land]
+10 Bloodfell Caves_KUT
+10 Blossoming Sands_KUT
+10 Dismal Backwater_KUT
+10 Jungle Hollow_KUT
+10 Rugged Highlands_KUT
+10 Scoured Barrens_KUT
+10 Swiftwater Cliffs_KUT
+10 Thornwood Falls_KUT
+10 Tranquil Cove_KUT
+10 Wind-Scarred Crag_KUT
+20 Forest_KUT
+20 Island_KUT
+20 Mountain_KUT
+20 Plains_KUT
+20 Swamp_KUT
+
+[Token]
+20 black Spirit 11KUT
+20 colorless Totem 00KUT
+20 green Ox 22KUT
+20 green Bear Spirit KUT
+20 blue Spirit 11KUT
+20 white Monk 01KUT
+20 red and green Elemental 31KUT
+20 green Shaman 11KUT
+20 red Dragon 44KUT
+
+[Wildcard]
+6 Aglu's Ghostwarden_KUT
+6 Alonzo's Whispers_KUT
+6 Alruq Veil-Boundary_KUT
+6 Arctic Tenacity_KUT
+6 Ashenflame_KUT
+6 Avalanche's Advance_KUT
+6 Baleful Gaze_KUT
+6 Beguiling Kichkandi_KUT
+6 Behemoth of Tusk Bay_KUT
+6 Bellowing Takin_KUT
+6 Blightling_KUT
+6 Bonewhisper Idol_KUT
+6 Butani Pass Ravager_KUT
+6 Butani Shaman_KUT
+6 Caldera Elemental_KUT
+6 Carrion Viper_KUT
+6 Chilling Wind_KUT
+6 Cliff-Pouncer Leopard_KUT
+6 Cryostasis_KUT
+6 Descend into Darkness_KUT
+6 Dhagiri Style_KUT
+6 Dhagiri Veil-Boundary_KUT
+6 Druk-Style Practitioner_KUT
+6 Elder's Might_KUT
+6 Evening Meditation_KUT
+6 Evolving Wilds_KUT
+6 Flaring Despair_KUT
+6 Follow the Herd_KUT
+6 Frost Breath_KUT
+6 Frostbite Spider_KUT
+6 Frozen Bones_KUT
+6 Ghostwarden's Lantern_KUT
+6 Glacier Sentinel_KUT
+6 Guru of Tumbling Stone_KUT
+6 Harrowing Visit_KUT
+6 Harsh Conditions_KUT
+6 Haunt of Paro Katsang_KUT
+6 Hornrush_KUT
+6 Huntmaster's Amarok_KUT
+6 Jirrisa's Ghostwarden_KUT
+6 Keen-Eyed Dive_KUT
+6 Keeper of Kugaq_KUT
+6 Lakhey Guardian_KUT
+6 Lhosei's Determination_KUT
+6 Mantra of Fire_KUT
+6 Mantra of Sunrise_KUT
+6 Mantra of the Depths_KUT
+6 Mantra of the Night_KUT
+6 Mantra of the Veil_KUT
+6 Mayuk Claw-Sage_KUT
+6 Mayuk Denwarden_KUT
+6 Monastery Ibex_KUT
+6 Monument to the Thirty_KUT
+6 Nanuk Elder_KUT
+6 Narwa Veil-Boundary_KUT
+6 Neqanak Veil-Boundary_KUT
+6 Niyma's Style_KUT
+6 Overseer of Forms_KUT
+6 Paro Katsang Avenger_KUT
+6 Pass Pilgrim_KUT
+6 Pathar's Ghostwarden_KUT
+6 Pathar's Lightchaser_KUT
+6 Patriarch's Challenge_KUT
+6 Pikgryff Pridemother_KUT
+6 Pouncing Snowlion_KUT
+6 Pressure Point_KUT
+6 Prismatic Permafrost_KUT
+6 Purge from Memory_KUT
+6 Qalupalik Snatcher_KUT
+6 Rakshasa Initiate_KUT
+6 Seekers of Khembul_KUT
+6 Sentinel's Denial_KUT
+6 Shattering Kick_KUT
+6 Shed the Material_KUT
+6 Silverfrost Monal_KUT
+6 Snow-Pass Guardian_KUT
+6 Snowcrash_KUT
+6 Snowsifter Yeti_KUT
+6 Sojourner Pilgrim_KUT
+6 Solar Meditation_KUT
+6 Souldrain_KUT
+6 Spiritual Bonds_KUT
+6 Splendid Victory_KUT
+6 Student of Inner Peace_KUT
+6 Subjugated Spirit_KUT
+6 Sunless Scrounger_KUT
+6 Sunrise Mentor_KUT
+6 Takedown Strike_KUT
+6 Tambara Tracker_KUT
+6 Tambara Veil-Boundary_KUT
+6 Tartok Wanderer_KUT
+6 Tugit Icefisher_KUT
+6 Tusk Bay Seal_KUT
+6 Unending Hunger_KUT
+6 Veilsight Watcher_KUT
+6 Volcanic Claim_KUT
+6 Vow of Silence_KUT
+6 Warden of Tartok Valley_KUT
+6 Witness to the First Word_KUT
+6 Wrap in Flames_KUT
+6 Wretched Monstrosity_KUT
+4 Alruq Migration_KUT
+4 Anigul's Fall_KUT
+4 Arctic Drake_KUT
+4 Atrah's Chantkeeper_KUT
+4 Auroric Banisher_KUT
+4 Auroric Guidance_KUT
+4 Auroric Waygate_KUT
+4 Awakened Guardian_KUT
+4 Blaze of Seqineq_KUT
+4 Blizzard Maiden_KUT
+4 Bottled Sunlight_KUT
+4 Bounce Off_KUT
+4 Caldera's Gift_KUT
+4 Caller of the Great Bears_KUT
+4 Champion of the Many_KUT
+4 Coldhearted Cryomancer_KUT
+4 Commune with the Veil_KUT
+4 Courtyard Sanctifier_KUT
+4 Cunning Pal Rai Yuk_KUT
+4 Devouring Amautalik_KUT
+4 Drumbone Ahkiyyini_KUT
+4 Elder of Offerings_KUT
+4 Eternal Ghostwarden_KUT
+4 Feasting Atshen_KUT
+4 Fortunous Windhorse_KUT
+4 Frigid Landscape_KUT
+4 Glacial Entrenchment_KUT
+4 Grasping Tentacles_KUT
+4 Guide's Trappings_KUT
+4 Heartsong Invoker_KUT
+4 Herald of Anigul_KUT
+4 Hero of the Alruq_KUT
+4 Hundred-Chant Elder_KUT
+4 Hunker Down_KUT
+4 Ice-Hole Sentry_KUT
+4 Invoker's Expertise_KUT
+4 Jirrisa's Charm_KUT
+4 Khembul Protector_KUT
+4 Kugaq's Charm_KUT
+4 Loxodon Memorialist_KUT
+4 Migu's Ravager_KUT
+4 Narwa Wardrover_KUT
+4 Narwa Warmaker_KUT
+4 Pathar's Charm_KUT
+4 Peaceful Journey_KUT
+4 Peerless Monk_KUT
+4 Pilgrim's Trails_KUT
+4 Pinnacle Warground_KUT
+4 Priest of the Caldera_KUT
+4 Pursued Snowrunner_KUT
+4 Runecarved Remnant_KUT
+4 Samaka's Charm_KUT
+4 Scavenging Keelut_KUT
+4 Scion of Seqineq_KUT
+4 Seal in Blood_KUT
+4 Seeking for Allies_KUT
+4 Sentinel's Glade_KUT
+4 Seqineq's Radiance_KUT
+4 Solara's Machinations_KUT
+4 Solara's Pyromancer_KUT
+4 Spectral Throatsinger_KUT
+4 Spirit of the First Dawn_KUT
+4 Stoic Sentinel_KUT
+4 Submerged Icehorn_KUT
+4 Sunless Miasma_KUT
+4 Suntouched Ascension_KUT
+4 Tambara's Growth_KUT
+4 Tambara Totem-Binder_KUT
+4 Totem-Forest Huntress_KUT
+4 Totemic Thicket_KUT
+4 Tusker's Rage_KUT
+4 Ujuraq's Tusk_KUT
+4 Veilsight Elder_KUT
+4 Warden's Akhlut_KUT
+4 Warden of Stolen Souls_KUT
+4 Watcher's Roost_KUT
+4 Waystone Herder_KUT
+4 Whalebone Huntsman_KUT
+4 Winding Trails_KUT
+4 Yiskola's Charm_KUT
+2 Aglu, Tugit Chieftain_KUT
+2 Atrah's Utterance_KUT
+2 Atrah of the First Word_KUT
+2 Auroric Resurgence_KUT
+2 Auroric Span_KUT
+2 Beyond the Veil_KUT
+2 Bloodmaw_KUT
+2 Bloodstitched Tupilaq_KUT
+2 Boundary Guardian_KUT
+2 Brink of the End_KUT
+2 Butani Warleader_KUT
+2 Clearwater Grotto_KUT
+2 Combat-Form Instructor_KUT
+2 Crossed Abomination_KUT
+2 Curator of Myth_KUT
+2 Dawnbreak Stampede_KUT
+2 Dawnchime, Lhosei's Staff_KUT
+2 Disciple of Seqineq_KUT
+2 Emberwind Visionary_KUT
+2 Gaze Beyond_KUT
+2 Ghostwarden's Claim_KUT
+2 Glorious Confrontation_KUT
+2 Helping Hands_KUT
+2 Ice-Drake Nest_KUT
+2 Jirrisa, Neqanak Chieftain_KUT
+2 Khembul, Paradise Valley_KUT
+2 Kugaq's Brood_KUT
+2 Loving Reunion_KUT
+2 Maddening Roar_KUT
+2 Mentor of Inner Peace_KUT
+2 Migu, Terror of the Pass_KUT
+2 Misty Peak_KUT
+2 Monastery Flagdancers_KUT
+2 Narwa Igniter_KUT
+2 Niyma, the Survivor_KUT
+2 One with the Storm_KUT
+2 Onslaught of Winter_KUT
+2 Patriarch of Spring_KUT
+2 Primal Genesis_KUT
+2 Profane Grove_KUT
+2 Qamutiik Snowrunner_KUT
+2 Rescuer of the Lost_KUT
+2 Samaka, Ancient Totemist_KUT
+2 Samaka's Boonweaver_KUT
+2 Scourge of Spirits_KUT
+2 Serene Mediator_KUT
+2 Shelter in Paradise_KUT
+2 Sonam the Hunted_KUT
+2 Soul Slaver_KUT
+2 Splashback_KUT
+2 Spreader of Veilblight_KUT
+2 Stand Guard_KUT
+2 Stark Expanse_KUT
+2 Sunflare Disciple_KUT
+2 Tambara Kinbonder_KUT
+2 Tender of the Heartglade_KUT
+2 Thin the Veil_KUT
+2 Trailblazer's Records_KUT
+2 Treading Thin Ice_KUT
+2 Unnatural Rebirth_KUT
+2 Veiltouched Soulbinder_KUT
+2 Waystone Reaper_KUT
+2 Whipchain Warlord_KUT
+2 Wilderkin Behemoth_KUT
+2 Windbeaten Stones_KUT
+2 Witness the Ages_KUT
+1 Alonzo, Departed Detective_KUT
+1 Anigul, the Setting Sun_KUT
+1 Burning Dawn_KUT
+1 Eternal Night_KUT
+1 Isolated Meditation_KUT
+1 Kugaq, the Waking Glacier_KUT
+1 Lhosei the Determined_KUT
+1 Pathar, Alruq Chieftain_KUT
+1 Prophet of the Veil_KUT
+1 Seqineq, the Rising Sun_KUT
+1 Solara, Sun Speaker_KUT
+1 Tigal, Guru of Dhagiri_KUT
+1 Totemic Kigatilik_KUT
+1 Ujuraq, Elder Watcher_KUT
+1 Yiskola, Narwa Chieftain_KUT

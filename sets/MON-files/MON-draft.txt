@@ -1,0 +1,4332 @@
+
+[Settings]
+{
+	"name": "Monsters of Chikyu",
+	"withReplacement": false,
+	"layouts": {
+		"PlayBooster": {
+			"weight": 1,
+			"slots": {
+  				"Rare": 1,
+    			"Uncommon": 3,
+    			"Wildcard": 2,
+     			"Common": 7,
+				"Land": 1,
+				"Token": 1
+			}
+		},
+	}
+}
+[CustomCards]
+[
+
+	{
+		"name": "A Journey Begins_MON",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/182_A Journey Begins_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "182",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Look at the top five cards of your library. You may reveal a permanent card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+	},
+	
+	{
+		"name": "Ace Trainer_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/121_Ace Trainer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "121",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Non-Human creatures you control get +1/+0.",
+	},
+	
+	{
+		"name": "Acro Bat_MON",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/81_Acro Bat_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "81",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying, first strike, lifelink",
+	},
+	
+	{
+		"name": "Adrenaline_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/122_Adrenaline_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "122",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Each spell you cast with flash or haste costs {1} less to cast.\nEach creature you control with flash or haste gets +1/+0.",
+	},
+	
+	{
+		"name": "Aeroblast_MON",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/1_Aeroblast_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Aeroblast deals 5 damage to target attacking or blocking creature.",
+	},
+	
+	{
+		"name": "Aggressive Instinct_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/161_Aggressive Instinct_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "161",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control.",
+	},
+	
+	{
+		"name": "Amulet Coin_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/226_Amulet Coin_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "226",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more creatures you control deal combat damage to a player, put a charge counter on Amulet Coin.\n{T}: Add {C} for each charge counter on Amulet Coin.",
+	},
+	
+	{
+		"name": "Aspiring Trainer_MON",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/2_Aspiring Trainer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, it gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Attract_MON",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/3_Attract_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nAs long as you control an untapped creature, enchanted creature can't attack or block.",
+	},
+	
+	{
+		"name": "Barbed Beast_MON",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/162_Barbed Beast_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "162",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhenever a creature dealt damage by Barbed Beast this turn dies, transform Barbed Beast.",
+		"back": {
+			"name": "Barbed Bruiser_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/162_Barbed Beast_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "162",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Vigilance, deathtouch\nWhenever a creature dealt damage by Barbed Bruiser this turn dies, draw a card.",
+		}
+	},
+	
+	{
+		"name": "Barnacle Crawler_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/41_Barnacle Crawler_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "41",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, it gets +1/+3 until end of turn.",
+	},
+	
+	{
+		"name": "Barrier_MON",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/42_Barrier_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "42",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +0/+3 and gains hexproof until end of turn.",
+	},
+	
+	{
+		"name": "Bee Hive_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/163_Bee Hive_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "163",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Insects you control have hexproof.\nAt the beginning of your end step, if you control a nontoken Insect, create a 1/1 green Insect creature token.",
+	},
+	
+	{
+		"name": "Bessie_MON",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/164_Bessie_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "164",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{1}{G}: Until your next turn, Bessie becomes a 5/5 green Wurm creature with trample, haste, and indestructible. You can't activate this ability while Bessie is being attacked. (She doesn't lose loyalty while she's not a planeswalker.)\n[+1]: Creatures you control get +1/+1 and gain haste until your next turn.\n[-6]: Create five 3/3 green Wurm creature tokens with trample and haste.",
+	},
+	
+	{
+		"name": "Bird Keeper_MON",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/4_Bird Keeper_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "4",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nAt the beginning of your end step, if you've gained 3 or more life this turn, create a 2/2 white Bird creature token with flying.",
+	},
+	
+	{
+		"name": "Bridled Growth_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/165_Bridled Growth_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "165",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell costs {2} less to cast if you control a transformed permanent.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Brighteyed Trainer_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/5_Brighteyed Trainer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "5",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Spells cost {1} more to cast for each colored mana symbol in their mana cost beyond the first. (For example, a spell with mana cost {W}{W} would cost {1}{W}{W} to cast.)",
+	},
+	
+	{
+		"name": "Brutality_MON",
+		"mana_cost": "{G}{G}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/166_Brutality_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "166",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more creatures you control deal combat damage to a player, you may destroy target artifact or enchantment that player controls.\nWhenever you cast a green creature spell, create a 3/3 green Wurm creature token with trample.",
+	},
+	
+	{
+		"name": "Budding Companion_MON",
+		"mana_cost": "{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/167_Budding Companion_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "167",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Budding Companion has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Flourishing Companion_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/167_Budding Companion_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "167",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Reach, trample\nWhenever this creature transforms into Flourishing Companion or attacks, untap all lands you control.",
+		}
+	},
+	
+	{
+		"name": "Bug Catcher_MON",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/201_Bug Catcher_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "201",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Bug Catcher enters, create a 1/1 green Insect creature token.\nWhenever a nontoken Insect you control dies, create a 1/1 green Insect creature token.",
+	},
+	
+	{
+		"name": "Call Back_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/43_Call Back_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "43",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead.",
+	},
+	
+	{
+		"name": "Canopy Darter_MON",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/202_Canopy Darter_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "202",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your postcombat main phase, you may return a creature you control to its owner's hand. If you do, add {G}{U}.",
+	},
+	
+	{
+		"name": "Cattle Guard_MON",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/6_Cattle Guard_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "6",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Double strike",
+	},
+	
+	{
+		"name": "Caustic Caterpillar_MON",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/168_Caustic Caterpillar_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "168",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}{G}, Sacrifice Caustic Caterpillar: Destroy target artifact or enchantment.",
+	},
+	
+	{
+		"name": "Cavern Carver_MON",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/169_Cavern Carver_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "169",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nCavern Carver has haste as long as you control another creature with flash or haste.",
+	},
+	
+	{
+		"name": "Cheerful Generator_MON",
+		"mana_cost": "{4}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/227_Cheerful Generator_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "227",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Cheerful Generator has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Combined Generator_MON",
+			"mana_cost": "",
+			"type": "Artifact",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/227_Cheerful Generator_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "227",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Combined Generator can't be blocked except by three or more creatures.",
+		}
+	},
+	
+	{
+		"name": "Chikyu Champion_MON",
+		"mana_cost": "{7}{G}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/203_Chikyu Champion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "203",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Chikyu Champion enters, choose up to one for each land you control. Create a creature token for each of the chosen characteristics.\n• 3/3 red Elemental Mouse with haste.\n• 3/3 white and blue Fox with vigilance.\n• 4/4 green Plant Dinosaur with trample.\n• 4/4 red Dragon with flying.\n• 4/4 blue Turtle with hexproof.\n• 5/5 white Bear Beast.",
+	},
+	
+	{
+		"name": "Chikyu League Arena_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/239_Chikyu League Arena_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "239",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice Chikyu League Arena: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Citadel Bagworm_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/82_Citadel Bagworm_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "82",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Citadel Bagworm gets +0/+1 for each card in your graveyard.\n{B}, Discard a card: Switch Citadel Bagworm's power and toughness until end of turn.",
+	},
+	
+	{
+		"name": "Compulsive Patrol_MON",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/44_Compulsive Patrol_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "44",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Draw three cards. Then discard two cards unless you return a permanent you control to its owner's hand.",
+	},
+	
+	{
+		"name": "Confusion_MON",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/45_Confusion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "45",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn target nonland permanent to its owner's hand. If this spell was harnessed, draw a card.",
+	},
+	
+	{
+		"name": "Cruel Fledgling_MON",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/46_Cruel Fledgling_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "46",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nCruel Fledgling enters with a +1/+1 counter on it if six or more cards are in your graveyard.",
+	},
+	
+	{
+		"name": "Crusher Beetle_MON",
+		"mana_cost": "{3}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/170_Crusher Beetle_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "170",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nCrusher Beetle can't be blocked by more than one creature.",
+	},
+	
+	{
+		"name": "Curious Cubs_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/7_Curious Cubs_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "7",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nCurious Cubs has first strike as long as its attacking.\nWhen Curious Cubs has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Mauling Mother_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/7_Curious Cubs_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "7",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "First strike\nMauling Mother gets +1/+1 for each other creature you control.",
+		}
+	},
+	
+	{
+		"name": "Curious Fossil_MON",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/228_Curious Fossil_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "228",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{1}, Sacrifice Curious Fossil: Scry 2.\n{2}{U}: Return Curious Fossil from your graveyard to the battlefield transformed. Activate only during your turn.",
+		"back": {
+			"name": "Arisen Helix_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/228_Curious Fossil_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "228",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Whenever Arisen Helix attacks, scry 2.\nIf Arisen Helix would die, exile it instead.",
+		}
+	},
+	
+	{
+		"name": "Depth Charger_MON",
+		"mana_cost": "{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/204_Depth Charger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "204",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}{U}{B}: Return Depth Charger to its owner's hand. If you do, return target creature to its owner's hand. That player discards a card.",
+	},
+	
+	{
+		"name": "Determined Koi_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/47_Determined Koi_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "47",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Determined Koi has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Destructive Serpent_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/47_Determined Koi_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "47",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Trample\nCreatures your opponents control get -1/-0.",
+		}
+	},
+	
+	{
+		"name": "Dreamnapper_MON",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/8_Dreamnapper_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "8",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Dreamnapper enters, another target creature phases out until Dreamnapper leaves the battlefield. (Treat it and anything attached to it as though they don't exist as long as it's phased out.)",
+	},
+	
+	{
+		"name": "Driven Mad_MON",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/123_Driven Mad_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "123",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Gain control of target creature until end of turn. Untap it. It gets +2/+0 and gains haste until end of turn.",
+	},
+	
+	{
+		"name": "Duplicate_MON",
+		"mana_cost": "{U}{R}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/205_Duplicate_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "205",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Copy target spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+	},
+	
+	{
+		"name": "Eager Hatchling_MON",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/9_Eager Hatchling_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Eager Hatchling has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Realized Hatchling_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/9_Eager Hatchling_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "9",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Flying",
+		}
+	},
+	
+	{
+		"name": "Eerie Cocoons_MON",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/171_Eerie Cocoons_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "171",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Reach\nEerie Cocoons gets +1/+1 as long as you control another Insect.",
+	},
+	
+	{
+		"name": "Egg Bomb_MON",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/10_Egg Bomb_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "10",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Destroy all attacking creatures with power 3 or greater.",
+	},
+	
+	{
+		"name": "Elemental of Surprise_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/124_Elemental of Surprise_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "124",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nCreatures you control that have entered this turn get +1/+1 and have haste and first strike.",
+	},
+	
+	{
+		"name": "Emonoru, Ema's Wings_MON",
+		"mana_cost": "{4}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/125_Emonoru, Ema's Wings_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "125",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Emonoru, Ema's Wings attacks alone, he gains flying and double strike until end of turn.",
+	},
+	
+	{
+		"name": "End of Monsters_MON",
+		"mana_cost": "{3}{U}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/48_End of Monsters_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "48",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Each player can't cast more than one spell each turn.\nYou may cast spells from your hand without paying their mana costs.",
+	},
+	
+	{
+		"name": "Enduring Charge_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/126_Enduring Charge_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "126",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Menace\nWhenever you cast a noncreature spell, Enduring Charge gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Epic Encounter_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/172_Epic Encounter_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "172",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "You may reveal a legendary card you own from outside the game and put it into your hand. Exile Epic Encounter.",
+	},
+	
+	{
+		"name": "Essence Scatter_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/49_Essence Scatter_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "49",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target creature spell.",
+	},
+	
+	{
+		"name": "Ether_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/229_Ether_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "229",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "The first spell you cast each turn costs {1} less to cast.",
+	},
+	
+	{
+		"name": "Event Horizon_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/11_Event Horizon_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "11",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target nonland permanent if its mana value is less than or equal to the greatest number of nonland permanents controlled by a single player.",
+	},
+	
+	{
+		"name": "Ever-Gnawing Rat_MON",
+		"mana_cost": "{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/173_Ever-Gnawing Rat_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "173",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of combat on your turn, if you control a creature with power greater than Ever-Gnawing Rat's, put a +1/+1 counter on Ever-Gnawing Rat.",
+	},
+	
+	{
+		"name": "Evolving Wilds_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/240_Evolving Wilds_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "240",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+	},
+	
+	{
+		"name": "Experienced Team_MON",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/12_Experienced Team_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "12",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Experienced Team enters, choose one -\n• Create a 4/2 white Bear creature token.\n• Create a 2/4 red Snail creature token.\n• Create a 2/2 white Bird creature token with flying.",
+	},
+	
+	{
+		"name": "Expert Belt_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/230_Expert Belt_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "230",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, you may put a charge counter on Expert Belt and attach it to that creature.\nEquipped creature has hexproof.\nEquipped creature gets +1/+0 for each charge counter on Expert Belt.\nEquip {2}",
+	},
+	
+	{
+		"name": "Extremespeed_MON",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/127_Extremespeed_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "127",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• The next spell you cast this turn has flash and can't be countered.\n• Target creature gets +2/+0 and gains haste until end of turn.\n• Target creature gets +1/+0 and gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Familiar's Ruse_MON",
+		"mana_cost": "{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/50_Familiar's Ruse_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "50",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, return a creature you control to its owner's hand.\nCounter target spell.",
+	},
+	
+	{
+		"name": "Farewell_MON",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/83_Farewell_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "83",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Exile target creature. Its controller loses 3 life.",
+	},
+	
+	{
+		"name": "Fierce Lunge_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/174_Fierce Lunge_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "174",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one -\n• Destroy target creature with flying.\n• Target creature you control gets +2/+2 until end of turn.",
+	},
+	
+	{
+		"name": "Firemane Fox_MON",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/206_Firemane Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "206",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "First strike, haste\nOther creatures you control with flash or haste have first strike.",
+	},
+	
+	{
+		"name": "Fishing Trip_MON",
+		"mana_cost": "{6}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/51_Fishing Trip_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "51",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nDraw three cards.",
+	},
+	
+	{
+		"name": "Flame-Tailed Lizard_MON",
+		"mana_cost": "{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/128_Flame-Tailed Lizard_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "128",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Flame-Tailed Lizard has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Flame-Tested Dragon_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/128_Flame-Tailed Lizard_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "128",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Flying, first strike\nWhenever this creature transforms into Flame-Tested Dragon or attacks, it deals 1 damage to each creature you don't control.",
+		}
+	},
+	
+	{
+		"name": "Flamethrower_MON",
+		"mana_cost": "{5}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/129_Flamethrower_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "129",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nFlamethrower deals 4 damage to any target.",
+	},
+	
+	{
+		"name": "Flying Scorpion_MON",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/207_Flying Scorpion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "207",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Flying Scorpion attacks, it gets +1/+0 until end of turn for each creature you control that's not attacking.",
+	},
+	
+	{
+		"name": "Focus Energy_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/130_Focus Energy_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "130",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "This spell has flash as long as you control a creature with flash or haste.\nDiscard up to two cards, then draw that many cards plus one.",
+	},
+	
+	{
+		"name": "Focus Sash_MON",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/231_Focus Sash_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "231",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +1/+1.\n{1}: Equipped creature gains indestructible until end of turn. Sacrifice Focus Sash.\nEquip {1}",
+	},
+	
+	{
+		"name": "Fogspewer_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/175_Fogspewer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "175",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Noncreature spells you cast cost {1} more to cast.\nNoncreature spells your opponents cast cost {1} more to cast unless that player controls more creatures than you.",
+	},
+	
+	{
+		"name": "Forage_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/84_Forage_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "84",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Mill three cards, then return an artifact or creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Forest_MON",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/264_Forest_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "264",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G}.)",
+	},
+	
+	{
+		"name": "Forgotten Temple_MON",
+		"mana_cost": "",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/241_Forgotten Temple_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "241",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}. Exile a card from your graveyard.\n{3}: Until end of turn, Forgotten Temple becomes an X/X creature, where X is the number of cards exiled by it. It's still a land.\nAs long as a creature card with flying is exiled by Forgotten Temple, it has flying. The same is true for first strike, double strike, deathtouch, experience, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
+	},
+	
+	{
+		"name": "Fresh Carrion_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/85_Fresh Carrion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "85",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "As an additional cost to cast this spell, you may sacrifice a creature.\nCreate a 1/1 green Insect creature token. If you sacrificed a creature to cast this spell, create three of those tokens instead.",
+	},
+	
+	{
+		"name": "From Beyond the Grave_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/86_From Beyond the Grave_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "86",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more cards leave your graveyard for the first time each turn, each player loses 1 life and you draw a card.",
+	},
+	
+	{
+		"name": "From a Seed_MON",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/176_From a Seed_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "176",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature you control enters, if its mana value is greater than the number of bloom counters on From a Seed, put a bloom counter on From a Seed.\nCreatures you control get +1/+1 for each bloom counter on From a Seed.",
+	},
+	
+	{
+		"name": "Full Belly_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/177_Full Belly_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "177",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature gets +2/+3 and has trample.",
+	},
+	
+	{
+		"name": "Fury Swipes_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/131_Fury Swipes_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "131",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Fury Swipes deals 2 damage divided as you choose among one or two targets. Scry 2.",
+	},
+	
+	{
+		"name": "Galloping Blaze_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/132_Galloping Blaze_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "132",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+	},
+	
+	{
+		"name": "Garden Guardian_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/178_Garden Guardian_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "178",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash",
+	},
+	
+	{
+		"name": "Gene Pool_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/242_Gene Pool_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "242",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}: Choose a color from among permanents you control. Add one mana of that color.",
+	},
+	
+	{
+		"name": "Ghastly Spirit_MON",
+		"mana_cost": "{2}{U}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/208_Ghastly Spirit_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "208",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Ghastly Spirit enters, mill four cards, then return a nonland card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Ghastly Tether_MON",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/87_Ghastly Tether_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "87",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Until end of turn, target creature you control gains \"When this creature dies, return it to the battlefield under your control with a +1/+1 counter on it.\"",
+	},
+	
+	{
+		"name": "Grinding_MON",
+		"mana_cost": "{G}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/179_Grinding_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "179",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has experience. (Whenever it attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+	},
+	
+	{
+		"name": "Gruff Clutch_MON",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/133_Gruff Clutch_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "133",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Gruff Clutch enters with six +1/+1 counters on it.\n{R}, Remove a +1/+1 counter from Gruff Clutch: It deals 1 damage to any target.",
+	},
+	
+	{
+		"name": "Gym Leader_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/13_Gym Leader_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "13",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "No more than one creature can attack each combat.\nNo more than one creature can block each combat.",
+	},
+	
+	{
+		"name": "Healing Center_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/243_Healing Center_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "243",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Healing Center enters, you gain 2 life.\n{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Heartless Trainer_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/88_Heartless Trainer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "88",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, if you have less life than an opponent, you lose 1 life and you draw a card.",
+	},
+	
+	{
+		"name": "Hellhound Alpha_MON",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/209_Hellhound Alpha_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "209",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Menace\n{1}{B}{R}: Creatures you control get +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Hex Maniac_MON",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/89_Hex Maniac_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "89",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Hex Maniac enters, return target non-Human creature card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Hidden Sprout_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/180_Hidden Sprout_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "180",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Hidden Sprout enters, put a +1/+1 counter on target creature.",
+	},
+	
+	{
+		"name": "Hopeful Caretaker_MON",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/14_Hopeful Caretaker_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "14",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nWhenever you gain life, you may transform Hopeful Caretaker. If you don't, put a +1/+1 counter on it.",
+		"back": {
+			"name": "Mending Caretaker_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/14_Hopeful Caretaker_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "14",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Lifelink\nIf a source would deal damage to a player, you may prevent X of that damage, where X is the number of +1/+1 counters on Mending Caretaker.",
+		}
+	},
+	
+	{
+		"name": "Hyper Beam_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/181_Hyper Beam_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "181",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Double the power and toughness of target creature you control until end of turn. It doesn't untap during its controller's next untap step.",
+	},
+	
+	{
+		"name": "Hypnosis_MON",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/52_Hypnosis_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "52",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nHarness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nEnchanted creature doesn't untap during its controller's untap step.",
+	},
+	
+	{
+		"name": "I Choose You_MON",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/53_I Choose You_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "53",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nSearch target opponent's library for a creature or planeswalker card and put it onto the battlefield under your control. That player shuffles.",
+	},
+	
+	{
+		"name": "Ice Path_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/244_Ice Path_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "244",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Ice Path enters the battlefield tapped.\nAs Ice Path enters, choose a color.\nYou may spend {C} as though it were mana of the chosen color.\n{T}: Add {C}.",
+	},
+	
+	{
+		"name": "Improvised Guardian_MON",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/15_Improvised Guardian_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "15",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nVanguard - Whenever a creature you control attacks alone, it gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Innocence_MON",
+		"mana_cost": "{4}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/16_Innocence_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "16",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Creatures can't attack you or planeswalkers you control unless their controller pays {X} for each of those creatures, where X is the number of attacking creatures.",
+	},
+	
+	{
+		"name": "Island_MON",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/261_Island_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "261",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U}.)",
+	},
+	
+	{
+		"name": "Karina's Training_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/134_Karina's Training_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "134",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{2}{R}, Tap an untapped creature or Karina planeswalker you control: Copy target instant or sorcery spell, activated ability, or triggered ability. You may choose new targets for the copy. Activate this ability only once each turn.",
+	},
+	
+	{
+		"name": "Lake of Rage_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/245_Lake of Rage_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "245",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever one or more creatures you control deal damage to a player, put a charge counter on Lake of Rage.\n{T}: Add {C}.\n{T}, Remove a charge counter from Lake of Rage: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Lakeside Trickster_MON",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/54_Lakeside Trickster_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "54",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Lakeside Trickster becomes tapped, up to one target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+	},
+	
+	{
+		"name": "Lava Plume_MON",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/135_Lava Plume_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "135",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lava Plume deals 3 damage to any target.\nAt the beginning of each end step, if you have 5 or less life, you may pay {R} and exile Lava Plume from your graveyard. If you do, it deals 3 damage to any target.",
+	},
+	
+	{
+		"name": "Lavatrailer_MON",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/136_Lavatrailer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "136",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lavatrailer enters the battlefield tapped.\nWhenever a creature attacks you, if Lavatrailer is tapped, Lavatrailer deals 1 damage to it.",
+	},
+	
+	{
+		"name": "Leech Seed_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/90_Leech Seed_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "90",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player loses 1 life and you gain 1 life.",
+	},
+	
+	{
+		"name": "Loyal Firestarter_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/137_Loyal Firestarter_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "137",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever Loyal Firestarter attacks, you may cast an instant or sorcery spell from your hand with mana value less than or equal to Loyal Firestarter's power without paying its mana cost.",
+	},
+	
+	{
+		"name": "Lucien, the Ravenous_MON",
+		"mana_cost": "{2}{B}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/210_Lucien, the Ravenous_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "210",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "[+1]: Until your next turn, up to one target creature gets -2/-1 and gains \"When this creature dies, merge it under Lucien, the Ravenous. He has its abilities.\"\n[-2]: Merge target creature under Lucien, the Ravenous. He has that creature's abilities.\n[-6]: For each card merged with Lucien, create a token that's a copy of that card, except it has haste.",
+	},
+	
+	{
+		"name": "Lucien's Trail_MON",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/91_Lucien's Trail_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "91",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Lucien's Trail enters, exile target creature or enchantment an opponent controls.\nSacrifice another permanent: Lucien's Trail becomes a copy of the exiled card until end of turn.",
+	},
+	
+	{
+		"name": "Lucky Egg_MON",
+		"mana_cost": "{2}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/232_Lucky Egg_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "232",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "If a triggered ability of equipped creature would trigger, it triggers an additional time.\nEquip {2}",
+	},
+	
+	{
+		"name": "Luna, the Lost_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/92_Luna, the Lost_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "92",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Luna enters or phases in, each player loses 1 life.\nWhenever a player casts a spell or a creature attacks, Luna phases out.",
+	},
+	
+	{
+		"name": "Lunar Vigil_MON",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/211_Lunar Vigil_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "211",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Lunar Vigil enters, draw a card, then scry 2.\nIf you would draw one or more cards, you may instead put a night counter on Lunar Vigil and draw that many cards minus one.\nSacrifice Lunar Vigil: Target player draws a card and adds {R} for each night counter on it.",
+	},
+	
+	{
+		"name": "Magma Crawler_MON",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/138_Magma Crawler_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "138",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Magma Crawler enters, creatures you control with flash or haste get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Magnitude_MON",
+		"mana_cost": "{X}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/139_Magnitude_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "139",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nMagnitude deals X damage to each player and each creature without flying that didn't harness it.",
+	},
+	
+	{
+		"name": "Maple's Journal_MON",
+		"mana_cost": "{5}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/233_Maple's Journal_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "233",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "This spell costs {1} less to cast for each differently named creature you control.\nWhenever a creature you control enters, if it has a different name than each other creature you control and card in your graveyard, draw a card.",
+	},
+	
+	{
+		"name": "Marine Monster_MON",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/55_Marine Monster_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "55",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{X}{U}{U}: Marine Monster can't be blocked by creatures with mana value X or less this turn.",
+	},
+	
+	{
+		"name": "Masaru, Aspiring Champion_MON",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/212_Masaru, Aspiring Champion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "212",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nIf you would gain life, you may put that many +1/+1 counters on another creature you control instead.",
+	},
+	
+	{
+		"name": "Maternal Monster_MON",
+		"mana_cost": "{2}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/17_Maternal Monster_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "17",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever an experience ability puts a +1/+1 counter on a creature you control, put a +1/+1 counter on that creature.",
+	},
+	
+	{
+		"name": "Maven of Fear_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/93_Maven of Fear_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "93",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Maven of Fear enters, mill two cards.\nMaven of Fear gets +2/+1 and has menace as long as six or more cards are in your graveyard.",
+	},
+	
+	{
+		"name": "Metal Coat_MON",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/234_Metal Coat_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "234",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +0/+4.\nEquip {2}",
+	},
+	
+	{
+		"name": "Metronome_MON",
+		"mana_cost": "{X}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/140_Metronome_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "140",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nExile the top three cards of your library. Cast a spell with mana value X or less from among them without paying its mana cost.",
+	},
+	
+	{
+		"name": "Mighty Beetle_MON",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/183_Mighty Beetle_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "183",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Mighty Beetle enters, you may put two +1/+1 counters on target creature you control.",
+	},
+	
+	{
+		"name": "Monstrous Champion_MON",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/141_Monstrous Champion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "141",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, that creature gets +3/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Moon-Rune Fox_MON",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/213_Moon-Rune Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "213",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Lifelink\nAt the beginning of your end step, you gain 1 life if you gained life this turn, and each opponent that lost life this turn loses 1 life.",
+	},
+	
+	{
+		"name": "Moonlight_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/94_Moonlight_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "94",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever you gain life, you may put target creature or planeswalker card from your graveyard on top of your library.",
+	},
+	
+	{
+		"name": "Morning Sun_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/18_Morning Sun_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "18",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Put two +1/+1 or loyalty counters on target creature or planeswalker. It gains lifelink until end of turn.",
+	},
+	
+	{
+		"name": "Mountain_MON",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/263_Mountain_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "263",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R}.)",
+	},
+	
+	{
+		"name": "Mountain Runt_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/142_Mountain Runt_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "142",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a land you control enters, put a +1/+1 counter on Mountain Runt, then it deals 1 damage to up to one target creature you don't control.\nWhen Mountain Runt has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Mountain Tyrant_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/142_Mountain Runt_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "142",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Menace\nAt the beginning of your end step, Mountain Tyrant deals 1 damage to each creature you don't control.",
+		}
+	},
+	
+	{
+		"name": "Mournful Newborn_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/143_Mournful Newborn_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "143",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "First strike\nWhenever a creature dealt damage by Mournful Newborn this turn dies, transform Mournful Newborn.",
+		"back": {
+			"name": "Tempered Survivor_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/143_Mournful Newborn_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "143",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Double strike\nAt the beginning of each end step, if a creature you control died this turn, Tempered Survivor deals 2 damage to each opponent.",
+		}
+	},
+	
+	{
+		"name": "Muggy Mire_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/266_Muggy Mire_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "266",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {U} or {B}.)\nMuggy Mire enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Natural Cure_MON",
+		"mana_cost": "{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/184_Natural Cure_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "184",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target creature you control to its owner's hand. You gain life equal to its power.",
+	},
+	
+	{
+		"name": "Night Shade_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/95_Night Shade_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "95",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Target player loses X life and you gain X life, where X is the number of permanents you control with counters on them.",
+	},
+	
+	{
+		"name": "Nirami, Ema's Keeper_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/96_Nirami, Ema's Keeper_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "96",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever an opponent discards a card, exile it. You may cast that card as long for as it remains exiled, and you may spend black mana as though it were mana of any color to cast that spell.",
+	},
+	
+	{
+		"name": "Nocturnal Watcher_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/19_Nocturnal Watcher_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "19",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever another creature enters, you gain 1 life.",
+	},
+	
+	{
+		"name": "Nurse Trainee_MON",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/20_Nurse Trainee_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "20",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhen Nurse Trainee enters, you may prevent the next 2 damage that would be dealt to another target creature this turn.",
+	},
+	
+	{
+		"name": "Old Map_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/235_Old Map_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "235",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{2}, {T}, Sacrifice Old Map: Search your library for a basic land card, put it onto the battlefield, then shuffle.",
+	},
+	
+	{
+		"name": "Ominous Wind_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/97_Ominous Wind_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "97",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target creature gets -2/-2 until end of turn.\n{3}{B}{B}, Exile Ominous Wind from your graveyard: Each creature gets -2/-2 until end of turn. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "One on One_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/21_One on One_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "21",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Onigori, Ema's Shield_MON",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/56_Onigori, Ema's Shield_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "56",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Spells your opponents cast that target Onigori, Ema's Shield cost {2} more to cast.\nWhenever Onigori deals combat damage to a player, that player can't untap more than two permanents during their next untap step.",
+	},
+	
+	{
+		"name": "Overheat_MON",
+		"mana_cost": "{X}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/144_Overheat_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "144",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nOverheat deals X damage to any target.",
+	},
+	
+	{
+		"name": "Paleontologist_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/98_Paleontologist_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "98",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Paleontologist enters, search your library for up to two artifact and/or Skeleton cards and put them into your graveyard, then shuffle.",
+	},
+	
+	{
+		"name": "Palm Walker_MON",
+		"mana_cost": "{4}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/185_Palm Walker_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "185",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Reach\nWhenever Palm Walker or another creature you control enters, you gain 2 life.",
+	},
+	
+	{
+		"name": "Paralycker_MON",
+		"mana_cost": "{3}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/22_Paralycker_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "22",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever a +1/+1 counter is put on a creature you control, tap target creature you don't control.",
+	},
+	
+	{
+		"name": "Patient Cocoon_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/99_Patient Cocoon_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "99",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Defender\nWhenever Patient Cocoon is dealt damage, create a 1/1 green Insect creature token.",
+	},
+	
+	{
+		"name": "Perish Song_MON",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/23_Perish Song_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "23",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Perish Song enters with three time counters on it.\nAt the beginning of your upkeep, remove a time counter from Perish Song. Then if it has no time counters on it, sacrifice it and destroy all creatures.",
+	},
+	
+	{
+		"name": "Petal Dancer_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/186_Petal Dancer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "186",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature you control enters, put a +1/+1 counter on a creature you control.",
+	},
+	
+	{
+		"name": "Pitfall Pangolin_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/24_Pitfall Pangolin_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "24",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever a creature attacks you or a planeswalker you control, Pitfall Pangolin gets +1/+0 until end of turn.",
+	},
+	
+	{
+		"name": "Plains_MON",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/260_Plains_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "260",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W}.)",
+	},
+	
+	{
+		"name": "Poised Koi_MON",
+		"mana_cost": "{2}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/57_Poised Koi_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "57",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Poised Koi attacks or blocks, look at the top two cards of your library, put any of them into your graveyard, then the rest back on top in any order.",
+	},
+	
+	{
+		"name": "Poison Point_MON",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/100_Poison Point_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "100",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature gains deathtouch until end of turn. If that creature is an Insect, it gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Power Plant_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/246_Power Plant_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "246",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add one mana of any color. Spend this mana only to cast a multicolored spell.",
+	},
+	
+	{
+		"name": "Power of Love_MON",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/25_Power of Love_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "25",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nEnchant creature you control\nEnchanted creature gets +3/+3 and has lifelink and indestructible.",
+	},
+	
+	{
+		"name": "Practice Range_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/268_Practice Range_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "268",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {R} or {G}.)\nPractice Range enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Prepare for Trouble_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/145_Prepare for Trouble_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "145",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gains double strike until end of turn. That creature also gains trample until end of turn if you control a creature with power 4 or greater.",
+	},
+	
+	{
+		"name": "Preying Mantis_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/187_Preying Mantis_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "187",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nAt the beginning of your end step, return Preying Mantis to its owner's hand.",
+	},
+	
+	{
+		"name": "Professor Maple_MON",
+		"mana_cost": "{3}{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/214_Professor Maple_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "214",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever another nontoken creature you control enters, if it has a different name than each other creature you control and card in your graveyard, you may create a token that's a copy of it.",
+	},
+	
+	{
+		"name": "Psychic Assault_MON",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/101_Psychic Assault_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "101",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Look at target player's hand. That player discards a card.\n{2}{B}{B}, Exile Psychic Assault from your graveyard: Choose a card name. Target player reveals their hand and discards all cards with that name. Activate only as a sorcery.",
+	},
+	
+	{
+		"name": "Psywave_MON",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/102_Psywave_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "102",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target opponent discards two cards. You gain 2 life.",
+	},
+	
+	{
+		"name": "Quakestep Behemoth_MON",
+		"mana_cost": "{5}{G}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/188_Quakestep Behemoth_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "188",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhenever Quakestep Behemoth or another creature you control enters, put X +1/+1 counters on each creature you control, where X is the entering creature's power.",
+	},
+	
+	{
+		"name": "Queen of the Hive_MON",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/215_Queen of the Hive_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "215",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, deathtouch\nWhenever Queen of the Hive deals combat damage to a player, create a 1/1 green Insect creature token for each Insect you control.",
+	},
+	
+	{
+		"name": "Quick Claw_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/236_Quick Claw_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "236",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Equipped creature gets +2/+0.\nEquipped creature has first strike as long as it's attacking.\nEquip {2}",
+	},
+	
+	{
+		"name": "Quiet Retreat_MON",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/58_Quiet Retreat_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "58",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Counter target spell. If a noncreature spell is countered this way, scry 2.",
+	},
+	
+	{
+		"name": "Rallywing_MON",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/26_Rallywing_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "26",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Rallywing enters, creatures you control get +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Rapid Rodent_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/146_Rapid Rodent_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "146",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Rapid Rodent attacks, it gets +1/+0 until end of turn for each other creature you control with flash and/or haste.",
+	},
+	
+	{
+		"name": "Rest_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/59_Rest_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "59",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target nonland permanent phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)\nDraw a card.",
+	},
+	
+	{
+		"name": "Revitalize_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/27_Revitalize_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "27",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You gain 3 life. Draw a card.",
+	},
+	
+	{
+		"name": "Revived Pterosaur_MON",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/103_Revived Pterosaur_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "103",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Revived Pterosaur deals combat damage to an opponent, that player discards a card.\n{4}{B}{B}, Discard two cards: Return Revived Pterosaur from your graveyard to the battlefield tapped.",
+	},
+	
+	{
+		"name": "Roaring Illusion_MON",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/147_Roaring Illusion_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "147",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Roaring Illusion attacks alone, for each other creature you control, create a token that's a copy of that creature and that's tapped and attacking. Exile those tokens at the beginning of the next end step.",
+	},
+	
+	{
+		"name": "Rocket Admin_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/104_Rocket Admin_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "104",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "When Rocket Admin enters, you may pay 3 life. When you do, gain control of target creature or planeswalker with mana value 3 or less until its owner pays {3}.",
+	},
+	
+	{
+		"name": "Rocket Poacher_MON",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/105_Rocket Poacher_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "105",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "If a creature an opponent controls would die, exile it instead.\nWhenever Rocket Poacher deals combat damage to a player, put a card exiled with it onto the battlefield under your control.",
+	},
+	
+	{
+		"name": "Ruined Lab_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/247_Ruined Lab_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "247",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}: Add {C} for each six cards in your graveyard.",
+	},
+	
+	{
+		"name": "Ruined Shrine_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/267_Ruined Shrine_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "267",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B} or {R}.)\nRuined Shrine enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Run Away_MON",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/28_Run Away_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "28",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+	},
+	
+	{
+		"name": "Rustshell Mantis_MON",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/189_Rustshell Mantis_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "189",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever Rustshell Mantis is dealt damage, put that many +1/+1 counters on it. (It must survive the damage to get the counters.)",
+	},
+	
+	{
+		"name": "Ruthless Brawler_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/106_Ruthless Brawler_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "106",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever another creature with power 4 or greater you control attacks, Ruthless Brawler deals 1 damage to defending player.",
+	},
+	
+	{
+		"name": "Safe from Harm_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/190_Safe from Harm_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "190",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target creature or land card from your graveyard to your hand. Shuffle up to three cards from your graveyard into your library.",
+	},
+	
+	{
+		"name": "Sanaito, Alone_MON",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/216_Sanaito, Alone_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "216",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "[+2]: Draw a card, then discard a card unless you pay {2}.\n[+1]: Target creature gets +1/+1 and gains lifelink until your next turn.\n[-1]: Tap target permanent. It doesn't untap during its controller's next untap step.\n[-2]: Return target artifact, enchantment, or tapped creature to its owner's hand.",
+	},
+	
+	{
+		"name": "Sanaito's Blessing_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/29_Sanaito's Blessing_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "29",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nEnchanted creature has vigilance.\nWhenever enchanted creature attacks or blocks, you gain 2 life.",
+	},
+	
+	{
+		"name": "Sandslinger_MON",
+		"mana_cost": "{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/30_Sandslinger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "30",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Sandslinger attacks, you may tap target creature if you've gained life this turn.",
+	},
+	
+	{
+		"name": "Scary Face_MON",
+		"mana_cost": "{X}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/107_Scary Face_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "107",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nTarget creature gets -X/-X until end of turn.",
+	},
+	
+	{
+		"name": "Scuttling Gnat_MON",
+		"mana_cost": "{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/61_Scuttling Gnat_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "61",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your upkeep, if there six or more cards are in your graveyard, you may transform Scuttling Gnat.",
+		"back": {
+			"name": "Vicious Metamorph_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/61_Scuttling Gnat_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "61",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Flying, protection from Dragons",
+		}
+	},
+	
+	{
+		"name": "Seal of Approval_MON",
+		"mana_cost": "{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/62_Seal of Approval_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "62",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\n{U}, Sacrifice Seal of Approval: Counter target spell unless its controller pays {2}.",
+	},
+	
+	{
+		"name": "Secret Stash_MON",
+		"mana_cost": "{4}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/191_Secret Stash_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "191",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn up to two target cards from your graveyard to your hand. Exile Secret Stash.",
+	},
+	
+	{
+		"name": "Shadow Ball_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/108_Shadow Ball_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "108",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Shadow Ball deals 2 damage to target creature or planeswalker and 2 damage to its controller. You gain 2 life.",
+	},
+	
+	{
+		"name": "Shadow Sneak_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/109_Shadow Sneak_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "109",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Target creature phases out. Its controller sacrifices a creature. (Treat the phased out creature and anything attached to it as though they don't exist until its controller's next turn.)",
+	},
+	
+	{
+		"name": "Sharp-Eyed Wingmate_MON",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/63_Sharp-Eyed Wingmate_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "63",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Sharp-Eyed Wingmate enters, you may return target creature to its owner's hand.",
+	},
+	
+	{
+		"name": "Shocking Ewe_MON",
+		"mana_cost": "{2}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/148_Shocking Ewe_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "148",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, Shocking Ewe deals 2 damage to defending player.",
+	},
+	
+	{
+		"name": "Shrouded Sanctuary_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/248_Shrouded Sanctuary_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "248",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.",
+	},
+	
+	{
+		"name": "Silent Hypnotist_MON",
+		"mana_cost": "{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/217_Silent Hypnotist_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "217",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "As Silent Hypnotist enters, choose a noncreature card name.\nSpells with the chosen name can't be cast.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilites.",
+	},
+	
+	{
+		"name": "Skill Link_MON",
+		"mana_cost": "{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/149_Skill Link_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "149",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever an opponent is dealt damage by one or more sources you control for the second time each turn, draw a card.",
+	},
+	
+	{
+		"name": "Skill Sketcher_MON",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/64_Skill Sketcher_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "64",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Whenever a player casts an instant or sorcery spell from their hand, you may exile that card as it resolves instead of putting it anywhere else.\nWhenever Skill Sketcher attacks, you may cast a card exiled with it. That spell costs {X} less to cast, where X is Skill Sketcher's power.",
+	},
+	
+	{
+		"name": "Slashing Pangolin_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/192_Slashing Pangolin_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "192",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever a creature attacks, Slashing Pangolin gets +1/+1 until end of turn.",
+	},
+	
+	{
+		"name": "Slashing Sneak_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/150_Slashing Sneak_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "150",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, target creature can't block this turn.",
+	},
+	
+	{
+		"name": "Slinking Sentinel_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/31_Slinking Sentinel_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "31",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, it gets +1/+1 until end of turn. Untap that creature.",
+	},
+	
+	{
+		"name": "Sludge-Gill Fox_MON",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/66_Sludge-Gill Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "66",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Sludge-Gill Fox can't be blocked as long as it's attacking alone.\nWhenever Sludge-Gill Fox deals combat damage to a player, you may draw a card.",
+	},
+	
+	{
+		"name": "Sludge Drudger_MON",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/65_Sludge Drudger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "65",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, you may exile target instant or sorcery card from your graveyard. If you do, you may cast that spell from exile until your next turn. If that spell would be put into a graveyard, exile it instead.",
+	},
+	
+	{
+		"name": "Slumbering Bear_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/32_Slumbering Bear_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "32",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Defender\nWhenever Slumbering Bear is dealt damage, put a +1/+1 counter on it.\nRemove a +1/+1 counter from Slumbering Bear: It can attack as though it didn't have defender this turn.",
+	},
+	
+	{
+		"name": "Smokescreen_MON",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/151_Smokescreen_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "151",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature can't block this turn. Smokescreen deals 2 damage to that creature's controller.",
+	},
+	
+	{
+		"name": "Snatch_MON",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/110_Snatch_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "110",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Scry 2 if a player lost life this turn. You draw two cards and you lose 2 life.",
+	},
+	
+	{
+		"name": "Spikehorn Behemoth_MON",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/193_Spikehorn Behemoth_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "193",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample\nWhen Spikehorn Behemoth leaves the battlefield or phases out, draw a card.",
+	},
+	
+	{
+		"name": "Sporecaster_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/111_Sporecaster_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "111",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Whenever Sporecaster or another Insect you control enters, each opponent loses 1 life.",
+	},
+	
+	{
+		"name": "Sporecrowned Scavenger_MON",
+		"mana_cost": "{4}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/112_Sporecrowned Scavenger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "112",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Sporecrowned Scavenger enters, target opponent loses life equal to the number of Insects you control and you gain that much life.",
+	},
+	
+	{
+		"name": "Spotted Slugger_MON",
+		"mana_cost": "{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/194_Spotted Slugger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "194",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Spotted Slugger deals combat damage to a player, you may have it deal damage equal to its power to target creature.",
+	},
+	
+	{
+		"name": "Sprout Tender_MON",
+		"mana_cost": "{1}{G}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/218_Sprout Tender_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "218",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever a +1/+1 counter is put on a creature you control, target creature gains trample until end of turn.",
+	},
+	
+	{
+		"name": "Starlight Emissary_MON",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/67_Starlight Emissary_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "67",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Whenever Starlight Emissary harnesses a spell, draw a card.",
+	},
+	
+	{
+		"name": "Steelfeather Shrike_MON",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/33_Steelfeather Shrike_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "33",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nVanguard - Whenever a creature you control attacks alone, you may put a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Still Waters_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/265_Still Waters_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "265",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {W} or {U}.)\nStill Waters enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Stingsower_MON",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/113_Stingsower_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "113",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Stingsower attacks, you may pay {3}{B}{B}. If you do, target creature gets -1/-1 for each Insect you control until end of turn.",
+	},
+	
+	{
+		"name": "Strategic Planning_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/68_Strategic Planning_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "68",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+	},
+	
+	{
+		"name": "Sucker Punch_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/114_Sucker Punch_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "114",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target tapped creature.",
+	},
+	
+	{
+		"name": "Sun-Eyed Fox_MON",
+		"mana_cost": "{2}{W}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/219_Sun-Eyed Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "219",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, you may cast a spell with mana value 3 or less from your hand without paying its mana cost.",
+	},
+	
+	{
+		"name": "Sunset Herald_MON",
+		"mana_cost": "{4}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/34_Sunset Herald_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "34",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nWhen Sunset Herald enters, if it was cast, return to the battlefield all creature cards from your graveyard that were put there from the battlefield this turn.",
+	},
+	
+	{
+		"name": "Swamp_MON",
+		"mana_cost": "",
+		"type": "Basic",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/262_Swamp_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "262",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {B}.)",
+	},
+	
+	{
+		"name": "Swords Dance_MON",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/152_Swords Dance_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "152",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nPut two +1/+1 counters on target creature. If this spell was harnessed, also put a +1/+1 counter on the creature that harnessed it.",
+	},
+	
+	{
+		"name": "Tangle Up_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/195_Tangle Up_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "195",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Target creature you control gets +2/+2 until end of turn if it's an Insect. Then it fights up to one target creature.",
+	},
+	
+	{
+		"name": "Tangling Vines_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/196_Tangling Vines_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "196",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flash\nReach\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+	},
+	
+	{
+		"name": "Telekinecktic_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/153_Telekinecktic_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "153",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Defender",
+	},
+	
+	{
+		"name": "Temporal Aria_MON",
+		"mana_cost": "{6}{U}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/69_Temporal Aria_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "69",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nTake an extra turn after this one. Exile Temporal Aria.",
+	},
+	
+	{
+		"name": "The Rocket Gang Strikes!_MON",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/60_The Rocket Gang Strikes!_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "60",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, gain control of target nonland permanent for as long as you control The Rocket Gang Strikes!.",
+	},
+	
+	{
+		"name": "Thundering Charger_MON",
+		"mana_cost": "{3}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/154_Thundering Charger_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "154",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, it gets +1/+1 and gains menace until end of turn.",
+	},
+	
+	{
+		"name": "Thundermane Fox_MON",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/35_Thundermane Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "35",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flash\nWhenever Thundermane Fox enters or attacks, target creature you control gains double strike until end of turn.",
+	},
+	
+	{
+		"name": "Tidepool Turtle_MON",
+		"mana_cost": "{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/70_Tidepool Turtle_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "70",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Tidepool Turtle has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Tsunami Titan_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/70_Tidepool Turtle_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "70",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Hexproof\nWhenever this creature transforms into Tsunami Titan or attacks, you may return target creature to its owner's hand.",
+		}
+	},
+	
+	{
+		"name": "Tidesweeper Gharial_MON",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/71_Tidesweeper Gharial_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "71",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Once each turn, when a creature you control becomes tapped, you may untap that creature and tap up to one target creature.",
+	},
+	
+	{
+		"name": "Time Stands Still_MON",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/72_Time Stands Still_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "72",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Choose target permanent. Take an extra turn after this one. During that turn's untap step, permanents other than the chosen permanent phase out until end of turn. Exile Time Stands Still.",
+	},
+	
+	{
+		"name": "Titanic Fossil_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/237_Titanic Fossil_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "237",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "{3}, Sacrifice Titanic Fossil: Mill three cards, then you may exile a card from your graveyard. You may cast a copy of the exiled card without paying its mana cost if the spell's mana value is 3 or less. Activate only as a sorcery.\n{3}{U}{B}: Return Titanic Fossil from your graveyard to the battlefield transformed. Activate only during your turn.",
+		"back": {
+			"name": "Arisen Tyrant_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/237_Titanic Fossil_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "237",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Trample\nWhenever Arisen Tyrant attacks, mill three cards, then you may exile a card from your graveyard. You may cast a copy of the exiled card without paying its mana cost if the spell's mana value is 3 or less.\nIf Arisen Tyrant would die, exile it instead.",
+		}
+	},
+	
+	{
+		"name": "Toxic Larva_MON",
+		"mana_cost": "{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/115_Toxic Larva_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "115",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch",
+	},
+	
+	{
+		"name": "Trainee Karina Oblay_MON",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/220_Trainee Karina Oblay_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "220",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "At the beginning of your end step, choose any number of permanents and/or players, then give each another counter of each kind it already has.\n[+1]: Scry 1. Add {U} or {R}.\n[-X]: Exile the top X cards of your library. Until end of turn, you may play a card exiled with Trainee Karina Oblay.",
+	},
+	
+	{
+		"name": "Trainer's Eyes_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/73_Trainer's Eyes_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "73",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Vanguard - Whenever a creature you control attacks alone, draw a card.",
+	},
+	
+	{
+		"name": "Treasure Beach_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/249_Treasure Beach_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "249",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{3}, {T}, Sacrifice Treasure Beach: Create three Treasure tokens. (They have \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+	},
+	
+	{
+		"name": "Truffle Snuffer_MON",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/74_Truffle Snuffer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "74",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Truffle Snuffer enters, mill three cards. When you do, choose one -\n• Return an instant or sorcery card put into your graveyard this way to your hand.\n• Put two +1/+1 counters on Truffle Snuffer.",
+	},
+	
+	{
+		"name": "Tunnel Moles_MON",
+		"mana_cost": "{1}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/155_Tunnel Moles_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "155",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhenever Tunnel Moles attacks, you may have it phase out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)\nWhenever Tunnel Moles phases in, it gets +2/+2 until end of turn and can't be blocked by creatures with flying this turn.",
+	},
+	
+	{
+		"name": "Twinning Psionic_MON",
+		"mana_cost": "{2}{U}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/221_Twinning Psionic_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "221",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Hexproof\nWhenever Twinning Psionic harnesses an instant or sorcery spell, you may copy that spell. If you do, you may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Twister of Shadows_MON",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/116_Twister of Shadows_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "116",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Cast this spell only if you have 10 or less life.\nFlying, trample",
+	},
+	
+	{
+		"name": "Tyrant of Tributes_MON",
+		"mana_cost": "{6}{R}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/222_Tyrant of Tributes_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "222",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhen Tyrant of Tributes enters, target opponent sacrifices X permanents, where X is half the number of permanents they control, rounded up. You gain X life.",
+	},
+	
+	{
+		"name": "Unburdened_MON",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/36_Unburdened_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "36",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Destroy target artifact or enchantment. You gain life equal to its mana value.",
+	},
+	
+	{
+		"name": "Undecided Mimic_MON",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/75_Undecided Mimic_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "75",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may have Undecided Mimic enter or phase in as a copy of any creature on the battlefield, except it has this ability and \"{2}{U}{U}: Undecided Mimic phases out.\" (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+	},
+	
+	{
+		"name": "Unknown Shores_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/250_Unknown Shores_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "250",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
+	},
+	
+	{
+		"name": "Unstoppable Weed_MON",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/197_Unstoppable Weed_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "197",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nUnstoppable Weed gets +1/+1 for each +1/+1 counter on other creatures you control.",
+	},
+	
+	{
+		"name": "Veil of Flames_MON",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/156_Veil of Flames_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "156",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Enchant creature\nHarness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nEnchanted creature gets +3/+0 and has menace.",
+	},
+	
+	{
+		"name": "Victory Road_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/251_Victory Road_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "251",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Activate this ability only if you control a creature with a +1/+1 counter on it.",
+	},
+	
+	{
+		"name": "Viper Ambush_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/117_Viper Ambush_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "117",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "If two or more creatures an opponent controls are attacking, you may pay {B} rather than this spell's mana cost.\nCreate a 1/1 black Snake creature token with deathtouch. It gains first strike until end of turn.",
+	},
+	
+	{
+		"name": "Volt Vermin_MON",
+		"mana_cost": "{4}{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/157_Volt Vermin_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "157",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Volt Vermin enters, it deals damage to target player or planeswalker equal to the number of creatures with flash and/or haste you control.",
+	},
+	
+	{
+		"name": "Waking Pollution_MON",
+		"mana_cost": "{1}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/118_Waking Pollution_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "118",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Deathtouch\nWhen Waking Pollution enters, you may move all counters from target permanent onto Waking Pollution.",
+	},
+	
+	{
+		"name": "Wandering Dragonfly_MON",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/76_Wandering Dragonfly_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "76",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Wandering Dragonfly or another creature you control enters, you may draw a card. If you do, discard a card.",
+	},
+	
+	{
+		"name": "Wandering Hamlet_MON",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/269_Wandering Hamlet_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "269",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "({T}: Add {G} or {W}.)\nWandering Hamlet enters the battlefield tapped unless you control two or more basic lands.",
+	},
+	
+	{
+		"name": "Warden of Lives_MON",
+		"mana_cost": "{4}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/223_Warden of Lives_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "223",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying\nWhenever Warden of Lives attacks, you may cast a creature card from your graveyard. If you do, that creature enters tapped and attacking.\nIf Warden of Lives would die, it phases out instead.",
+	},
+	
+	{
+		"name": "Warden of Seas_MON",
+		"mana_cost": "{4}{W}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/224_Warden of Seas_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "224",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flying, vigilance\nWhen Warden of Seas enters, tap all other creatures.\nEach opponent can't untap more than one nonland permanent during each of their untap steps.",
+	},
+	
+	{
+		"name": "Warden of Time_MON",
+		"mana_cost": "{G}{U}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/225_Warden of Time_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "225",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Flash\nFlying\nIf an effect an opponent controls would cause them to take an extra turn, you take an extra turn instead.\n{G}{U}: Return a creature you control to its owner's hand. Activate this ability only once each turn.",
+	},
+	
+	{
+		"name": "Warning Birds_MON",
+		"mana_cost": "{2}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/119_Warning Birds_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "119",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying, lifelink",
+	},
+	
+	{
+		"name": "Weedy Wanderer_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/198_Weedy Wanderer_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "198",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Weedy Wanderer leaves the battlefield or phases out, put a +1/+1 counter on a creature you control.",
+	},
+	
+	{
+		"name": "Whirling Winds_MON",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/77_Whirling Winds_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "77",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Return target creature to its owner's hand. If you controlled that creature, draw a card.",
+	},
+	
+	{
+		"name": "Whirlpool Ride_MON",
+		"mana_cost": "{8}{U}{U}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/78_Whirlpool Ride_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "78",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn each nonland permanent your opponents control to its owner's hand.",
+	},
+	
+	{
+		"name": "Wicked Fossil_MON",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/238_Wicked Fossil_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "238",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "{2}, Sacrifice Wicked Fossil: Target player loses 2 life and you gain 2 life.\n{2}{B}{B}: Return Wicked Fossil from your graveyard to the battlefield transformed. Activate only during your turn.",
+		"back": {
+			"name": "Arisen Hunter_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/238_Wicked Fossil_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "238",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "Haste\nWhenever Arisen Hunter attacks, target player loses 2 life and you gain 2 life.\nIf Arisen Hunter would die, exile it instead.",
+		}
+	},
+	
+	{
+		"name": "Wild Encounter_MON",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Sorcery",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/158_Wild Encounter_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "158",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "You may put a creature or planeswalker card from your hand onto the battlefield. It gains haste. Sacrifice it at the beginning of the next end step. Whenever an ability of that permanent is activated this turn, you may copy that ability. You may choose new targets for the copy.",
+	},
+	
+	{
+		"name": "Winding Snake_MON",
+		"mana_cost": "{1}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/199_Winding Snake_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "199",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Winding Snake has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Mother Snake_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/199_Winding Snake_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "199",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+		}
+	},
+	
+	{
+		"name": "Wings of Trust_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/37_Wings of Trust_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "37",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Flying\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nAs long as Wings of Trust has three or more +1/+1 counters on it, it has lifelink and vigilance.",
+	},
+	
+	{
+		"name": "Wishing Star_MON",
+		"mana_cost": "{X}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/38_Wishing Star_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "38",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nYou gain X life.",
+	},
+	
+	{
+		"name": "Wistful Fox_MON",
+		"mana_cost": "{2}{G}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/200_Wistful Fox_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "200",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "When Wistful Fox enters, reveal the top eight cards of your library. You may put a creature card from among them into your hand. Put the rest on the bottom of your library in a random order.",
+	},
+	
+	{
+		"name": "Wondering Oaf_MON",
+		"mana_cost": "{3}{U}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/79_Wondering Oaf_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "79",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "When Wondering Oaf dies, return target instant or sorcery card from your graveyard to your hand.",
+	},
+	
+	{
+		"name": "Work Up_MON",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/39_Work Up_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "39",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Put a +1/+1 counter on target creature. It gains first strike until end of turn. You gain 2 life.",
+	},
+	
+	{
+		"name": "Working Together_MON",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/80_Working Together_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "80",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "If you would draw one or more cards, you may have each player draw an additional card.\nSpells cost {1} less to cast if a player cast a spell this turn.",
+	},
+	
+	{
+		"name": "Worried Vulpine_MON",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/159_Worried Vulpine_MON_front.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "159",
+		"rarity": "uncommon",
+		"subtypes": [],
+		"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Worried Vulpine has three or more +1/+1 counters on it, remove them all and transform it.",
+		"back": {
+			"name": "Worthy Vulpine_MON",
+			"mana_cost": "",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/159_Worried Vulpine_MON_back.jpg",
+			"colors": [],
+			"set": "MON",
+			"collector_number": "159",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "When this permanent transforms into Worthy Vulpine or at the beginning of combat on your turn, creatures you control gain haste and trample until end of turn.",
+		}
+	},
+	
+	{
+		"name": "Wraith of the Fens_MON",
+		"mana_cost": "{3}{B}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/120_Wraith of the Fens_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "120",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Wraith of the Fens gets +2/+2 as long as you've gained life this turn.",
+	},
+	
+	{
+		"name": "Zankon, Ema's Claws_MON",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/40_Zankon, Ema's Claws_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "40",
+		"rarity": "rare",
+		"subtypes": [],
+		"oracle_text": "First strike\nWhenever Zankon, Ema's Claws blocks or becomes blocked, put a +1/+1 counter on each creature you control.",
+	},
+	
+	{
+		"name": "Zipping Zapper_MON",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/160_Zipping Zapper_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "160",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste\nWhen Zipping Zapper enters, target creature gains haste and first strike until end of turn.",
+	},
+	
+	{
+		"name": "Ema, the Traveler_MON",
+		"mana_cost": "{U}{R}{W}",
+		"type": "Legendary",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/252_Ema, the Traveler_MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "252",
+		"rarity": "special",
+		"subtypes": [],
+		"oracle_text": "When Ema, the Traveler enters, reveal the top five cards of your library. Put any number of legendary cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}{B}: Another target legendary permanent gains indestructible until end of turn.",
+	},
+	
+	{
+		"name": "green Insect 11MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/9t_green Insect 11MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "9",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "green Wurm 33MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/11t_green Wurm 33MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "11",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "white Bird 22MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/3t_white Bird 22MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "3",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "red Elemental Mouse 33MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/7t_red Elemental Mouse 33MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "7",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Haste",
+	},
+	
+	{
+		"name": "white and blue Fox 33MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/12t_white and blue Fox 33MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "12",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Vigilance",
+	},
+	
+	{
+		"name": "green Plant Dinosaur 44MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/10t_green Plant Dinosaur 44MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "10",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Trample",
+	},
+	
+	{
+		"name": "red Dragon 44MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/6t_red Dragon 44MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "6",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Flying",
+	},
+	
+	{
+		"name": "blue Turtle 44MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/4t_blue Turtle 44MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "4",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Hexproof",
+	},
+	
+	{
+		"name": "white Bear Beast 55MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/2t_white Bear Beast 55MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "2",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "white Bear 42MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/1t_white Bear 42MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "1",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "red Snail 24MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/8t_red Snail 24MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "8",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	
+	{
+		"name": "Treasure MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/13t_Treasure MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "13",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+	},
+	
+	{
+		"name": "black Snake 11MON",
+		"mana_cost": "",
+		"type": "Token",
+		"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/5t_black Snake 11MON.jpg",
+		"colors": [],
+		"set": "MON",
+		"collector_number": "5",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Deathtouch",
+	},
+	]
+[Common]
+20 A Journey Begins_MON
+20 Aeroblast_MON
+20 Aspiring Trainer_MON
+20 Attract_MON
+20 Barnacle Crawler_MON
+20 Barrier_MON
+20 Bridled Growth_MON
+20 Caustic Caterpillar_MON
+20 Cavern Carver_MON
+20 Cheerful Generator_MON
+20 Chikyu League Arena_MON
+20 Confusion_MON
+20 Cruel Fledgling_MON
+20 Crusher Beetle_MON
+20 Curious Fossil_MON
+20 Driven Mad_MON
+20 Eager Hatchling_MON
+20 Eerie Cocoons_MON
+20 Enduring Charge_MON
+20 Essence Scatter_MON
+20 Ether_MON
+20 Evolving Wilds_MON
+20 Fierce Lunge_MON
+20 Fishing Trip_MON
+20 Flamethrower_MON
+20 Focus Energy_MON
+20 Focus Sash_MON
+20 Forage_MON
+20 Fresh Carrion_MON
+20 Fury Swipes_MON
+20 Galloping Blaze_MON
+20 Garden Guardian_MON
+20 Ghastly Tether_MON
+20 Grinding_MON
+20 Healing Center_MON
+20 Hex Maniac_MON
+20 Hidden Sprout_MON
+20 Hypnosis_MON
+20 Improvised Guardian_MON
+20 Lakeside Trickster_MON
+20 Magma Crawler_MON
+20 Marine Monster_MON
+20 Maven of Fear_MON
+20 Metal Coat_MON
+20 Mournful Newborn_MON
+20 Natural Cure_MON
+20 Nocturnal Watcher_MON
+20 Nurse Trainee_MON
+20 Old Map_MON
+20 Pitfall Pangolin_MON
+20 Poised Koi_MON
+20 Poison Point_MON
+20 Prepare for Trouble_MON
+20 Psywave_MON
+20 Quick Claw_MON
+20 Quiet Retreat_MON
+20 Rallywing_MON
+20 Rapid Rodent_MON
+20 Rest_MON
+20 Revitalize_MON
+20 Run Away_MON
+20 Ruthless Brawler_MON
+20 Safe from Harm_MON
+20 Sanaito's Blessing_MON
+20 Sandslinger_MON
+20 Scary Face_MON
+20 Shadow Ball_MON
+20 Sharp-Eyed Wingmate_MON
+20 Slashing Sneak_MON
+20 Slinking Sentinel_MON
+20 Smokescreen_MON
+20 Snatch_MON
+20 Spikehorn Behemoth_MON
+20 Sporecaster_MON
+20 Sporecrowned Scavenger_MON
+20 Strategic Planning_MON
+20 Sucker Punch_MON
+20 Swords Dance_MON
+20 Tangle Up_MON
+20 Tangling Vines_MON
+20 Telekinecktic_MON
+20 Thundering Charger_MON
+20 Toxic Larva_MON
+20 Treasure Beach_MON
+20 Unburdened_MON
+20 Unknown Shores_MON
+20 Veil of Flames_MON
+20 Wandering Dragonfly_MON
+20 Warning Birds_MON
+20 Weedy Wanderer_MON
+20 Whirling Winds_MON
+20 Winding Snake_MON
+20 Wishing Star_MON
+20 Wondering Oaf_MON
+20 Work Up_MON
+20 Wraith of the Fens_MON
+20 Zipping Zapper_MON
+
+[Uncommon]
+10 Ace Trainer_MON
+10 Acro Bat_MON
+10 Adrenaline_MON
+10 Aggressive Instinct_MON
+10 Amulet Coin_MON
+10 Barbed Beast_MON
+10 Bird Keeper_MON
+10 Bug Catcher_MON
+10 Call Back_MON
+10 Canopy Darter_MON
+10 Cattle Guard_MON
+10 Citadel Bagworm_MON
+10 Compulsive Patrol_MON
+10 Curious Cubs_MON
+10 Determined Koi_MON
+10 Dreamnapper_MON
+10 Event Horizon_MON
+10 Experienced Team_MON
+10 Expert Belt_MON
+10 Extremespeed_MON
+10 Familiar's Ruse_MON
+10 Farewell_MON
+10 Firemane Fox_MON
+10 Flying Scorpion_MON
+10 From Beyond the Grave_MON
+10 Full Belly_MON
+10 Gene Pool_MON
+10 Ghastly Spirit_MON
+10 Gruff Clutch_MON
+10 Hellhound Alpha_MON
+10 Hyper Beam_MON
+10 Ice Path_MON
+10 Innocence_MON
+10 Lake of Rage_MON
+10 Lavatrailer_MON
+10 Leech Seed_MON
+10 Maternal Monster_MON
+10 Mighty Beetle_MON
+10 Monstrous Champion_MON
+10 Moon-Rune Fox_MON
+10 Morning Sun_MON
+10 Ominous Wind_MON
+10 One on One_MON
+10 Overheat_MON
+10 Palm Walker_MON
+10 Paralycker_MON
+10 Patient Cocoon_MON
+10 Petal Dancer_MON
+10 Power Plant_MON
+10 Preying Mantis_MON
+10 Psychic Assault_MON
+10 Revived Pterosaur_MON
+10 Scuttling Gnat_MON
+10 Seal of Approval_MON
+10 Secret Stash_MON
+10 Shadow Sneak_MON
+10 Shocking Ewe_MON
+10 Shrouded Sanctuary_MON
+10 Skill Link_MON
+10 Slashing Pangolin_MON
+10 Sludge-Gill Fox_MON
+10 Sludge Drudger_MON
+10 Spotted Slugger_MON
+10 Sprout Tender_MON
+10 Starlight Emissary_MON
+10 Stingsower_MON
+10 Sun-Eyed Fox_MON
+10 Thundermane Fox_MON
+10 Tidesweeper Gharial_MON
+10 Trainer's Eyes_MON
+10 Truffle Snuffer_MON
+10 Tunnel Moles_MON
+10 Twinning Psionic_MON
+10 Undecided Mimic_MON
+10 Unstoppable Weed_MON
+10 Victory Road_MON
+10 Viper Ambush_MON
+10 Volt Vermin_MON
+10 Waking Pollution_MON
+10 Wicked Fossil_MON
+10 Wild Encounter_MON
+10 Wings of Trust_MON
+10 Wistful Fox_MON
+10 Worried Vulpine_MON
+
+[Rare]
+4 Bee Hive_MON
+4 Bessie_MON
+4 Brighteyed Trainer_MON
+4 Brutality_MON
+4 Budding Companion_MON
+4 Chikyu Champion_MON
+4 Depth Charger_MON
+4 Duplicate_MON
+4 Egg Bomb_MON
+4 Elemental of Surprise_MON
+4 Emonoru, Ema's Wings_MON
+4 End of Monsters_MON
+4 Epic Encounter_MON
+4 Ever-Gnawing Rat_MON
+4 Flame-Tailed Lizard_MON
+4 Fogspewer_MON
+4 Forgotten Temple_MON
+4 From a Seed_MON
+4 Gym Leader_MON
+4 Heartless Trainer_MON
+4 Hopeful Caretaker_MON
+4 I Choose You_MON
+4 Karina's Training_MON
+4 Lava Plume_MON
+4 Loyal Firestarter_MON
+4 Lucien, the Ravenous_MON
+4 Lucien's Trail_MON
+4 Lucky Egg_MON
+4 Luna, the Lost_MON
+4 Lunar Vigil_MON
+4 Magnitude_MON
+4 Maple's Journal_MON
+4 Masaru, Aspiring Champion_MON
+4 Metronome_MON
+4 Moonlight_MON
+4 Mountain Runt_MON
+4 Night Shade_MON
+4 Nirami, Ema's Keeper_MON
+4 Onigori, Ema's Shield_MON
+4 Paleontologist_MON
+4 Perish Song_MON
+4 Power of Love_MON
+4 Professor Maple_MON
+4 Quakestep Behemoth_MON
+4 Queen of the Hive_MON
+4 Roaring Illusion_MON
+4 Rocket Admin_MON
+4 Rocket Poacher_MON
+4 Ruined Lab_MON
+4 Rustshell Mantis_MON
+4 Sanaito, Alone_MON
+4 Silent Hypnotist_MON
+4 Skill Sketcher_MON
+4 Slumbering Bear_MON
+4 Steelfeather Shrike_MON
+4 Sunset Herald_MON
+4 Temporal Aria_MON
+4 The Rocket Gang Strikes!_MON
+4 Tidepool Turtle_MON
+4 Time Stands Still_MON
+4 Titanic Fossil_MON
+4 Trainee Karina Oblay_MON
+4 Twister of Shadows_MON
+4 Tyrant of Tributes_MON
+4 Warden of Lives_MON
+4 Warden of Seas_MON
+4 Warden of Time_MON
+4 Whirlpool Ride_MON
+4 Working Together_MON
+4 Zankon, Ema's Claws_MON
+
+[Land]
+20 Forest_MON
+20 Island_MON
+20 Mountain_MON
+20 Plains_MON
+20 Swamp_MON
+
+[Token]
+20 green Insect 11MON
+20 green Wurm 33MON
+20 white Bird 22MON
+20 red Elemental Mouse 33MON
+20 white and blue Fox 33MON
+20 green Plant Dinosaur 44MON
+20 red Dragon 44MON
+20 blue Turtle 44MON
+20 white Bear Beast 55MON
+20 white Bear 42MON
+20 red Snail 24MON
+20 Treasure MON
+20 black Snake 11MON
+
+[Wildcard]
+6 A Journey Begins_MON
+6 Aeroblast_MON
+6 Aspiring Trainer_MON
+6 Attract_MON
+6 Barnacle Crawler_MON
+6 Barrier_MON
+6 Bridled Growth_MON
+6 Caustic Caterpillar_MON
+6 Cavern Carver_MON
+6 Cheerful Generator_MON
+6 Chikyu League Arena_MON
+6 Confusion_MON
+6 Cruel Fledgling_MON
+6 Crusher Beetle_MON
+6 Curious Fossil_MON
+6 Driven Mad_MON
+6 Eager Hatchling_MON
+6 Eerie Cocoons_MON
+6 Enduring Charge_MON
+6 Essence Scatter_MON
+6 Ether_MON
+6 Evolving Wilds_MON
+6 Fierce Lunge_MON
+6 Fishing Trip_MON
+6 Flamethrower_MON
+6 Focus Energy_MON
+6 Focus Sash_MON
+6 Forage_MON
+6 Fresh Carrion_MON
+6 Fury Swipes_MON
+6 Galloping Blaze_MON
+6 Garden Guardian_MON
+6 Ghastly Tether_MON
+6 Grinding_MON
+6 Healing Center_MON
+6 Hex Maniac_MON
+6 Hidden Sprout_MON
+6 Hypnosis_MON
+6 Improvised Guardian_MON
+6 Lakeside Trickster_MON
+6 Magma Crawler_MON
+6 Marine Monster_MON
+6 Maven of Fear_MON
+6 Metal Coat_MON
+6 Mournful Newborn_MON
+6 Natural Cure_MON
+6 Nocturnal Watcher_MON
+6 Nurse Trainee_MON
+6 Old Map_MON
+6 Pitfall Pangolin_MON
+6 Poised Koi_MON
+6 Poison Point_MON
+6 Prepare for Trouble_MON
+6 Psywave_MON
+6 Quick Claw_MON
+6 Quiet Retreat_MON
+6 Rallywing_MON
+6 Rapid Rodent_MON
+6 Rest_MON
+6 Revitalize_MON
+6 Run Away_MON
+6 Ruthless Brawler_MON
+6 Safe from Harm_MON
+6 Sanaito's Blessing_MON
+6 Sandslinger_MON
+6 Scary Face_MON
+6 Shadow Ball_MON
+6 Sharp-Eyed Wingmate_MON
+6 Slashing Sneak_MON
+6 Slinking Sentinel_MON
+6 Smokescreen_MON
+6 Snatch_MON
+6 Spikehorn Behemoth_MON
+6 Sporecaster_MON
+6 Sporecrowned Scavenger_MON
+6 Strategic Planning_MON
+6 Sucker Punch_MON
+6 Swords Dance_MON
+6 Tangle Up_MON
+6 Tangling Vines_MON
+6 Telekinecktic_MON
+6 Thundering Charger_MON
+6 Toxic Larva_MON
+6 Treasure Beach_MON
+6 Unburdened_MON
+6 Unknown Shores_MON
+6 Veil of Flames_MON
+6 Wandering Dragonfly_MON
+6 Warning Birds_MON
+6 Weedy Wanderer_MON
+6 Whirling Winds_MON
+6 Winding Snake_MON
+6 Wishing Star_MON
+6 Wondering Oaf_MON
+6 Work Up_MON
+6 Wraith of the Fens_MON
+6 Zipping Zapper_MON
+4 Ace Trainer_MON
+4 Acro Bat_MON
+4 Adrenaline_MON
+4 Aggressive Instinct_MON
+4 Amulet Coin_MON
+4 Barbed Beast_MON
+4 Bird Keeper_MON
+4 Bug Catcher_MON
+4 Call Back_MON
+4 Canopy Darter_MON
+4 Cattle Guard_MON
+4 Citadel Bagworm_MON
+4 Compulsive Patrol_MON
+4 Curious Cubs_MON
+4 Determined Koi_MON
+4 Dreamnapper_MON
+4 Event Horizon_MON
+4 Experienced Team_MON
+4 Expert Belt_MON
+4 Extremespeed_MON
+4 Familiar's Ruse_MON
+4 Farewell_MON
+4 Firemane Fox_MON
+4 Flying Scorpion_MON
+4 From Beyond the Grave_MON
+4 Full Belly_MON
+4 Gene Pool_MON
+4 Ghastly Spirit_MON
+4 Gruff Clutch_MON
+4 Hellhound Alpha_MON
+4 Hyper Beam_MON
+4 Ice Path_MON
+4 Innocence_MON
+4 Lake of Rage_MON
+4 Lavatrailer_MON
+4 Leech Seed_MON
+4 Maternal Monster_MON
+4 Mighty Beetle_MON
+4 Monstrous Champion_MON
+4 Moon-Rune Fox_MON
+4 Morning Sun_MON
+4 Ominous Wind_MON
+4 One on One_MON
+4 Overheat_MON
+4 Palm Walker_MON
+4 Paralycker_MON
+4 Patient Cocoon_MON
+4 Petal Dancer_MON
+4 Power Plant_MON
+4 Preying Mantis_MON
+4 Psychic Assault_MON
+4 Revived Pterosaur_MON
+4 Scuttling Gnat_MON
+4 Seal of Approval_MON
+4 Secret Stash_MON
+4 Shadow Sneak_MON
+4 Shocking Ewe_MON
+4 Shrouded Sanctuary_MON
+4 Skill Link_MON
+4 Slashing Pangolin_MON
+4 Sludge-Gill Fox_MON
+4 Sludge Drudger_MON
+4 Spotted Slugger_MON
+4 Sprout Tender_MON
+4 Starlight Emissary_MON
+4 Stingsower_MON
+4 Sun-Eyed Fox_MON
+4 Thundermane Fox_MON
+4 Tidesweeper Gharial_MON
+4 Trainer's Eyes_MON
+4 Truffle Snuffer_MON
+4 Tunnel Moles_MON
+4 Twinning Psionic_MON
+4 Undecided Mimic_MON
+4 Unstoppable Weed_MON
+4 Victory Road_MON
+4 Viper Ambush_MON
+4 Volt Vermin_MON
+4 Waking Pollution_MON
+4 Wicked Fossil_MON
+4 Wild Encounter_MON
+4 Wings of Trust_MON
+4 Wistful Fox_MON
+4 Worried Vulpine_MON
+2 Bee Hive_MON
+2 Bessie_MON
+2 Brighteyed Trainer_MON
+2 Brutality_MON
+2 Budding Companion_MON
+2 Chikyu Champion_MON
+2 Depth Charger_MON
+2 Duplicate_MON
+2 Egg Bomb_MON
+2 Elemental of Surprise_MON
+2 Emonoru, Ema's Wings_MON
+2 End of Monsters_MON
+2 Epic Encounter_MON
+2 Ever-Gnawing Rat_MON
+2 Flame-Tailed Lizard_MON
+2 Fogspewer_MON
+2 Forgotten Temple_MON
+2 From a Seed_MON
+2 Gym Leader_MON
+2 Heartless Trainer_MON
+2 Hopeful Caretaker_MON
+2 I Choose You_MON
+2 Karina's Training_MON
+2 Lava Plume_MON
+2 Loyal Firestarter_MON
+2 Lucien, the Ravenous_MON
+2 Lucien's Trail_MON
+2 Lucky Egg_MON
+2 Luna, the Lost_MON
+2 Lunar Vigil_MON
+2 Magnitude_MON
+2 Maple's Journal_MON
+2 Masaru, Aspiring Champion_MON
+2 Metronome_MON
+2 Moonlight_MON
+2 Mountain Runt_MON
+2 Night Shade_MON
+2 Nirami, Ema's Keeper_MON
+2 Onigori, Ema's Shield_MON
+2 Paleontologist_MON
+2 Perish Song_MON
+2 Power of Love_MON
+2 Professor Maple_MON
+2 Quakestep Behemoth_MON
+2 Queen of the Hive_MON
+2 Roaring Illusion_MON
+2 Rocket Admin_MON
+2 Rocket Poacher_MON
+2 Ruined Lab_MON
+2 Rustshell Mantis_MON
+2 Sanaito, Alone_MON
+2 Silent Hypnotist_MON
+2 Skill Sketcher_MON
+2 Slumbering Bear_MON
+2 Steelfeather Shrike_MON
+2 Sunset Herald_MON
+2 Temporal Aria_MON
+2 The Rocket Gang Strikes!_MON
+2 Tidepool Turtle_MON
+2 Time Stands Still_MON
+2 Titanic Fossil_MON
+2 Trainee Karina Oblay_MON
+2 Twister of Shadows_MON
+2 Tyrant of Tributes_MON
+2 Warden of Lives_MON
+2 Warden of Seas_MON
+2 Warden of Time_MON
+2 Whirlpool Ride_MON
+2 Working Together_MON
+2 Zankon, Ema's Claws_MON
