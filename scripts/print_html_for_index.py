@@ -251,6 +251,21 @@ def generateHTML():
 				<div class="card-container" id="cotd-image">
 					<p>Card of the Day</p>
 				</div>
+				<div></div> <!-- empty div for spacing -->
+                <div class="preview-container">
+                    <div class="set-icon-container">
+                        <a href="http://discord.gg/custommagic"><div class="set-icon"><img src="img/purple.png" title="CustomMagic Discord"></img></div>
+                        <div class="set-icon-name">Join the Discord!</div></a>
+                    </div>
+                    <div class="set-icon-container">
+                        <a href="https://lackeybot.com/rev/search"><div class="set-icon"><img src="img/lackeybot.png" title="LackeyBot"></img></div>
+                        <div class="set-icon-name">Search with LackeyBot!</div></a>
+                    </div>
+                    <div class="set-icon-container">
+                        <a href="https://lackeybot.com/rev/compendium"><div class="set-icon"><img src="img/rev.png" title="REV Compendium"></img></div>
+                        <div class="set-icon-name">Peruse the Compendium!</div></a>
+                    </div>
+                </div>
 			</div>
 		</div>
 		<script>
