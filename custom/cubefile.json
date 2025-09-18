@@ -4469,18 +4469,6 @@
 ,
 
 		{
-			"cmc": 1,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Duress",
-				"color_identity": ["B"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 6,
 			"type_line": "Sorcery",
 			"board": "mainboard",
@@ -7745,18 +7733,6 @@
 ,
 
 		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Clearwater Grotto",
-				"color_identity": ["G","U"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 2,
 			"type_line": "Creature - Human Rogue",
 			"board": "mainboard",
@@ -9209,18 +9185,6 @@
 ,
 
 		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Misty Peak",
-				"color_identity": ["U","R"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 3,
 			"type_line": "Creature - Human Wizard",
 			"board": "mainboard",
@@ -9251,18 +9215,6 @@
 			"details": {
 				"name": "Mystic of Returns",
 				"color_identity": ["G","W","B"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 2,
-			"type_line": "Instant",
-			"board": "mainboard",
-			"details": {
-				"name": "Negate",
-				"color_identity": ["U"]
 			}
 		}
 		
@@ -9515,18 +9467,6 @@
 			"details": {
 				"name": "Privilege_Escalation",
 				"color_identity": ["B"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Profane Grove",
-				"color_identity": ["B","G"]
 			}
 		}
 		
@@ -9989,18 +9929,6 @@
 ,
 
 		{
-			"cmc": 1,
-			"type_line": "Instant",
-			"board": "mainboard",
-			"details": {
-				"name": "Shock",
-				"color_identity": ["R"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 3,
 			"type_line": "Artifact - Equipment",
 			"board": "mainboard",
@@ -10139,18 +10067,6 @@
 			"details": {
 				"name": "Stack Strike Leader",
 				"color_identity": ["W"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Stark Expanse",
-				"color_identity": ["W","B"]
 			}
 		}
 		
@@ -10565,18 +10481,6 @@
 ,
 
 		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Windbeaten Stones",
-				"color_identity": ["R","W"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 3,
 			"type_line": "Legendary Creature - Human Warrior",
 			"board": "mainboard",
@@ -10607,18 +10511,6 @@
 			"details": {
 				"name": "Zealous Soulspace",
 				"color_identity": ["R","W"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 1,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "A Journey Begins",
-				"color_identity": ["G"]
 			}
 		}
 		
@@ -23819,18 +23711,6 @@
 			"details": {
 				"name": "Widowed Maiden",
 				"color_identity": ["B"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Winding Way",
-				"color_identity": ["G"]
 			}
 		}
 		
@@ -38357,18 +38237,6 @@
 ,
 
 		{
-			"cmc": 6,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Crawl Past // Burst Forth_KSV",
-				"color_identity": ["G"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 1,
 			"type_line": "Creature - Orc Archer",
 			"board": "mainboard",
@@ -38549,18 +38417,6 @@
 ,
 
 		{
-			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Distract // Distort_KSV",
-				"color_identity": ["U"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 4,
 			"type_line": "Sorcery",
 			"board": "mainboard",
@@ -38693,18 +38549,6 @@
 ,
 
 		{
-			"cmc": 1,
-			"type_line": "Instant",
-			"board": "mainboard",
-			"details": {
-				"name": "Fall Back // Strategize_KSV",
-				"color_identity": ["W","U"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 5,
 			"type_line": "Enchantment - Campaign",
 			"board": "mainboard",
@@ -38802,18 +38646,6 @@
 
 		{
 			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Flare Out // Rekindle_KSV",
-				"color_identity": ["R"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
@@ -39029,18 +38861,6 @@
 ,
 
 		{
-			"cmc": 3,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Gather Strength // Move Out_KSV",
-				"color_identity": ["W"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 1,
 			"type_line": "Instant",
 			"board": "mainboard",
@@ -39065,31 +38885,7 @@
 ,
 
 		{
-			"cmc": 3,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Give Gifts // Seize Souls_KSV",
-				"color_identity": ["B"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Glimpse Beyond // Pull Back_KSV",
-				"color_identity": ["U","B"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
@@ -39437,18 +39233,6 @@
 ,
 
 		{
-			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Maraud // Pilfer_KSV",
-				"color_identity": ["R"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 5,
 			"type_line": "Enchantment - Campaign",
 			"board": "mainboard",
@@ -39594,18 +39378,6 @@
 
 		{
 			"cmc": 1,
-			"type_line": "Instant",
-			"board": "mainboard",
-			"details": {
-				"name": "Observe // Confirm_KSV",
-				"color_identity": ["U"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
 			"type_line": "Instant",
 			"board": "mainboard",
 			"details": {
@@ -39833,18 +39605,6 @@
 ,
 
 		{
-			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Raise // Rampage_KSV",
-				"color_identity": ["B","R"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 4,
 			"type_line": "Enchantment - Campaign",
 			"board": "mainboard",
@@ -39906,18 +39666,6 @@
 
 		{
 			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Recon // Reinforce_KSV",
-				"color_identity": ["G","W"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
@@ -40181,30 +39929,6 @@
 ,
 
 		{
-			"cmc": 4,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Seek Secrets // Uncover Truths_KSV",
-				"color_identity": ["U"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Seize Objective // Bunker Down_KSV",
-				"color_identity": ["W"]
-			}
-		}
-		
-,
-
-		{
 			"cmc": 3,
 			"type_line": "Sorcery",
 			"board": "mainboard",
@@ -40230,18 +39954,6 @@
 
 		{
 			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Shatter Identity // Reform Purpose_KSV",
-				"color_identity": ["B"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
@@ -40422,18 +40134,6 @@
 
 		{
 			"cmc": 3,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Sow Life // Reap Vengeance_KSV",
-				"color_identity": ["G"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
@@ -40722,18 +40422,6 @@
 
 		{
 			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Torch // Till_KSV",
-				"color_identity": ["R","G"]
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
 			"type_line": "Sorcery",
 			"board": "mainboard",
 			"details": {
