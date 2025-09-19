@@ -32377,20 +32377,6 @@
 			"type_line": "Legendary Creature - Human Wizard",
 			"board": "mainboard",
 			"details": {
-				"name": "Chamille, AAA-Lister (Lady Gaga)",
-				"color_identity": [],
-				"mana_cost": "{Vp}{Vp}{Vp}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Human Wizard",
-			"board": "mainboard",
-			"details": {
 				"name": "Chamille, AAA-Lister",
 				"color_identity": [],
 				"mana_cost": "{Vp}{Vp}{Vp}",
@@ -32933,20 +32919,6 @@
 ,
 
 		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Spirit",
-			"board": "mainboard",
-			"details": {
-				"name": "Farrah P, Ascendant Looper (J Dilla)",
-				"color_identity": ["U"],
-				"mana_cost": "{2}{U}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 1,
 			"type_line": "Creature - Human Bard",
 			"board": "mainboard",
@@ -33148,20 +33120,6 @@
 			"board": "mainboard",
 			"details": {
 				"name": "Galius, Bringer of Bass",
-				"color_identity": ["B","G"],
-				"mana_cost": "{2}{Vp}{B}{G}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
-			"type_line": "Legendary Creature - Human Artificer",
-			"board": "mainboard",
-			"details": {
-				"name": "Galius, Bringer of Bass (Danny L Harle)",
 				"color_identity": ["B","G"],
 				"mana_cost": "{2}{Vp}{B}{G}",
 				"set_code": "POP"
@@ -33381,20 +33339,6 @@
 ,
 
 		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Hyperloop Obelisk (Oil of Every Pearl's Un-Insides)",
-				"color_identity": ["U","B","R"],
-				"mana_cost": "",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 2,
 			"type_line": "Sorcery",
 			"board": "mainboard",
@@ -33526,20 +33470,6 @@
 			"board": "mainboard",
 			"details": {
 				"name": "JJ Mack, Trendsetter",
-				"color_identity": ["U","R"],
-				"mana_cost": "{1}{Vp}{U}{R}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Sphinx Bard",
-			"board": "mainboard",
-			"details": {
-				"name": "JJ Mack, Trendsetter (Charli XCX)",
 				"color_identity": ["U","R"],
 				"mana_cost": "{1}{Vp}{U}{R}",
 				"set_code": "POP"
@@ -33777,20 +33707,6 @@
 			"type_line": "Land",
 			"board": "mainboard",
 			"details": {
-				"name": "Magdalena Bay (Mini Mix Vol. 3)",
-				"color_identity": ["G","W","U"],
-				"mana_cost": "",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
 				"name": "Magdalena Bay",
 				"color_identity": ["G","W","U"],
 				"mana_cost": "",
@@ -33946,20 +33862,6 @@
 			"board": "mainboard",
 			"details": {
 				"name": "Mykian, Pop Paragon",
-				"color_identity": ["G","U"],
-				"mana_cost": "{2}{Vp}{G}{U}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
-			"type_line": "Legendary Creature - Centaur Bard",
-			"board": "mainboard",
-			"details": {
-				"name": "Mykian, Pop Paragon (Dorian Electra)",
 				"color_identity": ["G","U"],
 				"mana_cost": "{2}{Vp}{G}{U}",
 				"set_code": "POP"
@@ -34795,20 +34697,6 @@
 ,
 
 		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Human Bard",
-			"board": "mainboard",
-			"details": {
-				"name": "Sashanki, Destiny's Chosen (Beyonc�)",
-				"color_identity": ["G","W"],
-				"mana_cost": "{Vp}{G}{W}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 2,
 			"type_line": "Instant",
 			"board": "mainboard",
@@ -35191,20 +35079,6 @@
 			"type_line": "Land",
 			"board": "mainboard",
 			"details": {
-				"name": "Studio Excelsior (Troubled Paradise)",
-				"color_identity": ["R","G","W"],
-				"mana_cost": "",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
 				"name": "Sunrise Lot",
 				"color_identity": ["R","W"],
 				"mana_cost": "",
@@ -35222,20 +35096,6 @@
 				"name": "Sunset Drive",
 				"color_identity": ["W"],
 				"mana_cost": "{1}{W}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Sunset Slums (Floral Shoppe)",
-				"color_identity": ["W","U","B"],
-				"mana_cost": "",
 				"set_code": "POP"
 			}
 		}
@@ -35439,20 +35299,6 @@
 ,
 
 		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Demon",
-			"board": "mainboard",
-			"details": {
-				"name": "Tozzenia, Chief Executive (A.G. Cook)",
-				"color_identity": ["B"],
-				"mana_cost": "{1}{B}{B}{B}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 1,
 			"type_line": "Artifact Creature - Drone",
 			"board": "mainboard",
@@ -35502,20 +35348,6 @@
 				"name": "Transverse Arbiter",
 				"color_identity": ["R"],
 				"mana_cost": "{4}{R}{R}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 0,
-			"type_line": "Land",
-			"board": "mainboard",
-			"details": {
-				"name": "Tree of Clues (1000 Gecs and the Tree of Clues)",
-				"color_identity": ["B","R","G"],
-				"mana_cost": "",
 				"set_code": "POP"
 			}
 		}
@@ -35682,20 +35514,6 @@
 			"board": "mainboard",
 			"details": {
 				"name": "Venus, the Basilisk",
-				"color_identity": ["G"],
-				"mana_cost": "{2}{Vp}{G}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Gorgon Bard",
-			"board": "mainboard",
-			"details": {
-				"name": "Venus, the Basilisk (Caroline Polachek)",
 				"color_identity": ["G"],
 				"mana_cost": "{2}{Vp}{G}",
 				"set_code": "POP"
@@ -35891,20 +35709,6 @@
 			"type_line": "Legendary Creature - Human Bard",
 			"board": "mainboard",
 			"details": {
-				"name": "Xeon, BPM Savant (SOPHIE)",
-				"color_identity": ["R"],
-				"mana_cost": "{2}{R}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Human Bard",
-			"board": "mainboard",
-			"details": {
 				"name": "Xeon, BPM Savant",
 				"color_identity": ["R"],
 				"mana_cost": "{2}{R}",
@@ -35920,20 +35724,6 @@
 			"board": "mainboard",
 			"details": {
 				"name": "Yaeji, Resplendent Idol",
-				"color_identity": ["W"],
-				"mana_cost": "{2}{W}",
-				"set_code": "POP"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Human Bard",
-			"board": "mainboard",
-			"details": {
-				"name": "Yaeji, Resplendent Idol (Yaeji)",
 				"color_identity": ["W"],
 				"mana_cost": "{2}{W}",
 				"set_code": "POP"
@@ -39912,34 +39702,6 @@
 				"name": "Zolo's Right Horn",
 				"color_identity": ["R"],
 				"mana_cost": "{2}{R}{R}",
-				"set_code": "DOV"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
-			"type_line": "Creature - Giant",
-			"board": "mainboard",
-			"details": {
-				"name": "Enduring Jentil (Obelix the Gaul)",
-				"color_identity": ["G"],
-				"mana_cost": "{3}{G}{G}{G}",
-				"set_code": "DOV"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Enchantment",
-			"board": "mainboard",
-			"details": {
-				"name": "Telling Tall Tales (Fate)",
-				"color_identity": ["G"],
-				"mana_cost": "{2}{G}",
 				"set_code": "DOV"
 			}
 		}
@@ -47367,62 +47129,6 @@
 ,
 
 		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Human Wizard",
-			"board": "mainboard",
-			"details": {
-				"name": "Matchmaker (Kratos, God of War)",
-				"color_identity": ["W"],
-				"mana_cost": "{2}{W}{W}",
-				"set_code": "KSV"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Elf Soldier",
-			"board": "mainboard",
-			"details": {
-				"name": "Rial, Silver Rose General (Dimitri of the Blue Lions)",
-				"color_identity": ["W"],
-				"mana_cost": "{1}{W}{W}",
-				"set_code": "KSV"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 7,
-			"type_line": "Creature - Elemental",
-			"board": "mainboard",
-			"details": {
-				"name": "Silversong Ancient (Fangorn)",
-				"color_identity": ["G"],
-				"mana_cost": "{4}{G}{G}{G}",
-				"set_code": "KSV"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
-			"type_line": "Legendary Creature - Elf Wizard",
-			"board": "mainboard",
-			"details": {
-				"name": "Snowsinger (Ranni the Witch)",
-				"color_identity": ["U"],
-				"mana_cost": "{3}{U}{U}",
-				"set_code": "KSV"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 5,
 			"type_line": "Legendary Enchantment",
 			"board": "mainboard",
@@ -51154,20 +50860,6 @@
 				"name": "Worldshift",
 				"color_identity": ["U"],
 				"mana_cost": "{3}{U}",
-				"set_code": "KRS"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Human Wizard",
-			"board": "mainboard",
-			"details": {
-				"name": "Variant Handler (Mobius M. Mobius)",
-				"color_identity": ["R"],
-				"mana_cost": "{1}{R}{R}",
 				"set_code": "KRS"
 			}
 		}
@@ -54948,20 +54640,6 @@
 				"name": "Zap Toady",
 				"color_identity": ["R"],
 				"mana_cost": "{2}{R}",
-				"set_code": "VRD"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Human Rogue",
-			"board": "mainboard",
-			"details": {
-				"name": "Whirlwind Romantic (James Bond, 007)",
-				"color_identity": ["B","R"],
-				"mana_cost": "{1}{B}{R}",
 				"set_code": "VRD"
 			}
 		}
@@ -64916,314 +64594,6 @@
 				"name": "Yiskola's Charm",
 				"color_identity": ["R","W","B"],
 				"mana_cost": "{R}{W}{B}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Yeti Avatar",
-			"board": "mainboard",
-			"details": {
-				"name": "Anigul, the Setting Sun (Unalaq, One with Vaatu)",
-				"color_identity": ["B","R"],
-				"mana_cost": "{1}{B}{R}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
-			"type_line": "Legendary Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Atrah of the First Word (Aang, Avatar State)",
-				"color_identity": ["W","U","B","R","G"],
-				"mana_cost": "{W}{U}{B}{R}{G}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 1,
-			"type_line": "Creature - Elf Scout",
-			"board": "mainboard",
-			"details": {
-				"name": "Boundary Guardian (Lin Beifong, Chief of Police)",
-				"color_identity": ["G"],
-				"mana_cost": "{G}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
-			"type_line": "Creature - Elemental",
-			"board": "mainboard",
-			"details": {
-				"name": "Caldera Elemental (Future Industries Mecha)",
-				"color_identity": ["R"],
-				"mana_cost": "{4}{R}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 2,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Combat-Form Instructor (Sokka, Heart of the Team)",
-				"color_identity": ["W"],
-				"mana_cost": "{1}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Emberwind Visionary (Tenzin, Airbending Expert)",
-				"color_identity": ["U","R"],
-				"mana_cost": "{1}{U}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Creature - Horse",
-			"board": "mainboard",
-			"details": {
-				"name": "Fortunous Windhorse (Appa, Aang's Companion)",
-				"color_identity": ["W"],
-				"mana_cost": "{3}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Guru of Tumbling Stone (Toph, Blind Bender)",
-				"color_identity": ["R"],
-				"mana_cost": "{3}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
-			"type_line": "Legendary Enchantment",
-			"board": "mainboard",
-			"details": {
-				"name": "Isolated Meditation (Frozen in Ice)",
-				"color_identity": ["W"],
-				"mana_cost": "{4}{W}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 6,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Monastery Flagdancers (Korra, Avatar Reborn)",
-				"color_identity": ["U"],
-				"mana_cost": "{4}{U}{U}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 2,
-			"type_line": "Creature - Human Warrior",
-			"board": "mainboard",
-			"details": {
-				"name": "Narwa Igniter (Asami of Future Industries)",
-				"color_identity": ["R"],
-				"mana_cost": "{1}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Bird Scout",
-			"board": "mainboard",
-			"details": {
-				"name": "Rescuer of the Lost (Momo, Leaping Lemur)",
-				"color_identity": ["W"],
-				"mana_cost": "{1}{W}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 7,
-			"type_line": "Legendary Creature - Elemental Avatar",
-			"board": "mainboard",
-			"details": {
-				"name": "Seqineq, the Rising Sun (Korra, One with Raava)",
-				"color_identity": ["R","W"],
-				"mana_cost": "{3}{R}{R}{W}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 2,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Serene Mediator (Aang, the Lost Avatar)",
-				"color_identity": ["W","U"],
-				"mana_cost": "{W}{U}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 5,
-			"type_line": "Legendary Planeswalker - Solara",
-			"board": "mainboard",
-			"details": {
-				"name": "Solara, Sun Speaker (Firelord Ozai)",
-				"color_identity": ["R"],
-				"mana_cost": "{2}{R}{R}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Human Shaman",
-			"board": "mainboard",
-			"details": {
-				"name": "Solara's Pyromancer (Azula, Raging Firebender)",
-				"color_identity": ["R"],
-				"mana_cost": "{2}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Legendary Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Sonam the Hunted (Iroh, Dragon of the West)",
-				"color_identity": ["R","W"],
-				"mana_cost": "{1}{R}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 3,
-			"type_line": "Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Sunflare Disciple (Zuko, Scarred Prince)",
-				"color_identity": ["R"],
-				"mana_cost": "{1}{R}{R}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Human Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Tigal, Guru of Dhagiri (Katara, Proven Waterbender)",
-				"color_identity": ["U"],
-				"mana_cost": "{2}{U}{U}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Legendary Creature - Elephant Monk",
-			"board": "mainboard",
-			"details": {
-				"name": "Ujuraq, Elder Watcher (Avatar Kyoshi)",
-				"color_identity": ["G"],
-				"mana_cost": "{2}{G}{G}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Creature - Beast",
-			"board": "mainboard",
-			"details": {
-				"name": "Wilderkin Behemoth (Naga, Loyal Beardog)",
-				"color_identity": ["R","G","W"],
-				"mana_cost": "{1}{R}{G}{W}",
-				"set_code": "KUT"
-			}
-		}
-		
-,
-
-		{
-			"cmc": 4,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "Wrap in Flames (Wild Lightning)",
-				"color_identity": ["R"],
-				"mana_cost": "{3}{R}",
 				"set_code": "KUT"
 			}
 		}
