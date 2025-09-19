@@ -70481,20 +70481,6 @@
 ,
 
 		{
-			"cmc": 2,
-			"type_line": "Sorcery",
-			"board": "mainboard",
-			"details": {
-				"name": "On Borrowed Time",
-				"color_identity": ["R"],
-				"mana_cost": "{R}{R}",
-				"set_code": "SRC"
-			}
-		}
-		
-,
-
-		{
 			"cmc": 5,
 			"type_line": "Creature - Orc Detective",
 			"board": "mainboard",
