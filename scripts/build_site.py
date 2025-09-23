@@ -17,9 +17,15 @@ import print_html_for_set
 import print_html_for_sets_page
 import print_html_for_deckbuilder
 
+import cockatrice_to_egg
+import lackeybot_to_cubejson
+
 import markdown
 
 #F = Fungustober's notes
+
+cockatrice_to_egg.pull_all_images()
+lackeybot_to_cubejson.make_roto_file()
 
 def genAllCards(codes):
 	card_input = {'cards':[]}
