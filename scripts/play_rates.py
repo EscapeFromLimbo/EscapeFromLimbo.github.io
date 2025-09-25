@@ -174,12 +174,13 @@ def get_play_rates():
 	cardPlayRates = {}
 	for cardName in cardGames:
 		totalPossibleDecks = 0
+		desanName = cardName.replace("\\", "")
 		for setCode in cardSets[cardName]:
 			totalPossibleDecks += setTotalDecks[setCode]
 		if totalPossibleDecks == 0:
-			cardPlayRates[cardName] = 0
+			cardPlayRates[desanName] = 0
 		elif len(cardSets[cardName]) > 10:
-			cardPlayRates[cardName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / grandTotalDecks)
+			cardPlayRates[desanName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / grandTotalDecks)
 		else:
-			cardPlayRates[cardName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / totalPossibleDecks)
+			cardPlayRates[desanName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / totalPossibleDecks)
 	return cardPlayRates
