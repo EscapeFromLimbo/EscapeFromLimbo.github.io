@@ -19,12 +19,14 @@ import print_html_for_deckbuilder
 
 import cockatrice_to_egg
 import lackeybot_to_cubejson
+import play_rates
 
 import markdown
 
 #F = Fungustober's notes
 
-cockatrice_to_egg.pull_all_images()
+play_rate_table = play_rates.get_play_rates()
+cockatrice_to_egg.pull_all_images(play_rate_table)
 lackeybot_to_cubejson.make_roto_file()
 
 def genAllCards(codes):

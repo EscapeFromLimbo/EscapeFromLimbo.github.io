@@ -442,6 +442,16 @@
 					return (a.card_name < b.card_name) ? -1 : 1;
 				}
 			}
+			if (sortMode == 'play_rate')
+			{
+				if (a.play_rate === b.play_rate)
+				{
+					return 0;
+				}
+				else {
+					return (a.play_rate < b.play_rate) ? -1 : 1;
+				}
+			}
 			if (sortMode == 'mv')
 			{
 				//since cost is now formatted like {1}{U} instead of 1U, we need to remove the brackets from the string first

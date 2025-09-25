@@ -331,7 +331,7 @@ Pull https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/
 class Card(object):
 	pass
 
-def pull_all_images():
+def pull_all_images(play_rate_table):
 
 	jsonurl = "https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/AllSetsEternal.json"
 	r = requests.get(jsonurl)
@@ -608,6 +608,15 @@ def pull_all_images():
 
 		for card in setcards[i]:
 			#print(card.card_name)
+
+			play_rate = 0
+			if card.card_name in play_rate_table:
+				play_rate = play_rate_table[card.card_name]
+			elif card.card_name.split("_")[0] in play_rate_table:
+				play_rate = play_rate_table[card.card_name.split("_")[0]]
+			elif card.card_name.split(" (")[0] in play_rate_table:
+				play_rate = play_rate_table[card.card_name.split(" (")[0]]
+
 			tags = '\\n!tag' + '\\n!tag '.join(formatstring.split(','))
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"
@@ -632,6 +641,7 @@ def pull_all_images():
 					"set": "{setcodes[i]}",
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
+					"play_rate": {play_rate},
 					"notes": "{tags}"
 		'''
 				drafttext = f'''
@@ -676,6 +686,7 @@ def pull_all_images():
 					"set": "{setcodes[i]}",
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
+					"play_rate": {play_rate},
 					"card_name2": "{card2.card_name}",
 					"color2": "{card2.color}",
 					"type2": "{card2.type}",
@@ -785,4 +796,4 @@ def pull_all_images():
 	print(f"{len(cubecards)} cube cards unaccounted for")
 	print(cubecards)
 
-	#TODO: white border around set logos, links on homepage: Discord, compendium, lackeybot search; gradients and gradient names
+	#TODO: white border around set logos, autopopulate card play rates and winrates

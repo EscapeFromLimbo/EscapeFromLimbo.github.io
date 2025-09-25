@@ -116,6 +116,7 @@ function tokenizeTerms(searchTerms)
 			let card_notes = card_stats.notes;
 			let card_artist = card_stats.artist;
 			let card_flavor = card_stats.flavor_text;
+			let card_play_rate = card_stats.play_rate;
 			let card_color_2 = "";
 			let card_cost_2 = "";
 			let card_power_2 = "";
@@ -461,6 +462,33 @@ function tokenizeTerms(searchTerms)
 					else if (modifier == ">=")
 					{
 						return (card_toughness >= check);
+					}
+				}
+				if (term == "pr" || term == "play_rate" || term == "playrate")
+				{
+					if (modifier == "!" || modifier == "=")
+					{
+						return (card_play_rate == check);
+					}
+					else if (modifier == ":")
+					{
+						return (card_play_rate == check);
+					}
+					else if (modifier == "<")
+					{
+						return (card_play_rate < check);
+					}
+					else if (modifier == ">")
+					{
+						return (card_play_rate > check);
+					}
+					else if (modifier == "<=")
+					{
+						return (card_play_rate <= check);
+					}
+					else if (modifier == ">=")
+					{
+						return (card_play_rate >= check);
 					}
 				}
 				if (term == "r" || term == "rarity")
