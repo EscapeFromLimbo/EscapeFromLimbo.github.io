@@ -623,7 +623,11 @@ def pull_all_images(play_rate_table):
 				cubecards.remove(card.card_name)
 			if card.card_name.replace("_" + setcodes[i], "") in cubecards:
 				tags = tags + "\\n!tag cube"
-				cubecards.remove(card.card_name.replace("_" + setcodes[i], ""))			
+				cubecards.remove(card.card_name.replace("_" + setcodes[i], ""))	
+			if play_rate >= 100:
+				tags = tags + "\\n!tag staple"	
+			if play_rate >= 20:
+				tags = tags + "\\n!tag playable"	
 			if card.form in ["normal", "token"]:
 				cardtext = f'''
 					"card_name": "{card.card_name}",

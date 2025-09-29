@@ -66,6 +66,8 @@ def get_play_rates():
 				#print(card)
 				cardName = card.split("\"displayName\":\"")[1].split("\"")[0]
 				setCode = card.split("\"setID\":\"")[1].split("\"")[0]
+				if "Ardent Ascetic" in cardName:
+					setCode = "KSV"
 				copiesMain = int(card.split(",")[0])
 				copiesSide = int(card.split("\"sideCount\":")[1].split(",")[0])
 				deckTable[playerName].append(cardName)
