@@ -1379,7 +1379,7 @@
 			"collector_number": "297",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle. \nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
+			"oracle_text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle.\nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
 		},
 		
 		{
@@ -1949,7 +1949,7 @@
 			"collector_number": "44",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, you gain 1 life. Then if it's your first turn of the game or you discarded a card named Leystone of Being this turn, create an X/X white Avatar creature token, where X is the difference between your life total and your starting life total.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+			"oracle_text": "At the beginning of your end step, you gain 1 life. Then if it's your first turn of the game or you discarded a card named Leystone of Being this turn, create an X/X white Avatar creature token, where X is the amount of life you've gained this turn.\nCycling {W} ({W}, Discard this card: Draw a card.)",
 		},
 		
 		{
@@ -2454,7 +2454,7 @@
 			"collector_number": "194",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Search your library for a creature card with mana value 2 or less, put it onto the battlefield tapped, then shuffle.",
+			"oracle_text": "Look at the top six cards of your library. You may put a permanent card with mana value 2 or less from among them onto the battlefield tapped. Put the rest on the bottom of your library in any order.",
 		},
 		
 		{
@@ -2738,7 +2738,7 @@
 			"collector_number": "244",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Choose two creature types. Create a 1/1 red creature token of the first type with haste and a 1/1 green creature token of the second type with trample.",
+			"oracle_text": "Create a 1/1 red creature token with haste and a creature type of your choice and a 1/1 green creature token with trample and a creature type of your choice.",
 		},
 		
 		{

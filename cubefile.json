@@ -34168,13 +34168,13 @@
 			}
 			,
 			{
-				"cmc": 2,
+				"cmc": 3,
 				"type_line": "Sorcery",
 				"board": "mainboard",
 				"details": {
 					"name": "Assemble the Mob",
 					"color_identity": ["R","W"],
-					"mana_cost": "{R}{W}",
+					"mana_cost": "{1}{R}{W}",
 					"set_code": "BLR"
 				}
 			}
@@ -34792,13 +34792,13 @@
 			}
 			,
 			{
-				"cmc": 1,
-				"type_line": "Sorcery",
+				"cmc": 2,
+				"type_line": "Instant",
 				"board": "mainboard",
 				"details": {
 					"name": "Embrace Hopelessness",
 					"color_identity": ["R"],
-					"mana_cost": "{R}",
+					"mana_cost": "{1}{R}",
 					"set_code": "BLR"
 				}
 			}
@@ -34889,7 +34889,7 @@
 			,
 			{
 				"cmc": 3,
-				"type_line": "Sorcery",
+				"type_line": "Instant",
 				"board": "mainboard",
 				"details": {
 					"name": "Flesh Offered to the Dead",
@@ -36940,13 +36940,13 @@
 			}
 			,
 			{
-				"cmc": 1,
+				"cmc": 2,
 				"type_line": "Instant",
 				"board": "mainboard",
 				"details": {
 					"name": "Uncertainty of Fate",
 					"color_identity": ["W"],
-					"mana_cost": "{W}",
+					"mana_cost": "{1}{W}",
 					"set_code": "BLR"
 				}
 			}
@@ -37012,13 +37012,13 @@
 			}
 			,
 			{
-				"cmc": 5,
+				"cmc": 4,
 				"type_line": "Creature - Spirit",
 				"board": "mainboard",
 				"details": {
 					"name": "Vengeful Whisper",
 					"color_identity": ["W"],
-					"mana_cost": "{3}{W}{W}",
+					"mana_cost": "{2}{W}{W}",
 					"set_code": "BLR"
 				}
 			}

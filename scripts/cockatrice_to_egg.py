@@ -526,9 +526,12 @@ def pull_all_images(play_rate_table):
 					cardfilename = f"sets/{setcodes[i]}-files/img/{c.number}t_{c.card_name}.jpg"
 					c.cardfilename = cardfilename
 					cardfilenames.append(cardfilename)
-					if not os.path.isfile(cardfilename):
-						urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
-					setcards[i].append(c)
+					try:
+						if not os.path.isfile(cardfilename):
+							urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+						setcards[i].append(c)
+					except:
+						pass
 
 	print("Done pulling images")
 	print("Deleting unnecessary images")

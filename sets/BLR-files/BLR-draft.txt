@@ -121,7 +121,7 @@
 			"collector_number": "89",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a decay counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of decay counters on it.\nEscape-{4}{B}{B}{B}, Exile the top thirteen cards of your library.",
+			"oracle_text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a doom counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of doom counters on it.\nEscape-{4}{B}{B}{B}, Exile the top thirteen cards of your library. (You may cast this card from your graveyard for its escape cost.)",
 		},
 		
 		{
@@ -165,7 +165,7 @@
 		
 		{
 			"name": "Assemble the Mob_BLR",
-			"mana_cost": "{R}{W}",
+			"mana_cost": "{1}{R}{W}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/212_Assemble the Mob_BLR.jpg",
 			"colors": ["W","R"],
@@ -303,7 +303,7 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Each player discards their hand, then draws seven cards. Add {R}{R}{R}.",
+			"oracle_text": "Each player discards their hand, then draws seven cards. Add {R}{R}{R}.\nYou may cast only one more spell this turn.",
 		},
 		
 		{
@@ -394,7 +394,7 @@
 			"collector_number": "8",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever Cerys attacks, you may return a nontoken permanent you control to its owner's hand. If you do, create two 1/1 red Soldier creature tokens that are tapped and attacking.",
+			"oracle_text": "Vigilance\nWhenever you attack, you may return a nontoken permanent you control to its owner's hand. If you do, create two 1/1 red Soldier creature tokens that are tapped and attacking.",
 		},
 		
 		{
@@ -472,7 +472,7 @@
 			"collector_number": "96",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Search your library for a nonblack card, reveal it, put it into your hand, then shuffle.\nCreate a Treasure token.",
+			"oracle_text": "Search your library for a nonblack card, reveal it, put it into your hand, then shuffle. If that card was multicolored, create a Treasure token.",
 		},
 		
 		{
@@ -771,7 +771,7 @@
 			"collector_number": "218",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "As long as Ella's Agent is attacking, it gets +2/+0 and has deathtouch.\n{1}, Sacrifice a creature: Target creature you control gains indestructible until end of turn.",
+			"oracle_text": "Prowess\nInstant and sorcery spells you control have deathtouch.",
 		},
 		
 		{
@@ -836,13 +836,13 @@
 			"collector_number": "134",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Emberwalker enters or attacks, exile the top card of your library. You may play it until end of turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Whenever Emberwalker enters or attacks, exile the top two cards of your library. You may play one of those cards this turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
 		},
 		
 		{
 			"name": "Embrace Hopelessness_BLR",
-			"mana_cost": "{R}",
-			"type": "Sorcery",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
 			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/135_Embrace Hopelessness_BLR.jpg",
 			"colors": ["R"],
 			"set": "BLR",
@@ -946,14 +946,14 @@
 		{
 			"name": "Flesh Offered to the Dead_BLR",
 			"mana_cost": "{2}{W}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/14_Flesh Offered to the Dead_BLR.jpg",
 			"colors": ["W"],
 			"set": "BLR",
 			"collector_number": "14",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create two 1/1 white Spirit creature tokens with flying.\nEscape-{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Create two 1/1 white Spirit creature tokens with flying. They can't block this turn.\nEscape-{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
 		},
 		
 		{
@@ -1356,7 +1356,7 @@
 			"collector_number": "227",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever Ikel attacks or blocks, tokens you control gain deathtouch until end of turn.\nAt the beginning of your upkeep, if you control no other nontoken creatures, create a 1/1 white Soldier creature token.\nEscape-{1}{W}{B}, Sacrifice three creatures.",
+			"oracle_text": "Whenever Ikel enters or attacks, you may sacrifice another nontoken creature. If you do, create two tapped 1/1 white Soldier creature tokens.\n{1}{W}{B}: Tokens you control gain deathtouch and lifelink until end of turn.\nEscape-{1}{W}{B}, Sacrifice three creatures. (You may cast this card from your graveyard for its escape cost.)",
 		},
 		
 		{
@@ -1512,7 +1512,7 @@
 			"collector_number": "56",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape-{4}{U}{U}, Exile six other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape-{4}{U}{U}, Exile six other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
 		},
 		
 		{
@@ -1564,7 +1564,7 @@
 			"collector_number": "229",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever Kywon attacks, create an X/X blue Drake creature token with flying, where X is the number of instant and/or sorcery cards in your graveyard.\nYou may sacrifice another creature as an additional cost to cast instant and sorcery spells. If you do, that spell costs {2} less to cast.\nEscape-{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard.",
+			"oracle_text": "When Kywon, Nostalgic Visionary enters, return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a 3/3 blue Drake creature token with flying.\nEscape-{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
 		},
 		
 		{
@@ -1616,7 +1616,7 @@
 			"collector_number": "182",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Leafshroud Hunter enters or attacks, you may exile up to two target cards from graveyards. Then if there are three or more card types among cards exiled with Leafshroud Hunter, put a +1/+1 counter on it.",
+			"oracle_text": "Whenever Leafshroud Hunter enters or attacks, you may exile up to two target cards from graveyards. Then if there are three or more card types among cards exiled with Leafshroud Hunter, put two +1/+1 counters on it.",
 		},
 		
 		{
@@ -2292,7 +2292,7 @@
 			"collector_number": "117",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, create a 5/5 black Demon creature token instead. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, instead create a 5/5 black Demon creature token. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
 		},
 		
 		{
@@ -2435,7 +2435,7 @@
 			"collector_number": "192",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever one or more lands you control become a creature, distribute two +1/+1 counters among one or two lands you control.\n{4}{G}: Target land you control becomes a 4/4 green Elemental creature until end of turn.",
+			"oracle_text": "Whenever one or more lands you control become creatures, distribute two +1/+1 counters among one or two lands you control.\n{4}{G}: Target land you control becomes a 4/4 green Elemental creature until end of turn.",
 		},
 		
 		{
@@ -2474,7 +2474,7 @@
 			"collector_number": "33",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{2}, Sacrifice a land: Create two 1/1 red Soldier creature tokens.\nRevolt - Whenever Revolutionary Recruiter attacks, if a permanent you controlled left the battlefield this turn, other creatures you control get +1/+0 until end of turn.",
+			"oracle_text": "Revolt - When Revolutionary Recruiter enters, draw a card. If a permanent you controlled left the battlefield this turn, you may instead search your library for a creature with power or toughness 1 or less, reveal it, put it into your hand, then shuffle.",
 		},
 		
 		{
@@ -3189,7 +3189,7 @@
 			"collector_number": "40",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Create a token that's a copy of target token you control.\n• Create a 1/1 white Spirit creature token with flying.",
+			"oracle_text": "Choose one -\n• Create a token that's a copy of target nonland token you control.\n• Create a 1/1 white Spirit creature token with flying.",
 		},
 		
 		{
@@ -3246,7 +3246,7 @@
 		
 		{
 			"name": "Uncertainty of Fate_BLR",
-			"mana_cost": "{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Instant",
 			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/41_Uncertainty of Fate_BLR.jpg",
 			"colors": ["W"],
@@ -3254,7 +3254,7 @@
 			"collector_number": "41",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Return target creature card with mana value 2 or less from your graveyard to the battlefield.\n• Exile target creature you control, then return it to the battlefield under your control.",
+			"oracle_text": "Choose one -\n• Return target creature card with mana value 3 or less from your graveyard to the battlefield.\n• Exile target creature you control, then return it to the battlefield under your control.",
 		},
 		
 		{
@@ -3324,7 +3324,7 @@
 		
 		{
 			"name": "Vengeful Whisper_BLR",
-			"mana_cost": "{3}{W}{W}",
+			"mana_cost": "{2}{W}{W}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/42_Vengeful Whisper_BLR.jpg",
 			"colors": ["W"],
@@ -3579,7 +3579,7 @@
 			"collector_number": "209",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, put up to one target land card from your graveyard onto the battlefield under your control.",
+			"oracle_text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, return up to one target land card from your graveyard to the battlefield tapped with a finality counter on it. (If that land would be put into a graveyard, exile it instead.)",
 		},
 		
 		{
@@ -3631,7 +3631,7 @@
 			"collector_number": "46",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Destroy all creatures and all planeswalkers. Each opponent who controlled two or more permanents destroyed this way draws a card.",
+			"oracle_text": "Destroy all creatures and planeswalkers. Each opponent who controlled two or more permanents destroyed this way draws a card.",
 		},
 		
 		{
@@ -3664,10 +3664,10 @@
 			"name": "red Soldier 11BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/8t_red Soldier 11BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/9t_red Soldier 11BLR.jpg",
 			"colors": ["R"],
 			"set": "BLR",
-			"collector_number": "8",
+			"collector_number": "9",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3687,26 +3687,13 @@
 		},
 		
 		{
-			"name": "Treasure BLR",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/12t_Treasure BLR.jpg",
-			"colors": [],
-			"set": "BLR",
-			"collector_number": "12",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "{T}, Sacrifice this: Add one mana of any color.",
-		},
-		
-		{
 			"name": "blue Wizard 11BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/5t_blue Wizard 11BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/6t_blue Wizard 11BLR.jpg",
 			"colors": ["U"],
 			"set": "BLR",
-			"collector_number": "5",
+			"collector_number": "6",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Prowess",
@@ -3716,10 +3703,10 @@
 			"name": "green Elf 11BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/10t_green Elf 11BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/11t_green Elf 11BLR.jpg",
 			"colors": ["G"],
 			"set": "BLR",
-			"collector_number": "10",
+			"collector_number": "11",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3729,10 +3716,10 @@
 			"name": "black Zombie 22BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/7t_black Zombie 22BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/8t_black Zombie 22BLR.jpg",
 			"colors": ["B"],
 			"set": "BLR",
-			"collector_number": "7",
+			"collector_number": "8",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3742,10 +3729,10 @@
 			"name": "black Demon 55BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/6t_black Demon 55BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/7t_black Demon 55BLR.jpg",
 			"colors": ["B"],
 			"set": "BLR",
-			"collector_number": "6",
+			"collector_number": "7",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3765,6 +3752,19 @@
 		},
 		
 		{
+			"name": "blue Drake 33BLR",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/5t_blue Drake 33BLR.jpg",
+			"colors": ["U"],
+			"set": "BLR",
+			"collector_number": "5",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Flying",
+		},
+		
+		{
 			"name": "blue Drake BLR",
 			"mana_cost": "",
 			"type": "Token",
@@ -3781,10 +3781,10 @@
 			"name": "green Elemental 44BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/9t_green Elemental 44BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/10t_green Elemental 44BLR.jpg",
 			"colors": ["G"],
 			"set": "BLR",
-			"collector_number": "9",
+			"collector_number": "10",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3794,10 +3794,10 @@
 			"name": "green Spider 12BLR",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/11t_green Spider 12BLR.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/12t_green Spider 12BLR.jpg",
 			"colors": ["G"],
 			"set": "BLR",
-			"collector_number": "11",
+			"collector_number": "12",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Reach",
@@ -4107,12 +4107,12 @@
 [Token]
 20 red Soldier 11BLR
 20 white Spirit 11MSEMAR
-20 Treasure BLR
 20 blue Wizard 11BLR
 20 green Elf 11BLR
 20 black Zombie 22BLR
 20 black Demon 55BLR
 20 white Soldier 11BLR
+20 blue Drake 33BLR
 20 blue Drake BLR
 20 green Elemental 44BLR
 20 green Spider 12BLR

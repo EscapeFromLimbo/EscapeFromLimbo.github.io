@@ -262,7 +262,7 @@
 				"collector_number": "168",
 				"rarity": "mythic",
 				"subtypes": [],
-				"oracle_text": "If Devika would be put into a graveyard from anywhere, exile her instead.\n[+1]: Create a 2/2 black Zombie creature token with \"This creature can't block.\" You gain 2 life.\n[-1]: Target player sacrifices a nonland permanent. If that permanent had mana value 2 or less, Devika phases out.\n[-6]: You get an emblem with \"Whenever an opponent loses life, you gain that much life.\" Then each opponent loses 5 life.\n[-6]: You get an emblem with \"Whenever an opponent loses life, you gain that much life.\" Then each opponent loses 5 life.",
+				"oracle_text": "If Devika would be put into a graveyard from anywhere, exile her instead.\n[+1]: Create a 2/2 black Zombie creature token with \"This creature can't block.\" You gain 2 life.\n[-1]: Target player sacrifices a nonland permanent. If that permanent had mana value 2 or less, Devika phases out.\n[-6]: You get an emblem with \"Whenever an opponent loses life, you gain that much life.\" Then each opponent loses 5 life.",
 			}
 		},
 		
@@ -913,7 +913,7 @@
 			"collector_number": "289",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Crucible of Bound Flame enters the battlefield tapped unless you control a Plains.\n{T}: Add {R}.\n{1}{W}{W}: Until end of turn Crucible of Bound Flame becomes a 2/2 red and white Cleric creature until end of turn. It's still a land.\nWhenever Crucible of Bound Flame attacks, other creatures you control get +1/+0 until end of turn.",
+			"oracle_text": "Crucible of Bound Flame enters the battlefield tapped unless you control a Plains.\n{T}: Add {R}.\n{1}{W}{W}: Until end of turn Crucible of Bound Flame becomes a 2/2 red and white Cleric creature. It's still a land.\nWhenever Crucible of Bound Flame attacks, other creatures you control get +1/+0 until end of turn.",
 		},
 		
 		{
@@ -1602,7 +1602,7 @@
 			"collector_number": "293",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Gallowsprout Timber enters the battlefield tapped unless you control a Swamp.\n{T}: Add {G}.\n{1}{B}{B}: Until end of turn, Gallowsprout Timber becomes a 3/3 black and green Dryad Spirit creature until end of turn. It's still a land.\nWhenever Gallowsprout Timber attacks, exile target card from a graveyard. You gain 2 life.",
+			"oracle_text": "Gallowsprout Timber enters the battlefield tapped unless you control a Swamp.\n{T}: Add {G}.\n{1}{B}{B}: Until end of turn, Gallowsprout Timber becomes a 3/3 black and green Dryad Spirit creature. It's still a land.\nWhenever Gallowsprout Timber attacks, exile target card from a graveyard. You gain 2 life.",
 		},
 		
 		{
@@ -3772,7 +3772,7 @@
 			"collector_number": "273",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you attack, create a token that's a copy of target attacking creature, except it's 1/1 and it has \"At the beginning of your end step, exile this token.\"\nTriggered abilities you control can't cause you to sacrifice or exile creature tokens you control.",
+			"oracle_text": "Whenever you attack, create a tapped and attacking token that's a copy of target attacking creature, except it's 1/1 and it has \"At the beginning of your end step, exile this token.\"\nTriggered abilities you control can't cause you to sacrifice or exile creature tokens you control.",
 		},
 		
 		{
