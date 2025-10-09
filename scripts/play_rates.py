@@ -19,7 +19,7 @@ def get_play_rates():
 				exists = True
 			if i > 21 and i < 25:
 				exists = True
-			if i == 25 and j < 10:
+			if i == 25 and j <= 10:
 				exists = True
 			if i == 22 and j == 4:
 				exists = False
