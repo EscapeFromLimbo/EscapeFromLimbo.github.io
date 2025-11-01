@@ -9860,7 +9860,7 @@
 				"type_line": "Creature - Cat Archer",
 				"board": "mainboard",
 				"details": {
-					"name": "Schematic Archer ",
+					"name": "Schematic Archer",
 					"color_identity": ["G"],
 					"mana_cost": "{2}{G}{G}",
 					"set_code": "ERR"
@@ -13925,7 +13925,7 @@
 			,
 			{
 				"cmc": 1,
-				"type_line": "Creature - Crocodile Rogue",
+				"type_line": "Creature - Crocodile Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Aspiring Anarchist",
@@ -14144,7 +14144,7 @@
 				"type_line": "Creature - Human Advisor",
 				"board": "mainboard",
 				"details": {
-					"name": "Cabinet Recruiter ",
+					"name": "Cabinet Recruiter",
 					"color_identity": ["G"],
 					"mana_cost": "{2}{G}",
 					"set_code": "CNY"
@@ -14248,25 +14248,25 @@
 			}
 			,
 			{
-				"cmc": 2,
+				"cmc": 1,
 				"type_line": "Creature - Lhurgoyf",
 				"board": "mainboard",
 				"details": {
 					"name": "Chromagoyf",
 					"color_identity": ["G"],
-					"mana_cost": "{1}{G}",
+					"mana_cost": "{G}",
 					"set_code": "CNY"
 				}
 			}
 			,
 			{
-				"cmc": 5,
+				"cmc": 4,
 				"type_line": "Sorcery",
 				"board": "mainboard",
 				"details": {
 					"name": "Chromatic Rift",
 					"color_identity": ["W"],
-					"mana_cost": "{3}{W}{W}",
+					"mana_cost": "{2}{W}{W}",
 					"set_code": "CNY"
 				}
 			}
@@ -14620,13 +14620,13 @@
 			}
 			,
 			{
-				"cmc": 3,
+				"cmc": 2,
 				"type_line": "Enchantment - Policy",
 				"board": "mainboard",
 				"details": {
 					"name": "Distributive Justice // Equality",
 					"color_identity": ["W"],
-					"mana_cost": "{2}{W}",
+					"mana_cost": "{1}{W}",
 					"set_code": "CNY"
 				}
 			}
@@ -14669,7 +14669,7 @@
 			,
 			{
 				"cmc": 5,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Empowered Revisionary",
@@ -14699,6 +14699,18 @@
 					"name": "Enlightenment",
 					"color_identity": ["U"],
 					"mana_cost": "{4}{U}",
+					"set_code": "CNY"
+				}
+			}
+			,
+			{
+				"cmc": 4,
+				"type_line": "Creature - Human Soldier",
+				"board": "mainboard",
+				"details": {
+					"name": "Envoy of the Fallen",
+					"color_identity": ["U","B","R"],
+					"mana_cost": "{1}{U}{B}{R}",
 					"set_code": "CNY"
 				}
 			}
@@ -14800,18 +14812,6 @@
 			}
 			,
 			{
-				"cmc": 3,
-				"type_line": "Creature - Human Survivor",
-				"board": "mainboard",
-				"details": {
-					"name": "Exemplar of Grit",
-					"color_identity": ["U","B","R"],
-					"mana_cost": "{U}{B}{R}",
-					"set_code": "CNY"
-				}
-			}
-			,
-			{
 				"cmc": 2,
 				"type_line": "Creature - Minion",
 				"board": "mainboard",
@@ -14897,7 +14897,7 @@
 			,
 			{
 				"cmc": 2,
-				"type_line": "Artifact Creature - Human Rogue",
+				"type_line": "Artifact Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Flaw in the System",
@@ -14932,13 +14932,13 @@
 			}
 			,
 			{
-				"cmc": 3,
+				"cmc": 7,
 				"type_line": "Creature - Dwarf Goblin Human",
 				"board": "mainboard",
 				"details": {
 					"name": "Freightyard Scrappers",
 					"color_identity": ["B","R","G"],
-					"mana_cost": "{B}{R}{G}",
+					"mana_cost": "{4}{B}{R}{G}",
 					"set_code": "CNY"
 				}
 			}
@@ -15041,7 +15041,7 @@
 			,
 			{
 				"cmc": 1,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Getaway Proxy",
@@ -15052,13 +15052,13 @@
 			}
 			,
 			{
-				"cmc": 2,
+				"cmc": 1,
 				"type_line": "Enchantment - Policy",
 				"board": "mainboard",
 				"details": {
 					"name": "Golden Age // Harmony",
 					"color_identity": ["G"],
-					"mana_cost": "{1}{G}",
+					"mana_cost": "{G}",
 					"set_code": "CNY"
 				}
 			}
@@ -15256,13 +15256,13 @@
 			}
 			,
 			{
-				"cmc": 5,
+				"cmc": 4,
 				"type_line": "Creature - Human Advisor",
 				"board": "mainboard",
 				"details": {
 					"name": "Inflammatory Declaimer",
 					"color_identity": ["R"],
-					"mana_cost": "{4}{R}",
+					"mana_cost": "{3}{R}",
 					"set_code": "CNY"
 				}
 			}
@@ -15281,7 +15281,7 @@
 			,
 			{
 				"cmc": 2,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Inner City Scout",
@@ -15305,7 +15305,7 @@
 			,
 			{
 				"cmc": 5,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Insurgency Mentor",
@@ -15497,7 +15497,7 @@
 			,
 			{
 				"cmc": 2,
-				"type_line": "Creature - Lizard Rogue",
+				"type_line": "Creature - Lizard Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Main Street Hooligang",
@@ -15605,7 +15605,7 @@
 			,
 			{
 				"cmc": 5,
-				"type_line": "Legendary Creature - Human Rogue",
+				"type_line": "Legendary Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Mondo, Outcast Maverick",
@@ -15617,7 +15617,7 @@
 			,
 			{
 				"cmc": 5,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Mutinous Inciter",
@@ -15688,13 +15688,13 @@
 			}
 			,
 			{
-				"cmc": 4,
+				"cmc": 5,
 				"type_line": "Creature - Human Elder",
 				"board": "mainboard",
 				"details": {
 					"name": "Old Times Ruminator",
 					"color_identity": ["B"],
-					"mana_cost": "{2}{B}{B}",
+					"mana_cost": "{4}{B}",
 					"set_code": "CNY"
 				}
 			}
@@ -15784,13 +15784,13 @@
 			}
 			,
 			{
-				"cmc": 3,
-				"type_line": "Creature - Human Rogue",
+				"cmc": 4,
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Penrath Dispatcher",
 					"color_identity": ["R","G","W"],
-					"mana_cost": "{R}{G}{W}",
+					"mana_cost": "{1}{R}{G}{W}",
 					"set_code": "CNY"
 				}
 			}
@@ -15809,7 +15809,7 @@
 			,
 			{
 				"cmc": 5,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Penrath Firearm",
@@ -15821,7 +15821,7 @@
 			,
 			{
 				"cmc": 6,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Penrath Roperunner",
@@ -16037,7 +16037,7 @@
 			,
 			{
 				"cmc": 3,
-				"type_line": "Creature - Human Scout",
+				"type_line": "Creature - Human Insect Scout",
 				"board": "mainboard",
 				"details": {
 					"name": "Reconnaissance Agent",
@@ -16109,7 +16109,7 @@
 			,
 			{
 				"cmc": 3,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Revolutionary Throng",
@@ -16133,7 +16133,7 @@
 			,
 			{
 				"cmc": 3,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Rogue Justiciar",
@@ -16180,13 +16180,13 @@
 			}
 			,
 			{
-				"cmc": 3,
-				"type_line": "Instant",
+				"cmc": 5,
+				"type_line": "Sorcery",
 				"board": "mainboard",
 				"details": {
 					"name": "Scandalous Revelation",
 					"color_identity": ["W","U","B"],
-					"mana_cost": "{X}{W}{U}{B}",
+					"mana_cost": "{2}{W}{U}{B}",
 					"set_code": "CNY"
 				}
 			}
@@ -16241,7 +16241,7 @@
 			,
 			{
 				"cmc": 4,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Seasoned Spymaster",
@@ -16384,20 +16384,20 @@
 			}
 			,
 			{
-				"cmc": 2,
+				"cmc": 1,
 				"type_line": "Creature - Human Artificer",
 				"board": "mainboard",
 				"details": {
 					"name": "Sillaman Regrafter",
 					"color_identity": ["G"],
-					"mana_cost": "{1}{G}",
+					"mana_cost": "{G}",
 					"set_code": "CNY"
 				}
 			}
 			,
 			{
 				"cmc": 2,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Sleeper Insurgent",
@@ -16684,20 +16684,20 @@
 			}
 			,
 			{
-				"cmc": 3,
-				"type_line": "Legendary Creature - Human Noble",
+				"cmc": 4,
+				"type_line": "Legendary Creature - Human Advisor",
 				"board": "mainboard",
 				"details": {
 					"name": "Tomer, Figurehead President",
-					"color_identity": [],
-					"mana_cost": "{3}",
+					"color_identity": ["W","U","B","R","G"],
+					"mana_cost": "{4}",
 					"set_code": "CNY"
 				}
 			}
 			,
 			{
 				"cmc": 2,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Trailblazer Anarch",
@@ -16781,7 +16781,7 @@
 			,
 			{
 				"cmc": 4,
-				"type_line": "Creature - Human Rogue",
+				"type_line": "Creature - Human Rebel",
 				"board": "mainboard",
 				"details": {
 					"name": "Urban Twinmotors",
@@ -16792,13 +16792,13 @@
 			}
 			,
 			{
-				"cmc": 3,
+				"cmc": 2,
 				"type_line": "Creature - Human Noble",
 				"board": "mainboard",
 				"details": {
 					"name": "Venture Capitalist",
 					"color_identity": ["R"],
-					"mana_cost": "{1}{R}{R}",
+					"mana_cost": "{1}{R}",
 					"set_code": "CNY"
 				}
 			}
@@ -16834,7 +16834,7 @@
 				"details": {
 					"name": "Veto",
 					"color_identity": ["U"],
-					"mana_cost": "{U}",
+					"mana_cost": "{X}{U}",
 					"set_code": "CNY"
 				}
 			}
@@ -45388,13 +45388,13 @@
 			}
 			,
 			{
-				"cmc": 4,
+				"cmc": 2,
 				"type_line": "Artifact",
 				"board": "mainboard",
 				"details": {
 					"name": "Monument to Vanity",
 					"color_identity": ["B","R"],
-					"mana_cost": "{2}{B}{R}",
+					"mana_cost": "{B}{R}",
 					"set_code": "VRD"
 				}
 			}

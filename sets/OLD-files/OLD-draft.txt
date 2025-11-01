@@ -544,10 +544,10 @@
 			"name": "Bring Down the Sky",
 			"mana_cost": "{X}{R}{R}",
 			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/OLD-files/img/136_Bring Down the Sky.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/OLD-files/img/139_Bring Down the Sky.jpg",
 			"colors": ["R"],
 			"set": "OLD",
-			"collector_number": "136",
+			"collector_number": "139",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Bring Down the Sky deals X damage to each creature and each planeswalker. Put up to X exiled cards with flashback you own into your graveyard.",
@@ -2916,7 +2916,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Create a 1/1 green Saproling creature token for each permanent card you own in your graveyard and in exile.\nFlashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Create a 1/1 green Saproling creature token for each permanent card in your graveyard.\nFlashback-{3}{G}, Exile two permanent cards from your graveyard. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
 		},
 		
 		{

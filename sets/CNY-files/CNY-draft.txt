@@ -121,7 +121,7 @@
 			"collector_number": "65",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Ascend to Power enters, you may sacrifice a creature, discard a card, or pay 3 life. If you do, draw two cards.\nI - You've sacrificed a nonland permanent this turn.\nII - You've discarded a card this turn.\nIII - You've lost life this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Ascend to Power enters, you may sacrifice a creature, discard a card, or pay 3 life. If you do, draw two cards.\n{ql} - You've sacrificed a nonland permanent this turn.\n{ql} - You've discarded a card this turn.\n{ql} - You've lost life this turn.",
 			"back": {
 				"name": "Omnipotence",
 				"mana_cost": "",
@@ -289,7 +289,7 @@
 			"collector_number": "4",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nApproval - {5}, {T}: Tap target creature. This ability costs {X} less to activate, where X is the number of colors among permanents you control.",
+			"oracle_text": "Lifelink\n{5}, {T}: Tap target creature. This ability costs {X} less to activate, where X is your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -374,13 +374,13 @@
 			"name": "Cabinet Recruiter",
 			"mana_cost": "{2}{G}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/130_Cabinet Recruiter .jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/130_Cabinet Recruiter.jpg",
 			"colors": ["G"],
 			"set": "CNY",
 			"collector_number": "130",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Approval - When Cabinet Recruiter enters, you may search your library for a creature card with mana value less than or equal to the number of colors among permanents you control, reveal it, put it into your hand, then shuffle.",
+			"oracle_text": "When Cabinet Recruiter enters, you may search your library for a creature card with mana value less than or equal to your approval, reveal it, put it into your hand, then shuffle. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -489,7 +489,7 @@
 		
 		{
 			"name": "Chromagoyf",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{G}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/131_Chromagoyf.jpg",
 			"colors": ["G"],
@@ -497,12 +497,12 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nApproval - Chromagoyf's power and toughness are each equal to the number of colors among permanents you control.",
+			"oracle_text": "Chromagoyf's power is equal to your approval and its toughness is equal to that number plus 1. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
 			"name": "Chromatic Rift",
-			"mana_cost": "{3}{W}{W}",
+			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/6_Chromatic Rift.jpg",
 			"colors": ["W"],
@@ -510,7 +510,7 @@
 			"collector_number": "6",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Choose any number -\n• Destroy all multicolored creatures.\n• Destroy all monocolored creatures.\n• Destroy all colorless creatures.",
+			"oracle_text": "Choose one -\n• Destroy all multicolored creatures.\n• Destroy all monocolored creatures.\n• Destroy all colorless creatures.",
 		},
 		
 		{
@@ -640,7 +640,7 @@
 			"collector_number": "41",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nApproval - When Congressional Kraken enters, return each nonland permanent with mana value less than or equal to the number of colors among permanents you control to their owners' hands.",
+			"oracle_text": "Flash\nWhen Congressional Kraken enters, return each nonland permanent with mana value less than or equal to your approval to their owners' hands. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -744,7 +744,7 @@
 			"collector_number": "42",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - When Dampening Reconciliator enters, tap up to one target creature and put X stun counters on it, where X is the number of colors among permanents you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+			"oracle_text": "When Dampening Reconciliator enters, tap up to one target creature and put X stun counters on it, where X is your approval. (Your approval contains up to one different permanent of each color. If a permanent with a stun counter would become untapped, remove one from it instead.)",
 		},
 		
 		{
@@ -892,7 +892,7 @@
 		
 		{
 			"name": "Distributive Justice",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/8_Distributive Justice_front.jpg",
 			"colors": ["W"],
@@ -900,7 +900,7 @@
 			"collector_number": "8",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Distributive Justice enters, distribute three +1/+1 counters among any number of target creatures you control.\nYou control three or more creatures with the same power.\nYou control three or more creatures with the same toughness.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Distributive Justice enters, distribute up to two +1/+1 counters among one or two target creatures you control.\n{ql} - You control two or more creatures with the same power.\n{ql} - You control two or more creatures with the same toughness.",
 			"back": {
 				"name": "Equality",
 				"mana_cost": "",
@@ -911,7 +911,7 @@
 				"collector_number": "8",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "At the beginning of each combat, until end of turn, creatures you control have base power equal to the greatest base power among creatures you control and have base toughness equal to the greatest base toughness among creatures you control.",
+				"oracle_text": "Whenever you attack, draw a card if you control two or more attacking creatures with the same power or the same toughness.",
 			}
 		},
 		
@@ -994,13 +994,26 @@
 		},
 		
 		{
+			"name": "Envoy of the Fallen",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/178_Envoy of the Fallen.jpg",
+			"colors": ["U","B","R"],
+			"set": "CNY",
+			"collector_number": "178",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "Lifelink\nWhen Envoy of the Fallen enters, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
+		},
+		
+		{
 			"name": "Eo, the Great Equalizer",
 			"mana_cost": "{R}{G}{W}",
 			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/178_Eo, the Great Equalizer.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/179_Eo, the Great Equalizer.jpg",
 			"colors": ["W","R","G"],
 			"set": "CNY",
-			"collector_number": "178",
+			"collector_number": "179",
 			"rarity": "mythic",
 			"subtypes": [],
 			"oracle_text": "Trample\nOther creatures have base power and toughness 3/3.\nAt the beginning of your end step, sacrifice Eo unless you attacked this turn.",
@@ -1049,10 +1062,10 @@
 			"name": "Estrathian Gentrifiers",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/179_Estrathian Gentrifiers.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/180_Estrathian Gentrifiers.jpg",
 			"colors": ["R","G"],
 			"set": "CNY",
-			"collector_number": "179",
+			"collector_number": "180",
 			"rarity": "mythic",
 			"subtypes": [],
 			"oracle_text": "Estrathian Gentrifiers's power is equal to the number of differently named lands you control.\nWhenever Estrathian Gentrifiers enters or attacks, you may sacrifice a basic land. If you do, search your library for a land card, put it onto the battlefield, then shuffle.",
@@ -1095,19 +1108,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Executive Office enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any black or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
-		},
-		
-		{
-			"name": "Exemplar of Grit",
-			"mana_cost": "{U}{B}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/180_Exemplar of Grit.jpg",
-			"colors": ["U","B","R"],
-			"set": "CNY",
-			"collector_number": "180",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Exemplar of Grit dies while attacking, return it to the battlefield tapped under its owner's control with a defender counter on it.\nWhen Exemplar of Grit dies while blocking, return it to the battlefield tapped under its owner's control with a decayed counter on it. (It can't block. When it attacks, sacrifice it at end of combat.)",
 		},
 		
 		{
@@ -1211,7 +1211,7 @@
 			"collector_number": "104",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever a player casts a spell, if no mana from a basic source was spent to cast it, Flaw in the System deals 2 damage to that player.",
+			"oracle_text": "Haste\nWhenever a player spends one or more mana from a nonbasic source, Flaw in the System deals 1 damage to that player.",
 		},
 		
 		{
@@ -1224,7 +1224,7 @@
 			"collector_number": "105",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Approval - When Flock Favorites enters, exile the top X cards of your library, where X is the number of colors among permanents you control. Until the end of your next turn, you may play those cards.",
+			"oracle_text": "When Flock Favorites enters, exile the top X cards of your library, where X is your approval. Until the end of your next turn, you may play those cards. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1250,7 +1250,7 @@
 			"collector_number": "183",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Free Market enters, target creature gets +2/+2 until end of turn.\nYou control a creature with power 4 or greater.\nYou control a creature with toughness 4 or greater.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Free Market enters, target creature gets +2/+2 until end of turn.\n{ql} - You control a creature with power 4 or greater.\n{ql} - You control a creature with toughness 4 or greater.",
 			"back": {
 				"name": "Industrialism",
 				"mana_cost": "",
@@ -1267,7 +1267,7 @@
 		
 		{
 			"name": "Freightyard Scrappers",
-			"mana_cost": "{B}{R}{G}",
+			"mana_cost": "{4}{B}{R}{G}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/184_Freightyard Scrappers.jpg",
 			"colors": ["B","R","G"],
@@ -1275,7 +1275,7 @@
 			"collector_number": "184",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Freightyard Scrappers attacks, create a Treasure token.\n{X}, Sacrifice an artifact: Return target artifact card with mana value X or less from your graveyard to the battlefield. Activate only as a sorcery and only once each turn.",
+			"oracle_text": "As an additional cost to cast this spell, you may sacrifice a nonland permanent. If you do, it costs {X} less to cast, where X is that permanent's mana value.\nWard-Sacrifice a nonland permanent.\nWhenever Freightyard Scrappers attacks, each opponent sacrifices a nonland permanent.",
 		},
 		
 		{
@@ -1327,7 +1327,7 @@
 			"collector_number": "49",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "You may look at the top card of your library any time.\nApproval - Once during each of your turns, you may cast a spell with mana value less than or equal to the number of colors among permanents you control from your hand or the top of your library without paying its mana cost.",
+			"oracle_text": "You may look at the top card of your library any time.\nOnce during each of your turns, you may play a land or cast a spell with mana value less than or equal to your approval from your hand or the top of your library without paying its mana cost. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1379,7 +1379,7 @@
 			"collector_number": "136",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nApproval - {1}{G}: Target creature gets +X/+X until end of turn, where X is the number of colors among permanents you control. Activate only once each turn and only as a sorcery.",
+			"oracle_text": "Vigilance\n{1}{G}: Target creature gets +X/+X until end of turn, where X is your approval. Activate only once each turn and only as a sorcery. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1397,7 +1397,7 @@
 		
 		{
 			"name": "Golden Age",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{G}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/137_Golden Age_front.jpg",
 			"colors": ["G"],
@@ -1405,7 +1405,7 @@
 			"collector_number": "137",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Golden Age enters, you may sacrifice a land. If you do, search your library for a land card, put it onto the battlefield, then shuffle.\nYou've cast a multicolored spell this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Golden Age enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{ql}, {ql}, {ql} - You've cast a multicolored spell this turn.",
 			"back": {
 				"name": "Harmony",
 				"mana_cost": "",
@@ -1416,7 +1416,7 @@
 				"collector_number": "137",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "At the beginning of your upkeep, you may exile target multicolored card from your graveyard. You may cast a copy of it this turn. (You still pay its costs. A copy of a permanent spell becomes a token.)",
+				"oracle_text": "At the beginning of your upkeep, you may exile target multicolored card from your graveyard. If you do, you may cast a copy of it this turn. (You still pay its costs. A copy of a permanent spell becomes a token.)",
 			}
 		},
 		
@@ -1534,7 +1534,7 @@
 			"collector_number": "13",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature has defender.\nApproval - {2}: Exile enchanted creature if its power is less than or equal to the number of colors among permanents you control.",
+			"oracle_text": "Enchant creature\nEnchanted creature has defender.\n{2}: Exile enchanted creature if its power is less than or equal to your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1547,7 +1547,7 @@
 			"collector_number": "191",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When High Senator Talpa enters, choose target opponent. If you control fewer creatures than that player, create a number of 1/1 colorless Soldier creature tokens equal to the difference. If you have fewer cards in hand than that player, draw cards equal to the difference.",
+			"oracle_text": "Vigilance\nWhen High Senator Talpa enters or attacks, choose one -\n• If an opponent has more life than you, gain 3 life.\n• If an opponent controls more creatures than you, create a number of 1/1 colorless Soldier creature.\n• If an opponent has more cards in hand than you, draw a card. ",
 		},
 		
 		{
@@ -1630,7 +1630,7 @@
 		
 		{
 			"name": "Inflammatory Declaimer",
-			"mana_cost": "{4}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/110_Inflammatory Declaimer.jpg",
 			"colors": ["R"],
@@ -1638,7 +1638,7 @@
 			"collector_number": "110",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - When Inflammatory Declaimer enters, it deals X damage to each opponent, where X is the number of colors among permanents you control.",
+			"oracle_text": "When Inflammatory Declaimer enters, it deals X damage to each opponent, where X is your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1768,7 +1768,7 @@
 			"collector_number": "79",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nApproval - When Judge, Jury, and Executioner enters, exile up to one target creature with mana value less than or equal to the number of colors among permanents you control.",
+			"oracle_text": "Flying\nWhen Judge, Jury, and Executioner enters, exile up to one target creature with mana value less than or equal to your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -1963,7 +1963,7 @@
 			"collector_number": "196",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Meeting of the Elites enters, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nYou've sacrificed a nonland permanent this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Meeting of the Elites enters, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{ql}, {ql} - You've sacrificed a nonland permanent this turn.",
 			"back": {
 				"name": "Aristocracy",
 				"mana_cost": "",
@@ -2136,7 +2136,7 @@
 		
 		{
 			"name": "Old Times Ruminator",
-			"mana_cost": "{2}{B}{B}",
+			"mana_cost": "{4}{B}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/85_Old Times Ruminator.jpg",
 			"colors": ["B"],
@@ -2144,7 +2144,7 @@
 			"collector_number": "85",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "During your turn, you may play cards from your graveyard but not from anywhere else.\nWhenever you cast an instant or sorcery spell, exile that card instead of putting it into your graveyard as it resolves.\nIf another permanent you control would be put into your graveyard, exile it instead.",
+			"oracle_text": "Menace\nWhen Old Times Ruminator enters, create The Codex, a legendary colorless artifact token with \"{T}: Mill a card\" and \"{T}, Sacrifice this token: Search your library for a card, put it into your graveyard, then shuffle.\"\nOld Times Ruminator gets +1/+1 for each card in your graveyard.",
 		},
 		
 		{
@@ -2240,7 +2240,7 @@
 		
 		{
 			"name": "Penrath Dispatcher",
-			"mana_cost": "{R}{G}{W}",
+			"mana_cost": "{1}{R}{G}{W}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/204_Penrath Dispatcher.jpg",
 			"colors": ["W","R","G"],
@@ -2248,7 +2248,7 @@
 			"collector_number": "204",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Penrath Dispatcher attacks, you may put a creature card with mana value less than or equal to Penrath Dispatcher's power from your hand onto the battlefield tapped and attacking.\n{2}: Penrath Dispatcher gets +1/+1 until end of turn.",
+			"oracle_text": "Haste\nWhenever Penrath Dispatcher attacks, choose one. X is the number of attacking creatures.\n• Search your library for a creature card with mana value X or less, reveal it, put it into your hand, then shuffle.\n• You may put a creature card with mana value X or less from your hand onto the battlefield tapped and attacking.",
 		},
 		
 		{
@@ -2300,7 +2300,7 @@
 			"collector_number": "240",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell costs {1} less to cast for each counter among permanents you control.\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+			"oracle_text": "This spell costs {1} less to cast for each counter among creatures you control.\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
 		},
 		
 		{
@@ -2339,7 +2339,7 @@
 			"collector_number": "53",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Defender\nApproval - Political Prisoner can attack as though it didn't have defender as long as the number of colors among permanents you control is greater than the number of colors among permanents defending player controls.",
+			"oracle_text": "Defender\nPolitical Prisoner can attack as though it didn't have defender as long as your approval is greater than defending player's approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -2391,7 +2391,7 @@
 			"collector_number": "25",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Approval - When Prismatic Propagandist enters, create X 1/1 colorless Soldier creature tokens, where X is the number of colors among permanents you control.",
+			"oracle_text": "When Prismatic Propagandist enters, create X 1/1 colorless Soldier creature tokens, where X is your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -2573,7 +2573,7 @@
 			"collector_number": "55",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\nYou've cast two or more spells this turn.\nYou've drawn two or more cards this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
 			"back": {
 				"name": "Progress",
 				"mana_cost": "",
@@ -2637,7 +2637,7 @@
 			"collector_number": "89",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - This spell costs {X} less to cast, where X is the number of colors among permanents you control.\nExile target creature.",
+			"oracle_text": "This spell costs {X} less to cast, where X is your approval. (Your approval contains up to one different permanent of each color.)\nExile target creature.",
 		},
 		
 		{
@@ -2694,15 +2694,15 @@
 		
 		{
 			"name": "Scandalous Revelation",
-			"mana_cost": "{X}{W}{U}{B}",
-			"type": "Instant",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/208_Scandalous Revelation.jpg",
 			"colors": ["W","U","B"],
 			"set": "CNY",
 			"collector_number": "208",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, exile X cards from your graveyard.\nYou draw X cards and gain X life, then each opponent loses X life.",
+			"oracle_text": "Draw three cards, then discard any number of cards. When you do, destroy all nonland permanents with mana value X or less, where X is the number of cards you discarded. You gain X life.",
 		},
 		
 		{
@@ -2780,7 +2780,7 @@
 			"collector_number": "211",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nFlash\nWhen Security Initiative enters, you may tap or untap target nonland permanent. Then draw a card.\nAn opponent controls three or more tapped nonland permanents.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nFlash\n{ql}, {ql} - When Security Initiative enters, you may tap or untap target nonland permanent. Then draw a card.\nAn opponent controls three or more tapped nonland permanents.",
 			"back": {
 				"name": "Surveillance State",
 				"mana_cost": "",
@@ -2831,7 +2831,7 @@
 			"collector_number": "90",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - When Senators' Chauffeur enters, return up to one target creature card with mana value less than or equal to the number of colors among permanents you control from your graveyard to the battlefield.",
+			"oracle_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value less is than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
 		},
 		
 		{
@@ -2883,7 +2883,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Silence the Opposition enters, draw two cards, then discard a card.\nA creature card or creature token was put into your graveyard from anywhere this turn. ",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Silence the Opposition enters, draw two cards, then discard a card.\n{ql}, {ql}, {ql} - A creature card or creature token was put into your graveyard from anywhere this turn. ",
 			"back": {
 				"name": "Authoritarianism",
 				"mana_cost": "",
@@ -2939,7 +2939,7 @@
 		
 		{
 			"name": "Sillaman Regrafter",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{G}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/150_Sillaman Regrafter.jpg",
 			"colors": ["G"],
@@ -3012,7 +3012,7 @@
 			"collector_number": "122",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Sparks of a Revolution enters, create a 1/1 colorless Soldier creature token. It gains haste until end of turn.\nThree or more sources you controlled dealt damage this turn.\nA source you controlled dealt 3 or more damage this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Sparks of a Revolution enters, create a 1/1 colorless Soldier creature token. It gains haste until end of turn.\n{ql} - Three or more sources you controlled dealt damage this turn.\n{ql} - A source you controlled dealt 3 or more damage this turn.",
 			"back": {
 				"name": "Freedom",
 				"mana_cost": "",
@@ -3193,7 +3193,7 @@
 			"collector_number": "248",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Equipped creature gets +2/+2.\nAs long as there are five colors among permanents you control, equipped creature has indestructible.\nEquip {5}. This ability costs {1} less to activate for each of its target's colors.",
+			"oracle_text": "Equipped creature gets +2/+2 and has ward {X}, where X is the number of colors it is.\nWhenever a legendary creature you control attacks, you may attach The Majority Whip to it.\nEquip {3}",
 		},
 		
 		{
@@ -3284,7 +3284,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Together in Arms enters, create two 1/1 colorless Soldier creature tokens.\nYou controlled a spell that targeted a creature you controlled this turn.\nYou controlled an ability that targeted a creature you controlled this turn.",
+			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Together in Arms enters, create two 1/1 colorless Soldier creature tokens.\n{ql} - You controlled a spell that targeted a creature you controlled this turn.\n{ql} - You controlled an ability that targeted a creature you controlled this turn.",
 			"back": {
 				"name": "Communitarianism",
 				"mana_cost": "",
@@ -3301,15 +3301,15 @@
 		
 		{
 			"name": "Tomer, Figurehead President",
-			"mana_cost": "{3}",
+			"mana_cost": "{4}",
 			"type": "Legendary",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/1_Tomer, Figurehead President.jpg",
-			"colors": [],
+			"colors": ["W","U","B","R","G"],
 			"set": "CNY",
 			"collector_number": "1",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Spend only mana of different colors to cast this spell.\nFor each color among permanents you control, the first multicolored spell you cast each turn costs one mana of that color less to cast. This effect reduces only the amount of colored mana you pay.",
+			"oracle_text": "Tomer, Figurehead President is all colors and all creature types.\nSpells you cast have conspire. (As you cast a spell with conspire, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)",
 		},
 		
 		{
@@ -3361,7 +3361,7 @@
 			"collector_number": "155",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - When Triumphant Herd enters, you gain X life, where X is the number of colors among permanents you control.",
+			"oracle_text": "When Triumphant Herd enters, you gain X life, where X is your approval (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -3387,7 +3387,7 @@
 			"collector_number": "124",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Approval - {3}, {T}, Discard a card: Draw a card. This ability costs {X} less to activate, where X is the number of colors among permanents you control.",
+			"oracle_text": "{3}, {T}, Discard a card: Draw a card. This ability costs {X} less to activate, where X is your approval. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -3418,7 +3418,7 @@
 		
 		{
 			"name": "Venture Capitalist",
-			"mana_cost": "{1}{R}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/125_Venture Capitalist.jpg",
 			"colors": ["R"],
@@ -3426,7 +3426,7 @@
 			"collector_number": "125",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast an artifact spell, create a 0/0 colorless Robot artifact creature token with a +1/+1 counter on it.\n{2}, {T}: Add {R} for each artifact you control. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+			"oracle_text": "When Venture Capitalist enters, you may search your library for an artifact card, exile it, then shuffle. You may play that card this turn.\n{T}, Sacrifice an artifact: Add one mana of any color.",
 		},
 		
 		{
@@ -3457,7 +3457,7 @@
 		
 		{
 			"name": "Veto",
-			"mana_cost": "{U}",
+			"mana_cost": "{X}{U}",
 			"type": "Instant",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/63_Veto.jpg",
 			"colors": ["U"],
@@ -3465,7 +3465,7 @@
 			"collector_number": "63",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Approval - Counter target noncreature spell unless its controller pays {X}, where X is the number of colors among permanents you control.",
+			"oracle_text": "This spell costs {1} less to cast for each color in your approval. (Your approval contains up to one different permanent of each color.)\nCounter target noncreature spell unless its controller pays {X}.",
 		},
 		
 		{
@@ -3543,7 +3543,7 @@
 			"collector_number": "94",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Approval - When Warrant-Borne Cop enters, target player reveals X cards from their hand, where X is the number of colors among permanents you control. You choose one of them. That player discards that card.",
+			"oracle_text": "When Warrant-Borne Cop enters, target player reveals X cards from their hand, where X is your approval. You choose one of them. That player discards that card. (Your approval contains up to one different permanent of each color.)",
 		},
 		
 		{
@@ -3654,10 +3654,10 @@
 			"name": "Treasure CNY",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/14t_Treasure CNY.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/15t_Treasure CNY.jpg",
 			"colors": [],
 			"set": "CNY",
-			"collector_number": "14",
+			"collector_number": "15",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
@@ -3680,10 +3680,10 @@
 			"name": "colorless Robot 00CNY",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/12t_colorless Robot 00CNY.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/13t_colorless Robot 00CNY.jpg",
 			"colors": [],
 			"set": "CNY",
-			"collector_number": "12",
+			"collector_number": "13",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -3703,6 +3703,19 @@
 		},
 		
 		{
+			"name": "The Codex CNY",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/11t_The Codex CNY.jpg",
+			"colors": [],
+			"set": "CNY",
+			"collector_number": "11",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{T}: Mill a card.\n{T}, Sacrifice this token: Search your library for a card, put it into your graveyard, then shuffle.",
+		},
+		
+		{
 			"name": "red Berserker 22CNY",
 			"mana_cost": "",
 			"type": "Token",
@@ -3719,10 +3732,10 @@
 			"name": "colorless Equipment CNY",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/11t_colorless Equipment CNY.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/12t_colorless Equipment CNY.jpg",
 			"colors": [],
 			"set": "CNY",
-			"collector_number": "11",
+			"collector_number": "12",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Equipped creature gets +2/+0.\nEquip {2}",
@@ -3732,10 +3745,10 @@
 			"name": "Sentry of the New World CNY",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/13t_Sentry of the New World CNY.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/14t_Sentry of the New World CNY.jpg",
 			"colors": [],
 			"set": "CNY",
-			"collector_number": "13",
+			"collector_number": "14",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "(This token is all colors.)",
@@ -3843,7 +3856,7 @@
 10 Blackout
 10 Bug the Line
 10 Bureau Mentor
-10 Cabinet Recruiter 
+10 Cabinet Recruiter
 10 Carlisle, Grid Globalizer
 10 Central Processor
 10 Charity Match
@@ -3940,8 +3953,8 @@
 4 Disestablishmentarianism
 4 Distributive Justice
 4 Empowered Revisionary
+4 Envoy of the Fallen
 4 Estrathe, Center of Civilization
-4 Exemplar of Grit
 4 Eyes of the Bureau
 4 Flaw in the System
 4 Freightyard Scrappers
@@ -4024,6 +4037,7 @@
 20 colorless Soldier 11CNY
 20 colorless Robot 00CNY
 20 colorless Minion 22CNY
+20 The Codex CNY
 20 red Berserker 22CNY
 20 colorless Equipment CNY
 20 Sentry of the New World CNY
@@ -4128,7 +4142,7 @@
 4 Blackout
 4 Bug the Line
 4 Bureau Mentor
-4 Cabinet Recruiter 
+4 Cabinet Recruiter
 4 Carlisle, Grid Globalizer
 4 Central Processor
 4 Charity Match
@@ -4223,8 +4237,8 @@
 2 Disestablishmentarianism
 2 Distributive Justice
 2 Empowered Revisionary
+2 Envoy of the Fallen
 2 Estrathe, Center of Civilization
-2 Exemplar of Grit
 2 Eyes of the Bureau
 2 Flaw in the System
 2 Freightyard Scrappers
