@@ -338,7 +338,7 @@ def pull_all_images(play_rate_table):
 	#print(str(r.content))
 	s = str(r.content)
 	#print(s)
-	print(r.encoding)
+	#print(r.encoding)
 	allsets = requests.get(jsonurl).json()
 
 	tokenurl = "https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens.xml"
@@ -347,10 +347,10 @@ def pull_all_images(play_rate_table):
 	alltokens = str(r.content)
 	#print(s)
 
-	cubefilename = "custom/KDT-ERR CC Draftmancer.txt"
+	cubefilename = "custom/Curator's Cube Peasant List.txt"
 	f = open(cubefilename, "r", encoding='utf-8')
 
-	cubecards = [l.strip() for l in f.readlines() if len(l.strip()) > 0]
+	cubecards = [l.split('"name": "')[1].split('"')[0] for l in f.readlines() if '"name"' in l]
 
 	setnames = ["Exalts of Twiltrie", "Theros: Age of Trax", "Cliques of Nylin", "Errors in the Weft", "Chikyu: Chaos Rains", "Cybaros", "Awakening in Oldun", "Kitsuo: Dusk of Time",
 		"Hyperpop", "Duelists of Vereaux", "Blood Like Rivers", "Karslav", "Karsus", "Viridian's Last Mission", "Svergard", "Ghariv, the Quaking City",
@@ -450,9 +450,10 @@ def pull_all_images(play_rate_table):
 				if back:
 					cardfilename = f"sets/{setcodes[i]}-files/img/{c.number}_{c.backside}_back.jpg"
 				c.cardfilename = cardfilename
-				print(f"{setcodes[i]} #{c.number}: {c.card_name} at {c.cardfilename}")
+				
 				cardfilenames.append(cardfilename)
 				if not os.path.isfile(cardfilename):
+					print(f"Downloading {setcodes[i]} #{c.number}: {c.card_name} at {c.cardfilename}")
 					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 				setcards[i].append(c)
 
@@ -522,12 +523,12 @@ def pull_all_images(play_rate_table):
 					if card.card_name == c.card_name:
 						card_exists = True
 				if not card_exists:
-					print(f"{setcodes[i]} #{c.number}: {c.card_name}")
 					cardfilename = f"sets/{setcodes[i]}-files/img/{c.number}t_{c.card_name}.jpg"
 					c.cardfilename = cardfilename
 					cardfilenames.append(cardfilename)
 					try:
 						if not os.path.isfile(cardfilename):
+							print(f"Downloading Token {setcodes[i]} #{c.number}: {c.card_name}")
 							urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 						setcards[i].append(c)
 					except:
@@ -552,7 +553,7 @@ def pull_all_images(play_rate_table):
 	#	print(cubecard)
 
 	for i in range(num_sets):
-		print(setcodes[i])
+		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
 		if i < 7:
 			formatstring += ",standard,planechase"
@@ -801,6 +802,7 @@ def pull_all_images(play_rate_table):
 			with open(f"sets/{setcodes[i]}-files/{setcodes[i]}-draft.txt", "w", encoding="utf-8") as f:
 				f.write(draftfile)
 	print(f"{len(cubecards)} cube cards unaccounted for")
-	print(cubecards)
+	if len(cubecards) > 0:
+		print(cubecards)
 
-	#TODO: white border around set logos, autopopulate card play rates and winrates
+	#TODO: white border around set logos
