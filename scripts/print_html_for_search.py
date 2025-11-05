@@ -392,7 +392,7 @@ def generateHTML(codes):
 					continue;
 				}
 
-				if (!card.notes.includes("standard") && !searchTerms.includes("f:"))
+				if (!card.notes.includes("standard") && !searchTerms.includes("f:") && !searchTerms.includes("e:") && !searchTerms.includes("set:"))
 				{
 					continue;
 				}
