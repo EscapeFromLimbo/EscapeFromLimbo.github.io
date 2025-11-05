@@ -632,6 +632,8 @@ def pull_all_images(play_rate_table):
 				tags = tags + "\\n!tag staple"	
 			if play_rate >= 20:
 				tags = tags + "\\n!tag playable"	
+			if "_PRO" in card.card_name or "REV" in setcodes[i] or "(shiny)" in card.card_name or ")_" in card.card_name:
+				tags = tags + "\\n!tag promo"
 			if card.form in ["normal", "token"]:
 				cardtext = f'''
 					"card_name": "{card.card_name}",

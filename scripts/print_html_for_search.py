@@ -392,6 +392,11 @@ def generateHTML(codes):
 					continue;
 				}
 
+				if (!card.notes.includes("standard") && !searchTerms.includes("f:"))
+				{
+					continue;
+				}
+
 				if (card.rarity.includes("masterpiece") && !searchTerms.includes("+r:masterpiece") && !searchTerms.includes("+r:mp") && !searchTerms.includes("t:basic"))
 				{
 					continue;
