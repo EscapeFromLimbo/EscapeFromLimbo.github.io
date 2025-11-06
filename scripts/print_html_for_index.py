@@ -300,7 +300,7 @@ def generateHTML():
 					<br>
 					<p>By Color or Color Identity: c=w, ci&lt=ubr</p>
 					<br>
-					<p>By Type: t:Legendary, t:battle</p>
+					<p>By Type: t:legendary, t:battle</p>
 					<br>
 					<p>By Rarity: r:common, r&gtuncommon</p>
 					<br>

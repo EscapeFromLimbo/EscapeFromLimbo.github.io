@@ -452,6 +452,38 @@
 					return (a.play_rate < b.play_rate) ? -1 : 1;
 				}
 			}
+			if (sortMode == 'release_date')
+			{
+			   set_sort_order = ["PLANE", "REV", "VST", "SRC", "MON", "KUT", "GQC", "SVG", "VRD", "KRS", "KSV", "BLR", "DOV", "POP", "TRX", "OLD", "CYB", "CNY", "CCR", "ERR", "KDT", "TWI"];
+ 				a_set_index = -1;
+				b_set_index = -1;
+
+				for (let i = 0; i < color_sort_order.length; i++)
+				{
+					if (a.set == set_sort_order[i])
+					{
+						a_set_index = i;
+					}
+					if (b.set == set_sort_order[i])
+					{
+						b_set_index = i;
+					}
+				}
+
+				if (a_set_index === b_set_index)
+				{
+					if (a.card_name === b.card_name)
+					{
+						return 0;
+					}
+					else {
+						return (a.card_name < b.card_name) ? -1 : 1;
+					}
+				}
+				else {
+					return (a_set_index < b_set_index) ? -1 : 1;
+				} 
+			}
 			if (sortMode == 'mv')
 			{
 				//since cost is now formatted like {1}{U} instead of 1U, we need to remove the brackets from the string first
