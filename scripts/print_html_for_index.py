@@ -189,6 +189,8 @@ def generateHTML():
 		gap: 8px;
 		padding-top: 8px;
 		padding-bottom: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
 		height: fit-content;
 	}
 	.search-help p {
@@ -303,8 +305,8 @@ def generateHTML():
 					<p>By Rarity: r:common, r&gtuncommon</p>
 					<br>
 					<p>By Artist: a:finnstark, a:liiga</p>
-					<b>
-					<p>By Tag: is:staple, is:playable, is:promo, is:cube
+					<br>
+					<p>By Tag: is:staple, is:playable, is:promo, is:cube</p>
 				</div>
 			</div>
 		</div>
