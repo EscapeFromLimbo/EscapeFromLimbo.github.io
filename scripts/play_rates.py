@@ -61,7 +61,8 @@ def get_play_rates():
 			playerName = deck.split("\"")[0].lower().replace("_", "")
 			cards = deck.split("\"mainCount\":")[1:]
 			deckTable[playerName] = []
-			totalDecks += 1
+			
+			deckHasCards = False
 			for card in cards:
 				#print(card)
 				cardName = card.split("\"displayName\":\"")[1].split("\"")[0]
@@ -70,6 +71,8 @@ def get_play_rates():
 					setCode = "KSV"
 				copiesMain = int(card.split(",")[0])
 				copiesSide = int(card.split("\"sideCount\":")[1].split(",")[0])
+				if copiesMain > 0 or copiesSide > 0:
+					deckHasCards  = True
 				deckTable[playerName].append(cardName)
 				if cardName not in cardSets:
 					cardSets[cardName] = []	
@@ -84,6 +87,8 @@ def get_play_rates():
 				if setCode not in setTotalDecks:
 					setTotalDecks[setCode] = 0
 				cardsInGP.append(cardName)
+			if deckHasCards:
+				totalDecks += 1
 
 
 		deckTable["Bye"] = []
@@ -172,9 +177,13 @@ def get_play_rates():
 	#for card in cardGames:
 	#	print(f"{card.replace(',', '')}, {cardSets[card]}, {cardWins[card]}, {cardGames[card] - cardWins[card]}, {cardGames[card]}, {cardWins[card] / cardGames[card]}, {cardTopCuts[card]}, {cardDecks[card]}, {cardTopCuts[card] / cardDecks[card]}, {cardMainCount[card]}, {cardSideCount[card]}")
 
+	print("Total decks for each set")
 	print(setTotalDecks)
 	cardPlayRates = {}
 	for cardName in cardGames:
+		if "Advance of Fire" in cardName:
+			print("Advance of Fire and Faith count")
+			print(cardMainCount[cardName] + cardSideCount[cardName])
 		totalPossibleDecks = 0
 		desanName = cardName.replace("\\", "")
 		for setCode in cardSets[cardName]:
