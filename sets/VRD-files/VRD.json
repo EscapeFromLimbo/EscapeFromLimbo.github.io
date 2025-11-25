@@ -2433,7 +2433,7 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "Nadim Zaidi",
-            "play_rate": 1923,
+            "play_rate": 1936,
             "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
@@ -2908,7 +2908,7 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "Nadim Zaidi",
-            "play_rate": 2469,
+            "play_rate": 2480,
             "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
@@ -3193,7 +3193,7 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "T. Hansz",
-            "play_rate": 1690,
+            "play_rate": 1706,
             "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
@@ -4333,7 +4333,7 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "Christopher Scoles",
-            "play_rate": 2518,
+            "play_rate": 2525,
             "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
@@ -5188,8 +5188,8 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "Fred Gambino",
-            "play_rate": 0,
-            "notes": "\n!tageternal\n!tag rotated"
+            "play_rate": 148,
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
             "card_name": "Worldender Engine_VRD",
@@ -5435,8 +5435,8 @@
             "set": "VRD",
             "loyalty": "",
             "artist": "Jordan Grimmer",
-            "play_rate": 0,
-            "notes": "\n!tageternal\n!tag rotated\n!tag promo"
+            "play_rate": 148,
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Gilded Lotus VRD",
@@ -5563,6 +5563,44 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
+            "special_text": "",
+            "shape": "token",
+            "set": "VRD",
+            "loyalty": "",
+            "artist": "",
+            "play_rate": 0,
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
+            "card_name": "Simone Birch VRD",
+            "color": "B",
+            "rarity": "common",
+            "type": "Legendary Token Creature - Human Warlock Minion",
+            "number": 8,
+            "color_identity": "",
+            "cost": "",
+            "rules_text": "Deathtouch",
+            "flavor_text": "[i][/i]",
+            "pt": "3/4",
+            "special_text": "",
+            "shape": "token",
+            "set": "VRD",
+            "loyalty": "",
+            "artist": "",
+            "play_rate": 0,
+            "notes": "\n!tageternal\n!tag rotated"
+        },
+        {
+            "card_name": "Jamesson Stet VRD",
+            "color": "B",
+            "rarity": "common",
+            "type": "Legendary Token Creature - Human Warrior Minion",
+            "number": 5,
+            "color_identity": "",
+            "cost": "",
+            "rules_text": "Menace",
+            "flavor_text": "[i][/i]",
+            "pt": "4/3",
             "special_text": "",
             "shape": "token",
             "set": "VRD",

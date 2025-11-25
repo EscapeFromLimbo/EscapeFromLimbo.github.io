@@ -3742,6 +3742,19 @@
 		},
 		
 		{
+			"name": "Chaneryx, Perfect Lifeform CNY",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/5t_Chaneryx, Perfect Lifeform CNY.jpg",
+			"colors": ["G","W","U"],
+			"set": "CNY",
+			"collector_number": "5",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Ward {10} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {10}.)",
+		},
+		
+		{
 			"name": "Sentry of the New World CNY",
 			"mana_cost": "",
 			"type": "Token",
@@ -4040,6 +4053,7 @@
 20 The Codex CNY
 20 red Berserker 22CNY
 20 colorless Equipment CNY
+20 Chaneryx, Perfect Lifeform CNY
 20 Sentry of the New World CNY
 
 [Wildcard]

@@ -3713,6 +3713,32 @@
 		},
 		
 		{
+			"name": "Simone Birch VRD",
+			"mana_cost": "",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/8t_Simone Birch VRD.jpg",
+			"colors": ["B"],
+			"set": "VRD",
+			"collector_number": "8",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Deathtouch",
+		},
+		
+		{
+			"name": "Jamesson Stet VRD",
+			"mana_cost": "",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/VRD-files/img/5t_Jamesson Stet VRD.jpg",
+			"colors": ["B"],
+			"set": "VRD",
+			"collector_number": "5",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		},
+		
+		{
 			"name": "green Ninja 22VRD",
 			"mana_cost": "",
 			"type": "Token",
@@ -4238,6 +4264,8 @@
 20 black Minion 11VRD
 20 white Cleric 11VRD
 20 green Nightmare Sliver 11VRD
+20 Simone Birch VRD
+20 Jamesson Stet VRD
 20 green Ninja 22VRD
 20 colorless Minion 11VRD
 20 red Shark VRD

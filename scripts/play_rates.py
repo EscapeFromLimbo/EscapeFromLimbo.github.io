@@ -181,13 +181,15 @@ def get_play_rates():
 	print(setTotalDecks)
 	cardPlayRates = {}
 	for cardName in cardGames:
-		if "Advance of Fire" in cardName:
-			print("Advance of Fire and Faith count")
+		if "A Journey" in cardName:
+			print("Journey Begins count")
 			print(cardMainCount[cardName] + cardSideCount[cardName])
 		totalPossibleDecks = 0
 		desanName = cardName.replace("\\", "")
 		for setCode in cardSets[cardName]:
 			totalPossibleDecks += setTotalDecks[setCode]
+			if "A Journey" in cardName:
+				print(f"set {setCode} adds {setTotalDecks[setCode]}")
 		if totalPossibleDecks == 0:
 			cardPlayRates[desanName] = 0
 		elif len(cardSets[cardName]) > 10:

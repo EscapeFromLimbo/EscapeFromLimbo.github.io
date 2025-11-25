@@ -495,7 +495,7 @@ def pull_all_images(play_rate_table):
 			continue
 		if "set num=\"PLANE" in token:
 			continue
-		if not "<type>Token" in token:
+		if not "<type>Token" in token and not "Legendary" in token:
 			continue
 		c = Card()
 		c.card_name = extract(token, "name").replace("\\", "").replace("// ", "").replace("é", "e").replace("“", "").replace("”", "").replace(":", "").replace("★", "(shiny)").replace("\"", "")
@@ -504,6 +504,8 @@ def pull_all_images(play_rate_table):
 		c.color_identity = ""	
 		c.rarity = "common"
 		c.type = extract(token, "type").replace("—", "-").replace("\\xe2\\x80\\x94", "-")
+		if "Token" not in c.type:
+			c.type = "Token " + c .type
 		fetchnumber = token.split( "num=\"")[1].split("\"")[0]
 		setcode = "XXX"
 		for code in setcodes:
