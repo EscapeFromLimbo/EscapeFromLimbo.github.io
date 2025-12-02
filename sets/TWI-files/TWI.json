@@ -2200,7 +2200,7 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Forest_TWI",
+            "card_name": "Forest_Lunate",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -2891,7 +2891,7 @@
             "number": 186,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "{T}: Add {C}.\n{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight with trample and loses all other types and abilities. (This effect lasts indefinitely.)",
+            "rules_text": "{T}: Add {C}.\n{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight creature with trample and loses all other card types, creature types, and abilities. (This effect lasts indefinitely.)",
             "flavor_text": "[i]\"I craft not for comfort, but conquest. Steel bends quicker when you forget what warmth feels like.\"\n[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2903,7 +2903,7 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Island_TWI",
+            "card_name": "Island_Cidraeth",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -3236,7 +3236,7 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
         },
         {
-            "card_name": "Mountain_TWI",
+            "card_name": "Mountain_Thistrel",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -3376,7 +3376,7 @@
             "number": 103,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Destroy target creature or planeswalker. That creature's controller sacrifices a token.",
+            "rules_text": "Destroy target creature or planeswalker. Its controller sacrifices a token.",
             "flavor_text": "[i]She claimed power as if it were her birthright, forgetting it was merely loaned.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -3540,7 +3540,7 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "Plains_TWI",
+            "card_name": "Plains_Sunvrath",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -3870,7 +3870,7 @@
             "number": 195,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "At the beginning of combat on your turn, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create any tokens this way, put a +1/+1 counter on Redeemer of Hollowed Flesh.",
+            "rules_text": "At the beginning of your upkeep, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create any tokens this way, put a +1/+1 counter on Redeemer of Hollowed Flesh.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5098,7 +5098,7 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Swamp_TWI",
+            "card_name": "Swamp_Dolcairn",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -6495,6 +6495,25 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
+            "special_text": "",
+            "shape": "token",
+            "set": "TWI",
+            "loyalty": "",
+            "artist": "",
+            "play_rate": 0,
+            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+        },
+        {
+            "card_name": "red Berserker 11TWI 2",
+            "color": "R",
+            "rarity": "common",
+            "type": "Token Creature - Berserker",
+            "number": 16,
+            "color_identity": "",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "TWI",

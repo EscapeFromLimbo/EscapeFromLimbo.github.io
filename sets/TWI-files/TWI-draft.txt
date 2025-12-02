@@ -1528,10 +1528,10 @@
 		},
 		
 		{
-			"name": "Forest_TWI",
+			"name": "Forest_Lunate",
 			"mana_cost": "",
 			"type": "Basic",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/313_Forest_TWI.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/313_Forest_Lunate.jpg",
 			"colors": [],
 			"set": "TWI",
 			"collector_number": "313",
@@ -2005,14 +2005,14 @@
 			"collector_number": "186",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight with trample and loses all other types and abilities. (This effect lasts indefinitely.)",
+			"oracle_text": "{T}: Add {C}.\n{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight creature with trample and loses all other card types, creature types, and abilities. (This effect lasts indefinitely.)",
 		},
 		
 		{
-			"name": "Island_TWI",
+			"name": "Island_Cidraeth",
 			"mana_cost": "",
 			"type": "Basic",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/307_Island_TWI.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/307_Island_Cidraeth.jpg",
 			"colors": [],
 			"set": "TWI",
 			"collector_number": "307",
@@ -2242,10 +2242,10 @@
 		},
 		
 		{
-			"name": "Mountain_TWI",
+			"name": "Mountain_Thistrel",
 			"mana_cost": "",
 			"type": "Basic",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/311_Mountain_TWI.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/311_Mountain_Thistrel.jpg",
 			"colors": [],
 			"set": "TWI",
 			"collector_number": "311",
@@ -2342,7 +2342,7 @@
 			"collector_number": "103",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature or planeswalker. That creature's controller sacrifices a token.",
+			"oracle_text": "Destroy target creature or planeswalker. Its controller sacrifices a token.",
 		},
 		
 		{
@@ -2450,10 +2450,10 @@
 		},
 		
 		{
-			"name": "Plains_TWI",
+			"name": "Plains_Sunvrath",
 			"mana_cost": "",
 			"type": "Basic",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/305_Plains_TWI.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/305_Plains_Sunvrath.jpg",
 			"colors": [],
 			"set": "TWI",
 			"collector_number": "305",
@@ -2680,7 +2680,7 @@
 			"collector_number": "195",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "At the beginning of combat on your turn, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create any tokens this way, put a +1/+1 counter on Redeemer of Hollowed Flesh.",
+			"oracle_text": "At the beginning of your upkeep, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create any tokens this way, put a +1/+1 counter on Redeemer of Hollowed Flesh.",
 		},
 		
 		{
@@ -3516,10 +3516,10 @@
 		},
 		
 		{
-			"name": "Swamp_TWI",
+			"name": "Swamp_Dolcairn",
 			"mana_cost": "",
 			"type": "Basic",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/309_Swamp_TWI.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/309_Swamp_Dolcairn.jpg",
 			"colors": [],
 			"set": "TWI",
 			"collector_number": "309",
@@ -4307,6 +4307,19 @@
 			"subtypes": [],
 			"oracle_text": "",
 		},
+		
+		{
+			"name": "red Berserker 11TWI 2",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/16t_red Berserker 11TWI 2.jpg",
+			"colors": ["R"],
+			"set": "TWI",
+			"collector_number": "16",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "",
+		},
 		]
 [Common]
 20 Ashes of the Self
@@ -4619,15 +4632,15 @@
 10 Swiftwater Cliffs
 10 Wind-Scarred Crag
 20 Forest
-20 Forest_TWI
-20 Island_TWI
+20 Forest_Lunate
+20 Island_Cidraeth
 20 Island
-20 Mountain_TWI
+20 Mountain_Thistrel
 20 Mountain
-20 Plains_TWI
+20 Plains_Sunvrath
 20 Plains
 20 Swamp
-20 Swamp_TWI
+20 Swamp_Dolcairn
 
 [Token]
 20 white Soldier 11TWI
@@ -4645,6 +4658,7 @@
 20 Life Warlock
 20 Loss Warlock
 20 black Horror 44TWI
+20 red Berserker 11TWI 2
 
 [Wildcard]
 6 Ashes of the Self

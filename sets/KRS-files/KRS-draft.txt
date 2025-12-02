@@ -650,7 +650,7 @@
 			"collector_number": "12",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, if you have less life than an opponent, you gain 3 life. If you control fewer creatures than an opponent, create two tapped 1/1 colorless Reflection creature tokens. If you have fewer cards in hand than an opponent, draw a card.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, you gain 3 life if you have less life than an opponent. If you control fewer creatures than an opponent, create two tapped 1/1 colorless Reflection creature tokens. If you have fewer cards in hand than an opponent, draw a card.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
 		},
 		
 		{
@@ -3946,10 +3946,10 @@
 			"name": "Variant Handler (Mobius M. Mobius)_KRS",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/KRS-files/img/288_Variant Handler (Mobius M. Mobius)_KRS.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/KRS-files/img/287_Variant Handler (Mobius M. Mobius)_KRS.jpg",
 			"colors": ["R"],
 			"set": "KRS",
-			"collector_number": "288",
+			"collector_number": "287",
 			"rarity": "special",
 			"subtypes": [],
 			"oracle_text": "Inspired - Whenever Variant Handler becomes untapped, create a token that's a copy of target creature you control, except it has haste. Exile the token at the beginning of the next end step.",
@@ -4148,6 +4148,19 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "At the beginning of your upkeep, mill two cards.",
+		},
+		
+		{
+			"name": "colorless Reflection 11KRS 2",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/KRS-files/img/19t_colorless Reflection 11KRS 2.jpg",
+			"colors": [],
+			"set": "KRS",
+			"collector_number": "19",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "",
 		},
 		
 		{
@@ -4474,6 +4487,7 @@
 20 green Egg 01KRS
 20 Karsi's Chosen KRS
 20 colorless Witness 01KRS
+20 colorless Reflection 11KRS 2
 20 Map KRS
 20 Reflected Lands KRS
 

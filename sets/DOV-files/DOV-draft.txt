@@ -3306,7 +3306,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Thorngrafter enters with a +1/+1 counter and your choice of counter from among deathtouch, reach, trample or vigilance on it.\n{1}, {T}: Put a +1/+1 counter on Thorngrafter.\n{T}: You may move a counter from Thorngrafter to another creature you control. Activate only as a sorcery.",
+			"oracle_text": "Thorngrafter enters with a +1/+1 counter and your choice of counter from among deathtouch, reach, trample, or vigilance on it.\n{1}, {T}: Put a +1/+1 counter on Thorngrafter.\n{T}: You may move a counter from Thorngrafter to another creature you control. Activate only as a sorcery.",
 		},
 		
 		{
@@ -4168,6 +4168,32 @@
 		},
 		
 		{
+			"name": "black Rogue 21DOV 2",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/29t_black Rogue 21DOV 2.jpg",
+			"colors": ["B"],
+			"set": "DOV",
+			"collector_number": "29",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		},
+		
+		{
+			"name": "black Zombie Horror DOV 2",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/DOV-files/img/30t_black Zombie Horror DOV 2.jpg",
+			"colors": ["B"],
+			"set": "DOV",
+			"collector_number": "30",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		},
+		
+		{
 			"name": "Battering Ram DOV",
 			"mana_cost": "",
 			"type": "Token",
@@ -4531,6 +4557,8 @@
 20 green Goat Spirit 11DOV
 20 blue Elemental 10DOV
 20 black Zombie 22DOV
+20 black Rogue 21DOV 2
+20 black Zombie Horror DOV 2
 20 Battering Ram DOV
 20 Bombard DOV
 20 blue Gargoyle 11DOV

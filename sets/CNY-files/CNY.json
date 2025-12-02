@@ -1174,14 +1174,14 @@
             "notes": "\n!tageternal\n!tag standard\n!tag planechase"
         },
         {
-            "card_name": "Devoted Lackies",
+            "card_name": "Devoted Lackeys",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Assassin",
             "number": 173,
             "color_identity": "BR",
             "cost": "{B}{R}",
-            "rules_text": "Deathtouch\nWhen you sacrifice Devoted Lackies as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+            "rules_text": "Deathtouch\nWhen you sacrifice Devoted Lackeys as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1190,7 +1190,7 @@
             "loyalty": "",
             "artist": "SIXMOREVODKA",
             "play_rate": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
         },
         {
             "card_name": "Dhante's Inferno",
@@ -1419,7 +1419,7 @@
             "number": 178,
             "color_identity": "UBR",
             "cost": "{1}{U}{B}{R}",
-            "rules_text": "Lifelink\nWhen Envoy of the Fallen enters, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
+            "rules_text": "Lifelink\nWhen Envoy of the Fallen enters, if it was cast, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2199,7 +2199,7 @@
             "number": 191,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
-            "rules_text": "Vigilance\nWhen High Senator Talpa enters or attacks, choose one -\n\u2022 If an opponent has more life than you, gain 3 life.\n\u2022 If an opponent controls more creatures than you, create a number of 1/1 colorless Soldier creature.\n\u2022 If an opponent has more cards in hand than you, draw a card. ",
+            "rules_text": "Vigilance\nWhen High Senator Talpa enters or attacks, choose one -\n\u2022 If an opponent has more life than you, gain 3 life.\n\u2022 If an opponent controls more creatures than you, create a 1/1 colorless Soldier creature token.\n\u2022 If an opponent has more cards in hand than you, draw a card. ",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -4053,7 +4053,7 @@
             "number": 90,
             "color_identity": "B",
             "cost": "{5}{B}",
-            "rules_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value less is than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
+            "rules_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value is less than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -5251,6 +5251,25 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 41,
+            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+        },
+        {
+            "card_name": "Genotype Splicer_PRO_CNY",
+            "color": "W",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Artificer Mutant",
+            "number": 283,
+            "color_identity": "W",
+            "cost": "{1}{W}",
+            "rules_text": "At the beginning of combat on your turn, you may pay {X}. When you do, choose up to X. Each mode must have different targets.\n\u2022 Teach target creature flying. (To teach a keyword, put a counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)\n\u2022 Teach target creature lifelink.\n\u2022 Teach target creature vigilance.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "CNY",
+            "loyalty": "",
+            "artist": "Ognjen Sporin",
+            "play_rate": 64,
             "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
         },
         {

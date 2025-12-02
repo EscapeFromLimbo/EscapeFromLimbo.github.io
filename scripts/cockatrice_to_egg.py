@@ -333,7 +333,7 @@ class Card(object):
 
 def pull_all_images(play_rate_table):
 
-	jsonurl = "https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/AllSetsEternal.json"
+	jsonurl = "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/AllSetsEternal.json"
 	r = requests.get(jsonurl)
 	#print(str(r.content))
 	s = str(r.content)
@@ -341,7 +341,7 @@ def pull_all_images(play_rate_table):
 	#print(r.encoding)
 	allsets = requests.get(jsonurl).json()
 
-	tokenurl = "https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens.xml"
+	tokenurl = "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/tokens.xml"
 	r = requests.get(tokenurl)
 	#print(str(r.content))
 	alltokens = str(r.content)
@@ -454,7 +454,8 @@ def pull_all_images(play_rate_table):
 				cardfilenames.append(cardfilename)
 				if not os.path.isfile(cardfilename):
 					print(f"Downloading {setcodes[i]} #{c.number}: {c.card_name} at {c.cardfilename}")
-					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+					#urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 				setcards[i].append(c)
 
 	"""
@@ -491,7 +492,7 @@ def pull_all_images(play_rate_table):
 		#print(token)
 		if not "set num=\"" in token:
 			continue
-		if "set num=\"REV" in token:
+		if "set num=\"REV" in token and not "Puzzlebox" in token and not "Angel" in token and not "OVERFLOW" in token:
 			continue
 		if "set num=\"PLANE" in token:
 			continue
@@ -508,10 +509,13 @@ def pull_all_images(play_rate_table):
 			c.type = "Token " + c .type
 		fetchnumber = token.split( "num=\"")[1].split("\"")[0]
 		setcode = "XXX"
+		c.number = fetchnumber
 		for code in setcodes:
 			if fetchnumber.startswith(code):
 				setcode = code
 				c.number = fetchnumber.replace(code, "")
+		if "World Championship 2025" in c.number:
+			c.number = 2025
 		c.cost = ""
 		c.flavor_text = ""
 		c.pt = extract(token, "pt").replace("\\xe2\\x98\\x85", "X")
@@ -531,7 +535,9 @@ def pull_all_images(play_rate_table):
 					try:
 						if not os.path.isfile(cardfilename):
 							print(f"Downloading Token {setcodes[i]} #{c.number}: {c.card_name}")
-							urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+							#urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+							urllib.request.urlretrieve(f"https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
+							print(f"Download Successful: Saved to {cardfilename}")
 						setcards[i].append(c)
 					except:
 						pass

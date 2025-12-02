@@ -826,16 +826,16 @@
 		},
 		
 		{
-			"name": "Devoted Lackies",
+			"name": "Devoted Lackeys",
 			"mana_cost": "{B}{R}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/173_Devoted Lackies.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/173_Devoted Lackeys.jpg",
 			"colors": ["B","R"],
 			"set": "CNY",
 			"collector_number": "173",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhen you sacrifice Devoted Lackies as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+			"oracle_text": "Deathtouch\nWhen you sacrifice Devoted Lackeys as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
 		},
 		
 		{
@@ -1003,7 +1003,7 @@
 			"collector_number": "178",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhen Envoy of the Fallen enters, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
+			"oracle_text": "Lifelink\nWhen Envoy of the Fallen enters, if it was cast, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
 		},
 		
 		{
@@ -1547,7 +1547,7 @@
 			"collector_number": "191",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen High Senator Talpa enters or attacks, choose one -\n• If an opponent has more life than you, gain 3 life.\n• If an opponent controls more creatures than you, create a number of 1/1 colorless Soldier creature.\n• If an opponent has more cards in hand than you, draw a card. ",
+			"oracle_text": "Vigilance\nWhen High Senator Talpa enters or attacks, choose one -\n• If an opponent has more life than you, gain 3 life.\n• If an opponent controls more creatures than you, create a 1/1 colorless Soldier creature token.\n• If an opponent has more cards in hand than you, draw a card. ",
 		},
 		
 		{
@@ -2831,7 +2831,7 @@
 			"collector_number": "90",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value less is than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
+			"oracle_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value is less than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
 		},
 		
 		{
@@ -3878,7 +3878,7 @@
 10 Coercive Contractor
 10 Corporate Espionage
 10 Corporate Mentor
-10 Devoted Lackies
+10 Devoted Lackeys
 10 Dissect
 10 Dormant Monstrosity
 10 Enlightenment
@@ -4165,7 +4165,7 @@
 4 Coercive Contractor
 4 Corporate Espionage
 4 Corporate Mentor
-4 Devoted Lackies
+4 Devoted Lackeys
 4 Dissect
 4 Dormant Monstrosity
 4 Enlightenment

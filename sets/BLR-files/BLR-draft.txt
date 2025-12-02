@@ -3687,6 +3687,19 @@
 		},
 		
 		{
+			"name": "Treasure BLR",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/BLR-files/img/13t_Treasure BLR.jpg",
+			"colors": [],
+			"set": "BLR",
+			"collector_number": "13",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{T}, Sacrifice this: Add one mana of any color.",
+		},
+		
+		{
 			"name": "blue Wizard 11BLR",
 			"mana_cost": "",
 			"type": "Token",
@@ -4107,6 +4120,7 @@
 [Token]
 20 red Soldier 11BLR
 20 white Spirit 11MSEMAR
+20 Treasure BLR
 20 blue Wizard 11BLR
 20 green Elf 11BLR
 20 black Zombie 22BLR

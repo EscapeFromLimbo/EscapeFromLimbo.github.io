@@ -3908,6 +3908,19 @@
 		},
 		
 		{
+			"name": "The Puzzlebox ERR",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/2025t_The Puzzlebox ERR.jpg",
+			"colors": [],
+			"set": "ERR",
+			"collector_number": "2025",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{T}, Discard a card: Draw a card.",
+		},
+		
+		{
 			"name": "BOOST() ERR",
 			"mana_cost": "",
 			"type": "Token",
@@ -4006,6 +4019,19 @@
 			"colors": ["R"],
 			"set": "ERR",
 			"collector_number": "16",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		},
+		
+		{
+			"name": "Error PorygonZ",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/27t_Error PorygonZ.jpg",
+			"colors": ["R"],
+			"set": "ERR",
+			"collector_number": "27",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Menace",
@@ -4332,6 +4358,7 @@
 20 ALARM() ERR
 20 colorless Construct ERR
 20 red Warrior 22ERR
+20 The Puzzlebox ERR
 20 BOOST() ERR
 20 Noop ERR
 20 Root Node ERR
@@ -4340,6 +4367,7 @@
 20 white Error 89ERR
 20 SAVE() ERR
 20 Error red
+20 Error PorygonZ
 20 OVERFLOW() ERR
 
 [Wildcard]
