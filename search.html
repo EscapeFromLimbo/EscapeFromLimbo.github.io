@@ -222,6 +222,7 @@
 			<option value="color">Color</option>
 			<option value="rarity">Rarity</option>
 			<option value = "play_rate">Play Rate</option>
+			<option value = "word_count">Word Count</option>
 			<option value = "release_date">Release Date</option>
 		</select> : <select name="sort-order" id="sort-order">
 			<option value="ascending">Asc</option>
@@ -394,6 +395,16 @@
 				}
 				else {
 					return (a.play_rate < b.play_rate) ? -1 : 1;
+				}
+			}
+			if (sortMode == 'word_count')
+			{
+				if (a.word_count === b.word_count)
+				{
+					return 0;
+				}
+				else {
+					return (a.word_count < b.word_count) ? -1 : 1;
 				}
 			}
 			if (sortMode == 'release_date')
@@ -752,7 +763,7 @@
 				{
 					mv += 2;
 				}
-				else if (token != "x")
+				else if (token != "x" && token != "")
 				{
 					mv += 1;
 				}
@@ -797,6 +808,7 @@
 			let card_artist = card_stats.artist;
 			let card_flavor = card_stats.flavor_text;
 			let card_play_rate = card_stats.play_rate;
+			let card_word_count = card_stats.word_count;
 			let card_color_2 = "";
 			let card_cost_2 = "";
 			let card_power_2 = "";
@@ -1169,6 +1181,33 @@
 					else if (modifier == ">=")
 					{
 						return (card_play_rate >= check);
+					}
+				}
+				if (term == "wc" || term == "word_count" || term == "wordcount")
+				{
+					if (modifier == "!" || modifier == "=")
+					{
+						return (card_word_count == check);
+					}
+					else if (modifier == ":")
+					{
+						return (card_word_count == check);
+					}
+					else if (modifier == "<")
+					{
+						return (card_word_count < check);
+					}
+					else if (modifier == ">")
+					{
+						return (card_word_count > check);
+					}
+					else if (modifier == "<=")
+					{
+						return (card_word_count <= check);
+					}
+					else if (modifier == ">=")
+					{
+						return (card_word_count >= check);
 					}
 				}
 				if (term == "r" || term == "rarity")

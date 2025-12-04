@@ -262,6 +262,7 @@
 				<option value="color">Color</option>
 				<option value="rarity">Rarity</option>
 				<option value="play_rate">Play Rate</option>
+				<option value="word_count">Word Count</option>
 			</select> : <select name="sort-order" id="sort-order">
 				<option value="ascending">Asc</option>
 				<option value="descending">Desc</option></select></div>
@@ -461,6 +462,16 @@
 				}
 				else {
 					return (a.play_rate < b.play_rate) ? -1 : 1;
+				}
+			}
+			if (sortMode == 'word_count')
+			{
+				if (a.word_count === b.word_count)
+				{
+					return 0;
+				}
+				else {
+					return (a.word_count < b.word_count) ? -1 : 1;
 				}
 			}
 			if (sortMode == 'release_date')

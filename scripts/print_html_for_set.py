@@ -287,6 +287,7 @@ def generateHTML(code):
 				<option value="color">Color</option>
 				<option value="rarity">Rarity</option>
 				<option value="play_rate">Play Rate</option>
+				<option value="word_count">Word Count</option>
 			</select> : <select name="sort-order" id="sort-order">
 				<option value="ascending">Asc</option>
 				<option value="descending">Desc</option></select></div>

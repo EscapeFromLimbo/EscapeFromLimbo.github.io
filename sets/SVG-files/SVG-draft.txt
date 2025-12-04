@@ -2866,6 +2866,19 @@
 		},
 		
 		{
+			"name": "Ferocious Flame (shiny)_SVG",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"image": "https://EscapeFromLimbo.github.io/sets/SVG-files/img/1214_Ferocious Flame (shiny)_SVG.jpg",
+			"colors": ["R"],
+			"set": "SVG",
+			"collector_number": "1214",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Ferocious Flame deals 2 damage to any target. If you control a creature with power 4 or greater, it deals 4 damage instead.",
+		},
+		
+		{
 			"name": "Copy SVG",
 			"mana_cost": "",
 			"type": "Token",

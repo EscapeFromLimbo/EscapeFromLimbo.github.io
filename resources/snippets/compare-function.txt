@@ -57,6 +57,16 @@ function compareFunction(a, b) {
 					return (a.play_rate < b.play_rate) ? -1 : 1;
 				}
 			}
+			if (sortMode == 'word_count')
+			{
+				if (a.word_count === b.word_count)
+				{
+					return 0;
+				}
+				else {
+					return (a.word_count < b.word_count) ? -1 : 1;
+				}
+			}
 			if (sortMode == 'release_date')
 			{
 			   set_sort_order = ["PLANE", "REV", "VST", "SRC", "MON", "KUT", "GQC", "SVG", "VRD", "KRS", "KSV", "BLR", "DOV", "POP", "TRX", "OLD", "CYB", "CNY", "CCR", "ERR", "KDT", "TWI"];

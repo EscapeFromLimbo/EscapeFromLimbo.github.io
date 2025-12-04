@@ -417,6 +417,15 @@ def pull_all_images(play_rate_table):
 			c.cost = card["manaCost"]
 			c.rules_text = card["text"].replace("\n", "\\n").replace("“", "\\\"").replace("”", "\\\"").replace("—", "-").replace("’", "'").replace("​", "")
 			c.flavor_text = card["flavor"].replace("\n", "\\n").replace("“", "\\\"").replace("”", "\\\"").replace("—", "-").replace("’", "'").replace("​", "").replace("\\>", "\\\\>")
+			c.word_count = 0
+			is_reminder = False
+			for word in c.rules_text.split():
+				if "(" in word:
+					is_reminder = True
+				if not is_reminder:
+					c.word_count += 1
+				if ")" in word:
+					is_reminder = False
 			c.pt = ""
 			if "power" in card:
 				c.pt = f"{card['power']}/{card['toughness']}"
@@ -457,6 +466,7 @@ def pull_all_images(play_rate_table):
 					#urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 				setcards[i].append(c)
+		print(f"Avg word count of {setcodes[i]}: {sum([c.word_count for c in setcards[i]])/len(cards)}")
 
 	"""
 	<card>
@@ -501,6 +511,15 @@ def pull_all_images(play_rate_table):
 		c = Card()
 		c.card_name = extract(token, "name").replace("\\", "").replace("// ", "").replace("é", "e").replace("“", "").replace("”", "").replace(":", "").replace("★", "(shiny)").replace("\"", "")
 		c.rules_text = extract(token, "text").replace("\n", "\\n").replace("“", "\\\"").replace("”", "\\\"").replace("—", "-").replace("•", "::").replace("’", "'").replace("​", "").replace("é", "e").replace("\\xe2\\x80\\x94", "-").replace("\\'", "'").replace("\\xe2\\x80\\x9c", "\\\"").replace("\\xe2\\x80\\x9d", "\\\"")
+		c.word_count = 0
+		is_reminder = False
+		for word in c.rules_text.split():
+			if "(" in word:
+				is_reminder = True
+			if not is_reminder:
+				c.word_count += 1
+			if ")" in word:
+				is_reminder = False
 		c.color = extract(token, "colors")
 		c.color_identity = ""	
 		c.rarity = "common"
@@ -540,6 +559,7 @@ def pull_all_images(play_rate_table):
 							print(f"Download Successful: Saved to {cardfilename}")
 						setcards[i].append(c)
 					except:
+						print(f"Failed to download {setcodes[i]} #{c.number}: {c.card_name} (from {fetchnumber})")
 						pass
 
 	print("Done pulling images")
@@ -660,6 +680,7 @@ def pull_all_images(play_rate_table):
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
 					"play_rate": {play_rate},
+					"word_count": {card.word_count},
 					"notes": "{tags}"
 		'''
 				drafttext = f'''
@@ -705,6 +726,7 @@ def pull_all_images(play_rate_table):
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
 					"play_rate": {play_rate},
+					"word_count": {card.word_count + card2.word_count},
 					"card_name2": "{card2.card_name}",
 					"color2": "{card2.color}",
 					"type2": "{card2.type}",

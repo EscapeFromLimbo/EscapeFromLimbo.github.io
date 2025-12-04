@@ -229,6 +229,7 @@ def generateHTML(codes):
 			<option value="color">Color</option>
 			<option value="rarity">Rarity</option>
 			<option value = "play_rate">Play Rate</option>
+			<option value = "word_count">Word Count</option>
 			<option value = "release_date">Release Date</option>
 		</select> : <select name="sort-order" id="sort-order">
 			<option value="ascending">Asc</option>
