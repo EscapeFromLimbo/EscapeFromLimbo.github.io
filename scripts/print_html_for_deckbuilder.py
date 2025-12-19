@@ -629,7 +629,7 @@ def generateHTML(codes):
 				reader.onload = function(e) {
 					const fileContent = e.target.result;
 
-					const lines = fileContent.split(/\r?\n/);
+					const lines = fileContent.split();
 					if (import_type == 'dek')
 					{
 						for (const line of lines)
