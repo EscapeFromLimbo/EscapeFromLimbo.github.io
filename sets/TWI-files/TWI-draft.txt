@@ -1004,7 +1004,7 @@
 			"collector_number": "51",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Spells you cast cost {1} less to cast for each permanent you control and each card in your graveyard with the same name as that spell.\nPermanents you control have ward {X}, where X is the number of permanents you control that share a name with them.",
+			"oracle_text": "Spells you cast cost {1} less to cast for each permanent you control and each card in your graveyard with the same name as that spell.\nPermanents you control have ward {X}, where X is the number of permanents you control with the same name (including itself.)",
 		},
 		
 		{
@@ -4111,6 +4111,19 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Reach, trample\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+		},
+		
+		{
+			"name": "Discern (Hero)",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/337_Discern (Hero).jpg",
+			"colors": ["U"],
+			"set": "TWI",
+			"collector_number": "337",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Draw a card.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
 		},
 		
 		{

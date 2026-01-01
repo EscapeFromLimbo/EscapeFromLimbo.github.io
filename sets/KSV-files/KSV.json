@@ -3591,8 +3591,8 @@
             "type": "Instant",
             "number": 30,
             "color_identity": "W",
-            "cost": "{1}{W}",
-            "rules_text": "Exile target permanent you control, then return it to the battlefield under its owner's control.\nDraw a card.",
+            "cost": "{2}{W}",
+            "rules_text": "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.\nDraw a card.",
             "flavor_text": "[i]The Queen's First are tasked with providing immediate relief across the front.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -3601,7 +3601,7 @@
             "loyalty": "",
             "artist": "Piotr Arendzikowski",
             "play_rate": 56,
-            "word_count": 17,
+            "word_count": 18,
             "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
@@ -5422,6 +5422,26 @@
             "artist": "Jake Murray",
             "play_rate": 56,
             "word_count": 7,
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
+        },
+        {
+            "card_name": "Redeploy_PRO_KSV",
+            "color": "W",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 288,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.\nDraw a card.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KSV",
+            "loyalty": "",
+            "artist": "Izabela Kasuba-Marczesak",
+            "play_rate": 56,
+            "word_count": 18,
             "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {

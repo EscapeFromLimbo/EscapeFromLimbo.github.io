@@ -243,7 +243,7 @@
 		
 		{
 			"name": "BORROW()",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{X}{X}{B}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/83_BORROW().jpg",
 			"colors": ["B"],
@@ -251,7 +251,7 @@
 			"collector_number": "83",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this enters, insert it into one of your three programs.)\nWhen this Subroutine enters, you create two 1/1 black Jellyfish enchantment creature tokens with flying, draw two cards, and gain 2 life.\nWhenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life.",
+			"oracle_text": "(As this enters, insert it into one of your three programs.)\nWhen this Subroutine enters, you create X 1/1 black Jellyfish enchantment creature tokens with flying, draw X cards, and gain X life.\nWhenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life.",
 		},
 		
 		{
@@ -3202,7 +3202,7 @@
 			"collector_number": "71",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Exile target creature or Subroutine, then return that card to the battlefield under its owner's control.\nCache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")",
+			"oracle_text": "Exile target creature or Subroutine, then return that card to the battlefield under its owner's control.",
 		},
 		
 		{

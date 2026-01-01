@@ -2349,7 +2349,7 @@
 		
 		{
 			"name": "Redeploy_KSV",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Instant",
 			"image": "https://EscapeFromLimbo.github.io/sets/KSV-files/img/30_Redeploy_KSV.jpg",
 			"colors": ["W"],
@@ -2357,7 +2357,7 @@
 			"collector_number": "30",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Exile target permanent you control, then return it to the battlefield under its owner's control.\nDraw a card.",
+			"oracle_text": "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.\nDraw a card.",
 		},
 		
 		{

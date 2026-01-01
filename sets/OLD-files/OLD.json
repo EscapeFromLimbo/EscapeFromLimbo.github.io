@@ -1,11 +1,11 @@
 ﻿{
     "name": "Awakening in Oldun",
-    "formats": "eternal,standard,planechase",
+    "formats": "eternal,rotated",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
-            "card_name": "Abominable Avalanche",
+            "card_name": "Abominable Avalanche_OLD",
             "color": "RG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -22,10 +22,10 @@
             "artist": "Jacob Atienza",
             "play_rate": 377,
             "word_count": 53,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Absolution",
+            "card_name": "Absolution_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -42,10 +42,10 @@
             "artist": "Marco Gonzalez",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Agonizing Remorse",
+            "card_name": "Agonizing Remorse_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -62,10 +62,10 @@
             "artist": "Baitan \u67cf\u5766",
             "play_rate": 36,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "All That Remains",
+            "card_name": "All That Remains_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -82,10 +82,10 @@
             "artist": "Dabana",
             "play_rate": 187,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Alpha's Example",
+            "card_name": "Alpha's Example_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -102,10 +102,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alranta, the Lofty Capital",
+            "card_name": "Alranta, the Lofty Capital_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
@@ -122,10 +122,10 @@
             "artist": "Franklin Chan",
             "play_rate": 4,
             "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alranta Patrol",
+            "card_name": "Alranta Patrol_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -142,10 +142,10 @@
             "artist": "Dylan Choonhacat",
             "play_rate": 0,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alranta Portalmage",
+            "card_name": "Alranta Portalmage_OLD",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -162,10 +162,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alranta Unleashed",
+            "card_name": "Alranta Unleashed_OLD",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Land \u2014 Ruin",
@@ -182,10 +182,10 @@
             "artist": "Cygames, Inc.",
             "play_rate": 28,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Alrantan Archon",
+            "card_name": "Alrantan Archon_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Scout Knight",
@@ -202,10 +202,10 @@
             "artist": "Draw Souls",
             "play_rate": 0,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alrantan Skywatch",
+            "card_name": "Alrantan Skywatch_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Knight",
@@ -222,10 +222,10 @@
             "artist": "Lisa Marie S\u00f8rensen",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Alrantan Visionary",
+            "card_name": "Alrantan Visionary_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Shaman",
@@ -242,10 +242,10 @@
             "artist": "Kudos Productions",
             "play_rate": 180,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Ancient Conscriptor",
+            "card_name": "Ancient Conscriptor_OLD",
             "color": "BR",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -262,10 +262,10 @@
             "artist": "Marcel Budde",
             "play_rate": 14,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Archaic Straggler",
+            "card_name": "Archaic Straggler_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -282,10 +282,10 @@
             "artist": "Vladimir Matyukhin",
             "play_rate": 16,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Arduous Miners",
+            "card_name": "Arduous Miners_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -302,10 +302,10 @@
             "artist": "MerrymindAndStivka",
             "play_rate": 33,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Askir, the Defiler",
+            "card_name": "Askir, the Defiler_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Shaman",
@@ -322,10 +322,10 @@
             "artist": "Kudos Productions",
             "play_rate": 0,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Askir's Blackguard",
+            "card_name": "Askir's Blackguard_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Knight",
@@ -342,10 +342,10 @@
             "artist": "Alexandr Elichev",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Askir's Rearguard",
+            "card_name": "Askir's Rearguard_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -362,10 +362,10 @@
             "artist": "Matt Forsyth",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Askir's Vanguard",
+            "card_name": "Askir's Vanguard_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -382,10 +382,10 @@
             "artist": "Philipp Urlich",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Aspect of the End",
+            "card_name": "Aspect of the End_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -402,10 +402,10 @@
             "artist": "ThatOhara",
             "play_rate": 50,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Aspirant's Bane",
+            "card_name": "Aspirant's Bane_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Yeti",
@@ -422,10 +422,10 @@
             "artist": "Kudos Productions",
             "play_rate": 16,
             "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Aspirant's Hookrope",
+            "card_name": "Aspirant's Hookrope_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -442,10 +442,10 @@
             "artist": "Christina P. Myrvold",
             "play_rate": 0,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Aspirants as One",
+            "card_name": "Aspirants as One_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -462,10 +462,10 @@
             "artist": "Omer Tunc",
             "play_rate": 0,
             "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Audacious Roughrider",
+            "card_name": "Audacious Roughrider_OLD",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Knight",
@@ -482,10 +482,10 @@
             "artist": "Memed",
             "play_rate": 125,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Avalanche Assault",
+            "card_name": "Avalanche Assault_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -502,10 +502,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Awakening in Oldun",
+            "card_name": "Awakening in Oldun_OLD",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -522,10 +522,10 @@
             "artist": "Joshua Raphael",
             "play_rate": 4,
             "word_count": 64,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Banners' Brilliance",
+            "card_name": "Banners' Brilliance_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -542,10 +542,10 @@
             "artist": "James Huang",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Barbarous Roughrider",
+            "card_name": "Barbarous Roughrider_OLD",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Knight",
@@ -562,10 +562,10 @@
             "artist": "Alen Rocha",
             "play_rate": 21,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Barrcola Manta",
+            "card_name": "Barrcola Manta_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Fish",
@@ -582,10 +582,10 @@
             "artist": "Kenneth X. Arroyo",
             "play_rate": 0,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Beacon Blade",
+            "card_name": "Beacon Blade_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -602,10 +602,10 @@
             "artist": "AllrichArt",
             "play_rate": 0,
             "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Bellowing Cliffside",
+            "card_name": "Bellowing Cliffside_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -622,10 +622,10 @@
             "artist": "Rob Joseph",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Blade of Bright Futures",
+            "card_name": "Blade of Bright Futures_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact \u2014 Equipment",
@@ -642,10 +642,10 @@
             "artist": "Lei Min",
             "play_rate": 0,
             "word_count": 53,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Blade of Clouded Pasts",
+            "card_name": "Blade of Clouded Pasts_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact \u2014 Equipment",
@@ -662,10 +662,10 @@
             "artist": "Kalmahul",
             "play_rate": 0,
             "word_count": 54,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Bleeding Edge Memorial",
+            "card_name": "Bleeding Edge Memorial_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -682,10 +682,10 @@
             "artist": "Alexander Forssberg",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Blightfang Zyxthax",
+            "card_name": "Blightfang Zyxthax_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Serpent",
@@ -702,10 +702,10 @@
             "artist": "Joel Lagerwall",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Blind Keelah",
+            "card_name": "Blind Keelah_OLD",
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Fish",
@@ -722,10 +722,10 @@
             "artist": "Young Hwan Lee",
             "play_rate": 93,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Blistering Cryophoenix",
+            "card_name": "Blistering Cryophoenix_OLD",
             "color": "UR",
             "rarity": "rare",
             "type": "Creature \u2014 Phoenix",
@@ -742,10 +742,10 @@
             "artist": "GENZOMAN",
             "play_rate": 81,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Bolster the Walls",
+            "card_name": "Bolster the Walls_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -762,10 +762,10 @@
             "artist": "Josh Calloway",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Breaching Jaxl",
+            "card_name": "Breaching Jaxl_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Serpent",
@@ -782,10 +782,10 @@
             "artist": "Sam Leung",
             "play_rate": 9,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Breaking Ground",
+            "card_name": "Breaking Ground_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Ruin",
@@ -802,10 +802,10 @@
             "artist": "Polar Engine Studio",
             "play_rate": 0,
             "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Bring Down the Sky",
+            "card_name": "Bring Down the Sky_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -822,10 +822,10 @@
             "artist": "Mus Musaoy",
             "play_rate": 7,
             "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Brutal Undertow",
+            "card_name": "Brutal Undertow_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -842,10 +842,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Budding Potential",
+            "card_name": "Budding Potential_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
@@ -862,10 +862,10 @@
             "artist": "Anato Finnstark",
             "play_rate": 9,
             "word_count": 43,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Bumbling Bigfoot",
+            "card_name": "Bumbling Bigfoot_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Yeti",
@@ -882,10 +882,10 @@
             "artist": "Tyler Edlin",
             "play_rate": 0,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Buried Oathbreaker",
+            "card_name": "Buried Oathbreaker_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -902,10 +902,10 @@
             "artist": "Syed Zia Khan",
             "play_rate": 0,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cairnblade of the Ancients",
+            "card_name": "Cairnblade of the Ancients_OLD",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -922,10 +922,10 @@
             "artist": "Jocelin Carmes",
             "play_rate": 9,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cassia the Carefree",
+            "card_name": "Cassia the Carefree_OLD",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Cassia",
@@ -942,10 +942,10 @@
             "artist": "Ray Seb",
             "play_rate": 76,
             "word_count": 57,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Censor Tablet",
+            "card_name": "Censor Tablet_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -962,10 +962,10 @@
             "artist": "Ellixus",
             "play_rate": 84,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Chainbreaker's Familiar",
+            "card_name": "Chainbreaker's Familiar_OLD",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Phoenix",
@@ -982,10 +982,10 @@
             "artist": "Juan Arrabal",
             "play_rate": 48,
             "word_count": 59,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Chains of Broken Oaths",
+            "card_name": "Chains of Broken Oaths_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -1002,10 +1002,10 @@
             "artist": "Pavel Kolomeyets",
             "play_rate": 9,
             "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Chronicle of Armageddon",
+            "card_name": "Chronicle of Armageddon_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1022,10 +1022,10 @@
             "artist": "Jinho Bae",
             "play_rate": 64,
             "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Chronicle of Awakening",
+            "card_name": "Chronicle of Awakening_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1042,10 +1042,10 @@
             "artist": "Omer Tunc",
             "play_rate": 33,
             "word_count": 53,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Chronicle of Bequeathal",
+            "card_name": "Chronicle of Bequeathal_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1062,10 +1062,10 @@
             "artist": "Ivan Sevic",
             "play_rate": 0,
             "word_count": 48,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Chronicle of Extinction",
+            "card_name": "Chronicle of Extinction_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1082,10 +1082,10 @@
             "artist": "Jinho Bae",
             "play_rate": 716,
             "word_count": 48,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Chronicle of Precedence",
+            "card_name": "Chronicle of Precedence_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1102,10 +1102,10 @@
             "artist": "Rainman Page",
             "play_rate": 48,
             "word_count": 44,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Cliffside Scrappers",
+            "card_name": "Cliffside Scrappers_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -1122,10 +1122,10 @@
             "artist": "Axel Sauerwald",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cliffwalker",
+            "card_name": "Cliffwalker_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -1142,10 +1142,10 @@
             "artist": "Omer Tunc",
             "play_rate": 0,
             "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Conduit of Change",
+            "card_name": "Conduit of Change_OLD",
             "color": "U",
             "rarity": "mythic",
             "type": "Artifact \u2014 Ruin",
@@ -1162,10 +1162,10 @@
             "artist": "Dabana",
             "play_rate": 0,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Confront the Truths",
+            "card_name": "Confront the Truths_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1182,10 +1182,10 @@
             "artist": "Yin Yuming",
             "play_rate": 0,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cradle of Rebirth",
+            "card_name": "Cradle of Rebirth_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -1202,10 +1202,10 @@
             "artist": "Hongyi Chen",
             "play_rate": 0,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Crunching Counterpart",
+            "card_name": "Crunching Counterpart_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -1222,10 +1222,10 @@
             "artist": "VegasMike",
             "play_rate": 0,
             "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Crux, Chainer of Titans",
+            "card_name": "Crux, Chainer of Titans_OLD",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Crux",
@@ -1242,10 +1242,10 @@
             "artist": "AAA Game Art Studio",
             "play_rate": 206,
             "word_count": 93,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Crux's Wrath",
+            "card_name": "Crux's Wrath_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -1262,10 +1262,10 @@
             "artist": "Ryan Mercado",
             "play_rate": 0,
             "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cursed Claymore",
+            "card_name": "Cursed Claymore_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -1282,10 +1282,10 @@
             "artist": "Zhuoxin Yi",
             "play_rate": 9,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Cutthroat Kallukah",
+            "card_name": "Cutthroat Kallukah_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -1302,10 +1302,10 @@
             "artist": "VegasMike",
             "play_rate": 9,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Daggertooth Keelah",
+            "card_name": "Daggertooth Keelah_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Fish",
@@ -1322,10 +1322,10 @@
             "artist": "Joel Hustak",
             "play_rate": 0,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Deathcap Guardian",
+            "card_name": "Deathcap Guardian_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Fungus Horror",
@@ -1342,10 +1342,10 @@
             "artist": "Simon Cowell",
             "play_rate": 0,
             "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Decipher the Ley-Runes",
+            "card_name": "Decipher the Ley-Runes_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1362,10 +1362,10 @@
             "artist": "David Ceballos",
             "play_rate": 9,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Deepcavern Scyllia",
+            "card_name": "Deepcavern Scyllia_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Hydra",
@@ -1382,10 +1382,10 @@
             "artist": "Lemog Leo",
             "play_rate": 2,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube"
         },
         {
-            "card_name": "Dormant Slagheap",
+            "card_name": "Dormant Slagheap_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -1402,10 +1402,10 @@
             "artist": "Ibrahem Swaid",
             "play_rate": 0,
             "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Drawn to Grandeur",
+            "card_name": "Drawn to Grandeur_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1422,10 +1422,10 @@
             "artist": "Joseph Wibawa",
             "play_rate": 0,
             "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Dream Catcher",
+            "card_name": "Dream Catcher_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -1442,10 +1442,10 @@
             "artist": "Eran Fowler",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Dying Pledge",
+            "card_name": "Dying Pledge_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1462,10 +1462,10 @@
             "artist": "Omer Tunc",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Elder Eras",
+            "card_name": "Elder Eras_OLD",
             "color": "U",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -1482,10 +1482,10 @@
             "artist": "Antoine Collignon",
             "play_rate": 4,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Elder Soulblade",
+            "card_name": "Elder Soulblade_OLD",
             "color": "WB",
             "rarity": "rare",
             "type": "Artifact \u2014 Equipment",
@@ -1502,10 +1502,10 @@
             "artist": "Jason Kang",
             "play_rate": 24,
             "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Elderflame Pilgrims",
+            "card_name": "Elderflame Pilgrims_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -1522,10 +1522,10 @@
             "artist": "Efflam Mercier",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Elsewhere Portal",
+            "card_name": "Elsewhere Portal_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -1542,10 +1542,10 @@
             "artist": "Steve Goad",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Embrace the Cycle",
+            "card_name": "Embrace the Cycle_OLD",
             "color": "BG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1562,10 +1562,10 @@
             "artist": "Marcel Budde",
             "play_rate": 0,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Encampment Sentinel",
+            "card_name": "Encampment Sentinel_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Yeti",
@@ -1582,10 +1582,10 @@
             "artist": "Chris Dien",
             "play_rate": 0,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Enduring Loyalty",
+            "card_name": "Enduring Loyalty_OLD",
             "color": "B",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -1602,10 +1602,10 @@
             "artist": "J G",
             "play_rate": 21,
             "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Erupt",
+            "card_name": "Erupt_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -1622,10 +1622,10 @@
             "artist": "Diana Khomutina",
             "play_rate": 9,
             "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Eternal Echoes",
+            "card_name": "Eternal Echoes_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1642,10 +1642,10 @@
             "artist": "Disse86",
             "play_rate": 0,
             "word_count": 41,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Eternal Sentinel",
+            "card_name": "Eternal Sentinel_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -1662,10 +1662,10 @@
             "artist": "Roman Kupriianov",
             "play_rate": 0,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Everpresent Rot",
+            "card_name": "Everpresent Rot_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1682,7 +1682,7 @@
             "artist": "Song Min",
             "play_rate": 52,
             "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
             "card_name": "Evolving Wilds_OLD",
@@ -1702,10 +1702,10 @@
             "artist": "Artem Demura",
             "play_rate": 35,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Eyes Gone Blind",
+            "card_name": "Eyes Gone Blind_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1722,10 +1722,10 @@
             "artist": "Dandan00",
             "play_rate": 0,
             "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Face of the Phoenix",
+            "card_name": "Face of the Phoenix_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1742,10 +1742,10 @@
             "artist": "Brian Valeza",
             "play_rate": 55,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Final Fate",
+            "card_name": "Final Fate_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1762,10 +1762,10 @@
             "artist": "Aaron Florento",
             "play_rate": 228,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Firebolt",
+            "card_name": "Firebolt_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1782,10 +1782,10 @@
             "artist": "Peter Lee",
             "play_rate": 206,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Fluttering Boughs",
+            "card_name": "Fluttering Boughs_OLD",
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Ruin",
@@ -1802,10 +1802,10 @@
             "artist": "Saillix",
             "play_rate": 0,
             "word_count": 4,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Forebears' Blade",
+            "card_name": "Forebears' Blade_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1822,7 +1822,7 @@
             "artist": "Omer Tunc",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Forest_OLD",
@@ -1842,10 +1842,10 @@
             "artist": "Lei Min",
             "play_rate": 1856,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Forever Alone",
+            "card_name": "Forever Alone_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1862,10 +1862,10 @@
             "artist": "Daria Rashev",
             "play_rate": 0,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Forgemaster Dreadnought",
+            "card_name": "Forgemaster Dreadnought_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -1882,10 +1882,10 @@
             "artist": "Marcel Budde",
             "play_rate": 0,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Forget Their Names",
+            "card_name": "Forget Their Names_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1902,10 +1902,10 @@
             "artist": "Moonxels",
             "play_rate": 206,
             "word_count": 69,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Forgotten Cultivator",
+            "card_name": "Forgotten Cultivator_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -1922,10 +1922,10 @@
             "artist": "Fesbra",
             "play_rate": 221,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Fumebloom",
+            "card_name": "Fumebloom_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus",
@@ -1942,10 +1942,10 @@
             "artist": "Marcel Budde",
             "play_rate": 0,
             "word_count": 49,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Fury of the Rathomar",
+            "card_name": "Fury of the Rathomar_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Instant",
@@ -1962,10 +1962,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Galvanized Gargantuan",
+            "card_name": "Galvanized Gargantuan_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -1982,10 +1982,10 @@
             "artist": "Tim Lemek",
             "play_rate": 9,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gelthis, Unspeakable Maw",
+            "card_name": "Gelthis, Unspeakable Maw_OLD",
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Ruin",
@@ -2002,10 +2002,10 @@
             "artist": "Andi Koroveshi",
             "play_rate": 7,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Glacier Guardian",
+            "card_name": "Glacier Guardian_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Troll",
@@ -2022,10 +2022,10 @@
             "artist": "MAR Studio",
             "play_rate": 0,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gleaming Pathlighter",
+            "card_name": "Gleaming Pathlighter_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -2042,10 +2042,10 @@
             "artist": "Wasan Techawibulchai",
             "play_rate": 4,
             "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Glint-Glyph Oracle",
+            "card_name": "Glint-Glyph Oracle_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Shaman",
@@ -2062,10 +2062,10 @@
             "artist": "Erlan Arya",
             "play_rate": 14,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Goldrune Scribe",
+            "card_name": "Goldrune Scribe_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -2082,10 +2082,10 @@
             "artist": "Marcel Mercado",
             "play_rate": 0,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grasp of the Undersea",
+            "card_name": "Grasp of the Undersea_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -2102,10 +2102,10 @@
             "artist": "Ellixus",
             "play_rate": 0,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grasp of the Yeti",
+            "card_name": "Grasp of the Yeti_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -2122,10 +2122,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 7,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grasping Ancient",
+            "card_name": "Grasping Ancient_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -2142,10 +2142,10 @@
             "artist": "A. Shipwright",
             "play_rate": 12,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grazing Yaks",
+            "card_name": "Grazing Yaks_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ox",
@@ -2162,10 +2162,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Grow Over",
+            "card_name": "Grow Over_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -2182,10 +2182,10 @@
             "artist": "Tim Kaminski",
             "play_rate": 0,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gulping Meqmaw",
+            "card_name": "Gulping Meqmaw_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast",
@@ -2202,10 +2202,10 @@
             "artist": "Orjan Hamre",
             "play_rate": 0,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Gutwrenched Martyr",
+            "card_name": "Gutwrenched Martyr_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Knight",
@@ -2222,10 +2222,10 @@
             "artist": "Ariduka55",
             "play_rate": 14,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Harness the Elderflame",
+            "card_name": "Harness the Elderflame_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2242,10 +2242,10 @@
             "artist": "Gordon Walton",
             "play_rate": 0,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Harvesting Blade",
+            "card_name": "Harvesting Blade_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Artifact \u2014 Equipment",
@@ -2262,10 +2262,10 @@
             "artist": "Nur Iman",
             "play_rate": 14,
             "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Haven of the Wild Ones",
+            "card_name": "Haven of the Wild Ones_OLD",
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Ruin",
@@ -2282,10 +2282,10 @@
             "artist": "Louise Meijer Astrom",
             "play_rate": 21,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Hazard Blade",
+            "card_name": "Hazard Blade_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -2302,10 +2302,10 @@
             "artist": "Pavel Kolomeyets",
             "play_rate": 0,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Heartbonder",
+            "card_name": "Heartbonder_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human",
@@ -2322,10 +2322,10 @@
             "artist": "Yamio ZH",
             "play_rate": 0,
             "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube"
         },
         {
-            "card_name": "Hearty Roughrider",
+            "card_name": "Hearty Roughrider_OLD",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Knight",
@@ -2342,10 +2342,10 @@
             "artist": "Antonio Manzenedo",
             "play_rate": 170,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Hearty Stag",
+            "card_name": "Hearty Stag_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elk",
@@ -2362,10 +2362,10 @@
             "artist": "Victor Garcia",
             "play_rate": 0,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Helm of the Shattered Realm",
+            "card_name": "Helm of the Shattered Realm_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -2382,10 +2382,10 @@
             "artist": "Avant Choi",
             "play_rate": 0,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Herald of Awakening",
+            "card_name": "Herald of Awakening_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Golem",
@@ -2402,10 +2402,10 @@
             "artist": "Kudos Productions",
             "play_rate": 105,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Hibernating Centurion",
+            "card_name": "Hibernating Centurion_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -2422,10 +2422,10 @@
             "artist": "Wang Bo",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Highland Brirah",
+            "card_name": "Highland Brirah_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Beast",
@@ -2442,10 +2442,10 @@
             "artist": "Dave Melvin",
             "play_rate": 0,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Highland Guide",
+            "card_name": "Highland Guide_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Cleric",
@@ -2462,10 +2462,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 38,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Hoarding Rocs",
+            "card_name": "Hoarding Rocs_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -2482,10 +2482,10 @@
             "artist": "Kleiner Hai",
             "play_rate": 0,
             "word_count": 38,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Igneous Visions",
+            "card_name": "Igneous Visions_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -2502,10 +2502,10 @@
             "artist": "Gunship Revelution",
             "play_rate": 185,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Imposing Oddity",
+            "card_name": "Imposing Oddity_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -2522,10 +2522,10 @@
             "artist": "Moonxels",
             "play_rate": 36,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Indomitable Jicru",
+            "card_name": "Indomitable Jicru_OLD",
             "color": "WG",
             "rarity": "rare",
             "type": "Creature \u2014 Beast",
@@ -2542,7 +2542,7 @@
             "artist": "Cygames, Inc.",
             "play_rate": 74,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
             "card_name": "Island_OLD",
@@ -2562,10 +2562,10 @@
             "artist": "Hue Teo",
             "play_rate": 1936,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Jens Slopeskidder",
+            "card_name": "Jens Slopeskidder_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Scout",
@@ -2582,10 +2582,10 @@
             "artist": "Kudos Productions",
             "play_rate": 180,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Join the Forebears",
+            "card_name": "Join the Forebears_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2602,10 +2602,10 @@
             "artist": "Avant Choi",
             "play_rate": 0,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Jorgen, Martyr of the Rathomar",
+            "card_name": "Jorgen, Martyr of the Rathomar_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Berserker",
@@ -2622,10 +2622,10 @@
             "artist": "Kudos Productions",
             "play_rate": 69,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Kneeling Titan",
+            "card_name": "Kneeling Titan_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -2642,10 +2642,10 @@
             "artist": "Jeff Chen",
             "play_rate": 0,
             "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Landmark Blade",
+            "card_name": "Landmark Blade_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -2662,10 +2662,10 @@
             "artist": "Anato Finnstark",
             "play_rate": 0,
             "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lead and Follow",
+            "card_name": "Lead and Follow_OLD",
             "color": "WR",
             "rarity": "rare",
             "type": "Instant",
@@ -2682,10 +2682,10 @@
             "artist": "Antonio Manzenedo",
             "play_rate": 0,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Leyline Channelers",
+            "card_name": "Leyline Channelers_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -2702,10 +2702,10 @@
             "artist": "Ryan Lowe",
             "play_rate": 86,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Leyrune Collector",
+            "card_name": "Leyrune Collector_OLD",
             "color": "UG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -2722,10 +2722,10 @@
             "artist": "Lie Setiawan",
             "play_rate": 0,
             "word_count": 64,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lofty Aspirations",
+            "card_name": "Lofty Aspirations_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2742,10 +2742,10 @@
             "artist": "GloomyWhisper",
             "play_rate": 0,
             "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Lofty Frontiers",
+            "card_name": "Lofty Frontiers_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2762,10 +2762,10 @@
             "artist": "Steve Chinhsuan Wang",
             "play_rate": 0,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Long-Lost Legacy",
+            "card_name": "Long-Lost Legacy_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2782,10 +2782,10 @@
             "artist": "Dominusef",
             "play_rate": 0,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mammoth Undertaking",
+            "card_name": "Mammoth Undertaking_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2802,17 +2802,17 @@
             "artist": "Baukje Jagersma",
             "play_rate": 0,
             "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Marked Passage",
+            "card_name": "Marked Passage_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
             "number": 116,
             "color_identity": "B",
             "cost": "{B}{B}",
-            "rules_text": "You lose life equal to the number of cards you've drawn this turn, then draw a card. You may repeat this process any number of times.",
+            "rules_text": "Pay life equal to the number of cards you've drawn this turn, then draw a card. You may repeat this process any number of times.",
             "flavor_text": "[i]Narzi knew she would likely never return to the Mokar, but she had a hunch that this Thoveus had something to do with the Elders' reawakening.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -2821,11 +2821,11 @@
             "loyalty": "",
             "artist": "Ling Xiang",
             "play_rate": 14,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "word_count": 25,
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mass of Remains",
+            "card_name": "Mass of Remains_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -2842,10 +2842,10 @@
             "artist": "Tatsang Wang",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube"
         },
         {
-            "card_name": "Memorialize",
+            "card_name": "Memorialize_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -2862,10 +2862,10 @@
             "artist": "Wasan Techawibulchai",
             "play_rate": 0,
             "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mokar Cliffbreaker",
+            "card_name": "Mokar Cliffbreaker_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -2882,10 +2882,10 @@
             "artist": "Wonchun Choi",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Mokar Warband",
+            "card_name": "Mokar Warband_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -2902,10 +2902,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Molten Erosion",
+            "card_name": "Molten Erosion_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2922,10 +2922,10 @@
             "artist": "Abe Taraky",
             "play_rate": 161,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Molten Slagmaw",
+            "card_name": "Molten Slagmaw_OLD",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -2942,10 +2942,10 @@
             "artist": "Tyfanis",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Momentous Charge",
+            "card_name": "Momentous Charge_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2962,10 +2962,10 @@
             "artist": "Izzual",
             "play_rate": 110,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Monument to Might",
+            "card_name": "Monument to Might_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -2982,10 +2982,10 @@
             "artist": "zippo514",
             "play_rate": 14,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Morbid Bloomer",
+            "card_name": "Morbid Bloomer_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Fungus",
@@ -3002,7 +3002,7 @@
             "artist": "Diego Roman",
             "play_rate": 72,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
             "card_name": "Mountain_OLD",
@@ -3022,10 +3022,10 @@
             "artist": "Anato Finnstark",
             "play_rate": 2480,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Moving Mountains",
+            "card_name": "Moving Mountains_OLD",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3042,10 +3042,10 @@
             "artist": "Rob Joseph",
             "play_rate": 0,
             "word_count": 46,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Myconid Pilgrim",
+            "card_name": "Myconid Pilgrim_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Fungus",
@@ -3062,10 +3062,10 @@
             "artist": "Russell Jones",
             "play_rate": 4,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Narzi, Hero of the Mokar",
+            "card_name": "Narzi, Hero of the Mokar_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Knight",
@@ -3082,10 +3082,10 @@
             "artist": "Bayard Wu",
             "play_rate": 7,
             "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nerul, Blade of the Ancients",
+            "card_name": "Nerul, Blade of the Ancients_OLD",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Ruin Equipment",
@@ -3102,10 +3102,10 @@
             "artist": "Alex Konstad",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nightglimmer Priest",
+            "card_name": "Nightglimmer Priest_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -3122,10 +3122,10 @@
             "artist": "Aron Elekes",
             "play_rate": 0,
             "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nomad's Companion",
+            "card_name": "Nomad's Companion_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Nomad",
@@ -3142,10 +3142,10 @@
             "artist": "Naomi Sevoie",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Nurturing Ibex",
+            "card_name": "Nurturing Ibex_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Goat",
@@ -3162,10 +3162,10 @@
             "artist": "Kudos Productions",
             "play_rate": 0,
             "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Opal-Eye Allseer",
+            "card_name": "Opal-Eye Allseer_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -3182,10 +3182,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Opal-Eye Caretaker",
+            "card_name": "Opal-Eye Caretaker_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -3202,10 +3202,10 @@
             "artist": "Kutty-Sark",
             "play_rate": 9,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube"
         },
         {
-            "card_name": "Opal-Eye Phoenix",
+            "card_name": "Opal-Eye Phoenix_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Phoenix",
@@ -3222,10 +3222,10 @@
             "artist": "Emagucci Art",
             "play_rate": 19,
             "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Opal-Eye Runeweaver",
+            "card_name": "Opal-Eye Runeweaver_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -3242,10 +3242,10 @@
             "artist": "Marcel Mercado",
             "play_rate": 0,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Opulent Roughrider",
+            "card_name": "Opulent Roughrider_OLD",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Knight",
@@ -3262,10 +3262,10 @@
             "artist": "Edgar Sanchez Hidalgo",
             "play_rate": 26,
             "word_count": 44,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Out with the Old",
+            "card_name": "Out with the Old_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Instant",
@@ -3282,10 +3282,10 @@
             "artist": "Manami Kawatsu",
             "play_rate": 112,
             "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Outright Refusal",
+            "card_name": "Outright Refusal_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -3302,10 +3302,10 @@
             "artist": "Matt Forsyth",
             "play_rate": 0,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Peaktop Predator",
+            "card_name": "Peaktop Predator_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Yeti",
@@ -3322,10 +3322,10 @@
             "artist": "Stepan Gilev",
             "play_rate": 0,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Pensive Caldera",
+            "card_name": "Pensive Caldera_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -3342,10 +3342,10 @@
             "artist": "Tiziana Federica Ruiu",
             "play_rate": 84,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Permafrost Lynx",
+            "card_name": "Permafrost Lynx_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Cat",
@@ -3362,10 +3362,10 @@
             "artist": "TehChan",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Permafrost Sentry",
+            "card_name": "Permafrost Sentry_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -3382,10 +3382,10 @@
             "artist": "Rapum Raj",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Permafrost Tiger",
+            "card_name": "Permafrost Tiger_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat",
@@ -3402,10 +3402,10 @@
             "artist": "T SWCK",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phyto, Caverns Scourge",
+            "card_name": "Phyto, Caverns Scourge_OLD",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Fungus Plant Horror",
@@ -3422,10 +3422,10 @@
             "artist": "Yoji Grey",
             "play_rate": 16,
             "word_count": 54,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Phyto's Offshoot",
+            "card_name": "Phyto's Offshoot_OLD",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Fungus Horror",
@@ -3442,7 +3442,7 @@
             "artist": "Marcel Budde",
             "play_rate": 4,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Plains_OLD",
@@ -3462,10 +3462,10 @@
             "artist": "Vladimir Ishelin",
             "play_rate": 1706,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Promethean Jaxl",
+            "card_name": "Promethean Jaxl_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Serpent",
@@ -3482,10 +3482,10 @@
             "artist": "Minard Maxime",
             "play_rate": 7,
             "word_count": 54,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Protean's Animosity",
+            "card_name": "Protean's Animosity_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -3502,10 +3502,10 @@
             "artist": "MorkarDFC",
             "play_rate": 9,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Raboorah's Appetite",
+            "card_name": "Raboorah's Appetite_OLD",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3522,10 +3522,10 @@
             "artist": "Tom Lopez",
             "play_rate": 76,
             "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Raboorah Goliath",
+            "card_name": "Raboorah Goliath_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -3542,10 +3542,10 @@
             "artist": "Nicola Sylvani",
             "play_rate": 81,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Rano, Yeti Sovereign",
+            "card_name": "Rano, Yeti Sovereign_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Yeti",
@@ -3562,10 +3562,10 @@
             "artist": "Stuart Kim",
             "play_rate": 0,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rano's Roar",
+            "card_name": "Rano's Roar_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3582,10 +3582,10 @@
             "artist": "Janaschi",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rano's Slopeguard",
+            "card_name": "Rano's Slopeguard_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Yeti",
@@ -3602,10 +3602,10 @@
             "artist": "Kieran Yanner",
             "play_rate": 9,
             "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rathomar Forerunner",
+            "card_name": "Rathomar Forerunner_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -3622,10 +3622,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 21,
             "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Rathomar Harrier",
+            "card_name": "Rathomar Harrier_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -3642,10 +3642,10 @@
             "artist": "Stu Harrington",
             "play_rate": 0,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rathomar Herder",
+            "card_name": "Rathomar Herder_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3662,10 +3662,10 @@
             "artist": "Haco1",
             "play_rate": 4,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube"
         },
         {
-            "card_name": "Rathomar Raider",
+            "card_name": "Rathomar Raider_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -3682,10 +3682,10 @@
             "artist": "Even Amundsen",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reaching Remnant",
+            "card_name": "Reaching Remnant_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -3702,10 +3702,10 @@
             "artist": "Tiago Sousa",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reclaiming Ritual",
+            "card_name": "Reclaiming Ritual_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3722,10 +3722,10 @@
             "artist": "Sebastian Horoszko",
             "play_rate": 7,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Recurring Visions",
+            "card_name": "Recurring Visions_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment",
@@ -3742,10 +3742,10 @@
             "artist": "Michael Wang",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Recycle of Life",
+            "card_name": "Recycle of Life_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -3762,10 +3762,10 @@
             "artist": "Matthew Dobrich",
             "play_rate": 9,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Reduce to Ore",
+            "card_name": "Reduce to Ore_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -3782,10 +3782,10 @@
             "artist": "Starlord6962",
             "play_rate": 0,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Regent's Bones",
+            "card_name": "Regent's Bones_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin Equipment",
@@ -3802,10 +3802,10 @@
             "artist": "Gielle Seguillon",
             "play_rate": 0,
             "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Remnant of Valor",
+            "card_name": "Remnant of Valor_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Artifact \u2014 Ruin",
@@ -3822,10 +3822,10 @@
             "artist": "Mateuzs Michalski",
             "play_rate": 0,
             "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Renowned Roughrider",
+            "card_name": "Renowned Roughrider_OLD",
             "color": "W",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Knight",
@@ -3842,10 +3842,10 @@
             "artist": "W. Keller",
             "play_rate": 153,
             "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Resting Place",
+            "card_name": "Resting Place_OLD",
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Ruin",
@@ -3862,10 +3862,10 @@
             "artist": "Guang Yang",
             "play_rate": 0,
             "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Return to Nature",
+            "card_name": "Return to Nature_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3882,10 +3882,10 @@
             "artist": "Andrey Egorov",
             "play_rate": 213,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Rib Collector",
+            "card_name": "Rib Collector_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mercenary",
@@ -3902,10 +3902,10 @@
             "artist": "Hassan Tabrizi",
             "play_rate": 26,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Ripple Effect",
+            "card_name": "Ripple Effect_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3922,10 +3922,10 @@
             "artist": "Omer Tunc",
             "play_rate": 28,
             "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Ripples of History",
+            "card_name": "Ripples of History_OLD",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3942,10 +3942,10 @@
             "artist": "Tom Scholes",
             "play_rate": 36,
             "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Rise to the Occasion",
+            "card_name": "Rise to the Occasion_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -3962,10 +3962,10 @@
             "artist": "GeniusFetus",
             "play_rate": 0,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Roaming Treefolk",
+            "card_name": "Roaming Treefolk_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Treefolk",
@@ -3982,10 +3982,10 @@
             "artist": "Jake Ortman",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rotroot Hauler",
+            "card_name": "Rotroot Hauler_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Fungus Beast",
@@ -4002,10 +4002,10 @@
             "artist": "Marcel Budde",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Rugged Endurance",
+            "card_name": "Rugged Endurance_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -4022,10 +4022,10 @@
             "artist": "Edgar Sanchez Hidalgo",
             "play_rate": 0,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Runehenge Pilgrim",
+            "card_name": "Runehenge Pilgrim_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -4042,10 +4042,10 @@
             "artist": "Julie Dillon",
             "play_rate": 7,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Sanctum of the Two Truths",
+            "card_name": "Sanctum of the Two Truths_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -4062,10 +4062,10 @@
             "artist": "Moonxels",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Scalding Crucible",
+            "card_name": "Scalding Crucible_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -4082,10 +4082,10 @@
             "artist": "Finnian MacManus",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Scour All Possibilities",
+            "card_name": "Scour All Possibilities_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -4102,10 +4102,10 @@
             "artist": "Kalen Chock",
             "play_rate": 4,
             "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Scrape the Heavens",
+            "card_name": "Scrape the Heavens_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4122,10 +4122,10 @@
             "artist": "Calder Moore",
             "play_rate": 9,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Screeching Grauku",
+            "card_name": "Screeching Grauku_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Griffin Elk",
@@ -4142,10 +4142,10 @@
             "artist": "Martin Sickree",
             "play_rate": 33,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Seal Away",
+            "card_name": "Seal Away_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4162,10 +4162,10 @@
             "artist": "David Alvarez",
             "play_rate": 240,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Seeker of Skies",
+            "card_name": "Seeker of Skies_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -4182,10 +4182,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Seer of the Aspirants",
+            "card_name": "Seer of the Aspirants_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -4202,10 +4202,10 @@
             "artist": "PainDude _",
             "play_rate": 4,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Set Ablaze",
+            "card_name": "Set Ablaze_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -4222,10 +4222,10 @@
             "artist": "Jelena Kevic-Djurdjevic",
             "play_rate": 182,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Shaman of Rime's Fury",
+            "card_name": "Shaman of Rime's Fury_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Shaman",
@@ -4242,10 +4242,10 @@
             "artist": "WarNick",
             "play_rate": 0,
             "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Short-Fused Firebird",
+            "card_name": "Short-Fused Firebird_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Phoenix",
@@ -4262,10 +4262,10 @@
             "artist": "agar.io",
             "play_rate": 0,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Siflir, Elder Pawn",
+            "card_name": "Siflir, Elder Pawn_OLD",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Wizard",
@@ -4282,10 +4282,10 @@
             "artist": "Tyler James",
             "play_rate": 12,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Sink into Obscurity",
+            "card_name": "Sink into Obscurity_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -4302,10 +4302,10 @@
             "artist": "Wasan Techawebulchai",
             "play_rate": 9,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Sinking Feeling",
+            "card_name": "Sinking Feeling_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4322,10 +4322,10 @@
             "artist": "Zikwaga",
             "play_rate": 7,
             "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skarni Patrol",
+            "card_name": "Skarni Patrol_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -4342,10 +4342,10 @@
             "artist": "Faraz Shanyar",
             "play_rate": 0,
             "word_count": 38,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Skarni Raider",
+            "card_name": "Skarni Raider_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
@@ -4362,10 +4362,10 @@
             "artist": "Kudos Productions",
             "play_rate": 0,
             "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Slumbering Grove",
+            "card_name": "Slumbering Grove_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -4382,10 +4382,10 @@
             "artist": "Geva Ann",
             "play_rate": 36,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Snowscryer",
+            "card_name": "Snowscryer_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -4402,10 +4402,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
             "word_count": 5,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Speaker of Endless Winter",
+            "card_name": "Speaker of Endless Winter_OLD",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Yeti Shaman",
@@ -4422,10 +4422,10 @@
             "artist": "Douglas Deri",
             "play_rate": 0,
             "word_count": 38,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Speaker of the Forebears",
+            "card_name": "Speaker of the Forebears_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -4442,10 +4442,10 @@
             "artist": "Wasan Techawibulchai",
             "play_rate": 0,
             "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Spore Spawning",
+            "card_name": "Spore Spawning_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4462,10 +4462,10 @@
             "artist": "Do Kim",
             "play_rate": 24,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag cube\n!tag playable"
         },
         {
-            "card_name": "Sporeback Jargah",
+            "card_name": "Sporeback Jargah_OLD",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus Horror",
@@ -4482,10 +4482,10 @@
             "artist": "Bjorn Johanssen",
             "play_rate": 26,
             "word_count": 47,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Springsoarer",
+            "card_name": "Springsoarer_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -4502,10 +4502,10 @@
             "artist": "Axel Sauerwald",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Squallrunner Duo",
+            "card_name": "Squallrunner Duo_OLD",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier Knight",
@@ -4522,10 +4522,10 @@
             "artist": "Sandara Tang",
             "play_rate": 19,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Stalking Raboorah",
+            "card_name": "Stalking Raboorah_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Fish",
@@ -4542,10 +4542,10 @@
             "artist": "Silvia Pasqualetto",
             "play_rate": 0,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Steadfast Gatekeepers",
+            "card_name": "Steadfast Gatekeepers_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Ruin",
@@ -4562,10 +4562,10 @@
             "artist": "Dabana",
             "play_rate": 50,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Stoutheart Axe",
+            "card_name": "Stoutheart Axe_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -4582,10 +4582,10 @@
             "artist": "Matthew Harris",
             "play_rate": 0,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Sudden Flourishing",
+            "card_name": "Sudden Flourishing_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -4602,10 +4602,10 @@
             "artist": "Omar Samy",
             "play_rate": 0,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Summoning Swords",
+            "card_name": "Summoning Swords_OLD",
             "color": "G",
             "rarity": "mythic",
             "type": "Artifact \u2014 Ruin",
@@ -4622,10 +4622,10 @@
             "artist": "Oliver Wetter",
             "play_rate": 33,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Surmount",
+            "card_name": "Surmount_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -4642,7 +4642,7 @@
             "artist": "Grivetart",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Swamp_OLD",
@@ -4662,10 +4662,10 @@
             "artist": "Manuel Castanon",
             "play_rate": 2525,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Swelling Terror",
+            "card_name": "Swelling Terror_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4682,10 +4682,10 @@
             "artist": "Artozi",
             "play_rate": 9,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Swiftsteel Pioneer",
+            "card_name": "Swiftsteel Pioneer_OLD",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -4702,10 +4702,10 @@
             "artist": "Logan Feliciano",
             "play_rate": 9,
             "word_count": 2,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Swooping Falcon",
+            "card_name": "Swooping Falcon_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -4722,10 +4722,10 @@
             "artist": "Greg Rutkowski",
             "play_rate": 0,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Taiga Bonder",
+            "card_name": "Taiga Bonder_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -4742,10 +4742,10 @@
             "artist": "asahisuperdry",
             "play_rate": 0,
             "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Terror of Whitecliff Pass",
+            "card_name": "Terror of Whitecliff Pass_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Yeti",
@@ -4762,10 +4762,10 @@
             "artist": "Paul Mafayon",
             "play_rate": 0,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Testament Hill",
+            "card_name": "Testament Hill_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Ruin",
@@ -4782,10 +4782,10 @@
             "artist": "Kou Takano",
             "play_rate": 24,
             "word_count": 4,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Thawing Yeti",
+            "card_name": "Thawing Yeti_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Yeti",
@@ -4802,10 +4802,10 @@
             "artist": "Michal Ivan",
             "play_rate": 0,
             "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thirst for Answers",
+            "card_name": "Thirst for Answers_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4822,10 +4822,10 @@
             "artist": "Kazunori Aruga",
             "play_rate": 24,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Thornlasher Mortis",
+            "card_name": "Thornlasher Mortis_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Plant",
@@ -4842,10 +4842,10 @@
             "artist": "Song Min",
             "play_rate": 9,
             "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thoveus Adi",
+            "card_name": "Thoveus Adi_OLD",
             "color": "UB",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Thoveus",
@@ -4862,10 +4862,10 @@
             "artist": "tira-owl",
             "play_rate": 36,
             "word_count": 52,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Thrive in the Everrime",
+            "card_name": "Thrive in the Everrime_OLD",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4882,10 +4882,10 @@
             "artist": "Sam Leung",
             "play_rate": 0,
             "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Thunderous Avalanche",
+            "card_name": "Thunderous Avalanche_OLD",
             "color": "G",
             "rarity": "rare",
             "type": "Instant",
@@ -4902,10 +4902,10 @@
             "artist": "Kudos Productions",
             "play_rate": 387,
             "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable"
         },
         {
-            "card_name": "Timely Demise",
+            "card_name": "Timely Demise_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -4922,10 +4922,10 @@
             "artist": "Yonghui Jia",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Timeworn Crags",
+            "card_name": "Timeworn Crags_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4942,10 +4942,10 @@
             "artist": "Tiago Sousa",
             "play_rate": 76,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Timeworn Sentry",
+            "card_name": "Timeworn Sentry_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -4962,10 +4962,10 @@
             "artist": "draken4o",
             "play_rate": 9,
             "word_count": 2,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tireless Aspirants",
+            "card_name": "Tireless Aspirants_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -4982,10 +4982,10 @@
             "artist": "SIXMOREVODKA",
             "play_rate": 52,
             "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Titansbane",
+            "card_name": "Titansbane_OLD",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Equipment",
@@ -5002,10 +5002,10 @@
             "artist": "Y-mir",
             "play_rate": 2,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Totemic Guidestones",
+            "card_name": "Totemic Guidestones_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Artifact",
@@ -5022,10 +5022,10 @@
             "artist": "Kudos Productions",
             "play_rate": 19,
             "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Toxic Effigy",
+            "card_name": "Toxic Effigy_OLD",
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Ruin",
@@ -5042,10 +5042,10 @@
             "artist": "Hugo Puzzuoli",
             "play_rate": 7,
             "word_count": 4,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Traverse the Ley-Runes",
+            "card_name": "Traverse the Ley-Runes_OLD",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5062,10 +5062,10 @@
             "artist": "Alexandr Komarov",
             "play_rate": 0,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Tyrant's Remnants",
+            "card_name": "Tyrant's Remnants_OLD",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin",
@@ -5082,10 +5082,10 @@
             "artist": "David Aguero",
             "play_rate": 28,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Unflinching Armor",
+            "card_name": "Unflinching Armor_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Ruin Equipment",
@@ -5102,10 +5102,10 @@
             "artist": "Wasan Techawibulchai",
             "play_rate": 0,
             "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Unhallowed Voyage",
+            "card_name": "Unhallowed Voyage_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5122,10 +5122,10 @@
             "artist": "Jinho Bae",
             "play_rate": 21,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Unstable Formation",
+            "card_name": "Unstable Formation_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -5142,10 +5142,10 @@
             "artist": "Wasan Techawibulchai",
             "play_rate": 28,
             "word_count": 38,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Unwavering Gates",
+            "card_name": "Unwavering Gates_OLD",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Ruin",
@@ -5162,10 +5162,10 @@
             "artist": "Nick Gindraux",
             "play_rate": 4,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Ursine Advocate",
+            "card_name": "Ursine Advocate_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -5182,10 +5182,10 @@
             "artist": "Manweri",
             "play_rate": 0,
             "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Valley Caravan",
+            "card_name": "Valley Caravan_OLD",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human",
@@ -5202,10 +5202,10 @@
             "artist": "JJ Peabody",
             "play_rate": 0,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Vanquished Conqueror",
+            "card_name": "Vanquished Conqueror_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -5222,10 +5222,10 @@
             "artist": "Joshua Eiten",
             "play_rate": 9,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Vanquishing Broadsword",
+            "card_name": "Vanquishing Broadsword_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin Equipment",
@@ -5242,10 +5242,10 @@
             "artist": "Tim Kaminski",
             "play_rate": 0,
             "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Verdant Grandeur",
+            "card_name": "Verdant Grandeur_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -5262,10 +5262,10 @@
             "artist": "Eytan Zana",
             "play_rate": 19,
             "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Vorpal Titan",
+            "card_name": "Vorpal Titan_OLD",
             "color": "",
             "rarity": "mythic",
             "type": "Artifact Creature \u2014 Golem",
@@ -5282,10 +5282,10 @@
             "artist": "Cygames, Inc.",
             "play_rate": 36,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Wade Through Spores",
+            "card_name": "Wade Through Spores_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -5302,10 +5302,10 @@
             "artist": "Ferdinand Ladera",
             "play_rate": 50,
             "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Wake the Guardian",
+            "card_name": "Wake the Guardian_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -5322,10 +5322,10 @@
             "artist": "Chaoyuan Xu",
             "play_rate": 0,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Walk Old Paths",
+            "card_name": "Walk Old Paths_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -5342,10 +5342,10 @@
             "artist": "Sandra Duchiewicz",
             "play_rate": 0,
             "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Walk Without Fear",
+            "card_name": "Walk Without Fear_OLD",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -5362,10 +5362,10 @@
             "artist": "ArtOfAnimation",
             "play_rate": 28,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Wardsight Sentinel",
+            "card_name": "Wardsight Sentinel_OLD",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -5382,10 +5382,10 @@
             "artist": "Wakalac",
             "play_rate": 0,
             "word_count": 4,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Wasted Watchpost",
+            "card_name": "Wasted Watchpost_OLD",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Ruin",
@@ -5402,10 +5402,10 @@
             "artist": "Kudos Productions",
             "play_rate": 31,
             "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Weathered Blackguard",
+            "card_name": "Weathered Blackguard_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Knight",
@@ -5422,10 +5422,10 @@
             "artist": "Mauro Belfiore",
             "play_rate": 0,
             "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Weeping Effigy",
+            "card_name": "Weeping Effigy_OLD",
             "color": "U",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -5442,10 +5442,10 @@
             "artist": "Felipe Castro",
             "play_rate": 2,
             "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Whitecliff Alpha",
+            "card_name": "Whitecliff Alpha_OLD",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Yeti",
@@ -5462,10 +5462,10 @@
             "artist": "Todor Hristov",
             "play_rate": 0,
             "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Whitecliff Guardian",
+            "card_name": "Whitecliff Guardian_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Elk",
@@ -5482,10 +5482,10 @@
             "artist": "Michele Parisi",
             "play_rate": 9,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Whitecliff Pilgrim",
+            "card_name": "Whitecliff Pilgrim_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -5502,10 +5502,10 @@
             "artist": "Park Pyeongjun",
             "play_rate": 67,
             "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Whitewing Migration",
+            "card_name": "Whitewing Migration_OLD",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5522,10 +5522,10 @@
             "artist": "TacoSauceNinja",
             "play_rate": 9,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Widowed Maiden",
+            "card_name": "Widowed Maiden_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Artifact \u2014 Ruin",
@@ -5542,10 +5542,10 @@
             "artist": "Kleiner Hai",
             "play_rate": 0,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Winding Way",
+            "card_name": "Winding Way_OLD",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -5562,10 +5562,10 @@
             "artist": "Jocelin Carmes",
             "play_rate": 21,
             "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Winds of Winter",
+            "card_name": "Winds of Winter_OLD",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5582,10 +5582,10 @@
             "artist": "Jumi Park",
             "play_rate": 0,
             "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Writheling",
+            "card_name": "Writheling_OLD",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Horror",
@@ -5602,10 +5602,10 @@
             "artist": "unsmoking-Cigarette",
             "play_rate": 74,
             "word_count": 49,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable"
         },
         {
-            "card_name": "Zenith Marshal",
+            "card_name": "Zenith Marshal_OLD",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5622,10 +5622,10 @@
             "artist": "Mr--Jack",
             "play_rate": 0,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
-            "card_name": "Zyxthax Apex",
+            "card_name": "Zyxthax Apex_OLD",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Serpent",
@@ -5642,7 +5642,7 @@
             "artist": "Takamutsu Art",
             "play_rate": 19,
             "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Abominable Avalanche_PRO_OLD",
@@ -5662,7 +5662,27 @@
             "artist": "ravenoath",
             "play_rate": 377,
             "word_count": 53,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
+        },
+        {
+            "card_name": "Abominable Avalanche (KUT)_OLD",
+            "color": "RG",
+            "rarity": "special",
+            "type": "Sorcery",
+            "number": 303,
+            "color_identity": "RG",
+            "cost": "{1}{R}{G}",
+            "rules_text": "Abominable Avalanche deals 3 damage divided as you choose among one, two, or three targets.\nAt the beginning of your end step, if you've spent at least five mana to cast spells this turn, you may exile Abominable Avalanche from your graveyard. If you do, create a 3/3 green Yeti creature token with trample.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "OLD",
+            "loyalty": "",
+            "artist": "Kerem Beyit",
+            "play_rate": 377,
+            "word_count": 53,
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "All That Remains_PRO_OLD",
@@ -5682,7 +5702,7 @@
             "artist": "Taissia Abdoullina",
             "play_rate": 187,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Audacious Roughrider_PRO_OLD",
@@ -5702,7 +5722,7 @@
             "artist": "Ma Ke",
             "play_rate": 125,
             "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Barbarous Roughrider_PRO_OLD",
@@ -5722,7 +5742,7 @@
             "artist": "Jaron Zheng",
             "play_rate": 21,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Chronicle of Extinction_PRO_OLD",
@@ -5742,7 +5762,7 @@
             "artist": "revilonilmah",
             "play_rate": 716,
             "word_count": 48,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Elder Eras_PRO_OLD",
@@ -5762,7 +5782,7 @@
             "artist": "Illus. Federico Musetti",
             "play_rate": 4,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag promo"
         },
         {
             "card_name": "Final Fate_PRO_OLD",
@@ -5782,7 +5802,7 @@
             "artist": "Illus. Pandet Bootkyo",
             "play_rate": 228,
             "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Firebolt_PRO_OLD",
@@ -5802,7 +5822,7 @@
             "artist": "Illus. Matt Gaser",
             "play_rate": 206,
             "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Glacier Guardian_PRO_OLD",
@@ -5822,7 +5842,7 @@
             "artist": "Art of Li",
             "play_rate": 0,
             "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag promo"
         },
         {
             "card_name": "Hearty Roughrider_PRO_OLD",
@@ -5842,7 +5862,7 @@
             "artist": "Atomhawk Design",
             "play_rate": 170,
             "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Igneous Visions_PRO_OLD",
@@ -5862,7 +5882,7 @@
             "artist": "Asur Misoa",
             "play_rate": 185,
             "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Opulent Roughrider_PRO_OLD",
@@ -5882,7 +5902,7 @@
             "artist": "Tomasz Chistowski",
             "play_rate": 26,
             "word_count": 44,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Raboorah's Appetite_PRO_OLD",
@@ -5902,7 +5922,7 @@
             "artist": "uroko (rwde4544)",
             "play_rate": 76,
             "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Renowned Roughrider_PRO_OLD",
@@ -5922,7 +5942,7 @@
             "artist": "\u5468\u4eae",
             "play_rate": 153,
             "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Summoning Swords_PRO_OLD",
@@ -5942,7 +5962,7 @@
             "artist": "Haryarti",
             "play_rate": 33,
             "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Swelling Terror_PRO_OLD",
@@ -5962,7 +5982,7 @@
             "artist": "Justin Gerard",
             "play_rate": 9,
             "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag promo"
         },
         {
             "card_name": "Thunderous Avalanche_PRO_OLD",
@@ -5982,7 +6002,7 @@
             "artist": "Cerveceria Tres Locos",
             "play_rate": 387,
             "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
         },
         {
             "card_name": "green Yeti 33OLD",
@@ -6002,7 +6022,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "white Human 11OLD",
@@ -6022,7 +6042,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "Treasure OLD",
@@ -6042,7 +6062,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "red Human Warrior 21OLD",
@@ -6062,7 +6082,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "green Elemental 1010OLD",
@@ -6082,7 +6102,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "white Bird 11OLD",
@@ -6102,7 +6122,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "black Cat 22MSEMAR",
@@ -6122,7 +6142,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "green Saproling 11OLD",
@@ -6142,7 +6162,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "blue and black Fish OLD",
@@ -6162,7 +6182,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "green Wolf 22OLD",
@@ -6182,7 +6202,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "colorless Spirit 00OLD",
@@ -6202,7 +6222,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "green Bear 22OLD",
@@ -6222,7 +6242,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "white Insect 11OLD",
@@ -6242,7 +6262,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "blue Drake OLD",
@@ -6262,7 +6282,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "white Goat 01OLD",
@@ -6282,7 +6302,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         },
         {
             "card_name": "green Yeti 33OLD 2",
@@ -6302,7 +6322,7 @@
             "artist": "",
             "play_rate": 0,
             "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "notes": "\n!tageternal\n!tag rotated"
         }
     ],
     "version": 1

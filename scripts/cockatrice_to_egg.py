@@ -352,12 +352,12 @@ def pull_all_images(play_rate_table):
 
 	cubecards = [l.split('"name": "')[1].split('"')[0] for l in f.readlines() if '"name"' in l]
 
-	setnames = ["Exalts of Twiltrie", "Theros: Age of Trax", "Cliques of Nylin", "Errors in the Weft", "Chikyu: Chaos Rains", "Cybaros", "Awakening in Oldun", "Kitsuo: Dusk of Time",
+	setnames = ["Solastere", "Exalts of Twiltrie", "Theros: Age of Trax", "Cliques of Nylin", "Errors in the Weft", "Chikyu: Chaos Rains", "Cybaros", "Awakening in Oldun", "Kitsuo: Dusk of Time",
 		"Hyperpop", "Duelists of Vereaux", "Blood Like Rivers", "Karslav", "Karsus", "Viridian's Last Mission", "Svergard", "Ghariv, the Quaking City",
 		"Kuutalya", "Monsters of Chikyu", "Secrets of the River Cities", "Vastuum", "Revolution Renegades", "Revolution Planechase"]
-	setcodes = ["TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST", "REV", "PLANE"]
+	setcodes = ["SOL", "TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST", "REV", "PLANE"]
 	setcards = []
-	num_sets = 22
+	num_sets = 23
 	for i in range(num_sets):
 		setcards.append([])
 
@@ -583,9 +583,7 @@ def pull_all_images(play_rate_table):
 	for i in range(num_sets):
 		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
-		if i < 6:
-			formatstring += ",standard,future,planechase"
-		elif i < 7:
+		if i < 7:
 			formatstring += ",standard,planechase"
 		else:
 			formatstring += ",rotated"

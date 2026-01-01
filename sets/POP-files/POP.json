@@ -5705,6 +5705,26 @@
             "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
+            "card_name": "Lightvein Arrow_PRO_POP",
+            "color": "R",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 297,
+            "color_identity": "R",
+            "cost": "{Vp}{R}",
+            "rules_text": "(This card is red. Spend a nonred color of mana on {Vp}.)\nLightvein Arrow deals 3 damage to any target. Scry 1.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "POP",
+            "loyalty": "",
+            "artist": "Scott Uminga",
+            "play_rate": 405,
+            "word_count": 9,
+            "notes": "\n!tageternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo"
+        },
+        {
             "card_name": "Magdalena Bay (Mini Mix Vol. 3)_POP",
             "color": "",
             "rarity": "special",
@@ -5743,6 +5763,26 @@
             "play_rate": 13,
             "word_count": 25,
             "notes": "\n!tageternal\n!tag rotated\n!tag promo"
+        },
+        {
+            "card_name": "Rock On_PRO_POP",
+            "color": "R",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 298,
+            "color_identity": "R",
+            "cost": "{R}",
+            "rules_text": "Target creature gets +2/+0 and gains first strike until end of turn. It gets an additional +1/+0 until end of turn for each time you've amped it up this turn. (You amp it up by casting your second spell each turn and/or by attacking with three or more creatures.)",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "POP",
+            "loyalty": "",
+            "artist": "Peter Kovacs",
+            "play_rate": 60,
+            "word_count": 30,
+            "notes": "\n!tageternal\n!tag rotated\n!tag playable\n!tag promo"
         },
         {
             "card_name": "Sashanki, Destiny's Chosen (Beyonce)_POP",
