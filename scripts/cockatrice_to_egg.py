@@ -4,6 +4,7 @@ import os.path
 import shutil
 import json
 import sys
+import random
 
 '''
 git push https://EscapeFromLimbo@github.com/EscapeFromLimbo/EscapeFromLimbo.github.io.git
@@ -466,7 +467,7 @@ def pull_all_images(play_rate_table):
 					#urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 				setcards[i].append(c)
-		print(f"Avg word count of {setcodes[i]}: {sum([c.word_count for c in setcards[i]])/len(cards)}")
+		#print(f"Avg word count of {setcodes[i]}: {sum([c.word_count for c in setcards[i]])/len(cards)}")
 
 	"""
 	<card>
@@ -580,6 +581,41 @@ def pull_all_images(play_rate_table):
 	#for cubecard in cubecards:
 	#	print(cubecard)
 
+	chaosdraftfile = """
+	[Settings]
+	{
+		"name": "Revolution Chaos Draft",
+		"withReplacement": false,
+		"layouts": {
+	"""
+	chaoscardlists = {}
+	for i in range(num_sets):
+		if setcodes[i] in ["REV", "PLANE"]:
+			continue
+		setlayout = """
+			"REPLACE": {
+				"weight": 1,
+				"slots": {
+	  				"CODERare": 2,
+	    				"CODEUncommon": 4,
+	     			"CODECommon": 8,
+					"CODELand": 1,
+				}
+			},
+		""".replace("REPLACE", setnames[i]).replace("CODE", setcodes[i])
+		chaoscardlists[setcodes[i] + "Rare"] = []
+		chaoscardlists[setcodes[i] + "Uncommon"] = []
+		chaoscardlists[setcodes[i] + "Common"] = []
+		chaoscardlists[setcodes[i] + "Land"] = []
+		chaosdraftfile += setlayout
+	chaosdraftfile += """
+		},
+		"layoutWithReplacement": false
+	}
+	[CustomCards]
+	[
+	"""
+
 	for i in range(num_sets):
 		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
@@ -659,9 +695,11 @@ def pull_all_images(play_rate_table):
 			if play_rate >= 100:
 				tags = tags + "\\n!tag staple"	
 			if play_rate >= 20:
-				tags = tags + "\\n!tag playable"	
-			if "_PRO" in card.card_name or "REV" in setcodes[i] or "(shiny)" in card.card_name or ")_" in card.card_name:
+				tags = tags + "\\n!tag playable"
+			is_promo = False	
+			if "_PRO" in card.card_name or "REV" in setcodes[i] or "(shiny)" in card.card_name or ")_" in card.card_name or "(Hero)" in card.card_name:
 				tags = tags + "\\n!tag promo"
+				is_promo = True
 			if card.form in ["normal", "token"]:
 				cardtext = f'''
 					"card_name": "{card.card_name}",
@@ -774,21 +812,39 @@ def pull_all_images(play_rate_table):
 
 				#print(cardtext)
 				#draftfile...
-				if not "PRO" in card.card_name:
+				if not is_promo and not setcodes[i] in ["REV", "PLANE"]:
 					if card.form == "token":
 						tokenNames.append(card.card_name)
 					elif "Basic" in card.type:
 						basicNames.append(card.card_name)
+						if random.random() < 0.5:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Land"].append(card.card_name)
 					elif "Land" in card.type and card.rarity in ["common", "basic"] and len(card.color_identity) == 2:
 						landNames.append(card.card_name)
+						if random.random() < 0.25:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Land"].append(card.card_name)
 					elif card.rarity == "common":
 						commonNames.append(card.card_name)
+						if random.random() < 0.25:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Common"].append(card.card_name)
 					elif card.rarity == "uncommon":
 						uncommonNames.append(card.card_name)
+						if random.random() < 0.13:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Uncommon"].append(card.card_name)
 					elif card.rarity == "rare":
 						rareNames.append(card.card_name)
+						if random.random() < 0.1:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Rare"].append(card.card_name)
 					elif card.rarity == "mythic":
 						mythicNames.append(card.card_name)
+						if random.random() < 0.05:
+							chaosdraftfile += drafttext
+							chaoscardlists[setcodes[i] + "Rare"].append(card.card_name)
 					draftfile = draftfile + drafttext
 		# play booster numbers
 		# 13 cards + land slot
@@ -833,8 +889,19 @@ def pull_all_images(play_rate_table):
 		if not setcodes[i] in ["PLANE", "REV"]:
 			with open(f"sets/{setcodes[i]}-files/{setcodes[i]}-draft.txt", "w", encoding="utf-8") as f:
 				f.write(draftfile)
+
+	chaosdraftfile += "]\n"
+	for key in chaoscardlists:
+		chaosdraftfile += f"\n[{key}]\n"
+		for cardname in chaoscardlists[key]:
+			chaosdraftfile += "1 " + cardname + "\n"
+	with open(f"custom/chaos-draft.txt", "w", encoding="utf-8") as f:
+		f.write(chaosdraftfile)
+
 	print(f"{len(cubecards)} cube cards unaccounted for")
 	if len(cubecards) > 0:
 		print(cubecards)
+
+
 
 	#TODO: white border around set logos

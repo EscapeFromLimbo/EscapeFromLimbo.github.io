@@ -34,19 +34,6 @@
 		},
 		
 		{
-			"name": "A Journey Begins (shiny)",
-			"mana_cost": "{G}",
-			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1174_A Journey Begins (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1174",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Look at the top five cards of your library. You may reveal a permanent card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
-		},
-		
-		{
 			"name": "Ace Tamer",
 			"mana_cost": "{4}{G}",
 			"type": "Creature",
@@ -80,19 +67,6 @@
 			"colors": ["W","R"],
 			"set": "CCR",
 			"collector_number": "190",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Once each turn, when you activate a nonmana ability, you may put a counter on Amber that it doesn't already have from among +1/+1, first strike, haste, lifelink, menace, and vigilance.\n{R}, {T}: You may discard a card. If you do, draw a card.",
-		},
-		
-		{
-			"name": "Amber, Nimble Companion (shiny)",
-			"mana_cost": "{R}{W}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1190_Amber, Nimble Companion (shiny).jpg",
-			"colors": ["W","R"],
-			"set": "CCR",
-			"collector_number": "1190",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Once each turn, when you activate a nonmana ability, you may put a counter on Amber that it doesn't already have from among +1/+1, first strike, haste, lifelink, menace, and vigilance.\n{R}, {T}: You may discard a card. If you do, draw a card.",
@@ -164,19 +138,6 @@
 		},
 		
 		{
-			"name": "Armored Raptor (shiny)",
-			"mana_cost": "{4}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1002_Armored Raptor (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1002",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Flying\nWhen Armored Raptor enters, if you control an artifact, draw a card.",
-		},
-		
-		{
 			"name": "Aroma Spinner",
 			"mana_cost": "{2}{G}",
 			"type": "Creature",
@@ -190,19 +151,6 @@
 		},
 		
 		{
-			"name": "Aroma Spinner (shiny)",
-			"mana_cost": "{2}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1155_Aroma Spinner (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1155",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Reach\nAt the beginning of your upkeep, create a Berry token. You may attach it to Aroma Spinner. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
-		},
-		
-		{
 			"name": "Avert Disaster",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
@@ -210,19 +158,6 @@
 			"colors": ["U"],
 			"set": "CCR",
 			"collector_number": "42",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "This spell costs {1} less to cast if there is a card named Avert Disaster or Imminent Disaster in your graveyard.\nCounter target spell.",
-		},
-		
-		{
-			"name": "Avert Disaster (shiny)",
-			"mana_cost": "{1}{U}{U}",
-			"type": "Instant",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1042_Avert Disaster (shiny).jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1042",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "This spell costs {1} less to cast if there is a card named Avert Disaster or Imminent Disaster in your graveyard.\nCounter target spell.",
@@ -267,19 +202,6 @@
 		},
 		
 		{
-			"name": "Berry Fermenter (shiny)",
-			"mana_cost": "{2}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1156_Berry Fermenter (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1156",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Berry Fermenter enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{2}, Sacrifice a Berry: You gain 3 life.\n{T}, Sacrifice a Berry: Add one mana of any color.",
-		},
-		
-		{
 			"name": "Berry Harvester",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Creature",
@@ -313,19 +235,6 @@
 			"colors": ["G"],
 			"set": "CCR",
 			"collector_number": "158",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
-		},
-		
-		{
-			"name": "Bloom Brute (shiny)",
-			"mana_cost": "{1}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1158_Bloom Brute (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1158",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
@@ -501,19 +410,6 @@
 		},
 		
 		{
-			"name": "Calamity Cat (shiny)",
-			"mana_cost": "{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1121_Calamity Cat (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1121",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "{T}, Discard a card: Put a +1/+1 counter on another target creature you control and untap it. It gains haste until end of turn. Activate only as a sorcery.",
-		},
-		
-		{
 			"name": "Calmed Battleground",
 			"mana_cost": "",
 			"type": "Land",
@@ -579,19 +475,6 @@
 		},
 		
 		{
-			"name": "Carefree Kappa (shiny)",
-			"mana_cost": "{2}{G}{U}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1196_Carefree Kappa (shiny).jpg",
-			"colors": ["U","G"],
-			"set": "CCR",
-			"collector_number": "1196",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Once each turn, when Carefree Kappa enters or becomes the target of a spell or ability, you may create a Weather enchantment token that's all colors named Looks Like Rain with \"Whenever you attack, you gain 1 life.\"\nCarefree Kappa gets +1/+1 for each Weather you control.",
-		},
-		
-		{
 			"name": "Catch Your Breath",
 			"mana_cost": "{W}",
 			"type": "Instant",
@@ -599,19 +482,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "5",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Draw a card if you discarded a card this turn.\nYou gain 3 life if you've lost life this turn.\nCreate a 1/1 white Golem creature token if a creature you controlled left the battlefield this turn.",
-		},
-		
-		{
-			"name": "Catch Your Breath (shiny)",
-			"mana_cost": "{W}",
-			"type": "Instant",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1005_Catch Your Breath (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1005",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Draw a card if you discarded a card this turn.\nYou gain 3 life if you've lost life this turn.\nCreate a 1/1 white Golem creature token if a creature you controlled left the battlefield this turn.",
@@ -638,19 +508,6 @@
 			"colors": ["R"],
 			"set": "CCR",
 			"collector_number": "122",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Charge Beam deals 4 damage to target creature or planeswalker.\nAmity - If you attacked with exactly two creatures this turn, Charge Beam deals 2 damage to that permanent's controller.",
-		},
-		
-		{
-			"name": "Charge Beam (shiny)",
-			"mana_cost": "{2}{R}",
-			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1122_Charge Beam (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1122",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Charge Beam deals 4 damage to target creature or planeswalker.\nAmity - If you attacked with exactly two creatures this turn, Charge Beam deals 2 damage to that permanent's controller.",
@@ -734,31 +591,6 @@
 		},
 		
 		{
-			"name": "Chum Chaser (shiny)",
-			"mana_cost": "{3}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1079_Chum Chaser (shiny)_front.jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1079",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Whenever you cast a spell from your graveyard, each opponent loses 1 life and you gain 1 life.\nSurface {3}{B}{B}. Chum Chaser surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
-			"back": {
-				"name": "Ship Shredder (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1079_Chum Chaser (shiny)_back.jpg",
-				"colors": ["B"],
-				"set": "CCR",
-				"collector_number": "1079",
-				"rarity": "uncommon",
-				"subtypes": [],
-				"oracle_text": "Menace\nWhenever Ship Shredder enters or you cast a spell from your graveyard, each opponent loses 2 life and you gain 2 life.",
-			}
-		},
-		
-		{
 			"name": "Cirriform Dragon",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature",
@@ -766,19 +598,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "8",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying, lifelink\n{2}{W}: Untap each creature you've activated this turn. They get +1/+1 and gain lifelink until end of turn. Activate only once each turn.",
-		},
-		
-		{
-			"name": "Cirriform Dragon (shiny)",
-			"mana_cost": "{3}{W}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1008_Cirriform Dragon (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1008",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Flying, lifelink\n{2}{W}: Untap each creature you've activated this turn. They get +1/+1 and gain lifelink until end of turn. Activate only once each turn.",
@@ -1044,19 +863,6 @@
 		},
 		
 		{
-			"name": "Desolate Lands (shiny)",
-			"mana_cost": "{3}{R}{R}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1124_Desolate Lands (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1124",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Desolate Lands enters and whenever you cast a spell, it deals 3 damage to target opponent unless they sacrifice a permanent.",
-		},
-		
-		{
 			"name": "Diamond Dust",
 			"mana_cost": "{5}{W}",
 			"type": "Enchantment",
@@ -1064,19 +870,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "14",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Diamond Dust enters and whenever you cast a spell, put a +1/+1 counter on each creature you control.",
-		},
-		
-		{
-			"name": "Diamond Dust (shiny)",
-			"mana_cost": "{5}{W}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1014_Diamond Dust (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1014",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Diamond Dust enters and whenever you cast a spell, put a +1/+1 counter on each creature you control.",
@@ -1161,19 +954,6 @@
 		},
 		
 		{
-			"name": "Earthbreaker Dragon (shiny)",
-			"mana_cost": "{2}{R}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1127_Earthbreaker Dragon (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1127",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying\nAmity - Whenever you attack with Earthbreaker Dragon and exactly one other creature, Earthbreaker Dragon deals 1 damage to each of up to two target creatures without flying.",
-		},
-		
-		{
 			"name": "Echocrafter",
 			"mana_cost": "{2}{U}{R}{W}",
 			"type": "Creature",
@@ -1252,19 +1032,6 @@
 		},
 		
 		{
-			"name": "End of Mutations (shiny)",
-			"mana_cost": "{3}{R}{R}{R}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1129_End of Mutations (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1129",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nFirst strike, haste\nWhenever an opponent casts a spell during your turn, End of Mutations deals 5 damage to them.",
-		},
-		
-		{
 			"name": "Enspirited Ore",
 			"mana_cost": "{4}",
 			"type": "Artifact",
@@ -1272,19 +1039,6 @@
 			"colors": [],
 			"set": "CCR",
 			"collector_number": "244",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Enspirited Ore gets +1/+1 for each other artifact you control.\nTap three untapped artifacts you control: Enspirited Ore gains indestructible until end of turn.",
-		},
-		
-		{
-			"name": "Enspirited Ore (shiny)",
-			"mana_cost": "{4}",
-			"type": "Artifact",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1244_Enspirited Ore (shiny).jpg",
-			"colors": [],
-			"set": "CCR",
-			"collector_number": "1244",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Enspirited Ore gets +1/+1 for each other artifact you control.\nTap three untapped artifacts you control: Enspirited Ore gains indestructible until end of turn.",
@@ -1309,31 +1063,6 @@
 				"colors": ["G"],
 				"set": "CCR",
 				"collector_number": "167",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Vigilance\nWhenever Reborn Reef attacks, target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.",
-			}
-		},
-		
-		{
-			"name": "Entangled Fossil (shiny)",
-			"mana_cost": "{G}",
-			"type": "Artifact",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1167_Entangled Fossil (shiny)_front.jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1167",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "{G}, Sacrifice Entangled Fossil: Target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost. (It won't surface transformed if cast this way.)\nSurface {4}{G}{G}. Entangled Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
-			"back": {
-				"name": "Reborn Reef (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1167_Entangled Fossil (shiny)_back.jpg",
-				"colors": ["G"],
-				"set": "CCR",
-				"collector_number": "1167",
 				"rarity": "rare",
 				"subtypes": [],
 				"oracle_text": "Vigilance\nWhenever Reborn Reef attacks, target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.",
@@ -1400,19 +1129,6 @@
 			"colors": ["W","B","G"],
 			"set": "CCR",
 			"collector_number": "203",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever one or more creatures die, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever Feasting Predator attacks, you may sacrifice a Berry. If you do, up to one target creature gets -1/-1 until end of turn and blocks this combat if able.",
-		},
-		
-		{
-			"name": "Feasting Predator (shiny)",
-			"mana_cost": "{W}{B}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1203_Feasting Predator (shiny).jpg",
-			"colors": ["W","B","G"],
-			"set": "CCR",
-			"collector_number": "1203",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Deathtouch\nWhenever one or more creatures die, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever Feasting Predator attacks, you may sacrifice a Berry. If you do, up to one target creature gets -1/-1 until end of turn and blocks this combat if able.",
@@ -1638,19 +1354,6 @@
 		},
 		
 		{
-			"name": "Generator Alpha (shiny)",
-			"mana_cost": "{3}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1132_Generator Alpha (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1132",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Trample, haste\nLandfall - When a land you control enters, target creature can't block this turn.\nAt the beginning of your end step, return Generator Alpha or a land you control to its owner's hand.",
-		},
-		
-		{
 			"name": "Generous Farmer",
 			"mana_cost": "{3}{W}",
 			"type": "Creature",
@@ -1729,19 +1432,6 @@
 		},
 		
 		{
-			"name": "Gone Pickin' (shiny)",
-			"mana_cost": "{2}{W}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1018_Gone Pickin' (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1018",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "When Gone Pickin' enters, exile up to one target nonland permanent an opponent controls until Gone Pickin' leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
-		},
-		
-		{
 			"name": "Growing Gecko",
 			"mana_cost": "{G}{G}",
 			"type": "Creature",
@@ -1760,31 +1450,6 @@
 				"colors": ["G"],
 				"set": "CCR",
 				"collector_number": "170",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Trample\nAmity - Whenever Old-Growth Gecko attacks, put a +1/+1 counter on another creature you control. If exactly one other creature attacked with it, this ability triggers three times instead.",
-			}
-		},
-		
-		{
-			"name": "Growing Gecko (shiny)",
-			"mana_cost": "{G}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1170_Growing Gecko (shiny)_front.jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1170",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Amity - Whenever you attack with Growing Gecko and exactly one other creature, they both get +1/+1 until end of turn. When Growing Gecko deals combat damage to a player this combat, you may transform it.",
-			"back": {
-				"name": "Old-Growth Gecko (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1170_Growing Gecko (shiny)_back.jpg",
-				"colors": ["G"],
-				"set": "CCR",
-				"collector_number": "1170",
 				"rarity": "rare",
 				"subtypes": [],
 				"oracle_text": "Trample\nAmity - Whenever Old-Growth Gecko attacks, put a +1/+1 counter on another creature you control. If exactly one other creature attacked with it, this ability triggers three times instead.",
@@ -1857,19 +1522,6 @@
 		},
 		
 		{
-			"name": "Heartbreak (shiny)",
-			"mana_cost": "{1}{W}{B}{G}",
-			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1205_Heartbreak (shiny).jpg",
-			"colors": ["W","B","G"],
-			"set": "CCR",
-			"collector_number": "1205",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Each player chooses up to one nontoken, nonland permanent they control. They lose life equal to its mana value. Destroy the rest.",
-		},
-		
-		{
 			"name": "Heavy Snowfall",
 			"mana_cost": "{W}",
 			"type": "Enchantment",
@@ -1890,19 +1542,6 @@
 			"colors": ["G"],
 			"set": "CCR",
 			"collector_number": "172",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Heavy Winds enters and whenever you cast a spell, prevent all damage up to one target permanent would deal this turn.",
-		},
-		
-		{
-			"name": "Heavy Winds (shiny)",
-			"mana_cost": "{2}{G}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1172_Heavy Winds (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1172",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Heavy Winds enters and whenever you cast a spell, prevent all damage up to one target permanent would deal this turn.",
@@ -1948,19 +1587,6 @@
 		},
 		
 		{
-			"name": "Hoard (shiny)",
-			"mana_cost": "{2}{B}",
-			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1087_Hoard (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1087",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "You draw two cards and you lose 2 life.\nLandfall - If a land entered the battlefield under your control this turn, each opponent loses 2 life.",
-		},
-		
-		{
 			"name": "Hoenn Champion",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Legendary",
@@ -1968,19 +1594,6 @@
 			"colors": ["R","G"],
 			"set": "CCR",
 			"collector_number": "207",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Hoenn Champion enters, create a creature token for each of the following characteristics.\n• 3/3 white and black Bird with flying, vigilance, and haste.\n• 2/4 red Bird Warrior with double strike, vigilance, and haste.\nNo more than two creatures can attack each combat. No more than two creatures can block each combat.",
-		},
-		
-		{
-			"name": "Hoenn Champion (shiny)",
-			"mana_cost": "{4}{R}{G}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1207_Hoenn Champion (shiny).jpg",
-			"colors": ["R","G"],
-			"set": "CCR",
-			"collector_number": "1207",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "When Hoenn Champion enters, create a creature token for each of the following characteristics.\n• 3/3 white and black Bird with flying, vigilance, and haste.\n• 2/4 red Bird Warrior with double strike, vigilance, and haste.\nNo more than two creatures can attack each combat. No more than two creatures can block each combat.",
@@ -2033,19 +1646,6 @@
 			"colors": ["G"],
 			"set": "CCR",
 			"collector_number": "173",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "When Hungry Blob enters, destroy up to three target artifacts and/or enchantments with total mana value 3 or less.",
-		},
-		
-		{
-			"name": "Hungry Blob (shiny)",
-			"mana_cost": "{2}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1173_Hungry Blob (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1173",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "When Hungry Blob enters, destroy up to three target artifacts and/or enchantments with total mana value 3 or less.",
@@ -2142,31 +1742,6 @@
 		},
 		
 		{
-			"name": "Ironback Tyke (shiny)",
-			"mana_cost": "{1}{R}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1209_Ironback Tyke (shiny)_front.jpg",
-			"colors": ["W","R"],
-			"set": "CCR",
-			"collector_number": "1209",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Ironback Tyke enters, you may search your library for a basic Mountain or Plains card, reveal it, put it into your hand, then shuffle.\n{2}{R}{W}: Any number of target creatures you control have base power and toughness 3/3 until end of turn. If you control seven or more permanents with activated abilities, transform Ironback Tyke. Activate only as a sorcery.",
-			"back": {
-				"name": "Ironback Sovereign (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1209_Ironback Tyke (shiny)_back.jpg",
-				"colors": ["W","R"],
-				"set": "CCR",
-				"collector_number": "1209",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Vigilance, trample\n{2}{R}{W}: Any number of target creatures you control have base power and toughness 6/6 until end of turn.",
-			}
-		},
-		
-		{
 			"name": "Island_CCR",
 			"mana_cost": "",
 			"type": "Basic",
@@ -2211,31 +1786,6 @@
 				"colors": ["U","R"],
 				"set": "CCR",
 				"collector_number": "211",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Flying, trample\nIf a source you control would deal damage to an opponent or a permanent an opponent controls, you may have it deal twice that much damage instead if it's a Dragon or Iviana planeswalker. Otherwise, it deals that much damage plus 2 instead.",
-			}
-		},
-		
-		{
-			"name": "Iviana's Spellmaw (shiny)",
-			"mana_cost": "{2}{U}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1241_Iviana's Spellmaw (shiny)_front.jpg",
-			"colors": ["U","R"],
-			"set": "CCR",
-			"collector_number": "1241",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying\nIf a Dragon you control would deal damage to an opponent, it deals that much damage plus 1 instead.\n{2}{U}{R}: Transform Iviana's Spellmaw.",
-			"back": {
-				"name": "Iviana's Splitmaw (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1241_Iviana's Spellmaw (shiny)_back.jpg",
-				"colors": ["U","R"],
-				"set": "CCR",
-				"collector_number": "1241",
 				"rarity": "rare",
 				"subtypes": [],
 				"oracle_text": "Flying, trample\nIf a source you control would deal damage to an opponent or a permanent an opponent controls, you may have it deal twice that much damage instead if it's a Dragon or Iviana planeswalker. Otherwise, it deals that much damage plus 2 instead.",
@@ -2373,19 +1923,6 @@
 		},
 		
 		{
-			"name": "Lavaborn Slug (shiny)",
-			"mana_cost": "{1}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1135_Lavaborn Slug (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1135",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "{T}: Lavaborn Slug deals 1 damage to target player.\nLandfall - Whenever a land you control enters, untap Lavaborn Slug.",
-		},
-		
-		{
 			"name": "Leaping Hatchling",
 			"mana_cost": "{1}{R}",
 			"type": "Creature",
@@ -2393,19 +1930,6 @@
 			"colors": ["R"],
 			"set": "CCR",
 			"collector_number": "136",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Haste\nLandfall - Whenever a land you control enters, Leaping Hatchling gains flying and trample until end of turn.",
-		},
-		
-		{
-			"name": "Leaping Hatchling (shiny)",
-			"mana_cost": "{1}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1136_Leaping Hatchling (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1136",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Haste\nLandfall - Whenever a land you control enters, Leaping Hatchling gains flying and trample until end of turn.",
@@ -2542,19 +2066,6 @@
 		},
 		
 		{
-			"name": "Magnetling (shiny)",
-			"mana_cost": "{4}",
-			"type": "Artifact",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1256_Magnetling (shiny).jpg",
-			"colors": [],
-			"set": "CCR",
-			"collector_number": "1256",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "{1}: Untap Magnetling.\n{1}: Magnetling can't be blocked by creatures with power 2 or less this turn.\n{1}: Choose a card type. Magnetling loses that type until end of turn.\n{1}: Magnetling gets +1/-1 or -1/+1 until end of turn.",
-		},
-		
-		{
 			"name": "Maw Impostor",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
@@ -2613,19 +2124,6 @@
 			"colors": ["R"],
 			"set": "CCR",
 			"collector_number": "139",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "{R}, {T}: Copy target activated ability you control. You may choose new targets for the copy.",
-		},
-		
-		{
-			"name": "Mimicry Elemental (shiny)",
-			"mana_cost": "{1}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1139_Mimicry Elemental (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1139",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "{R}, {T}: Copy target activated ability you control. You may choose new targets for the copy.",
@@ -2723,19 +2221,6 @@
 		},
 		
 		{
-			"name": "Nocturne, Monstrous Krasis (shiny)",
-			"mana_cost": "{2}{G}{U}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1216_Nocturne, Monstrous Krasis (shiny).jpg",
-			"colors": ["U","G"],
-			"set": "CCR",
-			"collector_number": "1216",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Nocturne, Monstrous Krasis enters and at the beginning of your upkeep, put X +1/+1 counters on Nocturne, where X is the number of different kinds of counters on permanents you control.",
-		},
-		
-		{
 			"name": "Omenhorn",
 			"mana_cost": "{R}{W}{B}",
 			"type": "Creature",
@@ -2794,19 +2279,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "22",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Outlands Prowler has first strike as long as it's your turn.\nLandfall - Whenever a land you control enters, Outlands Prowler gets +2/+2 until end of turn.",
-		},
-		
-		{
-			"name": "Outlands Prowler (shiny)",
-			"mana_cost": "{2}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1022_Outlands Prowler (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1022",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Outlands Prowler has first strike as long as it's your turn.\nLandfall - Whenever a land you control enters, Outlands Prowler gets +2/+2 until end of turn.",
@@ -2904,19 +2376,6 @@
 		},
 		
 		{
-			"name": "Pitfall Pincher (shiny)",
-			"mana_cost": "{1}{B}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1218_Pitfall Pincher (shiny).jpg",
-			"colors": ["B","R"],
-			"set": "CCR",
-			"collector_number": "1218",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Landfall - Whenever a land you control enters, Pitfall Pincher deals 1 damage to any target. If that target is a creature, it blocks this turn if able.",
-		},
-		
-		{
 			"name": "Placated Mind",
 			"mana_cost": "{U}",
 			"type": "Instant",
@@ -2982,19 +2441,6 @@
 		},
 		
 		{
-			"name": "Plush Collection (shiny)",
-			"mana_cost": "{2}{W}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1025_Plush Collection (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1025",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Once each turn, when you activate a creature, you may create a tapped token that's a copy of it, except it's a 1/1 Toy in addition to its other types and it isn't legendary.",
-		},
-		
-		{
 			"name": "Poised Flame",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
@@ -3015,19 +2461,6 @@
 			"colors": ["B","G"],
 			"set": "CCR",
 			"collector_number": "220",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Poisoned Rose enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
-		},
-		
-		{
-			"name": "Poisoned Rose (shiny)",
-			"mana_cost": "{1}{B}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1220_Poisoned Rose (shiny).jpg",
-			"colors": ["B","G"],
-			"set": "CCR",
-			"collector_number": "1220",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "When Poisoned Rose enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
@@ -3060,19 +2493,6 @@
 		},
 		
 		{
-			"name": "Practicing Guru (shiny)",
-			"mana_cost": "{1}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1026_Practicing Guru (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1026",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "When Practicing Guru enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nPracticing Guru gets +1/+1 as long as you've sacrificed a Berry that was attached to it this turn.\nSacrifice a Berry attached to Practicing Guru: It gains indestructible until end of turn.",
-		},
-		
-		{
 			"name": "Pressuring Ghoul",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
@@ -3080,19 +2500,6 @@
 			"colors": ["B"],
 			"set": "CCR",
 			"collector_number": "98",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying, haste\nLandfall - Whenever a land you control enters, put a +1/+1 counter on Pressuring Ghoul unless any opponent discards a card.",
-		},
-		
-		{
-			"name": "Pressuring Ghoul (shiny)",
-			"mana_cost": "{1}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1098_Pressuring Ghoul (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1098",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Flying, haste\nLandfall - Whenever a land you control enters, put a +1/+1 counter on Pressuring Ghoul unless any opponent discards a card.",
@@ -3138,19 +2545,6 @@
 		},
 		
 		{
-			"name": "Primordial Seas (shiny)",
-			"mana_cost": "{5}{U}{U}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1063_Primordial Seas (shiny).jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1063",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Primordial Seas enters and whenever you cast a spell, create a token that's a copy of another target permanent you control.",
-		},
-		
-		{
 			"name": "Prolific Fisher",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Creature",
@@ -3164,19 +2558,6 @@
 		},
 		
 		{
-			"name": "Prolific Fisher (shiny)",
-			"mana_cost": "{1}{U}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1221_Prolific Fisher (shiny).jpg",
-			"colors": ["U","R"],
-			"set": "CCR",
-			"collector_number": "1221",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "{T}: Create a 1/1 blue Fish creature token with haste. Exile it at the beginning of the next end step. Activate only as a sorcery.",
-		},
-		
-		{
 			"name": "Psych Up",
 			"mana_cost": "{R}{R}",
 			"type": "Instant",
@@ -3184,19 +2565,6 @@
 			"colors": ["R"],
 			"set": "CCR",
 			"collector_number": "142",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Amity - This spell costs {R} less to cast if you attacked with exactly two creatures this turn.\nWhen you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",
-		},
-		
-		{
-			"name": "Psych Up (shiny)",
-			"mana_cost": "{R}{R}",
-			"type": "Instant",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1142_Psych Up (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1142",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Amity - This spell costs {R} less to cast if you attacked with exactly two creatures this turn.\nWhen you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",
@@ -3268,19 +2636,6 @@
 		},
 		
 		{
-			"name": "Rejuvenating Kappa (shiny)",
-			"mana_cost": "{3}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1181_Rejuvenating Kappa (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1181",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, you gain 2 life if you cast a spell from your graveyard this turn, then you gain 2 life if a card was put into your graveyard from your library this turn. \nSurface {4}{G}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
-		},
-		
-		{
 			"name": "Relentless Bats",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
@@ -3288,19 +2643,6 @@
 			"colors": ["B"],
 			"set": "CCR",
 			"collector_number": "100",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Flying\nSurface {2}{B}{B}. This spell costs {1}{B}{B} less if you control a creature named Relentless Bats. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nA deck can have any number of cards named Relentless Bats.",
-		},
-		
-		{
-			"name": "Relentless Bats (shiny)",
-			"mana_cost": "{1}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1100_Relentless Bats (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1100",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Flying\nSurface {2}{B}{B}. This spell costs {1}{B}{B} less if you control a creature named Relentless Bats. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nA deck can have any number of cards named Relentless Bats.",
@@ -3447,19 +2789,6 @@
 		},
 		
 		{
-			"name": "Sanaito, Voidsinger (shiny)",
-			"mana_cost": "{2}{W}{B}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1224_Sanaito, Voidsinger (shiny).jpg",
-			"colors": ["W","B"],
-			"set": "CCR",
-			"collector_number": "1224",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "[+1]: Up to one target nonland permanent gets -1/-1 and loses all abilities until your next turn.\n[0]: Target creature you control gets +2/+2 and gains lifelink until your next turn.\n[-1]: Each player discards a card. Then you may pay 2 life. If you do, draw a card.\n[-3]: You and target opponent's life totals each become equal to half your combined life totals, rounded down.",
-		},
-		
-		{
 			"name": "Sandstorm",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
@@ -3506,19 +2835,6 @@
 			"colors": ["B","R"],
 			"set": "CCR",
 			"collector_number": "226",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Whenever Scattering Swine deals combat damage to a player, you may return a permanent you control to its owner's hand. If you do, defending player loses 3 life unless they discard a card that shares a type with the returned permanent.",
-		},
-		
-		{
-			"name": "Scattering Swine (shiny)",
-			"mana_cost": "{B}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1226_Scattering Swine (shiny).jpg",
-			"colors": ["B","R"],
-			"set": "CCR",
-			"collector_number": "1226",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Whenever Scattering Swine deals combat damage to a player, you may return a permanent you control to its owner's hand. If you do, defending player loses 3 life unless they discard a card that shares a type with the returned permanent.",
@@ -3615,19 +2931,6 @@
 		},
 		
 		{
-			"name": "Seal Shoals (shiny)",
-			"mana_cost": "{W}{U}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1228_Seal Shoals (shiny).jpg",
-			"colors": ["W","U"],
-			"set": "CCR",
-			"collector_number": "1228",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "At the beginning of each end step, create a 2/2 white and blue Seal Orb creature token if you activated two or more nonmana abilities this turn.\n{W}{U}: Scry 1. You gain 1 life.",
-		},
-		
-		{
 			"name": "Searing Grace",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
@@ -3679,31 +2982,6 @@
 		},
 		
 		{
-			"name": "Serrated Fossil (shiny)",
-			"mana_cost": "{B}",
-			"type": "Artifact",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1103_Serrated Fossil (shiny)_front.jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1103",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "{B}, Sacrifice Serrated Fossil: Choose a nonland card name. Target player reveals their hand and discards a card with that name if able. Activate only as a sorcery.\nSurface {3}{B}{B}. Serrated Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
-			"back": {
-				"name": "Reborn Fisher (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1103_Serrated Fossil (shiny)_back.jpg",
-				"colors": ["B"],
-				"set": "CCR",
-				"collector_number": "1103",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Ward-Discard a card.\nWhenever Reborn Fisher attacks, choose a nonland card name, then defending player reveals their hand and discards a card with that name if able.",
-			}
-		},
-		
-		{
 			"name": "Shadow Sky",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Enchantment",
@@ -3711,19 +2989,6 @@
 			"colors": ["B"],
 			"set": "CCR",
 			"collector_number": "104",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Shadow Sky enters and whenever you cast a spell, each creature target player controls gets -1/-1 until end of turn.",
-		},
-		
-		{
-			"name": "Shadow Sky (shiny)",
-			"mana_cost": "{4}{B}{B}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1104_Shadow Sky (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1104",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Shadow Sky enters and whenever you cast a spell, each creature target player controls gets -1/-1 until end of turn.",
@@ -3834,19 +3099,6 @@
 		},
 		
 		{
-			"name": "Smiling Sludge (shiny)",
-			"mana_cost": "{1}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1107_Smiling Sludge (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1107",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "When Smiling Sludge enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
-		},
-		
-		{
 			"name": "Snazzy Scarf",
 			"mana_cost": "{2}",
 			"type": "Artifact",
@@ -3878,31 +3130,6 @@
 				"colors": ["R"],
 				"set": "CCR",
 				"collector_number": "147",
-				"rarity": "common",
-				"subtypes": [],
-				"oracle_text": "Menace\nAmity - Whenever you attack with Splitting Smog and exactly one other creature, you may pay {1}{R}. If you do, attacking creatures you control get +2/+0 until end of turn.",
-			}
-		},
-		
-		{
-			"name": "Solid Smog (shiny)",
-			"mana_cost": "{1}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1147_Solid Smog (shiny)_front.jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1147",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Haste\nAmity - Whenever you attack with Solid Smog and exactly one other creature, you may pay {R}. If you do, transform Solid Smog.",
-			"back": {
-				"name": "Splitting Smog (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1147_Solid Smog (shiny)_back.jpg",
-				"colors": ["R"],
-				"set": "CCR",
-				"collector_number": "1147",
 				"rarity": "common",
 				"subtypes": [],
 				"oracle_text": "Menace\nAmity - Whenever you attack with Splitting Smog and exactly one other creature, you may pay {1}{R}. If you do, attacking creatures you control get +2/+0 until end of turn.",
@@ -3949,19 +3176,6 @@
 		},
 		
 		{
-			"name": "Spikey, Jack's Gravetiller (shiny)",
-			"mana_cost": "{1}{B}{G}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1231_Spikey, Jack's Gravetiller (shiny).jpg",
-			"colors": ["B","G"],
-			"set": "CCR",
-			"collector_number": "1231",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, exile two permanent cards from your graveyard.\nWhenever Spikey, Jack's Gravetiller deals combat damage to a player, return a card exiled with it to its owner's hand.\nYou may cast Spikey from your graveyard.",
-		},
-		
-		{
 			"name": "Splashing Mudskipper",
 			"mana_cost": "{U}{U}",
 			"type": "Creature",
@@ -3987,31 +3201,6 @@
 		},
 		
 		{
-			"name": "Splashing Mudskipper (shiny)",
-			"mana_cost": "{U}{U}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1069_Splashing Mudskipper (shiny)_front.jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1069",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Amity - Whenever you attack with Splashing Mudskipper and exactly one other creature, surveil 1. When Splashing Mudskipper deals combat damage to a player this combat, you may transform it.",
-			"back": {
-				"name": "Surging Mudskipper (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1069_Splashing Mudskipper (shiny)_back.jpg",
-				"colors": ["U"],
-				"set": "CCR",
-				"collector_number": "1069",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Ward {2}\nAmity - Whenever Surging Mudskipper attacks, surveil 1. You may play that card from your graveyard this turn. If exactly one other creature attacked with it, this ability triggers three times instead.",
-			}
-		},
-		
-		{
 			"name": "Spore Collector",
 			"mana_cost": "{1}{W}",
 			"type": "Creature",
@@ -4019,19 +3208,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "32",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Landfall - Whenever a land you control enters, put a +1/+1 counter on Spore Collector. It gains your choice of vigilance, first strike, or lifelink until end of turn.",
-		},
-		
-		{
-			"name": "Spore Collector (shiny)",
-			"mana_cost": "{1}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1032_Spore Collector (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1032",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Landfall - Whenever a land you control enters, put a +1/+1 counter on Spore Collector. It gains your choice of vigilance, first strike, or lifelink until end of turn.",
@@ -4089,31 +3265,6 @@
 		},
 		
 		{
-			"name": "Stitches, Adopted (shiny)",
-			"mana_cost": "{2}{G}{U}{R}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1232_Stitches, Adopted (shiny)_front.jpg",
-			"colors": ["U","R","G"],
-			"set": "CCR",
-			"collector_number": "1232",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Haste\nAmity - Whenever you attack with Stitches and exactly one other creature, create a 2/2 Toy artifact creature token with defender, then tap all Toys you control. They're attacking.\nAt the beginning of your end step, if you didn't create a Toy this turn, transform Stitches.",
-			"back": {
-				"name": "Stitches, Orphaned (shiny)",
-				"mana_cost": "",
-				"type": "Legendary",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1232_Stitches, Adopted (shiny)_back.jpg",
-				"colors": ["U","R","G"],
-				"set": "CCR",
-				"collector_number": "1232",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "Trample\nAmity - Whenever you attack with Stitches, Orphaned and exactly one other creature, transform Stitches at the beginning of the next turn's upkeep.",
-			}
-		},
-		
-		{
 			"name": "Stockpile",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
@@ -4134,19 +3285,6 @@
 			"colors": ["W"],
 			"set": "CCR",
 			"collector_number": "34",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Flying\nWhen Stratus Fledgling enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nWeather spells you cast cost {1} less to cast.",
-		},
-		
-		{
-			"name": "Stratus Fledgling (shiny)",
-			"mana_cost": "{2}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1034_Stratus Fledgling (shiny).jpg",
-			"colors": ["W"],
-			"set": "CCR",
-			"collector_number": "1034",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Flying\nWhen Stratus Fledgling enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nWeather spells you cast cost {1} less to cast.",
@@ -4192,19 +3330,6 @@
 		},
 		
 		{
-			"name": "Suncaller Tortoise (shiny)",
-			"mana_cost": "{1}{R}{W}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1233_Suncaller Tortoise (shiny).jpg",
-			"colors": ["W","B","R"],
-			"set": "CCR",
-			"collector_number": "1233",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "When Suncaller Tortoise enters, return any number of lands you control to their owner's hand.\nLandfall - When a land you control enters, Suncaller Tortoise deals 2 damage to target player. If it's a Mountain, it deals 3 damage instead. If it's a Plains, you gain life equal to the damage dealt. If it's a Swamp, that player discards a card.",
-		},
-		
-		{
 			"name": "Sunlit Ruins",
 			"mana_cost": "",
 			"type": "Land",
@@ -4238,19 +3363,6 @@
 			"colors": ["G"],
 			"set": "CCR",
 			"collector_number": "185",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "{T}: Add one mana of any color.\nAmity - Whenever you attack with Sunsoaker and exactly one other creature, put a +1/+1 counter on Sunsoaker and add one mana of any color. Until end of turn, you don't lose that mana as steps and phases end.",
-		},
-		
-		{
-			"name": "Sunsoaker (shiny)",
-			"mana_cost": "{1}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1185_Sunsoaker (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1185",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "{T}: Add one mana of any color.\nAmity - Whenever you attack with Sunsoaker and exactly one other creature, put a +1/+1 counter on Sunsoaker and add one mana of any color. Until end of turn, you don't lose that mana as steps and phases end.",
@@ -4296,19 +3408,6 @@
 		},
 		
 		{
-			"name": "Talon Triplets (shiny)",
-			"mana_cost": "{1}{R}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1234_Talon Triplets (shiny).jpg",
-			"colors": ["R","G"],
-			"set": "CCR",
-			"collector_number": "1234",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Haste\nTalon Triplets can't be blocked by creatures with power 2 or less.\nAmity - Whenever you attack with Talon Triplets and exactly one other creature, that creature can't be blocked by creatures with power 2 or less this turn.",
-		},
-		
-		{
 			"name": "Teeter Dance",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
@@ -4335,19 +3434,6 @@
 		},
 		
 		{
-			"name": "Teetering Panda (shiny)",
-			"mana_cost": "{U}{R}{W}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1235_Teetering Panda (shiny).jpg",
-			"colors": ["W","U","R"],
-			"set": "CCR",
-			"collector_number": "1235",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "At the beginning of each opponent's upkeep, Teetering Panda deals 2 damage to them if they control a tapped permanent. If they control three or more, you gain 2 life and draw a card.\n{2}, {T}: You may tap or untap another target creature.\n{2}, {Q}: Put a stun counter on target creature.",
-		},
-		
-		{
 			"name": "Temperamental Chick",
 			"mana_cost": "{R}{R}",
 			"type": "Creature",
@@ -4366,31 +3452,6 @@
 				"colors": ["R"],
 				"set": "CCR",
 				"collector_number": "150",
-				"rarity": "rare",
-				"subtypes": [],
-				"oracle_text": "First strike\nAmity - Whenever Tempered Fowl attacks, it deals 1 damage to up to one target creature. It can't block this turn. If exactly one other creature attacked with it, this ability triggers three times instead.",
-			}
-		},
-		
-		{
-			"name": "Temperamental Chick (shiny)",
-			"mana_cost": "{R}{R}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1150_Temperamental Chick (shiny)_front.jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1150",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Amity - Whenever you attack with Temperamental Chick and exactly one other creature, Temperamental Chick deals 1 damage to up to one target creature. When Temperamental Chick deals combat damage to a player this combat, you may transform it.",
-			"back": {
-				"name": "Tempered Fowl (shiny)",
-				"mana_cost": "",
-				"type": "Creature",
-				"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1150_Temperamental Chick (shiny)_back.jpg",
-				"colors": ["R"],
-				"set": "CCR",
-				"collector_number": "1150",
 				"rarity": "rare",
 				"subtypes": [],
 				"oracle_text": "First strike\nAmity - Whenever Tempered Fowl attacks, it deals 1 damage to up to one target creature. It can't block this turn. If exactly one other creature attacked with it, this ability triggers three times instead.",
@@ -4606,19 +3667,6 @@
 		},
 		
 		{
-			"name": "Unflinching Titan (shiny)",
-			"mana_cost": "{2}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1189_Unflinching Titan (shiny).jpg",
-			"colors": ["G"],
-			"set": "CCR",
-			"collector_number": "1189",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Golems you control have trample.\nUnflinching Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unflinching Titan enters or attacks, surveil 1. Then you may put a land card from your graveyard onto the battlefield tapped.\n{3}, {T}: Create a 1/1 white Golem creature token.",
-		},
-		
-		{
 			"name": "Unnerving Moth",
 			"mana_cost": "{2}{U}",
 			"type": "Creature",
@@ -4645,19 +3693,6 @@
 		},
 		
 		{
-			"name": "Unspeaking Titan (shiny)",
-			"mana_cost": "{1}{U}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1073_Unspeaking Titan (shiny).jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1073",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
-		},
-		
-		{
 			"name": "Unyielding Titan",
 			"mana_cost": "{3}{B}",
 			"type": "Creature",
@@ -4665,19 +3700,6 @@
 			"colors": ["B"],
 			"set": "CCR",
 			"collector_number": "111",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
-		},
-		
-		{
-			"name": "Unyielding Titan (shiny)",
-			"mana_cost": "{3}{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1111_Unyielding Titan (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1111",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
@@ -4723,19 +3745,6 @@
 		},
 		
 		{
-			"name": "Warden of Depths (shiny)",
-			"mana_cost": "{3}{U}{U}{B}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1237_Warden of Depths (shiny).jpg",
-			"colors": ["U","B"],
-			"set": "CCR",
-			"collector_number": "1237",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "The first spell you cast during each of your opponent's turns cost {U}{B} less to cast.\nDuring each ending phase, nonland cards in your graveyard have flash and surface. The surface cost is equal to their mana cost. (You may cast a copy of it from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nSurface {6}{U}{U}{B}",
-		},
-		
-		{
 			"name": "Warden of Heart",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Legendary",
@@ -4743,19 +3752,6 @@
 			"colors": ["R"],
 			"set": "CCR",
 			"collector_number": "152",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying, haste\nAmity - Whenever you attack with Warden of Heart and exactly one other creature, you may put a legendary or Dragon card from your hand onto the battlefield tapped and attacking.",
-		},
-		
-		{
-			"name": "Warden of Heart (shiny)",
-			"mana_cost": "{3}{R}{R}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1152_Warden of Heart (shiny).jpg",
-			"colors": ["R"],
-			"set": "CCR",
-			"collector_number": "1152",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Flying, haste\nAmity - Whenever you attack with Warden of Heart and exactly one other creature, you may put a legendary or Dragon card from your hand onto the battlefield tapped and attacking.",
@@ -4775,19 +3771,6 @@
 		},
 		
 		{
-			"name": "Warden of Skies (shiny)",
-			"mana_cost": "{4}{G}{G}{W}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1238_Warden of Skies (shiny).jpg",
-			"colors": ["W","G"],
-			"set": "CCR",
-			"collector_number": "1238",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nFlying, vigilance, trample\nPlayers can't cast spells from anywhere other than their hands.\nSpells your opponents cast that cost less than five mana to cast and target you and/or spells or permanents you control cost five mana to cast.",
-		},
-		
-		{
 			"name": "Warden of Soul",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary",
@@ -4795,19 +3778,6 @@
 			"colors": ["U"],
 			"set": "CCR",
 			"collector_number": "74",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying\nAmity - Whenever you attack with Warden of Soul and exactly one other creature, search your library for a legendary or Dragon card, reveal it, put it into your hand, then shuffle.",
-		},
-		
-		{
-			"name": "Warden of Soul (shiny)",
-			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1074_Warden of Soul (shiny).jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1074",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Flying\nAmity - Whenever you attack with Warden of Soul and exactly one other creature, search your library for a legendary or Dragon card, reveal it, put it into your hand, then shuffle.",
@@ -4827,19 +3797,6 @@
 		},
 		
 		{
-			"name": "Warden of Tremors (shiny)",
-			"mana_cost": "{3}{R}{R}{G}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1239_Warden of Tremors (shiny).jpg",
-			"colors": ["R","G"],
-			"set": "CCR",
-			"collector_number": "1239",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "The first spell you cast during each of your turns costs {R}{G} less to cast.\nYou may play two additional lands on each of your turns.\nLandfall - Whenever a land you control enters, you may exile the top three cards of your library. You may play those cards from exile as long as you control Warden of Tremors.",
-		},
-		
-		{
 			"name": "Warden of Wishes",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary",
@@ -4853,19 +3810,6 @@
 		},
 		
 		{
-			"name": "Warden of Wishes (shiny)",
-			"mana_cost": "{3}{W}{B}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1240_Warden of Wishes (shiny).jpg",
-			"colors": ["W","B"],
-			"set": "CCR",
-			"collector_number": "1240",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Flying\nWhen Warden of Wishes enters, put three wish counters on it, then you gain 7 life.\nWhenever you lose life, you may remove a wish counter from Warden of Wishes. If you do, put a card you own from outside the game into your hand.",
-		},
-		
-		{
 			"name": "Waterway Distraction",
 			"mana_cost": "{B}",
 			"type": "Creature",
@@ -4873,19 +3817,6 @@
 			"colors": ["B"],
 			"set": "CCR",
 			"collector_number": "114",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "Landfall - Whenever a land you control enters, each opponent loses 1 life.",
-		},
-		
-		{
-			"name": "Waterway Distraction (shiny)",
-			"mana_cost": "{B}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1114_Waterway Distraction (shiny).jpg",
-			"colors": ["B"],
-			"set": "CCR",
-			"collector_number": "1114",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Landfall - Whenever a land you control enters, each opponent loses 1 life.",
@@ -4976,19 +3907,6 @@
 			"colors": ["U"],
 			"set": "CCR",
 			"collector_number": "76",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nTrample\nSurface {3}{U}{U}. Wrecking Whale surfaces tapped. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
-		},
-		
-		{
-			"name": "Wrecking Whale (shiny)",
-			"mana_cost": "{6}{U}{U}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/1076_Wrecking Whale (shiny).jpg",
-			"colors": ["U"],
-			"set": "CCR",
-			"collector_number": "1076",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "This spell can't be countered.\nTrample\nSurface {3}{U}{U}. Wrecking Whale surfaces tapped. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
@@ -5282,14 +4200,11 @@
 		]
 [Common]
 20 A Journey Begins
-20 A Journey Begins (shiny)
 20 Ace Tamer
 20 Amateur Tamer
 20 Aqua Jet
 20 Armored Raptor
-20 Armored Raptor (shiny)
 20 Avert Disaster
-20 Avert Disaster (shiny)
 20 Blind Pursuit
 20 Brick Breaker
 20 Brief Stop
@@ -5299,7 +4214,6 @@
 20 Canopy Creeper
 20 Capricious Cat
 20 Charge Beam
-20 Charge Beam (shiny)
 20 Cheer On
 20 Chiming Soul
 20 Claw Fossil
@@ -5321,11 +4235,9 @@
 20 Foraging Grub
 20 Gold Berry
 20 Gone Pickin'
-20 Gone Pickin' (shiny)
 20 Heavy Snowfall
 20 Herald of Drizzles
 20 Hoard
-20 Hoard (shiny)
 20 Homesick
 20 Hone Claws
 20 Hungry Songbird
@@ -5344,7 +4256,6 @@
 20 Moonlight Adventurer
 20 Nimbus Dragon
 20 Outlands Prowler
-20 Outlands Prowler (shiny)
 20 Padpole
 20 Pathetic Cocoon
 20 Placated Mind
@@ -5354,7 +4265,6 @@
 20 Psychohopper
 20 Reaper of the Deep
 20 Relentless Bats
-20 Relentless Bats (shiny)
 20 Restless Sloth
 20 Riverbed Snapper
 20 Root Fossil
@@ -5364,7 +4274,6 @@
 20 Sea Breeze
 20 Seafloor Treasures
 20 Solid Smog
-20 Solid Smog (shiny)
 20 Starved Piranha
 20 Stockpile
 20 Streaking Sunrise
@@ -5382,11 +4291,9 @@
 10 Aqua Gang Diver
 10 Archaeovolcanologist
 10 Aroma Spinner
-10 Aroma Spinner (shiny)
 10 Beloved Poppet
 10 Berry Harvester
 10 Bloom Brute
-10 Bloom Brute (shiny)
 10 Blooming Sauropod
 10 Blustering Storm
 10 Boiling Storm
@@ -5395,12 +4302,10 @@
 10 Bumbling Pollinator
 10 Burning Celestial
 10 Calamity Cat
-10 Calamity Cat (shiny)
 10 Calming Celestial
 10 Center of Attention
 10 Charismatic Chameleon
 10 Chum Chaser
-10 Chum Chaser (shiny)
 10 Clear Skies
 10 Constrict
 10 Contest Coordinator
@@ -5415,11 +4320,9 @@
 10 Echocrafter
 10 Elegant Hunter
 10 Enspirited Ore
-10 Enspirited Ore (shiny)
 10 Exotic Transformer
 10 Explore Wreckage
 10 Feasting Predator
-10 Feasting Predator (shiny)
 10 Feasting Sloth
 10 Feeble Fish
 10 Fight as One
@@ -5430,15 +4333,12 @@
 10 Hard Stone
 10 Harvest Time
 10 Hungry Blob
-10 Hungry Blob (shiny)
 10 Kappa Colony
 10 Karina's Substitute
 10 King's Rock
 10 King of Gluttons
 10 Lavaborn Slug
-10 Lavaborn Slug (shiny)
 10 Leaping Hatchling
-10 Leaping Hatchling (shiny)
 10 Lum Berry
 10 Magical Leaves
 10 Magma Grunt
@@ -5451,20 +4351,15 @@
 10 Past Unresolved
 10 Pick Up
 10 Pitfall Pincher
-10 Pitfall Pincher (shiny)
 10 Plated Tunneler
 10 Practicing Guru
-10 Practicing Guru (shiny)
 10 Prickly Dunes
 10 Primal Fissure
 10 Prolific Fisher
-10 Prolific Fisher (shiny)
 10 Psych Up
-10 Psych Up (shiny)
 10 Puddle Crasher
 10 Rain Dance
 10 Rejuvenating Kappa
-10 Rejuvenating Kappa (shiny)
 10 Rollephant
 10 Rooting Raccoon
 10 Rumbling Door
@@ -5472,26 +4367,20 @@
 10 Scuttling Cicada
 10 Seafloor Scavenger
 10 Seal Shoals
-10 Seal Shoals (shiny)
 10 Searing Grace
 10 Shining Angler
 10 Shiver Elemental
 10 Sifting Through Soot
 10 Smiling Sludge
-10 Smiling Sludge (shiny)
 10 Snazzy Scarf
 10 Soothing Singer
 10 Soul's Sunset
 10 Spore Collector
-10 Spore Collector (shiny)
 10 Static Scamp
 10 Stratus Fledgling
-10 Stratus Fledgling (shiny)
 10 Sunny Day
 10 Sunsoaker
-10 Sunsoaker (shiny)
 10 Talon Triplets
-10 Talon Triplets (shiny)
 10 Teeter Dance
 10 Temple of Origins
 10 Territory Dispute
@@ -5502,129 +4391,84 @@
 10 Urban Explorer
 10 Walk Among the Dead
 10 Waterway Distraction
-10 Waterway Distraction (shiny)
 10 Weather Research Station
 
 [Rare]
 4 Amber, Nimble Companion
-4 Amber, Nimble Companion (shiny)
 4 Aqua Crew Flagship
 4 Berry Fermenter
-4 Berry Fermenter (shiny)
 4 Carefree Kappa
-4 Carefree Kappa (shiny)
 4 Catch Your Breath
-4 Catch Your Breath (shiny)
 4 Charged Party
 4 Cirriform Dragon
-4 Cirriform Dragon (shiny)
 4 Dark Horse Victory
 4 Depths Ancient
 4 Desolate Lands
-4 Desolate Lands (shiny)
 4 Diamond Dust
-4 Diamond Dust (shiny)
 4 Earthbreaker Dragon
-4 Earthbreaker Dragon (shiny)
 4 Ema, the Returned
 4 End of Mutations
-4 End of Mutations (shiny)
 4 Entangled Fossil
-4 Entangled Fossil (shiny)
 4 Fortune Bearer
 4 Fragile Soul
 4 Frenzy Plant
 4 Generator Alpha
-4 Generator Alpha (shiny)
 4 Gloomy Meteorologist
 4 Growing Gecko
-4 Growing Gecko (shiny)
 4 Heartbreak
-4 Heartbreak (shiny)
 4 Heavy Winds
-4 Heavy Winds (shiny)
 4 Higana, Dragonscribe
 4 Hoenn Champion
-4 Hoenn Champion (shiny)
 4 Hostage Situation
 4 Idolized Coordinator
 4 Ironback Tyke
-4 Ironback Tyke (shiny)
 4 Iviana, Dragon Tamer
 4 Iviana's Spellmaw
-4 Iviana's Spellmaw (shiny)
 4 Jack, Monster Mentor
 4 Karina, Budding Diplomat
 4 Magnetling
-4 Magnetling (shiny)
 4 Mimicry Elemental
-4 Mimicry Elemental (shiny)
 4 Mirage Island
 4 Mystery Egg
 4 Nocturne, Monstrous Krasis
-4 Nocturne, Monstrous Krasis (shiny)
 4 Parental Pair
 4 Pest Problem
 4 Plush Collection
-4 Plush Collection (shiny)
 4 Poisoned Rose
-4 Poisoned Rose (shiny)
 4 Pressuring Ghoul
-4 Pressuring Ghoul (shiny)
 4 Primordial Seas
-4 Primordial Seas (shiny)
 4 Rumbling Volcamel
 4 Sanaito, Voidsinger
-4 Sanaito, Voidsinger (shiny)
 4 Scattering Swine
-4 Scattering Swine (shiny)
 4 Serrated Fossil
-4 Serrated Fossil (shiny)
 4 Shadow Sky
-4 Shadow Sky (shiny)
 4 Simul, Genetic Artisan
 4 Singularity
 4 Sky Pillar
 4 Smart Shopper
 4 Spikey, Jack's Gravetiller
-4 Spikey, Jack's Gravetiller (shiny)
 4 Splashing Mudskipper
-4 Splashing Mudskipper (shiny)
 4 Stitches, Adopted
-4 Stitches, Adopted (shiny)
 4 Suncaller Tortoise
-4 Suncaller Tortoise (shiny)
 4 Teetering Panda
-4 Teetering Panda (shiny)
 4 Temperamental Chick
-4 Temperamental Chick (shiny)
 4 Tenki, Storm Chaser
 4 The Aqua Crew
 4 The Berry Master
 4 The Magma Council
 4 Turf Warfare
 4 Unflinching Titan
-4 Unflinching Titan (shiny)
 4 Unspeaking Titan
-4 Unspeaking Titan (shiny)
 4 Unyielding Titan
-4 Unyielding Titan (shiny)
 4 Warden of Depths
-4 Warden of Depths (shiny)
 4 Warden of Heart
-4 Warden of Heart (shiny)
 4 Warden of Skies
-4 Warden of Skies (shiny)
 4 Warden of Soul
-4 Warden of Soul (shiny)
 4 Warden of Tremors
-4 Warden of Tremors (shiny)
 4 Warden of Wishes
-4 Warden of Wishes (shiny)
 4 Weather Elemental
 4 Weaver of Fates
 4 Wrecking Whale
-4 Wrecking Whale (shiny)
 
 [Land]
 10 Calmed Battleground
@@ -5668,14 +4512,11 @@
 
 [Wildcard]
 6 A Journey Begins
-6 A Journey Begins (shiny)
 6 Ace Tamer
 6 Amateur Tamer
 6 Aqua Jet
 6 Armored Raptor
-6 Armored Raptor (shiny)
 6 Avert Disaster
-6 Avert Disaster (shiny)
 6 Blind Pursuit
 6 Brick Breaker
 6 Brief Stop
@@ -5685,7 +4526,6 @@
 6 Canopy Creeper
 6 Capricious Cat
 6 Charge Beam
-6 Charge Beam (shiny)
 6 Cheer On
 6 Chiming Soul
 6 Claw Fossil
@@ -5707,11 +4547,9 @@
 6 Foraging Grub
 6 Gold Berry
 6 Gone Pickin'
-6 Gone Pickin' (shiny)
 6 Heavy Snowfall
 6 Herald of Drizzles
 6 Hoard
-6 Hoard (shiny)
 6 Homesick
 6 Hone Claws
 6 Hungry Songbird
@@ -5730,7 +4568,6 @@
 6 Moonlight Adventurer
 6 Nimbus Dragon
 6 Outlands Prowler
-6 Outlands Prowler (shiny)
 6 Padpole
 6 Pathetic Cocoon
 6 Placated Mind
@@ -5740,7 +4577,6 @@
 6 Psychohopper
 6 Reaper of the Deep
 6 Relentless Bats
-6 Relentless Bats (shiny)
 6 Restless Sloth
 6 Riverbed Snapper
 6 Root Fossil
@@ -5750,7 +4586,6 @@
 6 Sea Breeze
 6 Seafloor Treasures
 6 Solid Smog
-6 Solid Smog (shiny)
 6 Starved Piranha
 6 Stockpile
 6 Streaking Sunrise
@@ -5766,11 +4601,9 @@
 4 Aqua Gang Diver
 4 Archaeovolcanologist
 4 Aroma Spinner
-4 Aroma Spinner (shiny)
 4 Beloved Poppet
 4 Berry Harvester
 4 Bloom Brute
-4 Bloom Brute (shiny)
 4 Blooming Sauropod
 4 Blustering Storm
 4 Boiling Storm
@@ -5779,12 +4612,10 @@
 4 Bumbling Pollinator
 4 Burning Celestial
 4 Calamity Cat
-4 Calamity Cat (shiny)
 4 Calming Celestial
 4 Center of Attention
 4 Charismatic Chameleon
 4 Chum Chaser
-4 Chum Chaser (shiny)
 4 Clear Skies
 4 Constrict
 4 Contest Coordinator
@@ -5799,11 +4630,9 @@
 4 Echocrafter
 4 Elegant Hunter
 4 Enspirited Ore
-4 Enspirited Ore (shiny)
 4 Exotic Transformer
 4 Explore Wreckage
 4 Feasting Predator
-4 Feasting Predator (shiny)
 4 Feasting Sloth
 4 Feeble Fish
 4 Fight as One
@@ -5814,15 +4643,12 @@
 4 Hard Stone
 4 Harvest Time
 4 Hungry Blob
-4 Hungry Blob (shiny)
 4 Kappa Colony
 4 Karina's Substitute
 4 King's Rock
 4 King of Gluttons
 4 Lavaborn Slug
-4 Lavaborn Slug (shiny)
 4 Leaping Hatchling
-4 Leaping Hatchling (shiny)
 4 Lum Berry
 4 Magical Leaves
 4 Magma Grunt
@@ -5835,20 +4661,15 @@
 4 Past Unresolved
 4 Pick Up
 4 Pitfall Pincher
-4 Pitfall Pincher (shiny)
 4 Plated Tunneler
 4 Practicing Guru
-4 Practicing Guru (shiny)
 4 Prickly Dunes
 4 Primal Fissure
 4 Prolific Fisher
-4 Prolific Fisher (shiny)
 4 Psych Up
-4 Psych Up (shiny)
 4 Puddle Crasher
 4 Rain Dance
 4 Rejuvenating Kappa
-4 Rejuvenating Kappa (shiny)
 4 Rollephant
 4 Rooting Raccoon
 4 Rumbling Door
@@ -5856,26 +4677,20 @@
 4 Scuttling Cicada
 4 Seafloor Scavenger
 4 Seal Shoals
-4 Seal Shoals (shiny)
 4 Searing Grace
 4 Shining Angler
 4 Shiver Elemental
 4 Sifting Through Soot
 4 Smiling Sludge
-4 Smiling Sludge (shiny)
 4 Snazzy Scarf
 4 Soothing Singer
 4 Soul's Sunset
 4 Spore Collector
-4 Spore Collector (shiny)
 4 Static Scamp
 4 Stratus Fledgling
-4 Stratus Fledgling (shiny)
 4 Sunny Day
 4 Sunsoaker
-4 Sunsoaker (shiny)
 4 Talon Triplets
-4 Talon Triplets (shiny)
 4 Teeter Dance
 4 Temple of Origins
 4 Territory Dispute
@@ -5886,124 +4701,79 @@
 4 Urban Explorer
 4 Walk Among the Dead
 4 Waterway Distraction
-4 Waterway Distraction (shiny)
 4 Weather Research Station
 2 Amber, Nimble Companion
-2 Amber, Nimble Companion (shiny)
 2 Aqua Crew Flagship
 2 Berry Fermenter
-2 Berry Fermenter (shiny)
 2 Carefree Kappa
-2 Carefree Kappa (shiny)
 2 Catch Your Breath
-2 Catch Your Breath (shiny)
 2 Charged Party
 2 Cirriform Dragon
-2 Cirriform Dragon (shiny)
 2 Dark Horse Victory
 2 Depths Ancient
 2 Desolate Lands
-2 Desolate Lands (shiny)
 2 Diamond Dust
-2 Diamond Dust (shiny)
 2 Earthbreaker Dragon
-2 Earthbreaker Dragon (shiny)
 2 Ema, the Returned
 2 End of Mutations
-2 End of Mutations (shiny)
 2 Entangled Fossil
-2 Entangled Fossil (shiny)
 2 Fortune Bearer
 2 Fragile Soul
 2 Frenzy Plant
 2 Generator Alpha
-2 Generator Alpha (shiny)
 2 Gloomy Meteorologist
 2 Growing Gecko
-2 Growing Gecko (shiny)
 2 Heartbreak
-2 Heartbreak (shiny)
 2 Heavy Winds
-2 Heavy Winds (shiny)
 2 Higana, Dragonscribe
 2 Hoenn Champion
-2 Hoenn Champion (shiny)
 2 Hostage Situation
 2 Idolized Coordinator
 2 Ironback Tyke
-2 Ironback Tyke (shiny)
 2 Iviana, Dragon Tamer
 2 Iviana's Spellmaw
-2 Iviana's Spellmaw (shiny)
 2 Jack, Monster Mentor
 2 Karina, Budding Diplomat
 2 Magnetling
-2 Magnetling (shiny)
 2 Mimicry Elemental
-2 Mimicry Elemental (shiny)
 2 Mirage Island
 2 Mystery Egg
 2 Nocturne, Monstrous Krasis
-2 Nocturne, Monstrous Krasis (shiny)
 2 Parental Pair
 2 Pest Problem
 2 Plush Collection
-2 Plush Collection (shiny)
 2 Poisoned Rose
-2 Poisoned Rose (shiny)
 2 Pressuring Ghoul
-2 Pressuring Ghoul (shiny)
 2 Primordial Seas
-2 Primordial Seas (shiny)
 2 Rumbling Volcamel
 2 Sanaito, Voidsinger
-2 Sanaito, Voidsinger (shiny)
 2 Scattering Swine
-2 Scattering Swine (shiny)
 2 Serrated Fossil
-2 Serrated Fossil (shiny)
 2 Shadow Sky
-2 Shadow Sky (shiny)
 2 Simul, Genetic Artisan
 2 Singularity
 2 Sky Pillar
 2 Smart Shopper
 2 Spikey, Jack's Gravetiller
-2 Spikey, Jack's Gravetiller (shiny)
 2 Splashing Mudskipper
-2 Splashing Mudskipper (shiny)
 2 Stitches, Adopted
-2 Stitches, Adopted (shiny)
 2 Suncaller Tortoise
-2 Suncaller Tortoise (shiny)
 2 Teetering Panda
-2 Teetering Panda (shiny)
 2 Temperamental Chick
-2 Temperamental Chick (shiny)
 2 Tenki, Storm Chaser
 2 The Aqua Crew
 2 The Berry Master
 2 The Magma Council
 2 Turf Warfare
 2 Unflinching Titan
-2 Unflinching Titan (shiny)
 2 Unspeaking Titan
-2 Unspeaking Titan (shiny)
 2 Unyielding Titan
-2 Unyielding Titan (shiny)
 2 Warden of Depths
-2 Warden of Depths (shiny)
 2 Warden of Heart
-2 Warden of Heart (shiny)
 2 Warden of Skies
-2 Warden of Skies (shiny)
 2 Warden of Soul
-2 Warden of Soul (shiny)
 2 Warden of Tremors
-2 Warden of Tremors (shiny)
 2 Warden of Wishes
-2 Warden of Wishes (shiny)
 2 Weather Elemental
 2 Weaver of Fates
 2 Wrecking Whale
-2 Wrecking Whale (shiny)

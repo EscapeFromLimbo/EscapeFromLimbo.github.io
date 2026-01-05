@@ -3687,19 +3687,6 @@
 		},
 		
 		{
-			"name": "Abominable Avalanche (KUT)_OLD",
-			"mana_cost": "{1}{R}{G}",
-			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/OLD-files/img/303_Abominable Avalanche (KUT)_OLD.jpg",
-			"colors": ["R","G"],
-			"set": "OLD",
-			"collector_number": "303",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "Abominable Avalanche deals 3 damage divided as you choose among one, two, or three targets.\nAt the beginning of your end step, if you've spent at least five mana to cast spells this turn, you may exile Abominable Avalanche from your graveyard. If you do, create a 3/3 green Yeti creature token with trample.",
-		},
-		
-		{
 			"name": "green Yeti 33OLD",
 			"mana_cost": "",
 			"type": "Token",

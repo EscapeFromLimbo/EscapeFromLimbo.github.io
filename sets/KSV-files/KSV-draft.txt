@@ -3440,58 +3440,6 @@
 		},
 		
 		{
-			"name": "Matchmaker (Kratos, God of War)_KSV",
-			"mana_cost": "{2}{W}{W}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/KSV-files/img/278_Matchmaker (Kratos, God of War)_KSV.jpg",
-			"colors": ["W"],
-			"set": "KSV",
-			"collector_number": "278",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "Flying\nEach opponent can't attack unless they attack with exactly two creatures.\nEach opponent can't block unless they block with exactly two creatures.",
-		},
-		
-		{
-			"name": "Rial, Silver Rose General (Dimitri of the Blue Lions)_KSV",
-			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/KSV-files/img/276_Rial, Silver Rose General (Dimitri of the Blue Lions)_KSV.jpg",
-			"colors": ["W"],
-			"set": "KSV",
-			"collector_number": "276",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "First strike\nCreatures you control attacking cause abilities of that creature to trigger as though it entered.",
-		},
-		
-		{
-			"name": "Silversong Ancient (Fangorn)_KSV",
-			"mana_cost": "{4}{G}{G}{G}",
-			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/KSV-files/img/277_Silversong Ancient (Fangorn)_KSV.jpg",
-			"colors": ["G"],
-			"set": "KSV",
-			"collector_number": "277",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "Reach\nWhen Silversong Ancient enters, choose one -\n• Destroy target noncreature permanent.\n• You gain 5 life.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
-		},
-		
-		{
-			"name": "Snowsinger (Ranni the Witch)_KSV",
-			"mana_cost": "{3}{U}{U}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/KSV-files/img/279_Snowsinger (Ranni the Witch)_KSV.jpg",
-			"colors": ["U"],
-			"set": "KSV",
-			"collector_number": "279",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "Ward {2}\nThe first instant or sorcery spell you cast each turn costs {2} less to cast.\nWhenever you cast a noncreature spell, return up to one target creature or spell with mana value less than that spell's to its owner's hand.",
-		},
-		
-		{
 			"name": "black Horror KSV",
 			"mana_cost": "",
 			"type": "Token",

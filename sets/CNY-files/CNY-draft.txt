@@ -3586,31 +3586,6 @@
 		},
 		
 		{
-			"name": "Sparks of a Revolution (Hero)",
-			"mana_cost": "{R}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/288_Sparks of a Revolution (Hero)_front.jpg",
-			"colors": ["R"],
-			"set": "CNY",
-			"collector_number": "288",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Sparks of a Revolution enters, create a 1/1 colorless Soldier creature token. It gains haste until end of turn.\n{ql} - Three or more sources you controlled dealt damage this turn.\n{ql} - A source you controlled dealt 3 or more damage this turn.",
-			"back": {
-				"name": "Freedom (Hero)",
-				"mana_cost": "",
-				"type": "Legendary",
-				"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/288_Sparks of a Revolution (Hero)_back.jpg",
-				"colors": ["R"],
-				"set": "CNY",
-				"collector_number": "288",
-				"rarity": "special",
-				"subtypes": [],
-				"oracle_text": "Whenever you attack, create a 1/1 colorless Soldier creature token that's tapped and attacking.",
-			}
-		},
-		
-		{
 			"name": "Penrath Insurgency CNY",
 			"mana_cost": "",
 			"type": "Token",
