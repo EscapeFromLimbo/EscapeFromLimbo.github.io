@@ -310,7 +310,7 @@ def generateHTML():
 					<br>
 					<p>By Play Rate or Word Count: pr>50, wc<30</p>
 					<br>
-					<p><a href="/custom/chaos-draft.txt" download>Chaos Draft File</a>(Supports exactly 7 players)</p>
+					<p><a href="/custom/chaos-draft.txt" download>Chaos Draft File</a> (Supports exactly 7 players)</p>
 				</div>
 			</div>
 		</div>

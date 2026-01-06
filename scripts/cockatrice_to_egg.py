@@ -674,6 +674,8 @@ def pull_all_images(play_rate_table):
 		basicNames = []
 		tokenNames = []
 
+		chaosbasic = random.choice(["Plains", "Island", "Swamp", "Mountain", "Forest"])
+
 		for card in setcards[i]:
 			#print(card.card_name)
 
@@ -817,7 +819,7 @@ def pull_all_images(play_rate_table):
 						tokenNames.append(card.card_name)
 					elif "Basic" in card.type:
 						basicNames.append(card.card_name)
-						if random.random() < 0.5:
+						if random.random() < 0.2 or (len(chaoscardlists[setcodes[i] + "Land"]) == 0 and chaosbasic in card.card_name):
 							chaosdraftfile += drafttext
 							chaoscardlists[setcodes[i] + "Land"].append(card.card_name)
 					elif "Land" in card.type and card.rarity in ["common", "basic"] and len(card.color_identity) == 2:
