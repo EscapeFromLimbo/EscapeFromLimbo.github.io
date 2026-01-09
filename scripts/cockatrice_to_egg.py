@@ -687,7 +687,7 @@ def pull_all_images(play_rate_table):
 			elif card.card_name.split(" (")[0] in play_rate_table:
 				play_rate = play_rate_table[card.card_name.split(" (")[0]]
 
-			tags = '\\n!tag' + '\\n!tag '.join(formatstring.split(','))
+			tags = '\\n!tag ' + '\\n!tag '.join(formatstring.split(','))
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"
 				cubecards.remove(card.card_name)

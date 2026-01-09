@@ -9,17 +9,17 @@ def get_play_rates():
 	#print(str(r.content))
 
 	#TODO total copies main / side
-	setCodeOrder = ["TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST"]
+	setCodeOrder = ["SOL", "TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST"]
 
 
-	for i in range(20, 26):
+	for i in range(20, 27):
 		for j in range(1, 13):
 			exists = False
 			if i == 21 and j in [5, 7, 8, 9, 10, 11]:
 				exists = True
-			if i > 21 and i < 25:
+			if i > 21 and i < 26:
 				exists = True
-			if i == 25 and j <= 11:
+			if i == 26 and j <= 1:
 				exists = True
 			if i == 22 and j == 4:
 				exists = False
