@@ -25,8 +25,8 @@ import markdown
 
 #F = Fungustober's notes
 
-play_rate_table = play_rates.get_play_rates()
-cockatrice_to_egg.pull_all_images(play_rate_table)
+play_rate_table, signature_table = play_rates.get_play_rates()
+cockatrice_to_egg.pull_all_images(play_rate_table, signature_table)
 lackeybot_to_cubejson.make_roto_file()
 
 def genAllCards(codes):

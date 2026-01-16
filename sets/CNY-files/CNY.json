@@ -6,6 +6,7 @@
     "cards": [
         {
             "card_name": "Abduct",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -21,11 +22,12 @@
             "loyalty": "",
             "artist": "Martin de Diego",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Adaptive Hydra",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Hydra",
@@ -41,11 +43,12 @@
             "loyalty": "",
             "artist": "Justin Wentz",
             "play_rate": 11,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "kilgaris",
+            "word_count": 19
         },
         {
             "card_name": "Alamer, Profit Rerecorder",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Noble",
@@ -61,11 +64,12 @@
             "loyalty": "",
             "artist": "Ryan Woodhouse",
             "play_rate": 2,
-            "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "dallaby",
+            "word_count": 36
         },
         {
             "card_name": "Anesthesiologist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -81,11 +85,12 @@
             "loyalty": "",
             "artist": "Javier Charro",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Ardent Voter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -101,11 +106,12 @@
             "loyalty": "",
             "artist": "Nicolas Chacin",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Army Reserves",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -121,11 +127,12 @@
             "loyalty": "",
             "artist": "Fajareka Setiawan",
             "play_rate": 17,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Arsenal Mentor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -141,11 +148,12 @@
             "loyalty": "",
             "artist": "Balance-Sheet",
             "play_rate": 0,
-            "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 12
         },
         {
             "card_name": "Ascend to Power",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -161,6 +169,7 @@
             "loyalty": "",
             "artist": "Ben Moriconi",
             "play_rate": 0,
+            "signature": "",
             "word_count": 59,
             "card_name2": "Omnipotence",
             "color2": "B",
@@ -171,11 +180,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Kavindu Kaushalya",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Kavindu Kaushalya"
         },
         {
             "card_name": "Aspiring Anarchist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Crocodile Rebel",
@@ -191,11 +200,12 @@
             "loyalty": "",
             "artist": "Juan Diego Leon",
             "play_rate": 137,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Assault Engine",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
@@ -211,11 +221,12 @@
             "loyalty": "",
             "artist": "Eldon Cowgur",
             "play_rate": 0,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Axiomatic Shift",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -231,11 +242,12 @@
             "loyalty": "",
             "artist": "Rutger van de Steeg",
             "play_rate": 23,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Ballot Registrar",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -251,11 +263,12 @@
             "loyalty": "",
             "artist": "Taras Susak",
             "play_rate": 11,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "platypeople",
+            "word_count": 32
         },
         {
             "card_name": "Battlefield Tactician",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -271,11 +284,12 @@
             "loyalty": "",
             "artist": "Sebastian Szmyd",
             "play_rate": 0,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Bioengineered Opus",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Octopus Horror",
@@ -291,11 +305,12 @@
             "loyalty": "",
             "artist": "Jeff Brown",
             "play_rate": 0,
-            "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 35
         },
         {
             "card_name": "Black-Tie Gala",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -311,11 +326,12 @@
             "loyalty": "",
             "artist": "Maggie Woo",
             "play_rate": 0,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Blackout",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -331,11 +347,12 @@
             "loyalty": "",
             "artist": "Siddhartha Deb",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Blue Collar Bloodsucker",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Human",
@@ -351,11 +368,12 @@
             "loyalty": "",
             "artist": "Adrien Gonzalez",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Border Junction",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Wall",
@@ -371,11 +389,12 @@
             "loyalty": "",
             "artist": "Raphael Lacoste",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Bouncers-for-Hire",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Orc Soldier",
@@ -391,11 +410,12 @@
             "loyalty": "",
             "artist": "Alen Rocha",
             "play_rate": 0,
-            "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 9
         },
         {
             "card_name": "Brazen Blackcoats",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -411,11 +431,12 @@
             "loyalty": "",
             "artist": "Helio Frazao",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Bring to the Limelight",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -431,11 +452,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 8,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "whiffle0479",
+            "word_count": 20
         },
         {
             "card_name": "Bug the Line",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -451,11 +473,12 @@
             "loyalty": "",
             "artist": "Vadim Shishkin",
             "play_rate": 0,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Bulk Bioengineering",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -471,11 +494,12 @@
             "loyalty": "",
             "artist": "Nicomedes Dizon",
             "play_rate": 0,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Bureau Broodmother",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Orb",
@@ -491,11 +515,12 @@
             "loyalty": "",
             "artist": "Simon Fetscher",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Bureau Mentor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -511,11 +536,12 @@
             "loyalty": "",
             "artist": "Adrian Marc",
             "play_rate": 0,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Bustling Motorway",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -531,11 +557,12 @@
             "loyalty": "",
             "artist": "Pascal Quidault",
             "play_rate": 5,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "redpandersbear",
+            "word_count": 18
         },
         {
             "card_name": "Cabinet Recruiter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -551,11 +578,12 @@
             "loyalty": "",
             "artist": "Ina Wong",
             "play_rate": 32,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Campaign Rally",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -571,11 +599,12 @@
             "loyalty": "",
             "artist": "ScribblePadStudios",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Capital Maglev",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
@@ -591,11 +620,12 @@
             "loyalty": "",
             "artist": "Alejandro Burdisio",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Carlisle, Grid Globalizer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Artificer",
@@ -611,11 +641,12 @@
             "loyalty": "",
             "artist": "Brandon Liao",
             "play_rate": 0,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 34
         },
         {
             "card_name": "Central Processor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Orb",
@@ -631,11 +662,12 @@
             "loyalty": "",
             "artist": "Tuomas Korpi",
             "play_rate": 0,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Change Allegiances",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -651,11 +683,12 @@
             "loyalty": "",
             "artist": "Aldo Dominguez",
             "play_rate": 29,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Charity Match",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -671,11 +704,12 @@
             "loyalty": "",
             "artist": "Joel Thomas",
             "play_rate": 29,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Chief Executive Dhante",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Noble",
@@ -691,11 +725,12 @@
             "loyalty": "",
             "artist": "Devin Elle Kurtz",
             "play_rate": 17,
-            "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 40
         },
         {
             "card_name": "Chittering Gargantua",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Insect",
@@ -711,11 +746,12 @@
             "loyalty": "",
             "artist": "Nicolas Chacin",
             "play_rate": 29,
-            "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 40
         },
         {
             "card_name": "Chromagoyf",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Lhurgoyf",
@@ -731,11 +767,12 @@
             "loyalty": "",
             "artist": "Fan Zhang",
             "play_rate": 11,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "jumpingjackalope",
+            "word_count": 17
         },
         {
             "card_name": "Chromatic Rift",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -751,11 +788,12 @@
             "loyalty": "",
             "artist": "Geoffrey Amesse & Scribbl",
             "play_rate": 101,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Civic Copterist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -771,11 +809,12 @@
             "loyalty": "",
             "artist": "Nikita Pilyukshin",
             "play_rate": 0,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Climactic Drop",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -791,11 +830,12 @@
             "loyalty": "",
             "artist": "Fajareka Setiawan",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Codename Ant",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -811,11 +851,12 @@
             "loyalty": "",
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Codename Bumblebee",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Insect Soldier",
@@ -831,11 +872,12 @@
             "loyalty": "",
             "artist": "Kenny Vo",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Codename Cicada",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -851,11 +893,12 @@
             "loyalty": "",
             "artist": "Humble Squid Creatives",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Codename Spyder",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Insect Scout",
@@ -871,11 +914,12 @@
             "loyalty": "",
             "artist": "Vladimir Ishelin",
             "play_rate": 0,
-            "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 37
         },
         {
             "card_name": "Coercive Contractor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -891,11 +935,12 @@
             "loyalty": "",
             "artist": "Red Pencil Art",
             "play_rate": 0,
-            "word_count": 41,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 41
         },
         {
             "card_name": "Combat Corporal",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -911,11 +956,12 @@
             "loyalty": "",
             "artist": "Darren Tan",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Congressional Hall",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -931,11 +977,12 @@
             "loyalty": "",
             "artist": "Christopher Balaskas",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Congressional Kraken",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Kraken",
@@ -951,11 +998,12 @@
             "loyalty": "",
             "artist": "Monstermind Studios & Scribbl",
             "play_rate": 0,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Controlled Ecosystem",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -971,11 +1019,12 @@
             "loyalty": "",
             "artist": "Eddie Bennun",
             "play_rate": 2,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "drchipmunk",
+            "word_count": 18
         },
         {
             "card_name": "Corporate Espionage",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -991,11 +1040,12 @@
             "loyalty": "",
             "artist": "Brian Chan",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Corporate Mentor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1011,11 +1061,12 @@
             "loyalty": "",
             "artist": "D.C. Slider",
             "play_rate": 0,
-            "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 12
         },
         {
             "card_name": "Corrupt Congressman",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1031,11 +1082,12 @@
             "loyalty": "",
             "artist": "Sebastien Moureau",
             "play_rate": 11,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "ptm",
+            "word_count": 34
         },
         {
             "card_name": "Coup D'Etat",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1051,11 +1103,12 @@
             "loyalty": "",
             "artist": "James Lewis-Vines",
             "play_rate": 110,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Covert Infiltrator",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Shapeshifter Scout",
@@ -1071,11 +1124,12 @@
             "loyalty": "",
             "artist": "ARRDVARK",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Cryptology",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1091,11 +1145,12 @@
             "loyalty": "",
             "artist": "Dimitrina Angelska",
             "play_rate": 11,
-            "word_count": 41,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "tomasmtg",
+            "word_count": 41
         },
         {
             "card_name": "Dampening Reconciliator",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -1111,11 +1166,12 @@
             "loyalty": "",
             "artist": "Steven Shan",
             "play_rate": 0,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Deadly Dispute",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1131,11 +1187,12 @@
             "loyalty": "",
             "artist": "Joe Russano",
             "play_rate": 131,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Debt Collectors",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Azra Assassin",
@@ -1151,11 +1208,12 @@
             "loyalty": "",
             "artist": "Christo Crafford",
             "play_rate": 0,
-            "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 6
         },
         {
             "card_name": "Declamation Podium",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1171,11 +1229,12 @@
             "loyalty": "",
             "artist": "Lukasz Dudasz",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Defect",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -1191,11 +1250,12 @@
             "loyalty": "",
             "artist": "Adrian L C",
             "play_rate": 26,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Demographer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1211,11 +1271,12 @@
             "loyalty": "",
             "artist": "ARTIDOXX",
             "play_rate": 62,
-            "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 40
         },
         {
             "card_name": "Demolition Team",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -1231,11 +1292,12 @@
             "loyalty": "",
             "artist": "Adrian Mihai Marchidan",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Devoted Lackeys",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Assassin",
@@ -1251,11 +1313,12 @@
             "loyalty": "",
             "artist": "SIXMOREVODKA",
             "play_rate": 32,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 34
         },
         {
             "card_name": "Dhante's Inferno",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "rare",
             "type": "Instant",
@@ -1271,11 +1334,12 @@
             "loyalty": "",
             "artist": "Asur Misoa",
             "play_rate": 50,
-            "word_count": 56,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 56
         },
         {
             "card_name": "Diplomatic Alliance",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1291,11 +1355,12 @@
             "loyalty": "",
             "artist": "RIFU hata",
             "play_rate": 0,
-            "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 27
         },
         {
             "card_name": "Disestablishmentarianism",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1311,11 +1376,12 @@
             "loyalty": "",
             "artist": "Yong Bin Tan",
             "play_rate": 104,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Dissect",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1331,11 +1397,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 0,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Distributive Justice",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -1351,6 +1418,7 @@
             "loyalty": "",
             "artist": "A Dan",
             "play_rate": 5,
+            "signature": "itaiuukl",
             "word_count": 61,
             "card_name2": "Equality",
             "color2": "W",
@@ -1361,11 +1429,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Nazar Hrabovyi",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Nazar Hrabovyi"
         },
         {
             "card_name": "Dormant Monstrosity",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Squid Horror",
@@ -1381,11 +1449,12 @@
             "loyalty": "",
             "artist": "Aleksey Litvishkov",
             "play_rate": 95,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Eager Voter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -1401,11 +1470,12 @@
             "loyalty": "",
             "artist": "Sasha Vinogradova",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Election Fraud",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1421,11 +1491,12 @@
             "loyalty": "",
             "artist": "ZHAI RUI",
             "play_rate": 0,
-            "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 10
         },
         {
             "card_name": "Empowered Revisionary",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -1441,11 +1512,12 @@
             "loyalty": "",
             "artist": "Joshua Griffin",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Enforcer's Baton",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1461,11 +1533,12 @@
             "loyalty": "",
             "artist": "Lazaro",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Enlightenment",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1481,11 +1554,12 @@
             "loyalty": "",
             "artist": "Fedor Barkhatov",
             "play_rate": 5,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "signature": "tremor",
+            "word_count": 20
         },
         {
             "card_name": "Envoy of the Fallen",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -1501,11 +1575,12 @@
             "loyalty": "",
             "artist": "Francisco Badilla",
             "play_rate": 71,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Eo, the Great Equalizer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Giant Avatar",
@@ -1521,11 +1596,12 @@
             "loyalty": "",
             "artist": "Tomasz Ryger",
             "play_rate": 56,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Escalated Tensions",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -1541,11 +1617,12 @@
             "loyalty": "",
             "artist": "Hostage Insomnia",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Estranged Aristocrat",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Elf Noble",
@@ -1561,11 +1638,12 @@
             "loyalty": "",
             "artist": "Ilya Vatutin",
             "play_rate": 0,
-            "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 12
         },
         {
             "card_name": "Estrathe, Center of Civilization",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
@@ -1581,11 +1659,12 @@
             "loyalty": "",
             "artist": "Madison Johnson",
             "play_rate": 26,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Estrathian Gentrifiers",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "RG",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Artificer",
@@ -1601,11 +1680,12 @@
             "loyalty": "",
             "artist": "Alexandra Fler Malygina",
             "play_rate": 92,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Estrathian Philanthropist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "common",
             "type": "Creature \u2014 Human Noble",
@@ -1621,11 +1701,12 @@
             "loyalty": "",
             "artist": "Eddie Mendoza",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Evasive Tactics",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1641,11 +1722,12 @@
             "loyalty": "",
             "artist": "Erik Halsey",
             "play_rate": 8,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "tomasmtg",
+            "word_count": 11
         },
         {
             "card_name": "Executive Office",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1661,11 +1743,12 @@
             "loyalty": "",
             "artist": "Astrid Cao",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Expendable Arsonist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Minion",
@@ -1681,11 +1764,12 @@
             "loyalty": "",
             "artist": "Rostyslav Zagornov",
             "play_rate": 65,
-            "word_count": 2,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 2
         },
         {
             "card_name": "Expendable Medic",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1701,11 +1785,12 @@
             "loyalty": "",
             "artist": "Maxim Lingert",
             "play_rate": 8,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "cool beens",
+            "word_count": 22
         },
         {
             "card_name": "Expendable Researcher",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1721,11 +1806,12 @@
             "loyalty": "",
             "artist": "Andrei Artefact",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Extraction Mission",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1741,11 +1827,12 @@
             "loyalty": "",
             "artist": "Eugene Volyntsevich",
             "play_rate": 179,
-            "word_count": 66,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 66
         },
         {
             "card_name": "Eyes in the Sky",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -1761,11 +1848,12 @@
             "loyalty": "",
             "artist": "Beeple",
             "play_rate": 0,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 33
         },
         {
             "card_name": "Eyes of the Bureau",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Scout",
@@ -1781,11 +1869,12 @@
             "loyalty": "",
             "artist": "Royz",
             "play_rate": 0,
-            "word_count": 57,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 57
         },
         {
             "card_name": "Flags on High",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
@@ -1801,11 +1890,12 @@
             "loyalty": "",
             "artist": "Miguel Iglesias",
             "play_rate": 137,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 34
         },
         {
             "card_name": "Flaw in the System",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Human Rebel",
@@ -1821,11 +1911,12 @@
             "loyalty": "",
             "artist": "Izzy Medrano",
             "play_rate": 41,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Flock Favorites",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1841,11 +1932,12 @@
             "loyalty": "",
             "artist": "Jose Borges",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Forest_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -1861,11 +1953,12 @@
             "loyalty": "",
             "artist": "Gauvin REMY",
             "play_rate": 1848,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "Free Market",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -1881,6 +1974,7 @@
             "loyalty": "",
             "artist": "Anatoly Muschenko",
             "play_rate": 11,
+            "signature": "anarchist0000",
             "word_count": 45,
             "card_name2": "Industrialism",
             "color2": "RG",
@@ -1891,11 +1985,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Yun Yang Tan",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Yun Yang Tan"
         },
         {
             "card_name": "Freightyard Scrappers",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "rare",
             "type": "Creature \u2014 Dwarf Goblin Human",
@@ -1911,11 +2005,12 @@
             "loyalty": "",
             "artist": "Felipe de Barros",
             "play_rate": 0,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Gain Traction",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -1931,11 +2026,12 @@
             "loyalty": "",
             "artist": "Virginie Juteau",
             "play_rate": 0,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 14
         },
         {
             "card_name": "Garren, Returned Prophet",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Garren",
@@ -1951,11 +2047,12 @@
             "loyalty": "3",
             "artist": "SIXMOREVODKA",
             "play_rate": 62,
-            "word_count": 60,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 60
         },
         {
             "card_name": "Gatherer of Grievances",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1971,11 +2068,12 @@
             "loyalty": "",
             "artist": "Kael Ngu",
             "play_rate": 0,
-            "word_count": 41,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 41
         },
         {
             "card_name": "Gaze Upon Civilization",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -1991,11 +2089,12 @@
             "loyalty": "",
             "artist": "Volodymyr Donchenko",
             "play_rate": 38,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Genetics Prodigy",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect Artificer",
@@ -2011,11 +2110,12 @@
             "loyalty": "",
             "artist": "Pixoloid Studios",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Genome Project",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -2031,11 +2131,12 @@
             "loyalty": "",
             "artist": "Priyanshi Jain",
             "play_rate": 0,
-            "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 35
         },
         {
             "card_name": "Genotype Splicer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -2051,11 +2152,12 @@
             "loyalty": "",
             "artist": "Zhuopeng Zhu",
             "play_rate": 59,
-            "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 37
         },
         {
             "card_name": "Gerrymanderer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Salamander Advisor",
@@ -2071,11 +2173,12 @@
             "loyalty": "",
             "artist": "Grafit Studio",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Getaway Proxy",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2091,11 +2194,12 @@
             "loyalty": "",
             "artist": "Jarek Nocon",
             "play_rate": 2,
-            "word_count": 44,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "allwhowander",
+            "word_count": 44
         },
         {
             "card_name": "Golden Age",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -2111,6 +2215,7 @@
             "loyalty": "",
             "artist": "Bastien Jez",
             "play_rate": 101,
+            "signature": "",
             "word_count": 59,
             "card_name2": "Harmony",
             "color2": "G",
@@ -2121,11 +2226,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Terraform Studios",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "artist2": "Terraform Studios"
         },
         {
             "card_name": "Grassroots Campaigners",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2141,11 +2246,12 @@
             "loyalty": "",
             "artist": "Michael Wakeley",
             "play_rate": 80,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Groupthink Tank",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2161,11 +2267,12 @@
             "loyalty": "",
             "artist": "Arina Apostolova",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Gubernatorial Fundraiser",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2181,11 +2288,12 @@
             "loyalty": "",
             "artist": "Clarissa Ferguson",
             "play_rate": 182,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Hazakh Agenda",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "rare",
             "type": "Instant",
@@ -2201,11 +2309,12 @@
             "loyalty": "",
             "artist": "1C Game Studios",
             "play_rate": 0,
-            "word_count": 44,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 44
         },
         {
             "card_name": "Hazakh Ambassador",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2221,11 +2330,12 @@
             "loyalty": "",
             "artist": "DumbOldSpider LLC",
             "play_rate": 0,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 14
         },
         {
             "card_name": "Hazakh Commandos",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Berserker",
@@ -2241,11 +2351,12 @@
             "loyalty": "",
             "artist": "Darren Tan",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Hazakh Conscriptor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2261,11 +2372,12 @@
             "loyalty": "",
             "artist": "Aurelien Rantet",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Hazakh District",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -2281,11 +2393,12 @@
             "loyalty": "",
             "artist": "Nicole Renski",
             "play_rate": 83,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Held in Contempt",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2301,11 +2414,12 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "High Senator Talpa",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -2321,11 +2435,12 @@
             "loyalty": "",
             "artist": "Joel Chaim Holtzman",
             "play_rate": 11,
-            "word_count": 49,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 49
         },
         {
             "card_name": "Hired Shot",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2341,11 +2456,12 @@
             "loyalty": "",
             "artist": "Brian Fajardo",
             "play_rate": 0,
-            "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 30
         },
         {
             "card_name": "Idealistic Voter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Citizen",
@@ -2361,11 +2477,12 @@
             "loyalty": "",
             "artist": "Camille Alquier",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Identity Forger",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Shapeshifter Artificer",
@@ -2381,11 +2498,12 @@
             "loyalty": "",
             "artist": "Ryan Woodhouse",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Ignited Soul",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -2401,11 +2519,12 @@
             "loyalty": "",
             "artist": "SN FX",
             "play_rate": 449,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Incumbency",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -2421,11 +2540,12 @@
             "loyalty": "",
             "artist": "Vladimir Gulevskii",
             "play_rate": 11,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "allwhowander",
+            "word_count": 33
         },
         {
             "card_name": "Induced Evolution",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2441,11 +2561,12 @@
             "loyalty": "",
             "artist": "Edit Ballai",
             "play_rate": 0,
-            "word_count": 48,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 48
         },
         {
             "card_name": "Inflammatory Declaimer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2461,11 +2582,12 @@
             "loyalty": "",
             "artist": "Steven Shan & Schwa77",
             "play_rate": 0,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Informed Voter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2481,11 +2603,12 @@
             "loyalty": "",
             "artist": "Mikhail Greuli",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Inner City Scout",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -2501,11 +2624,12 @@
             "loyalty": "",
             "artist": "Christian Fell",
             "play_rate": 0,
-            "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 30
         },
         {
             "card_name": "Instigating Directive",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2521,11 +2645,12 @@
             "loyalty": "",
             "artist": "Nick Foreman",
             "play_rate": 0,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Insurgency Mentor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2541,11 +2666,12 @@
             "loyalty": "",
             "artist": "Benjamin Giletti",
             "play_rate": 0,
-            "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 12
         },
         {
             "card_name": "International Development",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2561,11 +2687,12 @@
             "loyalty": "",
             "artist": "Renaud Perochon",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Interrogation Chamber",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2581,11 +2708,12 @@
             "loyalty": "",
             "artist": "Goodname Studio",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Invader of Privacy",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -2601,11 +2729,12 @@
             "loyalty": "",
             "artist": "Alejandro Aguirre",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Invest",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2621,11 +2750,12 @@
             "loyalty": "",
             "artist": "Denman Rooke",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Island_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -2641,11 +2771,12 @@
             "loyalty": "",
             "artist": "\u6bdb \u88e4",
             "play_rate": 1906,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "Judge, Jury, and Executioner",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor Citizen Assassin",
@@ -2661,11 +2792,12 @@
             "loyalty": "",
             "artist": "Brian Valeza",
             "play_rate": 11,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Killing in the Name of . . .",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2681,11 +2813,12 @@
             "loyalty": "",
             "artist": "Goodname Studio",
             "play_rate": 38,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Krint, Five Star",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Warrior",
@@ -2701,11 +2834,12 @@
             "loyalty": "",
             "artist": "John Stone",
             "play_rate": 0,
-            "word_count": 51,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 51
         },
         {
             "card_name": "Laboratory Mentor",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Artificer",
@@ -2721,11 +2855,12 @@
             "loyalty": "",
             "artist": "Matt Zeilinger",
             "play_rate": 0,
-            "word_count": 12,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 12
         },
         {
             "card_name": "Legislative Gridlock",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Instant",
@@ -2741,11 +2876,12 @@
             "loyalty": "",
             "artist": "EnnuiShao",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Lightning Warmonger",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -2761,11 +2897,12 @@
             "loyalty": "",
             "artist": "Alexey Kruglov",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Liquidate",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2781,11 +2918,12 @@
             "loyalty": "",
             "artist": "Christian Fell",
             "play_rate": 176,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Lofty Voter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2801,11 +2939,12 @@
             "loyalty": "",
             "artist": "Jakub Sobiczewski",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Looming Skyscrapers",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2821,11 +2960,12 @@
             "loyalty": "",
             "artist": "Kyle Enochs",
             "play_rate": 11,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Loophole Exploiter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2841,11 +2981,12 @@
             "loyalty": "",
             "artist": "Nicholas Elias",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Magnetic Rhetorician",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -2861,11 +3002,12 @@
             "loyalty": "",
             "artist": "Madison Johnson",
             "play_rate": 0,
-            "word_count": 7,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 7
         },
         {
             "card_name": "Main Street Hooligang",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Rebel",
@@ -2881,11 +3023,12 @@
             "loyalty": "",
             "artist": "Ishmael Hoover",
             "play_rate": 0,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Mana Harvesters",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -2901,11 +3044,12 @@
             "loyalty": "",
             "artist": "Leif Heanzo",
             "play_rate": 104,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Martyrize",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2921,11 +3065,12 @@
             "loyalty": "",
             "artist": "Boris Hrzenjak",
             "play_rate": 0,
-            "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 37
         },
         {
             "card_name": "Medic's Implant",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -2941,11 +3086,12 @@
             "loyalty": "",
             "artist": "Pixoloid Studios",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Meeting of the Elites",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -2961,6 +3107,7 @@
             "loyalty": "",
             "artist": "Luciano Alberto",
             "play_rate": 11,
+            "signature": "7nix",
             "word_count": 48,
             "card_name2": "Aristocracy",
             "color2": "BR",
@@ -2971,11 +3118,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Neil Blevins",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "artist2": "Neil Blevins"
         },
         {
             "card_name": "Mellan, Defense Attorney",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -2991,11 +3138,12 @@
             "loyalty": "",
             "artist": "Marc Scott",
             "play_rate": 398,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Merciless Headsman",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Assassin",
@@ -3011,11 +3159,12 @@
             "loyalty": "",
             "artist": "mist XG",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Metropolitan Champion",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3031,11 +3180,12 @@
             "loyalty": "",
             "artist": "Sonderflex",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Minister of Utility",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3051,11 +3201,12 @@
             "loyalty": "",
             "artist": "Aldo Dominguez",
             "play_rate": 0,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 14
         },
         {
             "card_name": "Mondo, Outcast Maverick",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Rebel",
@@ -3071,11 +3222,12 @@
             "loyalty": "",
             "artist": "Aboy Singh",
             "play_rate": 0,
-            "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 30
         },
         {
             "card_name": "Mountain_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -3091,11 +3243,12 @@
             "loyalty": "",
             "artist": "Josef Barton",
             "play_rate": 2476,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "Mutinous Inciter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3111,11 +3264,12 @@
             "loyalty": "",
             "artist": "Aurelien Rantet",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Neglected Slums",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3131,11 +3285,12 @@
             "loyalty": "",
             "artist": "Fred Gambino",
             "play_rate": 20,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Neuralinked Hive",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Human Drone",
@@ -3151,11 +3306,12 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Night Squad",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -3171,11 +3327,12 @@
             "loyalty": "",
             "artist": "Goran Bukvic",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Nourishing Orator",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3191,11 +3348,12 @@
             "loyalty": "",
             "artist": "Alongkot Boonyok",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Noxious Conditions",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3211,11 +3369,12 @@
             "loyalty": "",
             "artist": "Tarmo Juhola",
             "play_rate": 110,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Old Times Ruminator",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Elder",
@@ -3231,11 +3390,12 @@
             "loyalty": "",
             "artist": "Borja Pindado",
             "play_rate": 0,
-            "word_count": 46,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 46
         },
         {
             "card_name": "Open Air Boardwalk",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3251,11 +3411,12 @@
             "loyalty": "",
             "artist": "Simon Tosovsky",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "Out With a Bang",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3271,11 +3432,12 @@
             "loyalty": "",
             "artist": "SQETCH Studio",
             "play_rate": 0,
-            "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 36
         },
         {
             "card_name": "Overbearing Researcher",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -3291,11 +3453,12 @@
             "loyalty": "",
             "artist": "Aurore Folny",
             "play_rate": 35,
-            "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "itaiuukl",
+            "word_count": 27
         },
         {
             "card_name": "Patent Pending",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3311,11 +3474,12 @@
             "loyalty": "",
             "artist": "Dimitar Katsarov",
             "play_rate": 0,
-            "word_count": 54,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 54
         },
         {
             "card_name": "Patron of Arms",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3331,11 +3495,12 @@
             "loyalty": "",
             "artist": "Henrique Dld",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Penrath Agenda",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "rare",
             "type": "Instant",
@@ -3351,11 +3516,12 @@
             "loyalty": "",
             "artist": "Stu Harrington",
             "play_rate": 23,
-            "word_count": 60,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "catintreee",
+            "word_count": 60
         },
         {
             "card_name": "Penrath Ambassador",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3371,11 +3537,12 @@
             "loyalty": "",
             "artist": "Ricardo Padierne Silvera",
             "play_rate": 0,
-            "word_count": 24,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 24
         },
         {
             "card_name": "Penrath Dispatcher",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3391,11 +3558,12 @@
             "loyalty": "",
             "artist": "Liang Sinan",
             "play_rate": 29,
-            "word_count": 56,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 56
         },
         {
             "card_name": "Penrath District",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3411,11 +3579,12 @@
             "loyalty": "",
             "artist": "James Gilleard",
             "play_rate": 86,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Penrath Firearm",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3431,11 +3600,12 @@
             "loyalty": "",
             "artist": "Sonderflex & Schwa77",
             "play_rate": 0,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Penrath Roperunner",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3451,11 +3621,12 @@
             "loyalty": "",
             "artist": "Gaspar Gombos",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Pinnacle of Progress",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Eye Horror",
@@ -3471,11 +3642,12 @@
             "loyalty": "",
             "artist": "Qiang Zhou",
             "play_rate": 0,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Plains_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -3491,11 +3663,12 @@
             "loyalty": "",
             "artist": "Hanna Damberg",
             "play_rate": 1691,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "Planned Obsolescence",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3511,11 +3684,12 @@
             "loyalty": "",
             "artist": "Lucas Street",
             "play_rate": 65,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Political Prisoner",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3531,11 +3705,12 @@
             "loyalty": "",
             "artist": "Pavel Kobyzev",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Presidential Pardon",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3551,11 +3726,12 @@
             "loyalty": "",
             "artist": "Alexander Kriegerman",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Prime for Innovation",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -3571,11 +3747,12 @@
             "loyalty": "",
             "artist": "Angelo Adonis Chavez",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Prismatic Confluence",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3591,11 +3768,12 @@
             "loyalty": "",
             "artist": "Jaroslav Kosmina",
             "play_rate": 0,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Prismatic Propagandist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -3611,11 +3789,12 @@
             "loyalty": "",
             "artist": "Aurelien Rantet",
             "play_rate": 0,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Private Investigators",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -3631,11 +3810,12 @@
             "loyalty": "",
             "artist": "Astor Alexander",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Product of Nepotism",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -3651,11 +3831,12 @@
             "loyalty": "",
             "artist": "Cmy Cai",
             "play_rate": 0,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 33
         },
         {
             "card_name": "Projects Overseer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -3671,11 +3852,12 @@
             "loyalty": "",
             "artist": "Zack Cy",
             "play_rate": 0,
-            "word_count": 6,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 6
         },
         {
             "card_name": "Proletarian Rabble",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3691,11 +3873,12 @@
             "loyalty": "",
             "artist": "Daniel Kovacs",
             "play_rate": 0,
-            "word_count": 2,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 2
         },
         {
             "card_name": "Prosperity Project",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3711,11 +3894,12 @@
             "loyalty": "",
             "artist": "Dmitry Grishaev",
             "play_rate": 17,
-            "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "zangy",
+            "word_count": 35
         },
         {
             "card_name": "Puppet War",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3731,11 +3915,12 @@
             "loyalty": "",
             "artist": "Pawel Kozera",
             "play_rate": 0,
-            "word_count": 30,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 30
         },
         {
             "card_name": "Quid Pro Quo",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -3751,11 +3936,12 @@
             "loyalty": "",
             "artist": "Goodname Studio",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Ram Through",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3771,11 +3957,12 @@
             "loyalty": "",
             "artist": "Alisher Mirzoev",
             "play_rate": 11,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "voltswitch70",
+            "word_count": 32
         },
         {
             "card_name": "Rank and Defile",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3791,11 +3978,12 @@
             "loyalty": "",
             "artist": "Eddie Bennun",
             "play_rate": 0,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Reckless Jailbreak",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -3811,11 +3999,12 @@
             "loyalty": "",
             "artist": "Alvaro Calvo Escudero",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Reconnaissance Agent",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Insect Scout",
@@ -3831,11 +4020,12 @@
             "loyalty": "",
             "artist": "Nino Setiawan",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Redeveloped Cityscape",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3851,11 +4041,12 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 1416,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Replicated Regiment",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -3871,11 +4062,12 @@
             "loyalty": "",
             "artist": "Christian Fell",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Research Grant",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -3891,6 +4083,7 @@
             "loyalty": "",
             "artist": "Vladislav Dostavalov",
             "play_rate": 98,
+            "signature": "",
             "word_count": 76,
             "card_name2": "Progress",
             "color2": "U",
@@ -3901,11 +4094,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Reto Scheiwiller",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "artist2": "Reto Scheiwiller"
         },
         {
             "card_name": "Resourceful Hireling",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elf Artificer",
@@ -3921,11 +4114,12 @@
             "loyalty": "",
             "artist": "Raviandra Art",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Retaliatory Outburst",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -3941,11 +4135,12 @@
             "loyalty": "",
             "artist": "Adam Kuczek",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Revolutionary Throng",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3961,11 +4156,12 @@
             "loyalty": "",
             "artist": "Thomas Elliott",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Rigged Trial",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3981,11 +4177,12 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 0,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 14
         },
         {
             "card_name": "Rogue Justiciar",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4001,11 +4198,12 @@
             "loyalty": "",
             "artist": "VOLTA",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Rooftop Whistlesilencer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -4021,11 +4219,12 @@
             "loyalty": "",
             "artist": "Aboy Singh",
             "play_rate": 0,
-            "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 1
         },
         {
             "card_name": "Ruinous Discovery",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -4041,11 +4240,12 @@
             "loyalty": "",
             "artist": "Maciej Drabik",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Rush for Results",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4061,11 +4261,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 0,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Scandalous Revelation",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4081,11 +4282,12 @@
             "loyalty": "",
             "artist": "Amy McCullough & Scribbl",
             "play_rate": 5,
-            "word_count": 35,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "platypeople",
+            "word_count": 35
         },
         {
             "card_name": "Scathing Remarks",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4101,11 +4303,12 @@
             "loyalty": "",
             "artist": "Mattia Rangoni",
             "play_rate": 8,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Scourge of Capitalism",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Insect Beast",
@@ -4121,11 +4324,12 @@
             "loyalty": "",
             "artist": "Jorge Zapata",
             "play_rate": 0,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 33
         },
         {
             "card_name": "Scrapyard Mecha",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "mythic",
             "type": "Artifact \u2014 Vehicle",
@@ -4141,11 +4345,12 @@
             "loyalty": "",
             "artist": "Eryk Szczygiel",
             "play_rate": 47,
-            "word_count": 47,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 47
         },
         {
             "card_name": "Search and Seizure",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4161,11 +4366,12 @@
             "loyalty": "",
             "artist": "Roman Makarenko",
             "play_rate": 149,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Seasoned Spymaster",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4181,11 +4387,12 @@
             "loyalty": "",
             "artist": "Fuyuan Tee",
             "play_rate": 0,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Security Initiative",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4201,6 +4408,7 @@
             "loyalty": "",
             "artist": "Lazare Viennot",
             "play_rate": 17,
+            "signature": "",
             "word_count": 47,
             "card_name2": "Surveillance State",
             "color2": "WU",
@@ -4211,11 +4419,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Dangiuz",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Dangiuz"
         },
         {
             "card_name": "Selective Truthseeker",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -4231,11 +4439,12 @@
             "loyalty": "",
             "artist": "Helga Sable",
             "play_rate": 11,
-            "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": ".nabby",
+            "word_count": 27
         },
         {
             "card_name": "Senate Filibuster",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4251,11 +4460,12 @@
             "loyalty": "",
             "artist": "Tony Foti",
             "play_rate": 0,
-            "word_count": 5,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 5
         },
         {
             "card_name": "Senators' Chauffeur",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Skeleton Pilot",
@@ -4271,11 +4481,12 @@
             "loyalty": "",
             "artist": "M Wayne Miller",
             "play_rate": 0,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Serve Again",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4291,11 +4502,12 @@
             "loyalty": "",
             "artist": "huleeb",
             "play_rate": 41,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Severin, Sparkmind",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Severin",
@@ -4311,11 +4523,12 @@
             "loyalty": "3",
             "artist": "Alex Alexandrov",
             "play_rate": 23,
-            "word_count": 62,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 62
         },
         {
             "card_name": "Severin's Masterwork",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -4331,11 +4544,12 @@
             "loyalty": "",
             "artist": "Virginie Juteau",
             "play_rate": 0,
-            "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 45
         },
         {
             "card_name": "Silence the Opposition",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4351,6 +4565,7 @@
             "loyalty": "",
             "artist": "Max Hay",
             "play_rate": 17,
+            "signature": "",
             "word_count": 39,
             "card_name2": "Authoritarianism",
             "color2": "UB",
@@ -4361,11 +4576,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Rostyslav Zagornov",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Rostyslav Zagornov"
         },
         {
             "card_name": "Sillaman Agenda",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Instant",
@@ -4381,11 +4596,12 @@
             "loyalty": "",
             "artist": "RIFU Hata",
             "play_rate": 0,
-            "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 45
         },
         {
             "card_name": "Sillaman Ambassador",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4401,11 +4617,12 @@
             "loyalty": "",
             "artist": "Klaus Pillon",
             "play_rate": 0,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Sillaman District",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4421,11 +4638,12 @@
             "loyalty": "",
             "artist": "James Gilleard",
             "play_rate": 119,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Sillaman Regrafter",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -4441,11 +4659,12 @@
             "loyalty": "",
             "artist": "Liaw Cheng Yi",
             "play_rate": 11,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube"
+            "signature": "itaiuukl",
+            "word_count": 29
         },
         {
             "card_name": "Sleeper Insurgent",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -4461,11 +4680,12 @@
             "loyalty": "",
             "artist": "Mathieu Lauffray",
             "play_rate": 8,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "provocative",
+            "word_count": 29
         },
         {
             "card_name": "Sleeper Strix",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Bird",
@@ -4481,11 +4701,12 @@
             "loyalty": "",
             "artist": "Birdmanstudio & Schwa77",
             "play_rate": 80,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Social Engineering",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4501,11 +4722,12 @@
             "loyalty": "",
             "artist": "Taras Susak",
             "play_rate": 71,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "signature": "",
+            "word_count": 34
         },
         {
             "card_name": "Sola, Contraband Playboy",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -4521,11 +4743,12 @@
             "loyalty": "",
             "artist": "Ramza Ardyputra",
             "play_rate": 0,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Sparks of a Revolution",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -4541,6 +4764,7 @@
             "loyalty": "",
             "artist": "Donald Matiri",
             "play_rate": 158,
+            "signature": "",
             "word_count": 56,
             "card_name2": "Freedom",
             "color2": "R",
@@ -4551,11 +4775,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Mario Garcia Arevalo",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "artist2": "Mario Garcia Arevalo"
         },
         {
             "card_name": "Speculative Stockbroker",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -4571,11 +4795,12 @@
             "loyalty": "",
             "artist": "Matt Zeilinger",
             "play_rate": 101,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Splintering Blast",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -4591,11 +4816,12 @@
             "loyalty": "",
             "artist": "Pedro Sena",
             "play_rate": 0,
-            "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 36
         },
         {
             "card_name": "Stasis Chamber",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -4611,11 +4837,12 @@
             "loyalty": "",
             "artist": "Pixoloid Studios",
             "play_rate": 5,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Sterling, Federal Informant",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Rat Advisor",
@@ -4631,11 +4858,12 @@
             "loyalty": "",
             "artist": "Raphaelle Ellehar Bieuville",
             "play_rate": 0,
-            "word_count": 55,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 55
         },
         {
             "card_name": "Storm the Senate",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4651,11 +4879,12 @@
             "loyalty": "",
             "artist": "Steve Jang",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Subsidized Market",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact",
@@ -4671,11 +4900,12 @@
             "loyalty": "",
             "artist": "Tyler Edlin",
             "play_rate": 0,
-            "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 45
         },
         {
             "card_name": "Survivors of the New World",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "WG",
             "rarity": "mythic",
             "type": "Creature \u2014 Mutant Survivor",
@@ -4691,11 +4921,12 @@
             "loyalty": "",
             "artist": "Ola Larsson",
             "play_rate": 254,
-            "word_count": 59,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 59
         },
         {
             "card_name": "Sustainable Investments",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4711,11 +4942,12 @@
             "loyalty": "",
             "artist": "Dominic Jaro",
             "play_rate": 50,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Swamp_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -4731,11 +4963,12 @@
             "loyalty": "",
             "artist": "Tyler Bradley",
             "play_rate": 2531,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "Test Subject Alpha",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rat",
@@ -4751,11 +4984,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 0,
-            "word_count": 31,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 31
         },
         {
             "card_name": "The Connaistone",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUB",
             "rarity": "mythic",
             "type": "Legendary Artifact",
@@ -4771,11 +5005,12 @@
             "loyalty": "",
             "artist": "Leon Tukker",
             "play_rate": 38,
-            "word_count": 36,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 36
         },
         {
             "card_name": "The First Battalion",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Soldier",
@@ -4791,11 +5026,12 @@
             "loyalty": "",
             "artist": "Munchingbiceps",
             "play_rate": 0,
-            "word_count": 19,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 19
         },
         {
             "card_name": "The Majority Whip",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Equipment",
@@ -4811,11 +5047,12 @@
             "loyalty": "",
             "artist": "RX",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "The Quindral Accords",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Enchantment \u2014 Clique",
@@ -4831,11 +5068,12 @@
             "loyalty": "",
             "artist": "Gabriel Bjork Stiernstrom",
             "play_rate": 17,
-            "word_count": 59,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 59
         },
         {
             "card_name": "The Venerable Veteran",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Minion",
@@ -4851,11 +5089,12 @@
             "loyalty": "",
             "artist": "Wirawan Pranoto",
             "play_rate": 5,
-            "word_count": 9,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "magmadragon3",
+            "word_count": 9
         },
         {
             "card_name": "Thesis on Mutation",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4871,11 +5110,12 @@
             "loyalty": "",
             "artist": "Paolo Puggioni",
             "play_rate": 0,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Tiril Agenda",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "rare",
             "type": "Instant",
@@ -4891,11 +5131,12 @@
             "loyalty": "",
             "artist": "Rhys Bevan",
             "play_rate": 2,
-            "word_count": 54,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "tremor",
+            "word_count": 54
         },
         {
             "card_name": "Tiril Ambassador",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4911,11 +5152,12 @@
             "loyalty": "",
             "artist": "Sasha Vinogradova",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Tiril District",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4931,11 +5173,12 @@
             "loyalty": "",
             "artist": "James Gilleard",
             "play_rate": 74,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Together in Arms",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4951,6 +5194,7 @@
             "loyalty": "",
             "artist": "Mauro Sorghienti",
             "play_rate": 0,
+            "signature": "",
             "word_count": 88,
             "card_name2": "Communitarianism",
             "color2": "WG",
@@ -4961,11 +5205,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Mateusz Katzig",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "artist2": "Mateusz Katzig"
         },
         {
             "card_name": "Tomer, Figurehead President",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -4981,11 +5225,12 @@
             "loyalty": "",
             "artist": "Brenda van Vugt",
             "play_rate": 8,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "covetedpeacock",
+            "word_count": 14
         },
         {
             "card_name": "Trailblazer Anarch",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WR",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -5001,11 +5246,12 @@
             "loyalty": "",
             "artist": "Alex Alexandrov",
             "play_rate": 0,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Traumatic Recollection",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "UB",
             "rarity": "common",
             "type": "Sorcery",
@@ -5021,11 +5267,12 @@
             "loyalty": "",
             "artist": "Filipe Pagliuso",
             "play_rate": 71,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Trench Commander",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5041,11 +5288,12 @@
             "loyalty": "",
             "artist": "Mingchen Shen",
             "play_rate": 0,
-            "word_count": 32,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 32
         },
         {
             "card_name": "Triumphant Herd",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elephant",
@@ -5061,11 +5309,12 @@
             "loyalty": "",
             "artist": "Irina Nordsol Kuzmina",
             "play_rate": 0,
-            "word_count": 13,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 13
         },
         {
             "card_name": "Underclass Hero",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5081,11 +5330,12 @@
             "loyalty": "",
             "artist": "Two Dots Studio & Scribbl",
             "play_rate": 0,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Up-and-Comer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -5101,11 +5351,12 @@
             "loyalty": "",
             "artist": "Ilya Ozornin",
             "play_rate": 0,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Urban Sunscape",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -5121,11 +5372,12 @@
             "loyalty": "",
             "artist": "Rudy Parfaite",
             "play_rate": 0,
-            "word_count": 18,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 18
         },
         {
             "card_name": "Urban Twinmotors",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -5141,11 +5393,12 @@
             "loyalty": "",
             "artist": "Nick Iorfino",
             "play_rate": 0,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Venture Capitalist",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Noble",
@@ -5161,11 +5414,12 @@
             "loyalty": "",
             "artist": "Mariusz Gandzel",
             "play_rate": 47,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 33
         },
         {
             "card_name": "Verity Circle",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5181,11 +5435,12 @@
             "loyalty": "",
             "artist": "Jort van Welbergen",
             "play_rate": 0,
-            "word_count": 26,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 26
         },
         {
             "card_name": "Vertical Integration",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5201,11 +5456,12 @@
             "loyalty": "",
             "artist": "Rashed AlAkroka",
             "play_rate": 0,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Veto",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5221,11 +5477,12 @@
             "loyalty": "",
             "artist": "Dakota Curry",
             "play_rate": 128,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Vishanki Agenda",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "rare",
             "type": "Instant",
@@ -5241,11 +5498,12 @@
             "loyalty": "",
             "artist": "Kamil Gronek",
             "play_rate": 0,
-            "word_count": 64,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 64
         },
         {
             "card_name": "Vishanki Ambassador",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "common",
             "type": "Creature \u2014 Orc Advisor",
@@ -5261,11 +5519,12 @@
             "loyalty": "",
             "artist": "Benjamin Giletti",
             "play_rate": 0,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Vishanki District",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5281,11 +5540,12 @@
             "loyalty": "",
             "artist": "James Gilleard",
             "play_rate": 77,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Vishanki Hellkite",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -5301,11 +5561,12 @@
             "loyalty": "",
             "artist": "Devin Elle Kurtz",
             "play_rate": 0,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Volatile Sergeant",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -5321,11 +5582,12 @@
             "loyalty": "",
             "artist": "SIXMOREVODKA",
             "play_rate": 0,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Warrant-Borne Cop",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5341,11 +5603,12 @@
             "loyalty": "",
             "artist": "Steven Shan",
             "play_rate": 0,
-            "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 27
         },
         {
             "card_name": "Whirring Inspector",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUB",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -5361,11 +5624,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 29,
-            "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 39
         },
         {
             "card_name": "Work Safety Violation",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5381,11 +5645,12 @@
             "loyalty": "",
             "artist": "Markus Biegholdt",
             "play_rate": 119,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Zeno, Planar Engineer",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Artifact Creature \u2014 Human Artificer",
@@ -5401,11 +5666,12 @@
             "loyalty": "",
             "artist": "DumbOldSpider LLC",
             "play_rate": 41,
-            "word_count": 42,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable"
+            "signature": "",
+            "word_count": 42
         },
         {
             "card_name": "Chittering Gargantua_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect",
@@ -5421,11 +5687,12 @@
             "loyalty": "",
             "artist": "Ognjen Sporin",
             "play_rate": 29,
-            "word_count": 40,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 40
         },
         {
             "card_name": "Chromatic Rift_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -5441,11 +5708,12 @@
             "loyalty": "",
             "artist": "Cleopatra Motzel",
             "play_rate": 101,
-            "word_count": 15,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 15
         },
         {
             "card_name": "Coup D'Etat_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "UBR",
             "rarity": "special",
             "type": "Sorcery",
@@ -5461,11 +5729,12 @@
             "loyalty": "",
             "artist": "Argentics",
             "play_rate": 110,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Deadly Dispute_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Instant",
@@ -5481,11 +5750,12 @@
             "loyalty": "",
             "artist": "Ognjen Sporin",
             "play_rate": 131,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Defect_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -5501,11 +5771,12 @@
             "loyalty": "",
             "artist": "Grzegorz Przybys",
             "play_rate": 26,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Estrathe, Center of Civilization_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Legendary Land",
@@ -5521,11 +5792,12 @@
             "loyalty": "",
             "artist": "Maxim Dadin",
             "play_rate": 26,
-            "word_count": 17,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 17
         },
         {
             "card_name": "Flags on High_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment",
@@ -5541,11 +5813,12 @@
             "loyalty": "",
             "artist": "Tyler Miles Lockett",
             "play_rate": 137,
-            "word_count": 34,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 34
         },
         {
             "card_name": "Gaze Upon Civilization_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment",
@@ -5561,11 +5834,12 @@
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
             "play_rate": 38,
-            "word_count": 50,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 50
         },
         {
             "card_name": "Genotype Splicer_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -5581,11 +5855,12 @@
             "loyalty": "",
             "artist": "Ognjen Sporin",
             "play_rate": 59,
-            "word_count": 37,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 37
         },
         {
             "card_name": "Ignited Soul_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Creature \u2014 Human Soldier",
@@ -5601,11 +5876,12 @@
             "loyalty": "",
             "artist": "ishir0se",
             "play_rate": 449,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "Incumbency_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -5621,11 +5897,12 @@
             "loyalty": "",
             "artist": "Damian Krzywonos",
             "play_rate": 11,
-            "word_count": 33,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "signature": "allwhowander",
+            "word_count": 33
         },
         {
             "card_name": "Liquidate_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Instant",
@@ -5641,11 +5918,12 @@
             "loyalty": "",
             "artist": "ginnaaaaaaan",
             "play_rate": 176,
-            "word_count": 11,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 11
         },
         {
             "card_name": "Research Grant_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -5661,6 +5939,7 @@
             "loyalty": "",
             "artist": "Leon Tukker",
             "play_rate": 98,
+            "signature": "",
             "word_count": 76,
             "card_name2": "Progress_PRO_CNY",
             "color2": "U",
@@ -5671,11 +5950,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Leon Tukker",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "artist2": "Leon Tukker"
         },
         {
             "card_name": "Search and Seizure_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Sorcery",
@@ -5691,11 +5970,12 @@
             "loyalty": "",
             "artist": "Eddie Mendoza",
             "play_rate": 149,
-            "word_count": 25,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 25
         },
         {
             "card_name": "Serve Again_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Enchantment",
@@ -5711,11 +5991,12 @@
             "loyalty": "",
             "artist": "Anna Astrid",
             "play_rate": 41,
-            "word_count": 29,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 29
         },
         {
             "card_name": "Severin's Masterwork_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Legendary Enchantment",
@@ -5731,11 +6012,12 @@
             "loyalty": "",
             "artist": "Kenza Morvan",
             "play_rate": 0,
-            "word_count": 45,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "signature": "",
+            "word_count": 45
         },
         {
             "card_name": "Sparks of a Revolution_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -5751,6 +6033,7 @@
             "loyalty": "",
             "artist": "Tony Foti",
             "play_rate": 158,
+            "signature": "",
             "word_count": 56,
             "card_name2": "Freedom_PRO_CNY",
             "color2": "R",
@@ -5761,11 +6044,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Adrian Marc",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "artist2": "Adrian Marc"
         },
         {
             "card_name": "Sparks of a Revolution (Hero)",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -5781,6 +6064,7 @@
             "loyalty": "",
             "artist": "YunaXD",
             "play_rate": 158,
+            "signature": "",
             "word_count": 56,
             "card_name2": "Freedom (Hero)",
             "color2": "R",
@@ -5791,11 +6075,11 @@
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
-            "artist2": "Sina Hayati",
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "artist2": "Sina Hayati"
         },
         {
             "card_name": "Thesis on Mutation_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Sorcery",
@@ -5811,11 +6095,12 @@
             "loyalty": "",
             "artist": "zerochan923600",
             "play_rate": 0,
-            "word_count": 28,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Vishanki Hellkite_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "RG",
             "rarity": "special",
             "type": "Creature \u2014 Dragon",
@@ -5831,11 +6116,12 @@
             "loyalty": "",
             "artist": "Devin Elle Kurtz",
             "play_rate": 0,
-            "word_count": 22,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag promo"
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Whirring Inspector_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WUB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -5851,11 +6137,12 @@
             "loyalty": "",
             "artist": "Jb Casacop",
             "play_rate": 29,
-            "word_count": 39,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 39
         },
         {
             "card_name": "Work Safety Violation_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BRG",
             "rarity": "special",
             "type": "Sorcery",
@@ -5871,11 +6158,12 @@
             "loyalty": "",
             "artist": "Anna Butova",
             "play_rate": 119,
-            "word_count": 8,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo"
+            "signature": "",
+            "word_count": 8
         },
         {
             "card_name": "Penrath Insurgency CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "RGW",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -5891,11 +6179,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 23,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Vishanki Inc. CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -5911,11 +6200,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 16,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 16
         },
         {
             "card_name": "Hazakh Arsenal CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -5931,11 +6221,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 21,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 21
         },
         {
             "card_name": "Tiril Bureau CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -5951,11 +6242,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 14,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 14
         },
         {
             "card_name": "Sillaman Laboratories CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -5971,11 +6263,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 27,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 27
         },
         {
             "card_name": "Treasure CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Treasure",
@@ -5991,11 +6284,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 10,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 10
         },
         {
             "card_name": "colorless Soldier 11CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Soldier",
@@ -6011,11 +6305,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "colorless Robot 00CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",
@@ -6031,11 +6326,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 0
         },
         {
             "card_name": "colorless Minion 22CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Minion",
@@ -6051,11 +6347,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 1,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 1
         },
         {
             "card_name": "The Codex CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Legendary Artifact",
@@ -6071,11 +6368,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 20,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 20
         },
         {
             "card_name": "red Berserker 22CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Berserker",
@@ -6091,11 +6389,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 4,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 4
         },
         {
             "card_name": "colorless Equipment CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Equipment",
@@ -6111,11 +6410,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 5,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 5
         },
         {
             "card_name": "Chaneryx, Perfect Lifeform CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Legendary Creature - Leviathan",
@@ -6131,11 +6431,12 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 2,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 2
         },
         {
             "card_name": "Sentry of the New World CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",
@@ -6151,8 +6452,8 @@
             "loyalty": "",
             "artist": "",
             "play_rate": 0,
-            "word_count": 0,
-            "notes": "\n!tageternal\n!tag standard\n!tag planechase"
+            "signature": "",
+            "word_count": 0
         }
     ],
     "version": 1

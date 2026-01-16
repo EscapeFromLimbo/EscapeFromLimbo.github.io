@@ -115,6 +115,7 @@ function tokenizeTerms(searchTerms)
 			let card_loyalty = card_stats.loyalty;
 			let card_notes = card_stats.notes;
 			let card_artist = card_stats.artist;
+			let card_signature = card_stats.signature;
 			let card_flavor = card_stats.flavor_text;
 			let card_play_rate = card_stats.play_rate;
 			let card_word_count = card_stats.word_count;
@@ -664,6 +665,13 @@ function tokenizeTerms(searchTerms)
 					if (modifier == ":" || modifier == "=" || modifier == "!")
 					{
 						return card_artist.includes(check);
+					}
+				}
+				if (term == "s" || term == "sign" || term == "signature")
+				{
+					if (modifier == ":" || modifier == "=" || modifier == "!")
+					{
+						return card_signature.includes(check);
 					}
 				}
 				if (term == "ft" || term == "flavor" || term == "flavortext" || term == "flavour" || term == "flavourtext")

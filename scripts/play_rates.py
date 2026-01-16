@@ -37,6 +37,7 @@ def get_play_rates():
 	cardTopCuts = {}
 	cardMainCount = {}
 	cardSideCount = {}
+	cardSignatures = {}
 	grandTotalDecks = 0
 
 	for tourneyURL in tourneys:
@@ -80,6 +81,10 @@ def get_play_rates():
 					cardSets[cardName].append(setCode)
 				if cardName not in cardMainCount:
 					cardMainCount[cardName] = 0
+				if cardName.replace("\\", "") not in cardSignatures:
+					cardSignatures[cardName.replace("\\", "")] = playerName.replace("\\", "")
+				if cardSignatures[cardName.replace("\\", "")] != playerName.replace("\\", ""):
+					cardSignatures[cardName.replace("\\", "")] = ""
 				cardMainCount[cardName] += copiesMain
 				if cardName not in cardSideCount:
 					cardSideCount[cardName] = 0
@@ -196,4 +201,4 @@ def get_play_rates():
 			cardPlayRates[desanName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / grandTotalDecks)
 		else:
 			cardPlayRates[desanName] = int(1000 * (cardMainCount[cardName] + cardSideCount[cardName]) / totalPossibleDecks)
-	return cardPlayRates
+	return cardPlayRates, cardSignatures

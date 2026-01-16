@@ -9,6 +9,9 @@ import random
 '''
 git push https://EscapeFromLimbo@github.com/EscapeFromLimbo/EscapeFromLimbo.github.io.git
 
+git diff -U20 sets/* | grep -B 19 "+.*notes.*staple" > staplechanges.txt
+
+
 		<card>
 			<name>Zakros Stompers</name>
 			<text>Menace
@@ -332,7 +335,7 @@ Pull https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/
 class Card(object):
 	pass
 
-def pull_all_images(play_rate_table):
+def pull_all_images(play_rate_table, signature_table):
 
 	jsonurl = "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/AllSetsEternal.json"
 	r = requests.get(jsonurl)
@@ -687,6 +690,14 @@ def pull_all_images(play_rate_table):
 			elif card.card_name.split(" (")[0] in play_rate_table:
 				play_rate = play_rate_table[card.card_name.split(" (")[0]]
 
+			signature = ""
+			if card.card_name in signature_table:
+				signature = signature_table[card.card_name]
+			elif card.card_name.split("_")[0] in signature_table:
+				signature = signature_table[card.card_name.split("_")[0]]
+			elif card.card_name.split(" (")[0] in signature_table:
+				signature = signature_table[card.card_name.split(" (")[0]]
+
 			tags = '\\n!tag ' + '\\n!tag '.join(formatstring.split(','))
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"
@@ -705,6 +716,7 @@ def pull_all_images(play_rate_table):
 			if card.form in ["normal", "token"]:
 				cardtext = f'''
 					"card_name": "{card.card_name}",
+					"notes": "{tags}",
 					"color": "{card.color}",
 					"rarity": "{card.rarity}",
 					"type": "{card.type}",
@@ -720,8 +732,8 @@ def pull_all_images(play_rate_table):
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
 					"play_rate": {play_rate},
-					"word_count": {card.word_count},
-					"notes": "{tags}"
+					"signature": "{signature}",
+					"word_count": {card.word_count}
 		'''
 				drafttext = f'''
 		{{
@@ -751,6 +763,7 @@ def pull_all_images(play_rate_table):
 						break
 				cardtext = f'''
 					"card_name": "{card.card_name}",
+					"notes": "{tags}",
 					"color": "{card.color}",
 					"rarity": "{card.rarity}",
 					"type": "{card.type}",
@@ -766,6 +779,7 @@ def pull_all_images(play_rate_table):
 					"loyalty": "{card.loyalty}",
 					"artist": "{card.artist}",
 					"play_rate": {play_rate},
+					"signature": "{signature}",
 					"word_count": {card.word_count + card2.word_count},
 					"card_name2": "{card2.card_name}",
 					"color2": "{card2.color}",
@@ -776,8 +790,7 @@ def pull_all_images(play_rate_table):
 					"pt2": "{card2.pt}",
 					"special_text2": "",
 					"loyalty2": "{card2.loyalty}",
-					"artist2": "{card2.artist}",
-					"notes": "{tags}"
+					"artist2": "{card2.artist}"
 		'''    
 				drafttext = f'''
 		{{
