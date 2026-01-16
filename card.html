@@ -463,13 +463,11 @@
 				}
 			}
 
-
-
 			if (card_stats.signature != "")
 			{
 				const signature = document.createElement("div");
 				signature.className = "effect";
-				signature.textContent += "<i>Signature card of " + card_stats.signature + "</i>"
+				signature.innerHTML = "<i>Signature card of " + card_stats.signature + "</i>"
 				text.appendChild(signature);
 			}			
 			
