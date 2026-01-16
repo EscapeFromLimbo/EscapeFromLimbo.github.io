@@ -43,7 +43,7 @@
 			"collector_number": "84",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, target opponent loses half their life, rounded up.\nTraverse 6 (Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, target opponent loses half their life, rounded up.\nTraverse 6 [i](Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -69,7 +69,7 @@
 			"collector_number": "85",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Amethryn Hoarder enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nSacrifice three artifacts and/or creatures: Return Amethryn Hoarder from your graveyard to the battlefield tapped. Activate only as a sorcery.",
+			"oracle_text": "Flying\nWhen Amethryn Hoarder enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nSacrifice three artifacts and/or creatures: Return Amethryn Hoarder from your graveyard to the battlefield tapped. Activate only as a sorcery.",
 		},
 		
 		{
@@ -108,7 +108,7 @@
 			"collector_number": "3",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Create a 3/3 white Angel creature token with flying.\n• Exile target nonland permanent you don't control until target creature you control leaves the battlefield.\nTraverse 6 (Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Create a 3/3 white Angel creature token with flying.\n• Exile target nonland permanent you don't control until target creature you control leaves the battlefield.\nTraverse 6 [i](Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -173,7 +173,7 @@
 			"collector_number": "167",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature has trample and \"At the beginning of your upkeep, crystallize.\" (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Enchant creature\nEnchanted creature has trample and \"At the beginning of your upkeep, crystallize.\" [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -199,7 +199,7 @@
 			"collector_number": "168",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Untap target land.\nReflect {2}{W} (You may cast this from your graveyard transformed for {2}{W}.)",
+			"oracle_text": "{T}: Untap target land.\nReflect {2}{W} [i](You may cast this from your graveyard transformed for {2}{W}.)[/i]",
 			"back": {
 				"name": "Aunfolk Priestess_KRS",
 				"mana_cost": "",
@@ -210,7 +210,7 @@
 				"collector_number": "168",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\n{1}, {T}: Tap target creature.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\n{1}, {T}: Tap target creature.",
 			}
 		},
 		
@@ -302,7 +302,7 @@
 			"collector_number": "173",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Aunic Gorgon attacks, target creature must block this turn.\nReflect {4}{B} (You may cast this from your graveyard transformed for {4}{B}.)",
+			"oracle_text": "Whenever Aunic Gorgon attacks, target creature must block this turn.\nReflect {4}{B} [i](You may cast this from your graveyard transformed for {4}{B}.)[/i]",
 			"back": {
 				"name": "Aunic Mesmerist_KRS",
 				"mana_cost": "",
@@ -313,7 +313,7 @@
 				"collector_number": "173",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nDeathtouch",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nDeathtouch",
 			}
 		},
 		
@@ -431,7 +431,7 @@
 			"collector_number": "126",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, it deals 2 damage to any target.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, it deals 2 damage to any target.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -457,7 +457,7 @@
 			"collector_number": "255",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B} or {R}.)\nCaves of Ignea enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {B} or {R}.)[/i]\nCaves of Ignea enters the battlefield tapped.",
 			"back": {
 				"name": "Mines of Ignea_KRS",
 				"mana_cost": "",
@@ -534,7 +534,7 @@
 			"collector_number": "127",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Create three 1/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.\n• Whenever a creature you control leaves the battlefield this turn, it deals 1 damage to target player.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Create three 1/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.\n• Whenever a creature you control leaves the battlefield this turn, it deals 1 damage to target player.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -560,7 +560,7 @@
 			"collector_number": "11",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, put a +1/+1 counter on each creature you control.\nTraverse 5 (Tap any number of creatures you control with total power 5 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, put a +1/+1 counter on each creature you control.\nTraverse 5 [i](Tap any number of creatures you control with total power 5 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -573,7 +573,7 @@
 			"collector_number": "46",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever Cloud Coatl attacks, target player mills two cards.\nReflect {3}{G} (You may cast this from your graveyard transformed for {3}{G}.)",
+			"oracle_text": "Flying\nWhenever Cloud Coatl attacks, target player mills two cards.\nReflect {3}{G} [i](You may cast this from your graveyard transformed for {3}{G}.)[/i]",
 			"back": {
 				"name": "Curious Coatl_KRS",
 				"mana_cost": "",
@@ -584,7 +584,7 @@
 				"collector_number": "46",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nReach\nWhen Curious Coatl enters, you may put target card from your graveyard on top of your library.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nReach\nWhen Curious Coatl enters, you may put target card from your graveyard on top of your library.",
 			}
 		},
 		
@@ -598,7 +598,7 @@
 			"collector_number": "47",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, return up to one target nonland permanent to its owner's hand.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, return up to one target nonland permanent to its owner's hand.\nTraverse 3 [i](Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -624,7 +624,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Conjoined Irradiant enters, you may discard up to two cards. If you discard one or more cards, draw that many cards, then crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Trample\nWhen Conjoined Irradiant enters, you may discard up to two cards. If you discard one or more cards, draw that many cards, then crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -650,7 +650,7 @@
 			"collector_number": "12",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, you gain 3 life if you have less life than an opponent. If you control fewer creatures than an opponent, create two tapped 1/1 colorless Reflection creature tokens. If you have fewer cards in hand than an opponent, draw a card.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, you gain 3 life if you have less life than an opponent. If you control fewer creatures than an opponent, create two tapped 1/1 colorless Reflection creature tokens. If you have fewer cards in hand than an opponent, draw a card.\nTraverse 3 [i](Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -663,7 +663,7 @@
 			"collector_number": "130",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCrystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCrystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -728,7 +728,7 @@
 			"collector_number": "211",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance, trample\nWhen Crystal Lion enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Vigilance, trample\nWhen Crystal Lion enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -767,7 +767,7 @@
 			"collector_number": "48",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets -4/-0 until end of turn.\nCrystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Target creature gets -4/-0 until end of turn.\nCrystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -780,7 +780,7 @@
 			"collector_number": "176",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nTarget creature you control fights target creature you don't control.",
+			"oracle_text": "Crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nTarget creature you control fights target creature you don't control.",
 		},
 		
 		{
@@ -793,7 +793,7 @@
 			"collector_number": "177",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Dazzling Frontiers enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nWhenever you cast a spell, if four or more colors of mana were spent to cast it, draw a card.",
+			"oracle_text": "When Dazzling Frontiers enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nWhenever you cast a spell, if four or more colors of mana were spent to cast it, draw a card.",
 		},
 		
 		{
@@ -806,7 +806,7 @@
 			"collector_number": "13",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Dazzling Noble enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "When Dazzling Noble enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -871,7 +871,7 @@
 			"collector_number": "91",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWard-Mill six cards. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player mills six cards.)\nAt the beginning of your upkeep, mill six cards.",
+			"oracle_text": "Lifelink\nWard-Mill six cards. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player mills six cards.)[/i]\nAt the beginning of your upkeep, mill six cards.",
 		},
 		
 		{
@@ -897,7 +897,7 @@
 			"collector_number": "15",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Diamond Paragon enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nCreatures you control with +1/+1 counters on them have flying if another creature you control with a +1/+1 counter on it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. ",
+			"oracle_text": "When Diamond Paragon enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nCreatures you control with +1/+1 counters on them have flying if another creature you control with a +1/+1 counter on it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. ",
 		},
 		
 		{
@@ -910,7 +910,7 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, exile target creature, then its controller reveals cards from the top of their library until they reveal a creature card. They put that card onto the battlefield tapped and the rest on the bottom of their library in a random order.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, exile target creature, then its controller reveals cards from the top of their library until they reveal a creature card. They put that card onto the battlefield tapped and the rest on the bottom of their library in a random order.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -923,7 +923,7 @@
 			"collector_number": "50",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Disturbing Spirit enters, return up to one target nonland permanent an opponent controls to its owner's hand.\nReflect {1}{W}{W} (You may cast this from your graveyard transformed for {1}{W}{W}.)",
+			"oracle_text": "When Disturbing Spirit enters, return up to one target nonland permanent an opponent controls to its owner's hand.\nReflect {1}{W}{W} [i](You may cast this from your graveyard transformed for {1}{W}{W}.)[/i]",
 			"back": {
 				"name": "Displacing Angel_KRS",
 				"mana_cost": "",
@@ -934,7 +934,7 @@
 				"collector_number": "50",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nFlying\nWhen Displacing Angel enters, return a permanent you control to its owner's hand.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nFlying\nWhen Displacing Angel enters, return a permanent you control to its owner's hand.",
 			}
 		},
 		
@@ -948,7 +948,7 @@
 			"collector_number": "92",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, target player sacrifices a creature.\nTraverse 5 (Tap any number of creatures you control with total power 5 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, target player sacrifices a creature.\nTraverse 5 [i](Tap any number of creatures you control with total power 5 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -961,7 +961,7 @@
 			"collector_number": "132",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create a token that's a copy of target creature an opponent controls. They fight each other. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Create a token that's a copy of target creature an opponent controls. They fight each other. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -1091,7 +1091,7 @@
 			"collector_number": "215",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Each player exiles all enchantment cards from their graveyard, then sacrifices all enchantments they control, then puts all cards they exiled this way onto the battlefield. (Auras with nothing to enchant remain in exile.)",
+			"oracle_text": "Each player exiles all enchantment cards from their graveyard, then sacrifices all enchantments they control, then puts all cards they exiled this way onto the battlefield. [i](Auras with nothing to enchant remain in exile.)[/i]",
 		},
 		
 		{
@@ -1104,7 +1104,7 @@
 			"collector_number": "17",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, create a 1/1 white Spirit creature token with flying.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, create a 1/1 white Spirit creature token with flying.\nTraverse 3 [i](Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -1195,7 +1195,7 @@
 			"collector_number": "180",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Tap an untapped Treasure you control: Add one mana of any color.\n{4}{R}: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")",
+			"oracle_text": "{T}, Tap an untapped Treasure you control: Add one mana of any color.\n{4}{R}: Create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -1208,7 +1208,7 @@
 			"collector_number": "217",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying, trample\nWhenever Emerald Hide Wyrmling or another Dragon you control enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Flying, trample\nWhenever Emerald Hide Wyrmling or another Dragon you control enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -1221,7 +1221,7 @@
 			"collector_number": "256",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {B}.)\nEmgara, the Brilliant City enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {W} or {B}.)[/i]\nEmgara, the Brilliant City enters the battlefield tapped.",
 			"back": {
 				"name": "Emgara, Caster of Shadows_KRS",
 				"mana_cost": "",
@@ -1259,7 +1259,7 @@
 			"collector_number": "136",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "First strike\nWhenever Emgaran Duelist deals combat damage to an opponent, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "First strike\nWhenever Emgaran Duelist deals combat damage to an opponent, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -1376,7 +1376,7 @@
 			"collector_number": "274",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1415,7 +1415,7 @@
 			"collector_number": "60",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhenever you cast a noncreature spell, if Frost Skater is tapped, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]\nWhenever you cast a noncreature spell, if Frost Skater is tapped, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -1454,7 +1454,7 @@
 			"collector_number": "138",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Garnet Golem enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\n{6}{B}: Each opponent loses 3 life.",
+			"oracle_text": "When Garnet Golem enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\n{6}{B}: Each opponent loses 3 life.",
 		},
 		
 		{
@@ -1493,7 +1493,7 @@
 			"collector_number": "98",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhen Gemari Ranger dies, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Deathtouch\nWhen Gemari Ranger dies, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -1506,7 +1506,7 @@
 			"collector_number": "99",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Gemari Seeker enters, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Gemari Seeker leaves the battlefield.\nReflect {4}{W} (You may cast this from your graveyard transformed for {4}{W}.)",
+			"oracle_text": "When Gemari Seeker enters, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Gemari Seeker leaves the battlefield.\nReflect {4}{W} [i](You may cast this from your graveyard transformed for {4}{W}.)[/i]",
 			"back": {
 				"name": "Gemari Keeper_KRS",
 				"mana_cost": "",
@@ -1517,7 +1517,7 @@
 				"collector_number": "99",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Gemari Keeper enters, exile target creature an opponent controls until Gemari Keeper leaves the battlefield.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Gemari Keeper enters, exile target creature an opponent controls until Gemari Keeper leaves the battlefield.",
 			}
 		},
 		
@@ -1583,7 +1583,7 @@
 			"collector_number": "246",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Glamorous Tortoise enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "When Glamorous Tortoise enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -1648,7 +1648,7 @@
 			"collector_number": "139",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "If you control two or more Treasures, create a 4/4 red Dragon creature token with flying. Otherwise, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this: Add one mana of any color.\")",
+			"oracle_text": "If you control two or more Treasures, create a 4/4 red Dragon creature token with flying. Otherwise, create two Treasure tokens. [i](They're artifacts with \"{T}, Sacrifice this: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -1661,7 +1661,7 @@
 			"collector_number": "101",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, mill three cards, then you may return a creature card from your graveyard to your hand.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, mill three cards, then you may return a creature card from your graveyard to your hand.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -1687,7 +1687,7 @@
 			"collector_number": "65",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Return target instant or sorcery card from your graveyard to your hand.\n• When you next cast an instant or sorcery spell this turn, copy it.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Return target instant or sorcery card from your graveyard to your hand.\n• When you next cast an instant or sorcery spell this turn, copy it.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -1700,7 +1700,7 @@
 			"collector_number": "102",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Add {B}{B}{B}.\n• Search your library for a card with mana value 4 or less, reveal it, put it into your hand, then shuffle.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Add {B}{B}{B}.\n• Search your library for a card with mana value 4 or less, reveal it, put it into your hand, then shuffle.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -1739,7 +1739,7 @@
 			"collector_number": "140",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever a Dragon you control deals combat damage to an opponent, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")\nSacrifice a Treasure: Hoard Tyrant deals 2 damage to any target.",
+			"oracle_text": "Flying\nWhenever a Dragon you control deals combat damage to an opponent, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")[/i]\nSacrifice a Treasure: Hoard Tyrant deals 2 damage to any target.",
 		},
 		
 		{
@@ -1791,7 +1791,7 @@
 			"collector_number": "67",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Ice Warden becomes the target of a spell, sacrifice it.\nReflect {2}{R} (You may cast this from your graveyard transformed for {2}{R}.)",
+			"oracle_text": "When Ice Warden becomes the target of a spell, sacrifice it.\nReflect {2}{R} [i](You may cast this from your graveyard transformed for {2}{R}.)[/i]",
 			"back": {
 				"name": "Magma Warden_KRS",
 				"mana_cost": "",
@@ -1802,7 +1802,7 @@
 				"collector_number": "67",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhenever Magma Warden becomes the target of a spell, Magma Warden deals 2 damage to each opponent.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhenever Magma Warden becomes the target of a spell, Magma Warden deals 2 damage to each opponent.",
 			}
 		},
 		
@@ -1816,7 +1816,7 @@
 			"collector_number": "258",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {U}.)\nIcepoint Pass enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {W} or {U}.)[/i]\nIcepoint Pass enters the battlefield tapped.",
 			"back": {
 				"name": "Icepoint Bridge_KRS",
 				"mana_cost": "",
@@ -1867,7 +1867,7 @@
 			"collector_number": "142",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Igneate Inciter attacks for the first time each turn, you may untap all other creatures you control. After this phase, there is an additional combat phase.\nReflect {1}{W}{W} (You may cast this from your graveyard transformed for {1}{W}{W}.)",
+			"oracle_text": "Whenever Igneate Inciter attacks for the first time each turn, you may untap all other creatures you control. After this phase, there is an additional combat phase.\nReflect {1}{W}{W} [i](You may cast this from your graveyard transformed for {1}{W}{W}.)[/i]",
 			"back": {
 				"name": "Igneate Emissary_KRS",
 				"mana_cost": "",
@@ -1878,7 +1878,7 @@
 				"collector_number": "142",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Igneate Emissary enters, target player skips their next combat step.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Igneate Emissary enters, target player skips their next combat step.",
 			}
 		},
 		
@@ -1918,7 +1918,7 @@
 			"collector_number": "271",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1931,7 +1931,7 @@
 			"collector_number": "184",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Jade Vale Hoarder enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nTap an untapped Treasure you control: Add one mana of any color.",
+			"oracle_text": "Flying\nWhen Jade Vale Hoarder enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nTap an untapped Treasure you control: Add one mana of any color.",
 		},
 		
 		{
@@ -1970,7 +1970,7 @@
 			"collector_number": "22",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nCreatures you control with +1/+1 counters on them gain indestructible until end of turn.",
+			"oracle_text": "Crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nCreatures you control with +1/+1 counters on them gain indestructible until end of turn.",
 		},
 		
 		{
@@ -1983,7 +1983,7 @@
 			"collector_number": "260",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R} or {G}.)\nKarsi's Spine, Great Sierra enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {R} or {G}.)[/i]\nKarsi's Spine, Great Sierra enters the battlefield tapped.",
 			"back": {
 				"name": "Karsi's Heights, Floating Wilds_KRS",
 				"mana_cost": "",
@@ -2021,7 +2021,7 @@
 			"collector_number": "259",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G} or {W}.)\nKarsinel, the Crystal Glade enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {G} or {W}.)[/i]\nKarsinel, the Crystal Glade enters the battlefield tapped.",
 			"back": {
 				"name": "Karsinel, Suntouched_KRS",
 				"mana_cost": "",
@@ -2059,7 +2059,7 @@
 			"collector_number": "261",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U} or {R}.)\nKythar, the Frozen Peak enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {U} or {R}.)[/i]\nKythar, the Frozen Peak enters the battlefield tapped.",
 			"back": {
 				"name": "Kythar, the Unending Tumult_KRS",
 				"mana_cost": "",
@@ -2084,7 +2084,7 @@
 			"collector_number": "24",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nAs long as any player has 21 or more life, Lightmare gets +2/+2.\nReflect {1}{B}{B} (You may cast this from your graveyard transformed for {1}{B}{B}.)",
+			"oracle_text": "Lifelink\nAs long as any player has 21 or more life, Lightmare gets +2/+2.\nReflect {1}{B}{B} [i](You may cast this from your graveyard transformed for {1}{B}{B}.)[/i]",
 			"back": {
 				"name": "Voidmare_KRS",
 				"mana_cost": "",
@@ -2095,7 +2095,7 @@
 				"collector_number": "24",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nDeathtouch\nAs long as any player has 9 or less life, Voidmare gets +2/+2.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nDeathtouch\nAs long as any player has 9 or less life, Voidmare gets +2/+2.",
 			}
 		},
 		
@@ -2135,7 +2135,7 @@
 			"collector_number": "105",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, target player discards a card.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, target player discards a card.\nTraverse 3 [i](Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2174,7 +2174,7 @@
 			"collector_number": "25",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Discard a card: Man of Faith gains first strike and lifelink until end of turn.\nReflect {4}{U} (You may cast this from your graveyard transformed for {4}{U}.)",
+			"oracle_text": "Discard a card: Man of Faith gains first strike and lifelink until end of turn.\nReflect {4}{U} [i](You may cast this from your graveyard transformed for {4}{U}.)[/i]",
 			"back": {
 				"name": "Man of Learning_KRS",
 				"mana_cost": "",
@@ -2185,7 +2185,7 @@
 				"collector_number": "25",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Man of Learning enters, you may return up to one target instant or sorcery card from your graveyard to your hand.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Man of Learning enters, you may return up to one target instant or sorcery card from your graveyard to your hand.",
 			}
 		},
 		
@@ -2238,7 +2238,7 @@
 			"collector_number": "225",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your upkeep, each opponent discards a card if you control the creature with the greatest power or tied for the greatest power. Otherwise, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "At the beginning of your upkeep, each opponent discards a card if you control the creature with the greatest power or tied for the greatest power. Otherwise, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -2316,7 +2316,7 @@
 			"collector_number": "70",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Mothrat Irradiant enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Flying\nWhen Mothrat Irradiant enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -2329,7 +2329,7 @@
 			"collector_number": "273",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2342,7 +2342,7 @@
 			"collector_number": "187",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a land you control enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\n{6}{G}{G}: Double the number of +1/+1 counters on each creature you control.",
+			"oracle_text": "Whenever a land you control enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\n{6}{G}{G}: Double the number of +1/+1 counters on each creature you control.",
 		},
 		
 		{
@@ -2381,7 +2381,7 @@
 			"collector_number": "107",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Obsidian Elemental enters, you lose 4 life.\nReflect {4}{G}{G} (You may cast this from your graveyard transformed for {4}{G}{G}.)",
+			"oracle_text": "When Obsidian Elemental enters, you lose 4 life.\nReflect {4}{G}{G} [i](You may cast this from your graveyard transformed for {4}{G}{G}.)[/i]",
 			"back": {
 				"name": "Emerald Elemental_KRS",
 				"mana_cost": "",
@@ -2392,7 +2392,7 @@
 				"collector_number": "107",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Emerald Elemental enters, you gain 4 life.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Emerald Elemental enters, you gain 4 life.",
 			}
 		},
 		
@@ -2406,7 +2406,7 @@
 			"collector_number": "108",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your upkeep, target player draws a card and loses 2 life.\nReflect {R}{R} (You may cast this from your graveyard transformed for {R}{R}.)",
+			"oracle_text": "At the beginning of your upkeep, target player draws a card and loses 2 life.\nReflect {R}{R} [i](You may cast this from your graveyard transformed for {R}{R}.)[/i]",
 			"back": {
 				"name": "Magma Shaper_KRS",
 				"mana_cost": "",
@@ -2417,7 +2417,7 @@
 				"collector_number": "108",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nHaste\nWhen Magma Adept enters, discard your hand and draw two cards.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nHaste\nWhen Magma Adept enters, discard your hand and draw two cards.",
 			}
 		},
 		
@@ -2444,7 +2444,7 @@
 			"collector_number": "28",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Opalwing Hoarder enters, choose another creature, then crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nSacrifice a Treasure: The chosen creature gains indestructible until end of turn.",
+			"oracle_text": "Flying\nWhen Opalwing Hoarder enters, choose another creature, then crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nSacrifice a Treasure: The chosen creature gains indestructible until end of turn.",
 		},
 		
 		{
@@ -2457,7 +2457,7 @@
 			"collector_number": "229",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)",
+			"oracle_text": "Menace [i](This creature can't be blocked except by two or more creatures.)[/i]",
 		},
 		
 		{
@@ -2470,7 +2470,7 @@
 			"collector_number": "149",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever Overflow Hellkite attacks, exile the top card of your library. You may cast it if it's a noncreature spell.\nReflect {4}{U}{U} (You may cast this from your graveyard transformed for {4}{U}{U}.)",
+			"oracle_text": "Flying\nWhenever Overflow Hellkite attacks, exile the top card of your library. You may cast it if it's a noncreature spell.\nReflect {4}{U}{U} [i](You may cast this from your graveyard transformed for {4}{U}{U}.)[/i]",
 			"back": {
 				"name": "Overflight Scourge_KRS",
 				"mana_cost": "",
@@ -2481,7 +2481,7 @@
 				"collector_number": "149",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nFlying\nWhenever Overflight Scourge attacks, you may cast target instant or sorcery card from your graveyard with mana value 3 or less without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nFlying\nWhenever Overflight Scourge attacks, you may cast target instant or sorcery card from your graveyard with mana value 3 or less without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
 			}
 		},
 		
@@ -2495,7 +2495,7 @@
 			"collector_number": "109",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters, draw three cards.\nAt the beginning of each end step, you lose 1 life for each card you drew that turn.\nTraverse 3 (Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters, draw three cards.\nAt the beginning of each end step, you lose 1 life for each card you drew that turn.\nTraverse 3 [i](Tap any number of creatures you control with total power 3 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2508,7 +2508,7 @@
 			"collector_number": "270",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2521,7 +2521,7 @@
 			"collector_number": "29",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, exile any number of other nonland permanents you both own and control. Return those cards to the battlefield at the beginning of the next end step.\nTraverse 6 (Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, exile any number of other nonland permanents you both own and control. Return those cards to the battlefield at the beginning of the next end step.\nTraverse 6 [i](Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2547,7 +2547,7 @@
 			"collector_number": "72",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, target creature gets +2/+0 until end of turn and can't be blocked this turn.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, target creature gets +2/+0 until end of turn and can't be blocked this turn.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2560,7 +2560,7 @@
 			"collector_number": "110",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Priest of the Eye enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nWhenever Priest of the Eye attacks, if you control a creature with the greatest power or tied for the greatest power, you draw a card and you lose 1 life.",
+			"oracle_text": "When Priest of the Eye enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nWhenever Priest of the Eye attacks, if you control a creature with the greatest power or tied for the greatest power, you draw a card and you lose 1 life.",
 		},
 		
 		{
@@ -2625,7 +2625,7 @@
 			"collector_number": "30",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nProtective Guardian blocks each turn if able.\nReflect {1}{R} (You may cast this from your graveyard transformed for {1}{R}.)",
+			"oracle_text": "Vigilance\nProtective Guardian blocks each turn if able.\nReflect {1}{R} [i](You may cast this from your graveyard transformed for {1}{R}.)[/i]",
 			"back": {
 				"name": "Vengeful Guardian_KRS",
 				"mana_cost": "",
@@ -2636,7 +2636,7 @@
 				"collector_number": "30",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nHaste\nVengeful Guardian attacks each turn if able.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nHaste\nVengeful Guardian attacks each turn if able.",
 			}
 		},
 		
@@ -2650,7 +2650,7 @@
 			"collector_number": "190",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Creatures you control get +2/+2 and gain trample until end of turn.\n• Create Karsi's Chosen, a legendary 6/6 green Avatar creature token.\nTraverse 6 (Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, choose one -\n• Creatures you control get +2/+2 and gain trample until end of turn.\n• Create Karsi's Chosen, a legendary 6/6 green Avatar creature token.\nTraverse 6 [i](Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2663,7 +2663,7 @@
 			"collector_number": "31",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, destroy target tapped creature an opponent controls.\nTraverse 6 (Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, destroy target tapped creature an opponent controls.\nTraverse 6 [i](Tap any number of creatures you control with total power 6 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2819,7 +2819,7 @@
 			"collector_number": "34",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "First strike, vigilance\nWard-Tap an untapped creature you control. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player taps an untapped creature they control.)",
+			"oracle_text": "First strike, vigilance\nWard-Tap an untapped creature you control. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player taps an untapped creature they control.)[/i]",
 		},
 		
 		{
@@ -2884,7 +2884,7 @@
 			"collector_number": "152",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, create two 1/1 red Elemental creature tokens with haste.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, create two 1/1 red Elemental creature tokens with haste.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2910,7 +2910,7 @@
 			"collector_number": "75",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Sapphiric Hoarder enters, crystallize. Then tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Sapphiric Hoarder and a Treasure. (To crystallize, put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Flying\nWhen Sapphiric Hoarder enters, crystallize. Then tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Sapphiric Hoarder and a Treasure. [i](To crystallize, put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -2923,7 +2923,7 @@
 			"collector_number": "234",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen Scion of Karsi enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Vigilance\nWhen Scion of Karsi enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -2936,7 +2936,7 @@
 			"collector_number": "153",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Flying, haste\nWhen Scourge of the Spine enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nAt the beginning of your end step, sacrifice Scourge of the Spine unless you sacrifice an artifact.",
+			"oracle_text": "Flying, haste\nWhen Scourge of the Spine enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nAt the beginning of your end step, sacrifice Scourge of the Spine unless you sacrifice an artifact.",
 		},
 		
 		{
@@ -2949,7 +2949,7 @@
 			"collector_number": "154",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, it deals X damage to any target, where X is the number of tapped creatures you control.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, it deals X damage to any target, where X is the number of tapped creatures you control.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -2975,7 +2975,7 @@
 			"collector_number": "36",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{1}, Sacrifice Selfless Protector: Creatures you control gain indestructible until end of turn.\nReflect {2}{G}{G} (You may cast this from your graveyard transformed for {2}{G}{G}.)",
+			"oracle_text": "{1}, Sacrifice Selfless Protector: Creatures you control gain indestructible until end of turn.\nReflect {2}{G}{G} [i](You may cast this from your graveyard transformed for {2}{G}{G}.)[/i]",
 			"back": {
 				"name": "Savage Hermit_KRS",
 				"mana_cost": "",
@@ -2986,7 +2986,7 @@
 				"collector_number": "36",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Savage Hermit enters, create a 2/2 green Wolf creature token. That token fights up to one target creature.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Savage Hermit enters, create a 2/2 green Wolf creature token. That token fights up to one target creature.",
 			}
 		},
 		
@@ -3000,7 +3000,7 @@
 			"collector_number": "235",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Shard Conduction deals 3 damage to any target. Scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+			"oracle_text": "Shard Conduction deals 3 damage to any target. Scry 2. [i](To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)[/i]",
 		},
 		
 		{
@@ -3026,7 +3026,7 @@
 			"collector_number": "156",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Shardheart Hoarder enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nSacrifice a Treasure: Target creature you control gains haste until end of turn.",
+			"oracle_text": "Flying\nWhen Shardheart Hoarder enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nSacrifice a Treasure: Target creature you control gains haste until end of turn.",
 		},
 		
 		{
@@ -3091,7 +3091,7 @@
 			"collector_number": "236",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Sparkling Serpent enters, if four or more colors of mana were spent to cast it, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nWhenever you cast a spell, if four or more colors of mana were spent to cast it, crystallize.",
+			"oracle_text": "When Sparkling Serpent enters, if four or more colors of mana were spent to cast it, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nWhenever you cast a spell, if four or more colors of mana were spent to cast it, crystallize.",
 		},
 		
 		{
@@ -3130,7 +3130,7 @@
 			"collector_number": "79",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Speaker of Dreams's power and toughness are each equal to the number of cards in your hand.\nReflect {2}{B}{B} (You may cast this from your graveyard transformed for {2}{B}{B}.)",
+			"oracle_text": "Speaker of Dreams's power and toughness are each equal to the number of cards in your hand.\nReflect {2}{B}{B} [i](You may cast this from your graveyard transformed for {2}{B}{B}.)[/i]",
 			"back": {
 				"name": "Reaver of Nightmares_KRS",
 				"mana_cost": "",
@@ -3141,7 +3141,7 @@
 				"collector_number": "79",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nReaver of Nightmares's power and toughness are each equal to the number of cards in your graveyard.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nReaver of Nightmares's power and toughness are each equal to the number of cards in your graveyard.",
 			}
 		},
 		
@@ -3155,7 +3155,7 @@
 			"collector_number": "157",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\n{3}{R}, Reveal Spire Kite from your hand: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")",
+			"oracle_text": "Flying\n{3}{R}, Reveal Spire Kite from your hand: Create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -3168,7 +3168,7 @@
 			"collector_number": "158",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "For each creature you control, put a +1/+1 counter on it or create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "For each creature you control, put a +1/+1 counter on it or create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -3181,7 +3181,7 @@
 			"collector_number": "195",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Splinter Seer enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "When Splinter Seer enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -3220,7 +3220,7 @@
 			"collector_number": "115",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying, deathtouch\nReflect {U} (You may cast this from your graveyard transformed for {U}.)",
+			"oracle_text": "Flying, deathtouch\nReflect {U} [i](You may cast this from your graveyard transformed for {U}.)[/i]",
 			"back": {
 				"name": "Glasswing Oracle_KRS",
 				"mana_cost": "",
@@ -3231,7 +3231,7 @@
 				"collector_number": "115",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nFlying\nWhen Glasswing Oracle enters, reveal the top card of each player's library. You may put any number of them into their owners' graveyards.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nFlying\nWhen Glasswing Oracle enters, reveal the top card of each player's library. You may put any number of them into their owners' graveyards.",
 			}
 		},
 		
@@ -3245,7 +3245,7 @@
 			"collector_number": "37",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile target nonland permanent, then return it to the battlefield under its owner's control.\nCrystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "Exile target nonland permanent, then return it to the battlefield under its owner's control.\nCrystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -3271,7 +3271,7 @@
 			"collector_number": "197",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{1}{G}, {T}: You may put a creature card from your hand onto the battlefield.\nReflect {5}{U}{U} (You may cast this from your graveyard transformed for {5}{U}{U}.)",
+			"oracle_text": "{1}{G}, {T}: You may put a creature card from your hand onto the battlefield.\nReflect {5}{U}{U} [i](You may cast this from your graveyard transformed for {5}{U}{U}.)[/i]",
 			"back": {
 				"name": "Glacian Guardian_KRS",
 				"mana_cost": "",
@@ -3282,7 +3282,7 @@
 				"collector_number": "197",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nWhen Glacian Guardian enters, return all other creatures to their owners' hands.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nWhen Glacian Guardian enters, return all other creatures to their owners' hands.",
 			}
 		},
 		
@@ -3296,7 +3296,7 @@
 			"collector_number": "198",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, search your library for a basic land card and put it onto the battlefield, then shuffle.\nTraverse 4 (Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, search your library for a basic land card and put it onto the battlefield, then shuffle.\nTraverse 4 [i](Tap any number of creatures you control with total power 4 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -3322,7 +3322,7 @@
 			"collector_number": "272",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3361,7 +3361,7 @@
 			"collector_number": "81",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters, if it was cast, take an extra turn after this one.\nWhen this Rift is traversed, take an extra turn after this one.\nIf Temporal Tunnel would leave the battlefield, exile it instead.\nTraverse 7 (Tap any number of creatures you control with total power 7 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters, if it was cast, take an extra turn after this one.\nWhen this Rift is traversed, take an extra turn after this one.\nIf Temporal Tunnel would leave the battlefield, exile it instead.\nTraverse 7 [i](Tap any number of creatures you control with total power 7 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -3400,7 +3400,7 @@
 			"collector_number": "252",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B} or {G}.)\nThe Amethryn Waste enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {B} or {G}.)[/i]\nThe Amethryn Waste enters the battlefield tapped.",
 			"back": {
 				"name": "The Amethryn Jungle_KRS",
 				"mana_cost": "",
@@ -3425,7 +3425,7 @@
 			"collector_number": "253",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G} or {U}.)\nThe Aunglade, Haven of Ages enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {G} or {U}.)[/i]\nThe Aunglade, Haven of Ages enters the battlefield tapped.",
 			"back": {
 				"name": "The Aunlake, Lost Waters_KRS",
 				"mana_cost": "",
@@ -3450,7 +3450,7 @@
 			"collector_number": "242",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your upkeep, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nIf The Core Crystal would be put into your graveyard from the battlefield, instead exile it. Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+			"oracle_text": "At the beginning of your upkeep, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nIf The Core Crystal would be put into your graveyard from the battlefield, instead exile it. Each player shuffles their hand and graveyard into their library, then draws seven cards.",
 		},
 		
 		{
@@ -3463,7 +3463,7 @@
 			"collector_number": "269",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U} or {B}.)\nThe Umberdeep, Lost Layer enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {U} or {B}.)[/i]\nThe Umberdeep, Lost Layer enters the battlefield tapped.",
 			"back": {
 				"name": "The Umberdeep, Hidden Lair_KRS",
 				"mana_cost": "",
@@ -3579,7 +3579,7 @@
 			"collector_number": "40",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Tunnel Squad enters, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\nTap four untapped artifacts and/or creatures you control: Destroy target artifact or enchantment.",
+			"oracle_text": "When Tunnel Squad enters, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\nTap four untapped artifacts and/or creatures you control: Destroy target artifact or enchantment.",
 		},
 		
 		{
@@ -3592,7 +3592,7 @@
 			"collector_number": "268",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R} or {W}.)\nUkshu, Crossroads of the West enters the battlefield tapped.",
+			"oracle_text": "[i]({T}: Add {R} or {W}.)[/i]\nUkshu, Crossroads of the West enters the battlefield tapped.",
 			"back": {
 				"name": "Ukshu, Lawless Outpost_KRS",
 				"mana_cost": "",
@@ -3669,7 +3669,7 @@
 			"collector_number": "161",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Haste\nReflect {1}{B} (You may cast this from your graveyard transformed for {1}{B}.)",
+			"oracle_text": "Haste\nReflect {1}{B} [i](You may cast this from your graveyard transformed for {1}{B}.)[/i]",
 			"back": {
 				"name": "Ukshu Nihilist_KRS",
 				"mana_cost": "",
@@ -3680,7 +3680,7 @@
 				"collector_number": "161",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nDefender\n{1}, {T}: Each player loses 1 life.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nDefender\n{1}, {T}: Each player loses 1 life.",
 			}
 		},
 		
@@ -3720,7 +3720,7 @@
 			"collector_number": "118",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, if a creature died this turn, crystallize. (Put a +1/+1 counter on a creature you control or create a Treasure token.)\n{B}: Umberdeep Shade gets +1/+1 until end of turn.",
+			"oracle_text": "At the beginning of your end step, if a creature died this turn, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]\n{B}: Umberdeep Shade gets +1/+1 until end of turn.",
 		},
 		
 		{
@@ -3733,7 +3733,7 @@
 			"collector_number": "202",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nDiscard a card: You may play an additional land this turn.\nReflect {4}{R}{R} (You may cast this from your graveyard transformed for {4}{R}{R}.)",
+			"oracle_text": "Deathtouch\nDiscard a card: You may play an additional land this turn.\nReflect {4}{R}{R} [i](You may cast this from your graveyard transformed for {4}{R}{R}.)[/i]",
 			"back": {
 				"name": "Overpass Tyrant_KRS",
 				"mana_cost": "",
@@ -3744,7 +3744,7 @@
 				"collector_number": "202",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\nFlying\nYou can't play lands.\nSacrifice a land: Draw two cards. Activate this ability only once per turn.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\nFlying\nYou can't play lands.\nSacrifice a land: Draw two cards. Activate this ability only once per turn.",
 			}
 		},
 		
@@ -3810,7 +3810,7 @@
 			"collector_number": "121",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{3}{B}, Exile Voidform Stonekin from your graveyard: Crystallize twice, then mill two cards. Activate only as a sorcery. (To crystallize, put a +1/+1 counter on a creature you control or create a Treasure token.)",
+			"oracle_text": "{3}{B}, Exile Voidform Stonekin from your graveyard: Crystallize twice, then mill two cards. Activate only as a sorcery. [i](To crystallize, put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
 		},
 		
 		{
@@ -3823,7 +3823,7 @@
 			"collector_number": "204",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, look at the top three cards of your library. You may reveal a creature or land card and put it into your hand. Put the rest on the bottom of your library in a random order.\nTraverse 2 (Tap any number of creatures you control with total power 2 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, look at the top three cards of your library. You may reveal a creature or land card and put it into your hand. Put the rest on the bottom of your library in a random order.\nTraverse 2 [i](Tap any number of creatures you control with total power 2 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -3836,7 +3836,7 @@
 			"collector_number": "164",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this Rift enters or is traversed, exile the top card of your library. You may play it until end of turn.\nTraverse 1 (Tap any number of creatures you control with total power 1 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)",
+			"oracle_text": "When this Rift enters or is traversed, exile the top card of your library. You may play it until end of turn.\nTraverse 1 [i](Tap any number of creatures you control with total power 1 or more: Traverse this Rift, then sacrifice it. Traverse only as a sorcery.)[/i]",
 		},
 		
 		{
@@ -3901,7 +3901,7 @@
 			"collector_number": "165",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}, Sacrifice Wild Erupter: Destroy target nonbasic land.\nReflect {G} (You may cast this from your graveyard transformed for {G}.)",
+			"oracle_text": "{T}, Sacrifice Wild Erupter: Destroy target nonbasic land.\nReflect {G} [i](You may cast this from your graveyard transformed for {G}.)[/i]",
 			"back": {
 				"name": "Wild Nurturer_KRS",
 				"mana_cost": "",
@@ -3912,7 +3912,7 @@
 				"collector_number": "165",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "Reflected (If this creature would leave the battlefield, exile it instead.)\n{T}: Add {G}.",
+				"oracle_text": "Reflected [i](If this creature would leave the battlefield, exile it instead.)[/i]\n{T}: Add {G}.",
 			}
 		},
 		
@@ -4173,7 +4173,7 @@
 			"collector_number": "1",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(To preserve the fragile tether of reality, keep the front side of your reflected lands here while the back side is in play.)",
+			"oracle_text": "[i](To preserve the fragile tether of reality, keep the front side of your reflected lands here while the back side is in play.)[/i]",
 		},
 		]
 [Common]

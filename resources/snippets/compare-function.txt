@@ -69,7 +69,7 @@ function compareFunction(a, b) {
 			}
 			if (sortMode == 'release_date')
 			{
-			   set_sort_order = ["PLANE", "REV", "VST", "SRC", "MON", "KUT", "GQC", "SVG", "VRD", "KRS", "KSV", "BLR", "DOV", "POP", "TRX", "OLD", "CYB", "CNY", "CCR", "ERR", "KDT", "TWI"];
+			   set_sort_order = ["PLANE", "REV", "VST", "SRC", "MON", "KUT", "GQC", "SVG", "VRD", "KRS", "KSV", "BLR", "DOV", "POP", "TRX", "OLD", "CYB", "CNY", "CCR", "ERR", "KDT", "TWI", "SOL"];
  				a_set_index = -1;
 				b_set_index = -1;
 

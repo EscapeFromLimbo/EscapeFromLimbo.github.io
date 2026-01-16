@@ -121,7 +121,7 @@
 			"collector_number": "89",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a doom counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of doom counters on it.\nEscape-{4}{B}{B}{B}, Exile the top thirteen cards of your library. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a doom counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of doom counters on it.\nEscape-{4}{B}{B}{B}, Exile the top thirteen cards of your library. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -186,7 +186,7 @@
 			"collector_number": "91",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever another nontoken creature you control dies, you may mill a card. If you're ancient, instead you may draw a card. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Whenever another nontoken creature you control dies, you may mill a card. If you're ancient, instead you may draw a card. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -225,7 +225,7 @@
 			"collector_number": "6",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nMultitude {3}{W}{W} (You may cast this for {3}{W}{W}. When you do, copy it.)\nFlying\nWhen Binding Whisper enters, tap target creature you don't control.",
+			"oracle_text": "Flash\nMultitude {3}{W}{W} [i](You may cast this for {3}{W}{W}. When you do, copy it.)[/i]\nFlying\nWhen Binding Whisper enters, tap target creature you don't control.",
 		},
 		
 		{
@@ -420,7 +420,7 @@
 			"collector_number": "214",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{G}{W} (You may cast this for {4}{G}{W}. When you do, copy it.)\nCreature tokens you control get +1/+1 and have vigilance.",
+			"oracle_text": "Multitude {4}{G}{W} [i](You may cast this for {4}{G}{W}. When you do, copy it.)[/i]\nCreature tokens you control get +1/+1 and have vigilance.",
 		},
 		
 		{
@@ -498,7 +498,7 @@
 			"collector_number": "52",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Draw two cards.\nEscape-{3}{U}{U}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Draw two cards.\nEscape-{3}{U}{U}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -511,7 +511,7 @@
 			"collector_number": "97",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace\nEscape-{2}{B}{B}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Menace\nEscape-{2}{B}{B}, Exile five other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -719,7 +719,7 @@
 			"collector_number": "11",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{W}{W} (You may cast this for {4}{W}{W}. When you do, copy it.)\nWhen Drift Off enters, exile target nonland permanent you don't control until Drift Off leaves the battlefield.",
+			"oracle_text": "Multitude {4}{W}{W} [i](You may cast this for {4}{W}{W}. When you do, copy it.)[/i]\nWhen Drift Off enters, exile target nonland permanent you don't control until Drift Off leaves the battlefield.",
 		},
 		
 		{
@@ -797,7 +797,7 @@
 			"collector_number": "133",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "{R}, Discard a land card: Eltensian Hospitality deals 3 damage to any target.\nWhenever you cast an instant or sorcery spell while you're ancient, copy that spell. You may choose new targets for the copy. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "{R}, Discard a land card: Eltensian Hospitality deals 3 damage to any target.\nWhenever you cast an instant or sorcery spell while you're ancient, copy that spell. You may choose new targets for the copy. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -836,7 +836,7 @@
 			"collector_number": "134",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Emberwalker enters or attacks, exile the top two cards of your library. You may play one of those cards this turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Whenever Emberwalker enters or attacks, exile the top two cards of your library. You may play one of those cards this turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -953,7 +953,7 @@
 			"collector_number": "14",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create two 1/1 white Spirit creature tokens with flying. They can't block this turn.\nEscape-{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Create two 1/1 white Spirit creature tokens with flying. They can't block this turn.\nEscape-{2}{W}{B}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1005,7 +1005,7 @@
 			"collector_number": "136",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.\nEscape-{4}{R}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.\nEscape-{4}{R}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1018,7 +1018,7 @@
 			"collector_number": "280",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1044,7 +1044,7 @@
 			"collector_number": "103",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\n{1}{B}: Return Forgotten Forestlord from your graveyard to your hand. Activate only if you're ancient. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Menace\n{1}{B}: Return Forgotten Forestlord from your graveyard to your hand. Activate only if you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -1070,7 +1070,7 @@
 			"collector_number": "221",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "This spell costs {1} less to cast for each Spirit you control.\nFlying\nEscape-{8}{W}{U}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "This spell costs {1} less to cast for each Spirit you control.\nFlying\nEscape-{8}{W}{U}, Exile three other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1096,7 +1096,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Enchant land\nWhen Gift of Deadwoods enters, mill three cards, then return a creature or land card milled this way to your hand.\nAt the beginning of combat on each player's turn, if you're ancient, you may have enchanted land become a 4/4 Elemental creature until end of turn. It's still a land. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Enchant land\nWhen Gift of Deadwoods enters, mill three cards, then return a creature or land card milled this way to your hand.\nAt the beginning of combat on each player's turn, if you're ancient, you may have enchanted land become a 4/4 Elemental creature until end of turn. It's still a land. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -1109,7 +1109,7 @@
 			"collector_number": "268",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{T}: Choose a basic land type. Gilded Court gains that type. (This effect lasts indefinitely.)",
+			"oracle_text": "{T}: Add {C}.\n{T}: Choose a basic land type. Gilded Court gains that type. [i](This effect lasts indefinitely.)[/i]",
 		},
 		
 		{
@@ -1135,7 +1135,7 @@
 			"collector_number": "16",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{W}{W} (You may cast this for {4}{W}{W}. When you do, copy it.)\nVigilance\nAs Glimpse of Something Great enters, choose a number.\nOther creatures you control have protection from mana value of the chosen number.",
+			"oracle_text": "Multitude {4}{W}{W} [i](You may cast this for {4}{W}{W}. When you do, copy it.)[/i]\nVigilance\nAs Glimpse of Something Great enters, choose a number.\nOther creatures you control have protection from mana value of the chosen number.",
 		},
 		
 		{
@@ -1148,7 +1148,7 @@
 			"collector_number": "137",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Prowess\nWhen Gravefire Arcanist enters, when you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nEscape-{1}{R}{R}, Exile six other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Prowess\nWhen Gravefire Arcanist enters, when you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nEscape-{1}{R}{R}, Exile six other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1226,7 +1226,7 @@
 			"collector_number": "179",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Reach\nWard {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)",
+			"oracle_text": "Reach\nWard {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]",
 		},
 		
 		{
@@ -1278,7 +1278,7 @@
 			"collector_number": "54",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surveil 2, then draw a card. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Surveil 2, then draw a card. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -1356,7 +1356,7 @@
 			"collector_number": "227",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever Ikel enters or attacks, you may sacrifice another nontoken creature. If you do, create two tapped 1/1 white Soldier creature tokens.\n{1}{W}{B}: Tokens you control gain deathtouch and lifelink until end of turn.\nEscape-{1}{W}{B}, Sacrifice three creatures. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever Ikel enters or attacks, you may sacrifice another nontoken creature. If you do, create two tapped 1/1 white Soldier creature tokens.\n{1}{W}{B}: Tokens you control gain deathtouch and lifelink until end of turn.\nEscape-{1}{W}{B}, Sacrifice three creatures. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1460,7 +1460,7 @@
 			"collector_number": "55",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Insight Insignia enters, you may attach it to target creature you control.\nWhenever equipped creature deals combat damage to a player, surveil 1, then draw a card. (Look at the top card of your library. You may put that card into your graveyard.)\nEquip {U}",
+			"oracle_text": "When Insight Insignia enters, you may attach it to target creature you control.\nWhenever equipped creature deals combat damage to a player, surveil 1, then draw a card. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nEquip {U}",
 		},
 		
 		{
@@ -1473,7 +1473,7 @@
 			"collector_number": "277",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1512,7 +1512,7 @@
 			"collector_number": "56",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape-{4}{U}{U}, Exile six other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape-{4}{U}{U}, Exile six other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1564,7 +1564,7 @@
 			"collector_number": "229",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Kywon, Nostalgic Visionary enters, return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a 3/3 blue Drake creature token with flying.\nEscape-{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "When Kywon, Nostalgic Visionary enters, return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a 3/3 blue Drake creature token with flying.\nEscape-{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1629,7 +1629,7 @@
 			"collector_number": "143",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "This spell costs {X} less to cast, where X is the power of its target. (Opponents and planeswalkers are powerless.)\nLearning Fiendishly deals 6 damage to any target.",
+			"oracle_text": "This spell costs {X} less to cast, where X is the power of its target. [i](Opponents and planeswalkers are powerless.)[/i]\nLearning Fiendishly deals 6 damage to any target.",
 		},
 		
 		{
@@ -1720,7 +1720,7 @@
 			"collector_number": "26",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Multitude {2}{W}{W} (You may cast this for {2}{W}{W}. When you do, copy it.)\nWhenever Lichbane Forerunner attacks, another target attacking Soldier you control gains indestructible until end of turn.",
+			"oracle_text": "Multitude {2}{W}{W} [i](You may cast this for {2}{W}{W}. When you do, copy it.)[/i]\nWhenever Lichbane Forerunner attacks, another target attacking Soldier you control gains indestructible until end of turn.",
 		},
 		
 		{
@@ -1811,7 +1811,7 @@
 			"collector_number": "254",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add one mana of any color.\nAs long as you're ancient, lands you you control are every basic land type in addition to their other types. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "{T}: Add one mana of any color.\nAs long as you're ancient, lands you you control are every basic land type in addition to their other types. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -1824,7 +1824,7 @@
 			"collector_number": "231",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Haste\nLucille, Ruthless Warlord has first strike as long as she's attacking.\nIf another source would deal damage to a permanent other than Lucille or to a player, it deals double that damage to that permanent or player instead.\nEscape-{3}{B}{R}, Pay 8 life. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Haste\nLucille, Ruthless Warlord has first strike as long as she's attacking.\nIf another source would deal damage to a permanent other than Lucille or to a player, it deals double that damage to that permanent or player instead.\nEscape-{3}{B}{R}, Pay 8 life. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1876,7 +1876,7 @@
 			"collector_number": "59",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return target creature to its owner's hand.\nEscape-{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Return target creature to its owner's hand.\nEscape-{3}{U}, Exile five other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1889,7 +1889,7 @@
 			"collector_number": "110",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return target creature card from your graveyard to your hand.\nEscape-{2}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Return target creature card from your graveyard to your hand.\nEscape-{2}{B}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1928,7 +1928,7 @@
 			"collector_number": "185",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has trample.\nEscape-{1}{G}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has trample.\nEscape-{1}{G}, Exile two other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -1941,7 +1941,7 @@
 			"collector_number": "60",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Multitude {5}{U}{U} (You may cast this for {5}{U}{U}. When you do, copy it.)\nMatron of Lost Glades can't be blocked as long as you control another attacking creature.",
+			"oracle_text": "Multitude {5}{U}{U} [i](You may cast this for {5}{U}{U}. When you do, copy it.)[/i]\nMatron of Lost Glades can't be blocked as long as you control another attacking creature.",
 		},
 		
 		{
@@ -1980,7 +1980,7 @@
 			"collector_number": "234",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nIf you would draw a card while your library has no cards in it, you may instead put a card you own from exile or outside the game into your hand.",
+			"oracle_text": "Whenever you cast a noncreature spell, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nIf you would draw a card while your library has no cards in it, you may instead put a card you own from exile or outside the game into your hand.",
 		},
 		
 		{
@@ -2006,7 +2006,7 @@
 			"collector_number": "279",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2058,7 +2058,7 @@
 			"collector_number": "113",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Necrotic Savant enters, return target creature card from your graveyard to the battlefield if it has mana value 3 or less or if Necrotic Savant escaped.\nEscape-{5}{B}{B}, Sacrifice two permanents, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "When Necrotic Savant enters, return target creature card from your graveyard to the battlefield if it has mana value 3 or less or if Necrotic Savant escaped.\nEscape-{5}{B}{B}, Sacrifice two permanents, Exile five other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -2084,7 +2084,7 @@
 			"collector_number": "188",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample\nAs long as you're ancient, Old Ways Advocate and land creatures you control get +2/+2. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Trample\nAs long as you're ancient, Old Ways Advocate and land creatures you control get +2/+2. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2136,7 +2136,7 @@
 			"collector_number": "276",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2201,7 +2201,7 @@
 			"collector_number": "152",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Pristine Pyre deals 4 damage to target creature or planeswalker. If you're ancient, it deals 6 damage instead. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Pristine Pyre deals 4 damage to target creature or planeswalker. If you're ancient, it deals 6 damage instead. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2240,7 +2240,7 @@
 			"collector_number": "116",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Ravenous Lich enters, you may sacrifice another creature. If you do, put two +1/+1 counters on Ravenous Lich.\nEscape-{5}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "When Ravenous Lich enters, you may sacrifice another creature. If you do, put two +1/+1 counters on Ravenous Lich.\nEscape-{5}{B}{B}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -2279,7 +2279,7 @@
 			"collector_number": "66",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Surveil 2, then draw two cards. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Surveil 2, then draw two cards. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2292,7 +2292,7 @@
 			"collector_number": "117",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, instead create a 5/5 black Demon creature token. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, instead create a 5/5 black Demon creature token. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2305,7 +2305,7 @@
 			"collector_number": "154",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a noncreature spell, Rebel Arcanist gets +1/+0 until end of turn. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Whenever you cast a noncreature spell, Rebel Arcanist gets +1/+0 until end of turn. Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -2357,7 +2357,7 @@
 			"collector_number": "118",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhenever an opponent loses life for the first time each turn, put a +1/+1 counter on Reinstated Reaper. If you're ancient, put two on it instead. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Menace\nWhenever an opponent loses life for the first time each turn, put a +1/+1 counter on Reinstated Reaper. If you're ancient, put two on it instead. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2370,7 +2370,7 @@
 			"collector_number": "119",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nRelentless Whisper can't block.\nEscape-{4}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nRelentless Whisper escapes with a +1/+1 counter on it.",
+			"oracle_text": "Lifelink\nRelentless Whisper can't block.\nEscape-{4}{B}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]\nRelentless Whisper escapes with a +1/+1 counter on it.",
 		},
 		
 		{
@@ -2409,7 +2409,7 @@
 			"collector_number": "235",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance, menace\nWhen Restless Sylph enters, if you're ancient and you cast it, untap all lands you control. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Vigilance, menace\nWhen Restless Sylph enters, if you're ancient and you cast it, untap all lands you control. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2448,7 +2448,7 @@
 			"collector_number": "68",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Revenant of Winter enters, tap target creature you don't control. It doesn't untap during its controller's next untap step.\nEscape-{4}{U}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "When Revenant of Winter enters, tap target creature you don't control. It doesn't untap during its controller's next untap step.\nEscape-{4}{U}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -2604,7 +2604,7 @@
 			"collector_number": "193",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Scarred Primeval has vigilance and trample as long as you're ancient. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Scarred Primeval has vigilance and trample as long as you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2617,7 +2617,7 @@
 			"collector_number": "194",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{G}{G} (You may cast this for {4}{G}{G}. When you do, copy it.)\nTrample\nAs long as you control five or more creatures, Scion of the Wildcourt gets +2/+2.",
+			"oracle_text": "Multitude {4}{G}{G} [i](You may cast this for {4}{G}{G}. When you do, copy it.)[/i]\nTrample\nAs long as you control five or more creatures, Scion of the Wildcourt gets +2/+2.",
 		},
 		
 		{
@@ -2630,7 +2630,7 @@
 			"collector_number": "195",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nHexproof\nAs long as you're ancient, creatures you control have trample and haste. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "This spell can't be countered.\nHexproof\nAs long as you're ancient, creatures you control have trample and haste. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2656,7 +2656,7 @@
 			"collector_number": "71",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Secretkeeper of the Dead enters or you cast another spell from a graveyard, draw a card.\nEscape-{5}{U}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever Secretkeeper of the Dead enters or you cast another spell from a graveyard, draw a card.\nEscape-{5}{U}{U}, Exile five other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -2773,7 +2773,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature you control gains indestructible until end of turn. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Target creature you control gains indestructible until end of turn. Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -2799,7 +2799,7 @@
 			"collector_number": "197",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Multitude {6}{G}{G} (You may cast this for {6}{G}{G}. When you do, copy it.)\nStalwart Grovekeepers can't be blocked by creatures with power 2 or less.",
+			"oracle_text": "Multitude {6}{G}{G} [i](You may cast this for {6}{G}{G}. When you do, copy it.)[/i]\nStalwart Grovekeepers can't be blocked by creatures with power 2 or less.",
 		},
 		
 		{
@@ -2903,7 +2903,7 @@
 			"collector_number": "78",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Starseeker enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "When Starseeker enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2968,7 +2968,7 @@
 			"collector_number": "124",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile target creature if it has power 3 or less or if you're ancient. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "Exile target creature if it has power 3 or less or if you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -2994,7 +2994,7 @@
 			"collector_number": "278",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3020,7 +3020,7 @@
 			"collector_number": "37",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Multitude {5}{W} (You may cast this for {5}{W}. When you do, copy it.)\nVigilance",
+			"oracle_text": "Multitude {5}{W} [i](You may cast this for {5}{W}. When you do, copy it.)[/i]\nVigilance",
 		},
 		
 		{
@@ -3085,7 +3085,7 @@
 			"collector_number": "225",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "You can't cast noncreature spells.\nWhenever you cast a creature spell, copy it. (The copy resolves as a token.)",
+			"oracle_text": "You can't cast noncreature spells.\nWhenever you cast a creature spell, copy it. [i](The copy resolves as a token.)[/i]",
 		},
 		
 		{
@@ -3137,7 +3137,7 @@
 			"collector_number": "241",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Multitude {5}{B}{G} (You may cast this for {5}{B}{G}. When you do, copy it.)\nTrample\nWhen Tugae Corpsemaker enters, each opponent sacrifices a creature.",
+			"oracle_text": "Multitude {5}{B}{G} [i](You may cast this for {5}{B}{G}. When you do, copy it.)[/i]\nTrample\nWhen Tugae Corpsemaker enters, each opponent sacrifices a creature.",
 		},
 		
 		{
@@ -3163,7 +3163,7 @@
 			"collector_number": "202",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Multitude {5}{G}{G} (You may cast this for {5}{G}{G}. When you do, copy it.)\nWhen Tugae Rallier enters, create a 1/1 green Elf creature token. If you control five or more creatures, you may instead put a +1/+1 counter on each creature you control.",
+			"oracle_text": "Multitude {5}{G}{G} [i](You may cast this for {5}{G}{G}. When you do, copy it.)[/i]\nWhen Tugae Rallier enters, create a 1/1 green Elf creature token. If you control five or more creatures, you may instead put a +1/+1 counter on each creature you control.",
 		},
 		
 		{
@@ -3228,7 +3228,7 @@
 			"collector_number": "82",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Unbreathing Surveyor deals combat damage to a player, draw a card.\nEscape-{2}{U}{U}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Whenever Unbreathing Surveyor deals combat damage to a player, draw a card.\nEscape-{2}{U}{U}, Exile four other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -3241,7 +3241,7 @@
 			"collector_number": "126",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card.\nEscape-{2}{B}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+			"oracle_text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card.\nEscape-{2}{B}, Exile five other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
 		},
 		
 		{
@@ -3267,7 +3267,7 @@
 			"collector_number": "83",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Multitude {5}{U}{U} (You may cast this for {5}{U}{U}. When you do, copy it.)\nEnchant player\nAt the beginning of each end step, enchanted player mills X cards, where X is the number of cards put into their graveyard from anywhere this turn.",
+			"oracle_text": "Multitude {5}{U}{U} [i](You may cast this for {5}{U}{U}. When you do, copy it.)[/i]\nEnchant player\nAt the beginning of each end step, enchanted player mills X cards, where X is the number of cards put into their graveyard from anywhere this turn.",
 		},
 		
 		{
@@ -3293,7 +3293,7 @@
 			"collector_number": "165",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "First strike, haste\nWhenever a player pays an alternate cost, Unrivaled Slayer deals 3 damage to that player. (Multitude and escape costs are alternate costs. So is casting a spell for free.)",
+			"oracle_text": "First strike, haste\nWhenever a player pays an alternate cost, Unrivaled Slayer deals 3 damage to that player. [i](Multitude and escape costs are alternate costs. So is casting a spell for free.)[/i]",
 		},
 		
 		{
@@ -3358,7 +3358,7 @@
 			"collector_number": "206",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Tap an untapped creature you control: Add one mana of any color.\nAs long as you're ancient, Vessel of the Wild gets +3/+1. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "{T}, Tap an untapped creature you control: Add one mana of any color.\nAs long as you're ancient, Vessel of the Wild gets +3/+1. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -3410,7 +3410,7 @@
 			"collector_number": "167",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of combat on your turn, creatures you control get +1/+0 and gain haste until end of turn. \nAt the beginning of combat on your turn, if you're ancient, up to one target land you control becomes a 4/4 green Elemental creature until end of turn. It's still a land. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "At the beginning of combat on your turn, creatures you control get +1/+0 and gain haste until end of turn. \nAt the beginning of combat on your turn, if you're ancient, up to one target land you control becomes a 4/4 green Elemental creature until end of turn. It's still a land. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -3527,7 +3527,7 @@
 			"collector_number": "44",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Wick of the Third Rite enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{1}{W}, Sacrifice Wick of the Third Rite: Destroy target artifact or enchantment.",
+			"oracle_text": "When Wick of the Third Rite enters, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\n{1}{W}, Sacrifice Wick of the Third Rite: Destroy target artifact or enchantment.",
 		},
 		
 		{
@@ -3540,7 +3540,7 @@
 			"collector_number": "245",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Wild Huntsman enters, search your library for a land card and put it onto the battlefield, then shuffle. Then if you're ancient, creatures you control get +2/+0 and gain haste until end of turn. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+			"oracle_text": "When Wild Huntsman enters, search your library for a land card and put it onto the battlefield, then shuffle. Then if you're ancient, creatures you control get +2/+0 and gain haste until end of turn. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -3566,7 +3566,7 @@
 			"collector_number": "208",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{G}{G} (You may cast this for {4}{G}{G}. When you do, copy it.)\nWhenever a token you control enters, put a +1/+1 counter on Wildcourt Conserver.",
+			"oracle_text": "Multitude {4}{G}{G} [i](You may cast this for {4}{G}{G}. When you do, copy it.)[/i]\nWhenever a token you control enters, put a +1/+1 counter on Wildcourt Conserver.",
 		},
 		
 		{
@@ -3579,7 +3579,7 @@
 			"collector_number": "209",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, return up to one target land card from your graveyard to the battlefield tapped with a finality counter on it. (If that land would be put into a graveyard, exile it instead.)",
+			"oracle_text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, return up to one target land card from your graveyard to the battlefield tapped with a finality counter on it. [i](If that land would be put into a graveyard, exile it instead.)[/i]",
 		},
 		
 		{
@@ -3592,7 +3592,7 @@
 			"collector_number": "45",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Multitude {4}{W} (You may cast this for {4}{W}. When you do, copy it.)\n{W}, {T}: Put a +1/+1 counter on another target creature.",
+			"oracle_text": "Multitude {4}{W} [i](You may cast this for {4}{W}. When you do, copy it.)[/i]\n{W}, {T}: Put a +1/+1 counter on another target creature.",
 		},
 		
 		{
@@ -3605,7 +3605,7 @@
 			"collector_number": "87",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nMultitude {4}{U}{U} (You may cast this for {4}{U}{U}. When you do, copy it.)\nYou may have Wildkin Imposter enter as a copy of any creature on the battlefield.",
+			"oracle_text": "Flash\nMultitude {4}{U}{U} [i](You may cast this for {4}{U}{U}. When you do, copy it.)[/i]\nYou may have Wildkin Imposter enter as a copy of any creature on the battlefield.",
 		},
 		
 		{

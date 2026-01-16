@@ -69,7 +69,7 @@
 			"collector_number": "33",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Return target permanent an opponent controls to its owner's hand.\nIII - Search your library for a Kraken, Leviathan, Octopus, or Serpent card, reveal it, put it into your hand, then shuffle.\n",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Return target permanent an opponent controls to its owner's hand.\nIII - Search your library for a Kraken, Leviathan, Octopus, or Serpent card, reveal it, put it into your hand, then shuffle.\n",
 		},
 		
 		{
@@ -82,7 +82,7 @@
 			"collector_number": "34",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you scry, put a loyalty counter on Amos, Rune-Mage.\n[+1]: Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this Scry 1.\")\n[-1]: Return target creature to its owner's hand.\n[-5]: Draw three cards.",
+			"oracle_text": "Whenever you scry, put a loyalty counter on Amos, Rune-Mage.\n[+1]: Create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this Scry 1.\")[/i]\n[-1]: Return target creature to its owner's hand.\n[-5]: Draw three cards.",
 		},
 		
 		{
@@ -147,7 +147,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+			"oracle_text": "Flying [i](This creature can't be blocked except by creatures with flying or reach.)[/i]",
 		},
 		
 		{
@@ -160,7 +160,7 @@
 			"collector_number": "36",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Return target nonland permanent to its owner's hand. Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")",
+			"oracle_text": "Return target nonland permanent to its owner's hand. Create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -199,7 +199,7 @@
 			"collector_number": "64",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature. Its controller creates a Treasure token. (It's an artifact with {T}, Sacrifice this: Add one mana of any color.)",
+			"oracle_text": "Destroy target creature. Its controller creates a Treasure token. [i](It's an artifact with {T}, Sacrifice this: Add one mana of any color.)[/i]",
 		},
 		
 		{
@@ -225,7 +225,7 @@
 			"collector_number": "3",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nOther creatures you control get +1/+1.\nGlory (When this dies while attacking, return her to the battlefield transformed.)",
+			"oracle_text": "Flying\nOther creatures you control get +1/+1.\nGlory [i](When this dies while attacking, return her to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Legend of Brallatt_SVG",
 				"mana_cost": "",
@@ -236,7 +236,7 @@
 				"collector_number": "3",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Create a 1/1 white Warrior creature token.\nIII - Exile Legend of Brallatt, then return it to the battlefield. (It enters as a God.)",
+				"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Create a 1/1 white Warrior creature token.\nIII - Exile Legend of Brallatt, then return it to the battlefield. [i](It enters as a God.)[/i]",
 			}
 		},
 		
@@ -250,7 +250,7 @@
 			"collector_number": "4",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Vigilance\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Brallatt's Blessing_SVG",
 				"mana_cost": "",
@@ -275,7 +275,7 @@
 			"collector_number": "5",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II, III - Return target nonland permanent card with mana value less than or equal to the number of lore counters on Brallatt's Light from your graveyard to the battlefield.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III - Return target nonland permanent card with mana value less than or equal to the number of lore counters on Brallatt's Light from your graveyard to the battlefield.",
 		},
 		
 		{
@@ -379,7 +379,7 @@
 			"collector_number": "99",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI - Exile the top five cards of your library.\nII, III, IV - Choose a card exiled with Climb to the Peak. You may play it until end of turn.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nI - Exile the top five cards of your library.\nII, III, IV - Choose a card exiled with Climb to the Peak. You may play it until end of turn.",
 		},
 		
 		{
@@ -405,7 +405,7 @@
 			"collector_number": "158",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Coldstorm Channeler enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\nWhenever you scry, Coldstorm Channeler gets +2/+0 until end of turn and can't be blocked this turn.",
+			"oracle_text": "When Coldstorm Channeler enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\nWhenever you scry, Coldstorm Channeler gets +2/+0 until end of turn and can't be blocked this turn.",
 		},
 		
 		{
@@ -483,7 +483,7 @@
 			"collector_number": "129",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Dawnglade Assailant deals combat damage to a player, draw a card.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Whenever Dawnglade Assailant deals combat damage to a player, draw a card.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Dawnglade Invoker_SVG",
 				"mana_cost": "",
@@ -573,7 +573,7 @@
 			"collector_number": "161",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Devoted Glyph-Mage enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever an artifact you control enters, you gain 1 life. If it's a Glyph, scry 1.",
+			"oracle_text": "When Devoted Glyph-Mage enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever an artifact you control enters, you gain 1 life. If it's a Glyph, scry 1.",
 		},
 		
 		{
@@ -586,7 +586,7 @@
 			"collector_number": "9",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Lifelink\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Light-Maiden's Chosen_SVG",
 				"mana_cost": "",
@@ -663,7 +663,7 @@
 			"collector_number": "69",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Lifelink\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Duskborn Mantle_SVG",
 				"mana_cost": "",
@@ -805,7 +805,7 @@
 			"collector_number": "178",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Explorer's Knarr enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "When Explorer's Knarr enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -818,7 +818,7 @@
 			"collector_number": "70",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nAll creatures get -1/-1 for each lore counter on Feast of the Crows.\nI, II, III - You may return a creature card from your graveyard to your hand.\n",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nAll creatures get -1/-1 for each lore counter on Feast of the Crows.\nI, II, III - You may return a creature card from your graveyard to your hand.\n",
 		},
 		
 		{
@@ -922,7 +922,7 @@
 			"collector_number": "205",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -987,7 +987,7 @@
 			"collector_number": "106",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Glyph-Gift Berserker enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, Glyph-Gift Berserker gets +1/+1 until end of turn.",
+			"oracle_text": "Menace\nWhen Glyph-Gift Berserker enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever you scry, Glyph-Gift Berserker gets +1/+1 until end of turn.",
 		},
 		
 		{
@@ -1000,7 +1000,7 @@
 			"collector_number": "14",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Glyph of Protection enters, draw a card and create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{1}, Sacrifice a Glyph: You gain 1 life. Scry 1.",
+			"oracle_text": "When Glyph of Protection enters, draw a card and create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\n{1}, Sacrifice a Glyph: You gain 1 life. Scry 1.",
 		},
 		
 		{
@@ -1143,7 +1143,7 @@
 			"collector_number": "75",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets -2/-2 until end of turn.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "Target creature gets -2/-2 until end of turn.\nCreate a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -1156,7 +1156,7 @@
 			"collector_number": "76",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Imposing Dreadship enters, return target creature card with mana value 3 or less from your graveyard to the battlefield.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "When Imposing Dreadship enters, return target creature card with mana value 3 or less from your graveyard to the battlefield.\nCrew 3 [i](Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1182,7 +1182,7 @@
 			"collector_number": "39",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Inconspicuous Sloop deals damage to a player, draw a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "Whenever Inconspicuous Sloop deals damage to a player, draw a card.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1195,7 +1195,7 @@
 			"collector_number": "202",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1286,7 +1286,7 @@
 			"collector_number": "40",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever an artifact you control enters for the first time each turn, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{1}, Sacrifice a Glyph: Scry 1. Draw a card.\nGlory (When this dies while attacking, return him to the battlefield transformed.)",
+			"oracle_text": "Whenever an artifact you control enters for the first time each turn, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\n{1}, Sacrifice a Glyph: Scry 1. Draw a card.\nGlory [i](When this dies while attacking, return him to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Legend of Maldunn_SVG",
 				"mana_cost": "",
@@ -1297,7 +1297,7 @@
 				"collector_number": "40",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Create a Glyph token.\nII, III - Draw a card.\nExile Legend of Maldunn, then return it to the battlefield. (It enters as a God.)",
+				"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Create a Glyph token.\nII, III - Draw a card.\nExile Legend of Maldunn, then return it to the battlefield. [i](It enters as a God.)[/i]",
 			}
 		},
 		
@@ -1311,7 +1311,7 @@
 			"collector_number": "109",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Maldunn's Devotee enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, Maldunn's Devotee deals 1 damage to each opponent.",
+			"oracle_text": "When Maldunn's Devotee enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever you scry, Maldunn's Devotee deals 1 damage to each opponent.",
 		},
 		
 		{
@@ -1415,7 +1415,7 @@
 			"collector_number": "204",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -1454,7 +1454,7 @@
 			"collector_number": "79",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nAs long as an opponent has 10 or less life, Myrkalt gets +2/+2 and has menace.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Lifelink\nAs long as an opponent has 10 or less life, Myrkalt gets +2/+2 and has menace.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Legend of Myrkalt_SVG",
 				"mana_cost": "",
@@ -1465,7 +1465,7 @@
 				"collector_number": "79",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Each player loses 2 life.\nIII - Exile Legend of Myrkalt, then return it to the battlefield. (It enters as a God.)",
+				"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Each player loses 2 life.\nIII - Exile Legend of Myrkalt, then return it to the battlefield. [i](It enters as a God.)[/i]",
 			}
 		},
 		
@@ -1479,7 +1479,7 @@
 			"collector_number": "80",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Glory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Glory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Battle-Hardened Berserker_SVG",
 				"mana_cost": "",
@@ -1504,7 +1504,7 @@
 			"collector_number": "110",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards, then create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards, then create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -1530,7 +1530,7 @@
 			"collector_number": "17",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Nordhavn Hawk enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "Flying\nWhen Nordhavn Hawk enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -1569,7 +1569,7 @@
 			"collector_number": "45",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Northwind Adventurer enters, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "When Northwind Adventurer enters, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Northwind Hero_SVG",
 				"mana_cost": "",
@@ -1633,7 +1633,7 @@
 			"collector_number": "141",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Put a +1/+1 counter on each of up to two target creatures you control.\nIII - Creatures you control with power 4 or greater get +1/+1 and gain vigilance until end of turn.\n",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Put a +1/+1 counter on each of up to two target creatures you control.\nIII - Creatures you control with power 4 or greater get +1/+1 and gain vigilance until end of turn.\n",
 		},
 		
 		{
@@ -1685,7 +1685,7 @@
 			"collector_number": "201",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -1724,7 +1724,7 @@
 			"collector_number": "112",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever Rasnif attacks, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever Rasnif attacks, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Legend of Rasnif_SVG",
 				"mana_cost": "",
@@ -1735,7 +1735,7 @@
 				"collector_number": "112",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Exile the top card of your library. You may play it until Legend of Rasnif leaves the battlefield.\nIII - Exile Legend of Rasnif, then return it to the battlefield. (It enters as a God.)",
+				"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Exile the top card of your library. You may play it until Legend of Rasnif leaves the battlefield.\nIII - Exile Legend of Rasnif, then return it to the battlefield. [i](It enters as a God.)[/i]",
 			}
 		},
 		
@@ -1762,7 +1762,7 @@
 			"collector_number": "47",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Raven-Wise Warrior enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{2}{R}: Raven-Wise Warrior gets +2/+0 and gains trample until end of turn.",
+			"oracle_text": "When Raven-Wise Warrior enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\n{2}{R}: Raven-Wise Warrior gets +2/+0 and gains trample until end of turn.",
 		},
 		
 		{
@@ -1788,7 +1788,7 @@
 			"collector_number": "169",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Destroy all other creatures and enchantments.\nII - Mill three cards.\nIII - Until end of turn, you may play cards from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile it instead.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Destroy all other creatures and enchantments.\nII - Mill three cards.\nIII - Until end of turn, you may play cards from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile it instead.",
 		},
 		
 		{
@@ -1840,7 +1840,7 @@
 			"collector_number": "84",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Create a tapped 2/2 black Zombie creature token.\nIII - Rise of the Draugr deals 2 damage to each opponent and you gain 2 life.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Create a tapped 2/2 black Zombie creature token.\nIII - Rise of the Draugr deals 2 damage to each opponent and you gain 2 life.",
 		},
 		
 		{
@@ -1892,7 +1892,7 @@
 			"collector_number": "48",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Rune-Clad Sneak enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\nWhenever you scry, Rune-Clad Sneak gets +1/+0 until end of turn.",
+			"oracle_text": "When Rune-Clad Sneak enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\nWhenever you scry, Rune-Clad Sneak gets +1/+0 until end of turn.",
 		},
 		
 		{
@@ -1905,7 +1905,7 @@
 			"collector_number": "115",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Rune-Mage's Wrath deals 3 damage to each creature. Whenever a creature is dealt excess damage this way, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "Rune-Mage's Wrath deals 3 damage to each creature. Whenever a creature is dealt excess damage this way, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -1931,7 +1931,7 @@
 			"collector_number": "19",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You gain 4 life.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "You gain 4 life.\nCreate a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -1944,7 +1944,7 @@
 			"collector_number": "170",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Runeweave Elder enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you cast your first spell each turn, reveal the top card of your library. If that card has lesser mana value than that spell, you may put it into your hand.",
+			"oracle_text": "When Runeweave Elder enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever you cast your first spell each turn, reveal the top card of your library. If that card has lesser mana value than that spell, you may put it into your hand.",
 		},
 		
 		{
@@ -1957,7 +1957,7 @@
 			"collector_number": "116",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Up to three target creatures can't block this turn.\nCreate a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")",
+			"oracle_text": "Up to three target creatures can't block this turn.\nCreate a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -2035,7 +2035,7 @@
 			"collector_number": "51",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nSpells your opponents cast that target you or a permanent you control cost {2} more to cast.\nI, II, III - Tap up to one target nonland permanent. It doesn't untap during its controller's next untap step.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSpells your opponents cast that target you or a permanent you control cost {2} more to cast.\nI, II, III - Tap up to one target nonland permanent. It doesn't untap during its controller's next untap step.",
 		},
 		
 		{
@@ -2061,7 +2061,7 @@
 			"collector_number": "146",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever another creature you control with power 4 or greater attacks, it gains trample until end of turn.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Trample\nWhenever another creature you control with power 4 or greater attacks, it gains trample until end of turn.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Legend of Skagar_SVG",
 				"mana_cost": "",
@@ -2072,7 +2072,7 @@
 				"collector_number": "146",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Put a +1/+1 counter on target creature you control.\nIII - Exile Legend of Skagar then return it to the battlefield. (It enters as a God.)",
+				"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II - Put a +1/+1 counter on target creature you control.\nIII - Exile Legend of Skagar then return it to the battlefield. [i](It enters as a God.)[/i]",
 			}
 		},
 		
@@ -2086,7 +2086,7 @@
 			"collector_number": "147",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Trample\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Skagar's Rancor_SVG",
 				"mana_cost": "",
@@ -2124,7 +2124,7 @@
 			"collector_number": "118",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Skilled Axeman has first strike as long as it's attacking.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Skilled Axeman has first strike as long as it's attacking.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Rasnif's Fury_SVG",
 				"mana_cost": "",
@@ -2175,7 +2175,7 @@
 			"collector_number": "54",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Skofa Elite deals combat damage to a player, you may draw a card. If you do, discard a card.\nGlory (When this dies while attacking, return it to the battlefield transformed.)",
+			"oracle_text": "Whenever Skofa Elite deals combat damage to a player, you may draw a card. If you do, discard a card.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i]",
 			"back": {
 				"name": "Skofa Blessing_SVG",
 				"mana_cost": "",
@@ -2317,7 +2317,7 @@
 			"collector_number": "22",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Stone-Circle Oracle enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{2}{U}, Sacrifice a Glyph: Scry 1. Draw a card.",
+			"oracle_text": "When Stone-Circle Oracle enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\n{2}{U}, Sacrifice a Glyph: Scry 1. Draw a card.",
 		},
 		
 		{
@@ -2330,7 +2330,7 @@
 			"collector_number": "190",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "You may have Stone Circle enter tapped. When you do, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")\n{T}: Add {C}.\n{3}, {T}, Sacrifice a Glyph: Draw a card.",
+			"oracle_text": "You may have Stone Circle enter tapped. When you do, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this artifact: Scry 1.\")[/i]\n{T}: Add {C}.\n{3}, {T}, Sacrifice a Glyph: Draw a card.",
 		},
 		
 		{
@@ -2369,7 +2369,7 @@
 			"collector_number": "57",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{2}{B}: Sturmslang Drakkar gets +1/+1 until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "{2}{B}: Sturmslang Drakkar gets +1/+1 until end of turn.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2408,7 +2408,7 @@
 			"collector_number": "91",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Raid - When Sturmslang Warship enters, if you attacked this turn, target player discards a card.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "Raid - When Sturmslang Warship enters, if you attacked this turn, target player discards a card.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2434,7 +2434,7 @@
 			"collector_number": "203",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -2447,7 +2447,7 @@
 			"collector_number": "119",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Talented Blacksmith enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever Talented Blacksmith attacks, you may sacrifice an artifact. When you do, scry 1 and put a +1/+1 counter on a creature you control.",
+			"oracle_text": "When Talented Blacksmith enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever Talented Blacksmith attacks, you may sacrifice an artifact. When you do, scry 1 and put a +1/+1 counter on a creature you control.",
 		},
 		
 		{
@@ -2460,7 +2460,7 @@
 			"collector_number": "172",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhen Thunder-Blessed Rager enters, create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")\nWhenever you scry, attacking creatures you control get +2/+0 until end of turn.",
+			"oracle_text": "Haste\nWhen Thunder-Blessed Rager enters, create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]\nWhenever you scry, attacking creatures you control get +2/+0 until end of turn.",
 		},
 		
 		{
@@ -2707,7 +2707,7 @@
 			"collector_number": "124",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Warforge Zealot enters, it deals 2 damage to each opponent.\nGlory (When this dies while attacking, return it to the battlefield transformed.) ",
+			"oracle_text": "When Warforge Zealot enters, it deals 2 damage to each opponent.\nGlory [i](When this dies while attacking, return it to the battlefield transformed.)[/i] ",
 			"back": {
 				"name": "Lightning-Born Einherjar_SVG",
 				"mana_cost": "",
@@ -2745,7 +2745,7 @@
 			"collector_number": "153",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nYou may play an additional land on each of your turns.\nI, II - Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nIII - You gain 1 life for each land you control.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nYou may play an additional land on each of your turns.\nI, II - Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nIII - You gain 1 life for each land you control.",
 		},
 		
 		{
@@ -2797,7 +2797,7 @@
 			"collector_number": "29",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhenever another creature you control enters, you gain 1 life.",
+			"oracle_text": "Lifelink [i](Damage dealt by this creature also causes you to gain that much life.)[/i]\nWhenever another creature you control enters, you gain 1 life.",
 		},
 		
 		{
@@ -2862,7 +2862,7 @@
 			"collector_number": "62",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Creatures you don't control get -2/-0 until end of turn. Create a Glyph token. (It's an artifact with \"{1}, Sacrifice this: Scry 1.\")",
+			"oracle_text": "Creatures you don't control get -2/-0 until end of turn. Create a Glyph token. [i](It's an artifact with \"{1}, Sacrifice this: Scry 1.\")[/i]",
 		},
 		
 		{
@@ -2875,7 +2875,7 @@
 			"collector_number": "1",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This is a copy of a creature exiled with Ascendant Peak.)",
+			"oracle_text": "[i](This is a copy of a creature exiled with Ascendant Peak.)[/i]",
 		},
 		
 		{

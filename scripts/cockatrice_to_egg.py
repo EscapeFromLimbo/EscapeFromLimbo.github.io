@@ -430,6 +430,7 @@ def pull_all_images(play_rate_table, signature_table):
 					c.word_count += 1
 				if ")" in word:
 					is_reminder = False
+			c.rules_text = c.rules_text.replace("(", "[i](").replace(")", ")[/i]")
 			c.pt = ""
 			if "power" in card:
 				c.pt = f"{card['power']}/{card['toughness']}"
@@ -524,6 +525,7 @@ def pull_all_images(play_rate_table, signature_table):
 				c.word_count += 1
 			if ")" in word:
 				is_reminder = False
+		c.rules_text = c.rules_text.replace("(", "[i](").replace(")", ")[/i]")
 		c.color = extract(token, "colors")
 		c.color_identity = ""	
 		c.rarity = "common"

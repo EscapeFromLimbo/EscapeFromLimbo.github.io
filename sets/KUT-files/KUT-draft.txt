@@ -43,7 +43,7 @@
 			"collector_number": "36",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Aglu's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "When Aglu's Ghostwarden enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -69,7 +69,7 @@
 			"collector_number": "71",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surveil 2. When you do, return up to two target creature cards from your graveyard to your hand. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Surveil 2. When you do, return up to two target creature cards from your graveyard to your hand. [i](To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -95,7 +95,7 @@
 			"collector_number": "246",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Alruq Veil-Boundary enters the battlefield tapped.\nWhen Alruq Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {W}.",
+			"oracle_text": "Alruq Veil-Boundary enters the battlefield tapped.\nWhen Alruq Veil-Boundary enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {W}.",
 		},
 		
 		{
@@ -121,7 +121,7 @@
 			"collector_number": "72",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature or planeswalker. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Destroy target creature or planeswalker. Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -134,7 +134,7 @@
 			"collector_number": "37",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of Frost Breath (When this enters, you may put Frost Breath into your hand from your library, then shuffle.)\nFlying\nWhenever Arctic Drake attacks, target tapped creature defending player controls doesn't untap during its controller's next untap step.",
+			"oracle_text": "Master of Frost Breath [i](When this enters, you may put Frost Breath into your hand from your library, then shuffle.)[/i]\nFlying\nWhenever Arctic Drake attacks, target tapped creature defending player controls doesn't untap during its controller's next untap step.",
 		},
 		
 		{
@@ -147,7 +147,7 @@
 			"collector_number": "1",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You gain 3 life.\nInvoke {W} ({W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "You gain 3 life.\nInvoke {W} [i]({W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Frostback Totem_KUT",
 				"mana_cost": "",
@@ -158,7 +158,7 @@
 				"collector_number": "1",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+2.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+2.",
 			}
 		},
 		
@@ -224,7 +224,7 @@
 			"collector_number": "2",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Auroric Banisher enters, exile target nontoken creature or planeswalker an opponent controls until Auroric Banisher leaves the battlefield. (That permanent returns under its owner's control.)",
+			"oracle_text": "Flash\nWhen Auroric Banisher enters, exile target nontoken creature or planeswalker an opponent controls until Auroric Banisher leaves the battlefield. [i](That permanent returns under its owner's control.)[/i]",
 		},
 		
 		{
@@ -250,7 +250,7 @@
 			"collector_number": "143",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Surveil 4, then you may return any number of land cards from your graveyard to the battlefield tapped. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Surveil 4, then you may return any number of land cards from your graveyard to the battlefield tapped. [i](To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -263,7 +263,7 @@
 			"collector_number": "182",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. You gain 2 life.\nInvoke {X}{G}{U} ({X}{G}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. You gain 2 life.\nInvoke {X}{G}{U} [i]({X}{G}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Worldspan Totem_KUT",
 				"mana_cost": "",
@@ -274,7 +274,7 @@
 				"collector_number": "182",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nAs Worldspan Totem enters, put X +1/+1 counters on enchanted Totem.\nEnchanted Totem has flying.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nAs Worldspan Totem enters, put X +1/+1 counters on enchanted Totem.\nEnchanted Totem has flying.",
 			}
 		},
 		
@@ -288,7 +288,7 @@
 			"collector_number": "233",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{2}, {T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{3}, {T}, Sacrifice Auroric Waygate: Return target card from your graveyard to your hand.",
+			"oracle_text": "{2}, {T}: Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\n{3}, {T}, Sacrifice Auroric Waygate: Return target card from your graveyard to your hand.",
 		},
 		
 		{
@@ -327,7 +327,7 @@
 			"collector_number": "39",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets -2/-0 until end of turn.\nInvoke {3}{U} ({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Target creature gets -2/-0 until end of turn.\nInvoke {3}{U} [i]({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Hooting Totem_KUT",
 				"mana_cost": "",
@@ -338,7 +338,7 @@
 				"collector_number": "39",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has flying.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2 and has flying.",
 			}
 		},
 		
@@ -404,7 +404,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Blaze of Seqineq deals 2 damage to each creature.\nInvoke {1}{R} ({1}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Blaze of Seqineq deals 2 damage to each creature.\nInvoke {1}{R} [i]({1}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Sunhart Totem_KUT",
 				"mana_cost": "",
@@ -415,7 +415,7 @@
 				"collector_number": "107",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem becomes blocked by a creature, it deals X damage to that creature, where X is the number of Auras attached to enchanted Totem.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem becomes blocked by a creature, it deals X damage to that creature, where X is the number of Auras attached to enchanted Totem.",
 			}
 		},
 		
@@ -429,7 +429,7 @@
 			"collector_number": "74",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Spreader of Veilblight.)\nLifelink\n{1}{B}: Blightling gets +1/+1 until end of turn.",
+			"oracle_text": "[i](Mastered by Spreader of Veilblight.)[/i]\nLifelink\n{1}{B}: Blightling gets +1/+1 until end of turn.",
 		},
 		
 		{
@@ -533,7 +533,7 @@
 			"collector_number": "41",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Counter target spell unless its controller pays {2}.\nInvoke {3}{U} ({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Counter target spell unless its controller pays {2}.\nInvoke {3}{U} [i]({3}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Shellsworn Totem_KUT",
 				"mana_cost": "",
@@ -544,7 +544,7 @@
 				"collector_number": "41",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSpells your opponents cast that target enchanted Totem cost {2} more to cast.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSpells your opponents cast that target enchanted Totem cost {2} more to cast.",
 			}
 		},
 		
@@ -558,7 +558,7 @@
 			"collector_number": "145",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a land you control enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nExile three cards from your graveyard: Put a +1/+1 counter on Boundary Guardian. Activate this ability only once each turn.",
+			"oracle_text": "Whenever a land you control enters, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nExile three cards from your graveyard: Put a +1/+1 counter on Boundary Guardian. Activate this ability only once each turn.",
 		},
 		
 		{
@@ -584,7 +584,7 @@
 			"collector_number": "109",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Burning Dawn deals 4 damage to any target.\nInvoke {4}{R}{R} ({4}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Burning Dawn deals 4 damage to any target.\nInvoke {4}{R}{R} [i]({4}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Sunscale Totem_KUT",
 				"mana_cost": "",
@@ -595,7 +595,7 @@
 				"collector_number": "109",
 				"rarity": "mythic",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +4/+4 and has flying.\nWhen Sunscale Totem enters, enchanted Totem deals damage equal to its power to each opponent.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +4/+4 and has flying.\nWhen Sunscale Totem enters, enchanted Totem deals damage equal to its power to each opponent.",
 			}
 		},
 		
@@ -622,7 +622,7 @@
 			"collector_number": "146",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Butani Warleader.)\nWhen Butani Shaman enters, target creature you control gets +2/+2 until end of turn.",
+			"oracle_text": "[i](Mastered by Butani Warleader.)[/i]\nWhen Butani Shaman enters, target creature you control gets +2/+2 until end of turn.",
 		},
 		
 		{
@@ -635,7 +635,7 @@
 			"collector_number": "147",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Butani Shaman (When this enters, you may put Butani Shaman into your hand from your library, then shuffle.)\nWhenever Butani Warleader attacks, another target attacking creature you control gets +X/+X until end of turn, where X is Butani Warleader's power.",
+			"oracle_text": "Master of Butani Shaman [i](When this enters, you may put Butani Shaman into your hand from your library, then shuffle.)[/i]\nWhenever Butani Warleader attacks, another target attacking creature you control gets +X/+X until end of turn, where X is Butani Warleader's power.",
 		},
 		
 		{
@@ -661,7 +661,7 @@
 			"collector_number": "111",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Narwa Igniter.)\nTrample",
+			"oracle_text": "[i](Mastered by Narwa Igniter.)[/i]\nTrample",
 		},
 		
 		{
@@ -674,7 +674,7 @@
 			"collector_number": "148",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Caller of the Great Bears unites creatures, create an X/X green Bear Spirit creature token with trample, where X is twice the number of creatures it united.",
+			"oracle_text": "Unite with one or more creatures [i](When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)[/i]\nWhen Caller of the Great Bears unites creatures, create an X/X green Bear Spirit creature token with trample, where X is twice the number of creatures it united.",
 		},
 		
 		{
@@ -765,7 +765,7 @@
 			"collector_number": "4",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Combat-Form Instructor unites creatures, put a +1/+1 counter on each creature it united.",
+			"oracle_text": "Unite with one or more creatures [i](When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)[/i]\nWhen Combat-Form Instructor unites creatures, put a +1/+1 counter on each creature it united.",
 		},
 		
 		{
@@ -778,7 +778,7 @@
 			"collector_number": "188",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Surveil 1. When you do, return target card from your graveyard to your hand. Exile Commune with the Veil. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Surveil 1. When you do, return target card from your graveyard to your hand. Exile Commune with the Veil. [i](To surveil 1, look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -791,7 +791,7 @@
 			"collector_number": "5",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Courtyard Sanctifier unites creatures, you may destroy target artifact or enchantment.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Courtyard Sanctifier unites creatures, you may destroy target artifact or enchantment.",
 		},
 		
 		{
@@ -830,7 +830,7 @@
 			"collector_number": "44",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Cunning Pal Rai Yuk unites creatures, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Cunning Pal Rai Yuk unites creatures, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
 		},
 		
 		{
@@ -843,7 +843,7 @@
 			"collector_number": "237",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Monument to the Thirty (When this enters, you may put Monument to the Thirty into your hand from your library, then shuffle.)\n{30}: Curator of Myth deals 30 damage to any target.",
+			"oracle_text": "Master of Monument to the Thirty [i](When this enters, you may put Monument to the Thirty into your hand from your library, then shuffle.)[/i]\n{30}: Curator of Myth deals 30 damage to any target.",
 		},
 		
 		{
@@ -921,7 +921,7 @@
 			"collector_number": "250",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Dhagiri Veil-Boundary enters the battlefield tapped.\nWhen Dhagiri Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {U}.",
+			"oracle_text": "Dhagiri Veil-Boundary enters the battlefield tapped.\nWhen Dhagiri Veil-Boundary enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {U}.",
 		},
 		
 		{
@@ -986,7 +986,7 @@
 			"collector_number": "150",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Ujuraq's Tusk.)\nPut a +1/+1 counter on up to two target creatures you control.",
+			"oracle_text": "[i](Mastered by Ujuraq's Tusk.)[/i]\nPut a +1/+1 counter on up to two target creatures you control.",
 		},
 		
 		{
@@ -999,7 +999,7 @@
 			"collector_number": "79",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Sacrifice another creature: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+			"oracle_text": "Sacrifice another creature: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
 		},
 		
 		{
@@ -1025,7 +1025,7 @@
 			"collector_number": "193",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nOnce each turn, when you surveil, you may return target creature card from your graveyard to your hand. (Do this after you've surveiled.)",
+			"oracle_text": "Flying\nOnce each turn, when you surveil, you may return target creature card from your graveyard to your hand. [i](Do this after you've surveiled.)[/i]",
 		},
 		
 		{
@@ -1103,7 +1103,7 @@
 			"collector_number": "151",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nInvoke {5}{G} ({5}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nInvoke {5}{G} [i]({5}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Trumpeting Totem_KUT",
 				"mana_cost": "",
@@ -1114,7 +1114,7 @@
 				"collector_number": "151",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +5/+5.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +5/+5.",
 			}
 		},
 		
@@ -1128,7 +1128,7 @@
 			"collector_number": "277",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1167,7 +1167,7 @@
 			"collector_number": "45",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Arctic Drake.)\nTap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+			"oracle_text": "[i](Mastered by Arctic Drake.)[/i]\nTap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
 		},
 		
 		{
@@ -1206,7 +1206,7 @@
 			"collector_number": "46",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Play with the top card of your library revealed.\nYou may play lands and cast spells from the top of your library.\n{1}{U}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Play with the top card of your library revealed.\nYou may play lands and cast spells from the top of your library.\n{1}{U}: Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -1219,7 +1219,7 @@
 			"collector_number": "194",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Exile target nonland permanent. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Exile target nonland permanent. Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -1232,7 +1232,7 @@
 			"collector_number": "239",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.) (Look at the top card of your library. You may put that card into your graveyard.)\nEquip {2}",
+			"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i] [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nEquip {2}",
 		},
 		
 		{
@@ -1284,7 +1284,7 @@
 			"collector_number": "47",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Gain control of target non-Totem creature. Tap that creature. It doesn't untap during its controller's next untap step.\nInvoke {1}{U} ({1}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Gain control of target non-Totem creature. Tap that creature. It doesn't untap during its controller's next untap step.\nInvoke {1}{U} [i]({1}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Octopoid Totem_KUT",
 				"mana_cost": "",
@@ -1295,7 +1295,7 @@
 				"collector_number": "47",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem deals combat damage to a creature, tap that creature. It doesn't untap during its controller's next untap step.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem deals combat damage to a creature, tap that creature. It doesn't untap during its controller's next untap step.",
 			}
 		},
 		
@@ -1322,7 +1322,7 @@
 			"collector_number": "117",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Guru of Tumbling Stone unites creatures, exile the top card of your library. You may play that card this turn.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Guru of Tumbling Stone unites creatures, exile the top card of your library. You may play that card this turn.",
 		},
 		
 		{
@@ -1400,7 +1400,7 @@
 			"collector_number": "84",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of Purge from Memory (When this enters, you may put Purge from Memory into your hand from your library, then shuffle.)\nWhenever an opponent discards one or more cards, put a +1/+1 counter on Herald of Anigul.",
+			"oracle_text": "Master of Purge from Memory [i](When this enters, you may put Purge from Memory into your hand from your library, then shuffle.)[/i]\nWhenever an opponent discards one or more cards, put a +1/+1 counter on Herald of Anigul.",
 		},
 		
 		{
@@ -1426,7 +1426,7 @@
 			"collector_number": "118",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets +2/+2 until end of turn.\nInvoke {2}{R} ({2}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Target creature gets +2/+2 until end of turn.\nInvoke {2}{R} [i]({2}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Woolly Totem_KUT",
 				"mana_cost": "",
@@ -1437,7 +1437,7 @@
 				"collector_number": "118",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2.",
 			}
 		},
 		
@@ -1451,7 +1451,7 @@
 			"collector_number": "119",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of any Mantra (When this enters, you may put any Mantra into your hand from your library, then shuffle.)\nYou may spend mana as though it were mana of any color to cast Mantra spells.",
+			"oracle_text": "Master of any Mantra [i](When this enters, you may put any Mantra into your hand from your library, then shuffle.)[/i]\nYou may spend mana as though it were mana of any color to cast Mantra spells.",
 		},
 		
 		{
@@ -1464,7 +1464,7 @@
 			"collector_number": "10",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "You gain 2 life for each creature you control.\nInvoke {4}{W} ({4}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "You gain 2 life for each creature you control.\nInvoke {4}{W} [i]({4}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Herding Totem_KUT",
 				"mana_cost": "",
@@ -1475,7 +1475,7 @@
 				"collector_number": "10",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Herding Totem or another Aura becomes attached to enchanted Totem, you gain 2 life.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Herding Totem or another Aura becomes attached to enchanted Totem, you gain 2 life.",
 			}
 		},
 		
@@ -1541,7 +1541,7 @@
 			"collector_number": "274",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1567,7 +1567,7 @@
 			"collector_number": "201",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nOnce each turn, while you're looking at one or more cards on top of your library except while searching, you may reveal one of those cards and put it into your hand. (You look at cards when you surveil.)",
+			"oracle_text": "Deathtouch\nOnce each turn, while you're looking at one or more cards on top of your library except while searching, you may reveal one of those cards and put it into your hand. [i](You look at cards when you surveil.)[/i]",
 		},
 		
 		{
@@ -1593,7 +1593,7 @@
 			"collector_number": "85",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Jirrisa's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Flying\nWhen Jirrisa's Ghostwarden enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -1619,7 +1619,7 @@
 			"collector_number": "50",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\nInvoke {2}{U} ({2}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put that card into your graveyard.)[/i]\nInvoke {2}{U} [i]({2}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Pamiuqtuuq Totem_KUT",
 				"mana_cost": "",
@@ -1630,7 +1630,7 @@
 				"collector_number": "50",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+3.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+3.",
 			}
 		},
 		
@@ -1748,7 +1748,7 @@
 			"collector_number": "207",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever you activate a loyalty ability of Lhosei, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n[+2]: Create a 1/1 blue Spirit creature token with flying.\n[-3]: Return up to one target nonland permanent to its owner's hand. You may return another card from your graveyard to your hand.\n[-11]: Any number of target nonland, non-Aura permanents become lands with \"{T}: Add one mana of any color\" and lose all other card types and abilities.",
+			"oracle_text": "Whenever you activate a loyalty ability of Lhosei, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\n[+2]: Create a 1/1 blue Spirit creature token with flying.\n[-3]: Return up to one target nonland permanent to its owner's hand. You may return another card from your graveyard to your hand.\n[-11]: Any number of target nonland, non-Aura permanents become lands with \"{T}: Add one mana of any color\" and lose all other card types and abilities.",
 		},
 		
 		{
@@ -1774,7 +1774,7 @@
 			"collector_number": "155",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Loxodon Memorialist enters, mill four cards. When you do, you may return target Mantra card from your graveyard to your hand. (To mill four cards, put the top four cards of your library into your graveyard.)",
+			"oracle_text": "When Loxodon Memorialist enters, mill four cards. When you do, you may return target Mantra card from your graveyard to your hand. [i](To mill four cards, put the top four cards of your library into your graveyard.)[/i]",
 		},
 		
 		{
@@ -1787,7 +1787,7 @@
 			"collector_number": "121",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Gain control of target nonland permanent until end of turn. Untap that permanent. It gains haste until end of turn.\nInvoke {5}{R}{R} ({5}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Gain control of target nonland permanent until end of turn. Untap that permanent. It gains haste until end of turn.\nInvoke {5}{R}{R} [i]({5}{R}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Migu's Totem_KUT",
 				"mana_cost": "",
@@ -1798,7 +1798,7 @@
 				"collector_number": "121",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +5/+5.\nWhenever enchanted Totem attacks, you may gain control of target nonland permanent until end of turn. Untap that permanent unless it's a creature. If it is, tap it. It's attacking.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +5/+5.\nWhenever enchanted Totem attacks, you may gain control of target nonland permanent until end of turn. Untap that permanent unless it's a creature. If it is, tap it. It's attacking.",
 			}
 		},
 		
@@ -1903,7 +1903,7 @@
 			"collector_number": "14",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Student of Inner Peace (When this enters, you may put Student of Inner Peace into your hand from your library, then shuffle.)\nWhenever you gain life, put that many +1/+1 counters on Mentor of Inner Peace.",
+			"oracle_text": "Master of Student of Inner Peace [i](When this enters, you may put Student of Inner Peace into your hand from your library, then shuffle.)[/i]\nWhenever you gain life, put that many +1/+1 counters on Mentor of Inner Peace.",
 		},
 		
 		{
@@ -1929,7 +1929,7 @@
 			"collector_number": "209",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Once each turn, when another creature you control enters, you may have Migu's Ravager fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Once each turn, when another creature you control enters, you may have Migu's Ravager fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -1955,7 +1955,7 @@
 			"collector_number": "54",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Monastery Flagdancers unites creatures, return up to X target nonland permanents to their owner's hands, where X is the number of creatures it united.",
+			"oracle_text": "Unite with one or more creatures [i](When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)[/i]\nWhen Monastery Flagdancers unites creatures, return up to X target nonland permanents to their owner's hands, where X is the number of creatures it united.",
 		},
 		
 		{
@@ -1981,7 +1981,7 @@
 			"collector_number": "241",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Curator of Myth.)\nMonument to the Thirty enters the battlefield tapped.\n{T}: Add X mana of any one color, where X is the number of Monuments you control.\nA deck can have up to thirty cards named Monument to the Thirty.",
+			"oracle_text": "[i](Mastered by Curator of Myth.)[/i]\nMonument to the Thirty enters the battlefield tapped.\n{T}: Add X mana of any one color, where X is the number of Monuments you control.\nA deck can have up to thirty cards named Monument to the Thirty.",
 		},
 		
 		{
@@ -1994,7 +1994,7 @@
 			"collector_number": "276",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2007,7 +2007,7 @@
 			"collector_number": "158",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Mill a card: Add {G}. (To mill a card, put the top card of your library into your graveyard.)",
+			"oracle_text": "{T}, Mill a card: Add {G}. [i](To mill a card, put the top card of your library into your graveyard.)[/i]",
 		},
 		
 		{
@@ -2020,7 +2020,7 @@
 			"collector_number": "124",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Caldera Elemental (When this enters, you may put Caldera Elemental into your hand from your library, then shuffle.)\n{T}: Add {R}{R}. Spend this mana only to cast Elemental spells or activate abilities of Elementals.",
+			"oracle_text": "Master of Caldera Elemental [i](When this enters, you may put Caldera Elemental into your hand from your library, then shuffle.)[/i]\n{T}: Add {R}{R}. Spend this mana only to cast Elemental spells or activate abilities of Elementals.",
 		},
 		
 		{
@@ -2033,7 +2033,7 @@
 			"collector_number": "257",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Narwa Veil-Boundary enters the battlefield tapped.\nWhen Narwa Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {R}.",
+			"oracle_text": "Narwa Veil-Boundary enters the battlefield tapped.\nWhen Narwa Veil-Boundary enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {R}.",
 		},
 		
 		{
@@ -2072,7 +2072,7 @@
 			"collector_number": "258",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Neqanak Veil-Boundary enters the battlefield tapped.\nWhen Neqanak Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {B}.",
+			"oracle_text": "Neqanak Veil-Boundary enters the battlefield tapped.\nWhen Neqanak Veil-Boundary enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {B}.",
 		},
 		
 		{
@@ -2150,7 +2150,7 @@
 			"collector_number": "127",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Paro Katsang Avenger unites creatures, it deals 2 damage to each opponent.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Paro Katsang Avenger unites creatures, it deals 2 damage to each opponent.",
 		},
 		
 		{
@@ -2163,7 +2163,7 @@
 			"collector_number": "55",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nUnite with three creatures (When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)\nWhen Pass Pilgrim unites creatures, draw a card.",
+			"oracle_text": "Flying\nUnite with three creatures [i](When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)[/i]\nWhen Pass Pilgrim unites creatures, draw a card.",
 		},
 		
 		{
@@ -2202,7 +2202,7 @@
 			"collector_number": "159",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Pathar's Ghostwarden enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "When Pathar's Ghostwarden enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2228,7 +2228,7 @@
 			"collector_number": "160",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control.\nInvoke {2}{G} ({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control.\nInvoke {2}{G} [i]({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Antler Totem_KUT",
 				"mana_cost": "",
@@ -2239,7 +2239,7 @@
 				"collector_number": "160",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has vigilance.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2 and has vigilance.",
 			}
 		},
 		
@@ -2266,7 +2266,7 @@
 			"collector_number": "161",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.\nInvoke {2}{G} ({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.\nInvoke {2}{G} [i]({2}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Auroric Totem_KUT",
 				"mana_cost": "",
@@ -2277,7 +2277,7 @@
 				"collector_number": "161",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem attacks, exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+1.\nWhenever enchanted Totem attacks, exile up to one target card from a graveyard. Create a 1/1 green Shaman creature token.",
 			}
 		},
 		
@@ -2291,7 +2291,7 @@
 			"collector_number": "18",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of Pressure Point (When this enters, you may put Pressure Point into your hand from your library, then shuffle.)\nPeerless Monk has vigilance as long as an opponent controls a tapped creature.",
+			"oracle_text": "Master of Pressure Point [i](When this enters, you may put Pressure Point into your hand from your library, then shuffle.)[/i]\nPeerless Monk has vigilance as long as an opponent controls a tapped creature.",
 		},
 		
 		{
@@ -2343,7 +2343,7 @@
 			"collector_number": "273",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2369,7 +2369,7 @@
 			"collector_number": "21",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Peerless Monk.)\nTap target creature.\nDraw a card.",
+			"oracle_text": "[i](Mastered by Peerless Monk.)[/i]\nTap target creature.\nDraw a card.",
 		},
 		
 		{
@@ -2395,7 +2395,7 @@
 			"collector_number": "162",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create a 2/2 green Ox creature token. You gain 2 life.\nInvoke {4}{G}{G} ({4}{G}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Create a 2/2 green Ox creature token. You gain 2 life.\nInvoke {4}{G}{G} [i]({4}{G}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Genesis Totem_KUT",
 				"mana_cost": "",
@@ -2406,7 +2406,7 @@
 				"collector_number": "162",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +4/+4.\nWhenever enchanted Totem attacks, create a 2/2 green Ox creature token and you gain 2 life.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +4/+4.\nWhenever enchanted Totem attacks, create a 2/2 green Ox creature token and you gain 2 life.",
 			}
 		},
 		
@@ -2459,7 +2459,7 @@
 			"collector_number": "89",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Herald of Anigul.)\nTarget opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then exile up to one card from that player's graveyard.",
+			"oracle_text": "[i](Mastered by Herald of Anigul.)[/i]\nTarget opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then exile up to one card from that player's graveyard.",
 		},
 		
 		{
@@ -2485,7 +2485,7 @@
 			"collector_number": "56",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Defender\n{1}{U}, {T}: Target player mills X cards, where X is the number of creatures with defender you control. (They put the top X cards of their library into their graveyard.)",
+			"oracle_text": "Defender\n{1}{U}, {T}: Target player mills X cards, where X is the number of creatures with defender you control. [i](They put the top X cards of their library into their graveyard.)[/i]",
 		},
 		
 		{
@@ -2498,7 +2498,7 @@
 			"collector_number": "243",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{2}, {T}: Exile the top card of your library face down and look at it.\nWhen Qamutiik Snowrunner attacks, you may put a card exiled with it into your hand.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "{2}, {T}: Exile the top card of your library face down and look at it.\nWhen Qamutiik Snowrunner attacks, you may put a card exiled with it into your hand.\nCrew 3 [i](Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2511,7 +2511,7 @@
 			"collector_number": "23",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "First strike\nUnite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Rakshasa Initiate unites creatures, it gains double strike until end of turn.",
+			"oracle_text": "First strike\nUnite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Rakshasa Initiate unites creatures, it gains double strike until end of turn.",
 		},
 		
 		{
@@ -2641,7 +2641,7 @@
 			"collector_number": "90",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Once during each of your turns, when you lose life, you may put a +1/+1 counter on Scourge of Spirits.\n{1}{B}, Pay 2 life: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Once during each of your turns, when you lose life, you may put a +1/+1 counter on Scourge of Spirits.\n{1}{B}, Pay 2 life: Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2654,7 +2654,7 @@
 			"collector_number": "91",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 1 life.\nInvoke {5}{B}{B} ({5}{B}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 1 life.\nInvoke {5}{B}{B} [i]({5}{B}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Forbidden Totem_KUT",
 				"mana_cost": "",
@@ -2665,7 +2665,7 @@
 				"collector_number": "91",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Forbidden Totem or another Aura becomes attached to enchanted creature, each opponent discards a card.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +3/+3.\nWhenever Forbidden Totem or another Aura becomes attached to enchanted creature, each opponent discards a card.",
 			}
 		},
 		
@@ -2679,7 +2679,7 @@
 			"collector_number": "57",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Seekers of Khembul unites creatures, it can't be blocked this turn.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Seekers of Khembul unites creatures, it can't be blocked this turn.",
 		},
 		
 		{
@@ -2705,7 +2705,7 @@
 			"collector_number": "59",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Counter target spell unless its controller pays {4}. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Counter target spell unless its controller pays {4}. Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2822,7 +2822,7 @@
 			"collector_number": "164",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)\nWhen Snow-Pass Guardian unites creatures, it gains trample until end of turn.",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]\nWhen Snow-Pass Guardian unites creatures, it gains trample until end of turn.",
 		},
 		
 		{
@@ -2874,7 +2874,7 @@
 			"collector_number": "132",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.\nInvoke {4}{R} ({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.\nInvoke {4}{R} [i]({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Sunhorn Totem_KUT",
 				"mana_cost": "",
@@ -2885,7 +2885,7 @@
 				"collector_number": "132",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3 and has trample.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +3/+3 and has trample.",
 			}
 		},
 		
@@ -2912,7 +2912,7 @@
 			"collector_number": "134",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Solara's Machinations enters, create two 1/1 black Spirit creature tokens with flying.\nSacrifice a creature: Exile the top two cards of your library. You may play one of them this turn. Activate this ability only once each turn. (The other remains exiled.)",
+			"oracle_text": "When Solara's Machinations enters, create two 1/1 black Spirit creature tokens with flying.\nSacrifice a creature: Exile the top two cards of your library. You may play one of them this turn. Activate this ability only once each turn. [i](The other remains exiled.)[/i]",
 		},
 		
 		{
@@ -2925,7 +2925,7 @@
 			"collector_number": "135",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of Wrap in Flames (When this enters, you may put Wrap in Flames into your hand from your library, then shuffle.)\nWhenever Solara's Pyromancer deals combat damage to a player, put a +1/+1 counter on it.",
+			"oracle_text": "Master of Wrap in Flames [i](When this enters, you may put Wrap in Flames into your hand from your library, then shuffle.)[/i]\nWhenever Solara's Pyromancer deals combat damage to a player, put a +1/+1 counter on it.",
 		},
 		
 		{
@@ -2951,7 +2951,7 @@
 			"collector_number": "62",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Subjugated Spirit (When this enters, you may put Subjugated Spirit into your hand from your library, then shuffle.)\nWhenever one or more creatures you control deal combat damage to an opponent, draw a card.",
+			"oracle_text": "Master of Subjugated Spirit [i](When this enters, you may put Subjugated Spirit into your hand from your library, then shuffle.)[/i]\nWhenever one or more creatures you control deal combat damage to an opponent, draw a card.",
 		},
 		
 		{
@@ -2990,7 +2990,7 @@
 			"collector_number": "136",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Spirit of the First Dawn unites creatures, for each creature it united, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+			"oracle_text": "Unite with one or more creatures [i](When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)[/i]\nWhen Spirit of the First Dawn unites creatures, for each creature it united, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
 		},
 		
 		{
@@ -3016,7 +3016,7 @@
 			"collector_number": "63",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Return target nonland permanent to its owner's hand.\nInvoke {3}{U}{U}{U} ({3}{U}{U}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Return target nonland permanent to its owner's hand.\nInvoke {3}{U}{U}{U} [i]({3}{U}{U}{U}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Deepdrift Totem_KUT",
 				"mana_cost": "",
@@ -3027,7 +3027,7 @@
 				"collector_number": "63",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nWhen Deepdrift Totem enters, draw cards equal to enchanted creature's power.\nEnchanted Totem gets +2/+2.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nWhen Deepdrift Totem enters, draw cards equal to enchanted creature's power.\nEnchanted Totem gets +2/+2.",
 			}
 		},
 		
@@ -3054,7 +3054,7 @@
 			"collector_number": "94",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Master of Blightling (When this enters, you may put Blightling into your hand from your library, then shuffle.)\nSwamps you control have \"{T}, Pay 1 life: Add {B}{B}.\"",
+			"oracle_text": "Master of Blightling [i](When this enters, you may put Blightling into your hand from your library, then shuffle.)[/i]\nSwamps you control have \"{T}, Pay 1 life: Add {B}{B}.\"",
 		},
 		
 		{
@@ -3067,7 +3067,7 @@
 			"collector_number": "29",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Creatures you control get +1/+1 and gain indestructible until end of turn.\nInvoke {1}{W} ({1}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Creatures you control get +1/+1 and gain indestructible until end of turn.\nInvoke {1}{W} [i]({1}{W}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Protector's Totem_KUT",
 				"mana_cost": "",
@@ -3078,7 +3078,7 @@
 				"collector_number": "29",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSacrifice an Aura attached to enchanted Totem: Enchanted Totem gains indestructible until end of turn.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2.\nSacrifice an Aura attached to enchanted Totem: Enchanted Totem gains indestructible until end of turn.",
 			}
 		},
 		
@@ -3105,7 +3105,7 @@
 			"collector_number": "167",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Stoic Sentinel enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{T}, Exile a card from your graveyard: Add one mana of any color.",
+			"oracle_text": "When Stoic Sentinel enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\n{T}, Exile a card from your graveyard: Add one mana of any color.",
 		},
 		
 		{
@@ -3118,7 +3118,7 @@
 			"collector_number": "30",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Mentor of Inner Peace.)\nWhen Student of Inner Peace enters, you gain 5 life.",
+			"oracle_text": "[i](Mastered by Mentor of Inner Peace.)[/i]\nWhen Student of Inner Peace enters, you gain 5 life.",
 		},
 		
 		{
@@ -3131,7 +3131,7 @@
 			"collector_number": "64",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Soul Slaver.)\nFlying",
+			"oracle_text": "[i](Mastered by Soul Slaver.)[/i]\nFlying",
 		},
 		
 		{
@@ -3157,7 +3157,7 @@
 			"collector_number": "137",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Haste\nUnite with three creatures (When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)\nAt the beginning of your end step, return Sunflare Disciple to its owner's hand unless it has a +1/+1 counter on it.",
+			"oracle_text": "Haste\nUnite with three creatures [i](When this attacks, if it has no +1/+1 counters, you may tap three of your other creatures to put one on it.)[/i]\nAt the beginning of your end step, return Sunflare Disciple to its owner's hand unless it has a +1/+1 counter on it.",
 		},
 		
 		{
@@ -3196,7 +3196,7 @@
 			"collector_number": "31",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Unite with two creatures (When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)",
+			"oracle_text": "Unite with two creatures [i](When this attacks, if it has no +1/+1 counters, you may tap two of your other creatures to put one on it.)[/i]",
 		},
 		
 		{
@@ -3222,7 +3222,7 @@
 			"collector_number": "275",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3261,7 +3261,7 @@
 			"collector_number": "170",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reveal the top four cards of your library. You may put a land card or card with invoke from among them into your hand. Put the rest into your graveyard.\nInvoke {3}{G} ({3}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Reveal the top four cards of your library. You may put a land card or card with invoke from among them into your hand. Put the rest into your graveyard.\nInvoke {3}{G} [i]({3}{G}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Barkbound Totem_KUT",
 				"mana_cost": "",
@@ -3272,7 +3272,7 @@
 				"collector_number": "170",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 for each Aura attached to it.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2 for each Aura attached to it.",
 			}
 		},
 		
@@ -3325,7 +3325,7 @@
 			"collector_number": "267",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Tambara Veil-Boundary enters the battlefield tapped.\nWhen Tambara Veil-Boundary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {G}.",
+			"oracle_text": "Tambara Veil-Boundary enters the battlefield tapped.\nWhen Tambara Veil-Boundary enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {G}.",
 		},
 		
 		{
@@ -3351,7 +3351,7 @@
 			"collector_number": "171",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Unite with one or more creatures (When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)\nWhen Tender of the Heartglade unites creatures, draw a card for each creature it united.",
+			"oracle_text": "Unite with one or more creatures [i](When this attacks, if it has no +1/+1 counters, you may tap one or more of your other creatures to put one on it.)[/i]\nWhen Tender of the Heartglade unites creatures, draw a card for each creature it united.",
 		},
 		
 		{
@@ -3403,7 +3403,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reach\nWhen Totem-Forest Huntress enters, mill two cards. (Put the top two cards of your library into your graveyard.)\nInvoke costs you pay cost {1} less to pay.",
+			"oracle_text": "Reach\nWhen Totem-Forest Huntress enters, mill two cards. [i](Put the top two cards of your library into your graveyard.)[/i]\nInvoke costs you pay cost {1} less to pay.",
 		},
 		
 		{
@@ -3507,7 +3507,7 @@
 			"collector_number": "139",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target creature you control gets +1/+1 and gains double strike until end of turn.\nInvoke {4}{R} ({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Target creature you control gets +1/+1 and gains double strike until end of turn.\nInvoke {4}{R} [i]({4}{R}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Bloodtusk Totem_KUT",
 				"mana_cost": "",
@@ -3518,7 +3518,7 @@
 				"collector_number": "139",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +2/+2 and has double strike.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +2/+2 and has double strike.",
 			}
 		},
 		
@@ -3532,7 +3532,7 @@
 			"collector_number": "172",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever Ujuraq, Elder Watcher enters or attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nUjuraq gets +3/+3 and has trample as long as there are eight or more cards in your graveyard.",
+			"oracle_text": "Whenever Ujuraq, Elder Watcher enters or attacks, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nUjuraq gets +3/+3 and has trample as long as there are eight or more cards in your graveyard.",
 		},
 		
 		{
@@ -3545,7 +3545,7 @@
 			"collector_number": "173",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Master of Elder's Might (When this enters, you may put Elder's Might into your hand from your library, then shuffle.)\nCreatures with power less than Ujuraq's Tusk's power can't block it.",
+			"oracle_text": "Master of Elder's Might [i](When this enters, you may put Elder's Might into your hand from your library, then shuffle.)[/i]\nCreatures with power less than Ujuraq's Tusk's power can't block it.",
 		},
 		
 		{
@@ -3558,7 +3558,7 @@
 			"collector_number": "100",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Each opponent sacrifices a creature.\nInvoke {5}{B} ({5}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Each opponent sacrifices a creature.\nInvoke {5}{B} [i]({5}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Bloodsoaked Totem_KUT",
 				"mana_cost": "",
@@ -3569,7 +3569,7 @@
 				"collector_number": "100",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +3/+3 and has menace.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +3/+3 and has menace.",
 			}
 		},
 		
@@ -3583,7 +3583,7 @@
 			"collector_number": "101",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Return target creature card with mana value 7 or less from your graveyard to the battlefield.\nInvoke {1}{B} ({1}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)",
+			"oracle_text": "Return target creature card with mana value 7 or less from your graveyard to the battlefield.\nInvoke {1}{B} [i]({1}{B}: Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery.)[/i]",
 			"back": {
 				"name": "Carrion Totem_KUT",
 				"mana_cost": "",
@@ -3594,7 +3594,7 @@
 				"collector_number": "101",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(If this would leave, exile it instead.)\nEnchant Totem\nEnchanted Totem gets +1/+1 and has deathtouch.",
+				"oracle_text": "[i](If this would leave, exile it instead.)[/i]\nEnchant Totem\nEnchanted Totem gets +1/+1 and has deathtouch.",
 			}
 		},
 		
@@ -3608,7 +3608,7 @@
 			"collector_number": "174",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{3}{U}{B}: Surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "{3}{U}{B}: Surveil 2, then draw a card. [i](To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -3621,7 +3621,7 @@
 			"collector_number": "102",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\n{2}{G}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+			"oracle_text": "Deathtouch\n{2}{G}: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
 		},
 		
 		{
@@ -3660,7 +3660,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Vow of Silence enters, exile target creature an opponent controls with power 3 or less until Vow of Silence leaves the battlefield. (That creature returns under its owner's control.)",
+			"oracle_text": "When Vow of Silence enters, exile target creature an opponent controls with power 3 or less until Vow of Silence leaves the battlefield. [i](That creature returns under its owner's control.)[/i]",
 		},
 		
 		{
@@ -3699,7 +3699,7 @@
 			"collector_number": "175",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever another creature you control enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Whenever another creature you control enters, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -3712,7 +3712,7 @@
 			"collector_number": "69",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever you surveil, you may have Watcher's Roost become a 3/3 Bird creature with flying until end of turn.\n{2}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+			"oracle_text": "Whenever you surveil, you may have Watcher's Roost become a 3/3 Bird creature with flying until end of turn.\n{2}{U}: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
 		},
 		
 		{
@@ -3777,7 +3777,7 @@
 			"collector_number": "228",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nTrample\nHexproof from mana value 3 or less (This creature can't be the target of spells or abilities your opponents control with mana value 3 or less.)",
+			"oracle_text": "This spell can't be countered.\nTrample\nHexproof from mana value 3 or less [i](This creature can't be the target of spells or abilities your opponents control with mana value 3 or less.)[/i]",
 		},
 		
 		{
@@ -3855,7 +3855,7 @@
 			"collector_number": "141",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(Mastered by Solara's Pyromancer.)\nWrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
+			"oracle_text": "[i](Mastered by Solara's Pyromancer.)[/i]\nWrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
 		},
 		
 		{

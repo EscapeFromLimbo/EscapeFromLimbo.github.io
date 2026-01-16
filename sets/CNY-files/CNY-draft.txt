@@ -30,7 +30,7 @@
 			"collector_number": "33",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Put target creature on top of its owner's library. Its controller surveils 1, then you surveil 1. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Put target creature on top of its owner's library. Its controller surveils 1, then you surveil 1. [i](To surveil 1, look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -43,7 +43,7 @@
 			"collector_number": "157",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Adaptive Hydra enters, teach it your choice of haste, menace, or vigilance. Then repeat this process X times. (To teach a keyword, put a keyword counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)",
+			"oracle_text": "When Adaptive Hydra enters, teach it your choice of haste, menace, or vigilance. Then repeat this process X times. [i](To teach a keyword, put a keyword counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -56,7 +56,7 @@
 			"collector_number": "95",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a spell, if mana from an artifact source was spent to cast it, you may copy that spell, and you may choose new targets for the copy. Do this only once each turn. (A copy of a permanent spell becomes a token.)",
+			"oracle_text": "Whenever you cast a spell, if mana from an artifact source was spent to cast it, you may copy that spell, and you may choose new targets for the copy. Do this only once each turn. [i](A copy of a permanent spell becomes a token.)[/i]",
 		},
 		
 		{
@@ -69,7 +69,7 @@
 			"collector_number": "126",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Anesthesiologist attacks, teach Anesthesiologist lifelink if you control a white permanent. Otherwise, you gain 2 life. (To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Whenever Anesthesiologist attacks, teach Anesthesiologist lifelink if you control a white permanent. Otherwise, you gain 2 life. [i](To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -82,7 +82,7 @@
 			"collector_number": "96",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Ardent Voter enters, make a pledge. (Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Menace\nWhen Ardent Voter enters, make a pledge. [i](Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -108,7 +108,7 @@
 			"collector_number": "64",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever Arsenal Mentor attacks, teach target attacking creature with lesser power flying. (To teach flying, put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Flying\nWhenever Arsenal Mentor attacks, teach target attacking creature with lesser power flying. [i](To teach flying, put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -121,7 +121,7 @@
 			"collector_number": "65",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Ascend to Power enters, you may sacrifice a creature, discard a card, or pay 3 life. If you do, draw two cards.\n{ql} - You've sacrificed a nonland permanent this turn.\n{ql} - You've discarded a card this turn.\n{ql} - You've lost life this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Ascend to Power enters, you may sacrifice a creature, discard a card, or pay 3 life. If you do, draw two cards.\n{ql} - You've sacrificed a nonland permanent this turn.\n{ql} - You've discarded a card this turn.\n{ql} - You've lost life this turn.",
 			"back": {
 				"name": "Omnipotence",
 				"mana_cost": "",
@@ -159,7 +159,7 @@
 			"collector_number": "158",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhen Assault Engine enters, gain control of target creature and untap it. Sacrifice it at the beginning of the next end step. (It's still affected by summoning sickness, but can crew.)\nCrew 2",
+			"oracle_text": "Haste\nWhen Assault Engine enters, gain control of target creature and untap it. Sacrifice it at the beginning of the next end step. [i](It's still affected by summoning sickness, but can crew.)[/i]\nCrew 2",
 		},
 		
 		{
@@ -185,7 +185,7 @@
 			"collector_number": "34",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Ballot Registrar enters, make a pledge. (Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nActivated abilities of nonland permanents you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
+			"oracle_text": "When Ballot Registrar enters, make a pledge. [i](Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nActivated abilities of nonland permanents you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
 		},
 		
 		{
@@ -198,7 +198,7 @@
 			"collector_number": "97",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{2}, Sacrifice a creature: Teach target creature menace. (Put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)",
+			"oracle_text": "{2}, Sacrifice a creature: Teach target creature menace. [i](Put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -224,7 +224,7 @@
 			"collector_number": "161",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Creatures you control have \"{T}: Create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{W}{U}{B}{R}{G}, Sacrifice Black-Tie Gala: Draw two cards.",
+			"oracle_text": "Creatures you control have \"{T}: Create a Treasure token.\" [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]\n{W}{U}{B}{R}{G}, Sacrifice Black-Tie Gala: Draw two cards.",
 		},
 		
 		{
@@ -289,7 +289,7 @@
 			"collector_number": "4",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\n{5}, {T}: Tap target creature. This ability costs {X} less to activate, where X is your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Lifelink\n{5}, {T}: Tap target creature. This ability costs {X} less to activate, where X is your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -341,7 +341,7 @@
 			"collector_number": "67",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, if a creature card or creature token was put into your graveyard from anywhere this turn, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "At the beginning of your end step, if a creature card or creature token was put into your graveyard from anywhere this turn, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -354,7 +354,7 @@
 			"collector_number": "37",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever Bureau Mentor attacks, teach target attacking creature with lesser power vigilance. Untap that creature. (To teach vigilance, put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Vigilance\nWhenever Bureau Mentor attacks, teach target attacking creature with lesser power vigilance. Untap that creature. [i](To teach vigilance, put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -367,7 +367,7 @@
 			"collector_number": "249",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Bustling Motorway enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any blue or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Bustling Motorway enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any blue or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -380,7 +380,7 @@
 			"collector_number": "130",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Cabinet Recruiter enters, you may search your library for a creature card with mana value less than or equal to your approval, reveal it, put it into your hand, then shuffle. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Cabinet Recruiter enters, you may search your library for a creature card with mana value less than or equal to your approval, reveal it, put it into your hand, then shuffle. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -406,7 +406,7 @@
 			"collector_number": "98",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Sacrifice a Treasure: Capital Maglev gains your choice of haste or trample until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "Sacrifice a Treasure: Capital Maglev gains your choice of haste or trample until end of turn.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -458,7 +458,7 @@
 			"collector_number": "166",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Teach target creature you control lifelink. It fights up to one target creature you don't control. (To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Teach target creature you control lifelink. It fights up to one target creature you don't control. [i](To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -497,7 +497,7 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Chromagoyf's power is equal to your approval and its toughness is equal to that number plus 1. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Chromagoyf's power is equal to your approval and its toughness is equal to that number plus 1. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -523,7 +523,7 @@
 			"collector_number": "38",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Civic Copterist enters, teach target creature flying. (Put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Flying\nWhen Civic Copterist enters, teach target creature flying. [i](Put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -575,7 +575,7 @@
 			"collector_number": "7",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\n{1}, {T}: Surveil 1. This ability costs {1} less to activate if you control a blue permanent. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)",
+			"oracle_text": "Flying\n{1}, {T}: Surveil 1. This ability costs {1} less to activate if you control a blue permanent. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]",
 		},
 		
 		{
@@ -627,7 +627,7 @@
 			"collector_number": "250",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Congressional Hall enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any white or blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Congressional Hall enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any white or blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -640,7 +640,7 @@
 			"collector_number": "41",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Congressional Kraken enters, return each nonland permanent with mana value less than or equal to your approval to their owners' hands. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Flash\nWhen Congressional Kraken enters, return each nonland permanent with mana value less than or equal to your approval to their owners' hands. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -653,7 +653,7 @@
 			"collector_number": "251",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Controlled Ecosystem enters the battlefield tapped.\n{T}: Add {G} or {U}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any blue or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Controlled Ecosystem enters the battlefield tapped.\n{T}: Add {G} or {U}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any blue or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -666,7 +666,7 @@
 			"collector_number": "70",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control deals combat damage to a player, you may sacrifice it. If you do, draw a card. Otherwise, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Whenever a creature you control deals combat damage to a player, you may sacrifice it. If you do, draw a card. Otherwise, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -679,7 +679,7 @@
 			"collector_number": "100",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhenever Corporate Mentor attacks, teach target attacking creature with lesser power menace. (To teach menace, put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Menace\nWhenever Corporate Mentor attacks, teach target attacking creature with lesser power menace. [i](To teach menace, put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -692,7 +692,7 @@
 			"collector_number": "71",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Corrupt Congressman enters or attacks, make a pledge. (Create any black Clique enchantment token. If you already control a Clique, instead activate one of its Pledges without paying its cost.)\nCliques you control have \"Pledge - {4}: Each opponent loses 3 life unless they discard a card or sacrifice a creature. Activate only as a sorcery.\"",
+			"oracle_text": "Whenever Corrupt Congressman enters or attacks, make a pledge. [i](Create any black Clique enchantment token. If you already control a Clique, instead activate one of its Pledges without paying its cost.)[/i]\nCliques you control have \"Pledge - {4}: Each opponent loses 3 life unless they discard a card or sacrifice a creature. Activate only as a sorcery.\"",
 		},
 		
 		{
@@ -744,7 +744,7 @@
 			"collector_number": "42",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Dampening Reconciliator enters, tap up to one target creature and put X stun counters on it, where X is your approval. (Your approval contains up to one different permanent of each color. If a permanent with a stun counter would become untapped, remove one from it instead.)",
+			"oracle_text": "When Dampening Reconciliator enters, tap up to one target creature and put X stun counters on it, where X is your approval. [i](Your approval contains up to one different permanent of each color. If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
 		},
 		
 		{
@@ -757,7 +757,7 @@
 			"collector_number": "74",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -770,7 +770,7 @@
 			"collector_number": "233",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\n{1}, {T}: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "Deathtouch\n{1}, {T}: Create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -783,7 +783,7 @@
 			"collector_number": "101",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, make a pledge. (Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nEquip {3}",
+			"oracle_text": "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, make a pledge. [i](Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nEquip {3}",
 		},
 		
 		{
@@ -796,7 +796,7 @@
 			"collector_number": "172",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nYou control enchanted creature.\nEnchanted creature has decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Enchant creature\nYou control enchanted creature.\nEnchanted creature has decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -809,7 +809,7 @@
 			"collector_number": "43",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Demographer enters, draw a card, then discard a card. When you discard a nonland card this way, make a pledge. (Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\n{2}, {T}: Draw a card, then discard a card. When you discard a nonland card this way, make a pledge.",
+			"oracle_text": "When Demographer enters, draw a card, then discard a card. When you discard a nonland card this way, make a pledge. [i](Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\n{2}, {T}: Draw a card, then discard a card. When you discard a nonland card this way, make a pledge.",
 		},
 		
 		{
@@ -822,7 +822,7 @@
 			"collector_number": "132",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Demolition Team enters, teach target creature trample. If you put a +1/+1 counter on it this way, it must be blocked this turn if able. (To teach trample, put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)",
+			"oracle_text": "When Demolition Team enters, teach target creature trample. If you put a +1/+1 counter on it this way, it must be blocked this turn if able. [i](To teach trample, put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -835,7 +835,7 @@
 			"collector_number": "173",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhen you sacrifice Devoted Lackeys as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+			"oracle_text": "Deathtouch\nWhen you sacrifice Devoted Lackeys as a cost to cast a spell or activate an ability that isn't a mana ability, copy that spell or ability. You may choose new targets for the copy. [i](A copy of a permanent spell becomes a token.)[/i]",
 		},
 		
 		{
@@ -861,7 +861,7 @@
 			"collector_number": "175",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When you cast this spell, you may choose another creature it could target. If you do, copy it. The copy targets that creature. (The copy becomes a token.)\nEnchant creature\nEnchanted creature gets +2/+2.",
+			"oracle_text": "When you cast this spell, you may choose another creature it could target. If you do, copy it. The copy targets that creature. [i](The copy becomes a token.)[/i]\nEnchant creature\nEnchanted creature gets +2/+2.",
 		},
 		
 		{
@@ -900,7 +900,7 @@
 			"collector_number": "8",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Distributive Justice enters, distribute up to two +1/+1 counters among one or two target creatures you control.\n{ql} - You control two or more creatures with the same power.\n{ql} - You control two or more creatures with the same toughness.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Distributive Justice enters, distribute up to two +1/+1 counters among one or two target creatures you control.\n{ql} - You control two or more creatures with the same power.\n{ql} - You control two or more creatures with the same toughness.",
 			"back": {
 				"name": "Equality",
 				"mana_cost": "",
@@ -925,7 +925,7 @@
 			"collector_number": "44",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Dormant Monstrosity enters tapped with three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\n{1}{U}, Remove a counter from Dormant Monstrosity: Draw a card.",
+			"oracle_text": "Dormant Monstrosity enters tapped with three stun counters on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]\n{1}{U}, Remove a counter from Dormant Monstrosity: Draw a card.",
 		},
 		
 		{
@@ -938,7 +938,7 @@
 			"collector_number": "9",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhen Eager Voter enters, make a pledge. (Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Lifelink\nWhen Eager Voter enters, make a pledge. [i](Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -951,7 +951,7 @@
 			"collector_number": "45",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Draw a card.\nMake a pledge, then make a pledge again. (Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost. Repeat this process once.)",
+			"oracle_text": "Draw a card.\nMake a pledge, then make a pledge again. [i](Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost. Repeat this process once.)[/i]",
 		},
 		
 		{
@@ -1042,7 +1042,7 @@
 			"collector_number": "75",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Pay 1 life, Sacrifice an artifact or creature: Make a pledge. (Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "{T}, Pay 1 life, Sacrifice an artifact or creature: Make a pledge. [i](Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1081,7 +1081,7 @@
 			"collector_number": "234",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen Estrathian Philanthropist enters, put a +1/+1 counter on target creature.",
+			"oracle_text": "Lifelink [i](Damage dealt by this creature also causes you to gain that much life.)[/i]\nWhen Estrathian Philanthropist enters, put a +1/+1 counter on target creature.",
 		},
 		
 		{
@@ -1094,7 +1094,7 @@
 			"collector_number": "47",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gains hexproof until end of turn. Teach it vigilance. (Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Target creature gains hexproof until end of turn. Teach it vigilance. [i](Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1107,7 +1107,7 @@
 			"collector_number": "253",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Executive Office enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any black or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Executive Office enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any black or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1120,7 +1120,7 @@
 			"collector_number": "102",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample, haste\nDecayed (This can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Trample, haste\nDecayed [i](This can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -1133,7 +1133,7 @@
 			"collector_number": "76",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Decayed (This can't block. When it attacks, sacrifice it at end of combat.)\n{1}{B}, Exile Expendable Medic from your graveyard: Return target creature card from your graveyard to your hand. Activate only as a sorcery.",
+			"oracle_text": "Decayed [i](This can't block. When it attacks, sacrifice it at end of combat.)[/i]\n{1}{B}, Exile Expendable Medic from your graveyard: Return target creature card from your graveyard to your hand. Activate only as a sorcery.",
 		},
 		
 		{
@@ -1146,7 +1146,7 @@
 			"collector_number": "48",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Decayed (This can't block. When it attacks, sacrifice it at end of combat.)\n{2}{U}, Exile Expendable Researcher from your graveyard: Return target instant or sorcery card from your graveyard to your hand. Activate only as a sorcery.",
+			"oracle_text": "Decayed [i](This can't block. When it attacks, sacrifice it at end of combat.)[/i]\n{2}{U}, Exile Expendable Researcher from your graveyard: Return target instant or sorcery card from your graveyard to your hand. Activate only as a sorcery.",
 		},
 		
 		{
@@ -1224,7 +1224,7 @@
 			"collector_number": "105",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Flock Favorites enters, exile the top X cards of your library, where X is your approval. Until the end of your next turn, you may play those cards. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Flock Favorites enters, exile the top X cards of your library, where X is your approval. Until the end of your next turn, you may play those cards. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1237,7 +1237,7 @@
 			"collector_number": "135",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1250,7 +1250,7 @@
 			"collector_number": "183",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Free Market enters, target creature gets +2/+2 until end of turn.\n{ql} - You control a creature with power 4 or greater.\n{ql} - You control a creature with toughness 4 or greater.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Free Market enters, target creature gets +2/+2 until end of turn.\n{ql} - You control a creature with power 4 or greater.\n{ql} - You control a creature with toughness 4 or greater.",
 			"back": {
 				"name": "Industrialism",
 				"mana_cost": "",
@@ -1288,7 +1288,7 @@
 			"collector_number": "106",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature attacks each combat if able.\nWhenever enchanted creature attacks, teach it trample. (Put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Enchant creature\nEnchanted creature attacks each combat if able.\nWhenever enchanted creature attacks, teach it trample. [i](Put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1327,7 +1327,7 @@
 			"collector_number": "49",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "You may look at the top card of your library any time.\nOnce during each of your turns, you may play a land or cast a spell with mana value less than or equal to your approval from your hand or the top of your library without paying its mana cost. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "You may look at the top card of your library any time.\nOnce during each of your turns, you may play a land or cast a spell with mana value less than or equal to your approval from your hand or the top of your library without paying its mana cost. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1353,7 +1353,7 @@
 			"collector_number": "188",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control enters, teach it flying if a creature you control has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. (To teach a keyword, put a counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Whenever a creature you control enters, teach it flying if a creature you control has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. [i](To teach a keyword, put a counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1366,7 +1366,7 @@
 			"collector_number": "11",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "At the beginning of combat on your turn, you may pay {X}. When you do, choose up to X. Each mode must have different targets.\n• Teach target creature flying. (To teach a keyword, put a counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)\n• Teach target creature lifelink.\n• Teach target creature vigilance.",
+			"oracle_text": "At the beginning of combat on your turn, you may pay {X}. When you do, choose up to X. Each mode must have different targets.\n• Teach target creature flying. [i](To teach a keyword, put a counter of that kind on it. If it already has that keyword, put a +1/+1 counter on it instead.)[/i]\n• Teach target creature lifelink.\n• Teach target creature vigilance.",
 		},
 		
 		{
@@ -1379,7 +1379,7 @@
 			"collector_number": "136",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{1}{G}: Target creature gets +X/+X until end of turn, where X is your approval. Activate only once each turn and only as a sorcery. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Vigilance\n{1}{G}: Target creature gets +X/+X until end of turn, where X is your approval. Activate only once each turn and only as a sorcery. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1405,7 +1405,7 @@
 			"collector_number": "137",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Golden Age enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{ql}, {ql}, {ql} - You've cast a multicolored spell this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Golden Age enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{ql}, {ql}, {ql} - You've cast a multicolored spell this turn.",
 			"back": {
 				"name": "Harmony",
 				"mana_cost": "",
@@ -1416,7 +1416,7 @@
 				"collector_number": "137",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "At the beginning of your upkeep, you may exile target multicolored card from your graveyard. If you do, you may cast a copy of it this turn. (You still pay its costs. A copy of a permanent spell becomes a token.)",
+				"oracle_text": "At the beginning of your upkeep, you may exile target multicolored card from your graveyard. If you do, you may cast a copy of it this turn. [i](You still pay its costs. A copy of a permanent spell becomes a token.)[/i]",
 			}
 		},
 		
@@ -1430,7 +1430,7 @@
 			"collector_number": "138",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Landfall - Whenever a land you control enters, make a pledge. (Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Landfall - Whenever a land you control enters, make a pledge. [i](Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1443,7 +1443,7 @@
 			"collector_number": "254",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Groupthink Tank enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any white or black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Groupthink Tank enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any white or black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1456,7 +1456,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Gubernatorial Fundraiser enters, make a pledge. (Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nWhenever you spend three or more colors of mana to cast a spell, create a Treasure token.",
+			"oracle_text": "When Gubernatorial Fundraiser enters, make a pledge. [i](Create any red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nWhenever you spend three or more colors of mana to cast a spell, create a Treasure token.",
 		},
 		
 		{
@@ -1482,7 +1482,7 @@
 			"collector_number": "190",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Hazakh Ambassador enters, target creature gains deathtouch until end of turn.\nBasic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)",
+			"oracle_text": "Flash\nWhen Hazakh Ambassador enters, target creature gains deathtouch until end of turn.\nBasic landcycling {1}{B} [i]({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)[/i]",
 		},
 		
 		{
@@ -1495,7 +1495,7 @@
 			"collector_number": "108",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Hazakh Commandos enters, if you control a black permanent, create a 2/2 colorless Minion creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Menace\nWhen Hazakh Commandos enters, if you control a black permanent, create a 2/2 colorless Minion creature token with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -1508,7 +1508,7 @@
 			"collector_number": "78",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Hazakh Conscriptor deals combat damage to a player, create a 2/2 colorless Minion creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Whenever Hazakh Conscriptor deals combat damage to a player, create a 2/2 colorless Minion creature token with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -1534,7 +1534,7 @@
 			"collector_number": "13",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature has defender.\n{2}: Exile enchanted creature if its power is less than or equal to your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Enchant creature\nEnchanted creature has defender.\n{2}: Exile enchanted creature if its power is less than or equal to your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1573,7 +1573,7 @@
 			"collector_number": "139",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Idealistic Voter enters, make a pledge. (Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Trample\nWhen Idealistic Voter enters, make a pledge. [i](Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1612,7 +1612,7 @@
 			"collector_number": "14",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Draw a card, gain 3 life, then make a pledge. (Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nIf you've cast four or more spells named Incumbency this game and there are five colors among permanents you control, you win the game.",
+			"oracle_text": "Draw a card, gain 3 life, then make a pledge. [i](Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nIf you've cast four or more spells named Incumbency this game and there are five colors among permanents you control, you win the game.",
 		},
 		
 		{
@@ -1638,7 +1638,7 @@
 			"collector_number": "110",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Inflammatory Declaimer enters, it deals X damage to each opponent, where X is your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Inflammatory Declaimer enters, it deals X damage to each opponent, where X is your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1651,7 +1651,7 @@
 			"collector_number": "50",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen Informed Voter enters, make a pledge. (Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Vigilance\nWhen Informed Voter enters, make a pledge. [i](Create any blue Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1690,7 +1690,7 @@
 			"collector_number": "142",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever Insurgency Mentor attacks, teach target attacking creature with lesser power trample. (To teach trample, put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Trample\nWhenever Insurgency Mentor attacks, teach target attacking creature with lesser power trample. [i](To teach trample, put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1703,7 +1703,7 @@
 			"collector_number": "143",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant land\nWhen International Development enters, make a pledge. (Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nEnchanted land has \"{T}: Add two mana of different colors.\"",
+			"oracle_text": "Enchant land\nWhen International Development enters, make a pledge. [i](Create any green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nEnchanted land has \"{T}: Add two mana of different colors.\"",
 		},
 		
 		{
@@ -1716,7 +1716,7 @@
 			"collector_number": "256",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Interrogation Chamber enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any blue or black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Interrogation Chamber enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any blue or black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1729,7 +1729,7 @@
 			"collector_number": "51",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Invader of Privacy enters, surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "When Invader of Privacy enters, surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -1755,7 +1755,7 @@
 			"collector_number": "52",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1768,7 +1768,7 @@
 			"collector_number": "79",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Judge, Jury, and Executioner enters, exile up to one target creature with mana value less than or equal to your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Flying\nWhen Judge, Jury, and Executioner enters, exile up to one target creature with mana value less than or equal to your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -1781,7 +1781,7 @@
 			"collector_number": "80",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target monocolored creature. Make a pledge. (Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Destroy target monocolored creature. Make a pledge. [i](Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1807,7 +1807,7 @@
 			"collector_number": "16",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhenever Laboratory Mentor attacks, teach target attacking creature with lesser power lifelink. (To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Lifelink\nWhenever Laboratory Mentor attacks, teach target attacking creature with lesser power lifelink. [i](To teach lifelink, put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1833,7 +1833,7 @@
 			"collector_number": "111",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {R}{R}{R}. Spend this mana only to cast creature spells. If that mana is spent on a creature spell, it enters with an additional haste counter and decayed counter on it. (It can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "{T}: Add {R}{R}{R}. Spend this mana only to cast creature spells. If that mana is spent on a creature spell, it enters with an additional haste counter and decayed counter on it. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -1846,7 +1846,7 @@
 			"collector_number": "195",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature or planeswalker. Its controller creates a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "Destroy target creature or planeswalker. Its controller creates a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -1859,7 +1859,7 @@
 			"collector_number": "81",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Lofty Voter enters, make a pledge. (Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Flying\nWhen Lofty Voter enters, make a pledge. [i](Create any black Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1872,7 +1872,7 @@
 			"collector_number": "257",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Looming Skyscrapers enters the battlefield tapped.\n{T}: Add {B} or {G}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any black or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Looming Skyscrapers enters the battlefield tapped.\n{T}: Add {B} or {G}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any black or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1885,7 +1885,7 @@
 			"collector_number": "237",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\n{B}{R}: Target creature with power 4 or less can't be blocked by more than one creature this turn.",
+			"oracle_text": "Menace [i](This creature can't be blocked except by two or more creatures.)[/i]\n{B}{R}: Target creature with power 4 or less can't be blocked by more than one creature this turn.",
 		},
 		
 		{
@@ -1898,7 +1898,7 @@
 			"collector_number": "17",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Magnetic Rhetorician attacks, make a pledge. (Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Whenever Magnetic Rhetorician attacks, make a pledge. [i](Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -1950,7 +1950,7 @@
 			"collector_number": "18",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gains indestructible until end of turn. Teach it lifelink. (Put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Target creature gains indestructible until end of turn. Teach it lifelink. [i](Put a lifelink counter on it. If it already has lifelink, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -1963,7 +1963,7 @@
 			"collector_number": "196",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Meeting of the Elites enters, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{ql}, {ql} - You've sacrificed a nonland permanent this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Meeting of the Elites enters, create a tapped Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]\n{ql}, {ql} - You've sacrificed a nonland permanent this turn.",
 			"back": {
 				"name": "Aristocracy",
 				"mana_cost": "",
@@ -1988,7 +1988,7 @@
 			"collector_number": "19",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Mellan, Defense Attorney enters, make a pledge. (Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\n{T}: Choose a color from among other permanents you control. Another target creature you control gains hexproof from that color until end of turn. It can't be blocked by creatures of that color this turn.",
+			"oracle_text": "When Mellan, Defense Attorney enters, make a pledge. [i](Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\n{T}: Choose a color from among other permanents you control. Another target creature you control gains hexproof from that color until end of turn. It can't be blocked by creatures of that color this turn.",
 		},
 		
 		{
@@ -2001,7 +2001,7 @@
 			"collector_number": "82",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Merciless Headsman enters, create a 2/2 colorless Minion creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)\n{1}{B}, Sacrifice another creature: Draw a card.",
+			"oracle_text": "When Merciless Headsman enters, create a 2/2 colorless Minion creature token with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]\n{1}{B}, Sacrifice another creature: Draw a card.",
 		},
 		
 		{
@@ -2027,7 +2027,7 @@
 			"collector_number": "20",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Minister of Utility enters, make a pledge. (Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\n{2}, Sacrifice a Clique: Make a pledge.",
+			"oracle_text": "When Minister of Utility enters, make a pledge. [i](Create any white Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\n{2}, Sacrifice a Clique: Make a pledge.",
 		},
 		
 		{
@@ -2053,7 +2053,7 @@
 			"collector_number": "114",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2079,7 +2079,7 @@
 			"collector_number": "258",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Neglected Slums enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any red or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Neglected Slums enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any red or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -2092,7 +2092,7 @@
 			"collector_number": "199",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Creatures you control with counters on them have all activated abilities of other creatures you control with counters on them.\n{1}, {T}: Teach target creature vigilance. (Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Creatures you control with counters on them have all activated abilities of other creatures you control with counters on them.\n{1}, {T}: Teach target creature vigilance. [i](Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -2105,7 +2105,7 @@
 			"collector_number": "83",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Night Squad enters, teach target creature menace. If you put a +1/+1 counter on it this way, it can't be blocked this turn. (To teach menace, put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)",
+			"oracle_text": "When Night Squad enters, teach target creature menace. If you put a +1/+1 counter on it this way, it can't be blocked this turn. [i](To teach menace, put a menace counter on it. If it already has menace, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -2131,7 +2131,7 @@
 			"collector_number": "84",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "All creatures get -2/-2 until end of turn. Until end of turn, whenever one of those creatures die, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "All creatures get -2/-2 until end of turn. Until end of turn, whenever one of those creatures die, create a tapped Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -2157,7 +2157,7 @@
 			"collector_number": "259",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Open Air Boardwalk enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any white or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Open Air Boardwalk enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any white or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -2235,7 +2235,7 @@
 			"collector_number": "203",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Penrath Ambassador enters, target creature must be blocked each combat this turn if able and target creature can't block this turn.\nBasic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)",
+			"oracle_text": "When Penrath Ambassador enters, target creature must be blocked each combat this turn if able and target creature can't block this turn.\nBasic landcycling {1}{G} [i]({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)[/i]",
 		},
 		
 		{
@@ -2300,7 +2300,7 @@
 			"collector_number": "240",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell costs {1} less to cast for each counter among creatures you control.\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+			"oracle_text": "This spell costs {1} less to cast for each counter among creatures you control.\nWard {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]",
 		},
 		
 		{
@@ -2313,7 +2313,7 @@
 			"collector_number": "23",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2339,7 +2339,7 @@
 			"collector_number": "53",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Defender\nPolitical Prisoner can attack as though it didn't have defender as long as your approval is greater than defending player's approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "Defender\nPolitical Prisoner can attack as though it didn't have defender as long as your approval is greater than defending player's approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -2352,7 +2352,7 @@
 			"collector_number": "86",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control and teach it flying.\" (Put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control and teach it flying.\" [i](Put a flying counter on it. If it already has flying, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -2391,7 +2391,7 @@
 			"collector_number": "25",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Prismatic Propagandist enters, create X 1/1 colorless Soldier creature tokens, where X is your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Prismatic Propagandist enters, create X 1/1 colorless Soldier creature tokens, where X is your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -2430,7 +2430,7 @@
 			"collector_number": "242",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Projects Overseer enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "When Projects Overseer enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2508,7 +2508,7 @@
 			"collector_number": "88",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Each player sacrifices a creature.\nAs long as a creature card or creature token was put into your graveyard from anywhere this turn, Rank and Defile has flashback {2}{B}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Each player sacrifices a creature.\nAs long as a creature card or creature token was put into your graveyard from anywhere this turn, Rank and Defile has flashback {2}{B}. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2521,7 +2521,7 @@
 			"collector_number": "118",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets +3/+2 until end of turn. Teach it trample. (Put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Target creature gets +3/+2 until end of turn. Teach it trample. [i](Put a trample counter on it. If it already has trample, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -2573,7 +2573,7 @@
 			"collector_number": "55",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
 			"back": {
 				"name": "Progress",
 				"mana_cost": "",
@@ -2584,7 +2584,7 @@
 				"collector_number": "55",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Whenever you cast a spell, you may pay {X}, where X is that spell's mana value. If you do, copy it. You may choose new targets for the copy. Do this only once each turn. (A copy of a permanent spell becomes a token.)",
+				"oracle_text": "Whenever you cast a spell, you may pay {X}, where X is that spell's mana value. If you do, copy it. You may choose new targets for the copy. Do this only once each turn. [i](A copy of a permanent spell becomes a token.)[/i]",
 			}
 		},
 		
@@ -2611,7 +2611,7 @@
 			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell has lifelink as long as you control a creature with lifelink. (Damage dealt by this spell also causes you to gain that much life.)\nRetaliatory Outburst deals 4 damage to target tapped creature.",
+			"oracle_text": "This spell has lifelink as long as you control a creature with lifelink. [i](Damage dealt by this spell also causes you to gain that much life.)[/i]\nRetaliatory Outburst deals 4 damage to target tapped creature.",
 		},
 		
 		{
@@ -2637,7 +2637,7 @@
 			"collector_number": "89",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell costs {X} less to cast, where X is your approval. (Your approval contains up to one different permanent of each color.)\nExile target creature.",
+			"oracle_text": "This spell costs {X} less to cast, where X is your approval. [i](Your approval contains up to one different permanent of each color.)[/i]\nExile target creature.",
 		},
 		
 		{
@@ -2767,7 +2767,7 @@
 			"collector_number": "30",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen Seasoned Spymaster enters, teach target creature vigilance. (Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)",
+			"oracle_text": "Vigilance\nWhen Seasoned Spymaster enters, teach target creature vigilance. [i](Put a vigilance counter on it. If it already has vigilance, put a +1/+1 counter on it instead.)[/i]",
 		},
 		
 		{
@@ -2780,7 +2780,7 @@
 			"collector_number": "211",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nFlash\n{ql}, {ql} - When Security Initiative enters, you may tap or untap target nonland permanent. Then draw a card.\nAn opponent controls three or more tapped nonland permanents.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nFlash\n{ql}, {ql} - When Security Initiative enters, you may tap or untap target nonland permanent. Then draw a card.\nAn opponent controls three or more tapped nonland permanents.",
 			"back": {
 				"name": "Surveillance State",
 				"mana_cost": "",
@@ -2805,7 +2805,7 @@
 			"collector_number": "31",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever Selective Truthseeker or another nontoken creature you control enters, surveil 1. When you put a nonland card into your graveyard this way, you gain 1 life. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Vigilance\nWhenever Selective Truthseeker or another nontoken creature you control enters, surveil 1. When you put a nonland card into your graveyard this way, you gain 1 life. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -2818,7 +2818,7 @@
 			"collector_number": "245",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\n{1}, {T}: Tap target creature.",
+			"oracle_text": "Vigilance [i](Attacking doesn't cause this creature to tap.)[/i]\n{1}, {T}: Tap target creature.",
 		},
 		
 		{
@@ -2831,7 +2831,7 @@
 			"collector_number": "90",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value is less than or equal to your approval. Otherwise, return it to your hand. (Your approval contains up to one different permanent of each color.)\nWhen Senators' Chauffeur dies, exile it.",
+			"oracle_text": "When Senators' Chauffeur enters, choose up to one target creature card in your graveyard. Return it to the battlefield if its mana value is less than or equal to your approval. Otherwise, return it to your hand. [i](Your approval contains up to one different permanent of each color.)[/i]\nWhen Senators' Chauffeur dies, exile it.",
 		},
 		
 		{
@@ -2844,7 +2844,7 @@
 			"collector_number": "91",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it, except it's a Minion and has decayed. (It loses all other creature types. It can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Whenever a nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it, except it's a Minion and has decayed. [i](It loses all other creature types. It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -2883,7 +2883,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Silence the Opposition enters, draw two cards, then discard a card.\n{ql}, {ql}, {ql} - A creature card or creature token was put into your graveyard from anywhere this turn. ",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Silence the Opposition enters, draw two cards, then discard a card.\n{ql}, {ql}, {ql} - A creature card or creature token was put into your graveyard from anywhere this turn. ",
 			"back": {
 				"name": "Authoritarianism",
 				"mana_cost": "",
@@ -2921,7 +2921,7 @@
 			"collector_number": "215",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Sillaman Ambassador enters, put a +1/+1 counter on each of up to three target creatures you control.\nBasic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)",
+			"oracle_text": "When Sillaman Ambassador enters, put a +1/+1 counter on each of up to three target creatures you control.\nBasic landcycling {1}{W} [i]({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)[/i]",
 		},
 		
 		{
@@ -2999,7 +2999,7 @@
 			"collector_number": "217",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Sola enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{2}, Sacrifice a Treasure: You gain 3 life.\n{2}, Sacrifice a Treasure: Draw a card.",
+			"oracle_text": "When Sola enters, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]\n{2}, Sacrifice a Treasure: You gain 3 life.\n{2}, Sacrifice a Treasure: Draw a card.",
 		},
 		
 		{
@@ -3012,7 +3012,7 @@
 			"collector_number": "122",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Sparks of a Revolution enters, create a 1/1 colorless Soldier creature token. It gains haste until end of turn.\n{ql} - Three or more sources you controlled dealt damage this turn.\n{ql} - A source you controlled dealt 3 or more damage this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Sparks of a Revolution enters, create a 1/1 colorless Soldier creature token. It gains haste until end of turn.\n{ql} - Three or more sources you controlled dealt damage this turn.\n{ql} - A source you controlled dealt 3 or more damage this turn.",
 			"back": {
 				"name": "Freedom",
 				"mana_cost": "",
@@ -3128,7 +3128,7 @@
 			"collector_number": "153",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Sustainable Investments enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nTreasures you control have \"{T}: Add one mana of any color.\"",
+			"oracle_text": "When Sustainable Investments enters, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]\nTreasures you control have \"{T}: Add one mana of any color.\"",
 		},
 		
 		{
@@ -3141,7 +3141,7 @@
 			"collector_number": "92",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3180,7 +3180,7 @@
 			"collector_number": "182",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When The First Battalion enters, create two 2/2 colorless Minion creature tokens with decayed. (They can't block. When one attacks, sacrifice it at end of combat.)\nMinions you control lose all abilities.",
+			"oracle_text": "When The First Battalion enters, create two 2/2 colorless Minion creature tokens with decayed. [i](They can't block. When one attacks, sacrifice it at end of combat.)[/i]\nMinions you control lose all abilities.",
 		},
 		
 		{
@@ -3206,7 +3206,7 @@
 			"collector_number": "206",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When The Quindral Accords enters, make a pledge. (Create any white, blue, black, red, or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)\nPledge - {3}{W}{U}{B}{R}{G}: Create a 5/5 Robot artifact creature token named Sentry of the New World that's all colors, then look at the top five cards of your library. Put one of them into your hand and the rest into your graveyard. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "When The Quindral Accords enters, make a pledge. [i](Create any white, blue, black, red, or green Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]\nPledge - {3}{W}{U}{B}{R}{G}: Create a 5/5 Robot artifact creature token named Sentry of the New World that's all colors, then look at the top five cards of your library. Put one of them into your hand and the rest into your graveyard. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3219,7 +3219,7 @@
 			"collector_number": "93",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Decayed (This can't block. When it attacks, sacrifice it at end of combat.)\nYou may cast The Venerable Veteran from your graveyard.",
+			"oracle_text": "Decayed [i](This can't block. When it attacks, sacrifice it at end of combat.)[/i]\nYou may cast The Venerable Veteran from your graveyard.",
 		},
 		
 		{
@@ -3258,7 +3258,7 @@
 			"collector_number": "222",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Tiril Ambassador enters, you may return target nonland card from your graveyard to your hand. You lose life equal to its mana value.\nBasic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)",
+			"oracle_text": "When Tiril Ambassador enters, you may return target nonland card from your graveyard to your hand. You lose life equal to its mana value.\nBasic landcycling {1}{U} [i]({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)[/i]",
 		},
 		
 		{
@@ -3284,7 +3284,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Together in Arms enters, create two 1/1 colorless Soldier creature tokens.\n{ql} - You controlled a spell that targeted a creature you controlled this turn.\n{ql} - You controlled an ability that targeted a creature you controlled this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Together in Arms enters, create two 1/1 colorless Soldier creature tokens.\n{ql} - You controlled a spell that targeted a creature you controlled this turn.\n{ql} - You controlled an ability that targeted a creature you controlled this turn.",
 			"back": {
 				"name": "Communitarianism",
 				"mana_cost": "",
@@ -3309,7 +3309,7 @@
 			"collector_number": "1",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Tomer, Figurehead President is all colors and all creature types.\nSpells you cast have conspire. (As you cast a spell with conspire, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)",
+			"oracle_text": "Tomer, Figurehead President is all colors and all creature types.\nSpells you cast have conspire. [i](As you cast a spell with conspire, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)[/i]",
 		},
 		
 		{
@@ -3361,7 +3361,7 @@
 			"collector_number": "155",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Triumphant Herd enters, you gain X life, where X is your approval (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Triumphant Herd enters, you gain X life, where X is your approval [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -3387,7 +3387,7 @@
 			"collector_number": "124",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{3}, {T}, Discard a card: Draw a card. This ability costs {X} less to activate, where X is your approval. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "{3}, {T}, Discard a card: Draw a card. This ability costs {X} less to activate, where X is your approval. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -3400,7 +3400,7 @@
 			"collector_number": "264",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Urban Sunscape enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{4}: Make a pledge. Activate only as a sorcery. (Create any white or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)",
+			"oracle_text": "Urban Sunscape enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{4}: Make a pledge. Activate only as a sorcery. [i](Create any white or red Clique enchantment token. If you already control a Clique, instead activate its Pledge without paying its cost.)[/i]",
 		},
 		
 		{
@@ -3465,7 +3465,7 @@
 			"collector_number": "63",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "This spell costs {1} less to cast for each color in your approval. (Your approval contains up to one different permanent of each color.)\nCounter target noncreature spell unless its controller pays {X}.",
+			"oracle_text": "This spell costs {1} less to cast for each color in your approval. [i](Your approval contains up to one different permanent of each color.)[/i]\nCounter target noncreature spell unless its controller pays {X}.",
 		},
 		
 		{
@@ -3491,7 +3491,7 @@
 			"collector_number": "229",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Vishanki Ambassador enters, each opponent loses 3 life and you gain 3 life.\nBasic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)",
+			"oracle_text": "When Vishanki Ambassador enters, each opponent loses 3 life and you gain 3 life.\nBasic landcycling {1}{R} [i]({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle.)[/i]",
 		},
 		
 		{
@@ -3543,7 +3543,7 @@
 			"collector_number": "94",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Warrant-Borne Cop enters, target player reveals X cards from their hand, where X is your approval. You choose one of them. That player discards that card. (Your approval contains up to one different permanent of each color.)",
+			"oracle_text": "When Warrant-Borne Cop enters, target player reveals X cards from their hand, where X is your approval. You choose one of them. That player discards that card. [i](Your approval contains up to one different permanent of each color.)[/i]",
 		},
 		
 		{
@@ -3556,7 +3556,7 @@
 			"collector_number": "231",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nFlying\nWhen Whirring Inspector enters, look at target player's hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn. (That card returns to its owner's hand, or that permanent returns to the battlefield under its owner's control.)",
+			"oracle_text": "Flash\nFlying\nWhen Whirring Inspector enters, look at target player's hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn. [i](That card returns to its owner's hand, or that permanent returns to the battlefield under its owner's control.)[/i]",
 		},
 		
 		{
@@ -3595,7 +3595,7 @@
 			"collector_number": "7",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is red, green, and white.)\nPledge - {4}: Up to one target creature gets +2/+2 until end of turn. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "[i](This token is red, green, and white.)[/i]\nPledge - {4}: Up to one target creature gets +2/+2 until end of turn. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3608,7 +3608,7 @@
 			"collector_number": "10",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is black, red, and green.)\nPledge - {4}: Create a Treasure token. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "[i](This token is black, red, and green.)[/i]\nPledge - {4}: Create a Treasure token. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3621,7 +3621,7 @@
 			"collector_number": "6",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is blue, black, and red)\nPledge - {4}: Create a 2/2 colorless Minion creature token with decayed. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "[i](This token is blue, black, and red)[/i]\nPledge - {4}: Create a 2/2 colorless Minion creature token with decayed. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3634,7 +3634,7 @@
 			"collector_number": "9",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is white, blue, and black.)\nPledge - {4}: Surveil 2. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "[i](This token is white, blue, and black.)[/i]\nPledge - {4}: Surveil 2. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3647,7 +3647,7 @@
 			"collector_number": "8",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is green, white, and blue.)\nPledge - {4}: Tap up to one target untapped creature. You may put a +1/+1 counter on it. Activate only as a sorcery unless you're making a pledge.",
+			"oracle_text": "[i](This token is green, white, and blue.)[/i]\nPledge - {4}: Tap up to one target untapped creature. You may put a +1/+1 counter on it. Activate only as a sorcery unless you're making a pledge.",
 		},
 		
 		{
@@ -3699,7 +3699,7 @@
 			"collector_number": "2",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Decayed (This can't block. When it attacks, sacrifice it at end of combat.)",
+			"oracle_text": "Decayed [i](This can't block. When it attacks, sacrifice it at end of combat.)[/i]",
 		},
 		
 		{
@@ -3751,7 +3751,7 @@
 			"collector_number": "5",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Ward {10} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {10}.)",
+			"oracle_text": "Ward {10} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {10}.)[/i]",
 		},
 		
 		{
@@ -3764,7 +3764,7 @@
 			"collector_number": "14",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(This token is all colors.)",
+			"oracle_text": "[i](This token is all colors.)[/i]",
 		},
 		]
 [Common]

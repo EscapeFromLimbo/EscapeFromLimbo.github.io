@@ -56,7 +56,7 @@
 			"collector_number": "46",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return up to one target tapped artifact or creature to its owner's hand. Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Return up to one target tapped artifact or creature to its owner's hand. Surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -225,7 +225,7 @@
 			"collector_number": "50",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature loses all abilities and is a white Peasant with base power and toughness 1/1 named Penitent Prisoner. (It loses all other colors, card types, creature types, and names.)\nWhen enchanted creature leaves the battlefield, you may draw a card.",
+			"oracle_text": "Enchant creature\nEnchanted creature loses all abilities and is a white Peasant with base power and toughness 1/1 named Penitent Prisoner. [i](It loses all other colors, card types, creature types, and names.)[/i]\nWhen enchanted creature leaves the battlefield, you may draw a card.",
 		},
 		
 		{
@@ -433,7 +433,7 @@
 			"collector_number": "141",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nOnce each turn, when you play a card from anywhere but your hand, you may create a tapped Treasure token.\n{2}{R}: Level 2\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\n{3}{R}: Level 3\nWhenever another permanent you control leaves the battlefield, this Class deals 1 damage to any target.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nOnce each turn, when you play a card from anywhere but your hand, you may create a tapped Treasure token.\n{2}{R}: Level 2\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\n{3}{R}: Level 3\nWhenever another permanent you control leaves the battlefield, this Class deals 1 damage to any target.",
 		},
 		
 		{
@@ -446,7 +446,7 @@
 			"collector_number": "142",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Braise deals 5 damage to target creature or planeswalker. When it dies this turn, its controller creates a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Braise deals 5 damage to target creature or planeswalker. When it dies this turn, its controller creates a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -459,7 +459,7 @@
 			"collector_number": "259",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Brass Baker enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "When Brass Baker enters, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -472,7 +472,7 @@
 			"collector_number": "5",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever another creature you control enters, you may have Bravewing Hero dare 2. (It becomes a legendary Rebel with base power and toughness 2/2 in addition to its other types until end of turn.)",
+			"oracle_text": "Flying\nWhenever another creature you control enters, you may have Bravewing Hero dare 2. [i](It becomes a legendary Rebel with base power and toughness 2/2 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -537,7 +537,7 @@
 			"collector_number": "94",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nWhenever a player finishes exiling cards from anywhere, each opponent loses 1 life.\n{2}{B}: Level 2\nAt the beginning of your upkeep, exile the top card of target opponent's library face down. You may look at it for as long as it remains exiled.\n{3}{B}: Level 3\nYou may cast spells exiled with this Class. Those spells cost {1} less to cast, and mana of any type can be spent to cast those spells.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nWhenever a player finishes exiling cards from anywhere, each opponent loses 1 life.\n{2}{B}: Level 2\nAt the beginning of your upkeep, exile the top card of target opponent's library face down. You may look at it for as long as it remains exiled.\n{3}{B}: Level 3\nYou may cast spells exiled with this Class. Those spells cost {1} less to cast, and mana of any type can be spent to cast those spells.",
 		},
 		
 		{
@@ -563,7 +563,7 @@
 			"collector_number": "232",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever Carlacio, Riot Instigator attacks, you may have another target attacking creature you control dare X, where X is Carlacio's power. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+			"oracle_text": "Trample\nWhenever Carlacio, Riot Instigator attacks, you may have another target attacking creature you control dare X, where X is Carlacio's power. [i](It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -589,7 +589,7 @@
 			"collector_number": "95",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may return target creature card from your graveyard to your hand.",
+			"oracle_text": "Flying\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may return target creature card from your graveyard to your hand.",
 		},
 		
 		{
@@ -680,7 +680,7 @@
 			"collector_number": "97",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhen Conspiracy of Wealth enters, draw a card.\nWhenever you indulge, you may exile target card from a graveyard.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhen Conspiracy of Wealth enters, draw a card.\nWhenever you indulge, you may exile target card from a graveyard.",
 		},
 		
 		{
@@ -706,7 +706,7 @@
 			"collector_number": "98",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhen Corpse Thieves enters, mill three cards. (Put the top three cards from your library into your graveyard.)\nCorpse Thieves's power is equal to the greatest mana value among cards in your graveyard.",
+			"oracle_text": "Deathtouch\nWhen Corpse Thieves enters, mill three cards. [i](Put the top three cards from your library into your graveyard.)[/i]\nCorpse Thieves's power is equal to the greatest mana value among cards in your graveyard.",
 		},
 		
 		{
@@ -719,7 +719,7 @@
 			"collector_number": "272",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{X}{1}: Court of Miracles dares X. (It becomes a legendary Rebel creature with base power and toughness X/X in addition to its other types until end of turn.)",
+			"oracle_text": "{T}: Add {C}.\n{X}{1}: Court of Miracles dares X. [i](It becomes a legendary Rebel creature with base power and toughness X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -836,7 +836,7 @@
 			"collector_number": "8",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on target creature you control.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, put a +1/+1 counter on target creature you control.",
 		},
 		
 		{
@@ -914,7 +914,7 @@
 			"collector_number": "11",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nIf a source an opponent controls would deal damage to you, prevent 1 of that damage.\nWhenever you indulge, create a 4/4 white Angel creature token with flying.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nIf a source an opponent controls would deal damage to you, prevent 1 of that damage.\nWhenever you indulge, create a 4/4 white Angel creature token with flying.",
 		},
 		
 		{
@@ -966,7 +966,7 @@
 			"collector_number": "101",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Sacrifice another creature or Food: Downtrodden Butcher dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+			"oracle_text": "Sacrifice another creature or Food: Downtrodden Butcher dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -1031,7 +1031,7 @@
 			"collector_number": "12",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nNonbasic permanents your opponents control enter tapped as long as you have more life than that player.",
+			"oracle_text": "At the beginning of your end step, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]\nNonbasic permanents your opponents control enter tapped as long as you have more life than that player.",
 		},
 		
 		{
@@ -1070,7 +1070,7 @@
 			"collector_number": "58",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -1109,7 +1109,7 @@
 			"collector_number": "191",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Epicerie Liberator attacks, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, you may put your choice of counter from among trample, vigilance, or +1/+1 on target creature you control.",
+			"oracle_text": "Whenever Epicerie Liberator attacks, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]\nWhenever you sacrifice a Food, you may put your choice of counter from among trample, vigilance, or +1/+1 on target creature you control.",
 		},
 		
 		{
@@ -1174,7 +1174,7 @@
 			"collector_number": "274",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You may have Extravagant Patisserie enter tapped. When you do, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n{T}: Add {C}.",
+			"oracle_text": "You may have Extravagant Patisserie enter tapped. When you do, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]\n{T}: Add {C}.",
 		},
 		
 		{
@@ -1187,7 +1187,7 @@
 			"collector_number": "103",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, choose one -\n• Scry 2. Each opponent loses 2 life.\n• Create a tapped 2/1 black Rogue creature token with menace.\n• Target creature gets -2/-2 until end of turn.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, choose one -\n• Scry 2. Each opponent loses 2 life.\n• Create a tapped 2/1 black Rogue creature token with menace.\n• Target creature gets -2/-2 until end of turn.",
 		},
 		
 		{
@@ -1265,7 +1265,7 @@
 			"collector_number": "275",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U} or {B}.)\nFlooded Morass enters the battlefield tapped unless you control a basic Island or a basic Swamp.",
+			"oracle_text": "[i]({T}: Add {U} or {B}.)[/i]\nFlooded Morass enters the battlefield tapped unless you control a basic Island or a basic Swamp.",
 		},
 		
 		{
@@ -1291,7 +1291,7 @@
 			"collector_number": "276",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R} or {G}.)\nFlourishing Crevasse enters the battlefield tapped unless you control a basic Mountain or a basic Forest.",
+			"oracle_text": "[i]({T}: Add {R} or {G}.)[/i]\nFlourishing Crevasse enters the battlefield tapped unless you control a basic Mountain or a basic Forest.",
 		},
 		
 		{
@@ -1317,7 +1317,7 @@
 			"collector_number": "277",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1330,7 +1330,7 @@
 			"collector_number": "278",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1369,7 +1369,7 @@
 			"collector_number": "62",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may exile target instant or sorcery card from your graveyard. If you do, cast a copy of that card without paying its mana cost.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may exile target instant or sorcery card from your graveyard. If you do, cast a copy of that card without paying its mana cost.",
 		},
 		
 		{
@@ -1382,7 +1382,7 @@
 			"collector_number": "279",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U} or {R}.)\nFrostfire Geysers enters the battlefield tapped unless you control a basic Island or a basic Mountain.",
+			"oracle_text": "[i]({T}: Add {U} or {R}.)[/i]\nFrostfire Geysers enters the battlefield tapped unless you control a basic Island or a basic Mountain.",
 		},
 		
 		{
@@ -1395,7 +1395,7 @@
 			"collector_number": "280",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B} or {G}.)\nFungal Mire enters the battlefield tapped unless you control a basic Swamp or a basic Forest.",
+			"oracle_text": "[i]({T}: Add {B} or {G}.)[/i]\nFungal Mire enters the battlefield tapped unless you control a basic Swamp or a basic Forest.",
 		},
 		
 		{
@@ -1421,7 +1421,7 @@
 			"collector_number": "196",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nWhen Gargantuan's Gluttony enters, put three +1/+1 counters on enchanted creature.\nWhenever enchanted creature attacks, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Enchant creature\nWhen Gargantuan's Gluttony enters, put three +1/+1 counters on enchanted creature.\nWhenever enchanted creature attacks, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -1473,7 +1473,7 @@
 			"collector_number": "17",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{1}{W}: Gato Vigilante dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+			"oracle_text": "Vigilance\n{1}{W}: Gato Vigilante dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -1499,7 +1499,7 @@
 			"collector_number": "106",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a loyalty counter on Glauna, Decadent Demon.\n[-1]: Create a 2/1 black Imp creature token with flying and \"This creature can't block.\"\n[-2]: Destroy target creature or planeswalker. Its controller loses 2 life.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, put a loyalty counter on Glauna, Decadent Demon.\n[-1]: Create a 2/1 black Imp creature token with flying and \"This creature can't block.\"\n[-2]: Destroy target creature or planeswalker. Its controller loses 2 life.",
 		},
 		
 		{
@@ -1512,7 +1512,7 @@
 			"collector_number": "281",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {B}.)\nGloomcover Steppe enters the battlefield tapped unless you control a basic Plains or a basic Swamp.",
+			"oracle_text": "[i]({T}: Add {W} or {B}.)[/i]\nGloomcover Steppe enters the battlefield tapped unless you control a basic Plains or a basic Swamp.",
 		},
 		
 		{
@@ -1590,7 +1590,7 @@
 			"collector_number": "239",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, look at the top seven cards of your library. You may reveal an instant, sorcery, Demon, or Glauna card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+			"oracle_text": "Flying\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, look at the top seven cards of your library. You may reveal an instant, sorcery, Demon, or Glauna card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
 		},
 		
 		{
@@ -1642,7 +1642,7 @@
 			"collector_number": "282",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {G}.)\nHeart of the Glade enters the battlefield tapped unless you control a basic Plains or a basic Forest.",
+			"oracle_text": "[i]({T}: Add {W} or {G}.)[/i]\nHeart of the Glade enters the battlefield tapped unless you control a basic Plains or a basic Forest.",
 		},
 		
 		{
@@ -1707,7 +1707,7 @@
 			"collector_number": "20",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on each other creature you control.",
+			"oracle_text": "Flying\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, put a +1/+1 counter on each other creature you control.",
 		},
 		
 		{
@@ -1746,7 +1746,7 @@
 			"collector_number": "21",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Humble Barkeep enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, put a +1/+1 counter on Humble Barkeep.",
+			"oracle_text": "When Humble Barkeep enters, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]\nWhenever you sacrifice a Food, put a +1/+1 counter on Humble Barkeep.",
 		},
 		
 		{
@@ -1798,7 +1798,7 @@
 			"collector_number": "23",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target blocking creature you control dares 10. (It becomes a legendary Rebel with base power and toughness 10/10 in addition to its other types until end of turn.)",
+			"oracle_text": "Target blocking creature you control dares 10. [i](It becomes a legendary Rebel with base power and toughness 10/10 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -1837,7 +1837,7 @@
 			"collector_number": "200",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever another creature you control enters, you may have Inspired Youth dare X, where X is that creature's power. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+			"oracle_text": "Whenever another creature you control enters, you may have Inspired Youth dare X, where X is that creature's power. [i](It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -1850,7 +1850,7 @@
 			"collector_number": "201",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control attacks alone, it fights up to one target creature defending player controls. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Whenever a creature you control attacks alone, it fights up to one target creature defending player controls. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -1863,7 +1863,7 @@
 			"collector_number": "66",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target player mills twice X cards. (That player puts the top twice X cards from their library into their graveyard.)",
+			"oracle_text": "Target player mills twice X cards. [i](That player puts the top twice X cards from their library into their graveyard.)[/i]",
 		},
 		
 		{
@@ -1876,7 +1876,7 @@
 			"collector_number": "284",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1889,7 +1889,7 @@
 			"collector_number": "283",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1967,7 +1967,7 @@
 			"collector_number": "285",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B} or {R}.)\nLavatorn Fields enters the battlefield tapped unless you control a basic Swamp or a basic Mountain.",
+			"oracle_text": "[i]({T}: Add {B} or {R}.)[/i]\nLavatorn Fields enters the battlefield tapped unless you control a basic Swamp or a basic Mountain.",
 		},
 		
 		{
@@ -1980,7 +1980,7 @@
 			"collector_number": "112",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on Lavish Host.",
+			"oracle_text": "Menace\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, put a +1/+1 counter on Lavish Host.",
 		},
 		
 		{
@@ -1993,7 +1993,7 @@
 			"collector_number": "69",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}: Level 2\nWhen this Class becomes level 2, you may return target instant or sorcery card from your graveyard to your hand.\n{3}{U}: Level 3\nOnce each turn, when you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copies.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}: Level 2\nWhen this Class becomes level 2, you may return target instant or sorcery card from your graveyard to your hand.\n{3}{U}: Level 3\nOnce each turn, when you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copies.",
 		},
 		
 		{
@@ -2032,7 +2032,7 @@
 			"collector_number": "25",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile target creature or planeswalker with mana value 3 or less. Its controller creates a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Exile target creature or planeswalker with mana value 3 or less. Its controller creates a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -2045,7 +2045,7 @@
 			"collector_number": "71",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhen Lost in the Moment enters, draw a card then discard a card.\nWhenever you indulge, each opponent mills four cards. (Those players put the top four cards from their library into their graveyard.)",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhen Lost in the Moment enters, draw a card then discard a card.\nWhenever you indulge, each opponent mills four cards. [i](Those players put the top four cards from their library into their graveyard.)[/i]",
 		},
 		
 		{
@@ -2084,7 +2084,7 @@
 			"collector_number": "286",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G} or {U}.)\nLush Oasis enters the battlefield tapped unless you control a basic Forest or a basic Island.",
+			"oracle_text": "[i]({T}: Add {G} or {U}.)[/i]\nLush Oasis enters the battlefield tapped unless you control a basic Forest or a basic Island.",
 		},
 		
 		{
@@ -2110,7 +2110,7 @@
 			"collector_number": "242",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a 1/1 blue Gargoyle artifact creature token with flying.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, create a 1/1 blue Gargoyle artifact creature token with flying.",
 		},
 		
 		{
@@ -2188,7 +2188,7 @@
 			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Meat-Market Heifer is put into a graveyard from anywhere, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "When Meat-Market Heifer is put into a graveyard from anywhere, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -2201,7 +2201,7 @@
 			"collector_number": "29",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{3}{W}: Meowsician dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever a creature you control becomes a Rebel, create a 1/1 white Warrior creature token.",
+			"oracle_text": "{3}{W}: Meowsician dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]\nWhenever a creature you control becomes a Rebel, create a 1/1 white Warrior creature token.",
 		},
 		
 		{
@@ -2227,7 +2227,7 @@
 			"collector_number": "115",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{1}{B}, Pay 2 life: Mob Hangman dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever Mob Hangman attacks, if it's a Rebel, each opponent sacrifices a creature or planeswalker unless they discard a card.",
+			"oracle_text": "{1}{B}, Pay 2 life: Mob Hangman dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]\nWhenever Mob Hangman attacks, if it's a Rebel, each opponent sacrifices a creature or planeswalker unless they discard a card.",
 		},
 		
 		{
@@ -2240,7 +2240,7 @@
 			"collector_number": "159",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control becomes a Rebel, creatures you control get +1/+0 until end of turn.\n{2}{R}: Mob Instigator dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+			"oracle_text": "Whenever a creature you control becomes a Rebel, creatures you control get +1/+0 until end of turn.\n{2}{R}: Mob Instigator dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -2266,7 +2266,7 @@
 			"collector_number": "288",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2279,7 +2279,7 @@
 			"collector_number": "287",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2331,7 +2331,7 @@
 			"collector_number": "245",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nNobles you control get +1/+1 and have ward {1}.\n{B}{W}: Level 2\nWhen this Class becomes level 2, you may search your library for a Noble card, reveal it, put it into your hand, then shuffle.\n{1}{B}{W}: Level 3\nWhen this Class becomes level 3, each opponent loses 3 life and you gain 3 life.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nNobles you control get +1/+1 and have ward {1}.\n{B}{W}: Level 2\nWhen this Class becomes level 2, you may search your library for a Noble card, reveal it, put it into your hand, then shuffle.\n{1}{B}{W}: Level 3\nWhen this Class becomes level 3, each opponent loses 3 life and you gain 3 life.",
 		},
 		
 		{
@@ -2344,7 +2344,7 @@
 			"collector_number": "246",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may put a toxin counter on target creature an opponent controls. Surveil 1.\nCreatures your opponents control get -1/-1 for each toxin counter on them.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may put a toxin counter on target creature an opponent controls. Surveil 1.\nCreatures your opponents control get -1/-1 for each toxin counter on them.",
 		},
 		
 		{
@@ -2370,7 +2370,7 @@
 			"collector_number": "118",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Ogre Gourmand enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Menace\nWhen Ogre Gourmand enters, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -2448,7 +2448,7 @@
 			"collector_number": "267",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a tapped token that's a copy of Pagentry Golem.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, create a tapped token that's a copy of Pagentry Golem.",
 		},
 		
 		{
@@ -2461,7 +2461,7 @@
 			"collector_number": "248",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nPalace Gargoyle can't attack or block unless you indulged during your last turn.",
+			"oracle_text": "Flying\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nPalace Gargoyle can't attack or block unless you indulged during your last turn.",
 		},
 		
 		{
@@ -2513,7 +2513,7 @@
 			"collector_number": "161",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast an instant or sorcery spell, you may have target creature you control dare X and gain flying until end of turn, where X is that spell's mana value. (That creature becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+			"oracle_text": "Whenever you cast an instant or sorcery spell, you may have target creature you control dare X and gain flying until end of turn, where X is that spell's mana value. [i](That creature becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -2539,7 +2539,7 @@
 			"collector_number": "78",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -2552,7 +2552,7 @@
 			"collector_number": "204",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nTap an untapped land you control: Add one mana of any color. Activate only once each turn.\n{2}{G}: Level 2\nWhenever a land you control enters, create a Food token.\n{G}: Level 3\nWhen this Class becomes level 3, you may sacrifice a land. If you did, search your library for a land card, put that card onto the battlefield, then shuffle.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nTap an untapped land you control: Add one mana of any color. Activate only once each turn.\n{2}{G}: Level 2\nWhenever a land you control enters, create a Food token.\n{G}: Level 3\nWhen this Class becomes level 3, you may sacrifice a land. If you did, search your library for a land card, put that card onto the battlefield, then shuffle.",
 		},
 		
 		{
@@ -2578,7 +2578,7 @@
 			"collector_number": "290",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2591,7 +2591,7 @@
 			"collector_number": "289",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2604,7 +2604,7 @@
 			"collector_number": "291",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {U}.)\nPool of Light enters the battlefield tapped unless you control a basic Plains or a basic Island.",
+			"oracle_text": "[i]({T}: Add {W} or {U}.)[/i]\nPool of Light enters the battlefield tapped unless you control a basic Plains or a basic Island.",
 		},
 		
 		{
@@ -2760,7 +2760,7 @@
 			"collector_number": "36",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(Gain the next level as a sorcery to add its ability.)\nOnce each turn, when a creature with power 2 or less you control enters, you may pay {1}. If you do, draw a card.\n{1}{W}: Level 2\nAt the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.\n{3}{W}: Level 3\nWhen this Class becomes level 3, exile target nonland permanent an opponent controls until this Class leaves the battlefield.",
+			"oracle_text": "[i](Gain the next level as a sorcery to add its ability.)[/i]\nOnce each turn, when a creature with power 2 or less you control enters, you may pay {1}. If you do, draw a card.\n{1}{W}: Level 2\nAt the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.\n{3}{W}: Level 3\nWhen this Class becomes level 3, exile target nonland permanent an opponent controls until this Class leaves the battlefield.",
 		},
 		
 		{
@@ -2942,7 +2942,7 @@
 			"collector_number": "268",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever one or more creatures crew Smuggler's Convoy, you may move any number of counters from those creatures to Smuggler's Convoy.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)",
+			"oracle_text": "Whenever one or more creatures crew Smuggler's Convoy, you may move any number of counters from those creatures to Smuggler's Convoy.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2981,7 +2981,7 @@
 			"collector_number": "293",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R} or {W}.)\nSpiraling Canyon enters the battlefield tapped unless you control a basic Mountain or basic Plains.",
+			"oracle_text": "[i]({T}: Add {R} or {W}.)[/i]\nSpiraling Canyon enters the battlefield tapped unless you control a basic Mountain or basic Plains.",
 		},
 		
 		{
@@ -3007,7 +3007,7 @@
 			"collector_number": "82",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may tap target artifact or creature. That permanent doesn't untap during its controller's next untap step.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may tap target artifact or creature. That permanent doesn't untap during its controller's next untap step.",
 		},
 		
 		{
@@ -3020,7 +3020,7 @@
 			"collector_number": "208",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature you control dares 6. (It becomes a legendary Rebel with base power and toughness 6/6 in addition to its other types until end of turn.)",
+			"oracle_text": "Target creature you control dares 6. [i](It becomes a legendary Rebel with base power and toughness 6/6 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3072,7 +3072,7 @@
 			"collector_number": "209",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Strongarm Revolutionary attacks, you may have it dare 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+			"oracle_text": "Whenever Strongarm Revolutionary attacks, you may have it dare 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3098,7 +3098,7 @@
 			"collector_number": "85",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surveil 2, then draw two cards. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Surveil 2, then draw two cards. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -3111,7 +3111,7 @@
 			"collector_number": "210",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Supporting Crowd enters, you may have another target creature you control dare 5. (It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)",
+			"oracle_text": "Flash\nWhen Supporting Crowd enters, you may have another target creature you control dare 5. [i](It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3137,7 +3137,7 @@
 			"collector_number": "294",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3150,7 +3150,7 @@
 			"collector_number": "295",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3163,7 +3163,7 @@
 			"collector_number": "39",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "{X}: Symbol of the Revolution dares X. X can't be 0. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)\nAs long as Symbol of the Revolution is a Rebel, it has flying, lifelink, and vigilance.",
+			"oracle_text": "{X}: Symbol of the Revolution dares X. X can't be 0. [i](It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)[/i]\nAs long as Symbol of the Revolution is a Rebel, it has flying, lifelink, and vigilance.",
 		},
 		
 		{
@@ -3176,7 +3176,7 @@
 			"collector_number": "174",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Rebels you control have double strike.\n{2}{R}: Telhedo Hoofbruisers dares 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)",
+			"oracle_text": "Rebels you control have double strike.\n{2}{R}: Telhedo Hoofbruisers dares 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3241,7 +3241,7 @@
 			"collector_number": "228",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may gain control of target nonland permanent for as long as you control The Beauclaire Family.",
+			"oracle_text": "Lifelink\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may gain control of target nonland permanent for as long as you control The Beauclaire Family.",
 		},
 		
 		{
@@ -3293,7 +3293,7 @@
 			"collector_number": "175",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{1}{R}: Thieving Catspaw dares 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)\nWhenever Thieving Catspaw becomes a Rebel, you may discard a card. If you do, draw a card.",
+			"oracle_text": "{1}{R}: Thieving Catspaw dares 3. [i](It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)[/i]\nWhenever Thieving Catspaw becomes a Rebel, you may discard a card. If you do, draw a card.",
 		},
 		
 		{
@@ -3319,7 +3319,7 @@
 			"collector_number": "269",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever equipped creature attacks, you may have it dare 7 until end of turn. (It becomes a legendary Rebel with base power and toughness 7/7 in addition to its other types until end of turn.)\nEquip {3}",
+			"oracle_text": "Whenever equipped creature attacks, you may have it dare 7 until end of turn. [i](It becomes a legendary Rebel with base power and toughness 7/7 in addition to its other types until end of turn.)[/i]\nEquip {3}",
 		},
 		
 		{
@@ -3371,7 +3371,7 @@
 			"collector_number": "215",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Treasury Pilferer becomes the target of a spell you control, you may have it dare 4. (It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)\nWhenever a Rebel you control deals combat damage to a player, you draw a card and create a Treasure token.",
+			"oracle_text": "Whenever Treasury Pilferer becomes the target of a spell you control, you may have it dare 4. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]\nWhenever a Rebel you control deals combat damage to a player, you draw a card and create a Treasure token.",
 		},
 		
 		{
@@ -3384,7 +3384,7 @@
 			"collector_number": "216",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets +2/+2 until end of turn. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Target creature gets +2/+2 until end of turn. Create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -3410,7 +3410,7 @@
 			"collector_number": "217",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Truffletusk enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, you may create a 1/1 white Soldier creature token with vigilance.",
+			"oracle_text": "When Truffletusk enters, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]\nWhenever you sacrifice a Food, you may create a 1/1 white Soldier creature token with vigilance.",
 		},
 		
 		{
@@ -3423,7 +3423,7 @@
 			"collector_number": "254",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever Truthcleaver attacks, you may have each player discard a card, then draw a card.\n{T}, Sacrifice Truthcleaver: Exile target card from a graveyard. If it was a noncreature, nonland card, you may cast a copy of it. (You still pay its costs.)",
+			"oracle_text": "Haste\nWhenever Truthcleaver attacks, you may have each player discard a card, then draw a card.\n{T}, Sacrifice Truthcleaver: Exile target card from a graveyard. If it was a noncreature, nonland card, you may cast a copy of it. [i](You still pay its costs.)[/i]",
 		},
 		
 		{
@@ -3462,7 +3462,7 @@
 			"collector_number": "41",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "First strike, vigilance\nWhenever Unburnt Maiden enters or attacks, you may have it dare X, where X is the number of creatures you control. If you don't, create a 1/1 white Warrior creature token. (It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)",
+			"oracle_text": "First strike, vigilance\nWhenever Unburnt Maiden enters or attacks, you may have it dare X, where X is the number of creatures you control. If you don't, create a 1/1 white Warrior creature token. [i](It becomes a legendary Rebel with base power and toughness X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3488,7 +3488,7 @@
 			"collector_number": "128",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever another creature you control dies, you may have Underhanded Revolutionary dare 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)",
+			"oracle_text": "Deathtouch\nWhenever another creature you control dies, you may have Underhanded Revolutionary dare 3. [i](It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3553,7 +3553,7 @@
 			"collector_number": "218",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Untap up to two target creatures you control. You may have those creatures dare X until end of turn. (They become legendary Rebels with base power and toughness X/X in addition to their other types until end of turn.)",
+			"oracle_text": "Untap up to two target creatures you control. You may have those creatures dare X until end of turn. [i](They become legendary Rebels with base power and toughness X/X in addition to their other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3566,7 +3566,7 @@
 			"collector_number": "219",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\n{1}{G}: Unruly Villagers dares 3. (It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)",
+			"oracle_text": "Trample\n{1}{G}: Unruly Villagers dares 3. [i](It becomes a legendary Rebel with base power and toughness 3/3 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3605,7 +3605,7 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Protection from deathtouch (This creature can't be blocked, targeted, dealt damage, or enchanted by anything with deathtouch.)\n{T}: Put a deathtouch counter on another target creature. Activate only as a sorcery.",
+			"oracle_text": "Protection from deathtouch [i](This creature can't be blocked, targeted, dealt damage, or enchanted by anything with deathtouch.)[/i]\n{T}: Put a deathtouch counter on another target creature. Activate only as a sorcery.",
 		},
 		
 		{
@@ -3618,7 +3618,7 @@
 			"collector_number": "221",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{G}: Exile target card from a graveyard. If it was a creature card, you gain 1 life. If it was a noncreature, nonland card, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+			"oracle_text": "{G}: Exile target card from a graveyard. If it was a creature card, you gain 1 life. If it was a noncreature, nonland card, scry 1. [i](Look at the top card of your library. You may put that card on the bottom of your library.)[/i]",
 		},
 		
 		{
@@ -3670,7 +3670,7 @@
 			"collector_number": "255",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Lifelink, deathtouch\nIndulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, put a +1/+1 counter on each Noble you control.",
+			"oracle_text": "Lifelink, deathtouch\nIndulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, put a +1/+1 counter on each Noble you control.",
 		},
 		
 		{
@@ -3683,7 +3683,7 @@
 			"collector_number": "133",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, each opponent loses 2 life.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, each opponent loses 2 life.",
 		},
 		
 		{
@@ -3709,7 +3709,7 @@
 			"collector_number": "43",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Indulgence (You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)\nWhenever you indulge, you may untap target permanent you control.",
+			"oracle_text": "Indulgence [i](You indulge at the beginning of your end step if you gained 3 or more life and/or drew two or more cards this turn.)[/i]\nWhenever you indulge, you may untap target permanent you control.",
 		},
 		
 		{
@@ -3735,7 +3735,7 @@
 			"collector_number": "44",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever one or more creatures attack you, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+			"oracle_text": "Whenever one or more creatures attack you, create a Food token. [i](It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")[/i]",
 		},
 		
 		{
@@ -3852,7 +3852,7 @@
 			"collector_number": "225",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Trample\nRebels you control have trample.\n{X}{G}: Another target creature you control dares twice X. Activate only as a sorcery. (That creature becomes a legendary Rebel with base power and toughness twice X/X in addition to its other types until end of turn.)",
+			"oracle_text": "Trample\nRebels you control have trample.\n{X}{G}: Another target creature you control dares twice X. Activate only as a sorcery. [i](That creature becomes a legendary Rebel with base power and toughness twice X/X in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{
@@ -3865,7 +3865,7 @@
 			"collector_number": "180",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control becomes a Rebel, Zolo's Right Horn deals 2 damage to each opponent.\n{3}{R}: Zolo's Right Horn dares 5. (It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)",
+			"oracle_text": "Whenever a creature you control becomes a Rebel, Zolo's Right Horn deals 2 damage to each opponent.\n{3}{R}: Zolo's Right Horn dares 5. [i](It becomes a legendary Rebel with base power and toughness 5/5 in addition to its other types until end of turn.)[/i]",
 		},
 		
 		{

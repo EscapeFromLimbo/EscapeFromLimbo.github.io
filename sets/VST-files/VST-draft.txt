@@ -160,7 +160,7 @@
 			"collector_number": "40",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Antiquity Seeker enters, put up to one target instant or sorcery card from your graveyard on top of your library, then journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "When Antiquity Seeker enters, put up to one target instant or sorcery card from your graveyard on top of your library, then journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -394,7 +394,7 @@
 			"collector_number": "197",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Dash {B}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)\nMenace\nWhenever Deathraider Elite attacks, other Hyenas you control get +1/+1 until end of turn.",
+			"oracle_text": "Dash {B}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]\nMenace\nWhenever Deathraider Elite attacks, other Hyenas you control get +1/+1 until end of turn.",
 		},
 		
 		{
@@ -420,7 +420,7 @@
 			"collector_number": "160",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Desperate Animist attacks, you may waste a nonwastes land you control. If you do, Desperate Animist gets +2/+2 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Whenever Desperate Animist attacks, you may waste a nonwastes land you control. If you do, Desperate Animist gets +2/+2 until end of turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -693,7 +693,7 @@
 			"collector_number": "47",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Eternal Wanderer enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nWhenever you put a journeyed card into your hand, you may pay {2}. If you do, journey.",
+			"oracle_text": "When Eternal Wanderer enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nWhenever you put a journeyed card into your hand, you may pay {2}. If you do, journey.",
 		},
 		
 		{
@@ -732,7 +732,7 @@
 			"collector_number": "163",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever Evaldi's Masterpiece attacks, you may pay {X}. If you do, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.\nDash {1}{G}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Whenever Evaldi's Masterpiece attacks, you may pay {X}. If you do, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.\nDash {1}{G}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -771,7 +771,7 @@
 			"collector_number": "166",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Waste a nonwastes land you control: Add one mana of any color. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{T}, Waste a nonwastes land you control: Add one mana of any color. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -849,7 +849,7 @@
 			"collector_number": "91",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{2}: Falltouched Predator gets +1/+1 until end of turn.\nDash {1}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "{2}: Falltouched Predator gets +1/+1 until end of turn.\nDash {1}{B} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -888,7 +888,7 @@
 			"collector_number": "123",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target creature gets +3/+0 until end of turn and fights another target creature. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Target creature gets +3/+0 until end of turn and fights another target creature. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -940,7 +940,7 @@
 			"collector_number": "169",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Fluorescent Sprinter deals combat damage to a player, draw a card.\nDash {2}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Whenever Fluorescent Sprinter deals combat damage to a player, draw a card.\nDash {2}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -953,7 +953,7 @@
 			"collector_number": "256",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -966,7 +966,7 @@
 			"collector_number": "12",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "First strike\nWhenever Forlorn Firstspear attacks, you may waste a nonwastes land you control. If you do, creatures you control get +1/+1 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "First strike\nWhenever Forlorn Firstspear attacks, you may waste a nonwastes land you control. If you do, creatures you control get +1/+1 until end of turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1070,7 +1070,7 @@
 			"collector_number": "52",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1096,7 +1096,7 @@
 			"collector_number": "124",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Gnoll Raidleaders attacks, creatures you control get +1/+0 until end of turn.\nDash {4}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Whenever Gnoll Raidleaders attacks, creatures you control get +1/+0 until end of turn.\nDash {4}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -1109,7 +1109,7 @@
 			"collector_number": "125",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Gnoll Ravager can't attack or block alone.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Gnoll Ravager can't attack or block alone.\nDash {1}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -1122,7 +1122,7 @@
 			"collector_number": "126",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Goresand Marauder enters, target creature can't block this turn.\nDash {3}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "When Goresand Marauder enters, target creature can't block this turn.\nDash {3}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -1135,7 +1135,7 @@
 			"collector_number": "241",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Goresand Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {B} or {R}.",
+			"oracle_text": "When Goresand Remnant enters, waste a nonwastes land you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\n{T}: Add {B} or {R}.",
 		},
 		
 		{
@@ -1213,7 +1213,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Grin, Scourge of Goresand attacks, when next cast an instant or sorcery spell this turn with mana value 3 or less, copy that spell. You may choose new targets for the copy.\nDash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Whenever Grin, Scourge of Goresand attacks, when next cast an instant or sorcery spell this turn with mana value 3 or less, copy that spell. You may choose new targets for the copy.\nDash {2}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -1252,7 +1252,7 @@
 			"collector_number": "98",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Waste a nonwastes land you control: Each opponent loses 2 life and you gain 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{T}, Waste a nonwastes land you control: Each opponent loses 2 life and you gain 2 life. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1408,7 +1408,7 @@
 			"collector_number": "253",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1421,7 +1421,7 @@
 			"collector_number": "14",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Isolation Zone enters, exile target creature or enchantment an opponent controls until Isolation Zone leaves the battlefield. (That permanent returns under its owner's control.)",
+			"oracle_text": "When Isolation Zone enters, exile target creature or enchantment an opponent controls until Isolation Zone leaves the battlefield. [i](That permanent returns under its owner's control.)[/i]",
 		},
 		
 		{
@@ -1447,7 +1447,7 @@
 			"collector_number": "53",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Counter target spell.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Counter target spell.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1473,7 +1473,7 @@
 			"collector_number": "177",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle. Then waste two nonwastes lands you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle. Then waste two nonwastes lands you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1486,7 +1486,7 @@
 			"collector_number": "15",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Each player chooses a creature they control. Destroy the rest.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Each player chooses a creature they control. Destroy the rest.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1499,7 +1499,7 @@
 			"collector_number": "54",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nWhen Leave to the Sands enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEnchanted creature doesn't untap during its controller's untap step.",
+			"oracle_text": "Enchant creature\nWhen Leave to the Sands enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nEnchanted creature doesn't untap during its controller's untap step.",
 		},
 		
 		{
@@ -1551,7 +1551,7 @@
 			"collector_number": "178",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{2}, Waste a nonwastes land you control: Leyline Feeder gets +2/+2 and gains hexproof until end of turn. Activate this ability only once each turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{2}, Waste a nonwastes land you control: Leyline Feeder gets +2/+2 and gains hexproof until end of turn. Activate this ability only once each turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1564,7 +1564,7 @@
 			"collector_number": "101",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Leyline Reaper enters, you may waste two nonwastes lands you control. If you do, target creature gets -3/-3 until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "When Leyline Reaper enters, you may waste two nonwastes lands you control. If you do, target creature gets -3/-3 until end of turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1577,7 +1577,7 @@
 			"collector_number": "56",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Leyline Router enters, you may waste two nonwastes lands you control. If you do, return target creature to its owner's hand. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "When Leyline Router enters, you may waste two nonwastes lands you control. If you do, return target creature to its owner's hand. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1590,7 +1590,7 @@
 			"collector_number": "102",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Life Desecrator dies, you may waste two nonwastes lands you control. If you do, return another target creature card from your graveyard to your hand. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "When Life Desecrator dies, you may waste two nonwastes lands you control. If you do, return another target creature card from your graveyard to your hand. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1655,7 +1655,7 @@
 			"collector_number": "136",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of combat on your turn, you may discard a card or put a journeyed card you own in exile into your graveyard. If you do, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "At the beginning of combat on your turn, you may discard a card or put a journeyed card you own in exile into your graveyard. If you do, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1707,7 +1707,7 @@
 			"collector_number": "203",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nAt the beginning of each end step, if you've cast a noncreature spell this turn, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Flying\nAt the beginning of each end step, if you've cast a noncreature spell this turn, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1746,7 +1746,7 @@
 			"collector_number": "58",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWaste two nonwastes lands you control: Exile Mirage Oddity. Return it to the battlefield under its owner's control at the beginning of the next end step. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Flying\nWaste two nonwastes lands you control: Exile Mirage Oddity. Return it to the battlefield under its owner's control at the beginning of the next end step. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -1759,7 +1759,7 @@
 			"collector_number": "255",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -1785,7 +1785,7 @@
 			"collector_number": "204",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Whenever you put a journeyed card from exile into your hand, you can't lose the game until the end of your next turn.\nAt the beginning of your upkeep, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Whenever you put a journeyed card from exile into your hand, you can't lose the game until the end of your next turn.\nAt the beginning of your upkeep, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1798,7 +1798,7 @@
 			"collector_number": "18",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever Naomi's Vanguard attacks, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Vigilance\nWhenever Naomi's Vanguard attacks, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1902,7 +1902,7 @@
 			"collector_number": "22",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Oasis Seeker enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "When Oasis Seeker enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1928,7 +1928,7 @@
 			"collector_number": "61",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exchange control of two target creatures.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Exchange control of two target creatures.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -1941,7 +1941,7 @@
 			"collector_number": "139",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Path of Brutality enters, journey twice. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gains double strike until end of turn.",
+			"oracle_text": "When Path of Brutality enters, journey twice. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gains double strike until end of turn.",
 		},
 		
 		{
@@ -1954,7 +1954,7 @@
 			"collector_number": "62",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Path of Caution enters, journey three times. (Exile the top three cards of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature an opponent controls gets -5/-0 until end of turn.",
+			"oracle_text": "When Path of Caution enters, journey three times. [i](Exile the top three cards of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature an opponent controls gets -5/-0 until end of turn.",
 		},
 		
 		{
@@ -1967,7 +1967,7 @@
 			"collector_number": "24",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Path of Resilience enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gets +1/+1 and gains indestructible until end of turn.",
+			"oracle_text": "When Path of Resilience enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nAt the beginning of combat on your turn, if you own a journeyed card in exile, target creature you control gets +1/+1 and gains indestructible until end of turn.",
 		},
 		
 		{
@@ -1993,7 +1993,7 @@
 			"collector_number": "252",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2006,7 +2006,7 @@
 			"collector_number": "181",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Plated Charger has hexproof as long as it entered this turn.\nDash {3}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Plated Charger has hexproof as long as it entered this turn.\nDash {3}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2045,7 +2045,7 @@
 			"collector_number": "104",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Pursued Eremite leaves the battlefield, create a 2/2 black Zombie Mutant creature token with deathtouch.\nDash {3}{B}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "When Pursued Eremite leaves the battlefield, create a 2/2 black Zombie Mutant creature token with deathtouch.\nDash {3}{B}{B} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2071,7 +2071,7 @@
 			"collector_number": "141",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Rabid Whelps gets +1/+0 as long as you control another Hyena.\nDash {R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Rabid Whelps gets +1/+0 as long as you control another Hyena.\nDash {R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2084,7 +2084,7 @@
 			"collector_number": "105",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Radaran Butcher enters, discard a card.\nDash {1}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "When Radaran Butcher enters, discard a card.\nDash {1}{B} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2110,7 +2110,7 @@
 			"collector_number": "182",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nDash {3}{G}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Trample\nDash {3}{G}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2136,7 +2136,7 @@
 			"collector_number": "142",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "First strike\nWhen Radaran Pioneer dies, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "First strike\nWhen Radaran Pioneer dies, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2149,7 +2149,7 @@
 			"collector_number": "183",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Radaran Reclaimer enters or attacks, you may waste a nonwastes land you control. If you do, you gain 4 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Whenever Radaran Reclaimer enters or attacks, you may waste a nonwastes land you control. If you do, you gain 4 life. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2162,7 +2162,7 @@
 			"collector_number": "245",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Radaran Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {U} or {B}.",
+			"oracle_text": "When Radaran Remnant enters, waste a nonwastes land you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\n{T}: Add {U} or {B}.",
 		},
 		
 		{
@@ -2175,7 +2175,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{2}, Waste two nonwastes lands you control: Create a tapped 2/2 black Zombie Mutant creature token with deathtouch. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{2}, Waste two nonwastes lands you control: Create a tapped 2/2 black Zombie Mutant creature token with deathtouch. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2188,7 +2188,7 @@
 			"collector_number": "108",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "You may waste any number of nonwastes lands you control as an additional cost to cast this spell. It costs {1} less to cast for each land wasted this way. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nYou may cast Radaran Undying from your graveyard if you spend 5 or less mana to cast it.\nDeathtouch, menace",
+			"oracle_text": "You may waste any number of nonwastes lands you control as an additional cost to cast this spell. It costs {1} less to cast for each land wasted this way. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\nYou may cast Radaran Undying from your graveyard if you spend 5 or less mana to cast it.\nDeathtouch, menace",
 		},
 		
 		{
@@ -2266,7 +2266,7 @@
 			"collector_number": "110",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Rayak's Prelate enters, you may waste two nonwastes lands you control. If you do, you draw two cards and you lose 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "When Rayak's Prelate enters, you may waste two nonwastes lands you control. If you do, you draw two cards and you lose 2 life. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2357,7 +2357,7 @@
 			"collector_number": "26",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nAt the beginning of combat on your turn, you may waste a nonwastes land you control. If you do, target creature gets +1/+1 and gains vigilance until end of turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Flying\nAt the beginning of combat on your turn, you may waste a nonwastes land you control. If you do, target creature gets +1/+1 and gains vigilance until end of turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2370,7 +2370,7 @@
 			"collector_number": "111",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Resilient Raiders is put into your graveyard from anywhere, put it on top of its owner's library, then they journey. (To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "When Resilient Raiders is put into your graveyard from anywhere, put it on top of its owner's library, then they journey. [i](To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2396,7 +2396,7 @@
 			"collector_number": "147",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Rubble Messenger enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "When Rubble Messenger enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2409,7 +2409,7 @@
 			"collector_number": "246",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Ruinstorm Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {R} or {G}.",
+			"oracle_text": "When Ruinstorm Remnant enters, waste a nonwastes land you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\n{T}: Add {R} or {G}.",
 		},
 		
 		{
@@ -2448,7 +2448,7 @@
 			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Sanctis Banneret attacks, you may waste a nonwastes land you control. If you do, create a 1/1 white Nomad creature token with vigilance. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Whenever Sanctis Banneret attacks, you may waste a nonwastes land you control. If you do, create a 1/1 white Nomad creature token with vigilance. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2474,7 +2474,7 @@
 			"collector_number": "247",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Sanctis Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {G} or {W}.",
+			"oracle_text": "When Sanctis Remnant enters, waste a nonwastes land you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\n{T}: Add {G} or {W}.",
 		},
 		
 		{
@@ -2487,7 +2487,7 @@
 			"collector_number": "30",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You gain 6 life.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "You gain 6 life.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2500,7 +2500,7 @@
 			"collector_number": "66",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}, Waste a nonwastes land you control: Tap target creature. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{T}, Waste a nonwastes land you control: Tap target creature. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2539,7 +2539,7 @@
 			"collector_number": "186",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Sandtrap Spider has deathtouch as long as it's attacking, otherwise it has reach.\nDash {1}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Sandtrap Spider has deathtouch as long as it's attacking, otherwise it has reach.\nDash {1}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2552,7 +2552,7 @@
 			"collector_number": "67",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "You may pay {U} and waste three nonwastes lands you control rather than pay this spell's mana cost. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nCounter target spell.",
+			"oracle_text": "You may pay {U} and waste three nonwastes lands you control rather than pay this spell's mana cost. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\nCounter target spell.",
 		},
 		
 		{
@@ -2578,7 +2578,7 @@
 			"collector_number": "31",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying, lifelink\nWhenever Saviour of the Lost attacks, you may waste two nonwastes lands you control. If you do, return up to two target creature cards with total mana value 2 or less from your graveyard to the battlefield. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Flying, lifelink\nWhenever Saviour of the Lost attacks, you may waste two nonwastes lands you control. If you do, return up to two target creature cards with total mana value 2 or less from your graveyard to the battlefield. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2643,7 +2643,7 @@
 			"collector_number": "32",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return target creature card with mana value 2 or less from your graveyard to the battlefield.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Return target creature card with mana value 2 or less from your graveyard to the battlefield.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2669,7 +2669,7 @@
 			"collector_number": "70",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "{T}, Waste a nonwastes land you control: You may pay {0} rather than pay the mana cost for the next spell you cast this turn. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "{T}, Waste a nonwastes land you control: You may pay {0} rather than pay the mana cost for the next spell you cast this turn. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2682,7 +2682,7 @@
 			"collector_number": "71",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Waste two nonwastes lands you control. If you do, search your library for a colorless card, reveal it, put it into your hand, then shuffle. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "Waste two nonwastes lands you control. If you do, search your library for a colorless card, reveal it, put it into your hand, then shuffle. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2708,7 +2708,7 @@
 			"collector_number": "150",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Shi-Fang Ambusher enters, it deals 1 damage to target player or planeswalker.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "When Shi-Fang Ambusher enters, it deals 1 damage to target player or planeswalker.\nDash {1}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2721,7 +2721,7 @@
 			"collector_number": "113",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Dash {B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Dash {B} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2747,7 +2747,7 @@
 			"collector_number": "72",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return target creature to its owner's hand.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Return target creature to its owner's hand.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2838,7 +2838,7 @@
 			"collector_number": "189",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Stampeding Orvs attacks, creatures you control get +2/+2 until end of turn.\nDash {6}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Whenever Stampeding Orvs attacks, creatures you control get +2/+2 until end of turn.\nDash {6}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2877,7 +2877,7 @@
 			"collector_number": "190",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Whenever a creature you control enters, you may have it fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -2890,7 +2890,7 @@
 			"collector_number": "153",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever Sun-Mad Dunekite attacks, it deals 2 damage to each creature defending player controls.\nDash {5}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "Flying\nWhenever Sun-Mad Dunekite attacks, it deals 2 damage to each creature defending player controls.\nDash {5}{R} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{
@@ -2903,7 +2903,7 @@
 			"collector_number": "114",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target player reveals their hand. You choose a nonland card from it. Put that card on top of its owner's library, then they journey. (To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Target player reveals their hand. You choose a nonland card from it. Put that card on top of its owner's library, then they journey. [i](To journey, exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -2929,7 +2929,7 @@
 			"collector_number": "233",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Survival Gear enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEquipped creature gets +2/+1.\nEquip {2}",
+			"oracle_text": "When Survival Gear enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nEquipped creature gets +2/+1.\nEquip {2}",
 		},
 		
 		{
@@ -2942,7 +2942,7 @@
 			"collector_number": "254",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -2968,7 +2968,7 @@
 			"collector_number": "89",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When The Fall of Aethanis enters, if it was cast from your hand, destroy all creatures.\nAt the beginning of your upkeep, you may waste a nonwastes land you control. If you do, each opponent loses 2 life. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)",
+			"oracle_text": "When The Fall of Aethanis enters, if it was cast from your hand, destroy all creatures.\nAt the beginning of your upkeep, you may waste a nonwastes land you control. If you do, each opponent loses 2 life. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]",
 		},
 		
 		{
@@ -2994,7 +2994,7 @@
 			"collector_number": "229",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Indestructible\n{T}, Waste a nonwastes land you control: Add three mana in any combination of colors. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\nAs long as you control seven or more lands that can produce {C}, you may play cards you own from outside the game.",
+			"oracle_text": "Indestructible\n{T}, Waste a nonwastes land you control: Add three mana in any combination of colors. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\nAs long as you control seven or more lands that can produce {C}, you may play cards you own from outside the game.",
 		},
 		
 		{
@@ -3020,7 +3020,7 @@
 			"collector_number": "249",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Tradeway Remnant enters, waste a nonwastes land you control. (It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)\n{T}: Add {W} or {U}.",
+			"oracle_text": "When Tradeway Remnant enters, waste a nonwastes land you control. [i](It becomes Wastes, a basic land with \"{T}: Add {C}\" and no other abilities or types.)[/i]\n{T}: Add {W} or {U}.",
 		},
 		
 		{
@@ -3033,7 +3033,7 @@
 			"collector_number": "74",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Tradeway Scholar enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "When Tradeway Scholar enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -3111,7 +3111,7 @@
 			"collector_number": "214",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Unbridled Antoch enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "When Unbridled Antoch enters, you may have it fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -3241,7 +3241,7 @@
 			"collector_number": "39",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Create two 1/1 white Nomad creature tokens with vigilance.\nJourney. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)",
+			"oracle_text": "Create two 1/1 white Nomad creature tokens with vigilance.\nJourney. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]",
 		},
 		
 		{
@@ -3254,7 +3254,7 @@
 			"collector_number": "155",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Warpath Minotaur enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEach player must attack with at least one creature each combat if able.",
+			"oracle_text": "When Warpath Minotaur enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nEach player must attack with at least one creature each combat if able.",
 		},
 		
 		{
@@ -3280,7 +3280,7 @@
 			"collector_number": "251",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {C}.)",
+			"oracle_text": "[i]({T}: Add {C}.)[/i]",
 		},
 		
 		{
@@ -3293,7 +3293,7 @@
 			"collector_number": "156",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nWhen Way of the Raider enters, journey. (Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)\nEnchanted creature gets +3/+2.",
+			"oracle_text": "Enchant creature\nWhen Way of the Raider enters, journey. [i](Exile the top card of your library face up. Whenever a creature you control deals combat damage to an opponent, put a journeyed card you own into your hand.)[/i]\nEnchanted creature gets +3/+2.",
 		},
 		
 		{
@@ -3345,7 +3345,7 @@
 			"collector_number": "195",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Zerul Mangler enters, you gain 2 life.\nDash {2}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+			"oracle_text": "When Zerul Mangler enters, you gain 2 life.\nDash {2}{G} [i](You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)[/i]",
 		},
 		
 		{

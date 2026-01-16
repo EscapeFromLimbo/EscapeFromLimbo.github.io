@@ -95,7 +95,7 @@
 			"collector_number": "192",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Aqua Gang Diver enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nSpells you cast from your graveyard cost {1} less to cast.",
+			"oracle_text": "When Aqua Gang Diver enters, surveil 3. [i](Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nSpells you cast from your graveyard cost {1} less to cast.",
 		},
 		
 		{
@@ -108,7 +108,7 @@
 			"collector_number": "41",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Tap target creature.\n• Target creature can't be blocked this turn.\nSurface {2}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Choose one -\n• Tap target creature.\n• Target creature can't be blocked this turn.\nSurface {2}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -147,7 +147,7 @@
 			"collector_number": "155",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reach\nAt the beginning of your upkeep, create a Berry token. You may attach it to Aroma Spinner. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Reach\nAt the beginning of your upkeep, create a Berry token. You may attach it to Aroma Spinner. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -173,7 +173,7 @@
 			"collector_number": "78",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Beloved Poppet can't be blocked by creatures with power 4 or greater.\nSurface {4}{B}. This spell costs {3} less to cast if Beloved Poppet died this turn. Beloved Poppet surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Beloved Poppet can't be blocked by creatures with power 4 or greater.\nSurface {4}{B}. This spell costs {3} less to cast if Beloved Poppet died this turn. Beloved Poppet surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Abandoned Poppet",
 				"mana_cost": "",
@@ -198,7 +198,7 @@
 			"collector_number": "156",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Berry Fermenter enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{2}, Sacrifice a Berry: You gain 3 life.\n{T}, Sacrifice a Berry: Add one mana of any color.",
+			"oracle_text": "When Berry Fermenter enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{2}, Sacrifice a Berry: You gain 3 life.\n{T}, Sacrifice a Berry: Add one mana of any color.",
 		},
 		
 		{
@@ -211,7 +211,7 @@
 			"collector_number": "193",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Berry Harvester enters or attacks, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nThe first time you would create one or more Berry tokens each turn, create an additional Berry token.",
+			"oracle_text": "Whenever Berry Harvester enters or attacks, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nThe first time you would create one or more Berry tokens each turn, create an additional Berry token.",
 		},
 		
 		{
@@ -224,7 +224,7 @@
 			"collector_number": "157",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gets +2/+2 until end of turn and must be blocked this turn if able. Untap up to one target creature. It blocks this turn if able.\nSurface {4}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Target creature gets +2/+2 until end of turn and must be blocked this turn if able. Untap up to one target creature. It blocks this turn if able.\nSurface {4}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -237,7 +237,7 @@
 			"collector_number": "158",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -250,7 +250,7 @@
 			"collector_number": "195",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Flying\nWhen Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -367,7 +367,7 @@
 			"collector_number": "162",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surface {3}{G}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nBuried Geode surfaces with a +1/+1 counter.",
+			"oracle_text": "Surface {3}{G}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]\nBuried Geode surfaces with a +1/+1 counter.",
 		},
 		
 		{
@@ -393,7 +393,7 @@
 			"collector_number": "120",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Amity - Whenever you attack with Burning Celestial and exactly one other creature, Burning Celestial acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nAs long as you control a red Weather, Burning Celestial has trample.",
+			"oracle_text": "Amity - Whenever you attack with Burning Celestial and exactly one other creature, Burning Celestial acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nAs long as you control a red Weather, Burning Celestial has trample.",
 		},
 		
 		{
@@ -432,7 +432,7 @@
 			"collector_number": "44",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Amity - Whenever you attack with Calming Celestial and exactly one other creature, Calming Celestial acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nAs long as you control a blue Weather, Calming Celestial has flying.",
+			"oracle_text": "Amity - Whenever you attack with Calming Celestial and exactly one other creature, Calming Celestial acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nAs long as you control a blue Weather, Calming Celestial has flying.",
 		},
 		
 		{
@@ -445,7 +445,7 @@
 			"collector_number": "163",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Canopy Creeper enters, create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Trample\nWhen Canopy Creeper enters, create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -458,7 +458,7 @@
 			"collector_number": "4",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Capricious Cat enters, it acclimates twice. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)",
+			"oracle_text": "When Capricious Cat enters, it acclimates twice. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]",
 		},
 		
 		{
@@ -575,7 +575,7 @@
 			"collector_number": "79",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a spell from your graveyard, each opponent loses 1 life and you gain 1 life.\nSurface {3}{B}{B}. Chum Chaser surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Whenever you cast a spell from your graveyard, each opponent loses 1 life and you gain 1 life.\nSurface {3}{B}{B}. Chum Chaser surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Ship Shredder",
 				"mana_cost": "",
@@ -613,7 +613,7 @@
 			"collector_number": "242",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{1}, Sacrifice Claw Fossil: Target creature has base toughness 1 until end of turn. Activate only as a sorcery.\nSurface {2}{B}. Claw Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "{1}, Sacrifice Claw Fossil: Target creature has base toughness 1 until end of turn. Activate only as a sorcery.\nSurface {2}{B}. Claw Fossil surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Reborn Scuttler",
 				"mana_cost": "",
@@ -638,7 +638,7 @@
 			"collector_number": "165",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhenever you attack, put a +1/+1 counter on a creature you control.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhenever you attack, put a +1/+1 counter on a creature you control.",
 		},
 		
 		{
@@ -651,7 +651,7 @@
 			"collector_number": "9",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Exile target enchantment.\n• You gain 4 life.\n• Acclimate. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)",
+			"oracle_text": "Choose one -\n• Exile target enchantment.\n• You gain 4 life.\n• Acclimate. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)[/i]",
 		},
 		
 		{
@@ -664,7 +664,7 @@
 			"collector_number": "45",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nWhen Collector's Item enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nEnchanted creature loses all abilities and is a colorless Sculpture creature with base power and toughness 0/2.",
+			"oracle_text": "Enchant creature\nWhen Collector's Item enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nEnchanted creature loses all abilities and is a colorless Sculpture creature with base power and toughness 0/2.",
 		},
 		
 		{
@@ -677,7 +677,7 @@
 			"collector_number": "166",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Counter target activated ability from a nonland source. (Mana abilities can't be targeted.)\nDraw a card.",
+			"oracle_text": "Counter target activated ability from a nonland source. [i](Mana abilities can't be targeted.)[/i]\nDraw a card.",
 		},
 		
 		{
@@ -768,7 +768,7 @@
 			"collector_number": "80",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature. Create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Destroy target creature. Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -846,7 +846,7 @@
 			"collector_number": "81",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Depths Ancient's power and toughness are each equal to the number of cards in your graveyard plus the number of exiled cards you own with surface.\nSurface {5}{B}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Depths Ancient's power and toughness are each equal to the number of cards in your graveyard plus the number of exiled cards you own with surface.\nSurface {5}{B}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -859,7 +859,7 @@
 			"collector_number": "124",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Desolate Lands enters and whenever you cast a spell, it deals 3 damage to target opponent unless they sacrifice a permanent.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Desolate Lands enters and whenever you cast a spell, it deals 3 damage to target opponent unless they sacrifice a permanent.",
 		},
 		
 		{
@@ -872,7 +872,7 @@
 			"collector_number": "14",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Diamond Dust enters and whenever you cast a spell, put a +1/+1 counter on each creature you control.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Diamond Dust enters and whenever you cast a spell, put a +1/+1 counter on each creature you control.",
 		},
 		
 		{
@@ -937,7 +937,7 @@
 			"collector_number": "82",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Landfall - Whenever a land you control enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "Landfall - Whenever a land you control enters, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -1054,7 +1054,7 @@
 			"collector_number": "167",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{G}, Sacrifice Entangled Fossil: Target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost. (It won't surface transformed if cast this way.)\nSurface {4}{G}{G}. Entangled Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "{G}, Sacrifice Entangled Fossil: Target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost. [i](It won't surface transformed if cast this way.)[/i]\nSurface {4}{G}{G}. Entangled Fossil surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Reborn Reef",
 				"mana_cost": "",
@@ -1105,7 +1105,7 @@
 			"collector_number": "49",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Draw three cards.\nSurface {5}{U}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Draw three cards.\nSurface {5}{U}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -1118,7 +1118,7 @@
 			"collector_number": "84",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Falling Ashes enters, exile up to two target cards from graveyards, then you gain 2 life.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Falling Ashes enters, exile up to two target cards from graveyards, then you gain 2 life.",
 		},
 		
 		{
@@ -1131,7 +1131,7 @@
 			"collector_number": "203",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever one or more creatures die, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever Feasting Predator attacks, you may sacrifice a Berry. If you do, up to one target creature gets -1/-1 until end of turn and blocks this combat if able.",
+			"oracle_text": "Deathtouch\nWhenever one or more creatures die, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever Feasting Predator attacks, you may sacrifice a Berry. If you do, up to one target creature gets -1/-1 until end of turn and blocks this combat if able.",
 		},
 		
 		{
@@ -1144,7 +1144,7 @@
 			"collector_number": "85",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Defender\nWhen Feasting Sloth enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nFeasting Sloth can attack as though it didn't have defender if it's enchanted, equipped, or has a counter on it.",
+			"oracle_text": "Defender\nWhen Feasting Sloth enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nFeasting Sloth can attack as though it didn't have defender if it's enchanted, equipped, or has a counter on it.",
 		},
 		
 		{
@@ -1208,7 +1208,7 @@
 			"collector_number": "51",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nSurface {3}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Vigilance\n{T}: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nSurface {3}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -1221,7 +1221,7 @@
 			"collector_number": "52",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Floe Master enters or another creature you control surfaces, tap up to one target creature and put a stun counter on it.\nSurface {5}{U}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Whenever Floe Master enters or another creature you control surfaces, tap up to one target creature and put a stun counter on it.\nSurface {5}{U}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -1247,7 +1247,7 @@
 			"collector_number": "168",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\n{1}{W}, {T}: Create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{2}{B}, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.",
+			"oracle_text": "Deathtouch\n{1}{W}, {T}: Create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{2}{B}, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.",
 		},
 		
 		{
@@ -1260,7 +1260,7 @@
 			"collector_number": "264",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1286,7 +1286,7 @@
 			"collector_number": "53",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}. You may sacrifice Fortune Bearer. If you don't, you can't spend this mana to cast a spell from your hand.\nSurface {5}{U}{U}. Fortune Bearer surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "{T}: Add {C}. You may sacrifice Fortune Bearer. If you don't, you can't spend this mana to cast a spell from your hand.\nSurface {5}{U}{U}. Fortune Bearer surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Devourer of Fortunes",
 				"mana_cost": "",
@@ -1297,7 +1297,7 @@
 				"collector_number": "53",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "Whenever Devourer of Fortunes enters or attacks, return up to one target instant or sorcery card in a graveyard or creature on the battlefield to its owner's hand. You may cast a copy of it, and may spend mana of any type to cast it. (You still pay its costs. If it's a permanent spell, it becomes a token.)",
+				"oracle_text": "Whenever Devourer of Fortunes enters or attacks, return up to one target instant or sorcery card in a graveyard or creature on the battlefield to its owner's hand. You may cast a copy of it, and may spend mana of any type to cast it. [i](You still pay its costs. If it's a permanent spell, it becomes a token.)[/i]",
 			}
 		},
 		
@@ -1324,7 +1324,7 @@
 			"collector_number": "169",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1363,7 +1363,7 @@
 			"collector_number": "17",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Generous Farmer enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever you sacrifice a Berry, create a 1/1 green Plant creature token.",
+			"oracle_text": "When Generous Farmer enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever you sacrifice a Berry, create a 1/1 green Plant creature token.",
 		},
 		
 		{
@@ -1402,7 +1402,7 @@
 			"collector_number": "86",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhen Gloomy Meteorologist enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nWhenever an ability of a Weather you control triggers, Gloomy Meteorologist deals 1 damage to target player or planeswalker.",
+			"oracle_text": "Lifelink\nWhen Gloomy Meteorologist enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nWhenever an ability of a Weather you control triggers, Gloomy Meteorologist deals 1 damage to target player or planeswalker.",
 		},
 		
 		{
@@ -1428,7 +1428,7 @@
 			"collector_number": "18",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Gone Pickin' enters, exile up to one target nonland permanent an opponent controls until Gone Pickin' leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "When Gone Pickin' enters, exile up to one target nonland permanent an opponent controls until Gone Pickin' leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1466,7 +1466,7 @@
 			"collector_number": "19",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhenever you attack, attacking creatures you control get +1/+1 until end of turn.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhenever you attack, attacking creatures you control get +1/+1 until end of turn.",
 		},
 		
 		{
@@ -1479,7 +1479,7 @@
 			"collector_number": "54",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Surveil 1, then draw a card. Exile Harbor Mail with a stamp counter on it. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)\nWhen you cast a spell for its surface cost, if Harbor Mail is exiled with a stamp counter, you may pay {U} and put it into your graveyard. If you do, surveil 1, then draw a card.",
+			"oracle_text": "Surveil 1, then draw a card. Exile Harbor Mail with a stamp counter on it. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]\nWhen you cast a spell for its surface cost, if Harbor Mail is exiled with a stamp counter, you may pay {U} and put it into your graveyard. If you do, surveil 1, then draw a card.",
 		},
 		
 		{
@@ -1505,7 +1505,7 @@
 			"collector_number": "171",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.\nSurface {G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.\nSurface {G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -1531,7 +1531,7 @@
 			"collector_number": "20",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Heavy Snowfall enters, target creature you control gets +1/+1 and gains indestructible until end of turn.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Heavy Snowfall enters, target creature you control gets +1/+1 and gains indestructible until end of turn.",
 		},
 		
 		{
@@ -1544,7 +1544,7 @@
 			"collector_number": "172",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Heavy Winds enters and whenever you cast a spell, prevent all damage up to one target permanent would deal this turn.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Heavy Winds enters and whenever you cast a spell, prevent all damage up to one target permanent would deal this turn.",
 		},
 		
 		{
@@ -1557,7 +1557,7 @@
 			"collector_number": "55",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Herald of Drizzles enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)",
+			"oracle_text": "Flying\nWhen Herald of Drizzles enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]",
 		},
 		
 		{
@@ -1661,7 +1661,7 @@
 			"collector_number": "21",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Hungry Songbird enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Flying\nWhen Hungry Songbird enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1751,7 +1751,7 @@
 			"collector_number": "268",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1867,7 +1867,7 @@
 			"collector_number": "250",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, put a stun counter on target permanent they control. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nEquip {2}",
+			"oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, put a stun counter on target permanent they control. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]\nEquip {2}",
 		},
 		
 		{
@@ -1880,7 +1880,7 @@
 			"collector_number": "58",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "King of Currents can't attack unless there are six or more cards in your graveyard.\nSurface {4}{U}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "King of Currents can't attack unless there are six or more cards in your graveyard.\nSurface {4}{U}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -1906,7 +1906,7 @@
 			"collector_number": "92",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Lady of the Mists enters, you may pay 2 life. If you do, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nAs long as you control a Weather, Lady of the Mists gets +0/+2.",
+			"oracle_text": "When Lady of the Mists enters, you may pay 2 life. If you do, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nAs long as you control a Weather, Lady of the Mists gets +0/+2.",
 		},
 		
 		{
@@ -1971,7 +1971,7 @@
 			"collector_number": "253",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice Lum Berry. If you do, equipped creature gets +1/+1 until end of turn.\nWhen you sacrifice Lum Berry, you may exile equipped creature, then return that card to the battlefield under its owner's control. Put a +1/+1 counter on it. (This happens after damage is dealt.)\nEquip {1}",
+			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice Lum Berry. If you do, equipped creature gets +1/+1 until end of turn.\nWhen you sacrifice Lum Berry, you may exile equipped creature, then return that card to the battlefield under its owner's control. Put a +1/+1 counter on it. [i](This happens after damage is dealt.)[/i]\nEquip {1}",
 		},
 		
 		{
@@ -1997,7 +1997,7 @@
 			"collector_number": "175",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Choose two -\n• Create two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n• Create two 1/1 green Plant creature tokens.\n• You gain 1 life for each token you control.",
+			"oracle_text": "Choose two -\n• Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n• Create two 1/1 green Plant creature tokens.\n• You gain 1 life for each token you control.",
 		},
 		
 		{
@@ -2100,7 +2100,7 @@
 			"collector_number": "176",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Reach\nSurface {4}{G}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Reach\nSurface {4}{G}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2165,7 +2165,7 @@
 			"collector_number": "270",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2178,7 +2178,7 @@
 			"collector_number": "95",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target creature gets -3/-3 until end of turn.\nSurface {5}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Target creature gets -3/-3 until end of turn.\nSurface {5}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2294,7 +2294,7 @@
 			"collector_number": "178",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Padpole enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nSurface {3}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "When Padpole enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nSurface {3}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2333,7 +2333,7 @@
 			"collector_number": "97",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Pathetic Cocoon enters or dies, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "When Pathetic Cocoon enters or dies, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2359,7 +2359,7 @@
 			"collector_number": "24",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return up to one target artifact, enchantment, or land card from your graveyard to your hand.\nCreate two Berry tokens. (They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Return up to one target artifact, enchantment, or land card from your graveyard to your hand.\nCreate two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2398,7 +2398,7 @@
 			"collector_number": "272",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2463,7 +2463,7 @@
 			"collector_number": "220",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Poisoned Rose enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
+			"oracle_text": "When Poisoned Rose enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
 		},
 		
 		{
@@ -2476,7 +2476,7 @@
 			"collector_number": "180",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Pollen Warning enters, create a 1/1 green Plant creature token, then put a +1/+1 counter on a creature you control.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Pollen Warning enters, create a 1/1 green Plant creature token, then put a +1/+1 counter on a creature you control.",
 		},
 		
 		{
@@ -2489,7 +2489,7 @@
 			"collector_number": "26",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Practicing Guru enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nPracticing Guru gets +1/+1 as long as you've sacrificed a Berry that was attached to it this turn.\nSacrifice a Berry attached to Practicing Guru: It gains indestructible until end of turn.",
+			"oracle_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 as long as you've sacrificed a Berry that was attached to it this turn.\nSacrifice a Berry attached to Practicing Guru: It gains indestructible until end of turn.",
 		},
 		
 		{
@@ -2541,7 +2541,7 @@
 			"collector_number": "63",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Primordial Seas enters and whenever you cast a spell, create a token that's a copy of another target permanent you control.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Primordial Seas enters and whenever you cast a spell, create a token that's a copy of another target permanent you control.",
 		},
 		
 		{
@@ -2606,7 +2606,7 @@
 			"collector_number": "64",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhenever you attack, create a tapped and attacking token that's a copy of target attacking creature, except it isn't legendary. Sacrifice it at the beginning of the next end step.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhenever you attack, create a tapped and attacking token that's a copy of target attacking creature, except it isn't legendary. Sacrifice it at the beginning of the next end step.",
 		},
 		
 		{
@@ -2619,7 +2619,7 @@
 			"collector_number": "99",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Reaper of the Deep enters, mill two cards. You may repeat this process until there are seven or more cards in your graveyard.\nSurface {5}{B}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Menace\nWhen Reaper of the Deep enters, mill two cards. You may repeat this process until there are seven or more cards in your graveyard.\nSurface {5}{B}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2632,7 +2632,7 @@
 			"collector_number": "181",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, you gain 2 life if you cast a spell from your graveyard this turn, then you gain 2 life if a card was put into your graveyard from your library this turn. \nSurface {4}{G}{G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "At the beginning of your end step, you gain 2 life if you cast a spell from your graveyard this turn, then you gain 2 life if a card was put into your graveyard from your library this turn. \nSurface {4}{G}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2645,7 +2645,7 @@
 			"collector_number": "100",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nSurface {2}{B}{B}. This spell costs {1}{B}{B} less if you control a creature named Relentless Bats. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nA deck can have any number of cards named Relentless Bats.",
+			"oracle_text": "Flying\nSurface {2}{B}{B}. This spell costs {1}{B}{B} less if you control a creature named Relentless Bats. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]\nA deck can have any number of cards named Relentless Bats.",
 		},
 		
 		{
@@ -2658,7 +2658,7 @@
 			"collector_number": "27",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{2}{W}: Create a Berry token and attach it to Restless Sloth. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Vigilance\n{2}{W}: Create a Berry token and attach it to Restless Sloth. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2671,7 +2671,7 @@
 			"collector_number": "65",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Surface {2}{B}{G}{U}. Riverbed Snapper surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Surface {2}{B}{G}{U}. Riverbed Snapper surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Daunting Snapper",
 				"mana_cost": "",
@@ -2682,7 +2682,7 @@
 				"collector_number": "65",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)\nDaunting Snapper can't be blocked by creatures with power 2 or less.",
+				"oracle_text": "Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]\nDaunting Snapper can't be blocked by creatures with power 2 or less.",
 			}
 		},
 		
@@ -2709,7 +2709,7 @@
 			"collector_number": "258",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{2}, Sacrifice Root Fossil: Surveil 3. You may put a land card you surveilled this way from your graveyard onto the battlefield tapped.\nSurface {2}{G}. Root Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "{2}, Sacrifice Root Fossil: Surveil 3. You may put a land card you surveilled this way from your graveyard onto the battlefield tapped.\nSurface {2}{G}. Root Fossil surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Reborn Lily",
 				"mana_cost": "",
@@ -2720,7 +2720,7 @@
 				"collector_number": "258",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "Whenever Reborn Lily attacks, surveil 3. You may put a land card you surveilled this way from your graveyard onto the battlefield tapped. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+				"oracle_text": "Whenever Reborn Lily attacks, surveil 3. You may put a land card you surveilled this way from your graveyard onto the battlefield tapped. [i](To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 			}
 		},
 		
@@ -2734,7 +2734,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nLandfall - Whenever a land you control enters, create a Berry token. You may attach it to Rooting Raccoon. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Lifelink\nLandfall - Whenever a land you control enters, create a Berry token. You may attach it to Rooting Raccoon. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2747,7 +2747,7 @@
 			"collector_number": "275",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{4}: Rumbling Door becomes a 3/3 Golem creature with vigilance. It's still a land. (This effect lasts indefinitely.)",
+			"oracle_text": "{T}: Add {C}.\n{4}: Rumbling Door becomes a 3/3 Golem creature with vigilance. It's still a land. [i](This effect lasts indefinitely.)[/i]",
 		},
 		
 		{
@@ -2798,7 +2798,7 @@
 			"collector_number": "101",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhenever you attack, defending player loses 2 life and you gain 2 life.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhenever you attack, defending player loses 2 life and you gain 2 life.",
 		},
 		
 		{
@@ -2811,7 +2811,7 @@
 			"collector_number": "102",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nLandfall - Whenever a land you control enters, Sandstorm Dancer acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)",
+			"oracle_text": "Deathtouch\nLandfall - Whenever a land you control enters, Sandstorm Dancer acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]",
 		},
 		
 		{
@@ -2824,7 +2824,7 @@
 			"collector_number": "145",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Reach\nWhen Sandstorm Devil enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nAs long as you control a Weather or another Dragon, Sandstorm Devil has menace.",
+			"oracle_text": "Reach\nWhen Sandstorm Devil enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nAs long as you control a Weather or another Dragon, Sandstorm Devil has menace.",
 		},
 		
 		{
@@ -2863,7 +2863,7 @@
 			"collector_number": "66",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Surface {U}. Scuttling Cicada surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Surface {U}. Scuttling Cicada surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Buzzing Metamorph",
 				"mana_cost": "",
@@ -2888,7 +2888,7 @@
 			"collector_number": "67",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Sea Breeze enters, return up to one target creature to its owner's hand, then surveil 1.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Sea Breeze enters, return up to one target creature to its owner's hand, then surveil 1.",
 		},
 		
 		{
@@ -2914,7 +2914,7 @@
 			"collector_number": "68",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Look at the top two cards of your library. Put one into your hand and the other into your graveyard.\nSurface {2}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Look at the top two cards of your library. Put one into your hand and the other into your graveyard.\nSurface {2}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2966,7 +2966,7 @@
 			"collector_number": "103",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{B}, Sacrifice Serrated Fossil: Choose a nonland card name. Target player reveals their hand and discards a card with that name if able. Activate only as a sorcery.\nSurface {3}{B}{B}. Serrated Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "{B}, Sacrifice Serrated Fossil: Choose a nonland card name. Target player reveals their hand and discards a card with that name if able. Activate only as a sorcery.\nSurface {3}{B}{B}. Serrated Fossil surfaces transformed. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 			"back": {
 				"name": "Reborn Fisher",
 				"mana_cost": "",
@@ -2991,7 +2991,7 @@
 			"collector_number": "104",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Shadow Sky enters and whenever you cast a spell, each creature target player controls gets -1/-1 until end of turn.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Shadow Sky enters and whenever you cast a spell, each creature target player controls gets -1/-1 until end of turn.",
 		},
 		
 		{
@@ -3004,7 +3004,7 @@
 			"collector_number": "229",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Shining Angler attacks, target creature an opponent controls blocks Shining Angler this turn if able and other creatures can't block Shining Angler this turn.\nSurface {4}{B}{G}{U} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Whenever Shining Angler attacks, target creature an opponent controls blocks Shining Angler this turn if able and other creatures can't block Shining Angler this turn.\nSurface {4}{B}{G}{U} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -3056,7 +3056,7 @@
 			"collector_number": "106",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Exile target creature or enchantment if its mana value is less than or equal to the number of spells named Singularity you've cast this game (including this one).",
+			"oracle_text": "Exile target creature or enchantment if its mana value is less than or equal to the number of spells named Singularity you've cast this game [i](including this one)[/i].",
 		},
 		
 		{
@@ -3082,7 +3082,7 @@
 			"collector_number": "30",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Once each turn, when Smart Shopper enters or you cast a creature spell, you may create a Berry token. If three or more types of mana were spent to cast it, create two of those tokens instead. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Once each turn, when Smart Shopper enters or you cast a creature spell, you may create a Berry token. If three or more types of mana were spent to cast it, create two of those tokens instead. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3095,7 +3095,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Smiling Sludge enters, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
+			"oracle_text": "When Smiling Sludge enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
 		},
 		
 		{
@@ -3159,7 +3159,7 @@
 			"collector_number": "108",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Soul's Sunset enters, exile up to two target cards from graveyards. You gain 2 life.\nSurface {4}{B}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Flying\nWhen Soul's Sunset enters, exile up to two target cards from graveyards. You gain 2 life.\nSurface {4}{B}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -3223,7 +3223,7 @@
 			"collector_number": "109",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Menace\nSurface {3}{B}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Menace\nSurface {3}{B}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -3274,7 +3274,7 @@
 			"collector_number": "184",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 until end of turn for each Berry sacrificed this way. Then it fights target creature you don't control. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 until end of turn for each Berry sacrificed this way. Then it fights target creature you don't control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3287,7 +3287,7 @@
 			"collector_number": "34",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Stratus Fledgling enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nWeather spells you cast cost {1} less to cast.",
+			"oracle_text": "Flying\nWhen Stratus Fledgling enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nWeather spells you cast cost {1} less to cast.",
 		},
 		
 		{
@@ -3300,7 +3300,7 @@
 			"collector_number": "148",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhen Streaking Sunrise enters, scry 1, then exile the top card of your library. You may play it until the end of your next turn.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhen Streaking Sunrise enters, scry 1, then exile the top card of your library. You may play it until the end of your next turn.",
 		},
 		
 		{
@@ -3352,7 +3352,7 @@
 			"collector_number": "149",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "(As a Weather enters, players sacrifice other Weathers that don't share a color with it.)\nWhenever you attack, Sunny Day deals X damage to target player or planeswalker, where X is the number of attacking creatures.",
+			"oracle_text": "[i](As a Weather enters, players sacrifice other Weathers that don't share a color with it.)[/i]\nWhenever you attack, Sunny Day deals X damage to target player or planeswalker, where X is the number of attacking creatures.",
 		},
 		
 		{
@@ -3378,7 +3378,7 @@
 			"collector_number": "280",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3391,7 +3391,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nFlying\nWhen Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner's hand. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Flash\nFlying\nWhen Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner's hand. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3468,7 +3468,7 @@
 			"collector_number": "186",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Search your library for a basic land card, put it onto the battlefield, then shuffle.\nAcclimate. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)",
+			"oracle_text": "Search your library for a basic land card, put it onto the battlefield, then shuffle.\nAcclimate. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)[/i]",
 		},
 		
 		{
@@ -3494,7 +3494,7 @@
 			"collector_number": "71",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Tenki enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nYou can't sacrifice Weather enchantments.\n{W}{U}{B}{R}{G}, {T}: Tenki acclimates. This ability costs one mana of any color less to activate for each Weather you control.",
+			"oracle_text": "When Tenki enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nYou can't sacrifice Weather enchantments.\n{W}{U}{B}{R}{G}, {T}: Tenki acclimates. This ability costs one mana of any color less to activate for each Weather you control.",
 		},
 		
 		{
@@ -3507,7 +3507,7 @@
 			"collector_number": "110",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target non-Human creature. If it has Berries attached to it, gain control of them. Otherwise, create a Berry token. (It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")",
+			"oracle_text": "Destroy target non-Human creature. If it has Berries attached to it, gain control of them. Otherwise, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3520,7 +3520,7 @@
 			"collector_number": "191",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen The Aqua Crew enters, mill six cards, then you gain 1 life for each card type among cards in your graveyard.\nWhenever you cast a spell from your graveyard, you may have target nonland permanent become an Island land. This ability triggers only once unless you control a creature named Warden of Depths. (It loses other types and abilities indefinitely.)",
+			"oracle_text": "Flash\nWhen The Aqua Crew enters, mill six cards, then you gain 1 life for each card type among cards in your graveyard.\nWhenever you cast a spell from your graveyard, you may have target nonland permanent become an Island land. This ability triggers only once unless you control a creature named Warden of Depths. [i](It loses other types and abilities indefinitely.)[/i]",
 		},
 		
 		{
@@ -3546,7 +3546,7 @@
 			"collector_number": "215",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen The Magma Council enters, it deals damage equal to the number of cards types among permanents you control to target opponent.\nLandfall - Once each turn, when a land you control enters, you may have target nonland permanent become a Mountain land. (It loses other types and abilities indefinitely.)",
+			"oracle_text": "Vigilance\nWhen The Magma Council enters, it deals damage equal to the number of cards types among permanents you control to target opponent.\nLandfall - Once each turn, when a land you control enters, you may have target nonland permanent become a Mountain land. [i](It loses other types and abilities indefinitely.)[/i]",
 		},
 		
 		{
@@ -3728,7 +3728,7 @@
 			"collector_number": "113",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Mill two cards, then return a creature card from your graveyard to your hand.\nSurface {3}{B} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "Mill two cards, then return a creature card from your graveyard to your hand.\nSurface {3}{B} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -3741,7 +3741,7 @@
 			"collector_number": "237",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "The first spell you cast during each of your opponent's turns cost {U}{B} less to cast.\nDuring each ending phase, nonland cards in your graveyard have flash and surface. The surface cost is equal to their mana cost. (You may cast a copy of it from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)\nSurface {6}{U}{U}{B}",
+			"oracle_text": "The first spell you cast during each of your opponent's turns cost {U}{B} less to cast.\nDuring each ending phase, nonland cards in your graveyard have flash and surface. The surface cost is equal to their mana cost. [i](You may cast a copy of it from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]\nSurface {6}{U}{U}{B}",
 		},
 		
 		{
@@ -3832,7 +3832,7 @@
 			"collector_number": "1",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever Weather Elemental enters or attacks, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)\nIf a triggered ability of a Weather you control would trigger, it triggers an additional time.",
+			"oracle_text": "Flying\nWhenever Weather Elemental enters or attacks, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nIf a triggered ability of a Weather you control would trigger, it triggers an additional time.",
 		},
 		
 		{
@@ -3909,7 +3909,7 @@
 			"collector_number": "76",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nTrample\nSurface {3}{U}{U}. Wrecking Whale surfaces tapped. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+			"oracle_text": "This spell can't be countered.\nTrample\nSurface {3}{U}{U}. Wrecking Whale surfaces tapped. [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{

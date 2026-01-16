@@ -211,7 +211,7 @@
 			"collector_number": "164",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{1}{G}: Until your next turn, Bessie becomes a 5/5 green Wurm creature with trample, haste, and indestructible. You can't activate this ability while Bessie is being attacked. (She doesn't lose loyalty while she's not a planeswalker.)\n[+1]: Creatures you control get +1/+1 and gain haste until your next turn.\n[-6]: Create five 3/3 green Wurm creature tokens with trample and haste.",
+			"oracle_text": "{1}{G}: Until your next turn, Bessie becomes a 5/5 green Wurm creature with trample, haste, and indestructible. You can't activate this ability while Bessie is being attacked. [i](She doesn't lose loyalty while she's not a planeswalker.)[/i]\n[+1]: Creatures you control get +1/+1 and gain haste until your next turn.\n[-6]: Create five 3/3 green Wurm creature tokens with trample and haste.",
 		},
 		
 		{
@@ -250,7 +250,7 @@
 			"collector_number": "5",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Spells cost {1} more to cast for each colored mana symbol in their mana cost beyond the first. (For example, a spell with mana cost {W}{W} would cost {1}{W}{W} to cast.)",
+			"oracle_text": "Spells cost {1} more to cast for each colored mana symbol in their mana cost beyond the first. [i](For example, a spell with mana cost {W}{W} would cost {1}{W}{W} to cast.)[/i]",
 		},
 		
 		{
@@ -276,7 +276,7 @@
 			"collector_number": "167",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Budding Companion has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Budding Companion has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Flourishing Companion_MON",
 				"mana_cost": "",
@@ -379,7 +379,7 @@
 			"collector_number": "227",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Cheerful Generator has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Cheerful Generator has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Combined Generator_MON",
 				"mana_cost": "",
@@ -456,7 +456,7 @@
 			"collector_number": "45",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn target nonland permanent to its owner's hand. If this spell was harnessed, draw a card.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nReturn target nonland permanent to its owner's hand. If this spell was harnessed, draw a card.",
 		},
 		
 		{
@@ -482,7 +482,7 @@
 			"collector_number": "170",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nCrusher Beetle can't be blocked by more than one creature.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nCrusher Beetle can't be blocked by more than one creature.",
 		},
 		
 		{
@@ -495,7 +495,7 @@
 			"collector_number": "7",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nCurious Cubs has first strike as long as its attacking.\nWhen Curious Cubs has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nCurious Cubs has first strike as long as its attacking.\nWhen Curious Cubs has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Mauling Mother_MON",
 				"mana_cost": "",
@@ -558,7 +558,7 @@
 			"collector_number": "47",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Determined Koi has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Determined Koi has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Destructive Serpent_MON",
 				"mana_cost": "",
@@ -583,7 +583,7 @@
 			"collector_number": "8",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Dreamnapper enters, another target creature phases out until Dreamnapper leaves the battlefield. (Treat it and anything attached to it as though they don't exist as long as it's phased out.)",
+			"oracle_text": "Flash\nWhen Dreamnapper enters, another target creature phases out until Dreamnapper leaves the battlefield. [i](Treat it and anything attached to it as though they don't exist as long as it's phased out.)[/i]",
 		},
 		
 		{
@@ -609,7 +609,7 @@
 			"collector_number": "205",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Copy target spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+			"oracle_text": "Copy target spell. You may choose new targets for the copy. [i](A copy of a permanent spell becomes a token.)[/i]",
 		},
 		
 		{
@@ -622,7 +622,7 @@
 			"collector_number": "9",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Eager Hatchling has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Eager Hatchling has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Realized Hatchling_MON",
 				"mana_cost": "",
@@ -894,7 +894,7 @@
 			"collector_number": "51",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nDraw three cards.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nDraw three cards.",
 		},
 		
 		{
@@ -907,7 +907,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Flame-Tailed Lizard has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Flame-Tailed Lizard has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Flame-Tested Dragon_MON",
 				"mana_cost": "",
@@ -932,7 +932,7 @@
 			"collector_number": "129",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nFlamethrower deals 4 damage to any target.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nFlamethrower deals 4 damage to any target.",
 		},
 		
 		{
@@ -1010,7 +1010,7 @@
 			"collector_number": "257",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1101,7 +1101,7 @@
 			"collector_number": "132",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+			"oracle_text": "Trample\nExperience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]",
 		},
 		
 		{
@@ -1166,7 +1166,7 @@
 			"collector_number": "179",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature has experience. (Whenever it attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+			"oracle_text": "Enchant creature\nEnchanted creature has experience. [i](Whenever it attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]",
 		},
 		
 		{
@@ -1308,7 +1308,7 @@
 			"collector_number": "52",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nHarness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nEnchanted creature doesn't untap during its controller's untap step.",
+			"oracle_text": "Enchant creature\nHarness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nEnchanted creature doesn't untap during its controller's untap step.",
 		},
 		
 		{
@@ -1321,7 +1321,7 @@
 			"collector_number": "53",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nSearch target opponent's library for a creature or planeswalker card and put it onto the battlefield under your control. That player shuffles.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nSearch target opponent's library for a creature or planeswalker card and put it onto the battlefield under your control. That player shuffles.",
 		},
 		
 		{
@@ -1373,7 +1373,7 @@
 			"collector_number": "254",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1412,7 +1412,7 @@
 			"collector_number": "54",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Lakeside Trickster becomes tapped, up to one target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+			"oracle_text": "Whenever Lakeside Trickster becomes tapped, up to one target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]",
 		},
 		
 		{
@@ -1464,7 +1464,7 @@
 			"collector_number": "137",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever Loyal Firestarter attacks, you may cast an instant or sorcery spell from your hand with mana value less than or equal to Loyal Firestarter's power without paying its mana cost.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhenever Loyal Firestarter attacks, you may cast an instant or sorcery spell from your hand with mana value less than or equal to Loyal Firestarter's power without paying its mana cost.",
 		},
 		
 		{
@@ -1555,7 +1555,7 @@
 			"collector_number": "139",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nMagnitude deals X damage to each player and each creature without flying that didn't harness it.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nMagnitude deals X damage to each player and each creature without flying that didn't harness it.",
 		},
 		
 		{
@@ -1607,7 +1607,7 @@
 			"collector_number": "17",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever an experience ability puts a +1/+1 counter on a creature you control, put a +1/+1 counter on that creature.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhenever an experience ability puts a +1/+1 counter on a creature you control, put a +1/+1 counter on that creature.",
 		},
 		
 		{
@@ -1646,7 +1646,7 @@
 			"collector_number": "140",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nExile the top three cards of your library. Cast a spell with mana value X or less from among them without paying its mana cost.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nExile the top three cards of your library. Cast a spell with mana value X or less from among them without paying its mana cost.",
 		},
 		
 		{
@@ -1724,7 +1724,7 @@
 			"collector_number": "256",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -1787,7 +1787,7 @@
 			"collector_number": "258",
 			"rarity": "special",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U} or {B}.)\nMuggy Mire enters the battlefield tapped unless you control two or more basic lands.",
+			"oracle_text": "[i]({T}: Add {U} or {B}.)[/i]\nMuggy Mire enters the battlefield tapped unless you control two or more basic lands.",
 		},
 		
 		{
@@ -1917,7 +1917,7 @@
 			"collector_number": "144",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nOverheat deals X damage to any target.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nOverheat deals X damage to any target.",
 		},
 		
 		{
@@ -1956,7 +1956,7 @@
 			"collector_number": "22",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever a +1/+1 counter is put on a creature you control, tap target creature you don't control.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhenever a +1/+1 counter is put on a creature you control, tap target creature you don't control.",
 		},
 		
 		{
@@ -2021,7 +2021,7 @@
 			"collector_number": "253",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2086,7 +2086,7 @@
 			"collector_number": "259",
 			"rarity": "special",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R} or {G}.)\nPractice Range enters the battlefield tapped unless you control two or more basic lands.",
+			"oracle_text": "[i]({T}: Add {R} or {G}.)[/i]\nPractice Range enters the battlefield tapped unless you control two or more basic lands.",
 		},
 		
 		{
@@ -2242,7 +2242,7 @@
 			"collector_number": "59",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target nonland permanent phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)\nDraw a card.",
+			"oracle_text": "Target nonland permanent phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]\nDraw a card.",
 		},
 		
 		{
@@ -2333,7 +2333,7 @@
 			"collector_number": "260",
 			"rarity": "special",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B} or {R}.)\nRuined Shrine enters the battlefield tapped unless you control two or more basic lands.",
+			"oracle_text": "[i]({T}: Add {B} or {R}.)[/i]\nRuined Shrine enters the battlefield tapped unless you control two or more basic lands.",
 		},
 		
 		{
@@ -2346,7 +2346,7 @@
 			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+			"oracle_text": "Target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]",
 		},
 		
 		{
@@ -2359,7 +2359,7 @@
 			"collector_number": "189",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Rustshell Mantis is dealt damage, put that many +1/+1 counters on it. (It must survive the damage to get the counters.)",
+			"oracle_text": "Whenever Rustshell Mantis is dealt damage, put that many +1/+1 counters on it. [i](It must survive the damage to get the counters.)[/i]",
 		},
 		
 		{
@@ -2437,7 +2437,7 @@
 			"collector_number": "107",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nTarget creature gets -X/-X until end of turn.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nTarget creature gets -X/-X until end of turn.",
 		},
 		
 		{
@@ -2488,7 +2488,7 @@
 			"collector_number": "191",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn up to two target cards from your graveyard to your hand. Exile Secret Stash.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nReturn up to two target cards from your graveyard to your hand. Exile Secret Stash.",
 		},
 		
 		{
@@ -2514,7 +2514,7 @@
 			"collector_number": "109",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target creature phases out. Its controller sacrifices a creature. (Treat the phased out creature and anything attached to it as though they don't exist until its controller's next turn.)",
+			"oracle_text": "Target creature phases out. Its controller sacrifices a creature. [i](Treat the phased out creature and anything attached to it as though they don't exist until its controller's next turn.)[/i]",
 		},
 		
 		{
@@ -2761,7 +2761,7 @@
 			"collector_number": "218",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever a +1/+1 counter is put on a creature you control, target creature gains trample until end of turn.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhenever a +1/+1 counter is put on a creature you control, target creature gains trample until end of turn.",
 		},
 		
 		{
@@ -2800,7 +2800,7 @@
 			"collector_number": "261",
 			"rarity": "special",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W} or {U}.)\nStill Waters enters the battlefield tapped unless you control two or more basic lands.",
+			"oracle_text": "[i]({T}: Add {W} or {U}.)[/i]\nStill Waters enters the battlefield tapped unless you control two or more basic lands.",
 		},
 		
 		{
@@ -2878,7 +2878,7 @@
 			"collector_number": "255",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -2891,7 +2891,7 @@
 			"collector_number": "152",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nPut two +1/+1 counters on target creature. If this spell was harnessed, also put a +1/+1 counter on the creature that harnessed it.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nPut two +1/+1 counters on target creature. If this spell was harnessed, also put a +1/+1 counter on the creature that harnessed it.",
 		},
 		
 		{
@@ -2917,7 +2917,7 @@
 			"collector_number": "196",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nReach\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+			"oracle_text": "Flash\nReach\nExperience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]",
 		},
 		
 		{
@@ -2943,7 +2943,7 @@
 			"collector_number": "69",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nTake an extra turn after this one. Exile Temporal Aria.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nTake an extra turn after this one. Exile Temporal Aria.",
 		},
 		
 		{
@@ -2995,7 +2995,7 @@
 			"collector_number": "70",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Tidepool Turtle has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Tidepool Turtle has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Tsunami Titan_MON",
 				"mana_cost": "",
@@ -3110,7 +3110,7 @@
 			"collector_number": "249",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{3}, {T}, Sacrifice Treasure Beach: Create three Treasure tokens. (They have \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+			"oracle_text": "{T}: Add {C}.\n{3}, {T}, Sacrifice Treasure Beach: Create three Treasure tokens. [i](They have \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
 		},
 		
 		{
@@ -3136,7 +3136,7 @@
 			"collector_number": "155",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever Tunnel Moles attacks, you may have it phase out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)\nWhenever Tunnel Moles phases in, it gets +2/+2 until end of turn and can't be blocked by creatures with flying this turn.",
+			"oracle_text": "Haste\nWhenever Tunnel Moles attacks, you may have it phase out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]\nWhenever Tunnel Moles phases in, it gets +2/+2 until end of turn and can't be blocked by creatures with flying this turn.",
 		},
 		
 		{
@@ -3201,7 +3201,7 @@
 			"collector_number": "75",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "You may have Undecided Mimic enter or phase in as a copy of any creature on the battlefield, except it has this ability and \"{2}{U}{U}: Undecided Mimic phases out.\" (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+			"oracle_text": "You may have Undecided Mimic enter or phase in as a copy of any creature on the battlefield, except it has this ability and \"{2}{U}{U}: Undecided Mimic phases out.\" [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]",
 		},
 		
 		{
@@ -3227,7 +3227,7 @@
 			"collector_number": "197",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nUnstoppable Weed gets +1/+1 for each +1/+1 counter on other creatures you control.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nUnstoppable Weed gets +1/+1 for each +1/+1 counter on other creatures you control.",
 		},
 		
 		{
@@ -3240,7 +3240,7 @@
 			"collector_number": "156",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nHarness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nEnchanted creature gets +3/+0 and has menace.",
+			"oracle_text": "Enchant creature\nHarness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nEnchanted creature gets +3/+0 and has menace.",
 		},
 		
 		{
@@ -3318,7 +3318,7 @@
 			"collector_number": "262",
 			"rarity": "special",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G} or {W}.)\nWandering Hamlet enters the battlefield tapped unless you control two or more basic lands.",
+			"oracle_text": "[i]({T}: Add {G} or {W}.)[/i]\nWandering Hamlet enters the battlefield tapped unless you control two or more basic lands.",
 		},
 		
 		{
@@ -3409,7 +3409,7 @@
 			"collector_number": "78",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nReturn each nonland permanent your opponents control to its owner's hand.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nReturn each nonland permanent your opponents control to its owner's hand.",
 		},
 		
 		{
@@ -3460,7 +3460,7 @@
 			"collector_number": "199",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Winding Snake has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Winding Snake has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Mother Snake_MON",
 				"mana_cost": "",
@@ -3471,7 +3471,7 @@
 				"collector_number": "199",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)",
+				"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]",
 			}
 		},
 		
@@ -3485,7 +3485,7 @@
 			"collector_number": "37",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nExperience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nAs long as Wings of Trust has three or more +1/+1 counters on it, it has lifelink and vigilance.",
+			"oracle_text": "Flying\nExperience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nAs long as Wings of Trust has three or more +1/+1 counters on it, it has lifelink and vigilance.",
 		},
 		
 		{
@@ -3498,7 +3498,7 @@
 			"collector_number": "38",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Harness (You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)\nYou gain X life.",
+			"oracle_text": "Harness [i](You may tap a creature you control as you cast this spell. If you do, reduce this spell's mana cost by that creature's power.)[/i]\nYou gain X life.",
 		},
 		
 		{
@@ -3563,7 +3563,7 @@
 			"collector_number": "159",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Worried Vulpine has three or more +1/+1 counters on it, remove them all and transform it.",
+			"oracle_text": "Experience [i](Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)[/i]\nWhen Worried Vulpine has three or more +1/+1 counters on it, remove them all and transform it.",
 			"back": {
 				"name": "Worthy Vulpine_MON",
 				"mana_cost": "",

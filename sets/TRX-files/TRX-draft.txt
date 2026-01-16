@@ -30,7 +30,7 @@
 			"collector_number": "135",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Destroy any number of target artifacts with total mana value 4 or less.\nII - Discard up to two cards, then draw that many cards.\nIII - You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Destroy any number of target artifacts with total mana value 4 or less.\nII - Discard up to two cards, then draw that many cards.\nIII - You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
 		},
 		
 		{
@@ -43,7 +43,7 @@
 			"collector_number": "42",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Gain control of target creature with mana value less than or equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+			"oracle_text": "Gain control of target creature with mana value less than or equal to your devotion to blue. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 		},
 		
 		{
@@ -69,7 +69,7 @@
 			"collector_number": "43",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Agent of Deception enters, counter target creature or planeswalker spell unless its controller pays {X}, where X is your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+			"oracle_text": "Flash\nWhen Agent of Deception enters, counter target creature or planeswalker spell unless its controller pays {X}, where X is your devotion to blue. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 		},
 		
 		{
@@ -121,7 +121,7 @@
 			"collector_number": "3",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, tap target creature.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, tap target creature.",
 		},
 		
 		{
@@ -134,7 +134,7 @@
 			"collector_number": "270",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Anvilwrought Crane dies, create a Weapon token. (It's an Equipment artifact with equip {2} and \"Equipped creature gets +1/+1.\")",
+			"oracle_text": "Flying\nWhen Anvilwrought Crane dies, create a Weapon token. [i](It's an Equipment artifact with equip {2} and \"Equipped creature gets +1/+1.\")[/i]",
 		},
 		
 		{
@@ -173,7 +173,7 @@
 			"collector_number": "125",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion deals combat damage to a player, create that many Treasure tokens.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion deals combat damage to a player, create that many Treasure tokens.",
 		},
 		
 		{
@@ -199,7 +199,7 @@
 			"collector_number": "166",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Reach\nIf a creature you control would deal combat damage to a permanent or player, you may have it deal damage equal to your devotion to green instead. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
+			"oracle_text": "Reach\nIf a creature you control would deal combat damage to a permanent or player, you may have it deal damage equal to your devotion to green instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -212,7 +212,7 @@
 			"collector_number": "226",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Archon of Condemnation enters, you may bless target creature.\nAt the beginning of your upkeep, you may sacrifice a creature. If you do, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Flying\nWhen Archon of Condemnation enters, you may bless target creature.\nAt the beginning of your upkeep, you may sacrifice a creature. If you do, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Confine to Eternity_TRX",
 				"mana_cost": "{1}{W}{B}",
@@ -223,7 +223,7 @@
 				"collector_number": "226",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature can't attack or block, and its activated abilities can't be activated unless they're mana abilities.\nEnchanted creature has \"At the beginning of your upkeep, you lose 1 life.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature can't attack or block, and its activated abilities can't be activated unless they're mana abilities.\nEnchanted creature has \"At the beginning of your upkeep, you lose 1 life.\"",
 			}
 		},
 		
@@ -250,7 +250,7 @@
 			"collector_number": "5",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nFavored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.",
+			"oracle_text": "Flying\nFavored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.",
 		},
 		
 		{
@@ -263,7 +263,7 @@
 			"collector_number": "126",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever Arena Champion attacks, create a Weapon token, then attach it to an attacking creature you control. (It's an Equipment artifact with equip {2} and \"Equipped creature gets +1/+1.\")",
+			"oracle_text": "Trample\nWhenever Arena Champion attacks, create a Weapon token, then attach it to an attacking creature you control. [i](It's an Equipment artifact with equip {2} and \"Equipped creature gets +1/+1.\")[/i]",
 		},
 		
 		{
@@ -315,7 +315,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever a legendary creature you control attacks, create a tapped and attacking token that's a copy of that creature, except it's not legendary and is an enchantment in addition to its other types.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever a legendary creature you control attacks, create a tapped and attacking token that's a copy of that creature, except it's not legendary and is an enchantment in addition to its other types.",
 		},
 		
 		{
@@ -328,7 +328,7 @@
 			"collector_number": "85",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nFavored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, you may double its power until end of turn. If you do, sacrifice it at the beginning of the next end step.",
+			"oracle_text": "Flying\nFavored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, you may double its power until end of turn. If you do, sacrifice it at the beginning of the next end step.",
 		},
 		
 		{
@@ -354,7 +354,7 @@
 			"collector_number": "7",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink, ward {1}\nWhenever Basilo, Lion of Valor attacks, you may bless target nonenchanted creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Lifelink, ward {1}\nWhenever Basilo, Lion of Valor attacks, you may bless target nonenchanted creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "The Lion's Charisma_TRX",
 				"mana_cost": "{1}{W}",
@@ -365,7 +365,7 @@
 				"collector_number": "7",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature gets +1/+1 for each enchantment you control.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +1/+1 for each enchantment you control.",
 			}
 		},
 		
@@ -405,7 +405,7 @@
 			"collector_number": "206",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Benthalos of Land and Sea enters, you may cast a copy of target white or blue enchantment you control. (The copy becomes a token.)",
+			"oracle_text": "Flash\nWhen Benthalos of Land and Sea enters, you may cast a copy of target white or blue enchantment you control. [i](The copy becomes a token.)[/i]",
 		},
 		
 		{
@@ -431,7 +431,7 @@
 			"collector_number": "8",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Bringer of Heliod's Light enters, you may bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Flying\nWhen Bringer of Heliod's Light enters, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Blinded by Divinity_TRX",
 				"mana_cost": "{1}{W}",
@@ -442,7 +442,7 @@
 				"collector_number": "8",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature can't attack or block.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature can't attack or block.",
 			}
 		},
 		
@@ -482,7 +482,7 @@
 			"collector_number": "46",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Callaphe can't be blocked by creatures with mana value 3 or greater.\nWhenever Callaphe the Mariner deals combat damage to a player, you get an experience counter. Then if you have three or more experience counters, bless target player. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Callaphe can't be blocked by creatures with mana value 3 or greater.\nWhenever Callaphe the Mariner deals combat damage to a player, you get an experience counter. Then if you have three or more experience counters, bless target player. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Blessing of the Sea_TRX",
 				"mana_cost": "{6}{U}{U}",
@@ -493,7 +493,7 @@
 				"collector_number": "46",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant player\nEnchanted player may cast blue spells with mana value less than or equal to their devotion to blue without paying their mana costs. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant player\nEnchanted player may cast blue spells with mana value less than or equal to their devotion to blue without paying their mana costs. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 			}
 		},
 		
@@ -507,7 +507,7 @@
 			"collector_number": "168",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Caller of Ferocity enters, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "When Caller of Ferocity enters, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Ferocity of Nature_TRX",
 				"mana_cost": "{G}",
@@ -518,7 +518,7 @@
 				"collector_number": "168",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature gets +1/+1 and has vigilance and trample.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +1/+1 and has vigilance and trample.",
 			}
 		},
 		
@@ -545,7 +545,7 @@
 			"collector_number": "170",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Centaur Mentor enters, target creature gets +X/+0 until end of turn, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
+			"oracle_text": "Trample\nWhen Centaur Mentor enters, target creature gets +X/+0 until end of turn, where X is your devotion to green. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -558,7 +558,7 @@
 			"collector_number": "9",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{3}{W}, Exile Charging Brightmare from your graveyard: Bless target creature. Activate only as a sorcery. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "{3}{W}, Exile Charging Brightmare from your graveyard: Bless target creature. Activate only as a sorcery. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Blessings of the Flock_TRX",
 				"mana_cost": "{1}{W}{W}",
@@ -569,7 +569,7 @@
 				"collector_number": "9",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature gets +2/+2 and has flying.\nWhenever enchanted creature dies, create a 2/2 white Pegasus creature token with flying.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +2/+2 and has flying.\nWhenever enchanted creature dies, create a 2/2 white Pegasus creature token with flying.",
 			}
 		},
 		
@@ -583,7 +583,7 @@
 			"collector_number": "47",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Charming Siren dies, if it wasn't blocking, you may bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Flying\nWhen Charming Siren dies, if it wasn't blocking, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Left to the Sea_TRX",
 				"mana_cost": "{1}{U}{U}",
@@ -594,7 +594,7 @@
 				"collector_number": "47",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nWhen Left to the Sea enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nWhen Left to the Sea enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
 			}
 		},
 		
@@ -608,7 +608,7 @@
 			"collector_number": "10",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "First strike\nWhen Chosen of Heliod enters, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)\n{4}{W}{W}: Bless target creature you control. Activate only as a sorcery.",
+			"oracle_text": "First strike\nWhen Chosen of Heliod enters, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]\n{4}{W}{W}: Bless target creature you control. Activate only as a sorcery.",
 			"back": {
 				"name": "Heliod's Glory_TRX",
 				"mana_cost": "{1}{W}",
@@ -619,7 +619,7 @@
 				"collector_number": "10",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature gets +1/+1 and has protection from creatures. (This creature can't be blocked, targeted or dealt damage by creatures.)",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +1/+1 and has protection from creatures. [i](This creature can't be blocked, targeted or dealt damage by creatures.)[/i]",
 			}
 		},
 		
@@ -633,7 +633,7 @@
 			"collector_number": "86",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "You may cast this spell without paying its mana cost if your devotion to black is four or greater. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\nDeathtouch\nWhenever Chrolcatos deals combat damage to player, you draw a card and you lose 1 life.",
+			"oracle_text": "You may cast this spell without paying its mana cost if your devotion to black is four or greater. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]\nDeathtouch\nWhenever Chrolcatos deals combat damage to player, you draw a card and you lose 1 life.",
 		},
 		
 		{
@@ -697,7 +697,7 @@
 			"collector_number": "272",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell costs {X} less to cast, where X is your greatest devotion to a single color. (Each colored mana symbol in the mana costs of permanents you control count towards devotion to that color.)\nMenace",
+			"oracle_text": "This spell costs {X} less to cast, where X is your greatest devotion to a single color. [i](Each colored mana symbol in the mana costs of permanents you control count towards devotion to that color.)[/i]\nMenace",
 		},
 		
 		{
@@ -710,7 +710,7 @@
 			"collector_number": "12",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Create a 0/0 white Army creature token if your devotion to white is three or more. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nPut a +1/+1 counter on each creature you control.",
+			"oracle_text": "Create a 0/0 white Army creature token if your devotion to white is three or more. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]\nPut a +1/+1 counter on each creature you control.",
 		},
 		
 		{
@@ -749,7 +749,7 @@
 			"collector_number": "48",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Hexproof\nWhen Dakran Shipcrusher enters, you may bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Hexproof\nWhen Dakran Shipcrusher enters, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Depths of the Sea_TRX",
 				"mana_cost": "{1}{U}",
@@ -760,7 +760,7 @@
 				"collector_number": "48",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature gets -4/-0 and loses flying.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets -4/-0 and loses flying.",
 			}
 		},
 		
@@ -774,7 +774,7 @@
 			"collector_number": "13",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Daybreak Rider enters, you may bless another target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Flying\nWhen Daybreak Rider enters, you may bless another target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "The Sun's Blessing_TRX",
 				"mana_cost": "{2}{W}",
@@ -785,7 +785,7 @@
 				"collector_number": "13",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nFlash\nEnchant creature\nEnchanted creature gets +2/+2.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nFlash\nEnchant creature\nEnchanted creature gets +2/+2.",
 			}
 		},
 		
@@ -851,7 +851,7 @@
 			"collector_number": "173",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, and put it into your hand. If your devotion to green is three or greater, put it onto the battlefield tapped instead. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
+			"oracle_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, and put it into your hand. If your devotion to green is three or greater, put it onto the battlefield tapped instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -890,7 +890,7 @@
 			"collector_number": "131",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Eidolon of Empty Thoughts dies, create a Treasure token. \n{6}: Create a 2/1 red Soldier creature token. Activate only as a sorcery and only if your devotion to red is three or more. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)",
+			"oracle_text": "When Eidolon of Empty Thoughts dies, create a Treasure token. \n{6}: Create a 2/1 red Soldier creature token. Activate only as a sorcery and only if your devotion to red is three or more. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]",
 		},
 		
 		{
@@ -903,7 +903,7 @@
 			"collector_number": "51",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, it can't be blocked this turn.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, it can't be blocked this turn.",
 		},
 		
 		{
@@ -1007,7 +1007,7 @@
 			"collector_number": "17",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile target nonland permanent if its mana value is less than or equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+			"oracle_text": "Exile target nonland permanent if its mana value is less than or equal to your devotion to white. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]",
 		},
 		
 		{
@@ -1124,7 +1124,7 @@
 			"collector_number": "305",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1137,7 +1137,7 @@
 			"collector_number": "90",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Menace, deathtouch\nWhen Furies of the Natural Order enters, bless any number of target players. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Menace, deathtouch\nWhen Furies of the Natural Order enters, bless any number of target players. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Tether to Reality_TRX",
 				"mana_cost": "{2}{B}",
@@ -1148,7 +1148,7 @@
 				"collector_number": "90",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant player\nEnchanted player can't gain life.\nAt the beginning of your upkeep, enchanted player loses 1 life and you gain 1 life.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant player\nEnchanted player can't gain life.\nAt the beginning of your upkeep, enchanted player loses 1 life and you gain 1 life.",
 			}
 		},
 		
@@ -1201,7 +1201,7 @@
 			"collector_number": "91",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Gray Merchant of Asphodel enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "When Gray Merchant of Asphodel enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -1227,7 +1227,7 @@
 			"collector_number": "136",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nLegendary creatures you control have trample.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nLegendary creatures you control have trample.",
 		},
 		
 		{
@@ -1279,7 +1279,7 @@
 			"collector_number": "93",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, scry 1.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, scry 1.",
 		},
 		
 		{
@@ -1292,7 +1292,7 @@
 			"collector_number": "138",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]",
 		},
 		
 		{
@@ -1305,7 +1305,7 @@
 			"collector_number": "55",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)\nWhenever Horror of the Mystic Sea attacks, defending player mills two cards. If they milled two nonland cards this way, Horror of the Mystic Sea can't be blocked this turn.",
+			"oracle_text": "Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]\nWhenever Horror of the Mystic Sea attacks, defending player mills two cards. If they milled two nonland cards this way, Horror of the Mystic Sea can't be blocked this turn.",
 		},
 		
 		{
@@ -1318,7 +1318,7 @@
 			"collector_number": "94",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Ward-Sacrifice a permanent. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player sacrifices a permanent.)\nWhenever Host of the Neverending Revel enters or attacks, each player sacrifices a nonland, nontoken permanent. For each player who doesn't, you draw a card.",
+			"oracle_text": "Ward-Sacrifice a permanent. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player sacrifices a permanent.)[/i]\nWhenever Host of the Neverending Revel enters or attacks, each player sacrifices a nonland, nontoken permanent. For each player who doesn't, you draw a card.",
 		},
 		
 		{
@@ -1344,7 +1344,7 @@
 			"collector_number": "178",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Hunger's Door enters, you may return target Aura card from your graveyard to the battlefield attached to Hunger's Door. (You can't return a Blessing.)",
+			"oracle_text": "Trample\nWhen Hunger's Door enters, you may return target Aura card from your graveyard to the battlefield attached to Hunger's Door. [i](You can't return a Blessing.)[/i]",
 		},
 		
 		{
@@ -1357,7 +1357,7 @@
 			"collector_number": "21",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever Iara, Blessed-Hart attacks, Iara and another target attacking creature gain double strike until end of turn.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever Iara, Blessed-Hart attacks, Iara and another target attacking creature gain double strike until end of turn.",
 		},
 		
 		{
@@ -1370,7 +1370,7 @@
 			"collector_number": "139",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ignite deals damage to any target equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)",
+			"oracle_text": "Ignite deals damage to any target equal to your devotion to red. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]",
 		},
 		
 		{
@@ -1396,7 +1396,7 @@
 			"collector_number": "268",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nImposing Serpent enters with X +1/+1 counters on it.",
+			"oracle_text": "Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]\nImposing Serpent enters with X +1/+1 counters on it.",
 		},
 		
 		{
@@ -1422,7 +1422,7 @@
 			"collector_number": "140",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nLegendary permanents you control have haste and \"Ward-Pay 3 life.\"",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nLegendary permanents you control have haste and \"Ward-Pay 3 life.\"",
 		},
 		
 		{
@@ -1461,7 +1461,7 @@
 			"collector_number": "302",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1474,7 +1474,7 @@
 			"collector_number": "95",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature or enchantment you don't control. If your devotion to black is three or greater, you gain 3 life. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "Destroy target creature or enchantment you don't control. If your devotion to black is three or greater, you gain 3 life. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -1643,7 +1643,7 @@
 			"collector_number": "142",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Koios, Spear of Karda enters with a number of additional loyalty counters on him equal to your devotion to red. (He doesn't count himself.)\n[+1]: Exile the top three cards of your library. You may cast one of them.\n[-3]: Koios deals damage to any nonplayer target equal to your devotion to red.\n[-X]: Choose up to X target creatures with total mana value X or less. For each creature chosen this way, create a token that's a copy of it, except it has haste. Sacrifice those tokens at the beginning of the next end step.",
+			"oracle_text": "Koios, Spear of Karda enters with a number of additional loyalty counters on him equal to your devotion to red. [i](He doesn't count himself.)[/i]\n[+1]: Exile the top three cards of your library. You may cast one of them.\n[-3]: Koios deals damage to any nonplayer target equal to your devotion to red.\n[-X]: Choose up to X target creatures with total mana value X or less. For each creature chosen this way, create a token that's a copy of it, except it has haste. Sacrifice those tokens at the beginning of the next end step.",
 		},
 		
 		{
@@ -1708,7 +1708,7 @@
 			"collector_number": "181",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, creatures you control get +2/+2 until end of turn.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, creatures you control get +2/+2 until end of turn.",
 		},
 		
 		{
@@ -1734,7 +1734,7 @@
 			"collector_number": "23",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nLeonin Phalanx's power is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+			"oracle_text": "Vigilance\nLeonin Phalanx's power is equal to your devotion to white. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]",
 		},
 		
 		{
@@ -1760,7 +1760,7 @@
 			"collector_number": "57",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Kraken, Leviathan, Octopus, and Serpent spells you cast cost {X} less to cast, where X is your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+			"oracle_text": "Kraken, Leviathan, Octopus, and Serpent spells you cast cost {X} less to cast, where X is your devotion to blue. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 		},
 		
 		{
@@ -1799,7 +1799,7 @@
 			"collector_number": "225",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of combat on your turn, up to one target creature you control has base power and toughness X/X until end of turn, where X is the number of enchantments you control.\nWhen Lykaretos dies, bless target land. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "At the beginning of combat on your turn, up to one target creature you control has base power and toughness X/X until end of turn, where X is the number of enchantments you control.\nWhen Lykaretos dies, bless target land. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "The Miraculous Field_TRX",
 				"mana_cost": "{1}{G}{W}",
@@ -1810,7 +1810,7 @@
 				"collector_number": "225",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant land\nEnchanted land has \"{T}: Add two mana in any combination of colors. You gain 1 life.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant land\nEnchanted land has \"{T}: Add two mana in any combination of colors. You gain 1 life.\"",
 			}
 		},
 		
@@ -1850,7 +1850,7 @@
 			"collector_number": "24",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{6}: Put two +1/+1 counters on target creature you control. Activate only as a sorcery and only if your devotion to white is three or more. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+			"oracle_text": "{6}: Put two +1/+1 counters on target creature you control. Activate only as a sorcery and only if your devotion to white is three or more. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]",
 		},
 		
 		{
@@ -1902,7 +1902,7 @@
 			"collector_number": "61",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\n{5}: Draw a card. Activate only if your devotion to blue is three or greater. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+			"oracle_text": "Flying\n{5}: Draw a card. Activate only if your devotion to blue is three or greater. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 		},
 		
 		{
@@ -1980,7 +1980,7 @@
 			"collector_number": "144",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Mogis's Raider has first strike as long as it is attacking.\nWhen Mogis's Raider enters, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Mogis's Raider has first strike as long as it is attacking.\nWhen Mogis's Raider enters, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Raider's Blessing_TRX",
 				"mana_cost": "{R}",
@@ -2005,7 +2005,7 @@
 			"collector_number": "220",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ward-Sacrifice a permanent. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player sacrifices a permanent.)\nWhenever you cast a spell that targets Molpadia, the Last Acephali, exile the top card of your library. You may play it this turn.",
+			"oracle_text": "Ward-Sacrifice a permanent. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player sacrifices a permanent.)[/i]\nWhenever you cast a spell that targets Molpadia, the Last Acephali, exile the top card of your library. You may play it this turn.",
 		},
 		
 		{
@@ -2018,7 +2018,7 @@
 			"collector_number": "63",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Tap up to two target creatures. Put a stun counter on each of them. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+			"oracle_text": "Tap up to two target creatures. Put a stun counter on each of them. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
 		},
 		
 		{
@@ -2031,7 +2031,7 @@
 			"collector_number": "145",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gains first strike and gets +X/+0 until end of turn, where X is your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)",
+			"oracle_text": "Target creature gains first strike and gets +X/+0 until end of turn, where X is your devotion to red. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]",
 		},
 		
 		{
@@ -2044,7 +2044,7 @@
 			"collector_number": "304",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2057,7 +2057,7 @@
 			"collector_number": "184",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, creatures you control with power 4 or greater get +1/+1 and gain trample until end of turn.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, creatures you control with power 4 or greater get +1/+1 and gain trample until end of turn.",
 		},
 		
 		{
@@ -2135,7 +2135,7 @@
 			"collector_number": "101",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "This spell costs {2} less to cast if your devotion to black is three or greater. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\nScry 2, then draw two cards. You lose 2 life.",
+			"oracle_text": "This spell costs {2} less to cast if your devotion to black is three or greater. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]\nScry 2, then draw two cards. You lose 2 life.",
 		},
 		
 		{
@@ -2161,7 +2161,7 @@
 			"collector_number": "185",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Put a number of +1/+1 counters on target creature equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
+			"oracle_text": "Put a number of +1/+1 counters on target creature equal to your devotion to green. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -2174,7 +2174,7 @@
 			"collector_number": "186",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If you would add mana of a color to your mana pool, you may instead add an amount equal to your devotion to that color instead. (Each that in the mana costs of permanents you control counts toward your devotion to that.)",
+			"oracle_text": "If you would add mana of a color to your mana pool, you may instead add an amount equal to your devotion to that color instead. [i](Each that in the mana costs of permanents you control counts toward your devotion to that.)[/i]",
 		},
 		
 		{
@@ -2304,7 +2304,7 @@
 			"collector_number": "66",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever you attack, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Vigilance\nWhenever you attack, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Ocular Insight_TRX",
 				"mana_cost": "{U}",
@@ -2315,7 +2315,7 @@
 				"collector_number": "66",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature has \"Whenever this creature deals combat damage to a player or planeswalker, scry 1, then draw a card.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature has \"Whenever this creature deals combat damage to a player or planeswalker, scry 1, then draw a card.\"",
 			}
 		},
 		
@@ -2433,7 +2433,7 @@
 			"collector_number": "106",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nYour Champion has deathtouch.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nYour Champion has deathtouch.",
 		},
 		
 		{
@@ -2446,7 +2446,7 @@
 			"collector_number": "148",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nPetros's power is equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)\nWhenever Petros deals combat damage to a player, create an X/X colorless enchantment artifact creature token named Follower, where X is the amount of damage dealt.",
+			"oracle_text": "Trample\nPetros's power is equal to your devotion to red. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]\nWhenever Petros deals combat damage to a player, create an X/X colorless enchantment artifact creature token named Follower, where X is the amount of damage dealt.",
 		},
 		
 		{
@@ -2472,7 +2472,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever Pharika's Harbinger deals combat damage to a player, bless target creature that player controls. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Deathtouch\nWhenever Pharika's Harbinger deals combat damage to a player, bless target creature that player controls. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Poison in the Blood_TRX",
 				"mana_cost": "{2}{B}",
@@ -2483,7 +2483,7 @@
 				"collector_number": "107",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature has \"At the beginning of your upkeep, sacrifice a creature. If you can't, you lose 3 life.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature has \"At the beginning of your upkeep, sacrifice a creature. If you can't, you lose 3 life.\"",
 			}
 		},
 		
@@ -2535,7 +2535,7 @@
 			"collector_number": "108",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Once each turn, when you cast a black spell with mana value less than your devotion to black, you may draw a card and lose 1 life. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "Once each turn, when you cast a black spell with mana value less than your devotion to black, you may draw a card and lose 1 life. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -2613,7 +2613,7 @@
 			"collector_number": "301",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2665,7 +2665,7 @@
 			"collector_number": "30",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nAt the beginning of your end step, put a +1/+1 counter on your Champion.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nAt the beginning of your end step, put a +1/+1 counter on your Champion.",
 		},
 		
 		{
@@ -2678,7 +2678,7 @@
 			"collector_number": "112",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature gets -X/-X, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "Enchant creature\nEnchanted creature gets -X/-X, where X is your devotion to black. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -2717,7 +2717,7 @@
 			"collector_number": "150",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhenever you cast a spell that targets a single creature you control, bless that creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Flying\nWhenever you cast a spell that targets a single creature you control, bless that creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Consuming Flames_TRX",
 				"mana_cost": "{1}{R}{R}",
@@ -2728,7 +2728,7 @@
 				"collector_number": "150",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nWhenever enchanted creature deals combat damage to a player or planeswalker, you may sacrifice it. If you do, untap all creatures you control and after this phase, there is an additional combat phase.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nWhenever enchanted creature deals combat damage to a player or planeswalker, you may sacrifice it. If you do, untap all creatures you control and after this phase, there is an additional combat phase.",
 			}
 		},
 		
@@ -2807,7 +2807,7 @@
 			"collector_number": "192",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever Reaper of Fields attacks, bless target land. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Whenever Reaper of Fields attacks, bless target land. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Fields of Ilysia_TRX",
 				"mana_cost": "{G}",
@@ -2818,7 +2818,7 @@
 				"collector_number": "192",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant land\nEnchanted land has \"{T}: Add one mana of any color.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant land\nEnchanted land has \"{T}: Add one mana of any color.\"",
 			}
 		},
 		
@@ -2871,7 +2871,7 @@
 			"collector_number": "115",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Return any number of creature cards with total mana value less than or equal to twice your devotion to black from your graveyard to the battlefield. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "Return any number of creature cards with total mana value less than or equal to twice your devotion to black from your graveyard to the battlefield. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -2910,7 +2910,7 @@
 			"collector_number": "117",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhenever Secluded Gorgon dies, you may bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Lifelink\nWhenever Secluded Gorgon dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Glare of the Gorgon_TRX",
 				"mana_cost": "{1}{B}",
@@ -2921,7 +2921,7 @@
 				"collector_number": "117",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nFlash\nEnchant creature\nEnchanted creature gets +0/+2 and has deathtouch.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nFlash\nEnchant creature\nEnchanted creature gets +0/+2 and has deathtouch.",
 			}
 		},
 		
@@ -2935,7 +2935,7 @@
 			"collector_number": "194",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a Forest you control enters, put a +1/+1 counter on Seeker of New Horizons. Then you may remove four +1/+1 counters from among creatures you control. If you do, bless that land. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Whenever a Forest you control enters, put a +1/+1 counter on Seeker of New Horizons. Then you may remove four +1/+1 counters from among creatures you control. If you do, bless that land. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Ilysian Guardian_TRX",
 				"mana_cost": "{2}{G}",
@@ -2960,7 +2960,7 @@
 			"collector_number": "154",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Seismic Chimera enters, bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Trample\nWhen Seismic Chimera enters, bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Tectonic Rage_TRX",
 				"mana_cost": "{1}{R}",
@@ -2971,7 +2971,7 @@
 				"collector_number": "154",
 				"rarity": "common",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nAs long as you control enchanted creature, it gets +2/+2.\nEnchanted creature can't block.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nAs long as you control enchanted creature, it gets +2/+2.\nEnchanted creature can't block.",
 			}
 		},
 		
@@ -3232,7 +3232,7 @@
 			"collector_number": "197",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Siphon the Divine gains \"Creatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\"\nII - Target creature you control fights up to one target creature.\nIII - Exile target player's graveyard.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Siphon the Divine gains \"Creatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\"\nII - Target creature you control fights up to one target creature.\nIII - Exile target player's graveyard.",
 		},
 		
 		{
@@ -3336,7 +3336,7 @@
 			"collector_number": "119",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nFavored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever another legendary nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it, except it has no name, it isn't legendary, and it is a Zombie.",
+			"oracle_text": "Flying\nFavored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever another legendary nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it, except it has no name, it isn't legendary, and it is a Zombie.",
 		},
 		
 		{
@@ -3401,7 +3401,7 @@
 			"collector_number": "221",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Spikemane Lion dies, you may bless target creature. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Whenever Spikemane Lion dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Spikemane Cloak_TRX",
 				"mana_cost": "{R}{G}",
@@ -3412,7 +3412,7 @@
 				"collector_number": "221",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nWhenever enchanted creature becomes the target of a spell or ability, put a +1/+1 counter on it and that creature deals 1 damage to each opponent. This ability triggers no more than twice each turn.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nWhenever enchanted creature becomes the target of a spell or ability, put a +1/+1 counter on it and that creature deals 1 damage to each opponent. This ability triggers no more than twice each turn.",
 			}
 		},
 		
@@ -3452,7 +3452,7 @@
 			"collector_number": "200",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reach\nWhenever Star-Studded Sagittaur deals combat damage to a player, you may bless target land. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Reach\nWhenever Star-Studded Sagittaur deals combat damage to a player, you may bless target land. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Equinox Mark_TRX",
 				"mana_cost": "{1}{G}{G}",
@@ -3463,7 +3463,7 @@
 				"collector_number": "200",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant land\nEnchanted land has \"{T}: Add {G}{G}.\"",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant land\nEnchanted land has \"{T}: Add {G}{G}.\"",
 			}
 		},
 		
@@ -3477,7 +3477,7 @@
 			"collector_number": "120",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Favored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, it gets +2/+0 until end of turn.",
+			"oracle_text": "Favored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, it gets +2/+0 until end of turn.",
 		},
 		
 		{
@@ -3503,7 +3503,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nFavored (At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")\nWhenever your Champion attacks, untap it.",
+			"oracle_text": "Flying\nFavored [i](At the beginning of your combat, you may have a nonlegendary creature you control get +1/+1 and become legendary and named \"The Champion.\")[/i]\nWhenever your Champion attacks, untap it.",
 		},
 		
 		{
@@ -3529,7 +3529,7 @@
 			"collector_number": "303",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3685,7 +3685,7 @@
 			"collector_number": "202",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Terror of Olantin enters, create a number of 1/1 blue Tentacle creature tokens equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
+			"oracle_text": "When Terror of Olantin enters, create a number of 1/1 blue Tentacle creature tokens equal to your devotion to green. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -3698,7 +3698,7 @@
 			"collector_number": "73",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature gains hexproof until end of turn. Untap it.\nDraw a card if your devotion to blue is three or greater. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+			"oracle_text": "Target creature gains hexproof until end of turn. Untap it.\nDraw a card if your devotion to blue is three or greater. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]",
 		},
 		
 		{
@@ -3737,7 +3737,7 @@
 			"collector_number": "6",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying, vigilance\nWhen The Army of Trax enters, create a number of 0/0 white Army creature tokens equal to your devotion to white. Then put that many +1/+1 counters on each Army you control. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+			"oracle_text": "Flying, vigilance\nWhen The Army of Trax enters, create a number of 0/0 white Army creature tokens equal to your devotion to white. Then put that many +1/+1 counters on each Army you control. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]",
 		},
 		
 		{
@@ -3763,7 +3763,7 @@
 			"collector_number": "19",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Exile up to one target permanent with mana value 4 or greater.\nII - Create two 1/1 white Human creature tokens.\nIII - Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Exile up to one target permanent with mana value 4 or greater.\nII - Create two 1/1 white Human creature tokens.\nIII - Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
 		},
 		
 		{
@@ -3789,7 +3789,7 @@
 			"collector_number": "105",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Each opponent discards two cards, then mills two cards.\nII - Each opponent loses 2 life and you gain 2 life.\nIII - For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast it.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Each opponent discards two cards, then mills two cards.\nII - Each opponent loses 2 life and you gain 2 life.\nIII - For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast it.",
 		},
 		
 		{
@@ -3802,7 +3802,7 @@
 			"collector_number": "71",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Draw two cards.\nII - Return all nonland, nonenchantment permanents to their owners' hands.\nIII - You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
+			"oracle_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI - Draw two cards.\nII - Return all nonland, nonenchantment permanents to their owners' hands.\nIII - You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
 		},
 		
 		{
@@ -3906,7 +3906,7 @@
 			"collector_number": "233",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWard-{2}, Pay 2 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2} and pays 2 life.)\nWhenever you cast a noncreature spell, draw a card.",
+			"oracle_text": "Flying\nWard-{2}, Pay 2 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2} and pays 2 life.)[/i]\nWhenever you cast a noncreature spell, draw a card.",
 		},
 		
 		{
@@ -3971,7 +3971,7 @@
 			"collector_number": "77",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "This spell costs {2} less to cast if your devotion to blue is three or greater. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)\nScry 2, then draw two cards.",
+			"oracle_text": "This spell costs {2} less to cast if your devotion to blue is three or greater. [i](Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)[/i]\nScry 2, then draw two cards.",
 		},
 		
 		{
@@ -4101,7 +4101,7 @@
 			"collector_number": "122",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWard-Discard a card.\nYou have \"Ward-Discard a card.\"\nAt the beginning of your upkeep, your life total becomes equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+			"oracle_text": "Flying\nWard-Discard a card.\nYou have \"Ward-Discard a card.\"\nAt the beginning of your upkeep, your life total becomes equal to your devotion to black. [i](Each {B} in the mana costs of permanents you control counts toward your devotion to black.)[/i]",
 		},
 		
 		{
@@ -4140,7 +4140,7 @@
 			"collector_number": "81",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Prowess, prowess (Each instance of prowess triggers separately.)",
+			"oracle_text": "Prowess, prowess [i](Each instance of prowess triggers separately.)[/i]",
 		},
 		
 		{
@@ -4166,7 +4166,7 @@
 			"collector_number": "205",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever Wolf-Whistle Satyr deals combat damage to a player or planeswalker, you may sacrifice it. If you do, bless target creature you control. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Trample\nWhenever Wolf-Whistle Satyr deals combat damage to a player or planeswalker, you may sacrifice it. If you do, bless target creature you control. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Fable of Tooth and Fur_TRX",
 				"mana_cost": "{4}{G}{G}",
@@ -4177,7 +4177,7 @@
 				"collector_number": "205",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nWhen Fable of Tooth and Fur enters, create three 2/2 green Wolf creature tokens.\nEnchanted creature gets +1/+1 for each creature you control and gains trample.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nWhen Fable of Tooth and Fur enters, create three 2/2 green Wolf creature tokens.\nEnchanted creature gets +1/+1 for each creature you control and gains trample.",
 			}
 		},
 		
@@ -4282,7 +4282,7 @@
 			"collector_number": "164",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ward-Pay 2 life.\nWhenever Zygos attacks, bless target legendary creature you control. (Create a token copy of this creature's blessing attached to that permanent.)",
+			"oracle_text": "Ward-Pay 2 life.\nWhenever Zygos attacks, bless target legendary creature you control. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Blessing of Slaughter_TRX",
 				"mana_cost": "{2}{R}",
@@ -4293,7 +4293,7 @@
 				"collector_number": "164",
 				"rarity": "uncommon",
 				"subtypes": [],
-				"oracle_text": "(You may also cast this side from your hand.)\nEnchant creature\nEnchanted creature has double strike.",
+				"oracle_text": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature has double strike.",
 			}
 		},
 		

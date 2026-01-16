@@ -69,7 +69,7 @@
 			"collector_number": "90",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\nFlashback-{B}, Discard a card. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\nFlashback-{B}, Discard a card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -82,7 +82,7 @@
 			"collector_number": "133",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has \"Attacking creatures you control get +1/+0.\"\nWander {2}{R} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has \"Attacking creatures you control get +1/+0.\"\nWander {2}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -134,7 +134,7 @@
 			"collector_number": "265",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Trample\n{T}, Pay 1 life: Add {C}.\nWhenever Alranta Unleashed deals combat damage to a player, untap each Ruin you control. They become creatures in addition to their other types until the end of your next turn.\nSpellcharge 6 (At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Trample\n{T}, Pay 1 life: Add {C}.\nWhenever Alranta Unleashed deals combat damage to a player, untap each Ruin you control. They become creatures in addition to their other types until the end of your next turn.\nSpellcharge 6 [i](At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -173,7 +173,7 @@
 			"collector_number": "177",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Alrantan Visionary enters, reveal the top three cards of your library. Put a noncreature permanent card from among them into your hand and the rest into your graveyard.\n{T}: Add one mana of any color.\nWander {4}{G}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Alrantan Visionary enters, reveal the top three cards of your library. Put a noncreature permanent card from among them into your hand and the rest into your graveyard.\n{T}: Add one mana of any color.\nWander {4}{G}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -186,7 +186,7 @@
 			"collector_number": "223",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Ancient Conscriptor becomes spellcharged, gain control of target creature you don't control until end of turn. Untap it. It gains haste until end of turn.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Whenever Ancient Conscriptor becomes spellcharged, gain control of target creature you don't control until end of turn. Untap it. It gains haste until end of turn.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -199,7 +199,7 @@
 			"collector_number": "91",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)\nYou may cast Archaic Straggler from your graveyard if you've spent at least three mana to cast spells this turn.",
+			"oracle_text": "Menace\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]\nYou may cast Archaic Straggler from your graveyard if you've spent at least three mana to cast spells this turn.",
 		},
 		
 		{
@@ -225,7 +225,7 @@
 			"collector_number": "93",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhen Askir enters, each opponent loses life equal to the amount of life they've lost this turn.\nWander-{1}{B}{B}, Pay 4 life. (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Menace\nWhen Askir enters, each opponent loses life equal to the amount of life they've lost this turn.\nWander-{1}{B}{B}, Pay 4 life. [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -251,7 +251,7 @@
 			"collector_number": "45",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Askir's Rearguard enters, if a creature you control dealt combat damage to a player this turn, draw a card.\nWander {1}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Askir's Rearguard enters, if a creature you control dealt combat damage to a player this turn, draw a card.\nWander {1}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -277,7 +277,7 @@
 			"collector_number": "96",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nIf an opponent would lose life, they lose that much life plus 1 instead.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Deathtouch\nIf an opponent would lose life, they lose that much life plus 1 instead.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -316,7 +316,7 @@
 			"collector_number": "134",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Create a tapped 2/1 red Human Warrior creature token.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Create a tapped 2/1 red Human Warrior creature token.\nFlashback {2}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -329,7 +329,7 @@
 			"collector_number": "136",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Audacious Roughrider enters or leaves the battlefield, exile the top card of your library. Then you may discard a card. If you do, put the exiled card into your hand. If you don't, create a Treasure token.\nWander {4}{R}{R} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Audacious Roughrider enters or leaves the battlefield, exile the top card of your library. Then you may discard a card. If you do, put the exiled card into your hand. If you don't, create a Treasure token.\nWander {4}{R}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -381,7 +381,7 @@
 			"collector_number": "97",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Barbarous Roughrider enters or leaves the battlefield, each opponent loses 2 life unless they sacrifice a nontoken creature.\nWander {4}{B}{B} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Barbarous Roughrider enters or leaves the battlefield, each opponent loses 2 life unless they sacrifice a nontoken creature.\nWander {4}{B}{B} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -420,7 +420,7 @@
 			"collector_number": "179",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Ruins you control can't be blocked by creatures with power 2 or less.\n{1}, {T}: Put a +1/+1 counter on target Ruin.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Ruins you control can't be blocked by creatures with power 2 or less.\n{1}, {T}: Put a +1/+1 counter on target Ruin.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -459,7 +459,7 @@
 			"collector_number": "138",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever an attacking creature you control dies, Bleeding Edge Memorial deals 1 damage to defending player.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Whenever an attacking creature you control dies, Bleeding Edge Memorial deals 1 damage to defending player.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -485,7 +485,7 @@
 			"collector_number": "224",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Blind Keelah enters and whenever you cast a spell during an opponent's turn, each opponent loses 1 life and you surveil 1. This ability triggers only once each turn. (Look at the top card of your library. You may put that card into your graveyard.)",
+			"oracle_text": "Flash\nWhen Blind Keelah enters and whenever you cast a spell during an opponent's turn, each opponent loses 1 life and you surveil 1. This ability triggers only once each turn. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]",
 		},
 		
 		{
@@ -524,7 +524,7 @@
 			"collector_number": "47",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Breaching Jaxl enters, untap target nonland permanent.\nWander {2}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Flying\nWhen Breaching Jaxl enters, untap target nonland permanent.\nWander {2}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -537,7 +537,7 @@
 			"collector_number": "266",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nBreaking Ground must be blocked if able.\n{T}: Add {C}.\nSpellcharge 9 (At the beginning of combat on your turn, if you've spent at least nine mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Trample\nBreaking Ground must be blocked if able.\n{T}: Add {C}.\nSpellcharge 9 [i](At the beginning of combat on your turn, if you've spent at least nine mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -576,7 +576,7 @@
 			"collector_number": "180",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If this spell's flashback cost was paid, instead search your library for any number of land cards, put them onto the battlefield tapped, then shuffle.\nFlashback {3}{W}{U}{B}{R}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If this spell's flashback cost was paid, instead search your library for any number of land cards, put them onto the battlefield tapped, then shuffle.\nFlashback {3}{W}{U}{B}{R}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -589,7 +589,7 @@
 			"collector_number": "181",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reach\nBumbling Bigfoot doesn't untap during your untap step.\nWander {1}{G}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Reach\nBumbling Bigfoot doesn't untap during your untap step.\nWander {1}{G}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -602,7 +602,7 @@
 			"collector_number": "246",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "All spells cost {1} more to cast.\nSpellcharge 6 (At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "All spells cost {1} more to cast.\nSpellcharge 6 [i](At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -628,7 +628,7 @@
 			"collector_number": "8",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Wander {2}{W}{W} (You may cast this from the battlefield for its wander cost.)\n[-1]: Create your choice of a 1/1 white Bird creature token with flying or a 2/2 black Cat creature token.\n[-2]: If a permanent entering the battlefield under your control this turn causes an ability of a permanent you control to trigger, that ability triggers an additional time.\n[-3]: Put a +1/+1 counter on each creature you control.",
+			"oracle_text": "Wander {2}{W}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]\n[-1]: Create your choice of a 1/1 white Bird creature token with flying or a 2/2 black Cat creature token.\n[-2]: If a permanent entering the battlefield under your control this turn causes an ability of a permanent you control to trigger, that ability triggers an additional time.\n[-3]: Put a +1/+1 counter on each creature you control.",
 		},
 		
 		{
@@ -667,7 +667,7 @@
 			"collector_number": "248",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}: Add one mana of any color.\nWhenever Chains of Broken Oaths becomes spellcharged, untap it.\nSpellcharge 7 (At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "{T}: Add one mana of any color.\nWhenever Chains of Broken Oaths becomes spellcharged, untap it.\nSpellcharge 7 [i](At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -706,7 +706,7 @@
 			"collector_number": "9",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Choose one. If this spell's flashback cost was paid, instead choose three and you may choose the same mode more than once.\n• Create three 1/1 white Human creature tokens.\n• Put a +1/+1 counter on each creature you control.\n• Exile target nonland permanent until you control no creatures.\nFlashback {6}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Choose one. If this spell's flashback cost was paid, instead choose three and you may choose the same mode more than once.\n• Create three 1/1 white Human creature tokens.\n• Put a +1/+1 counter on each creature you control.\n• Exile target nonland permanent until you control no creatures.\nFlashback {6}{W}{W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -732,7 +732,7 @@
 			"collector_number": "49",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Choose one. If this spell's flashback cost was paid, instead choose three and you may choose the same mode more than once.\n• Draw two cards.\n• Create a token that's a copy of target artifact or creature you control.\n• Target player mills seven cards.\nFlashback {6}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Choose one. If this spell's flashback cost was paid, instead choose three and you may choose the same mode more than once.\n• Draw two cards.\n• Create a token that's a copy of target artifact or creature you control.\n• Target player mills seven cards.\nFlashback {6}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -745,7 +745,7 @@
 			"collector_number": "142",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Cliffside Scrappers enters, destroy target artifact an opponent controls.\nWander {3}{R}{R} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Cliffside Scrappers enters, destroy target artifact an opponent controls.\nWander {3}{R}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -758,7 +758,7 @@
 			"collector_number": "10",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Cliffwalker enters, return a permanent you control to its owner's hand.\nWander {1}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Cliffwalker enters, return a permanent you control to its owner's hand.\nWander {1}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -771,7 +771,7 @@
 			"collector_number": "50",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Conduit of Change enters, if you cast it, return all other nonland permanents to their owner's hands.\nSpellcharge 7 (At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Flash\nWhen Conduit of Change enters, if you cast it, return all other nonland permanents to their owner's hands.\nSpellcharge 7 [i](At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -810,7 +810,7 @@
 			"collector_number": "51",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "The next spell you cast this turn may be cast as though it had flash. When you cast that spell, copy it. You may choose new targets for the copy. (A copied permanent spell becomes a token.)\nFlashback {3}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "The next spell you cast this turn may be cast as though it had flash. When you cast that spell, copy it. You may choose new targets for the copy. [i](A copied permanent spell becomes a token.)[/i]\nFlashback {3}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -836,7 +836,7 @@
 			"collector_number": "144",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Destroy target artifact or land.\nFlashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Destroy target artifact or land.\nFlashback {4}{R}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -901,7 +901,7 @@
 			"collector_number": "145",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "You may choose this spell's targets at random. If you do, it costs {2} less to cast.\nReturn target instant or sorcery card from your graveyard to your hand.\nFlashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "You may choose this spell's targets at random. If you do, it costs {2} less to cast.\nReturn target instant or sorcery card from your graveyard to your hand.\nFlashback {6}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -940,7 +940,7 @@
 			"collector_number": "11",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Create a 1/1 white Human creature token, then put a +1/+1 counter on each creature you control.\nFlashback {5}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Create a 1/1 white Human creature token, then put a +1/+1 counter on each creature you control.\nFlashback {5}{W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -979,7 +979,7 @@
 			"collector_number": "54",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Scry 3, then draw three cards.\nIf this spell's flashback cost was paid, take an extra turn after this one.\nFlashback {7}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Scry 3, then draw three cards.\nIf this spell's flashback cost was paid, take an extra turn after this one.\nFlashback {7}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1005,7 +1005,7 @@
 			"collector_number": "147",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Elderflame Pilgrims enters, it deals 2 damage to target player or planeswalker.\nWander {5}{R} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Elderflame Pilgrims enters, it deals 2 damage to target player or planeswalker.\nWander {5}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1031,7 +1031,7 @@
 			"collector_number": "228",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{1}, Exile a permanent card from your graveyard: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{2}, Exile two permanent cards from your graveyard: Draw a card.\n{5}, Exile five permanent cards from your graveyard: Exchange your hand and graveyard.",
+			"oracle_text": "{1}, Exile a permanent card from your graveyard: Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\n{2}, Exile two permanent cards from your graveyard: Draw a card.\n{5}, Exile five permanent cards from your graveyard: Exchange your hand and graveyard.",
 		},
 		
 		{
@@ -1057,7 +1057,7 @@
 			"collector_number": "105",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Return up to three target creature cards from graveyards to the battlefield under your control.\nFlashback-{2}{B}{B}, Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Return up to three target creature cards from graveyards to the battlefield under your control.\nFlashback-{2}{B}{B}, Sacrifice three creatures. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1096,7 +1096,7 @@
 			"collector_number": "13",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever an opponent attacks with three or more creatures, you may have Eternal Sentinel become an artifact creature until end of turn.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Vigilance\nWhenever an opponent attacks with three or more creatures, you may have Eternal Sentinel become an artifact creature until end of turn.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1109,7 +1109,7 @@
 			"collector_number": "185",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Everpresent Rot enters, create a 1/1 green Saproling creature token, surveil 1, then you gain 1 life. (Look at the top card of your library. You may put that card into your graveyard.)\nWhen one or more permanent cards leave your graveyard, return Everpresent Rot to its owner's hand.",
+			"oracle_text": "When Everpresent Rot enters, create a 1/1 green Saproling creature token, surveil 1, then you gain 1 life. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nWhen one or more permanent cards leave your graveyard, return Everpresent Rot to its owner's hand.",
 		},
 		
 		{
@@ -1135,7 +1135,7 @@
 			"collector_number": "186",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reveal the top four cards of your library. Put up to two permanent cards from among them into your hand and the rest into your graveyard. You may put land cards onto the battlefield tapped rather than your hand.\nFlashback-{3}{G}, Tap an untapped Ruin you control. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Reveal the top four cards of your library. Put up to two permanent cards from among them into your hand and the rest into your graveyard. You may put land cards onto the battlefield tapped rather than your hand.\nFlashback-{3}{G}, Tap an untapped Ruin you control. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1148,7 +1148,7 @@
 			"collector_number": "149",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Exile the top two cards of your library. You may play those cards until you next cast a spell from your hand.\nFlashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Exile the top two cards of your library. You may play those cards until you next cast a spell from your hand.\nFlashback {3}{R}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1161,7 +1161,7 @@
 			"collector_number": "106",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature if its mana value is less than or equal to the amount of mana spent to cast this spell.\nFlashback {X}{B}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Destroy target creature if its mana value is less than or equal to the amount of mana spent to cast this spell.\nFlashback {X}{B}{B}{B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1174,7 +1174,7 @@
 			"collector_number": "150",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Firebolt deals 2 damage to any target.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Firebolt deals 2 damage to any target.\nFlashback {4}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1187,7 +1187,7 @@
 			"collector_number": "269",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\n{T}: Add {C}.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Flying\n{T}: Add {C}.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1213,7 +1213,7 @@
 			"collector_number": "282",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {G}.)",
+			"oracle_text": "[i]({T}: Add {G}.)[/i]",
 		},
 		
 		{
@@ -1239,7 +1239,7 @@
 			"collector_number": "250",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Forgemaster Dreadnought enters, create three Treasure tokens.\nSpellcharge 9 (At the beginning of combat on your turn, if you've spent at least nine mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "When Forgemaster Dreadnought enters, create three Treasure tokens.\nSpellcharge 9 [i](At the beginning of combat on your turn, if you've spent at least nine mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1265,7 +1265,7 @@
 			"collector_number": "251",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Forgotten Cultivator attacks, mill three cards. Return a permanent card from among the milled cards to your hand.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Whenever Forgotten Cultivator attacks, mill three cards. Return a permanent card from among the milled cards to your hand.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1304,7 +1304,7 @@
 			"collector_number": "152",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast instant and sorcery spells, you may pay {X}, where X is that spell's mana value. If you do, copy that spell, and you may choose new targets for the copy.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "As an additional cost to cast instant and sorcery spells, you may pay {X}, where X is that spell's mana value. If you do, copy that spell, and you may choose new targets for the copy.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1317,7 +1317,7 @@
 			"collector_number": "109",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhenever Gelthis deals combat damage to a player, that player reveals their hand. You choose a nonland card from it. Exile that card until Gelthis leaves the battlefield.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Menace\nWhenever Gelthis deals combat damage to a player, that player reveals their hand. You choose a nonland card from it. Exile that card until Gelthis leaves the battlefield.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1330,7 +1330,7 @@
 			"collector_number": "187",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If you have more life than your starting life total, this spell costs {X} less to cast, where X is equal to the difference.\nTrample\nWhen Glacier Guardian enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "If you have more life than your starting life total, this spell costs {X} less to cast, where X is equal to the difference.\nTrample\nWhen Glacier Guardian enters, you may have it fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -1408,7 +1408,7 @@
 			"collector_number": "56",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Grasping Ancient enters, exile up to one target instant or sorcery spell.\nWhenever Grasping Ancient attacks, you may cast the exiled card without paying its mana cost.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Flash\nWhen Grasping Ancient enters, exile up to one target instant or sorcery spell.\nWhenever Grasping Ancient attacks, you may cast the exiled card without paying its mana cost.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1434,7 +1434,7 @@
 			"collector_number": "190",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Search your library for a basic land card, put it into the battlefield tapped, then shuffle. If this spell's flashback cost was paid, search your library for a land card rather than a basic land card.\nFlashback-{G}, Sacrifice a land. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Search your library for a basic land card, put it into the battlefield tapped, then shuffle. If this spell's flashback cost was paid, search your library for a land card rather than a basic land card.\nFlashback-{G}, Sacrifice a land. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1460,7 +1460,7 @@
 			"collector_number": "112",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nPay the equip cost of an Equipment you control: Return Gutwrenched Martyr from your graveyard to the battlefield with a finality counter on it. Attach that Equipment to it. Activate only as a sorcery. (If a creature with a finality counter on it would die, exile it instead.)",
+			"oracle_text": "Lifelink\nPay the equip cost of an Equipment you control: Return Gutwrenched Martyr from your graveyard to the battlefield with a finality counter on it. Attach that Equipment to it. Activate only as a sorcery. [i](If a creature with a finality counter on it would die, exile it instead.)[/i]",
 		},
 		
 		{
@@ -1473,7 +1473,7 @@
 			"collector_number": "155",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature you control deals damage equal to its power to target creature. If this spell's flashback cost was paid, it deals that much damage to target player instead.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Target creature you control deals damage equal to its power to target creature. If this spell's flashback cost was paid, it deals that much damage to target player instead.\nFlashback {4}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1499,7 +1499,7 @@
 			"collector_number": "270",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\nSpellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Vigilance\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\nSpellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1538,7 +1538,7 @@
 			"collector_number": "192",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Hearty Roughrider enters or leaves the battlefield, you gain life equal to the greatest toughness among creatures you control.\nWander {4}{G}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Hearty Roughrider enters or leaves the battlefield, you gain life equal to the greatest toughness among creatures you control.\nWander {4}{G}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1590,7 +1590,7 @@
 			"collector_number": "58",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, if you cast no spells this turn, surveil 1.\nSpellcharge 6 (At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "At the beginning of your end step, if you cast no spells this turn, surveil 1.\nSpellcharge 6 [i](At the beginning of combat on your turn, if you've spent at least six mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1642,7 +1642,7 @@
 			"collector_number": "156",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Exile the top card of your library. You may play that card this turn.\nFlashback {R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Exile the top card of your library. You may play that card this turn.\nFlashback {R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1655,7 +1655,7 @@
 			"collector_number": "253",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Imposing Oddity enters with X +1/+1 counters on it.\nWhenever Imposing Oddity becomes spellcharged, put a +1/+1 counter on it.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)\nWhen Imposing Oddity dies, you may put its counters on another target Ruin you control.",
+			"oracle_text": "Imposing Oddity enters with X +1/+1 counters on it.\nWhenever Imposing Oddity becomes spellcharged, put a +1/+1 counter on it.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]\nWhen Imposing Oddity dies, you may put its counters on another target Ruin you control.",
 		},
 		
 		{
@@ -1668,7 +1668,7 @@
 			"collector_number": "229",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhen Indomitable Jicru enters, you gain 5 life and draw a card. If it wandered, creatures you control get +2/+2 until end of turn.\nWander {6}{G}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Vigilance\nWhen Indomitable Jicru enters, you gain 5 life and draw a card. If it wandered, creatures you control get +2/+2 until end of turn.\nWander {6}{G}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1681,7 +1681,7 @@
 			"collector_number": "279",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {U}.)",
+			"oracle_text": "[i]({T}: Add {U}.)[/i]",
 		},
 		
 		{
@@ -1694,7 +1694,7 @@
 			"collector_number": "194",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever Jens Slopeskidder or a land you control enters, put a +1/+1 counter on target creature you control.\nWander-{1}{G}, Return a land you control to its owner's hand. (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Haste\nWhenever Jens Slopeskidder or a land you control enters, put a +1/+1 counter on target creature you control.\nWander-{1}{G}, Return a land you control to its owner's hand. [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1707,7 +1707,7 @@
 			"collector_number": "115",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Exile target creature. Create a token that's a copy of it except it's a Ruin artifact instead of its other types and it has spellcharge X, where X is its mana value. (At the beginning of combat on your turn, if you've spent at least X mana to cast spells this turn, you may have that token become an artifact creature until end of turn.)",
+			"oracle_text": "Exile target creature. Create a token that's a copy of it except it's a Ruin artifact instead of its other types and it has spellcharge X, where X is its mana value. [i](At the beginning of combat on your turn, if you've spent at least X mana to cast spells this turn, you may have that token become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1720,7 +1720,7 @@
 			"collector_number": "157",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{X}{R}: Jorgen gets +X/+0 until end of turn.\nWhen Jorgen leaves the battlefield, he deals damage equal to his power to target opponent or planeswalker.\nWander {1}{R} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "{X}{R}: Jorgen gets +X/+0 until end of turn.\nWhen Jorgen leaves the battlefield, he deals damage equal to his power to target opponent or planeswalker.\nWander {1}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1733,7 +1733,7 @@
 			"collector_number": "19",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{1}{W}, {T}: Tap target creature.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "{1}{W}, {T}: Tap target creature.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1759,7 +1759,7 @@
 			"collector_number": "230",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Target attacking creature you control gets +1/+1 until end of turn for each creature you control.\n• Choose target creature you control. Create a number of 1/1 white Human creature tokens equal to that creature's power.\nFlashback {3}{R}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Choose one -\n• Target attacking creature you control gets +1/+1 until end of turn for each creature you control.\n• Choose target creature you control. Create a number of 1/1 white Human creature tokens equal to that creature's power.\nFlashback {3}{R}{W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1785,7 +1785,7 @@
 			"collector_number": "231",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Leyrune Collector enters, look at the top four cards of your library. You may reveal an artifact or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you revealed a land this way, you may put a land card from your hand onto the battlefield tapped.\nWander {3}{G}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Leyrune Collector enters, look at the top four cards of your library. You may reveal an artifact or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you revealed a land this way, you may put a land card from your hand onto the battlefield tapped.\nWander {3}{G}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1798,7 +1798,7 @@
 			"collector_number": "20",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+2.\nWander {2}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Enchant creature\nEnchanted creature gets +2/+2.\nWander {2}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1863,7 +1863,7 @@
 			"collector_number": "255",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Mass of Remains's power is equal to the total number of permanent cards you own in your graveyard and in exile.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Mass of Remains's power is equal to the total number of permanent cards you own in your graveyard and in exile.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1876,7 +1876,7 @@
 			"collector_number": "61",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target artifact or creature's owner puts it on the top or bottom of their library.\nFlashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Target artifact or creature's owner puts it on the top or bottom of their library.\nFlashback {5}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1889,7 +1889,7 @@
 			"collector_number": "197",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Mokar Cliffbreaker enters, you may exile a land card from your graveyard. If you do, you gain 4 life.\nWander {5}{G}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Mokar Cliffbreaker enters, you may exile a land card from your graveyard. If you do, you gain 4 life.\nWander {5}{G}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -1902,7 +1902,7 @@
 			"collector_number": "21",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nWhenever Mokar Warband attacks, create a 1/1 white Human creature token that's attacking. (It's untapped.)",
+			"oracle_text": "Vigilance\nWhenever Mokar Warband attacks, create a 1/1 white Human creature token that's attacking. [i](It's untapped.)[/i]",
 		},
 		
 		{
@@ -1941,7 +1941,7 @@
 			"collector_number": "160",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Cast this spell only during your turn.\nTarget creature gets +2/+0 and gains haste until end of turn. If it's attacking, instead it gets +2/+0 and gains trample until end of turn.\nFlashback {1}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Cast this spell only during your turn.\nTarget creature gets +2/+0 and gains haste until end of turn. If it's attacking, instead it gets +2/+0 and gains trample until end of turn.\nFlashback {1}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -1954,7 +1954,7 @@
 			"collector_number": "198",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Monument to Might's power and toughness are each equal to the number of lands you control.\nYou may look at the top card of your library any time, and you may play lands from the top of your library.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Monument to Might's power and toughness are each equal to the number of lands you control.\nYou may look at the top card of your library any time, and you may play lands from the top of your library.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -1967,7 +1967,7 @@
 			"collector_number": "199",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nWhenever Morbid Bloomer deals combat damage, you may pay {1}. When you do, return up to one other target permanent card from your graveyard to your hand.",
+			"oracle_text": "Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]\nWhenever Morbid Bloomer deals combat damage, you may pay {1}. When you do, return up to one other target permanent card from your graveyard to your hand.",
 		},
 		
 		{
@@ -1980,7 +1980,7 @@
 			"collector_number": "281",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {R}.)",
+			"oracle_text": "[i]({T}: Add {R}.)[/i]",
 		},
 		
 		{
@@ -2019,7 +2019,7 @@
 			"collector_number": "22",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Narzi, Hero of the Mokar enters, up to one other target creature gets +1/+1 and gains indestructible until end of turn. If she wandered, other creatures you control get +1/+1 and gain indestructible until end of turn instead.\nWander {4}{W}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Flash\nWhen Narzi, Hero of the Mokar enters, up to one other target creature gets +1/+1 and gains indestructible until end of turn. If she wandered, other creatures you control get +1/+1 and gain indestructible until end of turn instead.\nWander {4}{W}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2032,7 +2032,7 @@
 			"collector_number": "256",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Trample, ward {4}\nEquipped creature gets +4/+4 and has trample and ward {4}.\nEquip {4}\nSpellcharge 8 (At the beginning of combat on your turn, if you've spent at least eight mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)",
+			"oracle_text": "Trample, ward {4}\nEquipped creature gets +4/+4 and has trample and ward {4}.\nEquip {4}\nSpellcharge 8 [i](At the beginning of combat on your turn, if you've spent at least eight mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)[/i]",
 		},
 		
 		{
@@ -2084,7 +2084,7 @@
 			"collector_number": "62",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Opal-Eye Allseer enters or you cast a noncreature spell, create a 1/1 white Bird creature token with flying.\nWander-{1}{U}, Exile two instant and/or sorcery cards from your graveyard. (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Whenever Opal-Eye Allseer enters or you cast a noncreature spell, create a 1/1 white Bird creature token with flying.\nWander-{1}{U}, Exile two instant and/or sorcery cards from your graveyard. [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2097,7 +2097,7 @@
 			"collector_number": "26",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Opal-Eye Caretaker enters, put a +1/+1 counter on each creature you control that entered this turn and wasn't cast from your hand.\nWander {1}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Opal-Eye Caretaker enters, put a +1/+1 counter on each creature you control that entered this turn and wasn't cast from your hand.\nWander {1}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2136,7 +2136,7 @@
 			"collector_number": "64",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Opulent Roughrider enters or leaves the battlefield, surveil 1, then you may reveal the top card of your library. If that card has the same name as a permanent you control or a card in your graveyard, put it into your hand.\nWander {4}{U}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Opulent Roughrider enters or leaves the battlefield, surveil 1, then you may reveal the top card of your library. If that card has the same name as a permanent you control or a card in your graveyard, put it into your hand.\nWander {4}{U}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2214,7 +2214,7 @@
 			"collector_number": "67",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Defender\n{1}{U}: Permafrost Sentry becomes a copy of target Ruin you control. (It's not a creature, even if that Ruin is. This effect lasts indefinitely.)",
+			"oracle_text": "Defender\n{1}{U}: Permafrost Sentry becomes a copy of target Ruin you control. [i](It's not a creature, even if that Ruin is. This effect lasts indefinitely.)[/i]",
 		},
 		
 		{
@@ -2227,7 +2227,7 @@
 			"collector_number": "201",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Permafrost Tiger enters, you may have it fight target creature that entered this turn. (Each deals damage equal to its power to the other.)",
+			"oracle_text": "Flash\nWhen Permafrost Tiger enters, you may have it fight target creature that entered this turn. [i](Each deals damage equal to its power to the other.)[/i]",
 		},
 		
 		{
@@ -2266,7 +2266,7 @@
 			"collector_number": "278",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {W}.)",
+			"oracle_text": "[i]({T}: Add {W}.)[/i]",
 		},
 		
 		{
@@ -2292,7 +2292,7 @@
 			"collector_number": "119",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and can't block.\nWander {1}{B} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and can't block.\nWander {1}{B} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2318,7 +2318,7 @@
 			"collector_number": "69",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nThis spell costs {1} less to cast for each permanent with flash you control and each instant card in your graveyard.\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+			"oracle_text": "Flash\nThis spell costs {1} less to cast for each permanent with flash you control and each instant card in your graveyard.\nWard {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]",
 		},
 		
 		{
@@ -2422,7 +2422,7 @@
 			"collector_number": "204",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Reaching Remnant enters, it deals 4 damage to target creature with flying you don't control.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "When Reaching Remnant enters, it deals 4 damage to target creature with flying you don't control.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2435,7 +2435,7 @@
 			"collector_number": "120",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Return target artifact or creature card from your graveyard to the battlefield.\nFlashback-{3}{B}, Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Return target artifact or creature card from your graveyard to the battlefield.\nFlashback-{3}{B}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2461,7 +2461,7 @@
 			"collector_number": "205",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Mill a card. Put a +1/+1 counter on up to one target creature. Exile up to one target card from a graveyard. You gain 1 life.\nFlashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Mill a card. Put a +1/+1 counter on up to one target creature. Exile up to one target card from a graveyard. You gain 1 life.\nFlashback {1}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2487,7 +2487,7 @@
 			"collector_number": "121",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nEquipped creature gets +2/+0.\nEquip {2}\nSpellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)",
+			"oracle_text": "Flying\nEquipped creature gets +2/+0.\nEquip {2}\nSpellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)[/i]",
 		},
 		
 		{
@@ -2500,7 +2500,7 @@
 			"collector_number": "28",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Other creatures you control get +1/+1 and have vigilance.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Other creatures you control get +1/+1 and have vigilance.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2513,7 +2513,7 @@
 			"collector_number": "29",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "When Renowned Roughrider enters or leaves the battlefield, create a 1/1 white Human creature token. Then if you control four or more creatures, put a +1/+1 counter on a creature you control.\nWander {4}{W}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Renowned Roughrider enters or leaves the battlefield, create a 1/1 white Human creature token. Then if you control four or more creatures, put a +1/+1 counter on a creature you control.\nWander {4}{W}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2526,7 +2526,7 @@
 			"collector_number": "271",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\nWhenever Resting Place attacks, sacrifice it at end of combat.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "{T}: Add {C}.\nWhenever Resting Place attacks, sacrifice it at end of combat.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2552,7 +2552,7 @@
 			"collector_number": "122",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Rib Collector enters, if a creature has died this turn, return target non-Mercenary creature card from your graveyard to your hand.\nWander-{3}{B}, Sacrifice another creature. (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Rib Collector enters, if a creature has died this turn, return target non-Mercenary creature card from your graveyard to your hand.\nWander-{3}{B}, Sacrifice another creature. [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2578,7 +2578,7 @@
 			"collector_number": "235",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Search your library for a card with flashback and exile it, then shuffle. You may cast that card this turn. At the beginning of your next end step, if that card is in exile, put it into your graveyard.\nFlashback {U}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Search your library for a card with flashback and exile it, then shuffle. You may cast that card this turn. At the beginning of your next end step, if that card is in exile, put it into your graveyard.\nFlashback {U}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2604,7 +2604,7 @@
 			"collector_number": "208",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Reach\nWhen Roaming Treefolk enters, target creature or Ruin gets +2/+2 until end of turn.\nWander {5}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Reach\nWhen Roaming Treefolk enters, target creature or Ruin gets +2/+2 until end of turn.\nWander {5}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2656,7 +2656,7 @@
 			"collector_number": "71",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen Sanctum of the Two Truths enters, draw two cards.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Flash\nWhen Sanctum of the Two Truths enters, draw two cards.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2669,7 +2669,7 @@
 			"collector_number": "170",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{1}{R}, {T}, Discard a card: Draw a card. Scalding Crucible deals 1 damage to each opponent.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "{1}{R}, {T}, Discard a card: Draw a card. Scalding Crucible deals 1 damage to each opponent.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2682,7 +2682,7 @@
 			"collector_number": "72",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Scry 2, then draw a card.\nFlashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Scry 2, then draw a card.\nFlashback {4}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2695,7 +2695,7 @@
 			"collector_number": "210",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Double target creature's power and toughness until end of turn.\nFlashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Double target creature's power and toughness until end of turn.\nFlashback {1}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2747,7 +2747,7 @@
 			"collector_number": "211",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Seer of the Aspirants enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nWander {2}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Seer of the Aspirants enters, surveil 1. [i](Look at the top card of your library. You may put that card into your graveyard.)[/i]\nWander {2}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2799,7 +2799,7 @@
 			"collector_number": "75",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhenever you cast Siflir, Elder Pawn or another spell, if you paid an alternate or additional cost to cast it, draw a card.\nWander {3}{U}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Flash\nWhenever you cast Siflir, Elder Pawn or another spell, if you paid an alternate or additional cost to cast it, draw a card.\nWander {3}{U}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2812,7 +2812,7 @@
 			"collector_number": "76",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant artifact or creature\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step.\nWander {3}{U}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Enchant artifact or creature\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step.\nWander {3}{U}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2864,7 +2864,7 @@
 			"collector_number": "212",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Slumbering Grove enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nSpellcharge 8 (At the beginning of combat on your turn, if you've spent at least eight mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "When Slumbering Grove enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nSpellcharge 8 [i](At the beginning of combat on your turn, if you've spent at least eight mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -2877,7 +2877,7 @@
 			"collector_number": "78",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Snowscryer enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+			"oracle_text": "When Snowscryer enters, surveil 3. [i](Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
 		},
 		
 		{
@@ -2916,7 +2916,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Create a 1/1 green Saproling creature token for each permanent card in your graveyard.\nFlashback-{3}{G}, Exile two permanent cards from your graveyard. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Create a 1/1 green Saproling creature token for each permanent card in your graveyard.\nFlashback-{3}{G}, Exile two permanent cards from your graveyard. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -2942,7 +2942,7 @@
 			"collector_number": "79",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nSpringsoarer enters with a +1/+1 counter on it if a creature you controlled dealt combat damage to a player this turn.\nWander {2}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Flying\nSpringsoarer enters with a +1/+1 counter on it if a creature you controlled dealt combat damage to a player this turn.\nWander {2}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -2955,7 +2955,7 @@
 			"collector_number": "238",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Squallrunner Duo enters, create a 1/1 white Human creature token.\nNontoken creatures you control that have attacked this turn have wander {2}. (You may cast those creatures from the battlefield for {2}. Timing restrictions still apply.)",
+			"oracle_text": "Flying\nWhen Squallrunner Duo enters, create a 1/1 white Human creature token.\nNontoken creatures you control that have attacked this turn have wander {2}. [i](You may cast those creatures from the battlefield for {2}. Timing restrictions still apply.)[/i]",
 		},
 		
 		{
@@ -2981,7 +2981,7 @@
 			"collector_number": "272",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{T}: Add {C}.\n{T}: Add {C}{C}. Activate only if Steadfast Gatekeepers is a creature.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Vigilance\n{T}: Add {C}.\n{T}: Add {C}{C}. Activate only if Steadfast Gatekeepers is a creature.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3020,7 +3020,7 @@
 			"collector_number": "215",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhen Summoning Swords enters, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.\nSpellcharge 7 (At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Haste\nWhen Summoning Swords enters, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.\nSpellcharge 7 [i](At the beginning of combat on your turn, if you've spent at least seven mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3046,7 +3046,7 @@
 			"collector_number": "280",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "({T}: Add {B}.)",
+			"oracle_text": "[i]({T}: Add {B}.)[/i]",
 		},
 		
 		{
@@ -3072,7 +3072,7 @@
 			"collector_number": "174",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Haste\nSpellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Haste\nSpellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3098,7 +3098,7 @@
 			"collector_number": "37",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Taiga Bonder enters, put a +1/+1 counter on target creature.\nWander {3}{W}{W} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Taiga Bonder enters, put a +1/+1 counter on target creature.\nWander {3}{W}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -3124,7 +3124,7 @@
 			"collector_number": "273",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "{T}: Add {C}.\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3150,7 +3150,7 @@
 			"collector_number": "82",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Draw three cards. Then discard two cards unless you discard a card with flashback.\nFlashback {6}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Draw three cards. Then discard two cards unless you discard a card with flashback.\nFlashback {6}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3241,7 +3241,7 @@
 			"collector_number": "257",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Spellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Spellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3254,7 +3254,7 @@
 			"collector_number": "83",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Tireless Aspirants enters, you may draw a card. If you do, discard a card.\nWander {1}{U} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "When Tireless Aspirants enters, you may draw a card. If you do, discard a card.\nWander {1}{U} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -3293,7 +3293,7 @@
 			"collector_number": "275",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\n{T}: Add {C}.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "Deathtouch\n{T}: Add {C}.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3319,7 +3319,7 @@
 			"collector_number": "241",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever a Ruin you control becomes spellcharged, it gains haste until end of turn.\nSpellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Whenever a Ruin you control becomes spellcharged, it gains haste until end of turn.\nSpellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3332,7 +3332,7 @@
 			"collector_number": "259",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Indestructible\nEquipped creature has indestructible as long as it's your turn.\nEquip {1}\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)",
+			"oracle_text": "Indestructible\nEquipped creature has indestructible as long as it's your turn.\nEquip {1}\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)[/i]",
 		},
 		
 		{
@@ -3345,7 +3345,7 @@
 			"collector_number": "127",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Search your library for a card, put it into your hand, then shuffle.\nFlashback-{1}{B}, Discard a card, Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Search your library for a card, put it into your hand, then shuffle.\nFlashback-{1}{B}, Discard a card, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3371,7 +3371,7 @@
 			"collector_number": "276",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\nWhenever Unwavering Gates attacks, other creatures you control gain indestructible until end of turn.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "{T}: Add {C}.\nWhenever Unwavering Gates attacks, other creatures you control gain indestructible until end of turn.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3397,7 +3397,7 @@
 			"collector_number": "40",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Valley Caravan's power and toughness are each equal to the number of creatures you control.\nWander {3}{W}{W} (You may cast this from the battlefield for its wander cost.)\nWhen Valley Caravan enters, if it wandered, create a 1/1 white Human creature token.",
+			"oracle_text": "Valley Caravan's power and toughness are each equal to the number of creatures you control.\nWander {3}{W}{W} [i](You may cast this from the battlefield for its wander cost.)[/i]\nWhen Valley Caravan enters, if it wandered, create a 1/1 white Human creature token.",
 		},
 		
 		{
@@ -3410,7 +3410,7 @@
 			"collector_number": "261",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Spellcharge 2 (At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)\nWhen Vanquished Conqueror dies, draw a card.",
+			"oracle_text": "Spellcharge 2 [i](At the beginning of combat on your turn, if you've spent at least two mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]\nWhen Vanquished Conqueror dies, draw a card.",
 		},
 		
 		{
@@ -3423,7 +3423,7 @@
 			"collector_number": "41",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Equipped creature gets +2/+2.\nEquip {2}\nSpellcharge 4 (At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)",
+			"oracle_text": "Equipped creature gets +2/+2.\nEquip {2}\nSpellcharge 4 [i](At the beginning of combat on your turn, if you've spent at least four mana to cast spells this turn, you may have this become an artifact creature until end of turn. It can't attach while a creature.)[/i]",
 		},
 		
 		{
@@ -3436,7 +3436,7 @@
 			"collector_number": "218",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Enchant creature or land\nWhen Verdant Grandeur enters, scry 2.\nEnchanted permanent has vigilance and \"{T}: Add {G}{G}.\"\nWander {3}{G}{G} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Enchant creature or land\nWhen Verdant Grandeur enters, scry 2.\nEnchanted permanent has vigilance and \"{T}: Add {G}{G}.\"\nWander {3}{G}{G} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -3462,7 +3462,7 @@
 			"collector_number": "128",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target player discards two cards and loses 2 life. If this spell's flashback cost was paid, instead that player discards a card and loses 1 life.\nFlashback {B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Target player discards two cards and loses 2 life. If this spell's flashback cost was paid, instead that player discards a card and loses 1 life.\nFlashback {B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3488,7 +3488,7 @@
 			"collector_number": "85",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Target creature can't be blocked this turn. If this spell's flashback cost was paid, put a +1/+1 counter on that creature.\nFlashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Target creature can't be blocked this turn. If this spell's flashback cost was paid, put a +1/+1 counter on that creature.\nFlashback {1}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3501,7 +3501,7 @@
 			"collector_number": "42",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You gain 4 life. If this spell's flashback cost was paid, draw a card.\nFlashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "You gain 4 life. If this spell's flashback cost was paid, draw a card.\nFlashback {3}{W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3514,7 +3514,7 @@
 			"collector_number": "263",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{T}: Scry 1.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Vigilance\n{T}: Scry 1.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3527,7 +3527,7 @@
 			"collector_number": "277",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\nWhenever Wasted Watchpost deals combat damage to a player, you may sacrifice it. When you do, destroy target nonbasic land that player controls.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)",
+			"oracle_text": "{T}: Add {C}.\nWhenever Wasted Watchpost deals combat damage to a player, you may sacrifice it. When you do, destroy target nonbasic land that player controls.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become a land creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3540,7 +3540,7 @@
 			"collector_number": "129",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhen Weathered Blackguard enters, you may attach target Equipment you control to it.\nWander {2}{B} (You may cast this from the battlefield for its wander cost.)",
+			"oracle_text": "Lifelink\nWhen Weathered Blackguard enters, you may attach target Equipment you control to it.\nWander {2}{B} [i](You may cast this from the battlefield for its wander cost.)[/i]",
 		},
 		
 		{
@@ -3553,7 +3553,7 @@
 			"collector_number": "86",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Creatures your opponents control get -1/-0.\nSpellcharge 5 (At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "Creatures your opponents control get -1/-0.\nSpellcharge 5 [i](At the beginning of combat on your turn, if you've spent at least five mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3605,7 +3605,7 @@
 			"collector_number": "44",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create X 1/1 white Insect creature tokens with flying.\nFlashback-{3}{W}{W}, Tap X untapped creatures you control. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Create X 1/1 white Insect creature tokens with flying.\nFlashback-{3}{W}{W}, Tap X untapped creatures you control. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
@@ -3618,7 +3618,7 @@
 			"collector_number": "130",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Widowed Maiden enters, return target creature card from your graveyard to your hand.\nSpellcharge 3 (At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)",
+			"oracle_text": "When Widowed Maiden enters, return target creature card from your graveyard to your hand.\nSpellcharge 3 [i](At the beginning of combat on your turn, if you've spent at least three mana to cast spells this turn, you may have this become an artifact creature until end of turn.)[/i]",
 		},
 		
 		{
@@ -3644,7 +3644,7 @@
 			"collector_number": "88",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Tap up to one target creature. Creatures you don't control don't untap during their controllers' next untap step.\nFlashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+			"oracle_text": "Tap up to one target creature. Creatures you don't control don't untap during their controllers' next untap step.\nFlashback {4}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
 		
 		{
