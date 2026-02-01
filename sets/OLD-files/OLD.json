@@ -2953,7 +2953,7 @@
             "number": 116,
             "color_identity": "B",
             "cost": "{B}{B}",
-            "rules_text": "Pay life equal to the number of cards you've drawn this turn, then draw a card. You may repeat this process any number of times.",
+            "rules_text": "Pay life equal to the number of cards you've drawn this turn. If you do, draw a card. You may repeat that process any number of times.",
             "flavor_text": "[i]Narzi knew she would likely never return to the Mokar, but she had a hunch that this Thoveus had something to do with the Elders' reawakening.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -2963,7 +2963,7 @@
             "artist": "Ling Xiang",
             "play_rate": 14,
             "signature": "",
-            "word_count": 25
+            "word_count": 27
         },
         {
             "card_name": "Mass of Remains_OLD",

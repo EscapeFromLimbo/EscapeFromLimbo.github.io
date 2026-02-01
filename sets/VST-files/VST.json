@@ -4675,7 +4675,7 @@
             "number": 35,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Exile two target creatures, enchantments, and/or lands you control, then return those cards to the battlefield under your control.",
+            "rules_text": "Exile two target creatures, enchantments, and/or lands you control, then return those cards to the battlefield under their owner's control.",
             "flavor_text": "[i]\"Get in, then get out. That's the way we've always done it.\"\n-Ori, relic hunter\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4685,7 +4685,7 @@
             "artist": "Pierre Raveneau",
             "play_rate": 0,
             "signature": "",
-            "word_count": 19
+            "word_count": 20
         },
         {
             "card_name": "Survival Gear_VST",

@@ -3960,6 +3960,19 @@
 		},
 		
 		{
+			"name": "On an Adventure KDT",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/14t_On an Adventure KDT.jpg",
+			"colors": [],
+			"set": "KDT",
+			"collector_number": "14",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "After an Adventure resolves, you can place the exiled card here. You may cast the creature from exile.",
+		},
+		
+		{
 			"name": "Hardsuit KDT",
 			"mana_cost": "",
 			"type": "Token",
@@ -4152,19 +4165,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
-		},
-		
-		{
-			"name": "On An Adventure KDT",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/14t_On An Adventure KDT.jpg",
-			"colors": [],
-			"set": "KDT",
-			"collector_number": "14",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "After an Adventure resolves, you can place the exiled card here. You may cast the creature from exile.",
 		},
 		
 		{
@@ -4491,6 +4491,7 @@
 [Token]
 20 blue Bird 11KDT
 20 blue Ninja 11KDT
+20 On an Adventure KDT
 20 Hardsuit KDT
 20 Treasure KDT
 20 Time Bubble KDT
@@ -4506,7 +4507,6 @@
 20 colorless Golem 00KDT
 20 white Monkey 11KDT
 20 Hardsuit KDT 2
-20 On An Adventure KDT
 20 colorless Saga KDT
 
 [Wildcard]

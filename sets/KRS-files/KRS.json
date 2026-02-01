@@ -5000,7 +5000,7 @@
             "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Exile target nonland permanent, then return it to the battlefield under its owner's control.\nCrystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
+            "rules_text": "Exile target creature or enchantment, then return it to the battlefield under its owner's control. If a creature entered the battlefield under your control this way, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
             "flavor_text": "[i]For some, the Elseworlds are an opportunity for a second chance.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -5010,7 +5010,7 @@
             "artist": "Adriana Dragusel",
             "play_rate": 117,
             "signature": "",
-            "word_count": 14
+            "word_count": 27
         },
         {
             "card_name": "Stonekin Stoic_KRS",

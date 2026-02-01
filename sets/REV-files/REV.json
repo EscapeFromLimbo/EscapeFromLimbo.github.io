@@ -477,6 +477,27 @@
             "word_count": 18
         },
         {
+            "card_name": "Duress_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "B",
+            "rarity": "mythic",
+            "type": "Sorcery",
+            "number": 103,
+            "color_identity": "B",
+            "cost": "{B}",
+            "rules_text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "kankan33333",
+            "play_rate": 2021,
+            "signature": "",
+            "word_count": 18
+        },
+        {
             "card_name": "Eavesdrop_REV",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
@@ -628,7 +649,7 @@
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "mythic",
-            "type": "Enchantment Creature \u2014 Elemental",
+            "type": "Creature \u2014 Elemental",
             "number": 86,
             "color_identity": "R",
             "cost": "{2}{R}",
@@ -1742,7 +1763,7 @@
             "number": 52,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Exile target nonland permanent, then return it to the battlefield under its owner's control.\nCrystallize.",
+            "rules_text": "Exile target creature or enchantment, then return it to the battlefield under its owner's control. If a creature entered the battlefield under your control this way, crystallize. [i](Put a +1/+1 counter on a creature you control or create a Treasure token.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1752,7 +1773,7 @@
             "artist": "gam3sd3an",
             "play_rate": 117,
             "signature": "",
-            "word_count": 14
+            "word_count": 27
         },
         {
             "card_name": "Sustainable Investments_REV",

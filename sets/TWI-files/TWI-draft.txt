@@ -35,7 +35,7 @@
 		
 		{
 			"name": "Advance of Fire and Faith",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Battle",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/124_Advance of Fire and Faith.jpg",
 			"colors": ["R"],
@@ -43,7 +43,7 @@
 			"collector_number": "124",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Advance of Fire and Faith enters, it deals 2 damage to each creature you don't control.\nDefeated - Creatures you control have haste.",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Advance of Fire and Faith enters, it deals 2 damage to any nonbattle target and 1 damage to up to one other nonbattle target.\nDefeated - Creatures you control have haste.\n- ",
 		},
 		
 		{
@@ -2407,7 +2407,7 @@
 			"collector_number": "65",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, draw three cards.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature spell, copy it. You may choose new targets for the copy.",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, draw three cards.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
 		},
 		
 		{

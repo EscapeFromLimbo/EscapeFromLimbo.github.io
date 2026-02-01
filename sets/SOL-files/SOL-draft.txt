@@ -1049,7 +1049,7 @@
 		
 		{
 			"name": "Darksun Migrant",
-			"mana_cost": "{R}",
+			"mana_cost": "{R}{R}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/126_Darksun Migrant.jpg",
 			"colors": ["R"],
@@ -1057,7 +1057,7 @@
 			"collector_number": "126",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Darksun Migrant attacks, you may discard a card. If you do, Darksun Migrant gains double strike until end of turn, then exile the top card of your library. You may play it this turn.\nDarksun Migrant gets +1/+0 if you have one or fewer cards in hand.",
+			"oracle_text": "Whenever you attack, you may discard a card. If you do, exile the top card of your library. You may play it this turn.\nOnce during each of your turns, when a player discards a card, you may choose up to one target creature. That creature can't block this turn.",
 		},
 		
 		{
@@ -1491,7 +1491,7 @@
 		
 		{
 			"name": "Foes Unfed",
-			"mana_cost": "{3}{G}",
+			"mana_cost": "{X}{G}{G}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/169_Foes Unfed.jpg",
 			"colors": ["G"],
@@ -1499,7 +1499,7 @@
 			"collector_number": "169",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Search your library for up to four creature cards with mana value 3 or less that each have different names and reveal them. Target opponent chooses two of those cards. Shuffle the chosen cards into your library, and put the rest onto the battlefield.",
+			"oracle_text": "Search your library for up to four creature cards with mana value X or less that each have different names and reveal them. Target opponent chooses two of those cards. Shuffle the chosen cards into your library, and put the rest onto the battlefield.",
 		},
 		
 		{
@@ -2127,26 +2127,13 @@
 		},
 		
 		{
-			"name": "Lightless Conquest",
-			"mana_cost": "{1}{B}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/91_Lightless Conquest.jpg",
-			"colors": ["B"],
-			"set": "SOL",
-			"collector_number": "91",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "Whenever Lightless Conquest or another enchantment you control enters, create a 1/1 white Elemental creature token with \"This creature can't block.\"\nWhenever an artifact you control enters, you may sacrifice a creature. If you do, create a 3/2 black Elemental creature token.",
-		},
-		
-		{
 			"name": "Lightless Diviner",
 			"mana_cost": "{3}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/92_Lightless Diviner.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/91_Lightless Diviner.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "92",
+			"collector_number": "91",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Syzygy [i](Each other creature you tap while casting this spell or activating its abilities pays for {1}.)[/i]\n{5}{B}, {T}: You draw a card and you lose 1 life.",
@@ -2247,10 +2234,10 @@
 			"name": "Manifest Naught",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/93_Manifest Naught.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/92_Manifest Naught.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "93",
+			"collector_number": "92",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "This spell costs {2} less to cast if a player discarded a card this turn.\nDraw two cards. Each opponent loses 2 life and you gain 2 life.",
@@ -2273,10 +2260,10 @@
 			"name": "Mantle of Dusk",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/94_Mantle of Dusk.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/93_Mantle of Dusk.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "94",
+			"collector_number": "93",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Enchant creature you control\nWhen Mantle of Dusk enters, each opponent sacrifices a creature.\nWhen enchanted creature dies, return that card to its owner's hand.",
@@ -2286,13 +2273,13 @@
 			"name": "March of the Long Night",
 			"mana_cost": "{B}{B}",
 			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/95_March of the Long Night.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/94_March of the Long Night.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "95",
+			"collector_number": "94",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield.\nEach opponent loses 3 life.",
+			"oracle_text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains deathtouch and haste until end of turn.",
 		},
 		
 		{
@@ -2351,10 +2338,10 @@
 			"name": "Mercenary of Dusk",
 			"mana_cost": "{B}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/96_Mercenary of Dusk.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/95_Mercenary of Dusk.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "96",
+			"collector_number": "95",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Menace\nWhenever Mercenary of Dusk enters or attacks, any number of target players each mill two cards.",
@@ -2533,10 +2520,10 @@
 			"name": "Nether Ponderings",
 			"mana_cost": "{3}{B}",
 			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/97_Nether Ponderings.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/96_Nether Ponderings.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "97",
+			"collector_number": "96",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Whenever you draw a card, each opponent loses 1 life and you gain 1 life.",
@@ -2546,10 +2533,10 @@
 			"name": "Nightfall",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/98_Nightfall.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/97_Nightfall.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "98",
+			"collector_number": "97",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Choose one -\n• All creatures get -4/-4 until end of turn.\n• Create a 4/4 black Dragon creature token with flying.",
@@ -2559,10 +2546,10 @@
 			"name": "Nightshade Extricator",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/99_Nightshade Extricator.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/98_Nightshade Extricator.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "99",
+			"collector_number": "98",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Lifelink, wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nNightshade Extricator enters with a -1/-1 counter on it.\n{2}{B}: Move a -1/-1 counter from Nightshade Extricator onto another target creature. Activate only as a sorcery.",
@@ -2572,10 +2559,10 @@
 			"name": "Nihilmonger",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/100_Nihilmonger.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/99_Nihilmonger.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "100",
+			"collector_number": "99",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "At the beginning of your upkeep, discard a card.\nAt the beginning of your end step, each opponent loses 1 life for each player that discarded a card this turn.",
@@ -2650,10 +2637,10 @@
 			"name": "Nuillae Exidus",
 			"mana_cost": "{6}{B}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/101_Nuillae Exidus.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/100_Nuillae Exidus.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "101",
+			"collector_number": "100",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Whenever Nuillae Exidus attacks, defending player sacrifices each creature and planeswalker they control with the lowest mana value among creatures and planeswalkers they control.\n-----\nPath of Hunger {1}{B}\nInstant - Adventure\nTarget player sacrifices a creature or planeswalker. *[i](Then exile this card. You may cast the creature later from exile.)[/i]*",
@@ -2715,10 +2702,10 @@
 			"name": "Oblivion Surveyor",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/102_Oblivion Surveyor.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/101_Oblivion Surveyor.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "102",
+			"collector_number": "101",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "When Oblivion Surveyor enters, each player discards a card. If you discarded a card this way, create a Chart token. [i](It has \"{2}, Sacrifice this artifact: Reveal cards from the top of your library until you reveal a land card. Put it into your hand and the rest on the bottom in a random order.\")[/i]",
@@ -2806,10 +2793,10 @@
 			"name": "Phemeros Ley-Pillar",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/103_Phemeros Ley-Pillar.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/102_Phemeros Ley-Pillar.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "103",
+			"collector_number": "102",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Defender\nWhen Phemeros Ley-Pillar enters, if you cast it, target player reveals their hand. You may choose a nonland card from it. If you do, that player discards that card.",
@@ -2819,10 +2806,10 @@
 			"name": "Phemeros Redeemer",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/104_Phemeros Redeemer.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/103_Phemeros Redeemer.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "104",
+			"collector_number": "103",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "When Phemeros Redeemer enters, if you cast it from your hand, return target creature or planeswalker card from your graveyard to your hand.\nOnce during each of your turns, when a creature or planeswalker card leaves your graveyard, you may cast a copy of it by paying life equal to its mana value instead of paying its mana cost.",
@@ -2975,10 +2962,10 @@
 			"name": "Qaraz Ley-Spire",
 			"mana_cost": "{3}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/105_Qaraz Ley-Spire.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/104_Qaraz Ley-Spire.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "105",
+			"collector_number": "104",
 			"rarity": "rare",
 			"subtypes": [],
 			"oracle_text": "Defender\nWhen Qaraz Ley-Spire enters, if you cast it, choose a card name other than a basic land card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
@@ -2988,10 +2975,10 @@
 			"name": "Qaraz Martyr",
 			"mana_cost": "{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/106_Qaraz Martyr.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/105_Qaraz Martyr.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "106",
+			"collector_number": "105",
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "{X}{B}, Sacrifice Qaraz Martyr: You draw X cards and you lose X life.",
@@ -3053,10 +3040,10 @@
 			"name": "Rastabahl, the Enduring Star",
 			"mana_cost": "{7}{B}{B}{B}",
 			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/107_Rastabahl, the Enduring Star.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/106_Rastabahl, the Enduring Star.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "107",
+			"collector_number": "106",
 			"rarity": "mythic",
 			"subtypes": [],
 			"oracle_text": "Flying\nWhen you cast this spell, each opponent loses half their life, rounded up. You gain life equal to the life lost this way.\n-----\nPath of Oblivion {B}\nSorcery - Adventure\nTarget opponent discards a card. That player loses 2 life and you gain 2 life unless a nonland card was discarded this way.",
@@ -3092,10 +3079,10 @@
 			"name": "Relentless Huntmaster",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/108_Relentless Huntmaster.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/107_Relentless Huntmaster.jpg",
 			"colors": ["B"],
 			"set": "SOL",
-			"collector_number": "108",
+			"collector_number": "107",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nWhen Relentless Huntmaster enters, create a 2/2 black Dog creature token.",
@@ -3164,6 +3151,19 @@
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "Create a Chart token and two 1/1 blue Jellyfish creature tokens with flying. [i](A Chart token is an artifact with \"{2}, Sacrifice this artifact: Reveal cards from the top of your library until you reveal a land card. Put it into your hand and the rest on the bottom in a random order.\")[/i]",
+		},
+		
+		{
+			"name": "Rites of the Dying Sun",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/108_Rites of the Dying Sun.jpg",
+			"colors": ["B"],
+			"set": "SOL",
+			"collector_number": "108",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "When Rites of the Dying Sun enters, create two 1/1 white Spirit creature tokens.\nOnce each turn, when an artifact you control enters, you may sacrifice a creature. If you do, create an X/X red Spirit creature token, where X is the number of enchantments you control.",
 		},
 		
 		{
@@ -3475,7 +3475,7 @@
 			"collector_number": "236",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Star-Touched Host enters with three -1/-1 counters on it.\nAt the beginning of your end step, if player sacrificed a permanent this turn, you may remove a -1/-1 counter from Star-Touched Host. If you do, create a 1/1 red Spirit creature token with wither. [i](It deals damage to creatures in the form of -1/-1 counters.)[/i]",
+			"oracle_text": "Star-Touched Host enters with three -1/-1 counters on it.\nAt the beginning of your end step, if a player sacrificed a permanent this turn, you may remove a -1/-1 counter from Star-Touched Host. If you do, create a 1/1 red Spirit creature token with wither. [i](It deals damage to creatures in the form of -1/-1 counters.)[/i]",
 		},
 		
 		{
@@ -4181,13 +4181,39 @@
 		},
 		
 		{
+			"name": "Chart",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/32t_Chart.jpg",
+			"colors": [],
+			"set": "SOL",
+			"collector_number": "32",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{2}, Sacrifice this artifact: Reveal cards from the top of your library until you reveal a land card. Put it into your hand and the rest on the bottom in a random order.",
+		},
+		
+		{
+			"name": "green Spirit 1010SOL",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/29t_green Spirit 1010SOL.jpg",
+			"colors": ["G"],
+			"set": "SOL",
+			"collector_number": "29",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "",
+		},
+		
+		{
 			"name": "green Elf 13SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/25t_green Elf 13SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/26t_green Elf 13SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "25",
+			"collector_number": "26",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}: Add {G}.",
@@ -4236,10 +4262,10 @@
 			"name": "Weapon SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/33t_Weapon SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/35t_Weapon SOL.jpg",
 			"colors": [],
 			"set": "SOL",
-			"collector_number": "33",
+			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Equipped creature gets +1/+1.\nEquip {2}",
@@ -4249,10 +4275,10 @@
 			"name": "Lotus Spring SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/34t_Lotus Spring SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/36t_Lotus Spring SOL.jpg",
 			"colors": [],
 			"set": "SOL",
-			"collector_number": "34",
+			"collector_number": "36",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}: Add one mana of any color.",
@@ -4275,10 +4301,10 @@
 			"name": "green Bear 44SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/24t_green Bear 44SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/25t_green Bear 44SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "24",
+			"collector_number": "25",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -4288,10 +4314,10 @@
 			"name": "Treasure SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/31t_Treasure SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/33t_Treasure SOL.jpg",
 			"colors": [],
 			"set": "SOL",
-			"collector_number": "31",
+			"collector_number": "33",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
@@ -4353,10 +4379,10 @@
 			"name": "green Spirit SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/28t_green Spirit SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/30t_green Spirit SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "28",
+			"collector_number": "30",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "This creature's power and toughness are each equal to the number of creatures you control.",
@@ -4392,10 +4418,10 @@
 			"name": "green Wolf Spirit 96SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/29t_green Wolf Spirit 96SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/31t_green Wolf Spirit 96SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "29",
+			"collector_number": "31",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Trample",
@@ -4441,19 +4467,6 @@
 		},
 		
 		{
-			"name": "white Elemental 11SOL",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/3t_white Elemental 11SOL.jpg",
-			"colors": ["W"],
-			"set": "SOL",
-			"collector_number": "3",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "This creature can't block.",
-		},
-		
-		{
 			"name": "black Orb 10SOL",
 			"mana_cost": "",
 			"type": "Token",
@@ -4470,10 +4483,10 @@
 			"name": "colorless Wall 04SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/32t_colorless Wall 04SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/34t_colorless Wall 04SOL.jpg",
 			"colors": [],
 			"set": "SOL",
-			"collector_number": "32",
+			"collector_number": "34",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Defender",
@@ -4487,6 +4500,19 @@
 			"colors": ["B"],
 			"set": "SOL",
 			"collector_number": "11",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "",
+		},
+		
+		{
+			"name": "red Spirit SOL",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/24t_red Spirit SOL.jpg",
+			"colors": ["R"],
+			"set": "SOL",
+			"collector_number": "24",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
@@ -4558,26 +4584,26 @@
 		},
 		
 		{
-			"name": "colorless Chart SOL",
+			"name": "white Elemental 11SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/30t_colorless Chart SOL.jpg",
-			"colors": [],
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/3t_white Elemental 11SOL.jpg",
+			"colors": ["W"],
 			"set": "SOL",
-			"collector_number": "30",
+			"collector_number": "3",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{2}, Sacrifice this artifact: Reveal cards from the top of your library until you reveal a land card. Put it into your hand and the rest on the bottom in a random order.",
+			"oracle_text": "This creature can't block.",
 		},
 		
 		{
 			"name": "green Elf Druid 22SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/26t_green Elf Druid 22SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/27t_green Elf Druid 22SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "26",
+			"collector_number": "27",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}: Add {G}{G}.",
@@ -4587,10 +4613,10 @@
 			"name": "green Elf Horror 33SOL",
 			"mana_cost": "",
 			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/27t_green Elf Horror 33SOL.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/28t_green Elf Horror 33SOL.jpg",
 			"colors": ["G"],
 			"set": "SOL",
-			"collector_number": "27",
+			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}: Add {G}{G}{G}.",
@@ -4861,7 +4887,6 @@
 4 Lacufae Kin-Caller
 4 Lacufae Observatory
 4 Levicta Visio
-4 Lightless Conquest
 4 Lunar Awe
 4 Lupensi Tyrannos
 4 Lutra Inquisos
@@ -4889,6 +4914,7 @@
 4 Radiant Pilgrim
 4 Rex Tyrannos
 4 Rift Partisan
+4 Rites of the Dying Sun
 4 Roseaun Firebrand
 4 Saureus Duplixi
 4 Sire of Greatness
@@ -4938,6 +4964,8 @@
 20 Swamp_SOL
 
 [Token]
+20 Chart
+20 green Spirit 1010SOL
 20 green Elf 13SOL
 20 white Spirit 11SOL
 20 white Bird 11SOL
@@ -4958,16 +4986,16 @@
 20 blue Beast 32SOL
 20 black Elemental 32SOL
 20 red Beast 33SOL
-20 white Elemental 11SOL
 20 black Orb 10SOL
 20 colorless Wall 04SOL
 20 black Dog 22SOL
+20 red Spirit SOL
 20 blue Fish 21SOL
 20 black Elemental 11SOL
 20 Oblivion SOL
 20 Entropy SOL
 20 Cascade Channeller SOL
-20 colorless Chart SOL
+20 white Elemental 11SOL
 20 green Elf Druid 22SOL
 20 green Elf Horror 33SOL
 20 blue Fish Spirit 66SOL
@@ -5220,7 +5248,6 @@
 2 Lacufae Kin-Caller
 2 Lacufae Observatory
 2 Levicta Visio
-2 Lightless Conquest
 2 Lunar Awe
 2 Lupensi Tyrannos
 2 Lutra Inquisos
@@ -5248,6 +5275,7 @@
 2 Radiant Pilgrim
 2 Rex Tyrannos
 2 Rift Partisan
+2 Rites of the Dying Sun
 2 Roseaun Firebrand
 2 Saureus Duplixi
 2 Sire of Greatness

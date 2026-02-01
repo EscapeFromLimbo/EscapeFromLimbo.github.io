@@ -383,6 +383,9 @@ def pull_all_images(play_rate_table, signature_table):
 	for i in range(len(setcodes)):
 		cards = allsets["data"][setcodes[i]]["cards"]
 		setnames[i] = allsets["data"][setcodes[i]]["name"]
+		setfile = ""
+		with open(f"sets/{setcodes[i]}-files/{setcodes[i]}.json", "r", encoding="utf-8") as f:
+			setfile = "".join(f.readlines())
 		for card in cards:
 			c = Card()
 			front = False
@@ -466,7 +469,36 @@ def pull_all_images(play_rate_table, signature_table):
 				c.cardfilename = cardfilename
 				
 				cardfilenames.append(cardfilename)
-				if not os.path.isfile(cardfilename):
+				cardTextPresent = False
+				if f'"card_name": "{c.card_name}"' in setfile:
+					cardTextPresent = True
+					if not c.rules_text.replace("•", "\\u2022").replace("é", "\\u00e9") in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card text for {c.card_name} may have changed")
+					if not c.type.replace("—", "\\u2014") in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card type for {c.card_name} may have changed")
+					if not c.cost in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card cost for {c.card_name} may have changed")
+					if not c.pt in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card pt for {c.card_name} may have changed")
+				if f'"card_name2": "{c.card_name}"' in setfile:
+					cardTextPresent = True
+					if not c.rules_text.replace("•", "\\u2022").replace("é", "\\u00e9") in setfile.split(f'"card_name2": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card text for {c.card_name} may have changed")
+					if not c.type.replace("—", "\\u2014") in setfile.split(f'"card_name2": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card type for {c.card_name} may have changed")
+					if not c.cost in setfile.split(f'"card_name2": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card cost for {c.card_name} may have changed")
+					if not c.pt in setfile.split(f'"card_name2": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card pt for {c.card_name} may have changed")
+				if (not os.path.isfile(cardfilename)) or (not cardTextPresent):
 					print(f"Downloading {setcodes[i]} #{c.number}: {c.card_name} at {c.cardfilename}")
 					#urllib.request.urlretrieve(f"https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
 					urllib.request.urlretrieve(f"https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/{setcodes[i]}/{fetchnumber}.jpg".replace(" ", "%20"), cardfilename)
@@ -701,6 +733,11 @@ def pull_all_images(play_rate_table, signature_table):
 				signature = signature_table[card.card_name.split(" (")[0]]
 
 			tags = '\\n!tag ' + '\\n!tag '.join(formatstring.split(','))
+			worldslist = ["Fabricated Anomaly", "Offset Daemon", "Get Your Wish", "Irrlicht", "Ardent Ascetic", "Cogwork Harvester", "Music Master"]
+			for worldscard in worldslist:
+				if worldscard in card.card_name:
+					tags + "\\n!tag worlds"
+					break
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"
 				cubecards.remove(card.card_name)

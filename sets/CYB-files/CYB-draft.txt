@@ -4099,6 +4099,19 @@
 		},
 		
 		{
+			"name": "Assured Destruction (Calamity)",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"image": "https://EscapeFromLimbo.github.io/sets/CYB-files/img/325_Assured Destruction (Calamity).jpg",
+			"colors": ["W"],
+			"set": "CYB",
+			"collector_number": "325",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Choose any number -\n• Each player sacrifices an enchantment.\n• Each player sacrifices an artifact.\n• Each player sacrifices a creature.",
+		},
+		
+		{
 			"name": "Treasure",
 			"mana_cost": "",
 			"type": "Token",

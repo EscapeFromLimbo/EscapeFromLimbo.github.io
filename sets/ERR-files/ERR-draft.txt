@@ -1219,7 +1219,7 @@
 		{
 			"name": "Fabricated Anomaly",
 			"mana_cost": "{2}{R}",
-			"type": "Enchantment",
+			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/287_Fabricated Anomaly.jpg",
 			"colors": ["R"],
 			"set": "ERR",
@@ -3921,6 +3921,19 @@
 		},
 		
 		{
+			"name": "red Error 44ERR",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/16t_red Error 44ERR.jpg",
+			"colors": ["R"],
+			"set": "ERR",
+			"collector_number": "16",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Menace",
+		},
+		
+		{
 			"name": "BOOST() ERR",
 			"mana_cost": "",
 			"type": "Token",
@@ -4009,19 +4022,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Whenever this Subroutine runs, exile the top card of your library. You may play that card this turn.",
-		},
-		
-		{
-			"name": "Error red",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/16t_Error red.jpg",
-			"colors": ["R"],
-			"set": "ERR",
-			"collector_number": "16",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Menace",
 		},
 		
 		{
@@ -4359,6 +4359,7 @@
 20 colorless Construct ERR
 20 red Warrior 22ERR
 20 The Puzzlebox ERR
+20 red Error 44ERR
 20 BOOST() ERR
 20 Noop ERR
 20 Root Node ERR
@@ -4366,7 +4367,6 @@
 20 READ() ERR
 20 white Error 89ERR
 20 SAVE() ERR
-20 Error red
 20 Error PorygonZ
 20 OVERFLOW() ERR
 
