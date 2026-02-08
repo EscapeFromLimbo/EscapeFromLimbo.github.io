@@ -6103,9 +6103,9 @@
             "number": 269,
             "color_identity": "WB",
             "cost": "{W/B}{W/B}{W/B}{W/B}",
-            "rules_text": "Flying\nAt the beginning of combat on your turn, each opponent sacrifices a nonland, nontoken permanent. If a player does, tap Transcendent Council.",
+            "rules_text": "Flying\nAt the beginning of combat on your turn, you may sacrifice another nonland, nontoken permanent. When you do, target opponent sacrifices a nonland, nontoken permanent. Then you draw a card unless the sacrificed permanents share a card type.",
             "flavor_text": "[i][/i]",
-            "pt": "6/6",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "SOL",
@@ -6113,7 +6113,7 @@
             "artist": "Kamilah Cole",
             "play_rate": 173,
             "signature": "7nix",
-            "word_count": 22
+            "word_count": 38
         },
         {
             "card_name": "Tug of the Void",
