@@ -9,327 +9,20 @@ import random
 '''
 git push https://EscapeFromLimbo@github.com/EscapeFromLimbo/EscapeFromLimbo.github.io.git
 
-git diff -U20 sets/* | grep -B 19 "+.*notes.*staple" > staplechanges.txt
+git diff -U20 sets/* | grep -B 3 "+.*notes.*staple" > staplechanges.txt
 
+Things to update manually:
+Each set:
+custom/lists/set-order.json
+this file: set names, codes, num sets
+play_rates: set code order
+Each GP:
+play_rates: which GPs to count
+Worlds:
+this file: worlds list
+Cube:
+this file: cubefilename
 
-		<card>
-			<name>Zakros Stompers</name>
-			<text>Menace
-Whenever you sacrifice a permanent, exile the top card of your library. Until the end of your turn, you may play that card.</text>
-			<prop>
-				<type>Creature — Giant Warrior</type>
-				<cmc>5</cmc>
-				<manacost>3RR</manacost>
-				<maintype>Creature</maintype>
-				<format-revolution-eternal>legal</format-revolution-eternal>
-				<layout>normal</layout>
-				<pt>5/5</pt>
-				<side>front</side>
-				<format-revolution-brawl>legal</format-revolution-brawl>
-				<coloridentity>R</coloridentity>
-				<format-revolution>legal</format-revolution>
-				<colors>R</colors>
-				<format-revolution-eternal-pauper>not legal</format-revolution-eternal-pauper>
-			</prop>
-			<set num="163" rarity="uncommon">TRX</set>
-			<tablerow>2</tablerow>
-		</card>
-'''
-
-'''
-		{
-			"card_name": "Ambitious Angel",
-			"color": "W",
-			"rarity": "common",
-			"type": "Creature \u2014 Angel Soldier Archer",
-			"number": 1,
-			"color_identity": "W",
-			"cost": "{W}",
-			"rules_text": "",
-			"flavor_text": "[i][/i]",
-			"pt": "1/1",
-			"special_text": "Flying\nLevel up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this. Level up only as a sorcery.)[/i]\n[level 1-2] Flying\n[level 3+] Flying",
-			"shape": "leveler",
-			"set": "ERR",
-			"loyalty": "",
-			"artist": "Eddy Shinjuku",
-			"notes": "Enchantments 1/1 3/2\nLevel Up 1/1 2/2\nCache 0/0.5 2/2\nError 1/1\nProgram 2/2\nblink 0.5/0.5 3.5/3.5\nTokens 1/1 1.5/2\nRegion: The Stack. Brutalist\n\n1-5 2/2 flier or 2-5 4/4 flier?\n\nart4"
-		},
-'''
-'''
-https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/OLD/256.jpg
-https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/OLD/Story%20Spotlight.jpg
-
-<number>_cardname.jpg
-'''
-'''
-{
-	"name": "Errors in the Weft",
-	"formats": "",
-	"trimmed": "y",
-	"image_type": "jpg",
-	"cards": [
-	...
-	],
-	"version": 1
-}
-'''
-'''
-ERR-files/ERR.json
-ERR-files/img/1_Ambitious Angel.jpg
-'''
-'''
-import urllib.request
-
-urllib.request.urlretrieve("http://www.digimouth.com/news/media/2011/09/google-logo.jpg", "local-filename.jpg")
-'''
-'''
-		<card>
-			<name>Daybreak Rider</name>
-			<text>Flying
-When Daybreak Rider enters, you may bless another target creature. (Create a token copy of this creature's blessing attached to that permanent.)</text>
-			<prop>
-				<type>Creature — Archon</type>
-				<cmc>5</cmc>
-				<manacost>4W</manacost>
-				<maintype>Creature</maintype>
-				<format-revolution-eternal>legal</format-revolution-eternal>
-				<layout>modal_dfc</layout>
-				<pt>3/3</pt>
-				<side>front</side>
-				<format-revolution-brawl>legal</format-revolution-brawl>
-				<coloridentity>W</coloridentity>
-				<format-revolution>legal</format-revolution>
-				<colors>W</colors>
-				<format-revolution-eternal-pauper>legal</format-revolution-eternal-pauper>
-			</prop>
-			<set num="13a" rarity="common">TRX</set>
-			<related attach="transform">The Sun's Blessing</related>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>The Sun's Blessing</name>
-			<text>(You may also cast this side from your hand.)
-Flash
-Enchant creature
-Enchanted creature gets +2/+2.</text>
-			<prop>
-				<type>Enchantment — Aura Blessing</type>
-				<cmc>3</cmc>
-				<manacost>2W</manacost>
-				<maintype>Enchantment</maintype>
-				<format-revolution-eternal>legal</format-revolution-eternal>
-				<layout>modal_dfc</layout>
-				<side>back</side>
-				<format-revolution-brawl>legal</format-revolution-brawl>
-				<coloridentity>W</coloridentity>
-				<format-revolution>legal</format-revolution>
-				<colors>W</colors>
-				<format-revolution-eternal-pauper>legal</format-revolution-eternal-pauper>
-			</prop>
-			<set num="13b" rarity="common">TRX</set>
-			<related attach="transform">Daybreak Rider</related>
-			<tablerow>1</tablerow>
-		</card>
-
-		{
-			"card_name": "Daybreak Rider",
-			"color": "W",
-			"rarity": "common",
-			"type": "Creature \u2014 Archon",
-			"number": 13,
-			"color_identity": "W",
-			"cost": "{4}{W}",
-			"rules_text": "Flying\nWhen Daybreak Rider enters, you may bless another target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
-			"flavor_text": "[i][/i]",
-			"pt": "3/3",
-			"special_text": "",
-			"shape": "modal double faced",
-			"set": "TRX",
-			"loyalty": "",
-			"artist": "Pascal Quidault",
-			"card_name2": "The Sun's Blessing",
-			"color2": "W",
-			"type2": "Enchantment \u2014 Aura Blessing",
-			"cost2": "{2}{W}",
-			"rules_text2": "[i](You may also cast this side from your hand.)[/i]\nFlash\nEnchant creature\nEnchanted creature gets +2/+2.",
-			"flavor_text2": "[i][/i]",
-			"pt2": "",
-			"special_text2": "",
-			"loyalty2": "",
-			"artist2": "Francesca Resta",
-			"notes": "!tag Theros\n!tag Heliod"
-		},
-
-<number>_cardname_front.jpg
-<number>_cardname_back.jpg
-
-https://escapefromlimbo.github.io/sets/ERR-files/img/134_Error%20Tide.jpg
-
-https://escapefromlimbo.github.io/sets/CCR-files/img/258_Root%20Fossil_back.jpg
-
-https://escapefromlimbo.github.io/sets/VRD-files/img/127_Calamity%20Smith%20In:%20The%20Gilded%20Heist_VRD.jpg
-
-TODO:
-Pull https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/AllSetsEternal.json instead
-
-{
-     "artist": "Magic Media",
-     "convertedManaCost": 2,
-     "faceConvertedManaCost": 2,
-     "manaValue": 2,
-     "faceManaValue": 2,
-     "colors": [
-      "B"
-     ],
-     "colorIdentity": [
-      "B"
-     ],
-     "designer": "DrChipmunk",
-     "flavor": "",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Exorcist of Errors_ERR",
-     "imageName": "exorcist of errors",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "{1}{B}",
-     "multiverseid": 5363,
-     "name": "Exorcist of Errors",
-     "number": "95",
-     "power": "2",
-     "rarity": "rare",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "subtypes": [
-      "Human",
-      "Warlock"
-     ],
-     "text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
-     "toughness": "3",
-     "type": "Creature — Human Warlock",
-     "types": [
-      "Creature"
-     ],
-     "uuid": "Exorcist of Errors_ERR"
-    },
-
-
-
-{
-     "artist": "Lana Monx",
-     "convertedManaCost": 1,
-     "faceConvertedManaCost": 1,
-     "manaValue": 1,
-     "faceManaValue": 1,
-     "colors": [
-      "G"
-     ],
-     "colorIdentity": [
-      "G"
-     ],
-     "designer": "Zangy",
-     "flavor": "",
-     "frameType": "dfc-normal-normal",
-     "frameVersion": "2015",
-     "id": "Seeker of New Horizons//Ilysian Guardian_TRX",
-     "imageName": "seeker of new horizons",
-     "layout": "modal_dfc",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "{G}",
-     "multiverseid": 3792,
-     "name": "Seeker of New Horizons // Ilysian Guardian",
-     "faceName": "Seeker of New Horizons",
-     "names": [
-      "Seeker of New Horizons",
-      "Ilysian Guardian"
-     ],
-     "side": "a",
-     "number": "194a",
-     "power": "0",
-     "rarity": "rare",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "subtypes": [
-      "Satyr",
-      "Scout"
-     ],
-     "text": "Whenever a Forest you control enters, put a +1/+1 counter on Seeker of New Horizons. Then you may remove four +1/+1 counters from among creatures you control. If you do, bless that land. (Create a token copy of this creature's blessing attached to that permanent.)",
-     "toughness": "1",
-     "type": "Creature — Satyr Scout",
-     "types": [
-      "Creature"
-     ],
-     "uuid": "Seeker of New Horizons//Ilysian Guardian_TRX-0",
-     "otherFaceIds": [
-      "Seeker of New Horizons//Ilysian Guardian_TRX-1"
-     ]
-    },
-{
-     "artist": "Rousteinire",
-     "convertedManaCost": 3,
-     "faceConvertedManaCost": 3,
-     "manaValue": 3,
-     "faceManaValue": 3,
-     "colors": [
-      "G"
-     ],
-     "colorIdentity": [
-      "G"
-     ],
-     "designer": "Zangy",
-     "flavor": "",
-     "frameType": "dfc-normal-normal",
-     "frameVersion": "2015",
-     "id": "Seeker of New Horizons//Ilysian Guardian_TRX",
-     "imageName": "ilysian guardian",
-     "layout": "modal_dfc",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "{2}{G}",
-     "multiverseid": 3792,
-     "name": "Seeker of New Horizons // Ilysian Guardian",
-     "faceName": "Ilysian Guardian",
-     "names": [
-      "Seeker of New Horizons",
-      "Ilysian Guardian"
-     ],
-     "side": "b",
-     "number": "194b",
-     "rarity": "rare",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "subtypes": [
-      "Aura",
-      "Blessing"
-     ],
-     "text": "Enchant land\nEnchanted land is a 4/4 Dryad creature with reach, vigilance, and haste. It's still a land.\nWhen enchanted land dies, return it to its owner's hand.",
-     "type": "Enchantment — Aura Blessing",
-     "types": [
-      "Enchantment"
-     ],
-     "uuid": "Seeker of New Horizons//Ilysian Guardian_TRX-1",
-     "otherFaceIds": [
-      "Seeker of New Horizons//Ilysian Guardian_TRX-0"
-     ]
-    },
 
 '''
 class Card(object):
@@ -738,6 +431,11 @@ def pull_all_images(play_rate_table, signature_table):
 				if worldscard in card.card_name:
 					tags + "\\n!tag worlds"
 					break
+			banlist = ["Extraction Ritual", "Extraction Mission", "On Borrowed Time"]
+			for bancard in banlist:
+				if bancard in card.card_name:
+					tags + "\\n!tag banned"
+					break
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"
 				cubecards.remove(card.card_name)
@@ -959,3 +657,324 @@ def pull_all_images(play_rate_table, signature_table):
 
 
 	#TODO: white border around set logos
+
+'''
+		<card>
+			<name>Zakros Stompers</name>
+			<text>Menace
+Whenever you sacrifice a permanent, exile the top card of your library. Until the end of your turn, you may play that card.</text>
+			<prop>
+				<type>Creature — Giant Warrior</type>
+				<cmc>5</cmc>
+				<manacost>3RR</manacost>
+				<maintype>Creature</maintype>
+				<format-revolution-eternal>legal</format-revolution-eternal>
+				<layout>normal</layout>
+				<pt>5/5</pt>
+				<side>front</side>
+				<format-revolution-brawl>legal</format-revolution-brawl>
+				<coloridentity>R</coloridentity>
+				<format-revolution>legal</format-revolution>
+				<colors>R</colors>
+				<format-revolution-eternal-pauper>not legal</format-revolution-eternal-pauper>
+			</prop>
+			<set num="163" rarity="uncommon">TRX</set>
+			<tablerow>2</tablerow>
+		</card>
+'''
+
+'''
+		{
+			"card_name": "Ambitious Angel",
+			"color": "W",
+			"rarity": "common",
+			"type": "Creature \u2014 Angel Soldier Archer",
+			"number": 1,
+			"color_identity": "W",
+			"cost": "{W}",
+			"rules_text": "",
+			"flavor_text": "[i][/i]",
+			"pt": "1/1",
+			"special_text": "Flying\nLevel up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this. Level up only as a sorcery.)[/i]\n[level 1-2] Flying\n[level 3+] Flying",
+			"shape": "leveler",
+			"set": "ERR",
+			"loyalty": "",
+			"artist": "Eddy Shinjuku",
+			"notes": "Enchantments 1/1 3/2\nLevel Up 1/1 2/2\nCache 0/0.5 2/2\nError 1/1\nProgram 2/2\nblink 0.5/0.5 3.5/3.5\nTokens 1/1 1.5/2\nRegion: The Stack. Brutalist\n\n1-5 2/2 flier or 2-5 4/4 flier?\n\nart4"
+		},
+'''
+'''
+https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/OLD/256.jpg
+https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/OLD/Story%20Spotlight.jpg
+
+<number>_cardname.jpg
+'''
+'''
+{
+	"name": "Errors in the Weft",
+	"formats": "",
+	"trimmed": "y",
+	"image_type": "jpg",
+	"cards": [
+	...
+	],
+	"version": 1
+}
+'''
+'''
+ERR-files/ERR.json
+ERR-files/img/1_Ambitious Angel.jpg
+'''
+'''
+import urllib.request
+
+urllib.request.urlretrieve("http://www.digimouth.com/news/media/2011/09/google-logo.jpg", "local-filename.jpg")
+'''
+'''
+		<card>
+			<name>Daybreak Rider</name>
+			<text>Flying
+When Daybreak Rider enters, you may bless another target creature. (Create a token copy of this creature's blessing attached to that permanent.)</text>
+			<prop>
+				<type>Creature — Archon</type>
+				<cmc>5</cmc>
+				<manacost>4W</manacost>
+				<maintype>Creature</maintype>
+				<format-revolution-eternal>legal</format-revolution-eternal>
+				<layout>modal_dfc</layout>
+				<pt>3/3</pt>
+				<side>front</side>
+				<format-revolution-brawl>legal</format-revolution-brawl>
+				<coloridentity>W</coloridentity>
+				<format-revolution>legal</format-revolution>
+				<colors>W</colors>
+				<format-revolution-eternal-pauper>legal</format-revolution-eternal-pauper>
+			</prop>
+			<set num="13a" rarity="common">TRX</set>
+			<related attach="transform">The Sun's Blessing</related>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Sun's Blessing</name>
+			<text>(You may also cast this side from your hand.)
+Flash
+Enchant creature
+Enchanted creature gets +2/+2.</text>
+			<prop>
+				<type>Enchantment — Aura Blessing</type>
+				<cmc>3</cmc>
+				<manacost>2W</manacost>
+				<maintype>Enchantment</maintype>
+				<format-revolution-eternal>legal</format-revolution-eternal>
+				<layout>modal_dfc</layout>
+				<side>back</side>
+				<format-revolution-brawl>legal</format-revolution-brawl>
+				<coloridentity>W</coloridentity>
+				<format-revolution>legal</format-revolution>
+				<colors>W</colors>
+				<format-revolution-eternal-pauper>legal</format-revolution-eternal-pauper>
+			</prop>
+			<set num="13b" rarity="common">TRX</set>
+			<related attach="transform">Daybreak Rider</related>
+			<tablerow>1</tablerow>
+		</card>
+
+		{
+			"card_name": "Daybreak Rider",
+			"color": "W",
+			"rarity": "common",
+			"type": "Creature \u2014 Archon",
+			"number": 13,
+			"color_identity": "W",
+			"cost": "{4}{W}",
+			"rules_text": "Flying\nWhen Daybreak Rider enters, you may bless another target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+			"flavor_text": "[i][/i]",
+			"pt": "3/3",
+			"special_text": "",
+			"shape": "modal double faced",
+			"set": "TRX",
+			"loyalty": "",
+			"artist": "Pascal Quidault",
+			"card_name2": "The Sun's Blessing",
+			"color2": "W",
+			"type2": "Enchantment \u2014 Aura Blessing",
+			"cost2": "{2}{W}",
+			"rules_text2": "[i](You may also cast this side from your hand.)[/i]\nFlash\nEnchant creature\nEnchanted creature gets +2/+2.",
+			"flavor_text2": "[i][/i]",
+			"pt2": "",
+			"special_text2": "",
+			"loyalty2": "",
+			"artist2": "Francesca Resta",
+			"notes": "!tag Theros\n!tag Heliod"
+		},
+
+<number>_cardname_front.jpg
+<number>_cardname_back.jpg
+
+https://escapefromlimbo.github.io/sets/ERR-files/img/134_Error%20Tide.jpg
+
+https://escapefromlimbo.github.io/sets/CCR-files/img/258_Root%20Fossil_back.jpg
+
+https://escapefromlimbo.github.io/sets/VRD-files/img/127_Calamity%20Smith%20In:%20The%20Gilded%20Heist_VRD.jpg
+
+TODO:
+Pull https://raw.githubusercontent.com/rudyards/Revolution-Manifesto/refs/heads/main/frontend/public/cards/AllSetsEternal.json instead
+
+{
+     "artist": "Magic Media",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "B"
+     ],
+     "colorIdentity": [
+      "B"
+     ],
+     "designer": "DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Exorcist of Errors_ERR",
+     "imageName": "exorcist of errors",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{1}{B}",
+     "multiverseid": 5363,
+     "name": "Exorcist of Errors",
+     "number": "95",
+     "power": "2",
+     "rarity": "rare",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Human",
+      "Warlock"
+     ],
+     "text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
+     "toughness": "3",
+     "type": "Creature — Human Warlock",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Exorcist of Errors_ERR"
+    },
+
+
+
+{
+     "artist": "Lana Monx",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "G"
+     ],
+     "colorIdentity": [
+      "G"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "dfc-normal-normal",
+     "frameVersion": "2015",
+     "id": "Seeker of New Horizons//Ilysian Guardian_TRX",
+     "imageName": "seeker of new horizons",
+     "layout": "modal_dfc",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{G}",
+     "multiverseid": 3792,
+     "name": "Seeker of New Horizons // Ilysian Guardian",
+     "faceName": "Seeker of New Horizons",
+     "names": [
+      "Seeker of New Horizons",
+      "Ilysian Guardian"
+     ],
+     "side": "a",
+     "number": "194a",
+     "power": "0",
+     "rarity": "rare",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Satyr",
+      "Scout"
+     ],
+     "text": "Whenever a Forest you control enters, put a +1/+1 counter on Seeker of New Horizons. Then you may remove four +1/+1 counters from among creatures you control. If you do, bless that land. (Create a token copy of this creature's blessing attached to that permanent.)",
+     "toughness": "1",
+     "type": "Creature — Satyr Scout",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Seeker of New Horizons//Ilysian Guardian_TRX-0",
+     "otherFaceIds": [
+      "Seeker of New Horizons//Ilysian Guardian_TRX-1"
+     ]
+    },
+{
+     "artist": "Rousteinire",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "G"
+     ],
+     "colorIdentity": [
+      "G"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "dfc-normal-normal",
+     "frameVersion": "2015",
+     "id": "Seeker of New Horizons//Ilysian Guardian_TRX",
+     "imageName": "ilysian guardian",
+     "layout": "modal_dfc",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{2}{G}",
+     "multiverseid": 3792,
+     "name": "Seeker of New Horizons // Ilysian Guardian",
+     "faceName": "Ilysian Guardian",
+     "names": [
+      "Seeker of New Horizons",
+      "Ilysian Guardian"
+     ],
+     "side": "b",
+     "number": "194b",
+     "rarity": "rare",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Aura",
+      "Blessing"
+     ],
+     "text": "Enchant land\nEnchanted land is a 4/4 Dryad creature with reach, vigilance, and haste. It's still a land.\nWhen enchanted land dies, return it to its owner's hand.",
+     "type": "Enchantment — Aura Blessing",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Seeker of New Horizons//Ilysian Guardian_TRX-1",
+     "otherFaceIds": [
+      "Seeker of New Horizons//Ilysian Guardian_TRX-0"
+     ]
+    },
+'''

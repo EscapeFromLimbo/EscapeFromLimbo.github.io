@@ -11,7 +11,6 @@ def get_play_rates():
 	#TODO total copies main / side
 	setCodeOrder = ["SOL", "TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST"]
 
-
 	for i in range(20, 27):
 		for j in range(1, 13):
 			exists = False
@@ -103,8 +102,10 @@ def get_play_rates():
 				setsSeen.append(cardSets[cardName][0])
 		firstSet = ""
 		firstSetIndex = 0
-		numSets = 7
+		numSets = 8
 		for i in range(len(setCodeOrder)):
+			if setCodeOrder[i] == "SOL":
+				numSets = 7
 			if setCodeOrder[i] == "CCR":
 				numSets = 6
 			if setCodeOrder[i] in setsSeen:

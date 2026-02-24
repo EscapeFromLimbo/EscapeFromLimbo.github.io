@@ -1867,8 +1867,16 @@
 				signature.className = "effect";
 				signature.innerHTML = "<i>Signature card of " + card_stats.signature + "</i>"
 				text.appendChild(signature);
-			}			
-			
+			}	
+
+			if (card_stats.notes.includes("banned"))
+			{
+				const signature = document.createElement("div");
+				signature.className = "effect";
+				signature.innerHTML = "<i>This card is banned.</i>"
+				text.appendChild(signature);
+			}	
+
 			grid.appendChild(text);
 
 			return grid;
