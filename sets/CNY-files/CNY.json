@@ -1811,7 +1811,7 @@
         },
         {
             "card_name": "Extraction Mission",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag banned\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -6118,6 +6118,27 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Sina Hayati"
+        },
+        {
+            "card_name": "Survivors of the New World_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "color": "WG",
+            "rarity": "special",
+            "type": "Creature \u2014 Mutant Survivor",
+            "number": 290,
+            "color_identity": "WG",
+            "cost": "{2}{G}{W}",
+            "rules_text": "When Survivors of the New World enters, if it isn't a token, create two tokens that are copies of it.\nWhen Survivors of the New World dies, reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "CNY",
+            "loyalty": "",
+            "artist": "Ognjen Sporin",
+            "play_rate": 259,
+            "signature": "",
+            "word_count": 59
         },
         {
             "card_name": "Thesis on Mutation_PRO_CNY",

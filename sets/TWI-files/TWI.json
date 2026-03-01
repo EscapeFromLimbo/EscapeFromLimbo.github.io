@@ -244,7 +244,7 @@
             "number": 233,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "[+1]: Discard a card, then draw a card. \n[-2]: Aldegar deals 3 damage to any target.\n[0]: If Aldegar has six or more loyalty counters on him, he becomes a 5/5 blue and red Dragon creature with indestructible and flying. [i](This effect lasts indefinitely. Damage no longer causes him to lose loyalty.)[/i]",
+            "rules_text": "[+1]: Discard a card, then draw a card. \n[-2]: Aldegar deals 3 damage to any target.\n[0]: If Aldegar has six or more loyalty counters on him, he becomes a 6/6 blue and red Dragon creature with indestructible and flying. [i](This effect lasts indefinitely. Damage no longer causes him to lose loyalty.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1094,7 +1094,7 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Clash at Aureth Cross enters, if you cast it from your hand, destroy all creatures.\n2 Defense - At the beginning of your end step, create a 1/1 white Soldier creature token.\nDefeated - Creature tokens you control get +1/+1 and have vigilance.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Clash at Aureth Cross enters, if you cast it from your hand, destroy all creatures.\n3 Defense - When Clash at Aureth Cross first reaches this stage, create two 2/2 white Knight creature tokens with vigilance.\nDefeated - Whenever you attack, you gain life equal to the number of attacking creatures.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1104,7 +1104,7 @@
             "artist": "ch4os",
             "play_rate": 205,
             "signature": "",
-            "word_count": 41
+            "word_count": 49
         },
         {
             "card_name": "Clash at Dawnbloom Grove",
@@ -1136,7 +1136,7 @@
             "number": 46,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhenever you cast a noncreature spell, create a 1/1 white Soldier creature token.\n3 Defense - When Clash at Mistwrit Vale first reaches this stage, return target instant or sorcery card from your graveyard to your hand.\nDefeated - Noncreature spells you cast cost {2} less to cast.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of each end step, create a 1/1 white Soldier creature token if you've cast a noncreature spell this turn.\n2 Defense - Creatures you control have prowess. [i](If a creature has multiple instances of prowess, each triggers separately.)[/i]\nDefeated - Noncreature spells you cast cost {2} less to cast.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1146,7 +1146,7 @@
             "artist": "Vagelio Kaliva",
             "play_rate": 178,
             "signature": "",
-            "word_count": 45
+            "word_count": 38
         },
         {
             "card_name": "Clash at Scorchroot Bluff",
@@ -1451,8 +1451,8 @@
             "number": 276,
             "color_identity": "",
             "cost": "{2}",
-            "rules_text": "If a card or token would be put into a graveyard from anywhere, exile it instead.\nAt the beginning of your end step, target player exiles a card from their graveyard. If they can't, you scry 1.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "If a card or token would be put into a graveyard from anywhere, exile it instead.",
+            "flavor_text": "[i]\"The Cidraeth call this blasphemy. They say that divinity is sacred purely because it exists. The divine is only sacred if it serves mortals. If these so-called gods will not serve freely, they swill serve in chains.\"\n-Annan, Thief of the Sun\n[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -1461,7 +1461,7 @@
             "artist": "Halybs",
             "play_rate": 1214,
             "signature": "",
-            "word_count": 36
+            "word_count": 16
         },
         {
             "card_name": "Crumbling Ruin",
@@ -3742,8 +3742,8 @@
             "word_count": 10
         },
         {
-            "card_name": "Overrule Thought",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "card_name": "Overrule Will",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3834,7 +3834,7 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, draw three cards.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, look at the top five cards of your library. Put two of those cards into your hand and the rest on the bottom in a random order.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3844,7 +3844,7 @@
             "artist": "Vagelio Kaliva",
             "play_rate": 169,
             "signature": "",
-            "word_count": 33
+            "word_count": 57
         },
         {
             "card_name": "Path of the Gentle End",
@@ -6640,6 +6640,27 @@
             "word_count": 47
         },
         {
+            "card_name": "Bleed for the Cause_PRO_TWI",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "B",
+            "rarity": "special",
+            "type": "Sorcery",
+            "number": 342,
+            "color_identity": "B",
+            "cost": "{B}",
+            "rules_text": "Create a 2/2 black Zombie creature token with \"This creature can't block.\" You lose 1 life.\nAt the beginning of your end step, if you've lost 3 or more life this turn, return Bleed for the Cause from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TWI",
+            "loyalty": "",
+            "artist": "Adam Burke",
+            "play_rate": 35,
+            "signature": "itaiuukl",
+            "word_count": 42
+        },
+        {
             "card_name": "Choir Ascendant_PRO_TWI",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WG",
@@ -7249,6 +7270,27 @@
             "word_count": 1
         },
         {
+            "card_name": "white Knight 22TWI",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "color": "W",
+            "rarity": "common",
+            "type": "Token Creature - Knight",
+            "number": 2,
+            "color_identity": "",
+            "cost": "",
+            "rules_text": "Vigilance",
+            "flavor_text": "[i][/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "token",
+            "set": "TWI",
+            "loyalty": "",
+            "artist": "",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 1
+        },
+        {
             "card_name": "red Faerie 11TWI",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "R",
@@ -7289,27 +7331,6 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 0
-        },
-        {
-            "card_name": "white Knight 22TWI",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
-            "color": "W",
-            "rarity": "common",
-            "type": "Token Creature - Knight",
-            "number": 2,
-            "color_identity": "",
-            "cost": "",
-            "rules_text": "Vigilance",
-            "flavor_text": "[i][/i]",
-            "pt": "2/2",
-            "special_text": "",
-            "shape": "token",
-            "set": "TWI",
-            "loyalty": "",
-            "artist": "",
-            "play_rate": 0,
-            "signature": "",
-            "word_count": 1
         },
         {
             "card_name": "Everywhere",

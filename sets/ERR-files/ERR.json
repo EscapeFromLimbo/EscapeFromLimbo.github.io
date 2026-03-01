@@ -1672,7 +1672,7 @@
             "number": 133,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Corrupt - Electronic Countermeasures deals 5 damage to target battle, creature, or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.",
+            "rules_text": "Corrupt - Electronic Countermeasures deals 5 damage to target creature or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1682,7 +1682,7 @@
             "artist": "Aleaandr Elichev",
             "play_rate": 90,
             "signature": "",
-            "word_count": 54
+            "word_count": 53
         },
         {
             "card_name": "Element Aesthete",
@@ -1938,7 +1938,7 @@
         },
         {
             "card_name": "Fabricated Anomaly",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Elemental",
@@ -3828,7 +3828,7 @@
         },
         {
             "card_name": "Offset Daemon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds\n!tag staple\n!tag playable",
             "color": "WR",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Phoenix",
@@ -6285,7 +6285,7 @@
         },
         {
             "card_name": "Fabricated Anomaly_PRO_ERR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Creature \u2014 Elemental",
@@ -6303,6 +6303,27 @@
             "play_rate": 792,
             "signature": "",
             "word_count": 48
+        },
+        {
+            "card_name": "Faulty Server_PRO_ERR",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "",
+            "rarity": "special",
+            "type": "Land",
+            "number": 315,
+            "color_identity": "BR",
+            "cost": "",
+            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Swamp or Mountain card, put it onto the battlefield tapped, then shuffle.\n{2}{B}{B}{R}{R}, Discard this card: Create a 4/4 red Error creature token with menace.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ERR",
+            "loyalty": "",
+            "artist": "Matthew Attard",
+            "play_rate": 42,
+            "signature": "",
+            "word_count": 39
         },
         {
             "card_name": "Futurist Ideal_PRO_ERR",
@@ -6429,6 +6450,27 @@
             "play_rate": 218,
             "signature": "",
             "word_count": 25
+        },
+        {
+            "card_name": "Lost and Found_PRO_ERR",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "",
+            "rarity": "special",
+            "type": "Land",
+            "number": 321,
+            "color_identity": "UB",
+            "cost": "",
+            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Island or Swamp card, put it onto the battlefield tapped, then shuffle.\n{2}{U}{U}{B}{B}, Discard this card: Surveil 2, then draw two cards.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ERR",
+            "loyalty": "",
+            "artist": "Stephen Somers",
+            "play_rate": 47,
+            "signature": "",
+            "word_count": 36
         },
         {
             "card_name": "Masksmith_PRO_ERR",

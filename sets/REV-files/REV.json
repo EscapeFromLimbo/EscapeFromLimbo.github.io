@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Ardent Ascetic_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Druid",
@@ -352,7 +352,7 @@
         },
         {
             "card_name": "Cogwork Harvester_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag promo",
             "color": "G",
             "rarity": "mythic",
             "type": "Artifact Creature \u2014 Construct Druid",
@@ -646,7 +646,7 @@
         },
         {
             "card_name": "Fabricated Anomaly_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Elemental",
@@ -730,7 +730,7 @@
         },
         {
             "card_name": "Get Your Wish_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "UR",
             "rarity": "mythic",
             "type": "Instant",
@@ -835,7 +835,7 @@
         },
         {
             "card_name": "Irrlicht_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag playable\n!tag promo",
             "color": "WB",
             "rarity": "mythic",
             "type": "Creature \u2014 Spirit",
@@ -982,7 +982,7 @@
         },
         {
             "card_name": "Music Master_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Cat Bard",
@@ -1097,7 +1097,7 @@
         },
         {
             "card_name": "Offset Daemon_REV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "WR",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Phoenix",
@@ -1209,6 +1209,27 @@
             "play_rate": 242,
             "signature": "",
             "word_count": 22
+        },
+        {
+            "card_name": "Path of Scales_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "U",
+            "rarity": "mythic",
+            "type": "Battle \u2014 Operation",
+            "number": 104,
+            "color_identity": "U",
+            "cost": "{2}{U}{U}",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, look at the top five cards of your library. Put two of those cards into your hand and the rest on the bottom in a random order.\n3 Defense \nCreatures you don't control get -1/-0.\nDefeated \nWhenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "brbarou",
+            "play_rate": 169,
+            "signature": "",
+            "word_count": 55
         },
         {
             "card_name": "Phenax, Brazen Thief_REV",
@@ -1627,9 +1648,9 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "When Smiling Sludge enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
+            "rules_text": "When Smiling Sludge enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
             "flavor_text": "[i]\"Those awful ravenous rainbows.\"\n-The Slimepedia\n[/i]",
-            "pt": "1/3",
+            "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "REV",

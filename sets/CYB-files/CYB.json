@@ -971,7 +971,7 @@
         },
         {
             "card_name": "Cogwork Harvester",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds",
             "color": "G",
             "rarity": "mythic",
             "type": "Artifact Creature \u2014 Construct Druid",
@@ -1800,7 +1800,7 @@
         },
         {
             "card_name": "Extraction Ritual",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag banned\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2157,7 +2157,7 @@
         },
         {
             "card_name": "Get Your Wish",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds\n!tag staple\n!tag playable",
             "color": "UR",
             "rarity": "mythic",
             "type": "Instant",
@@ -6581,7 +6581,7 @@
         },
         {
             "card_name": "Extraction Ritual_PRO_CYB",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag banned\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Sorcery",
@@ -6602,7 +6602,7 @@
         },
         {
             "card_name": "Get Your Wish_PRO_CYB",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds\n!tag staple\n!tag playable\n!tag promo",
             "color": "UR",
             "rarity": "special",
             "type": "Instant",
@@ -6924,6 +6924,27 @@
             "play_rate": 19,
             "signature": "",
             "word_count": 34
+        },
+        {
+            "card_name": "Ragecloak Shifter_PRO_CYB",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Creature \u2014 Shapeshifter Shaman",
+            "number": 328,
+            "color_identity": "R",
+            "cost": "{R}",
+            "rules_text": "Solidarity [i](Whenever you attack with six or more different creature types, create a Solidarity enchantment with \"Attacking creatures you control get +1/+0\" if you haven't this turn.)[/i]\n{R}: Choose a creature type. Ragecloak Shifter gets +1/+0 and becomes that type in addition to its other types until end of turn.",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "CYB",
+            "loyalty": "",
+            "artist": "Riccardo Gualdi",
+            "play_rate": 82,
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "Rebuilding of Londel_PRO_CYB",

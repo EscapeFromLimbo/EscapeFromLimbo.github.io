@@ -429,12 +429,12 @@ def pull_all_images(play_rate_table, signature_table):
 			worldslist = ["Fabricated Anomaly", "Offset Daemon", "Get Your Wish", "Irrlicht", "Ardent Ascetic", "Cogwork Harvester", "Music Master"]
 			for worldscard in worldslist:
 				if worldscard in card.card_name:
-					tags + "\\n!tag worlds"
+					tags += "\\n!tag worlds"
 					break
 			banlist = ["Extraction Ritual", "Extraction Mission", "On Borrowed Time"]
 			for bancard in banlist:
 				if bancard in card.card_name:
-					tags + "\\n!tag banned"
+					tags += "\\n!tag banned"
 					break
 			if card.card_name in cubecards:
 				tags = tags + "\\n!tag cube"

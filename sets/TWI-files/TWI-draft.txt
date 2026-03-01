@@ -173,7 +173,7 @@
 			"collector_number": "233",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[+1]: Discard a card, then draw a card. \n[-2]: Aldegar deals 3 damage to any target.\n[0]: If Aldegar has six or more loyalty counters on him, he becomes a 5/5 blue and red Dragon creature with indestructible and flying. [i](This effect lasts indefinitely. Damage no longer causes him to lose loyalty.)[/i]",
+			"oracle_text": "[+1]: Discard a card, then draw a card. \n[-2]: Aldegar deals 3 damage to any target.\n[0]: If Aldegar has six or more loyalty counters on him, he becomes a 6/6 blue and red Dragon creature with indestructible and flying. [i](This effect lasts indefinitely. Damage no longer causes him to lose loyalty.)[/i]",
 		},
 		
 		{
@@ -705,7 +705,7 @@
 			"collector_number": "11",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Clash at Aureth Cross enters, if you cast it from your hand, destroy all creatures.\n2 Defense - At the beginning of your end step, create a 1/1 white Soldier creature token.\nDefeated - Creature tokens you control get +1/+1 and have vigilance.",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Clash at Aureth Cross enters, if you cast it from your hand, destroy all creatures.\n3 Defense - When Clash at Aureth Cross first reaches this stage, create two 2/2 white Knight creature tokens with vigilance.\nDefeated - Whenever you attack, you gain life equal to the number of attacking creatures.",
 		},
 		
 		{
@@ -731,7 +731,7 @@
 			"collector_number": "46",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhenever you cast a noncreature spell, create a 1/1 white Soldier creature token.\n3 Defense - When Clash at Mistwrit Vale first reaches this stage, return target instant or sorcery card from your graveyard to your hand.\nDefeated - Noncreature spells you cast cost {2} less to cast.",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of each end step, create a 1/1 white Soldier creature token if you've cast a noncreature spell this turn.\n2 Defense - Creatures you control have prowess. [i](If a creature has multiple instances of prowess, each triggers separately.)[/i]\nDefeated - Noncreature spells you cast cost {2} less to cast.",
 		},
 		
 		{
@@ -926,7 +926,7 @@
 			"collector_number": "276",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If a card or token would be put into a graveyard from anywhere, exile it instead.\nAt the beginning of your end step, target player exiles a card from their graveyard. If they can't, you scry 1.",
+			"oracle_text": "If a card or token would be put into a graveyard from anywhere, exile it instead.",
 		},
 		
 		{
@@ -2346,10 +2346,10 @@
 		},
 		
 		{
-			"name": "Overrule Thought",
+			"name": "Overrule Will",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/63_Overrule Thought.jpg",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/63_Overrule Will.jpg",
 			"colors": ["U"],
 			"set": "TWI",
 			"collector_number": "63",
@@ -2407,7 +2407,7 @@
 			"collector_number": "65",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, draw three cards.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, look at the top five cards of your library. Put two of those cards into your hand and the rest on the bottom in a random order.\n3 Defense - Creatures you don't control get -1/-0.\nDefeated - Whenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
 		},
 		
 		{
@@ -4192,6 +4192,19 @@
 		},
 		
 		{
+			"name": "white Knight 22TWI",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/2t_white Knight 22TWI.jpg",
+			"colors": ["W"],
+			"set": "TWI",
+			"collector_number": "2",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Vigilance",
+		},
+		
+		{
 			"name": "red Faerie 11TWI",
 			"mana_cost": "",
 			"type": "Token",
@@ -4215,19 +4228,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "",
-		},
-		
-		{
-			"name": "white Knight 22TWI",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/2t_white Knight 22TWI.jpg",
-			"colors": ["W"],
-			"set": "TWI",
-			"collector_number": "2",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Vigilance",
 		},
 		
 		{
@@ -4469,7 +4469,7 @@
 10 Mandate of Conquest
 10 Mistwrit Archivist
 10 Outlive Usefulness
-10 Overrule Thought
+10 Overrule Will
 10 Path of the Gentle End
 10 Petalclaw Ambusher
 10 Proclaimer of Blooming Wing
@@ -4649,9 +4649,9 @@
 20 Treasure TWI
 20 white Angel 44TWI
 20 blue Warlock 11TWI
+20 white Knight 22TWI
 20 red Faerie 11TWI
 20 black Spirit 11TWI
-20 white Knight 22TWI
 20 Everywhere
 20 Shrivel Warlock
 20 Discard Warlock
@@ -4806,7 +4806,7 @@
 4 Mandate of Conquest
 4 Mistwrit Archivist
 4 Outlive Usefulness
-4 Overrule Thought
+4 Overrule Will
 4 Path of the Gentle End
 4 Petalclaw Ambusher
 4 Proclaimer of Blooming Wing

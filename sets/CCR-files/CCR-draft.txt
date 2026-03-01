@@ -147,7 +147,7 @@
 			"collector_number": "155",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Reach\nAt the beginning of your upkeep, create a Berry token. You may attach it to Aroma Spinner. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Reach\nAt the beginning of your upkeep, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -198,7 +198,7 @@
 			"collector_number": "156",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Berry Fermenter enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{2}, Sacrifice a Berry: You gain 3 life.\n{T}, Sacrifice a Berry: Add one mana of any color.",
+			"oracle_text": "When Berry Fermenter enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\n{2}, Sacrifice a Berry: You gain 3 life.\n{T}, Sacrifice a Berry: Add one mana of any color.",
 		},
 		
 		{
@@ -211,7 +211,7 @@
 			"collector_number": "193",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Berry Harvester enters or attacks, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nThe first time you would create one or more Berry tokens each turn, create an additional Berry token.",
+			"oracle_text": "Whenever Berry Harvester enters or attacks, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nThe first time you would create one or more Berry tokens each turn, create an additional Berry token.",
 		},
 		
 		{
@@ -237,7 +237,7 @@
 			"collector_number": "158",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Whenever Bloom Brute deals combat damage to a player, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -250,7 +250,7 @@
 			"collector_number": "195",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Flying\nWhen Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -445,7 +445,7 @@
 			"collector_number": "163",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhen Canopy Creeper enters, create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Trample\nWhen Canopy Creeper enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -768,7 +768,7 @@
 			"collector_number": "80",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Destroy target creature. Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Destroy target creature. Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1028,7 +1028,7 @@
 			"collector_number": "129",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nFirst strike, haste\nWhenever an opponent casts a spell during your turn, End of Mutations deals 5 damage to them.",
+			"oracle_text": "This spell can't be countered.\nFirst strike, haste\nWhenever an opponent casts a noncreature spell, if they haven't attacked this turn, End of Mutations deals 5 damage to them.",
 		},
 		
 		{
@@ -1131,7 +1131,7 @@
 			"collector_number": "203",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever one or more creatures die, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever Feasting Predator attacks, you may sacrifice a Berry. If you do, up to one target creature gets -1/-1 until end of turn and blocks this combat if able.",
+			"oracle_text": "Whenever one or more creatures die, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nSacrifice a Berry: Feasting Predator gets +1/+1 and gains trample until end of turn. Up to one target creature blocks each combat this turn if able.",
 		},
 		
 		{
@@ -1144,7 +1144,7 @@
 			"collector_number": "85",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Defender\nWhen Feasting Sloth enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nFeasting Sloth can attack as though it didn't have defender if it's enchanted, equipped, or has a counter on it.",
+			"oracle_text": "Defender\nWhen Feasting Sloth enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nFeasting Sloth can attack as though it didn't have defender if it's enchanted, equipped, or has a counter on it.",
 		},
 		
 		{
@@ -1247,7 +1247,7 @@
 			"collector_number": "168",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\n{1}{W}, {T}: Create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{2}{B}, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.",
+			"oracle_text": "Deathtouch\n{1}{W}, {T}: Create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\n{2}{B}, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.",
 		},
 		
 		{
@@ -1324,7 +1324,7 @@
 			"collector_number": "169",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1363,7 +1363,7 @@
 			"collector_number": "17",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Generous Farmer enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever you sacrifice a Berry, create a 1/1 green Plant creature token.",
+			"oracle_text": "When Generous Farmer enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nWhenever you sacrifice a Berry, create a 1/1 green Plant creature token.",
 		},
 		
 		{
@@ -1415,7 +1415,7 @@
 			"collector_number": "247",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice Gold Berry. If you do, equipped creature gets +2/+2 until end of turn.\nWhen you sacrifice Gold Berry, create a Berry token and a Treasure token.\nEquip {1}",
+			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice Gold Berry. If you do, equipped creature gets +3/+3 until end of turn.\nWhen you sacrifice Gold Berry, create a Berry token and a Treasure token.\nEquip {1}",
 		},
 		
 		{
@@ -1428,7 +1428,7 @@
 			"collector_number": "18",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Gone Pickin' enters, exile up to one target nonland permanent an opponent controls until Gone Pickin' leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "When Gone Pickin' enters, exile up to one target nonland permanent an opponent controls until Gone Pickin' leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1661,7 +1661,7 @@
 			"collector_number": "21",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Hungry Songbird enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Flying\nWhen Hungry Songbird enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -1997,7 +1997,7 @@
 			"collector_number": "175",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Choose two -\n• Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n• Create two 1/1 green Plant creature tokens.\n• You gain 1 life for each token you control.",
+			"oracle_text": "Choose two -\n• Create two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\n• Create two 1/1 green Plant creature tokens.\n• You gain 1 life for each token you control.",
 		},
 		
 		{
@@ -2294,7 +2294,7 @@
 			"collector_number": "178",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Padpole enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nSurface {3}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
+			"oracle_text": "When Padpole enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nSurface {3}{G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
@@ -2333,7 +2333,7 @@
 			"collector_number": "97",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Pathetic Cocoon enters or dies, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "When Pathetic Cocoon enters or dies, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2359,7 +2359,7 @@
 			"collector_number": "24",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Return up to one target artifact, enchantment, or land card from your graveyard to your hand.\nCreate two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Return up to one target artifact, enchantment, or land card from your graveyard to your hand.\nCreate two Berry tokens. [i](They're Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2463,7 +2463,7 @@
 			"collector_number": "220",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Poisoned Rose enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
+			"oracle_text": "Deathtouch\nWhen Poisoned Rose enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\n{B}, Sacrifice a Berry: Target creature gets -1/-1 until end of turn. You can't activate this ability during combat.",
 		},
 		
 		{
@@ -2489,7 +2489,7 @@
 			"collector_number": "26",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 as long as you've sacrificed a Berry that was attached to it this turn.\nSacrifice a Berry attached to Practicing Guru: It gains indestructible until end of turn.",
+			"oracle_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 and had indestructible as long as it's eaten a Berry this turn.",
 		},
 		
 		{
@@ -2658,7 +2658,7 @@
 			"collector_number": "27",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Vigilance\n{2}{W}: Create a Berry token and attach it to Restless Sloth. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Vigilance\n{2}{W}: Create a Berry token and attach it to Restless Sloth. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -2734,7 +2734,7 @@
 			"collector_number": "223",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nLandfall - Whenever a land you control enters, create a Berry token. You may attach it to Rooting Raccoon. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Lifelink\nLandfall - Whenever a land you control enters, create a Berry token. You may attach it to Rooting Raccoon. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3082,7 +3082,7 @@
 			"collector_number": "30",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Once each turn, when Smart Shopper enters or you cast a creature spell, you may create a Berry token. If three or more types of mana were spent to cast it, create two of those tokens instead. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Once each turn, when Smart Shopper enters or you cast a creature spell, you may create a Berry token. If three or more types of mana were spent to cast it, create two of those tokens instead. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3095,7 +3095,7 @@
 			"collector_number": "107",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Smiling Sludge enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
+			"oracle_text": "When Smiling Sludge enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nWhenever a nonland permanent you control is put into a graveyard, if it was sacrificed, target opponent loses 1 life and you gain 1 life.",
 		},
 		
 		{
@@ -3274,7 +3274,7 @@
 			"collector_number": "184",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 until end of turn for each Berry sacrificed this way. Then it fights target creature you don't control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 until end of turn for each Berry sacrificed this way. Then it fights target creature you don't control. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3391,7 +3391,7 @@
 			"collector_number": "35",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flash\nFlying\nWhen Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner's hand. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Flash\nFlying\nWhen Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner's hand. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3494,7 +3494,7 @@
 			"collector_number": "71",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Tenki enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nYou can't sacrifice Weather enchantments.\n{W}{U}{B}{R}{G}, {T}: Tenki acclimates. This ability costs one mana of any color less to activate for each Weather you control.",
+			"oracle_text": "When Tenki enters, it acclimates. [i](You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)[/i]\nYou can't sacrifice Weather enchantments.\nAs long as you've spent {W}{U}{B}{R}{G} this turn, Weather spells you cast gain storm as you cast them. [i](When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens.)[/i]",
 		},
 		
 		{
@@ -3507,7 +3507,7 @@
 			"collector_number": "110",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Destroy target non-Human creature. If it has Berries attached to it, gain control of them. Otherwise, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +1/+1 until end of turn.\")[/i]",
+			"oracle_text": "Destroy target non-Human creature. If it has Berries attached to it, gain control of them. Otherwise, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]",
 		},
 		
 		{
@@ -3533,7 +3533,7 @@
 			"collector_number": "194",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When The Berry Master enters, create a Berry token.\nIf you would create one or more tokens, also create that many Berry tokens.\n{2}, Sacrifice two Berries: Up to one target creature gets +2/+2 until end of turn. Up to one target creature gets -2/-2 until end of turn. You gain 4 life. Activate only as a sorcery.",
+			"oracle_text": "When The Berry Master enters, create a Berry token.\nIf you would create one or more tokens, also create that many Berry tokens.\n{2}, Sacrifice two Berries: Up to one target creature gets -2/-2 until end of turn. Up to one target creature gets +3/+3 until end of turn. You gain 4 life. Activate only as a sorcery.",
 		},
 		
 		{
@@ -3948,7 +3948,7 @@
 			"collector_number": "17",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice this. If you do, equipped creature gets +1/+1 until end of turn.\nEquip {1}",
+			"oracle_text": "Before equipped creature would assign, deal, or be dealt damage, sacrifice this. If you do, equipped creature gets +2/+2 until end of turn.\nEquip {1}",
 		},
 		
 		{

@@ -750,7 +750,7 @@
 		
 		{
 			"name": "Cleansing Starfire",
-			"mana_cost": "{1}{R}{W}",
+			"mana_cost": "{2}{R}{W}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/198_Cleansing Starfire.jpg",
 			"colors": ["W","R"],
@@ -758,7 +758,7 @@
 			"collector_number": "198",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nWhen Cleansing Starfire enters, if you cast it, it deals 3 damage to any target.\nOnce each turn, when you put one or more counters on a permanent, you may gain that much life.",
+			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nWhen Cleansing Starfire enters, if you cast it, it deals 4 damage to any target.\nOnce each turn, when you put one or more counters on a permanent, you may gain that much life.",
 		},
 		
 		{
@@ -953,7 +953,7 @@
 			"collector_number": "6",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "When Creation Mythos enters, search your graveyard and/or library for an artifact card, reveal it, and put it into your hand. If you search your library this way, shuffle it.\nThe first artifact spell you cast during each of your turns costs {1} less to cast for each enchantment you control.",
+			"oracle_text": "When Creation Mythos enters, search your library for an artifact card, reveal it, and put it into your hand. If you search your library this way, shuffle it.\nThe first artifact or enchantment spell you cast during each of your turns costs {1} less to cast for each enchantment you control.",
 		},
 		
 		{
@@ -1109,7 +1109,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Exile target creature. Its controller reveals cards from the top of their library until they reveal a creature card, puts that card onto the battlefield, then shuffles. If it's your turn, end the turn.\nFlashback {4}{R}{R}",
+			"oracle_text": "Exile target creature. It controller reveals cards from the top of their library until they reveal a creature card. They put that card onto the battlefield. It loses all abilities until end of turn. Then they shuffle.\nFlashback {4}{R}{R}",
 		},
 		
 		{
@@ -1278,7 +1278,7 @@
 			"collector_number": "7",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen you cast this spell, your opponents can't cast spells until your next turn.\n-----\nPath of Stillness {X}{W}{W}\nSorcery - Adventure\nExile all nonland permanents with mana value X or less. *[i](Then exile this card. You may cast the creature later from exile.)[/i]*",
+			"oracle_text": "Flying\nWhen you cast this spell, your opponents can't cast spells until your next turn.\n-----\nPath of Stillness {2}{W}{W}\nSorcery - Adventure\nExile all nonland permanents with mana value 2 or less. *[i](Then exile this card. You may cast the creature later from exile.)[/i]*",
 		},
 		
 		{
@@ -1686,7 +1686,7 @@
 		
 		{
 			"name": "Halo Tracer",
-			"mana_cost": "{G}{W}",
+			"mana_cost": "{1}{G}{W}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/213_Halo Tracer.jpg",
 			"colors": ["W","G"],
@@ -3969,7 +3969,7 @@
 			"collector_number": "242",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Uquus Crusaris is dealt damage, it deals that much damage to any other target and you gain that much life.\n-----\nPath of Exoneration {R}{W}\nInstant - Adventure\nPath of Exoneration deals 3 damage to any nonplayer target and you gain 3 life.",
+			"oracle_text": "Whenever Uquus Crusaris is dealt damage, it deals that much damage to any other target and you gain that much life.\n-----\nPath of Exoneration {1}{R}{W}\nInstant - Adventure\nPath of Exoneration deals 3 damage to any target and you gain 3 life.",
 		},
 		
 		{
