@@ -44,7 +44,7 @@ def pull_all_images(play_rate_table, signature_table):
 	alltokens = str(r.content)
 	#print(s)
 
-	cubefilename = "custom/Curator's Cube Peasant List.txt"
+	cubefilename = "custom/TWI-SOL CC Draftmancer.txt"
 	f = open(cubefilename, "r", encoding='utf-8')
 
 	cubecards = [l.split('"name": "')[1].split('"')[0] for l in f.readlines() if '"name"' in l]

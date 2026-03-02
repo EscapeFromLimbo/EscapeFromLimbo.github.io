@@ -27,7 +27,7 @@
         },
         {
             "card_name": "Aldur Peak-Terror_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -132,7 +132,7 @@
         },
         {
             "card_name": "Ascendant Peak_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -174,7 +174,7 @@
         },
         {
             "card_name": "Banish to the Ice_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -216,7 +216,7 @@
         },
         {
             "card_name": "Biting Gale_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -321,7 +321,7 @@
         },
         {
             "card_name": "Brallatt, Light-Maiden_SVG",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 God",
@@ -404,7 +404,7 @@
         },
         {
             "card_name": "Braveheart Charger_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -551,7 +551,7 @@
         },
         {
             "card_name": "Climb to the Peak_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
@@ -572,7 +572,7 @@
         },
         {
             "card_name": "Coax Soul_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -750,7 +750,7 @@
         },
         {
             "card_name": "Dawnglade Cultivator_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elf",
@@ -813,7 +813,7 @@
         },
         {
             "card_name": "Defiant Strike_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -1484,7 +1484,7 @@
         },
         {
             "card_name": "Gate of Realms_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Artifact",
@@ -1526,7 +1526,7 @@
         },
         {
             "card_name": "Glyph of Protection_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Glyph",
@@ -1946,7 +1946,7 @@
         },
         {
             "card_name": "Lumbering Mammoth_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Elephant",
@@ -2250,7 +2250,7 @@
         },
         {
             "card_name": "Myrkalt, Shade-Bound_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 God",
@@ -2396,7 +2396,7 @@
         },
         {
             "card_name": "Northlands Revenant_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Warrior",
@@ -2553,7 +2553,7 @@
         },
         {
             "card_name": "Overwhelming Grizzly_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Bear",
@@ -2941,7 +2941,7 @@
         },
         {
             "card_name": "Rune-Mage's Wrath_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3172,7 +3172,7 @@
         },
         {
             "card_name": "Silverarm Spellblade_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Warrior",
@@ -3443,7 +3443,7 @@
         },
         {
             "card_name": "Skygga Reinforcement_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3947,7 +3947,7 @@
         },
         {
             "card_name": "Unite the Clans_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -4094,7 +4094,7 @@
         },
         {
             "card_name": "Vengeful Icemage_SVG",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
