@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Alwanor, the Humbled Star",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Spirit",
@@ -126,8 +126,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "StockCake",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "scribbl",
             "word_count": 28
         },
         {
@@ -147,7 +147,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "raboka",
             "word_count": 23
         },
@@ -174,7 +174,7 @@
         },
         {
             "card_name": "Andir Wildsoul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Elf Shaman",
@@ -189,8 +189,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "George Vostrikov",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "scribbl",
             "word_count": 47
         },
         {
@@ -210,7 +210,7 @@
             "set": "SOL",
             "loyalty": "4",
             "artist": "Nino Vecia",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "raboka",
             "word_count": 41
         },
@@ -258,7 +258,7 @@
         },
         {
             "card_name": "Aspus Venefir",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Snake Spirit",
@@ -273,8 +273,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Jack Hsu",
-            "play_rate": 90,
-            "signature": "admiralivy",
+            "play_rate": 106,
+            "signature": "",
             "word_count": 27
         },
         {
@@ -294,7 +294,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Kinchi_Lee",
-            "play_rate": 181,
+            "play_rate": 318,
             "signature": "",
             "word_count": 28
         },
@@ -336,7 +336,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Thomas Elliott",
-            "play_rate": 159,
+            "play_rate": 212,
             "signature": "",
             "word_count": 17
         },
@@ -357,13 +357,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Plutus Su",
-            "play_rate": 159,
+            "play_rate": 166,
             "signature": "",
             "word_count": 31
         },
         {
             "card_name": "Atomic Core",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "mythic",
             "type": "Artifact",
@@ -378,7 +378,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Kinchi_Lee",
-            "play_rate": 90,
+            "play_rate": 106,
             "signature": "",
             "word_count": 41
         },
@@ -426,7 +426,7 @@
         },
         {
             "card_name": "Aureleth the Sun Shard",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Angel Spirit",
@@ -441,7 +441,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Don Gendonz",
-            "play_rate": 136,
+            "play_rate": 90,
             "signature": "",
             "word_count": 45
         },
@@ -531,7 +531,7 @@
         },
         {
             "card_name": "Balaenos Cresetis",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Whale Spirit",
@@ -546,7 +546,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Shaun Doogan",
-            "play_rate": 136,
+            "play_rate": 90,
             "signature": "",
             "word_count": 31
         },
@@ -651,7 +651,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Envar studio",
-            "play_rate": 295,
+            "play_rate": 333,
             "signature": "",
             "word_count": 28
         },
@@ -693,7 +693,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Alexandr Elichev",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "zangy",
             "word_count": 13
         },
@@ -804,7 +804,7 @@
         },
         {
             "card_name": "Budding Mire",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -819,7 +819,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Nicoleta Stavarache",
-            "play_rate": 22,
+            "play_rate": 15,
             "signature": "scribbl",
             "word_count": 36
         },
@@ -841,7 +841,7 @@
             "loyalty": "",
             "artist": "Alex Rommel",
             "play_rate": 90,
-            "signature": "raboka",
+            "signature": "",
             "word_count": 20
         },
         {
@@ -888,7 +888,7 @@
         },
         {
             "card_name": "Caersol Observatory",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Mountain",
@@ -903,7 +903,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Kudos Productions",
-            "play_rate": 113,
+            "play_rate": 75,
             "signature": "",
             "word_count": 21
         },
@@ -924,7 +924,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Andrew Silver & Kan Liu",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "hsquid",
             "word_count": 8
         },
@@ -987,7 +987,7 @@
             "set": "SOL",
             "loyalty": "4",
             "artist": "AIFI\u624d\u534e\u6709\u9650\u7684\u6001\u7237",
-            "play_rate": 68,
+            "play_rate": 75,
             "signature": "",
             "word_count": 49
         },
@@ -1014,7 +1014,7 @@
         },
         {
             "card_name": "Cascade Channeller",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -1029,7 +1029,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Lourdes Saraiva",
-            "play_rate": 0,
+            "play_rate": 90,
             "signature": "",
             "word_count": 25
         },
@@ -1134,7 +1134,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Victoria Sokolova",
-            "play_rate": 386,
+            "play_rate": 257,
             "signature": "",
             "word_count": 6
         },
@@ -1182,7 +1182,7 @@
         },
         {
             "card_name": "Cleansing Starfire",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1197,8 +1197,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Andrew Silver & Kat Chan",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 45,
+            "signature": "allwhowander",
             "word_count": 33
         },
         {
@@ -1371,7 +1371,7 @@
         },
         {
             "card_name": "Cosmic Bounty",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -1386,8 +1386,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Farid Sandoval",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 45,
+            "signature": "rickyrister",
             "word_count": 14
         },
         {
@@ -1449,7 +1449,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Peter Westermann",
-            "play_rate": 272,
+            "play_rate": 181,
             "signature": "",
             "word_count": 38
         },
@@ -1512,7 +1512,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 181,
+            "play_rate": 121,
             "signature": "",
             "word_count": 50
         },
@@ -1596,7 +1596,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Yuliya Zabelina",
-            "play_rate": 45,
+            "play_rate": 60,
             "signature": "viola.exe",
             "word_count": 12
         },
@@ -1659,8 +1659,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Yuliya Zabelina",
-            "play_rate": 22,
-            "signature": "ptm",
+            "play_rate": 75,
+            "signature": "",
             "word_count": 31
         },
         {
@@ -1680,7 +1680,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Nino Vecia",
-            "play_rate": 272,
+            "play_rate": 242,
             "signature": "",
             "word_count": 49
         },
@@ -1701,7 +1701,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Jason Nguyen",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "covetedpeacock",
             "word_count": 40
         },
@@ -1806,7 +1806,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Aster Clarke",
-            "play_rate": 250,
+            "play_rate": 409,
             "signature": "",
             "word_count": 16
         },
@@ -1827,13 +1827,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Tim Barton",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "",
             "word_count": 22
         },
         {
             "card_name": "Dream Physician",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Cleric",
@@ -1848,8 +1848,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "PointLineArea",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "cftsoc3",
             "word_count": 12
         },
         {
@@ -1869,7 +1869,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Chris Rallis",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "magmadragon3",
             "word_count": 19
         },
@@ -1911,7 +1911,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "rob joseph daapydz",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "",
             "word_count": 36
         },
@@ -2016,7 +2016,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "John Riddle",
-            "play_rate": 363,
+            "play_rate": 272,
             "signature": "",
             "word_count": 42
         },
@@ -2037,7 +2037,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Yuliya Zabelina",
-            "play_rate": 522,
+            "play_rate": 409,
             "signature": "",
             "word_count": 28
         },
@@ -2079,8 +2079,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Daniel Correia",
-            "play_rate": 90,
-            "signature": "kattalist",
+            "play_rate": 75,
+            "signature": "",
             "word_count": 22
         },
         {
@@ -2289,7 +2289,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "GUWEIZ",
-            "play_rate": 181,
+            "play_rate": 121,
             "signature": "",
             "word_count": 27
         },
@@ -2310,7 +2310,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Luis Aguas",
-            "play_rate": 1250,
+            "play_rate": 1196,
             "signature": "",
             "word_count": 12
         },
@@ -2373,7 +2373,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Art Engineer",
-            "play_rate": 159,
+            "play_rate": 106,
             "signature": "",
             "word_count": 16
         },
@@ -2394,13 +2394,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "John Silva",
-            "play_rate": 181,
+            "play_rate": 121,
             "signature": "",
             "word_count": 44
         },
         {
             "card_name": "Forbidden Treasure",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -2415,7 +2415,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Nailsen Ivanderlie",
-            "play_rate": 136,
+            "play_rate": 90,
             "signature": "",
             "word_count": 44
         },
@@ -2436,7 +2436,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "CREADFECTUS",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "scribbl",
             "word_count": 38
         },
@@ -2457,7 +2457,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Peter Mohrbacher",
-            "play_rate": 1839,
+            "play_rate": 1835,
             "signature": "",
             "word_count": 0
         },
@@ -2583,7 +2583,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "NCSOFT",
-            "play_rate": 204,
+            "play_rate": 136,
             "signature": "",
             "word_count": 16
         },
@@ -2625,7 +2625,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "\u5c0f\u5c71 \u6ee1",
-            "play_rate": 204,
+            "play_rate": 136,
             "signature": "",
             "word_count": 12
         },
@@ -2709,7 +2709,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 272,
+            "play_rate": 181,
             "signature": "",
             "word_count": 28
         },
@@ -2730,7 +2730,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Jocelin Carmes",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "",
             "word_count": 37
         },
@@ -2751,7 +2751,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "basha-art",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "covetedpeacock",
             "word_count": 22
         },
@@ -2793,7 +2793,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Philip Byers",
-            "play_rate": 250,
+            "play_rate": 287,
             "signature": "",
             "word_count": 22
         },
@@ -2946,7 +2946,7 @@
         },
         {
             "card_name": "Inner Inferno",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -2961,8 +2961,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Spider Flash 23",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "allwhowander",
             "word_count": 48
         },
         {
@@ -2982,7 +2982,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "N\u00e9stor Ossand\u00f3n Leal",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "kattalist",
             "word_count": 18
         },
@@ -3003,7 +3003,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Nolan Nasser",
-            "play_rate": 227,
+            "play_rate": 151,
             "signature": "",
             "word_count": 28
         },
@@ -3087,7 +3087,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Rainman Page",
-            "play_rate": 1895,
+            "play_rate": 1876,
             "signature": "",
             "word_count": 0
         },
@@ -3129,7 +3129,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Unheeded-Influences",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "lihlosaur",
             "word_count": 21
         },
@@ -3234,7 +3234,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Frank Sun",
-            "play_rate": 136,
+            "play_rate": 121,
             "signature": "",
             "word_count": 25
         },
@@ -3276,7 +3276,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Maria Makovetskaya",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "scribbl",
             "word_count": 27
         },
@@ -3339,7 +3339,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Yuliya Zabelina",
-            "play_rate": 68,
+            "play_rate": 90,
             "signature": "opacana",
             "word_count": 17
         },
@@ -3471,7 +3471,7 @@
         },
         {
             "card_name": "Lunar Awe",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "UR",
             "rarity": "rare",
             "type": "Instant",
@@ -3486,8 +3486,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "\u5c0f\u5c71 \u6ee1",
-            "play_rate": 68,
-            "signature": "tremor",
+            "play_rate": 136,
+            "signature": "",
             "word_count": 34
         },
         {
@@ -3549,7 +3549,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Andrew Silver & Kan Liu",
-            "play_rate": 159,
+            "play_rate": 151,
             "signature": "",
             "word_count": 45
         },
@@ -3576,7 +3576,7 @@
         },
         {
             "card_name": "Manifest Naught",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3591,7 +3591,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 136,
+            "play_rate": 90,
             "signature": "",
             "word_count": 27
         },
@@ -3696,7 +3696,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Tim Barton",
-            "play_rate": 45,
+            "play_rate": 60,
             "signature": "viola.exe",
             "word_count": 26
         },
@@ -3759,7 +3759,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Rayden Chen",
-            "play_rate": 159,
+            "play_rate": 227,
             "signature": "",
             "word_count": 16
         },
@@ -3801,7 +3801,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "William Liu",
-            "play_rate": 159,
+            "play_rate": 151,
             "signature": "",
             "word_count": 44
         },
@@ -3906,7 +3906,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "mist XG",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "covetedpeacock",
             "word_count": 30
         },
@@ -3927,7 +3927,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "karlkka",
-            "play_rate": 2472,
+            "play_rate": 2463,
             "signature": "",
             "word_count": 0
         },
@@ -4032,7 +4032,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "ilkerwarmaster",
-            "play_rate": 363,
+            "play_rate": 242,
             "signature": "",
             "word_count": 37
         },
@@ -4074,7 +4074,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Everton Lima",
-            "play_rate": 954,
+            "play_rate": 803,
             "signature": "",
             "word_count": 20
         },
@@ -4116,7 +4116,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "ringasure",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "itaiuukl",
             "word_count": 29
         },
@@ -4137,7 +4137,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Heesuk Kim",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "tremor",
             "word_count": 22
         },
@@ -4242,7 +4242,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Carbon Colossal",
-            "play_rate": 340,
+            "play_rate": 242,
             "signature": "",
             "word_count": 35
         },
@@ -4269,7 +4269,7 @@
         },
         {
             "card_name": "Oberys, Ley-Pilgrim",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Oberys",
@@ -4284,7 +4284,7 @@
             "set": "SOL",
             "loyalty": "3",
             "artist": "Nino Vecia",
-            "play_rate": 0,
+            "play_rate": 60,
             "signature": "",
             "word_count": 50
         },
@@ -4305,7 +4305,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Evil-gilatio",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "galaciancheese",
             "word_count": 26
         },
@@ -4389,7 +4389,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Cristina Samsa",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "drchipmunk",
             "word_count": 33
         },
@@ -4410,7 +4410,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Mesrile Art",
-            "play_rate": 181,
+            "play_rate": 121,
             "signature": "",
             "word_count": 17
         },
@@ -4452,7 +4452,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Ryan Anelowe",
-            "play_rate": 227,
+            "play_rate": 151,
             "signature": "",
             "word_count": 49
         },
@@ -4557,7 +4557,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "NOIR Pen",
-            "play_rate": 113,
+            "play_rate": 106,
             "signature": "",
             "word_count": 31
         },
@@ -4620,7 +4620,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Vlashyrk",
-            "play_rate": 136,
+            "play_rate": 121,
             "signature": "",
             "word_count": 9
         },
@@ -4668,7 +4668,7 @@
         },
         {
             "card_name": "Psionic Backlash",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4683,7 +4683,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Games Revolted",
-            "play_rate": 22,
+            "play_rate": 15,
             "signature": "scribbl",
             "word_count": 22
         },
@@ -4725,7 +4725,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Adrian Virlan",
-            "play_rate": 45,
+            "play_rate": 60,
             "signature": "viola.exe",
             "word_count": 22
         },
@@ -4767,13 +4767,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Dorje Bellbrook",
-            "play_rate": 272,
+            "play_rate": 212,
             "signature": "",
             "word_count": 53
         },
         {
             "card_name": "Qaraz Martyr",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Moonfolk Wizard",
@@ -4788,13 +4788,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "\u5927 \u9ed1\u67f1",
-            "play_rate": 113,
+            "play_rate": 75,
             "signature": "",
             "word_count": 13
         },
         {
             "card_name": "Qaraz Monument",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4809,8 +4809,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Federico Musetti",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "tremor",
             "word_count": 48
         },
         {
@@ -4851,7 +4851,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Frank Sun",
-            "play_rate": 227,
+            "play_rate": 196,
             "signature": "",
             "word_count": 27
         },
@@ -4872,7 +4872,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "catintreee",
             "word_count": 35
         },
@@ -4893,13 +4893,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "ERA7",
-            "play_rate": 181,
+            "play_rate": 136,
             "signature": "",
             "word_count": 50
         },
         {
             "card_name": "Realm Reap",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4914,8 +4914,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Darya Kuznetsova",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 60,
+            "signature": "cftsoc3",
             "word_count": 34
         },
         {
@@ -4935,7 +4935,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Games Revolted",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "allwhowander",
             "word_count": 16
         },
@@ -5004,7 +5004,7 @@
         },
         {
             "card_name": "Rex Tyrannos",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Dinosaur Spirit",
@@ -5019,8 +5019,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "ERA7",
-            "play_rate": 68,
-            "signature": "raboka",
+            "play_rate": 106,
+            "signature": "",
             "word_count": 61
         },
         {
@@ -5082,7 +5082,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Armeid I",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "hsquid",
             "word_count": 46
         },
@@ -5124,7 +5124,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Ryan Anelowe",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "lihlosaur",
             "word_count": 11
         },
@@ -5229,7 +5229,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Meep--Merp",
-            "play_rate": 159,
+            "play_rate": 106,
             "signature": "",
             "word_count": 36
         },
@@ -5376,7 +5376,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Aster Clarke",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "galaciancheese",
             "word_count": 36
         },
@@ -5439,7 +5439,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Evi-gilatio",
-            "play_rate": 250,
+            "play_rate": 227,
             "signature": "",
             "word_count": 13
         },
@@ -5676,7 +5676,7 @@
         },
         {
             "card_name": "Starless Nebula",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5691,7 +5691,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Alex Rommel",
-            "play_rate": 22,
+            "play_rate": 15,
             "signature": "scribbl",
             "word_count": 20
         },
@@ -5733,7 +5733,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Shahab Alizadeh",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "",
             "word_count": 10
         },
@@ -5754,7 +5754,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "OPUS ARTZ",
-            "play_rate": 45,
+            "play_rate": 60,
             "signature": "ptm",
             "word_count": 27
         },
@@ -5823,7 +5823,7 @@
         },
         {
             "card_name": "Sulphurous Nebula",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5838,7 +5838,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Alex Rommel",
-            "play_rate": 22,
+            "play_rate": 15,
             "signature": "scribbl",
             "word_count": 20
         },
@@ -5859,7 +5859,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Raluca Marinescu",
-            "play_rate": 272,
+            "play_rate": 181,
             "signature": "",
             "word_count": 46
         },
@@ -5901,7 +5901,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Targete",
-            "play_rate": 2510,
+            "play_rate": 2497,
             "signature": "",
             "word_count": 0
         },
@@ -5943,7 +5943,7 @@
             "set": "SOL",
             "loyalty": "X",
             "artist": "Sergio Roman",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "epid",
             "word_count": 42
         },
@@ -6048,7 +6048,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Alexandr Elichev",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "admiralivy",
             "word_count": 27
         },
@@ -6111,7 +6111,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Kamilah Cole",
-            "play_rate": 90,
+            "play_rate": 60,
             "signature": "7nix",
             "word_count": 38
         },
@@ -6138,7 +6138,7 @@
         },
         {
             "card_name": "Tumultovore",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Wurm",
@@ -6153,8 +6153,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 30,
+            "signature": "scribbl",
             "word_count": 18
         },
         {
@@ -6258,7 +6258,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Luca Bancone",
-            "play_rate": 556,
+            "play_rate": 583,
             "signature": "",
             "word_count": 10
         },
@@ -6363,7 +6363,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "exellero",
-            "play_rate": 68,
+            "play_rate": 45,
             "signature": "tremor",
             "word_count": 11
         },
@@ -6384,13 +6384,13 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Tim Barton",
-            "play_rate": 363,
+            "play_rate": 242,
             "signature": "",
             "word_count": 39
         },
         {
             "card_name": "Ursus Majora",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bear Spirit",
@@ -6405,8 +6405,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Tim Barton",
-            "play_rate": 90,
-            "signature": "lihlosaur",
+            "play_rate": 121,
+            "signature": "",
             "word_count": 37
         },
         {
@@ -6495,7 +6495,7 @@
         },
         {
             "card_name": "Waygate Bulwark",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment",
@@ -6510,7 +6510,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Biagio D'Alessandro",
-            "play_rate": 113,
+            "play_rate": 75,
             "signature": "",
             "word_count": 26
         },
@@ -6531,8 +6531,8 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "David Ko",
-            "play_rate": 22,
-            "signature": "hsquid",
+            "play_rate": 30,
+            "signature": "",
             "word_count": 49
         },
         {
@@ -6552,7 +6552,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Numenera",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "lihlosaur",
             "word_count": 22
         },
@@ -6678,7 +6678,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "Tuomas Korpi",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "",
             "word_count": 12
         },
@@ -6720,7 +6720,7 @@
             "set": "SOL",
             "loyalty": "",
             "artist": "wawtman",
-            "play_rate": 45,
+            "play_rate": 30,
             "signature": "magmadragon3",
             "word_count": 36
         },
