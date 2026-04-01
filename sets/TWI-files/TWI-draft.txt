@@ -3395,7 +3395,7 @@
 			"collector_number": "74",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Scry 1, then draw a card. Then you may discard a card. If you do, return Stargazing to its owner's hand.\nYou can't cast any more spells named Stargazing this turn.",
+			"oracle_text": "Scry 1, then draw a card.\nIf you cast this spell, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast that card as long as it remains exiled.",
 		},
 		
 		{
