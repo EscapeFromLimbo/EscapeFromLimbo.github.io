@@ -5430,7 +5430,7 @@
             "number": 74,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Scry 1, then draw a card.\nIf you cast this spell, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast that card as long as it remains exiled.",
+            "rules_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast Stargazing as long as it remains exiled.",
             "flavor_text": "[i]\"Prophecy is not clarity. It is the patience to wait for what has already begun.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -5440,7 +5440,7 @@
             "artist": "Julia Yurtsev",
             "play_rate": 126,
             "signature": "",
-            "word_count": 37
+            "word_count": 39
         },
         {
             "card_name": "Steep the Pactwen",

@@ -4751,7 +4751,7 @@
             "number": 26,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 and has indestructible as long as it's eaten a Berry this turn.",
+            "rules_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 and has indestructible as long as it has eaten a Berry this turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4761,7 +4761,7 @@
             "artist": "manino (mofuritaionaka)",
             "play_rate": 0,
             "signature": "",
-            "word_count": 23
+            "word_count": 24
         },
         {
             "card_name": "Practicing Guru (shiny)",
@@ -4772,7 +4772,7 @@
             "number": 1026,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 and has indestructible as long as it's eaten a Berry this turn.",
+            "rules_text": "When Practicing Guru enters, create a Berry token. [i](It's an Equipment with equip {1} and \"Before damage, sacrifice this to give equipped creature +2/+2 until end of turn.\")[/i]\nPracticing Guru gets +1/+1 and has indestructible as long as it has eaten a Berry this turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4782,7 +4782,7 @@
             "artist": "manino (mofuritaionaka)",
             "play_rate": 0,
             "signature": "",
-            "word_count": 23
+            "word_count": 24
         },
         {
             "card_name": "Pressuring Ghoul",
