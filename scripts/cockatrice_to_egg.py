@@ -349,7 +349,9 @@ def pull_all_images(play_rate_table, signature_table):
 	for i in range(num_sets):
 		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
-		if i < 7:
+		if i < 6:
+			formatstring += ",future,standard,planechase"
+		elif i < 7:
 			formatstring += ",standard,planechase"
 		else:
 			formatstring += ",rotated"

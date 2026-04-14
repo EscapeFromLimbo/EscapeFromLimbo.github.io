@@ -1,12 +1,12 @@
 ﻿{
     "name": "Cliques of Nylin",
-    "formats": "eternal,standard,planechase",
+    "formats": "eternal,future,standard,planechase",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
             "card_name": "Abduct",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -27,7 +27,7 @@
         },
         {
             "card_name": "Adaptive Hydra",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Hydra",
@@ -48,7 +48,7 @@
         },
         {
             "card_name": "Alamer, Profit Rerecorder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Noble",
@@ -69,7 +69,7 @@
         },
         {
             "card_name": "Anesthesiologist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -90,7 +90,7 @@
         },
         {
             "card_name": "Ardent Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Army Reserves",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -132,7 +132,7 @@
         },
         {
             "card_name": "Arsenal Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -153,7 +153,7 @@
         },
         {
             "card_name": "Ascend to Power",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -184,7 +184,7 @@
         },
         {
             "card_name": "Aspiring Anarchist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Crocodile Rebel",
@@ -205,7 +205,7 @@
         },
         {
             "card_name": "Assault Engine",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
@@ -226,7 +226,7 @@
         },
         {
             "card_name": "Axiomatic Shift",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -247,7 +247,7 @@
         },
         {
             "card_name": "Ballot Registrar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -268,7 +268,7 @@
         },
         {
             "card_name": "Battlefield Tactician",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -289,7 +289,7 @@
         },
         {
             "card_name": "Bioengineered Opus",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Octopus Horror",
@@ -310,7 +310,7 @@
         },
         {
             "card_name": "Black-Tie Gala",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -331,7 +331,7 @@
         },
         {
             "card_name": "Blackout",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -352,7 +352,7 @@
         },
         {
             "card_name": "Blue Collar Bloodsucker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Human",
@@ -373,7 +373,7 @@
         },
         {
             "card_name": "Border Junction",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Wall",
@@ -394,7 +394,7 @@
         },
         {
             "card_name": "Bouncers-for-Hire",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Orc Soldier",
@@ -415,7 +415,7 @@
         },
         {
             "card_name": "Brazen Blackcoats",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -436,7 +436,7 @@
         },
         {
             "card_name": "Bring to the Limelight",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -457,7 +457,7 @@
         },
         {
             "card_name": "Bug the Line",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -478,7 +478,7 @@
         },
         {
             "card_name": "Bulk Bioengineering",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -499,7 +499,7 @@
         },
         {
             "card_name": "Bureau Broodmother",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Orb",
@@ -520,7 +520,7 @@
         },
         {
             "card_name": "Bureau Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -541,7 +541,7 @@
         },
         {
             "card_name": "Bustling Motorway",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -562,7 +562,7 @@
         },
         {
             "card_name": "Cabinet Recruiter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -583,7 +583,7 @@
         },
         {
             "card_name": "Campaign Rally",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -604,7 +604,7 @@
         },
         {
             "card_name": "Capital Maglev",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
@@ -625,7 +625,7 @@
         },
         {
             "card_name": "Carlisle, Grid Globalizer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Artificer",
@@ -646,7 +646,7 @@
         },
         {
             "card_name": "Central Processor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Orb",
@@ -667,7 +667,7 @@
         },
         {
             "card_name": "Change Allegiances",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -688,7 +688,7 @@
         },
         {
             "card_name": "Charity Match",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -709,7 +709,7 @@
         },
         {
             "card_name": "Chief Executive Dhante",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Noble",
@@ -730,7 +730,7 @@
         },
         {
             "card_name": "Chittering Gargantua",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Insect",
@@ -751,7 +751,7 @@
         },
         {
             "card_name": "Chromagoyf",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Lhurgoyf",
@@ -772,7 +772,7 @@
         },
         {
             "card_name": "Chromatic Rift",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -793,7 +793,7 @@
         },
         {
             "card_name": "Civic Copterist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -814,7 +814,7 @@
         },
         {
             "card_name": "Climactic Drop",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -835,7 +835,7 @@
         },
         {
             "card_name": "Codename Ant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -856,7 +856,7 @@
         },
         {
             "card_name": "Codename Bumblebee",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Insect Soldier",
@@ -877,7 +877,7 @@
         },
         {
             "card_name": "Codename Cicada",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -898,7 +898,7 @@
         },
         {
             "card_name": "Codename Spyder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Insect Scout",
@@ -919,7 +919,7 @@
         },
         {
             "card_name": "Coercive Contractor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -940,7 +940,7 @@
         },
         {
             "card_name": "Combat Corporal",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -961,7 +961,7 @@
         },
         {
             "card_name": "Congressional Hall",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -982,7 +982,7 @@
         },
         {
             "card_name": "Congressional Kraken",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Kraken",
@@ -1003,7 +1003,7 @@
         },
         {
             "card_name": "Controlled Ecosystem",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1024,7 +1024,7 @@
         },
         {
             "card_name": "Corporate Espionage",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1045,7 +1045,7 @@
         },
         {
             "card_name": "Corporate Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1066,7 +1066,7 @@
         },
         {
             "card_name": "Corrupt Congressman",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1087,7 +1087,7 @@
         },
         {
             "card_name": "Coup D'Etat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1108,7 +1108,7 @@
         },
         {
             "card_name": "Covert Infiltrator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Shapeshifter Scout",
@@ -1129,7 +1129,7 @@
         },
         {
             "card_name": "Cryptology",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1150,7 +1150,7 @@
         },
         {
             "card_name": "Dampening Reconciliator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -1171,7 +1171,7 @@
         },
         {
             "card_name": "Deadly Dispute",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1192,7 +1192,7 @@
         },
         {
             "card_name": "Debt Collectors",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Azra Assassin",
@@ -1213,7 +1213,7 @@
         },
         {
             "card_name": "Declamation Podium",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1234,7 +1234,7 @@
         },
         {
             "card_name": "Defect",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -1255,7 +1255,7 @@
         },
         {
             "card_name": "Demographer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1276,7 +1276,7 @@
         },
         {
             "card_name": "Demolition Team",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -1297,7 +1297,7 @@
         },
         {
             "card_name": "Devoted Lackeys",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Assassin",
@@ -1318,7 +1318,7 @@
         },
         {
             "card_name": "Dhante's Inferno",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "rare",
             "type": "Instant",
@@ -1339,7 +1339,7 @@
         },
         {
             "card_name": "Diplomatic Alliance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1360,7 +1360,7 @@
         },
         {
             "card_name": "Disestablishmentarianism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1381,7 +1381,7 @@
         },
         {
             "card_name": "Dissect",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1402,7 +1402,7 @@
         },
         {
             "card_name": "Distributive Justice",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -1433,7 +1433,7 @@
         },
         {
             "card_name": "Dormant Monstrosity",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Squid Horror",
@@ -1454,7 +1454,7 @@
         },
         {
             "card_name": "Eager Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -1475,7 +1475,7 @@
         },
         {
             "card_name": "Election Fraud",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1496,7 +1496,7 @@
         },
         {
             "card_name": "Empowered Revisionary",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -1517,7 +1517,7 @@
         },
         {
             "card_name": "Enforcer's Baton",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1538,7 +1538,7 @@
         },
         {
             "card_name": "Enlightenment",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1559,7 +1559,7 @@
         },
         {
             "card_name": "Envoy of the Fallen",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -1580,7 +1580,7 @@
         },
         {
             "card_name": "Eo, the Great Equalizer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Giant Avatar",
@@ -1601,7 +1601,7 @@
         },
         {
             "card_name": "Escalated Tensions",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -1622,7 +1622,7 @@
         },
         {
             "card_name": "Estranged Aristocrat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Elf Noble",
@@ -1643,7 +1643,7 @@
         },
         {
             "card_name": "Estrathe, Center of Civilization",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
@@ -1664,7 +1664,7 @@
         },
         {
             "card_name": "Estrathian Gentrifiers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "RG",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Artificer",
@@ -1685,7 +1685,7 @@
         },
         {
             "card_name": "Estrathian Philanthropist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "common",
             "type": "Creature \u2014 Human Noble",
@@ -1706,7 +1706,7 @@
         },
         {
             "card_name": "Evasive Tactics",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1727,7 +1727,7 @@
         },
         {
             "card_name": "Executive Office",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1748,7 +1748,7 @@
         },
         {
             "card_name": "Expendable Arsonist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Minion",
@@ -1769,7 +1769,7 @@
         },
         {
             "card_name": "Expendable Medic",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1790,7 +1790,7 @@
         },
         {
             "card_name": "Expendable Researcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1811,7 +1811,7 @@
         },
         {
             "card_name": "Extraction Mission",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag banned\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag banned\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1832,7 +1832,7 @@
         },
         {
             "card_name": "Eyes in the Sky",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -1853,7 +1853,7 @@
         },
         {
             "card_name": "Eyes of the Bureau",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Scout",
@@ -1874,7 +1874,7 @@
         },
         {
             "card_name": "Flags on High",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
@@ -1895,7 +1895,7 @@
         },
         {
             "card_name": "Flaw in the System",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Human Rebel",
@@ -1916,7 +1916,7 @@
         },
         {
             "card_name": "Flock Favorites",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1937,7 +1937,7 @@
         },
         {
             "card_name": "Forest_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -1958,7 +1958,7 @@
         },
         {
             "card_name": "Free Market",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -1989,7 +1989,7 @@
         },
         {
             "card_name": "Freightyard Scrappers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "rare",
             "type": "Creature \u2014 Dwarf Goblin Human",
@@ -2010,7 +2010,7 @@
         },
         {
             "card_name": "Gain Traction",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -2031,7 +2031,7 @@
         },
         {
             "card_name": "Garren, Returned Prophet",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Garren",
@@ -2052,7 +2052,7 @@
         },
         {
             "card_name": "Gatherer of Grievances",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -2073,7 +2073,7 @@
         },
         {
             "card_name": "Gaze Upon Civilization",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -2094,7 +2094,7 @@
         },
         {
             "card_name": "Genetics Prodigy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect Artificer",
@@ -2115,7 +2115,7 @@
         },
         {
             "card_name": "Genome Project",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -2136,7 +2136,7 @@
         },
         {
             "card_name": "Genotype Splicer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -2157,7 +2157,7 @@
         },
         {
             "card_name": "Gerrymanderer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Salamander Advisor",
@@ -2178,7 +2178,7 @@
         },
         {
             "card_name": "Getaway Proxy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2199,7 +2199,7 @@
         },
         {
             "card_name": "Golden Age",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -2230,7 +2230,7 @@
         },
         {
             "card_name": "Grassroots Campaigners",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2251,7 +2251,7 @@
         },
         {
             "card_name": "Groupthink Tank",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2272,7 +2272,7 @@
         },
         {
             "card_name": "Gubernatorial Fundraiser",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2293,7 +2293,7 @@
         },
         {
             "card_name": "Hazakh Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "rare",
             "type": "Instant",
@@ -2314,7 +2314,7 @@
         },
         {
             "card_name": "Hazakh Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2335,7 +2335,7 @@
         },
         {
             "card_name": "Hazakh Commandos",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Berserker",
@@ -2356,7 +2356,7 @@
         },
         {
             "card_name": "Hazakh Conscriptor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2377,7 +2377,7 @@
         },
         {
             "card_name": "Hazakh District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -2398,7 +2398,7 @@
         },
         {
             "card_name": "Held in Contempt",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2419,7 +2419,7 @@
         },
         {
             "card_name": "High Senator Talpa",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -2440,7 +2440,7 @@
         },
         {
             "card_name": "Hired Shot",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2461,7 +2461,7 @@
         },
         {
             "card_name": "Idealistic Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Citizen",
@@ -2482,7 +2482,7 @@
         },
         {
             "card_name": "Identity Forger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Shapeshifter Artificer",
@@ -2503,7 +2503,7 @@
         },
         {
             "card_name": "Ignited Soul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -2524,7 +2524,7 @@
         },
         {
             "card_name": "Incumbency",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -2545,7 +2545,7 @@
         },
         {
             "card_name": "Induced Evolution",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2566,7 +2566,7 @@
         },
         {
             "card_name": "Inflammatory Declaimer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2587,7 +2587,7 @@
         },
         {
             "card_name": "Informed Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2608,7 +2608,7 @@
         },
         {
             "card_name": "Inner City Scout",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -2629,7 +2629,7 @@
         },
         {
             "card_name": "Instigating Directive",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2650,7 +2650,7 @@
         },
         {
             "card_name": "Insurgency Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2671,7 +2671,7 @@
         },
         {
             "card_name": "International Development",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2692,7 +2692,7 @@
         },
         {
             "card_name": "Interrogation Chamber",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2713,7 +2713,7 @@
         },
         {
             "card_name": "Invader of Privacy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -2734,7 +2734,7 @@
         },
         {
             "card_name": "Invest",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2755,7 +2755,7 @@
         },
         {
             "card_name": "Island_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -2776,7 +2776,7 @@
         },
         {
             "card_name": "Judge, Jury, and Executioner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor Citizen Assassin",
@@ -2797,7 +2797,7 @@
         },
         {
             "card_name": "Killing in the Name of . . .",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2818,7 +2818,7 @@
         },
         {
             "card_name": "Krint, Five Star",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Warrior",
@@ -2839,7 +2839,7 @@
         },
         {
             "card_name": "Laboratory Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Artificer",
@@ -2860,7 +2860,7 @@
         },
         {
             "card_name": "Legislative Gridlock",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Instant",
@@ -2881,7 +2881,7 @@
         },
         {
             "card_name": "Lightning Warmonger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -2902,7 +2902,7 @@
         },
         {
             "card_name": "Liquidate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2923,7 +2923,7 @@
         },
         {
             "card_name": "Lofty Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2944,7 +2944,7 @@
         },
         {
             "card_name": "Looming Skyscrapers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2965,7 +2965,7 @@
         },
         {
             "card_name": "Loophole Exploiter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2986,7 +2986,7 @@
         },
         {
             "card_name": "Magnetic Rhetorician",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -3007,7 +3007,7 @@
         },
         {
             "card_name": "Main Street Hooligang",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Rebel",
@@ -3028,7 +3028,7 @@
         },
         {
             "card_name": "Mana Harvesters",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -3049,7 +3049,7 @@
         },
         {
             "card_name": "Martyrize",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3070,7 +3070,7 @@
         },
         {
             "card_name": "Medic's Implant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -3091,7 +3091,7 @@
         },
         {
             "card_name": "Meeting of the Elites",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -3122,7 +3122,7 @@
         },
         {
             "card_name": "Mellan, Defense Attorney",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -3143,7 +3143,7 @@
         },
         {
             "card_name": "Merciless Headsman",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Assassin",
@@ -3164,7 +3164,7 @@
         },
         {
             "card_name": "Metropolitan Champion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3185,7 +3185,7 @@
         },
         {
             "card_name": "Minister of Utility",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3206,7 +3206,7 @@
         },
         {
             "card_name": "Mondo, Outcast Maverick",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Rebel",
@@ -3227,7 +3227,7 @@
         },
         {
             "card_name": "Mountain_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -3248,7 +3248,7 @@
         },
         {
             "card_name": "Mutinous Inciter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3269,7 +3269,7 @@
         },
         {
             "card_name": "Neglected Slums",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3290,7 +3290,7 @@
         },
         {
             "card_name": "Neuralinked Hive",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Human Drone",
@@ -3311,7 +3311,7 @@
         },
         {
             "card_name": "Night Squad",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -3332,7 +3332,7 @@
         },
         {
             "card_name": "Nourishing Orator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3353,7 +3353,7 @@
         },
         {
             "card_name": "Noxious Conditions",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3374,7 +3374,7 @@
         },
         {
             "card_name": "Old Times Ruminator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Elder",
@@ -3395,7 +3395,7 @@
         },
         {
             "card_name": "Open Air Boardwalk",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3416,7 +3416,7 @@
         },
         {
             "card_name": "Out With a Bang",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3437,7 +3437,7 @@
         },
         {
             "card_name": "Overbearing Researcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -3458,7 +3458,7 @@
         },
         {
             "card_name": "Patent Pending",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3479,7 +3479,7 @@
         },
         {
             "card_name": "Patron of Arms",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3500,7 +3500,7 @@
         },
         {
             "card_name": "Penrath Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "rare",
             "type": "Instant",
@@ -3521,7 +3521,7 @@
         },
         {
             "card_name": "Penrath Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3542,7 +3542,7 @@
         },
         {
             "card_name": "Penrath Dispatcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WRG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3563,7 +3563,7 @@
         },
         {
             "card_name": "Penrath District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3584,7 +3584,7 @@
         },
         {
             "card_name": "Penrath Firearm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3605,7 +3605,7 @@
         },
         {
             "card_name": "Penrath Roperunner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3626,7 +3626,7 @@
         },
         {
             "card_name": "Pinnacle of Progress",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Eye Horror",
@@ -3647,7 +3647,7 @@
         },
         {
             "card_name": "Plains_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -3668,7 +3668,7 @@
         },
         {
             "card_name": "Planned Obsolescence",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3689,7 +3689,7 @@
         },
         {
             "card_name": "Political Prisoner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3710,7 +3710,7 @@
         },
         {
             "card_name": "Presidential Pardon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3731,7 +3731,7 @@
         },
         {
             "card_name": "Prime for Innovation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -3752,7 +3752,7 @@
         },
         {
             "card_name": "Prismatic Confluence",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3773,7 +3773,7 @@
         },
         {
             "card_name": "Prismatic Propagandist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -3794,7 +3794,7 @@
         },
         {
             "card_name": "Private Investigators",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -3815,7 +3815,7 @@
         },
         {
             "card_name": "Product of Nepotism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -3836,7 +3836,7 @@
         },
         {
             "card_name": "Projects Overseer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -3857,7 +3857,7 @@
         },
         {
             "card_name": "Proletarian Rabble",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3878,7 +3878,7 @@
         },
         {
             "card_name": "Prosperity Project",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3899,7 +3899,7 @@
         },
         {
             "card_name": "Puppet War",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3920,7 +3920,7 @@
         },
         {
             "card_name": "Quid Pro Quo",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -3941,7 +3941,7 @@
         },
         {
             "card_name": "Ram Through",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3962,7 +3962,7 @@
         },
         {
             "card_name": "Rank and Defile",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3983,7 +3983,7 @@
         },
         {
             "card_name": "Reckless Jailbreak",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -4004,7 +4004,7 @@
         },
         {
             "card_name": "Reconnaissance Agent",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Insect Scout",
@@ -4025,7 +4025,7 @@
         },
         {
             "card_name": "Redeveloped Cityscape",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4046,7 +4046,7 @@
         },
         {
             "card_name": "Replicated Regiment",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -4067,7 +4067,7 @@
         },
         {
             "card_name": "Research Grant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -4098,7 +4098,7 @@
         },
         {
             "card_name": "Resourceful Hireling",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elf Artificer",
@@ -4119,7 +4119,7 @@
         },
         {
             "card_name": "Retaliatory Outburst",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -4140,7 +4140,7 @@
         },
         {
             "card_name": "Revolutionary Throng",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4161,7 +4161,7 @@
         },
         {
             "card_name": "Rigged Trial",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -4182,7 +4182,7 @@
         },
         {
             "card_name": "Rogue Justiciar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4203,7 +4203,7 @@
         },
         {
             "card_name": "Rooftop Whistlesilencer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -4224,7 +4224,7 @@
         },
         {
             "card_name": "Ruinous Discovery",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -4245,7 +4245,7 @@
         },
         {
             "card_name": "Rush for Results",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4266,7 +4266,7 @@
         },
         {
             "card_name": "Scandalous Revelation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4287,7 +4287,7 @@
         },
         {
             "card_name": "Scathing Remarks",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4308,7 +4308,7 @@
         },
         {
             "card_name": "Scourge of Capitalism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Insect Beast",
@@ -4329,7 +4329,7 @@
         },
         {
             "card_name": "Scrapyard Mecha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "mythic",
             "type": "Artifact \u2014 Vehicle",
@@ -4350,7 +4350,7 @@
         },
         {
             "card_name": "Search and Seizure",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4371,7 +4371,7 @@
         },
         {
             "card_name": "Seasoned Spymaster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4392,7 +4392,7 @@
         },
         {
             "card_name": "Security Initiative",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4423,7 +4423,7 @@
         },
         {
             "card_name": "Selective Truthseeker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -4444,7 +4444,7 @@
         },
         {
             "card_name": "Senate Filibuster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4465,7 +4465,7 @@
         },
         {
             "card_name": "Senators' Chauffeur",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Skeleton Pilot",
@@ -4486,7 +4486,7 @@
         },
         {
             "card_name": "Serve Again",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4507,7 +4507,7 @@
         },
         {
             "card_name": "Severin, Sparkmind",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Severin",
@@ -4528,7 +4528,7 @@
         },
         {
             "card_name": "Severin's Masterwork",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -4549,7 +4549,7 @@
         },
         {
             "card_name": "Silence the Opposition",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4580,7 +4580,7 @@
         },
         {
             "card_name": "Sillaman Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "rare",
             "type": "Instant",
@@ -4601,7 +4601,7 @@
         },
         {
             "card_name": "Sillaman Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4622,7 +4622,7 @@
         },
         {
             "card_name": "Sillaman District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4643,7 +4643,7 @@
         },
         {
             "card_name": "Sillaman Regrafter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -4664,7 +4664,7 @@
         },
         {
             "card_name": "Sleeper Insurgent",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -4685,7 +4685,7 @@
         },
         {
             "card_name": "Sleeper Strix",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Bird",
@@ -4706,7 +4706,7 @@
         },
         {
             "card_name": "Social Engineering",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4727,7 +4727,7 @@
         },
         {
             "card_name": "Sola, Contraband Playboy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -4748,7 +4748,7 @@
         },
         {
             "card_name": "Sparks of a Revolution",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -4779,7 +4779,7 @@
         },
         {
             "card_name": "Speculative Stockbroker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -4800,7 +4800,7 @@
         },
         {
             "card_name": "Splintering Blast",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -4821,7 +4821,7 @@
         },
         {
             "card_name": "Stasis Chamber",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -4842,7 +4842,7 @@
         },
         {
             "card_name": "Sterling, Federal Informant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Rat Advisor",
@@ -4863,7 +4863,7 @@
         },
         {
             "card_name": "Storm the Senate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4884,7 +4884,7 @@
         },
         {
             "card_name": "Subsidized Market",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact",
@@ -4905,7 +4905,7 @@
         },
         {
             "card_name": "Survivors of the New World",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "WG",
             "rarity": "mythic",
             "type": "Creature \u2014 Mutant Survivor",
@@ -4926,7 +4926,7 @@
         },
         {
             "card_name": "Sustainable Investments",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4947,7 +4947,7 @@
         },
         {
             "card_name": "Swamp_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -4968,7 +4968,7 @@
         },
         {
             "card_name": "Test Subject Alpha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rat",
@@ -4989,7 +4989,7 @@
         },
         {
             "card_name": "The Connaistone",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUB",
             "rarity": "mythic",
             "type": "Legendary Artifact",
@@ -5010,7 +5010,7 @@
         },
         {
             "card_name": "The First Battalion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Soldier",
@@ -5031,7 +5031,7 @@
         },
         {
             "card_name": "The Majority Whip",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Equipment",
@@ -5052,7 +5052,7 @@
         },
         {
             "card_name": "The Quindral Accords",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Enchantment \u2014 Clique",
@@ -5073,7 +5073,7 @@
         },
         {
             "card_name": "The Venerable Veteran",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Minion",
@@ -5094,7 +5094,7 @@
         },
         {
             "card_name": "Thesis on Mutation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5115,7 +5115,7 @@
         },
         {
             "card_name": "Tiril Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "rare",
             "type": "Instant",
@@ -5136,7 +5136,7 @@
         },
         {
             "card_name": "Tiril Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -5157,7 +5157,7 @@
         },
         {
             "card_name": "Tiril District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5178,7 +5178,7 @@
         },
         {
             "card_name": "Together in Arms",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -5209,7 +5209,7 @@
         },
         {
             "card_name": "Tomer, Figurehead President",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -5230,7 +5230,7 @@
         },
         {
             "card_name": "Trailblazer Anarch",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WR",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -5251,7 +5251,7 @@
         },
         {
             "card_name": "Traumatic Recollection",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "common",
             "type": "Sorcery",
@@ -5272,7 +5272,7 @@
         },
         {
             "card_name": "Trench Commander",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5293,7 +5293,7 @@
         },
         {
             "card_name": "Triumphant Herd",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elephant",
@@ -5314,7 +5314,7 @@
         },
         {
             "card_name": "Underclass Hero",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5335,7 +5335,7 @@
         },
         {
             "card_name": "Up-and-Comer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -5356,7 +5356,7 @@
         },
         {
             "card_name": "Urban Sunscape",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -5377,7 +5377,7 @@
         },
         {
             "card_name": "Urban Twinmotors",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -5398,7 +5398,7 @@
         },
         {
             "card_name": "Venture Capitalist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Noble",
@@ -5419,7 +5419,7 @@
         },
         {
             "card_name": "Verity Circle",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5440,7 +5440,7 @@
         },
         {
             "card_name": "Vertical Integration",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5461,7 +5461,7 @@
         },
         {
             "card_name": "Veto",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5482,7 +5482,7 @@
         },
         {
             "card_name": "Vishanki Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "rare",
             "type": "Instant",
@@ -5503,7 +5503,7 @@
         },
         {
             "card_name": "Vishanki Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "common",
             "type": "Creature \u2014 Orc Advisor",
@@ -5524,7 +5524,7 @@
         },
         {
             "card_name": "Vishanki District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5545,7 +5545,7 @@
         },
         {
             "card_name": "Vishanki Hellkite",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -5566,7 +5566,7 @@
         },
         {
             "card_name": "Volatile Sergeant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -5587,7 +5587,7 @@
         },
         {
             "card_name": "Warrant-Borne Cop",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5608,7 +5608,7 @@
         },
         {
             "card_name": "Whirring Inspector",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUB",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -5629,7 +5629,7 @@
         },
         {
             "card_name": "Work Safety Violation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "BRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5650,7 +5650,7 @@
         },
         {
             "card_name": "Zeno, Planar Engineer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Artifact Creature \u2014 Human Artificer",
@@ -5671,7 +5671,7 @@
         },
         {
             "card_name": "Chittering Gargantua_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect",
@@ -5692,7 +5692,7 @@
         },
         {
             "card_name": "Chromatic Rift_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -5713,7 +5713,7 @@
         },
         {
             "card_name": "Coup D'Etat_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "UBR",
             "rarity": "special",
             "type": "Sorcery",
@@ -5734,7 +5734,7 @@
         },
         {
             "card_name": "Deadly Dispute_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Instant",
@@ -5755,7 +5755,7 @@
         },
         {
             "card_name": "Defect_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -5776,7 +5776,7 @@
         },
         {
             "card_name": "Dormant Monstrosity_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Creature \u2014 Squid Horror",
@@ -5797,7 +5797,7 @@
         },
         {
             "card_name": "Estrathe, Center of Civilization_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Legendary Land",
@@ -5818,7 +5818,7 @@
         },
         {
             "card_name": "Flags on High_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment",
@@ -5839,7 +5839,7 @@
         },
         {
             "card_name": "Gaze Upon Civilization_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment",
@@ -5860,7 +5860,7 @@
         },
         {
             "card_name": "Genotype Splicer_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -5881,7 +5881,7 @@
         },
         {
             "card_name": "Ignited Soul_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Creature \u2014 Human Soldier",
@@ -5902,7 +5902,7 @@
         },
         {
             "card_name": "Incumbency_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -5923,7 +5923,7 @@
         },
         {
             "card_name": "Liquidate_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Instant",
@@ -5944,7 +5944,7 @@
         },
         {
             "card_name": "Planned Obsolescence_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -5965,7 +5965,7 @@
         },
         {
             "card_name": "Research Grant_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -5996,7 +5996,7 @@
         },
         {
             "card_name": "Search and Seizure_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Sorcery",
@@ -6017,7 +6017,7 @@
         },
         {
             "card_name": "Serve Again_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Enchantment",
@@ -6038,7 +6038,7 @@
         },
         {
             "card_name": "Severin's Masterwork_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Legendary Enchantment",
@@ -6059,7 +6059,7 @@
         },
         {
             "card_name": "Sparks of a Revolution_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -6090,7 +6090,7 @@
         },
         {
             "card_name": "Sparks of a Revolution (Hero)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -6121,7 +6121,7 @@
         },
         {
             "card_name": "Survivors of the New World_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "WG",
             "rarity": "special",
             "type": "Creature \u2014 Mutant Survivor",
@@ -6142,7 +6142,7 @@
         },
         {
             "card_name": "Thesis on Mutation_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Sorcery",
@@ -6163,7 +6163,7 @@
         },
         {
             "card_name": "Vishanki Hellkite_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag promo",
             "color": "RG",
             "rarity": "special",
             "type": "Creature \u2014 Dragon",
@@ -6184,7 +6184,7 @@
         },
         {
             "card_name": "Whirring Inspector_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WUB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -6205,7 +6205,7 @@
         },
         {
             "card_name": "Work Safety Violation_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "BRG",
             "rarity": "special",
             "type": "Sorcery",
@@ -6226,7 +6226,7 @@
         },
         {
             "card_name": "Penrath Insurgency CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RGW",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6247,7 +6247,7 @@
         },
         {
             "card_name": "Vishanki Inc. CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6268,7 +6268,7 @@
         },
         {
             "card_name": "Hazakh Arsenal CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UBR",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6289,7 +6289,7 @@
         },
         {
             "card_name": "Tiril Bureau CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUB",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6310,7 +6310,7 @@
         },
         {
             "card_name": "Sillaman Laboratories CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6331,7 +6331,7 @@
         },
         {
             "card_name": "Treasure CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Treasure",
@@ -6352,7 +6352,7 @@
         },
         {
             "card_name": "colorless Soldier 11CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Soldier",
@@ -6373,7 +6373,7 @@
         },
         {
             "card_name": "colorless Robot 00CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",
@@ -6394,7 +6394,7 @@
         },
         {
             "card_name": "colorless Minion 22CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Minion",
@@ -6415,7 +6415,7 @@
         },
         {
             "card_name": "The Codex CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Legendary Artifact",
@@ -6436,7 +6436,7 @@
         },
         {
             "card_name": "red Berserker 22CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Berserker",
@@ -6457,7 +6457,7 @@
         },
         {
             "card_name": "colorless Equipment CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Equipment",
@@ -6478,7 +6478,7 @@
         },
         {
             "card_name": "Chaneryx, Perfect Lifeform CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Legendary Creature - Leviathan",
@@ -6499,7 +6499,7 @@
         },
         {
             "card_name": "Sentry of the New World CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",

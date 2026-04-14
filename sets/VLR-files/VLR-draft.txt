@@ -1,0 +1,3447 @@
+[CustomCards]
+	[
+		{
+			"name": "Fledgling Sycophant",
+			"rarity": "common",
+			"mana_cost": "{W/B}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/231_Fledgling Sycophant.jpg"
+			}
+		},
+		{
+			"name": "Blessed Proselytism",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/5_Blessed Proselytism.jpg"
+			}
+		},
+		{
+			"name": "Sunset Sentries",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/37_Sunset Sentries.jpg"
+			}
+		},
+		{
+			"name": "Chapel Crasher",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/7_Chapel Crasher.jpg"
+			}
+		},
+		{
+			"name": "Reclaimed Convert",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Rebel",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/25_Reclaimed Convert.jpg"
+			}
+		},
+		{
+			"name": "Enigmatic Apothecary",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Snake Druid",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/46_Enigmatic Apothecary.jpg"
+			}
+		},
+		{
+			"name": "Renegade Banneret",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Cat Rebel",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/26_Renegade Banneret.jpg"
+			}
+		},
+		{
+			"name": "Clash of Courage",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/10_Clash of Courage.jpg"
+			}
+		},
+		{
+			"name": "Preacher of Singularity",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/24_Preacher of Singularity.jpg"
+			}
+		},
+		{
+			"name": "Chapel Specter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/8_Chapel Specter.jpg"
+			}
+		},
+		{
+			"name": "Stand as One",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/35_Stand as One.jpg"
+			}
+		},
+		{
+			"name": "Depart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/13_Depart.jpg"
+			}
+		},
+		{
+			"name": "Glimpse the Worldsoul",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/190_Glimpse the Worldsoul.jpg"
+			}
+		},
+		{
+			"name": "Renegade's Intercession",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/29_Renegade's Intercession.jpg"
+			}
+		},
+		{
+			"name": "Offer the Faithless",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/102_Offer the Faithless.jpg"
+			}
+		},
+		{
+			"name": "Consult the Offerings",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/12_Consult the Offerings.jpg"
+			}
+		},
+		{
+			"name": "Semari Pilferer",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Bird Rogue",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/65_Semari Pilferer.jpg"
+			}
+		},
+		{
+			"name": "Beneath the Tide",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/41_Beneath the Tide.jpg"
+			}
+		},
+		{
+			"name": "Setral Sentry",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Bird Druid",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/66_Setral Sentry.jpg"
+			}
+		},
+		{
+			"name": "Blinded Arbiter",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Creature — Angel",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/227_Blinded Arbiter.jpg"
+			}
+		},
+		{
+			"name": "Vicuro Pathmaker",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/75_Vicuro Pathmaker.jpg"
+			}
+		},
+		{
+			"name": "Shroud Scholar",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}{U/B}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/239_Shroud Scholar.jpg"
+			}
+		},
+		{
+			"name": "Heist Lookout",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/49_Heist Lookout.jpg"
+			}
+		},
+		{
+			"name": "Intangibility",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/51_Intangibility.jpg"
+			}
+		},
+		{
+			"name": "Eavesdrop",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/45_Eavesdrop.jpg"
+			}
+		},
+		{
+			"name": "Covet",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/43_Covet.jpg"
+			}
+		},
+		{
+			"name": "Juniper's Awakening",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/54_Juniper's Awakening.jpg"
+			}
+		},
+		{
+			"name": "Founder's Malice",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/189_Founder's Malice.jpg"
+			}
+		},
+		{
+			"name": "Perfect Plan",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/59_Perfect Plan.jpg"
+			}
+		},
+		{
+			"name": "Pickpocket",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/60_Pickpocket.jpg"
+			}
+		},
+		{
+			"name": "Aspiring Shaper",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cat Druid",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/39_Aspiring Shaper.jpg"
+			}
+		},
+		{
+			"name": "Attuned Rebuttal",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/40_Attuned Rebuttal.jpg"
+			}
+		},
+		{
+			"name": "Semari Weaponsmith",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/31_Semari Weaponsmith.jpg"
+			}
+		},
+		{
+			"name": "South-Street Scoundrel",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Snake Mercenary",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/107_South-Street Scoundrel.jpg"
+			}
+		},
+		{
+			"name": "Disciple of Surola",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Snake Warlock",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/84_Disciple of Surola.jpg"
+			}
+		},
+		{
+			"name": "Killer-for-Hire",
+			"rarity": "common",
+			"mana_cost": "{2}{B/G}{B/G}",
+			"type": "Creature — Snake Mercenary",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/233_Killer-for-Hire.jpg"
+			}
+		},
+		{
+			"name": "Hand of the Overseer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Azra Warlock",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/92_Hand of the Overseer.jpg"
+			}
+		},
+		{
+			"name": "Beyond the Shroud",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/78_Beyond the Shroud.jpg"
+			}
+		},
+		{
+			"name": "Slinking Swiftblade",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Mercenary",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/106_Slinking Swiftblade.jpg"
+			}
+		},
+		{
+			"name": "Crypt Caretaker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/81_Crypt Caretaker.jpg"
+			}
+		},
+		{
+			"name": "Elite Aspirant",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Cat Mercenary",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/86_Elite Aspirant.jpg"
+			}
+		},
+		{
+			"name": "Eyes of the Overseer",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/88_Eyes of the Overseer.jpg"
+			}
+		},
+		{
+			"name": "Evasive Flourish",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/47_Evasive Flourish.jpg"
+			}
+		},
+		{
+			"name": "With Impunity",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/112_With Impunity.jpg"
+			}
+		},
+		{
+			"name": "It's Just Business",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/97_It's Just Business.jpg"
+			}
+		},
+		{
+			"name": "Tragic Accident",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/110_Tragic Accident.jpg"
+			}
+		},
+		{
+			"name": "Bloodletting",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/79_Bloodletting.jpg"
+			}
+		},
+		{
+			"name": "Hymn of the Overseer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/96_Hymn of the Overseer.jpg"
+			}
+		},
+		{
+			"name": "Done Deal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/85_Done Deal.jpg"
+			}
+		},
+		{
+			"name": "Listen In",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/99_Listen In.jpg"
+			}
+		},
+		{
+			"name": "Founder's Echo",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Horror Shapeshifter",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/188_Founder's Echo.jpg"
+			}
+		},
+		{
+			"name": "The Volwood",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/272_The Volwood.jpg"
+			}
+		},
+		{
+			"name": "Sunset Recruit",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Cat Rebel",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/141_Sunset Recruit.jpg"
+			}
+		},
+		{
+			"name": "Patrol Veteran",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/128_Patrol Veteran.jpg"
+			}
+		},
+		{
+			"name": "Impatient Bandits",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/123_Impatient Bandits.jpg"
+			}
+		},
+		{
+			"name": "Incursion Vanguard",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Creature — Bird Rebel",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/232_Incursion Vanguard.jpg"
+			}
+		},
+		{
+			"name": "Disgruntled Crook",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/118_Disgruntled Crook.jpg"
+			}
+		},
+		{
+			"name": "Impromptu Exit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/124_Impromptu Exit.jpg"
+			}
+		},
+		{
+			"name": "Liberated Convert",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Bird Rebel",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/125_Liberated Convert.jpg"
+			}
+		},
+		{
+			"name": "Thoroughfare Busker",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Creature — Human Bard",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/240_Thoroughfare Busker.jpg"
+			}
+		},
+		{
+			"name": "Subtle Touch",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/69_Subtle Touch.jpg"
+			}
+		},
+		{
+			"name": "Forgotten Foundation",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/259_Forgotten Foundation.jpg"
+			}
+		},
+		{
+			"name": "Tear Down",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/142_Tear Down.jpg"
+			}
+		},
+		{
+			"name": "Friendly Misdirection",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/119_Friendly Misdirection.jpg"
+			}
+		},
+		{
+			"name": "Spice of Life",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/135_Spice of Life.jpg"
+			}
+		},
+		{
+			"name": "Yoink!",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/148_Yoink!.jpg"
+			}
+		},
+		{
+			"name": "Scatter Evidence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/131_Scatter Evidence.jpg"
+			}
+		},
+		{
+			"name": "Melodious Mallard",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/198_Melodious Mallard.jpg"
+			}
+		},
+		{
+			"name": "Dormant Godkiller",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/245_Dormant Godkiller.jpg"
+			}
+		},
+		{
+			"name": "Leonin Revivalist",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Cat Druid",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/162_Leonin Revivalist.jpg"
+			}
+		},
+		{
+			"name": "Spit Venom",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/175_Spit Venom.jpg"
+			}
+		},
+		{
+			"name": "Outskirts Steward",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/165_Outskirts Steward.jpg"
+			}
+		},
+		{
+			"name": "Kindly Tavernkeep",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/234_Kindly Tavernkeep.jpg"
+			}
+		},
+		{
+			"name": "Volwood Sentry",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk Druid",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/182_Volwood Sentry.jpg"
+			}
+		},
+		{
+			"name": "Toxin Peddler",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bird Mercenary",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/178_Toxin Peddler.jpg"
+			}
+		},
+		{
+			"name": "Ruthless Duo",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/169_Ruthless Duo.jpg"
+			}
+		},
+		{
+			"name": "Titanic Mycoid",
+			"rarity": "common",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Fungus Giant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/177_Titanic Mycoid.jpg"
+			}
+		},
+		{
+			"name": "Hired Hand",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/161_Hired Hand.jpg"
+			}
+		},
+		{
+			"name": "Dockside Hawker",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cat Citizen",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/154_Dockside Hawker.jpg"
+			}
+		},
+		{
+			"name": "Gutter Rat",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Rat Mercenary",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/159_Gutter Rat.jpg"
+			}
+		},
+		{
+			"name": "Defend the Groves",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/153_Defend the Groves.jpg"
+			}
+		},
+		{
+			"name": "Due Reward",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/155_Due Reward.jpg"
+			}
+		},
+		{
+			"name": "Pattern's Abundance",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/166_Pattern's Abundance.jpg"
+			}
+		},
+		{
+			"name": "Shroudpiercer",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Horror",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/174_Shroudpiercer.jpg"
+			}
+		},
+		{
+			"name": "Trespass the Volwood",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/179_Trespass the Volwood.jpg"
+			}
+		},
+		{
+			"name": "Find Your Prey",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/158_Find Your Prey.jpg"
+			}
+		},
+		{
+			"name": "Soulcage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/212_Soulcage.jpg"
+			}
+		},
+		{
+			"name": "Overseer's Entrancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Warlock",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/22_Overseer's Entrancer.jpg"
+			}
+		},
+		{
+			"name": "Overseer's Chosen",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/21_Overseer's Chosen.jpg"
+			}
+		},
+		{
+			"name": "Outskirts Mentor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Snake Rebel",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/20_Outskirts Mentor.jpg"
+			}
+		},
+		{
+			"name": "Congregation Minister",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/11_Congregation Minister.jpg"
+			}
+		},
+		{
+			"name": "Malicious Throng",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/197_Malicious Throng.jpg"
+			}
+		},
+		{
+			"name": "Backalley Minstrel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/4_Backalley Minstrel.jpg"
+			}
+		},
+		{
+			"name": "Overseer's Shackles",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/23_Overseer's Shackles.jpg"
+			}
+		},
+		{
+			"name": "Vicuro Informant",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/74_Vicuro Informant.jpg"
+			}
+		},
+		{
+			"name": "Rooftop Runner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird Rogue",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/64_Rooftop Runner.jpg"
+			}
+		},
+		{
+			"name": "Chandelier Slink",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/42_Chandelier Slink.jpg"
+			}
+		},
+		{
+			"name": "Volwood Defilers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Dog Horror",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/221_Volwood Defilers.jpg"
+			}
+		},
+		{
+			"name": "Observe the Pattern",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/57_Observe the Pattern.jpg"
+			}
+		},
+		{
+			"name": "Shaper's Rites",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/68_Shaper's Rites.jpg"
+			}
+		},
+		{
+			"name": "Make a Break For It",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/126_Make a Break For It.jpg"
+			}
+		},
+		{
+			"name": "Bedlam's Vessel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Azra Mercenary",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/77_Bedlam's Vessel.jpg"
+			}
+		},
+		{
+			"name": "Patient Executioner",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird Mercenary",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/103_Patient Executioner.jpg"
+			}
+		},
+		{
+			"name": "Shriek of the Shroud",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/105_Shriek of the Shroud.jpg"
+			}
+		},
+		{
+			"name": "Reckless Show-Off",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Bird Rogue",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/130_Reckless Show-Off.jpg"
+			}
+		},
+		{
+			"name": "Forsaken Shroudguard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/89_Forsaken Shroudguard.jpg"
+			}
+		},
+		{
+			"name": "Desperate Ambusher",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat Mercenary",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/83_Desperate Ambusher.jpg"
+			}
+		},
+		{
+			"name": "Crypt Tiller",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat Warlock",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/82_Crypt Tiller.jpg"
+			}
+		},
+		{
+			"name": "Thing in the Dark",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/109_Thing in the Dark.jpg"
+			}
+		},
+		{
+			"name": "Tenacious Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/143_Tenacious Thief.jpg"
+			}
+		},
+		{
+			"name": "Wistful Strategist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Cat Rebel",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/147_Wistful Strategist.jpg"
+			}
+		},
+		{
+			"name": "Daring Escapees",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/116_Daring Escapees.jpg"
+			}
+		},
+		{
+			"name": "Scrawny Pursesnatcher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/132_Scrawny Pursesnatcher.jpg"
+			}
+		},
+		{
+			"name": "Sieging Volleymage",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Rebel Wizard",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/134_Sieging Volleymage.jpg"
+			}
+		},
+		{
+			"name": "Tale of Bedlam",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/215_Tale of Bedlam.jpg"
+			}
+		},
+		{
+			"name": "Burn It All Down",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/115_Burn It All Down.jpg"
+			}
+		},
+		{
+			"name": "Culvert Inspector",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Rat Druid",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/152_Culvert Inspector.jpg"
+			}
+		},
+		{
+			"name": "Unerring Killer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/180_Unerring Killer.jpg"
+			}
+		},
+		{
+			"name": "Creeping Overgrowth",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{G}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/151_Creeping Overgrowth.jpg"
+			}
+		},
+		{
+			"name": "Volwood Deadeye",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Azra Mercenary",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/181_Volwood Deadeye.jpg"
+			}
+		},
+		{
+			"name": "End the Chase",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/156_End the Chase.jpg"
+			}
+		},
+		{
+			"name": "Herbalist's Satchel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/248_Herbalist's Satchel.jpg"
+			}
+		},
+		{
+			"name": "Volwood Stalwart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Treefolk Rebel",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/222_Volwood Stalwart.jpg"
+			}
+		},
+		{
+			"name": "Life from Death",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/164_Life from Death.jpg"
+			}
+		},
+		{
+			"name": "Guild Elite",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Human Mercenary Noble",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/193_Guild Elite.jpg"
+			}
+		},
+		{
+			"name": "Kane, Unyielding",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Treefolk Rebel",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/196_Kane, Unyielding.jpg"
+			}
+		},
+		{
+			"name": "Rowdy Mob",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Sorcery",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/205_Rowdy Mob.jpg"
+			}
+		},
+		{
+			"name": "Starry-Eyed Scholar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Cat Wizard",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/213_Starry-Eyed Scholar.jpg"
+			}
+		},
+		{
+			"name": "Profane Gathering",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Instant",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/202_Profane Gathering.jpg"
+			}
+		},
+		{
+			"name": "Go for the Gut",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/91_Go for the Gut.jpg"
+			}
+		},
+		{
+			"name": "Rally the Rabble",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/204_Rally the Rabble.jpg"
+			}
+		},
+		{
+			"name": "Umber Grovetender",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Snake Druid",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/218_Umber Grovetender.jpg"
+			}
+		},
+		{
+			"name": "Midnight Warden",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/18_Midnight Warden.jpg"
+			}
+		},
+		{
+			"name": "Survivalist Mentor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/70_Survivalist Mentor.jpg"
+			}
+		},
+		{
+			"name": "Frontline Victor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Azra Rebel",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/120_Frontline Victor.jpg"
+			}
+		},
+		{
+			"name": "Concord Alchemist",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}",
+			"type": "Creature — Snake Druid",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/228_Concord Alchemist.jpg"
+			}
+		},
+		{
+			"name": "Sanctum Deathspeaker",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Snake Warlock",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/207_Sanctum Deathspeaker.jpg"
+			}
+		},
+		{
+			"name": "Overprepared Accomplice",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/201_Overprepared Accomplice.jpg"
+			}
+		},
+		{
+			"name": "Shroudwalker",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Skeleton Horror",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/133_Shroudwalker.jpg"
+			}
+		},
+		{
+			"name": "Streetwise Surveyor",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/138_Streetwise Surveyor.jpg"
+			}
+		},
+		{
+			"name": "Ancient Sentry",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/241_Ancient Sentry.jpg"
+			}
+		},
+		{
+			"name": "Heart of Bedlam",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Artifact",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/247_Heart of Bedlam.jpg"
+			}
+		},
+		{
+			"name": "Bounty Wall",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/243_Bounty Wall.jpg"
+			}
+		},
+		{
+			"name": "Disposable Dagger",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/244_Disposable Dagger.jpg"
+			}
+		},
+		{
+			"name": "Bustling Marketplace",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/256_Bustling Marketplace.jpg"
+			}
+		},
+		{
+			"name": "Strangle",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/137_Strangle.jpg"
+			}
+		},
+		{
+			"name": "Furious Resolve",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/121_Furious Resolve.jpg"
+			}
+		},
+		{
+			"name": "Setral Mender",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Treefolk Druid",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/171_Setral Mender.jpg"
+			}
+		},
+		{
+			"name": "Pick Your Poison",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/167_Pick Your Poison.jpg"
+			}
+		},
+		{
+			"name": "Become the Hunted",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/76_Become the Hunted.jpg"
+			}
+		},
+		{
+			"name": "Offer Yourself",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/19_Offer Yourself.jpg"
+			}
+		},
+		{
+			"name": "Het's Call",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/94_Het's Call.jpg"
+			}
+		},
+		{
+			"name": "Madness of Ages",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/100_Madness of Ages.jpg"
+			}
+		},
+		{
+			"name": "Jump the Gap",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/53_Jump the Gap.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Steward",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Treefolk Druid",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/73_Undergrowth Steward.jpg"
+			}
+		},
+		{
+			"name": "Call for Backup",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/6_Call for Backup.jpg"
+			}
+		},
+		{
+			"name": "Into the Grove",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/52_Into the Grove.jpg"
+			}
+		},
+		{
+			"name": "City's Memory",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/9_City's Memory.jpg"
+			}
+		},
+		{
+			"name": "Veteran Hunter",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Mercenary",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/111_Veteran Hunter.jpg"
+			}
+		},
+		{
+			"name": "Het, False God",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Creature — Elder Spirit",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/93_Het, False God.jpg"
+			}
+		},
+		{
+			"name": "Mercenary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Mercenary",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/7_Mercenary.jpg"
+			}
+		},
+		{
+			"name": "The Shrouded Seas",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/269_The Shrouded Seas.jpg"
+			}
+		},
+		{
+			"name": "Valiant Firebrand",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/219_Valiant Firebrand.jpg"
+			}
+		},
+		{
+			"name": "Tesh, Fragmented Founder",
+			"rarity": "mythic",
+			"mana_cost": "{8}",
+			"type": "Legendary Planeswalker — Tesh",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/1_Tesh, Fragmented Founder.jpg"
+			}
+		},
+		{
+			"name": "Sahra, Siege Captain",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R/W}{W}",
+			"type": "Legendary Creature — Cat Rebel",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/238_Sahra, Siege Captain.jpg"
+			}
+		},
+		{
+			"name": "Ascension Ritualist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Cat Warlock",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/3_Ascension Ritualist.jpg"
+			}
+		},
+		{
+			"name": "Esteemed Exterminator",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/157_Esteemed Exterminator.jpg"
+			}
+		},
+		{
+			"name": "Ascendant Judge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Bird Warlock",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/2_Ascendant Judge.jpg"
+			}
+		},
+		{
+			"name": "Morbid Missive",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/250_Morbid Missive.jpg"
+			}
+		},
+		{
+			"name": "Forsaken Penitents",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/15_Forsaken Penitents.jpg"
+			}
+		},
+		{
+			"name": "Encroaching Voidborn",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Creature — Horror",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/229_Encroaching Voidborn.jpg"
+			}
+		},
+		{
+			"name": "Sunset Champion",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Snake Rebel",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/140_Sunset Champion.jpg"
+			}
+		},
+		{
+			"name": "The Founder's Cage",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/246_The Founder's Cage.jpg"
+			}
+		},
+		{
+			"name": "Secluded Courtyard",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/268_Secluded Courtyard.jpg"
+			}
+		},
+		{
+			"name": "The Founder's Hunt Begins",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/90_The Founder's Hunt Begins.jpg"
+			}
+		},
+		{
+			"name": "Ery, Leyfused",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G/U}{U}",
+			"type": "Legendary Creature — Snake Druid",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/230_Ery, Leyfused.jpg"
+			}
+		},
+		{
+			"name": "Setral Arborist",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Cat Druid",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/170_Setral Arborist.jpg"
+			}
+		},
+		{
+			"name": "Malicious Pactmaker",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/101_Malicious Pactmaker.jpg"
+			}
+		},
+		{
+			"name": "League of Their Own",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/98_League of Their Own.jpg"
+			}
+		},
+		{
+			"name": "Evrax, Enlightened Endling",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{U}",
+			"type": "Legendary Creature — Dragon Druid",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/187_Evrax, Enlightened Endling.jpg"
+			}
+		},
+		{
+			"name": "Delias, Savvy Smuggler",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Snake Rogue",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/117_Delias, Savvy Smuggler.jpg"
+			}
+		},
+		{
+			"name": "Smolder Away",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/211_Smolder Away.jpg"
+			}
+		},
+		{
+			"name": "Wharf Forgemaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/224_Wharf Forgemaster.jpg"
+			}
+		},
+		{
+			"name": "Wharf Vendor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Cat Citizen",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/225_Wharf Vendor.jpg"
+			}
+		},
+		{
+			"name": "Pool of Light",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/267_Pool of Light.jpg"
+			}
+		},
+		{
+			"name": "Flooded Morass",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/257_Flooded Morass.jpg"
+			}
+		},
+		{
+			"name": "Lavatorn Fields",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/265_Lavatorn Fields.jpg"
+			}
+		},
+		{
+			"name": "Flourishing Crevasse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/258_Flourishing Crevasse.jpg"
+			}
+		},
+		{
+			"name": "Heart of the Glade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/263_Heart of the Glade.jpg"
+			}
+		},
+		{
+			"name": "Fungal Mire",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/261_Fungal Mire.jpg"
+			}
+		},
+		{
+			"name": "Lush Oasis",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/266_Lush Oasis.jpg"
+			}
+		},
+		{
+			"name": "Smoke Bomb",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/253_Smoke Bomb.jpg"
+			}
+		},
+		{
+			"name": "Scrounging Sensor",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Rat Construct",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/252_Scrounging Sensor.jpg"
+			}
+		},
+		{
+			"name": "Corner the Prey",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/150_Corner the Prey.jpg"
+			}
+		},
+		{
+			"name": "Voice of the Old Grove",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Azra Druid",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/220_Voice of the Old Grove.jpg"
+			}
+		},
+		{
+			"name": "Greedy Deserter",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/192_Greedy Deserter.jpg"
+			}
+		},
+		{
+			"name": "Duplicity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/44_Duplicity.jpg"
+			}
+		},
+		{
+			"name": "Sunder the Cage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/139_Sunder the Cage.jpg"
+			}
+		},
+		{
+			"name": "Spite of the Founder",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/34_Spite of the Founder.jpg"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/2_Spirit.jpg"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/8_Treasure.jpg"
+			}
+		},
+		{
+			"name": "Rooftop Observer",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/63_Rooftop Observer.jpg"
+			}
+		},
+		{
+			"name": "Innovative Alchemist",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/50_Innovative Alchemist.jpg"
+			}
+		},
+		{
+			"name": "Stand Ready",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/36_Stand Ready.jpg"
+			}
+		},
+		{
+			"name": "Split the Loot",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Instant",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/136_Split the Loot.jpg"
+			}
+		},
+		{
+			"name": "Reap the Rewards",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/129_Reap the Rewards.jpg"
+			}
+		},
+		{
+			"name": "Solemn Procession",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/33_Solemn Procession.jpg"
+			}
+		},
+		{
+			"name": "Leybound Ritualist",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Treefolk Druid",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/163_Leybound Ritualist.jpg"
+			}
+		},
+		{
+			"name": "Renegade Recruiter",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/27_Renegade Recruiter.jpg"
+			}
+		},
+		{
+			"name": "Blossoming Steward",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk Druid",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/149_Blossoming Steward.jpg"
+			}
+		},
+		{
+			"name": "Wharf Patrol",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/255_Wharf Patrol.jpg"
+			}
+		},
+		{
+			"name": "Turen, Untouchable",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Azra Rogue",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/217_Turen, Untouchable.jpg"
+			}
+		},
+		{
+			"name": "Torvel, Scion of Rot",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Treefolk Mercenary",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/216_Torvel, Scion of Rot.jpg"
+			}
+		},
+		{
+			"name": "Setral Shoresculptor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/67_Setral Shoresculptor.jpg"
+			}
+		},
+		{
+			"name": "Sanctum Enforcer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/30_Sanctum Enforcer.jpg"
+			}
+		},
+		{
+			"name": "Autonomous Accomplice",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/242_Autonomous Accomplice.jpg"
+			}
+		},
+		{
+			"name": "Stalker's Cowl",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/254_Stalker's Cowl.jpg"
+			}
+		},
+		{
+			"name": "High Priestess Symi",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/95_High Priestess Symi.jpg"
+			}
+		},
+		{
+			"name": "In Tune",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/194_In Tune.jpg"
+			}
+		},
+		{
+			"name": "Winding Assailant",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Snake Mercenary",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/184_Winding Assailant.jpg"
+			}
+		},
+		{
+			"name": "Vie's Lieutenant",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Cat Rebel",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/146_Vie's Lieutenant.jpg"
+			}
+		},
+		{
+			"name": "Swift-Step Robber",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/71_Swift-Step Robber.jpg"
+			}
+		},
+		{
+			"name": "Ruthless Stalker",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Rat Mercenary",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/206_Ruthless Stalker.jpg"
+			}
+		},
+		{
+			"name": "Acolyte",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Warlock",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/6_Acolyte.jpg"
+			}
+		},
+		{
+			"name": "Coffers Altar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/80_Coffers Altar.jpg"
+			}
+		},
+		{
+			"name": "Expert Infiltration",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/48_Expert Infiltration.jpg"
+			}
+		},
+		{
+			"name": "Race for the Glory",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/104_Race for the Glory.jpg"
+			}
+		},
+		{
+			"name": "Unending Unrest",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/144_Unending Unrest.jpg"
+			}
+		},
+		{
+			"name": "Heart of the Grove",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/160_Heart of the Grove.jpg"
+			}
+		},
+		{
+			"name": "Profane Scripture",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/203_Profane Scripture.jpg"
+			}
+		},
+		{
+			"name": "Shroudwarder Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Phoenix",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/208_Shroudwarder Phoenix.jpg"
+			}
+		},
+		{
+			"name": "Prized Possession",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/251_Prized Possession.jpg"
+			}
+		},
+		{
+			"name": "It All Comes Together",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/195_It All Comes Together.jpg"
+			}
+		},
+		{
+			"name": "Orliss's Edict",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/200_Orliss's Edict.jpg"
+			}
+		},
+		{
+			"name": "Wanton Destruction",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/223_Wanton Destruction.jpg"
+			}
+		},
+		{
+			"name": "Silent Warden",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Angel",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/209_Silent Warden.jpg"
+			}
+		},
+		{
+			"name": "The Great Singularity",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/16_The Great Singularity.jpg"
+			}
+		},
+		{
+			"name": "Gloomcover Steppe",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/262_Gloomcover Steppe.jpg"
+			}
+		},
+		{
+			"name": "Renegade Trueheart",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Rebel",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/28_Renegade Trueheart.jpg"
+			}
+		},
+		{
+			"name": "Arital, Grand Adjudicator",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W/B}{B}",
+			"type": "Legendary Creature — Bird Warlock",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/226_Arital, Grand Adjudicator.jpg"
+			}
+		},
+		{
+			"name": "Orliss of the Elite",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B/G}{G}",
+			"type": "Legendary Creature — Snake Mercenary Noble",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/237_Orliss of the Elite.jpg"
+			}
+		},
+		{
+			"name": "Surola, Vile Preacher",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Rat Warlock",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/214_Surola, Vile Preacher.jpg"
+			}
+		},
+		{
+			"name": "On Top of the World",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/58_On Top of the World.jpg"
+			}
+		},
+		{
+			"name": "Memoriam",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Instant",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/199_Memoriam.jpg"
+			}
+		},
+		{
+			"name": "Marle, Vicuro Head",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U/R}{R}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/236_Marle, Vicuro Head.jpg"
+			}
+		},
+		{
+			"name": "Sprouting Sproutling",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/176_Sprouting Sproutling.jpg"
+			}
+		},
+		{
+			"name": "Herald of Emergence",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/122_Herald of Emergence.jpg"
+			}
+		},
+		{
+			"name": "Reckless Smashing",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/168_Reckless Smashing.jpg"
+			}
+		},
+		{
+			"name": "Brazen Burglar",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/114_Brazen Burglar.jpg"
+			}
+		},
+		{
+			"name": "Tireless Refutation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/72_Tireless Refutation.jpg"
+			}
+		},
+		{
+			"name": "Siurne, Eternal Sentinel",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Angel Warlock",
+			"collector_number": "32",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/32_Siurne, Eternal Sentinel_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/32_Siurne, Eternal Sentinel_front.jpg"
+			}
+		},
+		{
+			"name": "Leiowen, Escape Artist",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Cat Rogue",
+			"collector_number": "55",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/55_Leiowen, Escape Artist_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/55_Leiowen, Escape Artist_front.jpg"
+			}
+		},
+		{
+			"name": "Soya, Nal Executioner",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Bird Mercenary",
+			"collector_number": "108",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/108_Soya, Nal Executioner_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/108_Soya, Nal Executioner_front.jpg"
+			}
+		},
+		{
+			"name": "Vie, the First Hero",
+			"rarity": "mythic",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Cat Rebel",
+			"collector_number": "145",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/145_Vie, the First Hero_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/145_Vie, the First Hero_front.jpg"
+			}
+		},
+		{
+			"name": "The Setral Shaper",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Azra Druid",
+			"collector_number": "172",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/172_The Setral Shaper_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/172_The Setral Shaper_front.jpg"
+			}
+		},
+		{
+			"name": "Shape the Pattern",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/173_Shape the Pattern.jpg"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/276_Mountain.jpg"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/275_Swamp.jpg"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/273_Plains.jpg"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/274_Island.jpg"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/277_Forest.jpg"
+			}
+		},
+		{
+			"name": "Humming Furnace",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/264_Humming Furnace.jpg"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/1_Copy.jpg"
+			}
+		},
+		{
+			"name": "Skeleton Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Skeleton Dragon",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/4_Skeleton Dragon.jpg"
+			}
+		},
+		{
+			"name": "Fell the Nonbeliever",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/14_Fell the Nonbeliever.jpg"
+			}
+		},
+		{
+			"name": "Tomb of the Founder",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/271_Tomb of the Founder.jpg"
+			}
+		},
+		{
+			"name": "Memorial to the First Shaper",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/249_Memorial to the First Shaper.jpg"
+			}
+		},
+		{
+			"name": "Lucrative Larcenist",
+			"rarity": "common",
+			"mana_cost": "{2}{U/R}",
+			"type": "Creature — Cat Rogue",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/235_Lucrative Larcenist.jpg"
+			}
+		},
+		{
+			"name": "Blade Flourish",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/113_Blade Flourish.jpg"
+			}
+		},
+		{
+			"name": "Restoration Specialist",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/62_Restoration Specialist.jpg"
+			}
+		},
+		{
+			"name": "Avarice",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}{R}{R}",
+			"type": "Creature — Incarnation",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/185_Avarice.jpg"
+			}
+		},
+		{
+			"name": "Loresk, Ever-Curious",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Treefolk Druid",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/56_Loresk, Ever-Curious.jpg"
+			}
+		},
+		{
+			"name": "Waylen, Bloodhunter",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Cat Mercenary",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/183_Waylen, Bloodhunter.jpg"
+			}
+		},
+		{
+			"name": "Ivari, Liberated Mentor",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Snake Rebel",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/17_Ivari, Liberated Mentor.jpg"
+			}
+		},
+		{
+			"name": "Makeshift Justice",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/127_Makeshift Justice.jpg"
+			}
+		},
+		{
+			"name": "Volwood Warder",
+			"rarity": "mythic",
+			"mana_cost": "{W}",
+			"type": "Creature — Treefolk Rebel",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/38_Volwood Warder.jpg"
+			}
+		},
+		{
+			"name": "Planar Archives",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/61_Planar Archives.jpg"
+			}
+		},
+		{
+			"name": "Divine Liberation",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/186_Divine Liberation.jpg"
+			}
+		},
+		{
+			"name": "Frostfire Geysers",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Mountain",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/260_Frostfire Geysers.jpg"
+			}
+		},
+		{
+			"name": "Spiraling Canyon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/270_Spiraling Canyon.jpg"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment Weapon",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/9_Weapon.jpg"
+			}
+		},
+		{
+			"name": "Citizen",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Citizen",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/3_Citizen.jpg"
+			}
+		},
+		{
+			"name": "Siurne's Betrayal",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/210_Siurne's Betrayal.jpg"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/5_Elemental.jpg"
+			}
+		},
+		{
+			"name": "Exultant Shepherd",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit Warlock",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/87_Exultant Shepherd.jpg"
+			}
+		},
+		{
+			"name": "Grand Larceny",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/191_Grand Larceny.jpg"
+			}
+		},
+	]
+
+[rare(1)]
+	2 Juniper's Awakening
+	2 Perfect Plan
+	2 Malicious Throng
+	2 Make a Break For It
+	2 Reckless Show-Off
+	2 Burn It All Down
+	2 Kane, Unyielding
+	2 Heart of Bedlam
+	2 Veteran Hunter
+	1 Het, False God
+	2 The Shrouded Seas
+	2 Valiant Firebrand
+	1 Tesh, Fragmented Founder
+	1 Sahra, Siege Captain
+	2 Ascension Ritualist
+	1 Esteemed Exterminator
+	2 Forsaken Penitents
+	2 Sunset Champion
+	1 The Founder's Cage
+	2 The Founder's Hunt Begins
+	1 Ery, Leyfused
+	2 Setral Arborist
+	2 Malicious Pactmaker
+	2 League of Their Own
+	2 Evrax, Enlightened Endling
+	2 Delias, Savvy Smuggler
+	2 Smolder Away
+	2 Wharf Forgemaster
+	2 Corner the Prey
+	2 Voice of the Old Grove
+	2 Greedy Deserter
+	2 Spite of the Founder
+	2 Rooftop Observer
+	2 Innovative Alchemist
+	2 Stand Ready
+	2 Solemn Procession
+	2 Leybound Ritualist
+	2 Renegade Recruiter
+	2 Turen, Untouchable
+	2 Torvel, Scion of Rot
+	2 High Priestess Symi
+	2 In Tune
+	2 Winding Assailant
+	2 Vie's Lieutenant
+	2 Swift-Step Robber
+	2 Ruthless Stalker
+	2 Coffers Altar
+	2 Race for the Glory
+	2 Unending Unrest
+	2 Heart of the Grove
+	2 Profane Scripture
+	2 Shroudwarder Phoenix
+	2 Prized Possession
+	2 It All Comes Together
+	2 Wanton Destruction
+	2 Silent Warden
+	1 The Great Singularity
+	1 Arital, Grand Adjudicator
+	1 Orliss of the Elite
+	2 Surola, Vile Preacher
+	2 On Top of the World
+	2 Memoriam
+	1 Marle, Vicuro Head
+	1 Brazen Burglar
+	1 Siurne, Eternal Sentinel
+	1 Leiowen, Escape Artist
+	1 Soya, Nal Executioner
+	1 Vie, the First Hero
+	1 The Setral Shaper
+	2 Shape the Pattern
+	2 Tomb of the Founder
+	2 Memorial to the First Shaper
+	1 Restoration Specialist
+	1 Avarice
+	2 Loresk, Ever-Curious
+	2 Waylen, Bloodhunter
+	2 Ivari, Liberated Mentor
+	1 Volwood Warder
+	1 Planar Archives
+	2 Divine Liberation
+	1 Exultant Shepherd
+[uncommon(4)]
+	4 Chapel Crasher
+	4 Chapel Specter
+	4 Depart
+	4 Glimpse the Worldsoul
+	4 Offer the Faithless
+	4 Consult the Offerings
+	4 Founder's Malice
+	4 Pickpocket
+	4 Semari Weaponsmith
+	4 Hand of the Overseer
+	4 Evasive Flourish
+	4 Bloodletting
+	4 Done Deal
+	4 Listen In
+	4 Founder's Echo
+	4 The Volwood
+	4 Friendly Misdirection
+	4 Scatter Evidence
+	4 Melodious Mallard
+	4 Dormant Godkiller
+	4 Spit Venom
+	4 Ruthless Duo
+	4 Shroudpiercer
+	4 Trespass the Volwood
+	4 Soulcage
+	4 Overseer's Entrancer
+	4 Overseer's Chosen
+	4 Outskirts Mentor
+	4 Backalley Minstrel
+	4 Vicuro Informant
+	4 Rooftop Runner
+	4 Chandelier Slink
+	4 Volwood Defilers
+	4 Observe the Pattern
+	4 Bedlam's Vessel
+	4 Patient Executioner
+	4 Forsaken Shroudguard
+	4 Desperate Ambusher
+	4 Crypt Tiller
+	4 Thing in the Dark
+	4 Tenacious Thief
+	4 Wistful Strategist
+	4 Daring Escapees
+	4 Scrawny Pursesnatcher
+	4 Sieging Volleymage
+	4 Tale of Bedlam
+	4 Culvert Inspector
+	4 Unerring Killer
+	4 Creeping Overgrowth
+	4 Volwood Deadeye
+	4 End the Chase
+	4 Herbalist's Satchel
+	4 Volwood Stalwart
+	4 Life from Death
+	4 Guild Elite
+	4 Rowdy Mob
+	4 Starry-Eyed Scholar
+	4 Profane Gathering
+	4 Go for the Gut
+	4 Rally the Rabble
+	4 Umber Grovetender
+	4 Survivalist Mentor
+	4 Frontline Victor
+	4 Sanctum Deathspeaker
+	4 Overprepared Accomplice
+	4 Ancient Sentry
+	4 Setral Mender
+	4 Become the Hunted
+	4 Offer Yourself
+	4 Madness of Ages
+	4 Jump the Gap
+	4 Undergrowth Steward
+	4 Call for Backup
+	4 Into the Grove
+	4 City's Memory
+	4 Ascendant Judge
+	4 Morbid Missive
+	4 Secluded Courtyard
+	4 Wharf Vendor
+	4 Smoke Bomb
+	4 Duplicity
+	4 Sunder the Cage
+	4 Split the Loot
+	4 Reap the Rewards
+	4 Blossoming Steward
+	4 Wharf Patrol
+	4 Setral Shoresculptor
+	4 Stalker's Cowl
+	4 Expert Infiltration
+	4 Orliss's Edict
+	4 Renegade Trueheart
+	4 Sprouting Sproutling
+	4 Herald of Emergence
+	4 Reckless Smashing
+	4 Tireless Refutation
+	4 Humming Furnace
+	4 Blade Flourish
+	4 Makeshift Justice
+	4 Siurne's Betrayal
+	4 Grand Larceny
+[common(7)]
+	8 Fledgling Sycophant
+	8 Blessed Proselytism
+	8 Sunset Sentries
+	8 Reclaimed Convert
+	8 Enigmatic Apothecary
+	8 Renegade Banneret
+	8 Clash of Courage
+	8 Preacher of Singularity
+	8 Stand as One
+	8 Renegade's Intercession
+	8 Semari Pilferer
+	8 Beneath the Tide
+	8 Setral Sentry
+	8 Blinded Arbiter
+	8 Vicuro Pathmaker
+	8 Shroud Scholar
+	8 Heist Lookout
+	8 Intangibility
+	8 Eavesdrop
+	8 Covet
+	8 Aspiring Shaper
+	8 Attuned Rebuttal
+	8 South-Street Scoundrel
+	8 Disciple of Surola
+	8 Killer-for-Hire
+	8 Beyond the Shroud
+	8 Slinking Swiftblade
+	8 Crypt Caretaker
+	8 Elite Aspirant
+	8 Eyes of the Overseer
+	8 With Impunity
+	8 It's Just Business
+	8 Tragic Accident
+	8 Hymn of the Overseer
+	8 Sunset Recruit
+	8 Patrol Veteran
+	8 Impatient Bandits
+	8 Incursion Vanguard
+	8 Disgruntled Crook
+	8 Impromptu Exit
+	8 Liberated Convert
+	8 Thoroughfare Busker
+	8 Subtle Touch
+	8 Forgotten Foundation
+	8 Tear Down
+	8 Spice of Life
+	8 Yoink!
+	8 Leonin Revivalist
+	8 Outskirts Steward
+	8 Kindly Tavernkeep
+	8 Volwood Sentry
+	8 Toxin Peddler
+	8 Titanic Mycoid
+	8 Hired Hand
+	8 Dockside Hawker
+	8 Gutter Rat
+	8 Defend the Groves
+	8 Due Reward
+	8 Pattern's Abundance
+	8 Find Your Prey
+	8 Congregation Minister
+	8 Overseer's Shackles
+	8 Shaper's Rites
+	8 Shriek of the Shroud
+	8 Midnight Warden
+	8 Concord Alchemist
+	8 Shroudwalker
+	8 Streetwise Surveyor
+	8 Bounty Wall
+	8 Disposable Dagger
+	8 Bustling Marketplace
+	8 Strangle
+	8 Furious Resolve
+	8 Pick Your Poison
+	8 Het's Call
+	8 Encroaching Voidborn
+	8 Pool of Light
+	8 Flooded Morass
+	8 Lavatorn Fields
+	8 Flourishing Crevasse
+	8 Heart of the Glade
+	8 Fungal Mire
+	8 Lush Oasis
+	8 Scrounging Sensor
+	8 Sanctum Enforcer
+	8 Autonomous Accomplice
+	8 Gloomcover Steppe
+	8 Fell the Nonbeliever
+	8 Lucrative Larcenist
+	8 Frostfire Geysers
+	8 Spiraling Canyon
+[wildcard(2)]
+	6 Fledgling Sycophant
+	6 Blessed Proselytism
+	6 Sunset Sentries
+	15 Chapel Crasher
+	6 Reclaimed Convert
+	6 Enigmatic Apothecary
+	6 Renegade Banneret
+	6 Clash of Courage
+	6 Preacher of Singularity
+	15 Chapel Specter
+	6 Stand as One
+	15 Depart
+	15 Glimpse the Worldsoul
+	6 Renegade's Intercession
+	15 Offer the Faithless
+	15 Consult the Offerings
+	6 Semari Pilferer
+	6 Beneath the Tide
+	6 Setral Sentry
+	6 Blinded Arbiter
+	6 Vicuro Pathmaker
+	6 Shroud Scholar
+	6 Heist Lookout
+	6 Intangibility
+	6 Eavesdrop
+	6 Covet
+	7 Juniper's Awakening
+	15 Founder's Malice
+	7 Perfect Plan
+	15 Pickpocket
+	6 Aspiring Shaper
+	6 Attuned Rebuttal
+	15 Semari Weaponsmith
+	6 South-Street Scoundrel
+	6 Disciple of Surola
+	6 Killer-for-Hire
+	15 Hand of the Overseer
+	6 Beyond the Shroud
+	6 Slinking Swiftblade
+	6 Crypt Caretaker
+	6 Elite Aspirant
+	6 Eyes of the Overseer
+	15 Evasive Flourish
+	6 With Impunity
+	6 It's Just Business
+	6 Tragic Accident
+	15 Bloodletting
+	6 Hymn of the Overseer
+	15 Done Deal
+	15 Listen In
+	15 Founder's Echo
+	15 The Volwood
+	6 Sunset Recruit
+	6 Patrol Veteran
+	6 Impatient Bandits
+	6 Incursion Vanguard
+	6 Disgruntled Crook
+	6 Impromptu Exit
+	6 Liberated Convert
+	6 Thoroughfare Busker
+	6 Subtle Touch
+	6 Forgotten Foundation
+	6 Tear Down
+	15 Friendly Misdirection
+	6 Spice of Life
+	6 Yoink!
+	15 Scatter Evidence
+	15 Melodious Mallard
+	15 Dormant Godkiller
+	6 Leonin Revivalist
+	15 Spit Venom
+	6 Outskirts Steward
+	6 Kindly Tavernkeep
+	6 Volwood Sentry
+	6 Toxin Peddler
+	15 Ruthless Duo
+	6 Titanic Mycoid
+	6 Hired Hand
+	6 Dockside Hawker
+	6 Gutter Rat
+	6 Defend the Groves
+	6 Due Reward
+	6 Pattern's Abundance
+	15 Shroudpiercer
+	15 Trespass the Volwood
+	6 Find Your Prey
+	15 Soulcage
+	15 Overseer's Entrancer
+	15 Overseer's Chosen
+	15 Outskirts Mentor
+	6 Congregation Minister
+	7 Malicious Throng
+	15 Backalley Minstrel
+	6 Overseer's Shackles
+	15 Vicuro Informant
+	15 Rooftop Runner
+	15 Chandelier Slink
+	15 Volwood Defilers
+	15 Observe the Pattern
+	6 Shaper's Rites
+	7 Make a Break For It
+	15 Bedlam's Vessel
+	15 Patient Executioner
+	6 Shriek of the Shroud
+	7 Reckless Show-Off
+	15 Forsaken Shroudguard
+	15 Desperate Ambusher
+	15 Crypt Tiller
+	15 Thing in the Dark
+	15 Tenacious Thief
+	15 Wistful Strategist
+	15 Daring Escapees
+	15 Scrawny Pursesnatcher
+	15 Sieging Volleymage
+	15 Tale of Bedlam
+	7 Burn It All Down
+	15 Culvert Inspector
+	15 Unerring Killer
+	15 Creeping Overgrowth
+	15 Volwood Deadeye
+	15 End the Chase
+	15 Herbalist's Satchel
+	15 Volwood Stalwart
+	15 Life from Death
+	15 Guild Elite
+	7 Kane, Unyielding
+	15 Rowdy Mob
+	15 Starry-Eyed Scholar
+	15 Profane Gathering
+	15 Go for the Gut
+	15 Rally the Rabble
+	15 Umber Grovetender
+	6 Midnight Warden
+	15 Survivalist Mentor
+	15 Frontline Victor
+	6 Concord Alchemist
+	15 Sanctum Deathspeaker
+	15 Overprepared Accomplice
+	6 Shroudwalker
+	6 Streetwise Surveyor
+	15 Ancient Sentry
+	7 Heart of Bedlam
+	6 Bounty Wall
+	6 Disposable Dagger
+	6 Bustling Marketplace
+	6 Strangle
+	6 Furious Resolve
+	15 Setral Mender
+	6 Pick Your Poison
+	15 Become the Hunted
+	15 Offer Yourself
+	6 Het's Call
+	15 Madness of Ages
+	15 Jump the Gap
+	15 Undergrowth Steward
+	15 Call for Backup
+	15 Into the Grove
+	15 City's Memory
+	7 Veteran Hunter
+	4 Het, False God
+	7 The Shrouded Seas
+	7 Valiant Firebrand
+	4 Tesh, Fragmented Founder
+	4 Sahra, Siege Captain
+	7 Ascension Ritualist
+	4 Esteemed Exterminator
+	15 Ascendant Judge
+	15 Morbid Missive
+	7 Forsaken Penitents
+	6 Encroaching Voidborn
+	7 Sunset Champion
+	4 The Founder's Cage
+	15 Secluded Courtyard
+	7 The Founder's Hunt Begins
+	4 Ery, Leyfused
+	7 Setral Arborist
+	7 Malicious Pactmaker
+	7 League of Their Own
+	7 Evrax, Enlightened Endling
+	7 Delias, Savvy Smuggler
+	7 Smolder Away
+	7 Wharf Forgemaster
+	15 Wharf Vendor
+	6 Pool of Light
+	6 Flooded Morass
+	6 Lavatorn Fields
+	6 Flourishing Crevasse
+	6 Heart of the Glade
+	6 Fungal Mire
+	6 Lush Oasis
+	15 Smoke Bomb
+	6 Scrounging Sensor
+	7 Corner the Prey
+	7 Voice of the Old Grove
+	7 Greedy Deserter
+	15 Duplicity
+	15 Sunder the Cage
+	7 Spite of the Founder
+	7 Rooftop Observer
+	7 Innovative Alchemist
+	7 Stand Ready
+	15 Split the Loot
+	15 Reap the Rewards
+	7 Solemn Procession
+	7 Leybound Ritualist
+	7 Renegade Recruiter
+	15 Blossoming Steward
+	15 Wharf Patrol
+	7 Turen, Untouchable
+	7 Torvel, Scion of Rot
+	15 Setral Shoresculptor
+	6 Sanctum Enforcer
+	6 Autonomous Accomplice
+	15 Stalker's Cowl
+	7 High Priestess Symi
+	7 In Tune
+	7 Winding Assailant
+	7 Vie's Lieutenant
+	7 Swift-Step Robber
+	7 Ruthless Stalker
+	7 Coffers Altar
+	15 Expert Infiltration
+	7 Race for the Glory
+	7 Unending Unrest
+	7 Heart of the Grove
+	7 Profane Scripture
+	7 Shroudwarder Phoenix
+	7 Prized Possession
+	7 It All Comes Together
+	15 Orliss's Edict
+	7 Wanton Destruction
+	7 Silent Warden
+	4 The Great Singularity
+	6 Gloomcover Steppe
+	15 Renegade Trueheart
+	4 Arital, Grand Adjudicator
+	4 Orliss of the Elite
+	7 Surola, Vile Preacher
+	7 On Top of the World
+	7 Memoriam
+	4 Marle, Vicuro Head
+	15 Sprouting Sproutling
+	15 Herald of Emergence
+	15 Reckless Smashing
+	4 Brazen Burglar
+	15 Tireless Refutation
+	4 Siurne, Eternal Sentinel
+	4 Leiowen, Escape Artist
+	4 Soya, Nal Executioner
+	4 Vie, the First Hero
+	4 The Setral Shaper
+	7 Shape the Pattern
+	15 Humming Furnace
+	6 Fell the Nonbeliever
+	7 Tomb of the Founder
+	7 Memorial to the First Shaper
+	6 Lucrative Larcenist
+	15 Blade Flourish
+	4 Restoration Specialist
+	4 Avarice
+	7 Loresk, Ever-Curious
+	7 Waylen, Bloodhunter
+	7 Ivari, Liberated Mentor
+	15 Makeshift Justice
+	4 Volwood Warder
+	4 Planar Archives
+	7 Divine Liberation
+	6 Frostfire Geysers
+	6 Spiraling Canyon
+	15 Siurne's Betrayal
+	4 Exultant Shepherd
+	15 Grand Larceny
