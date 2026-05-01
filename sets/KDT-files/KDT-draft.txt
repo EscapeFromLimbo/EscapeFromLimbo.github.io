@@ -1889,7 +1889,7 @@
 			"collector_number": "18",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever you create one or more tokens, put a +1/+1 counter on this creature.",
+			"oracle_text": "Whenever you create one or more tokens, put a +1/+1 counter on this creature. This ability triggers only once each turn.",
 		},
 		
 		{
@@ -2440,7 +2440,7 @@
 		
 		{
 			"name": "Omen Skulker",
-			"mana_cost": "{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/80_Omen Skulker.jpg",
 			"colors": ["B"],
@@ -2448,7 +2448,7 @@
 			"collector_number": "80",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a multicolored spell, this creature deals 1 damage to each opponent and you gain 1 life.\nWhen this creature dies, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")[/i]",
+			"oracle_text": "Whenever you cast a white, blue, red, or green spell, you draw a card and lose 1 life.\nWhenever this creature attacks, create a Treasure token. [i](It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")[/i]",
 		},
 		
 		{

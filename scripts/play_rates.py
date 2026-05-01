@@ -9,7 +9,7 @@ def get_play_rates():
 	#print(str(r.content))
 
 	#TODO total copies main / side
-	setCodeOrder = ["SOL", "TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST"]
+	setCodeOrder = ["VLR", "IWH", "SOL", "TWI", "KDT", "ERR", "CCR", "CNY", "CYB", "OLD", "TRX", "POP", "DOV", "BLR", "KSV", "KRS", "VRD", "SVG", "GQC", "KUT", "MON", "SRC", "VST"]
 
 	for i in range(20, 27):
 		for j in range(1, 13):

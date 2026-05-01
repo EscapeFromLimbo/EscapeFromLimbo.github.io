@@ -937,7 +937,7 @@
             "number": 233,
             "color_identity": "WRG",
             "cost": "{1}{R}{G}{W}",
-            "rules_text": "[+1]: Up to one target creature you control dares 4 and gains vigilance until end of turn.\n[-2]: Cathette deals 2 damage to any target and you gain 2 life. Target player creates two 1/1 white Warrior creature tokens.\n[-6]: You get an emblem with \"At the end of the first combat phase on each of your turns, untap each creature you control. After this phase, there is an additional combat phase.\"",
+            "rules_text": "[+1]: Up to one target creature you control dares 4 and gains vigilance until end of turn. [i](It becomes a legendary Rebel with base power and toughness 4/4 in addition to its other types until end of turn.)[/i]\n[-2]: Cathette deals 2 damage to any target and you gain 2 life. Target player creates two 1/1 white Warrior creature tokens.\n[-6]: You get an emblem with \"At the end of the first combat phase on each of your turns, untap each creature you control. After this phase, there is an additional combat phase.\"",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1818,8 +1818,8 @@
             "type": "Instant",
             "number": 60,
             "color_identity": "U",
-            "cost": "{U}",
-            "rules_text": "Exile target artifact, creature, or planeswalker you control, then return that card to the battlefield under its owner's control. If it enters as a creature, it enters with a flying counter on it.",
+            "cost": "{1}{U}",
+            "rules_text": "Exile target artifact or creature you control, then return that card to the battlefield under its owner's control. If it enters as a creature, it enters with your choice of a +1/+1 counter or a flying counter on it.",
             "flavor_text": "[i]The Enlightened Foundation experiment with mastering all the wordly elements of Vereaux.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -1829,7 +1829,7 @@
             "artist": "Michele Tanner",
             "play_rate": 40,
             "signature": "",
-            "word_count": 33
+            "word_count": 39
         },
         {
             "card_name": "Explosive Canister_DOV",

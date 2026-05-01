@@ -876,6 +876,27 @@
             "word_count": 27
         },
         {
+            "card_name": "Iviana, Dragon Tamer_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
+            "color": "UR",
+            "rarity": "mythic",
+            "type": "Legendary Planeswalker \u2014 Iviana",
+            "number": 109,
+            "color_identity": "UR",
+            "cost": "{3}{U}{R}",
+            "rules_text": "Dragons you control have ward {2} and haste.\n[+1]: Iviana deals X damage to up to one target creature or planeswalker, where X is 2 plus twice the number of Dragons you control.\n[-2]: You may reveal a Dragon card you own from outside the game and put it into your hand. Create two tapped Treasure tokens.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "4",
+            "artist": "Radiohyo",
+            "play_rate": 72,
+            "signature": "",
+            "word_count": 55
+        },
+        {
             "card_name": "Jens Slopeskidder_REV",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
@@ -1125,9 +1146,9 @@
             "number": 87,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
-            "rules_text": "Flying, lifelink, haste\nThis creature can't block.\nWhen this creature enters, if it was cast, create a red and white Subroutine enchantment token named OVERFLOW[i]()[/i] with \"Whenever this Subroutine runs, return a card named Offset Daemon from your graveyard to the battlefield.\"",
+            "rules_text": "Flying, lifelink, haste\nThis creature can't block.\nWhen this creature enters, if it was cast, create a red and white Subroutine enchantment token named OVERFLOW[i]()[/i] with \"Whenever this Subroutine runs, you may sacrifice it. If you do, return target card named Offset Daemon from your graveyard to your hand.\"",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "REV",
@@ -1135,7 +1156,7 @@
             "artist": "summersgoodatar",
             "play_rate": 223,
             "signature": "",
-            "word_count": 39
+            "word_count": 46
         },
         {
             "card_name": "Omen of Slaughter_REV",
@@ -1194,11 +1215,11 @@
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "mythic",
-            "type": "Battle \u2014 Operation",
+            "type": "Enchantment Battle \u2014 Operation",
             "number": 100,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.\n4 Defense - Whenever you draw a card, you gain 2 life.\nDefeated - When this battle is first defeated, search your library for a card, put it into your hand, then shuffle.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.\n4 Defense - Whenever you draw a card, you gain 2 life.\nDefeated - When this battle is first defeated, search your library for a card, put it into your hand, then shuffle.\n\nStarting defense: 6",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1208,7 +1229,7 @@
             "artist": "Aerryi",
             "play_rate": 119,
             "signature": "",
-            "word_count": 48
+            "word_count": 50
         },
         {
             "card_name": "Paleontologist_REV",
@@ -1236,11 +1257,11 @@
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "mythic",
-            "type": "Battle \u2014 Operation",
+            "type": "Enchantment Battle \u2014 Operation",
             "number": 104,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, look at the top five cards of your library. Put two of those cards into your hand and the rest on the bottom in a random order.\n3 Defense \nCreatures you don't control get -1/-0.\nDefeated \nWhenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Path of Scales enters, look at the top five cards of your library. Put two of those cards into your hand and the rest on the bottom in a random order.\n3 Defense \nCreatures you don't control get -1/-0.\nDefeated \nWhenever you cast a noncreature, nonbattle spell, copy it. You may choose new targets for the copy.\n\nStarting defense: 6",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1250,7 +1271,7 @@
             "artist": "brbarou",
             "play_rate": 141,
             "signature": "",
-            "word_count": 55
+            "word_count": 57
         },
         {
             "card_name": "Phenax, Brazen Thief_REV",
@@ -1797,6 +1818,27 @@
             "artist2": "\u534a\u8282"
         },
         {
+            "card_name": "Stargazing_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "U",
+            "rarity": "mythic",
+            "type": "Sorcery",
+            "number": 105,
+            "color_identity": "U",
+            "cost": "{U}",
+            "rules_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast that card as long as it remains exiled.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "vincent van gogh",
+            "play_rate": 126,
+            "signature": "",
+            "word_count": 40
+        },
+        {
             "card_name": "Start Anew_REV",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "W",
@@ -1889,7 +1931,7 @@
             "number": 90,
             "color_identity": "",
             "cost": "",
-            "rules_text": "Temple of Origins enters the battlefield tapped unless you control two or fewer other lands.\nAs Temple of Origins enters, choose two colors.\n{T}: Add one mana of one of the chosen colors.\nIf you would add mana of a color that wasn't chosen, add {C} instead.",
+            "rules_text": "Temple of Origins enters the battlefield tapped unless you control two or fewer other lands.\nAs Temple of Origins enters, choose two colors. For as long as you control Temple of Origins, if you would add mana of a different color, add {C} instead.\n{T}: Add one mana of one of the chosen colors.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1899,7 +1941,7 @@
             "artist": "Leon Tukker",
             "play_rate": 1586,
             "signature": "",
-            "word_count": 44
+            "word_count": 52
         },
         {
             "card_name": "Tenacious Snapvines_REV",
@@ -1940,6 +1982,27 @@
             "loyalty": "",
             "artist": "Ryan Etter",
             "play_rate": 34,
+            "signature": "",
+            "word_count": 36
+        },
+        {
+            "card_name": "The Founder's Cage_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "color": "",
+            "rarity": "mythic",
+            "type": "Legendary Artifact",
+            "number": 108,
+            "color_identity": "",
+            "cost": "{2}",
+            "rules_text": "The Founder's Cage enters tapped with five loyalty counters on it.\n{T}, Remove a loyalty counter from a permanent you control: Choose one -\n\u2022 Add one mana of any color.\n\u2022 Put a loyalty counter on target planeswalker.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "greyopals",
+            "play_rate": 0,
             "signature": "",
             "word_count": 36
         },
@@ -2217,6 +2280,48 @@
             "word_count": 21
         },
         {
+            "card_name": "Witching Hour_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "color": "B",
+            "rarity": "mythic",
+            "type": "Sorcery",
+            "number": 107,
+            "color_identity": "B",
+            "cost": "{X}{B}{B}{B}",
+            "rules_text": "Search your library for a Curse card with mana value twice X or less, put it onto the battlefield attached to target player, then shuffle. You may have that player's life total become 13.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "Felix Oesinghaus",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 34
+        },
+        {
+            "card_name": "Worn Semblance_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "color": "U",
+            "rarity": "mythic",
+            "type": "Creature \u2014 Illusion Horror",
+            "number": 110,
+            "color_identity": "U",
+            "cost": "{2}{U}",
+            "rules_text": "When this creature enters, surveil 2.\nWhenever you cast an instant or sorcery spell, you may have this creature become a copy of another target creature you control until end of turn, except it has this ability and is a Horror in addition to its other types.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "Saint Greaver",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 46
+        },
+        {
             "card_name": "Yaeji, Resplendent Idol_REV",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "W",
@@ -2288,7 +2393,7 @@
             "number": 13,
             "color_identity": "",
             "cost": "",
-            "rules_text": "Whenever this Subroutine runs, return a card named Offset Daemon from your graveyard to the battlefield.",
+            "rules_text": "Whenever this Subroutine runs, you may sacrifice it. If you do, return target card named Offset Daemon from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2298,7 +2403,7 @@
             "artist": "",
             "play_rate": 0,
             "signature": "",
-            "word_count": 16
+            "word_count": 23
         }
     ],
     "version": 1

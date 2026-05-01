@@ -1109,7 +1109,7 @@
 			"collector_number": "128",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Exile target creature. It controller reveals cards from the top of their library until they reveal a creature card. They put that card onto the battlefield. It loses all abilities until end of turn. Then they shuffle.\nFlashback {4}{R}{R}",
+			"oracle_text": "Exile target creature. Its controller reveals cards from the top of their library until they reveal a creature card. They put that card onto the battlefield. It loses all abilities until end of turn. Then they shuffle.\nFlashback {4}{R}{R}",
 		},
 		
 		{
@@ -1135,7 +1135,7 @@
 			"collector_number": "51",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "This spell can't be countered.\nFlying\n-----\nPath of Prudence {1}{U}{U}\nInstant - Adventure\nThis spell can't be countered.\nCounter target spell. *[i](Then exile this card. You may cast the creature later from exile.)[/i]*",
+			"oracle_text": "This spell can't be countered.\nFlying\n-----\nPath of Prudence {1}{U}{U}\nInstant - Adventure\nCounter target spell. *[i](Then exile this card. You may cast the creature later from exile.)[/i]*",
 		},
 		
 		{
@@ -1686,7 +1686,7 @@
 		
 		{
 			"name": "Halo Tracer",
-			"mana_cost": "{1}{G}{W}",
+			"mana_cost": "{G}{W}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/213_Halo Tracer.jpg",
 			"colors": ["W","G"],
@@ -1694,7 +1694,7 @@
 			"collector_number": "213",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Once each turn, when you gain life, you may choose one -\n• Draw a card if you have more life than an opponent. \n• You gain 2 life.",
+			"oracle_text": "Whenever Halo Tracer attacks, choose one -\n• You gain 2 life.\n• Draw a card if you gained life this turn.",
 		},
 		
 		{
@@ -2058,7 +2058,7 @@
 			"collector_number": "218",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "You may play a card you own from outside the game not named Last Wish this turn. Untap up to five lands.",
+			"oracle_text": "You may play a card you own from outside the game not named Last Wish this turn. Untap up to five lands.\nExile Last Wish.",
 		},
 		
 		{
@@ -2253,7 +2253,7 @@
 			"collector_number": "140",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever Manticos Expurgis attacks, it deals damage to any target equal to the number of nonbasic lands defending player controls.\n-----\nPath of Purity {R}\nSorcery - Adventure\nDestroy target artifact or nonbasic land. Its controller creates a land token named Lotus Spring with \"{T}: Add one mana of any color.\"",
+			"oracle_text": "Whenever Manticos Expurgis attacks, it deals damage to any target equal to the number of nonbasic lands defending player controls.\n-----\nPath of Purity {R}\nSorcery - Adventure\nDestroy target artifact or nonbasic land you don't control. Its controller creates a land token named Lotus Spring with \"{T}: Add one mana of any color.\"",
 		},
 		
 		{
@@ -2669,7 +2669,7 @@
 			"collector_number": "22",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "As Oberys, Ley-Pilgrim enters, create a 0/4 colorless Wall artifact creature with defender.\n[+1]: You gain 2 life.\n[-2]: Exile target artifact or enchantment.\n[-7]: Until end of turn, artifacts, creatures, and enchantments you control become 4/4 creatures in addition to their other types, and can attack as though they didn't have defender.",
+			"oracle_text": "As Oberys, Ley-Pilgrim enters, create a 0/4 colorless Wall artifact creature token with defender.\n[+1]: You gain 2 life.\n[-2]: Exile target artifact or enchantment.\n[-7]: Until end of turn, artifacts, creatures, and enchantments you control become 4/4 creatures in addition to their other types, and can attack as though they didn't have defender.",
 		},
 		
 		{
@@ -3904,7 +3904,7 @@
 			"collector_number": "271",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nWhen Twilight Firebird enters, exile the top four cards of your library.\nWhenever Twilight Firebird attacks or dies, until the end of your next turn, you may play a permanent card exiled with it.",
+			"oracle_text": "Flying\nWhen Twilight Firebird enters, exile the top four cards of your library.\nWhenever Twilight Firebird attacks or dies, until the end of your next turn, you may play a permanent card exiled with it. [i](You can cast it as an Adventure this way.)[/i]",
 		},
 		
 		{
@@ -4112,7 +4112,7 @@
 			"collector_number": "115",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[+1]: Target opponent gains control of target permanent you control.\n[0]: Draw two cards. Create a black enchantment token named Oblivion with \"At the beginning of your end step, discard a card.\"\n[0]: Zukar deals 2 damage to any target and you gain 2 life. Create a black enchantment token named Entropy with \"At the beginning of your end step, you lose 1 life.\"",
+			"oracle_text": "[+1]: Target opponent gains control of target nonland permanent you control.\n[0]: Draw two cards. Create a black enchantment token named Oblivion with \"At the beginning of your end step, discard a card.\"\n[0]: Zukar deals 2 damage to any target and you gain 2 life. Create a black enchantment token named Entropy with \"At the beginning of your end step, you lose 1 life.\"",
 		},
 		
 		{

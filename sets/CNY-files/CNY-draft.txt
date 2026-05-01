@@ -995,7 +995,7 @@
 		
 		{
 			"name": "Envoy of the Fallen",
-			"mana_cost": "{1}{U}{B}{R}",
+			"mana_cost": "{2}{U}{B}{R}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/178_Envoy of the Fallen.jpg",
 			"colors": ["U","B","R"],
@@ -1003,7 +1003,7 @@
 			"collector_number": "178",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhen Envoy of the Fallen enters, if it was cast, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\nSacrifice another creature: Envoy of the Fallen deals 1 damage to each opponent.",
+			"oracle_text": "When Envoy of the Fallen enters, if it was cast, return any number of target creature cards with total mana value 3 or less from your graveyard to the battlefield.\n{2}, Sacrifice another creature: Draw two cards, then discard a card.",
 		},
 		
 		{

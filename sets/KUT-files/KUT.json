@@ -4247,7 +4247,7 @@
             "number": 25,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Choose one -\n\u2022 Exile target creature you control, then return that card to the battlefield under its owner's control.\n\u2022 Exile target card from a graveyard.\n\u2022 Put a +1/+1 counter on target creature you control.",
+            "rules_text": "Choose one -\n\u2022 Counter target spell that targets you.\n\u2022 Exile up to two target cards from graveyards. You gain 2 life.\n\u2022 Target creature gets +1/+1 and gains first strike until end of turn.",
             "flavor_text": "[i]As Lhosei severed Solara's connection to Seqineq, the sun dawned over the Tartok Valley once more. \n[/i]",
             "pt": "",
             "special_text": "",
@@ -4257,7 +4257,7 @@
             "artist": "luke-lankaster",
             "play_rate": 12,
             "signature": "tiggas",
-            "word_count": 34
+            "word_count": 33
         },
         {
             "card_name": "Serene Mediator_KUT",

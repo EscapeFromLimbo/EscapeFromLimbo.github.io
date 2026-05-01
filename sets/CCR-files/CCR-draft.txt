@@ -1764,7 +1764,7 @@
 			"collector_number": "210",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Dragons you control have ward {2} and haste.\n[+1]: Iviana deals X damage to up to one target creature or planeswalker, where X is 2 plus twice the number of Dragons you control.\n[-2]: You may reveal a Dragon card you own from outside the game and put it into your hand. Create two Treasure tokens.",
+			"oracle_text": "Dragons you control have ward {2} and haste.\n[+1]: Iviana deals X damage to up to one target creature or planeswalker, where X is 2 plus twice the number of Dragons you control.\n[-2]: You may reveal a Dragon card you own from outside the game and put it into your hand. Create two tapped Treasure tokens.",
 		},
 		
 		{
@@ -3481,7 +3481,7 @@
 			"collector_number": "281",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Temple of Origins enters the battlefield tapped unless you control two or fewer other lands.\nAs Temple of Origins enters, choose two colors.\n{T}: Add one mana of one of the chosen colors.\nIf you would add mana of a color that wasn't chosen, add {C} instead.",
+			"oracle_text": "Temple of Origins enters the battlefield tapped unless you control two or fewer other lands.\nAs Temple of Origins enters, choose two colors. For as long as you control Temple of Origins, if you would add mana of a different color, add {C} instead.\n{T}: Add one mana of one of the chosen colors.",
 		},
 		
 		{
@@ -3923,6 +3923,19 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Flying\nAmity - Whenever you attack with Zipping Lightningbug and exactly one other creature, target creature you don't control gets -2/-0 until end of turn.",
+		},
+		
+		{
+			"name": "Harvest Time (Calamity)",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/294_Harvest Time (Calamity).jpg",
+			"colors": ["G"],
+			"set": "CCR",
+			"collector_number": "294",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.\nSurface {G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
 		},
 		
 		{
