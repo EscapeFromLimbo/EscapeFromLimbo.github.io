@@ -3765,6 +3765,32 @@
 		},
 		
 		{
+			"name": "Exorcist of Errors (IWH)",
+			"mana_cost": "{1}{B}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/329_Exorcist of Errors (IWH).jpg",
+			"colors": ["B"],
+			"set": "ERR",
+			"collector_number": "329",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "When this creature enters, target opponent separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
+		},
+		
+		{
+			"name": "Fabricated Anomaly (IWH)",
+			"mana_cost": "{2}{R}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/330_Fabricated Anomaly (IWH).jpg",
+			"colors": ["R"],
+			"set": "ERR",
+			"collector_number": "330",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "When this creature enters, create The Puzzlebox, a legendary colorless artifact token with \"{T}, Discard a card: Draw a card.\"\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
+		},
+		
+		{
 			"name": "Treasure ERR",
 			"mana_cost": "",
 			"type": "Token",

@@ -1447,7 +1447,7 @@
 			"collector_number": "17",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If you casting a creature spell would cause a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nAs you cast creature spells, you may pay an additional {R}. If you do, that spell can't be countered and gains haste.",
+			"oracle_text": "If you casting a creature spell would cause a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nAs an additional cost to cast creature spells, you may pay {R}. If you do, that spell can't be countered and gains haste.",
 		},
 		
 		{
@@ -1589,7 +1589,7 @@
 			"collector_number": "163",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If a land you control would enter tapped, it enters untapped instead.\n{3}{G}{G}{G}: Reveal the top three cards of your library. Put any number of permanent cards from among them into your hand and the rest on the bottom in a random order.",
+			"oracle_text": "Lands you control enter untapped.\n{3}{G}{G}{G}: Reveal the top three cards of your library. Put any number of permanent cards from among them into your hand and the rest on the bottom in a random order.",
 		},
 		
 		{
@@ -2166,7 +2166,7 @@
 		
 		{
 			"name": "Rally the Rabble",
-			"mana_cost": "{R}{W}",
+			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/203_Rally the Rabble.jpg",
 			"colors": ["W","R"],
@@ -2174,7 +2174,7 @@
 			"collector_number": "203",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Muster - Whenever you cast a creature spell, exile the top card of your library. During your next turn, you may play that card from exile.",
+			"oracle_text": "Muster - Whenever you cast a creature spell, if you cast it from your hand, exile the top card of your library. During your next turn, you may play that card from exile.",
 		},
 		
 		{

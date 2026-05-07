@@ -4114,6 +4114,19 @@
 		},
 		
 		{
+			"name": "Aegis of Grace (IWH)",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/349_Aegis of Grace (IWH).jpg",
+			"colors": ["W"],
+			"set": "TWI",
+			"collector_number": "349",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Flying, lifelink\nPrevent all damage that would be dealt to battles you protect.\nYou, battles you control, and other creatures you control have hexproof.",
+		},
+		
+		{
 			"name": "white Soldier 11TWI",
 			"mana_cost": "",
 			"type": "Token",

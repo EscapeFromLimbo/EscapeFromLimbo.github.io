@@ -121,7 +121,7 @@
 			"collector_number": "194",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen this creature enters, choose one -\n• Target Wolf or Werewolf you control gains hexproof until end of turn.\n• You may transform target Wolf or Werewolf creature.",
+			"oracle_text": "Flash\nWhen this creature enters, choose one -\n• Target Wolf or Werewolf you control gains hexproof until end of turn.\n• You may transform target Wolf or Werewolf creature you control.",
 		},
 		
 		{
@@ -1123,7 +1123,7 @@
 				"mana_cost": "",
 				"type": "Legendary",
 				"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/206_Devotion to Ghrin-Danu_back.jpg",
-				"colors": ["B"],
+				"colors": ["B","G"],
 				"set": "IWH",
 				"collector_number": "206",
 				"rarity": "rare",
@@ -1877,7 +1877,7 @@
 			"collector_number": "120",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Whenever this creature deals combat damage to a player, you may have it gorge. [i](To gorge, discard a nonland card or sacrifice another creature to put a +1/+1 counter on this creature and draw a card.)[/i]\n{2}{B}: Return this card from your graveyard to your hand.",
+			"oracle_text": "{1}{B}: You may have this creature gorge. Activate only once each turn and only if this creature attacked this turn. [i](To gorge, discard a nonland card or sacrifice another creature to put a +1/+1 counter on this creature and draw a card.)[/i]\n{2}{B}: Return this card from your graveyard to your hand.",
 		},
 		
 		{
@@ -2212,7 +2212,7 @@
 			"collector_number": "121",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Stitch 3. When you do, you may choose one. [i](To stitch 3, you may exile a creature card and an instant or sorcery card from your graveyard to create a 3/3 blue Zombie creature token.)[/i]\n• Each player sacrifices two creatures.\n• Each player discards two cards.",
+			"oracle_text": "Stitch 3. [i](You may exile a creature card and an instant or sorcery card from your graveyard to create a 3/3 blue Zombie creature token.)[/i]\nChoose up to one -\n• Each player sacrifices two creatures.\n• Each player discards two cards.",
 		},
 		
 		{
@@ -3280,7 +3280,7 @@
 			"collector_number": "272",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Nontoken Spirits you control get +1/+1.\nWhenever this enchantment or another enchantment you control enters, create a 1/1 white Spirit creature token with flying.",
+			"oracle_text": "Spirits you control get +1/+1.\nWhenever this enchantment or another enchantment you control enters, you may mill two cards. Put up to one Spirit cards milled this way on top of your library. ",
 		},
 		
 		{
@@ -3396,7 +3396,7 @@
 			"collector_number": "42",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "As an additional cost to cast this spell, behold a Spirit or pay {2}. [i](To behold a Spirit, choose a Spirit you control or reveal a Spirit card from your hand.)[/i]\nReturn target nonland permanent card with mana value 3 or less from your graveyard to the battlefield tapped.",
+			"oracle_text": "As an additional cost to cast this spell, behold a Spirit or pay {1}. [i](To behold a Spirit, choose a Spirit you control or reveal a Spirit card from your hand.)[/i]\nYou may tap or untap target nonland permanent.\nDraw a card.",
 		},
 		
 		{
@@ -4092,7 +4092,7 @@
 			"collector_number": "279",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Deathtouch\nWhenever Tinua dies, create a 1/1 white and black Cleric creature token.\n{W}{B}, {T}, Sacrifice three creatures: Each opponent exiles a creature they control, discards a card, and loses 3 life. You gain 3 life. Activate only as a sorcery.",
+			"oracle_text": "Deathtouch\nWhen Tinua dies, create a 1/1 white and black Cleric creature token.\n{W}{B}, {T}, Sacrifice three creatures: Each opponent exiles a creature they control, discards a card, and loses 3 life. You gain 3 life. Activate only as a sorcery.",
 		},
 		
 		{

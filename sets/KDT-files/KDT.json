@@ -3016,7 +3016,7 @@
             "number": 18,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Whenever you create one or more tokens, put a +1/+1 counter on this creature. This ability triggers only once each turn.",
+            "rules_text": "Whenever one or more tokens you control enter, put a +1/+1 counter on this creature. This ability triggers only once each turn.",
             "flavor_text": "[i]Each kitsune pup receives a mask that allows them to take human form.\n[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3026,7 +3026,7 @@
             "artist": "ki-tsune",
             "play_rate": 219,
             "signature": "",
-            "word_count": 21
+            "word_count": 22
         },
         {
             "card_name": "Knight of Kage",
@@ -6410,6 +6410,27 @@
             "word_count": 83
         },
         {
+            "card_name": "Bleeding Out_PRO_KDT",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 338,
+            "color_identity": "R",
+            "cost": "{R}{R}",
+            "rules_text": "Bleeding Out deals 3 damage to any target. Excess damage dealt to a creature or planeswalker this way is dealt to its controller instead.",
+            "flavor_text": "[i]Only worthy vampires are permitted to bloodhunt in Voldaren-owned territory.\n[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KDT",
+            "loyalty": "",
+            "artist": "Kevin McKenna",
+            "play_rate": 252,
+            "signature": "",
+            "word_count": 24
+        },
+        {
             "card_name": "Born From Fire_PRO_KDT",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
@@ -6723,6 +6744,27 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 33
+        },
+        {
+            "card_name": "Moonlight Adversary_PRO_KDT",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "B",
+            "rarity": "special",
+            "type": "Creature \u2014 Nightmare Noble",
+            "number": 337,
+            "color_identity": "B",
+            "cost": "{1}{B}",
+            "rules_text": "When this creature enters, you may pay X life. When you do, return X target cards you discarded this turn from your graveyard to your hand.\nWhenever you discard a card, each opponent loses 1 life.",
+            "flavor_text": "[i]\"On a night much like this one . . .\"\n[/i]",
+            "pt": "2/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KDT",
+            "loyalty": "",
+            "artist": "Daria Klushina",
+            "play_rate": 14,
+            "signature": "",
+            "word_count": 35
         },
         {
             "card_name": "Omen Skulker_PRO_KDT",

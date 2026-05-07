@@ -160,7 +160,7 @@
             "number": 194,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Flash\nWhen this creature enters, choose one -\n\u2022 Target Wolf or Werewolf you control gains hexproof until end of turn.\n\u2022 You may transform target Wolf or Werewolf creature.",
+            "rules_text": "Flash\nWhen this creature enters, choose one -\n\u2022 Target Wolf or Werewolf you control gains hexproof until end of turn.\n\u2022 You may transform target Wolf or Werewolf creature you control.",
             "flavor_text": "[i]Even apart from the plane, Arlinn watches over Innistrad's packs.\n[/i]",
             "pt": "3/1",
             "special_text": "",
@@ -170,7 +170,7 @@
             "artist": "Annwn Wolf",
             "play_rate": 0,
             "signature": "",
-            "word_count": 27
+            "word_count": 29
         },
         {
             "card_name": "Ash-Addled Pyromaniac",
@@ -1734,7 +1734,7 @@
             "signature": "",
             "word_count": 86,
             "card_name2": "Ghrin-Danu's Dark Return",
-            "color2": "B",
+            "color2": "BG",
             "type2": "Legendary Enchantment",
             "cost2": "",
             "rules_text2": "At the beginning of your end step, choose a card at random from among permanent cards in your graveyard. Return that card and each card in your graveyard that shares a name with it to the battlefield.",
@@ -2884,9 +2884,9 @@
             "number": 120,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Whenever this creature deals combat damage to a player, you may have it gorge. [i](To gorge, discard a nonland card or sacrifice another creature to put a +1/+1 counter on this creature and draw a card.)[/i]\n{2}{B}: Return this card from your graveyard to your hand.",
+            "rules_text": "{1}{B}: You may have this creature gorge. Activate only once each turn and only if this creature attacked this turn. [i](To gorge, discard a nonland card or sacrifice another creature to put a +1/+1 counter on this creature and draw a card.)[/i]\n{2}{B}: Return this card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
-            "pt": "1/1",
+            "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "IWH",
@@ -2894,7 +2894,7 @@
             "artist": "2wenty",
             "play_rate": 0,
             "signature": "",
-            "word_count": 23
+            "word_count": 29
         },
         {
             "card_name": "Griffin's Blessing",
@@ -3397,7 +3397,7 @@
             "number": 121,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Stitch 3. When you do, you may choose one. [i](To stitch 3, you may exile a creature card and an instant or sorcery card from your graveyard to create a 3/3 blue Zombie creature token.)[/i]\n\u2022 Each player sacrifices two creatures.\n\u2022 Each player discards two cards.",
+            "rules_text": "Stitch 3. [i](You may exile a creature card and an instant or sorcery card from your graveyard to create a 3/3 blue Zombie creature token.)[/i]\nChoose up to one -\n\u2022 Each player sacrifices two creatures.\n\u2022 Each player discards two cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3407,7 +3407,7 @@
             "artist": "Kun Vic",
             "play_rate": 0,
             "signature": "",
-            "word_count": 19
+            "word_count": 16
         },
         {
             "card_name": "Horrors Wrought",
@@ -5019,7 +5019,7 @@
             "number": 272,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Nontoken Spirits you control get +1/+1.\nWhenever this enchantment or another enchantment you control enters, create a 1/1 white Spirit creature token with flying.",
+            "rules_text": "Spirits you control get +1/+1.\nWhenever this enchantment or another enchantment you control enters, you may mill two cards. Put up to one Spirit cards milled this way on top of your library. ",
             "flavor_text": "[i]They ride the same cobbled boundary road every night, hoofbeats sounding no longer.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -5029,7 +5029,7 @@
             "artist": "Dominik Mayer",
             "play_rate": 0,
             "signature": "",
-            "word_count": 23
+            "word_count": 32
         },
         {
             "card_name": "Ritual Preparations",
@@ -5197,7 +5197,7 @@
             "number": 42,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "As an additional cost to cast this spell, behold a Spirit or pay {2}. [i](To behold a Spirit, choose a Spirit you control or reveal a Spirit card from your hand.)[/i]\nReturn target nonland permanent card with mana value 3 or less from your graveyard to the battlefield tapped.",
+            "rules_text": "As an additional cost to cast this spell, behold a Spirit or pay {1}. [i](To behold a Spirit, choose a Spirit you control or reveal a Spirit card from your hand.)[/i]\nYou may tap or untap target nonland permanent.\nDraw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5207,7 +5207,7 @@
             "artist": "Stephen Cornu",
             "play_rate": 0,
             "signature": "",
-            "word_count": 31
+            "word_count": 23
         },
         {
             "card_name": "Sanguinary Hexcaster",
@@ -6265,7 +6265,7 @@
             "number": 279,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "Deathtouch\nWhenever Tinua dies, create a 1/1 white and black Cleric creature token.\n{W}{B}, {T}, Sacrifice three creatures: Each opponent exiles a creature they control, discards a card, and loses 3 life. You gain 3 life. Activate only as a sorcery.",
+            "rules_text": "Deathtouch\nWhen Tinua dies, create a 1/1 white and black Cleric creature token.\n{W}{B}, {T}, Sacrifice three creatures: Each opponent exiles a creature they control, discards a card, and loses 3 life. You gain 3 life. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -6915,6 +6915,48 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 46
+        },
+        {
+            "card_name": "Restoring Presence_PRO_IWH",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "W",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 313,
+            "color_identity": "W",
+            "cost": "{X}{W}",
+            "rules_text": "Exile up to X target creatures you control. Return the exiled cards to the battlefield under their owner's control at the beginning of the next end step.\n{3}{W}, Exile this card from your graveyard: Create a tapped 3/4 white Angel creature token with flying.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "IWH",
+            "loyalty": "",
+            "artist": "Asur Misoa",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 43
+        },
+        {
+            "card_name": "Teeming Secrets_PRO_IWH",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "UG",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 324,
+            "color_identity": "UG",
+            "cost": "{G}{U}",
+            "rules_text": "Look at the top three cards of your library. You may put a land card from among them onto the battlefield tapped. If you don't, put one of those cards into your hand. Put the rest into your graveyard.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "IWH",
+            "loyalty": "",
+            "artist": "Ngan Pham",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 39
         },
         {
             "card_name": "white Aura IWH",
