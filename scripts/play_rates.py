@@ -18,7 +18,7 @@ def get_play_rates():
 				exists = True
 			if i > 21 and i < 26:
 				exists = True
-			if i == 26 and j <= 3:
+			if i == 26 and j <= 5:
 				exists = True
 			if i == 22 and j == 4:
 				exists = False
@@ -39,6 +39,9 @@ def get_play_rates():
 	cardSignatures = {}
 	grandTotalDecks = 0
 
+	for setCode in setCodeOrder:
+		setTotalDecks[setCode] = 0
+
 	for tourneyURL in tourneys:
 		r = requests.get(tourneyURL)
 
@@ -55,45 +58,78 @@ def get_play_rates():
 			continue
 
 		deckData = str(r.content).split("\"players\"")[1].split("\"playerIDs\"")[0].split("username\":\"")[1:]
+		#if "Thraben" in tourneyName:
+		#	print(deckData)
 		deckTable = {}
 		for deck in deckData:
 			#print(deck)
 			playerName = deck.split("\"")[0].lower().replace("_", "")
-			cards = deck.split("\"mainCount\":")[1:]
-			deckTable[playerName] = []
-			
-			deckHasCards = False
-			for card in cards:
-				#print(card)
-				cardName = card.split("\"displayName\":\"")[1].split("\"")[0]
-				setCode = card.split("\"setID\":\"")[1].split("\"")[0]
-				if "Ardent Ascetic" in cardName:
-					setCode = "KSV"
-				copiesMain = int(card.split(",")[0])
-				copiesSide = int(card.split("\"sideCount\":")[1].split(",")[0])
-				if copiesMain > 0 or copiesSide > 0:
-					deckHasCards  = True
-				deckTable[playerName].append(cardName)
-				if cardName not in cardSets:
-					cardSets[cardName] = []	
-				if setCode not in cardSets[cardName] and setCode != "REV" and setCode != "PLANE":
-					cardSets[cardName].append(setCode)
-				if cardName not in cardMainCount:
-					cardMainCount[cardName] = 0
-				if cardName.replace("\\", "") not in cardSignatures:
-					cardSignatures[cardName.replace("\\", "")] = playerName.replace("\\", "")
-				if cardSignatures[cardName.replace("\\", "")] != playerName.replace("\\", ""):
-					cardSignatures[cardName.replace("\\", "")] = ""
-				cardMainCount[cardName] += copiesMain
-				if cardName not in cardSideCount:
-					cardSideCount[cardName] = 0
-				cardSideCount[cardName] += copiesSide
-				if setCode not in setTotalDecks:
-					setTotalDecks[setCode] = 0
-				cardsInGP.append(cardName)
-			if deckHasCards:
-				totalDecks += 1
-
+			if "mainCount" in deck:
+				cards = deck.split("\"mainCount\":")[1:]
+				deckTable[playerName] = []
+				
+				deckHasCards = False
+				for card in cards:
+					#print(card)
+					cardName = card.split("\"displayName\":\"")[1].split("\"")[0]
+					setCode = card.split("\"setID\":\"")[1].split("\"")[0]
+					if "Ardent Ascetic" in cardName:
+						setCode = "KSV"
+					copiesMain = int(card.split(",")[0])
+					copiesSide = int(card.split("\"sideCount\":")[1].split(",")[0])
+					if copiesMain > 0 or copiesSide > 0:
+						deckHasCards  = True
+					deckTable[playerName].append(cardName)
+					if cardName not in cardSets:
+						cardSets[cardName] = []	
+					if setCode not in cardSets[cardName] and setCode != "REV" and setCode != "PLANE":
+						cardSets[cardName].append(setCode)
+					if cardName not in cardMainCount:
+						cardMainCount[cardName] = 0
+					if cardName.replace("\\", "") not in cardSignatures:
+						cardSignatures[cardName.replace("\\", "")] = playerName.replace("\\", "")
+					if cardSignatures[cardName.replace("\\", "")] != playerName.replace("\\", ""):
+						cardSignatures[cardName.replace("\\", "")] = ""
+					cardMainCount[cardName] += copiesMain
+					if cardName not in cardSideCount:
+						cardSideCount[cardName] = 0
+					cardSideCount[cardName] += copiesSide
+					cardsInGP.append(cardName)
+				if deckHasCards:
+					totalDecks += 1
+			else:
+				cards = deck.split("\"decks\":")[1:]
+				deckTable[playerName] = []
+				
+				deckHasCards = False
+				for card in cards:
+					#print(card)
+					cardName = card.split("\"displayName\":\"")[1].split("\"")[0]
+					setCode = card.split("\"setID\":\"")[1].split("\"")[0]
+					if "Ardent Ascetic" in cardName:
+						setCode = "KSV"
+					copiesMain = int(card.split("\"main\":")[1].split(",")[0])
+					copiesSide = int(card.split("\"side\":")[1].split("}")[0])
+					if copiesMain > 0 or copiesSide > 0:
+						deckHasCards  = True
+					deckTable[playerName].append(cardName)
+					if cardName not in cardSets:
+						cardSets[cardName] = []	
+					if setCode not in cardSets[cardName] and setCode != "REV" and setCode != "PLANE":
+						cardSets[cardName].append(setCode)
+					if cardName not in cardMainCount:
+						cardMainCount[cardName] = 0
+					if cardName.replace("\\", "") not in cardSignatures:
+						cardSignatures[cardName.replace("\\", "")] = playerName.replace("\\", "")
+					if cardSignatures[cardName.replace("\\", "")] != playerName.replace("\\", ""):
+						cardSignatures[cardName.replace("\\", "")] = ""
+					cardMainCount[cardName] += copiesMain
+					if cardName not in cardSideCount:
+						cardSideCount[cardName] = 0
+					cardSideCount[cardName] += copiesSide
+					cardsInGP.append(cardName)
+				if deckHasCards:
+					totalDecks += 1				
 
 		deckTable["Bye"] = []
 
