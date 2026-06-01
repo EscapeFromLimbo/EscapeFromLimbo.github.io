@@ -1136,7 +1136,7 @@
             "number": 46,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nCreatures you control have prowess.\n3 Defense - When this battle first reach this stage, create two 1/1 white Soldier creature tokens.\nDefeated - When this battle first reaches this stage, tap up to two target nonland permanents and put a stun counter on each of them. They lose all abilities for as long as they remain tapped.\n\nStarting defense: 4",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nCreatures you control have prowess.\n3 Defense - When this battle first reaches this stage, create two 1/1 white Soldier creature tokens.\nDefeated - When this battle first reaches this stage, tap up to two target nonland permanents and put a stun counter on each of them. They lose all abilities for as long as they remain tapped.\n\nStarting defense: 4",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1824,7 +1824,7 @@
             "card_name": "Discern",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Instant",
             "number": 52,
             "color_identity": "U",
@@ -2375,7 +2375,7 @@
             "number": 55,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Choose one -\n\u2022 Target creature you control gets +1/+1 and gains hexproof until end of turn.\n\u2022 Target player shuffles their graveyard into their library.",
+            "rules_text": "Choose one -\n\u2022 Target creature you control gets +1/+1 and gains hexproof until end of turn.\n\u2022 Target player shuffles up to three target cards from their graveyard into their library.",
             "flavor_text": "[i]\"Oh, darling. I stepped aside three seconds ago. Shame.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -2385,7 +2385,7 @@
             "artist": "Yellow7",
             "play_rate": 129,
             "signature": "",
-            "word_count": 24
+            "word_count": 30
         },
         {
             "card_name": "Fluttering Sun",
@@ -2753,7 +2753,7 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever a creature you control with no abilities deals combat damage to a player or battle, exile the top card of your library. You may play that card until the end of your next turn.\nWhenever you play a land from exile or cast a spell from exile, create a 1/1 red Berserker creature token.",
+            "rules_text": "Whenever one or more creatures you control with no abilities deal combat damage to a player and/or battle, exile the top card of your library. You may play that card until the end of your next turn.\nWhenever you play a land from exile or cast a spell from exile, create a 1/1 red Berserker creature token.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2763,7 +2763,7 @@
             "artist": "Gabriel Castro",
             "play_rate": 24,
             "signature": "catintreee",
-            "word_count": 54
+            "word_count": 56
         },
         {
             "card_name": "Gossamer Dreamer",
@@ -3278,22 +3278,22 @@
             "number": 214,
             "color_identity": "UB",
             "cost": "{3}{U}{B}",
-            "rules_text": "At the beginning of your end step, discard a card. Then if there are five or more card types among cards in your graveyard, transform Kazimierz.  Otherwise, draw a card.\n[+1]: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n[-2]: Destroy target creature or planeswalker. You gain 2 life.",
+            "rules_text": "At the beginning of your end step, discard a card. Then if there are five or more card types among cards in your graveyard, transform Kazimierz and he phases out. Otherwise, draw a card.\n[+1]: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n[-3]: Destroy target creature or planeswalker.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "modal double faced",
             "set": "TWI",
-            "loyalty": "3",
+            "loyalty": "5",
             "artist": "Mateusz Michalski",
             "play_rate": 61,
             "signature": "",
-            "word_count": 146,
+            "word_count": 115,
             "card_name2": "He Who Shed His Death",
             "color2": "UB",
             "type2": "Legendary Planeswalker \u2014 Kazimierz",
             "cost2": "",
-            "rules_text2": "This planeswalker has protection from mana values less than the number of loyalty counters on him.\n[+1]: Look at the top three cards of your library. Put two of them into your hand and the rest into your graveyard.\n[-1]: Exile target creature or planeswalker. You gain 5 life.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in your graveyard.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in your graveyard.",
+            "rules_text2": "If this planeswalker would die, instead return him to your hand and you lose half your life, rounded up.\n[+1]: Draw three cards, then discard a card.\n[-3]: Exile target creature or planeswalker. You gain 4 life.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in all graveyards.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -3750,7 +3750,7 @@
             "number": 63,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Counter target spell unless its controller pays {2}.\nTarget player mills three cards.",
+            "rules_text": "Counter target spell unless its controller pays {2}.\nTarget player mills two cards.",
             "flavor_text": "[i]\"Worry not, dear. Thy thoughts were burdensome. I have relieved thee of their weight.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4569,7 +4569,7 @@
             "number": 198,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "{T}: Add {G}. If this mana is spent to cast your second spell this turn, that spell can't be countered.",
+            "rules_text": "Ring of Promised Vows enters the battlefield tapped.\n{T}: Add {G}. If this mana is spent to cast your second spell this turn, it enters with an additional +1/+1 counter on it if it's a creature.",
             "flavor_text": "[i]\"I would bind my soul to yours a thousand times, and still beg for one more day beside you.\"\n-Cyra, to Annick\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4579,7 +4579,7 @@
             "artist": "Blake Byun",
             "play_rate": 55,
             "signature": "",
-            "word_count": 20
+            "word_count": 35
         },
         {
             "card_name": "Risen Butcher",
@@ -4653,7 +4653,7 @@
             "number": 229,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Ward {X}, where X is the number of counters on Rozen, Clad in Guilt.\nThe second spell you cast each turn costs {2} less to cast.\nWhenever you cast a spell, put a +1/+1 counter on Rozen, Clad in Guilt.",
+            "rules_text": "Ward {1}\nThe second spell you cast each turn costs {2} less to cast.\nWhenever you cast a spell, put a +1/+1 counter on Rozen, Clad in Guilt.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -4663,7 +4663,7 @@
             "artist": "Jiajia Hua",
             "play_rate": 135,
             "signature": "",
-            "word_count": 38
+            "word_count": 26
         },
         {
             "card_name": "Sacrament Tactician",
@@ -5425,12 +5425,12 @@
             "card_name": "Stargazing",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Sorcery",
             "number": 74,
             "color_identity": "U",
-            "cost": "{U}",
-            "rules_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast Stargazing as long as it remains exiled.",
+            "cost": "{1}{U}",
+            "rules_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. During your next turn, you may cast it from exile without paying its mana cost.",
             "flavor_text": "[i]\"Prophecy is not clarity. It is the patience to wait for what has already begun.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -5440,7 +5440,7 @@
             "artist": "Julia Yurtsev",
             "play_rate": 246,
             "signature": "",
-            "word_count": 39
+            "word_count": 38
         },
         {
             "card_name": "Steep the Pactwen",
@@ -6144,7 +6144,7 @@
             "number": 77,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "Choose one. If each opponent has more cards in hand than you, choose two instead.\n\u2022 Return target nonland permanent to its owner's hand.\n\u2022 Tap all creatures target player controls.\n\u2022 Counter target spell.\n\u2022 Draw a card.",
+            "rules_text": "As you cast this spell, you may add the chants of any number of creature cards in your graveyard to it. [i](You still pay the chant costs.)[/i]\nChoose one -\n\u2022 Counter target spell.\n\u2022 Exile up to two target creatures, then return those cards to the battlefield under their owner's control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6154,7 +6154,7 @@
             "artist": "Asur Misoa",
             "play_rate": 475,
             "signature": "",
-            "word_count": 35
+            "word_count": 43
         },
         {
             "card_name": "Unyielding Conviction",
@@ -6291,7 +6291,7 @@
             "number": 78,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nInstant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.\nWhenever another Horror you control attacks, you may exile an instant or sorcery card from you graveyard. You may cast a copy of that card. [i](You still pay its costs.)[/i]",
+            "rules_text": "Flying\nInstant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.\nWhenever another Horror you control attacks, exile up to one instant or sorcery card from your graveyard. If you do, you may cast a copy of that card. [i](You still pay its costs.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -6301,7 +6301,7 @@
             "artist": "Colin Ha",
             "play_rate": 43,
             "signature": "raboka",
-            "word_count": 41
+            "word_count": 44
         },
         {
             "card_name": "Vow's Reflection",

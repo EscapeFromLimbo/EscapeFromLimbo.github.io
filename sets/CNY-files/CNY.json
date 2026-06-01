@@ -4073,8 +4073,8 @@
             "type": "Enchantment \u2014 Policy",
             "number": 55,
             "color_identity": "U",
-            "cost": "{1}{U}",
-            "rules_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
+            "cost": "{2}{U}",
+            "rules_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Research Grant enters, mill four cards. When you do, you may return a noncreature, nonland card from your graveyard to your hand.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4084,7 +4084,7 @@
             "artist": "Vladislav Dostavalov",
             "play_rate": 106,
             "signature": "",
-            "word_count": 76,
+            "word_count": 75,
             "card_name2": "Progress",
             "color2": "U",
             "type2": "Legendary Enchantment",
@@ -4912,7 +4912,7 @@
             "number": 220,
             "color_identity": "WG",
             "cost": "{2}{G}{W}",
-            "rules_text": "When Survivors of the New World enters, if it isn't a token, create two tokens that are copies of it.\nWhen Survivors of the New World dies, reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.",
+            "rules_text": "When Survivors of the New World enters, if you cast it, create two tokens that are copies of it.\nWhen Survivors of the New World dies, reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -4922,7 +4922,7 @@
             "artist": "Ola Larsson",
             "play_rate": 256,
             "signature": "",
-            "word_count": 59
+            "word_count": 58
         },
         {
             "card_name": "Sustainable Investments",

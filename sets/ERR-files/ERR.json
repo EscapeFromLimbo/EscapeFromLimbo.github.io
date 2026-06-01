@@ -286,7 +286,7 @@
             "number": 157,
             "color_identity": "G",
             "cost": "{1}{G}{G}{G}{G}",
-            "rules_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return all land cards from your graveyard to the battlefield tapped.",
+            "rules_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return up to three land cards from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -296,7 +296,7 @@
             "artist": "Matt Zeilinger",
             "play_rate": 138,
             "signature": "",
-            "word_count": 19
+            "word_count": 21
         },
         {
             "card_name": "Autonomous Apiarist",
@@ -3100,7 +3100,7 @@
             "number": 106,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nWhenever you gain life, draw a card. [5/5]\n[level 5+] Lifelink\nWhenever you gain life, draw that many cards. [6/6]",
+            "rules_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nOnce each turn, when you gain life, you may draw a card. [5/5]\n[level 5+] Lifelink\nOnce each turn, when you gain life, you may draw that many cards. [6/6]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3110,7 +3110,7 @@
             "artist": "Aaron Joseph",
             "play_rate": 256,
             "signature": "",
-            "word_count": 25
+            "word_count": 35
         },
         {
             "card_name": "Linked Hoversuit",
@@ -4193,7 +4193,7 @@
             "color_identity": "BG",
             "cost": "",
             "rules_text": "As this land enters, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}: Add {B} or {G}.",
-            "flavor_text": "[i]In the Weft, you can be an angel, a garden, a peal of thunder. You can be anything you want - except alone.\n[/i]",
+            "flavor_text": "[i]In the Weft, you can be an angel, a garden, a peal of thunder. You can be anything you want - except alone. \n[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4961,6 +4961,27 @@
             "word_count": 5
         },
         {
+            "card_name": "Shimmering Lakefront",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "color": "",
+            "rarity": "uncommon",
+            "type": "Land",
+            "number": 268,
+            "color_identity": "WU",
+            "cost": "",
+            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Exile target creature or Subroutine, then return that card to the battlefield under its owner's control. Draw a card.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ERR",
+            "loyalty": "",
+            "artist": "Allesadnro Rossi",
+            "play_rate": 184,
+            "signature": "",
+            "word_count": 49
+        },
+        {
             "card_name": "Shock",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
@@ -5022,27 +5043,6 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 38
-        },
-        {
-            "card_name": "Silent Lakefront",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
-            "color": "",
-            "rarity": "uncommon",
-            "type": "Land",
-            "number": 268,
-            "color_identity": "WU",
-            "cost": "",
-            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Counter target spell. You gain 3 life. ",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "ERR",
-            "loyalty": "",
-            "artist": "Allesadnro Rossi",
-            "play_rate": 184,
-            "signature": "",
-            "word_count": 37
         },
         {
             "card_name": "Skywatch Jockey",
@@ -6145,7 +6145,7 @@
             "number": 327,
             "color_identity": "G",
             "cost": "{1}{G}{G}{G}{G}",
-            "rules_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return all land cards from your graveyard to the battlefield tapped.",
+            "rules_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return up to three land cards from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -6155,7 +6155,7 @@
             "artist": "Jackson Tjota",
             "play_rate": 138,
             "signature": "",
-            "word_count": 19
+            "word_count": 21
         },
         {
             "card_name": "Avatar Exchange_PRO_ERR",
@@ -6565,7 +6565,7 @@
             "number": 292,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nWhenever you gain life, draw a card. [5/5]\n[level 5+] Lifelink\nWhenever you gain life, draw that many cards. [6/6]",
+            "rules_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nOnce each turn, when you gain life, you may draw a card. [5/5]\n[level 5+] Lifelink\nOnce each turn, when you gain life, you may draw that many cards. [6/6]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -6575,7 +6575,7 @@
             "artist": "Ross Tran",
             "play_rate": 256,
             "signature": "",
-            "word_count": 25
+            "word_count": 35
         },
         {
             "card_name": "Lost and Found_PRO_ERR",
@@ -6767,7 +6767,7 @@
             "word_count": 38
         },
         {
-            "card_name": "Silent Lakefront_PRO_ERR",
+            "card_name": "Shimmering Lakefront_PRO_ERR",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
@@ -6775,7 +6775,7 @@
             "number": 325,
             "color_identity": "WU",
             "cost": "",
-            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Counter target spell. You gain 3 life.",
+            "rules_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Exile target creature or Subroutine, then return that card to the battlefield under its owner's control. Draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6785,7 +6785,7 @@
             "artist": "Pedro Sena",
             "play_rate": 184,
             "signature": "",
-            "word_count": 37
+            "word_count": 49
         },
         {
             "card_name": "Stack Conviviplex_PRO_ERR",

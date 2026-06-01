@@ -231,7 +231,7 @@
 		{
 			"name": "Beckon the Beyond",
 			"mana_cost": "{2}{B}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/102_Beckon the Beyond.jpg",
 			"colors": ["B"],
 			"set": "IWH",
@@ -961,7 +961,7 @@
 			"collector_number": "57",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "At the beginning of each combat, if you've cast an instant or sorcery spell this turn, create a 1/1 red Elemental creature token with flying and \"This creature can't block.\"\n{1}{R}: Whenever a creature you control with power 2 or less enters this turn, that creature gains haste until end of turn",
+			"oracle_text": "At the beginning of each combat, if you've cast an instant or sorcery spell this turn, create a 1/1 red Elemental creature token with flying and \"This creature can't block.\"\n{1}{R}: Whenever a creature you control with power 2 or less enters this turn, that creature gains haste until end of turn.",
 		},
 		
 		{
@@ -1412,7 +1412,7 @@
 			"collector_number": "253",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flash\nWhen this creature enters, it deals damage damage to each opponent equal to the number of spells all of your opponents have cast this turn.\nAt the beginning of each upkeep, if no spells were cast last turn, transform this creature.",
+			"oracle_text": "Flash\nWhen this creature enters, it deals damage to each opponent equal to the number of spells all of your opponents have cast this turn.\nAt the beginning of each upkeep, if no spells were cast last turn, transform this creature.",
 			"back": {
 				"name": "Lunar-Zenith Alpha",
 				"mana_cost": "",
@@ -2006,19 +2006,6 @@
 			"rarity": "uncommon",
 			"subtypes": [],
 			"oracle_text": "When this artifact enters, you may search your library for a basic land card, reveal it, put it into your hand or graveyard, then shuffle.\nConcord - {1}, {T}, Exile a land card from your graveyard: Draw a card. Activate only if there are there are four or more card types among permanents you control.",
-		},
-		
-		{
-			"name": "Harvesttide Procession",
-			"mana_cost": "{3}{G}",
-			"type": "Enchantment",
-			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/216_Harvesttide Procession.jpg",
-			"colors": ["G"],
-			"set": "IWH",
-			"collector_number": "216",
-			"rarity": "rare",
-			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, create your choice of a 1/1 white Human creature token or a Treasure token.\nConcord - If there are four or more card types among permanents you control, if an effect would create one or more tokens under your control, it creates that many plus one of those tokens instead.",
 		},
 		
 		{
@@ -3992,6 +3979,19 @@
 		},
 		
 		{
+			"name": "The Harvesttide Procession",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/216_The Harvesttide Procession.jpg",
+			"colors": ["G"],
+			"set": "IWH",
+			"collector_number": "216",
+			"rarity": "rare",
+			"subtypes": [],
+			"oracle_text": "At the beginning of your end step, create your choice of a 1/1 white Human creature token or a Treasure token.\nConcord - If there are four or more card types among permanents you control, if an effect would create one or more tokens under your control, it creates that many plus one of those tokens instead.",
+		},
+		
+		{
 			"name": "The Haunting of Silbern",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary",
@@ -4419,14 +4419,14 @@
 			"back": {
 				"name": "Faceless Procession",
 				"mana_cost": "",
-				"type": "Enchantment",
+				"type": "Creature",
 				"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/49_Westvale Cult Induction_back.jpg",
 				"colors": ["W"],
 				"set": "IWH",
 				"collector_number": "49",
 				"rarity": "rare",
 				"subtypes": [],
-				"oracle_text": "When this permanent transforms into Faceless Procession, create a 1/1 white Human creature token.\nCreatures you control with no abilities get +2/+2.",
+				"oracle_text": "Creatures you control with no abilities get +1/+1.",
 			}
 		},
 		
@@ -5159,7 +5159,6 @@
 4 Gravespore Guardian
 4 Griffin's Blessing
 4 Guardian's Charm
-4 Harvesttide Procession
 4 Havengul Prodigy
 4 Herghast, Niblis Magister
 4 Heron's Grace Rescuer
@@ -5188,6 +5187,7 @@
 4 Tempting Puzzlebox
 4 Tethered Fettergeists
 4 Thalia, the Guiding Blade
+4 The Harvesttide Procession
 4 The Haunting of Silbern
 4 The Ulvenvater
 4 Thing from the Depths
@@ -5507,7 +5507,6 @@
 2 Gravespore Guardian
 2 Griffin's Blessing
 2 Guardian's Charm
-2 Harvesttide Procession
 2 Havengul Prodigy
 2 Herghast, Niblis Magister
 2 Heron's Grace Rescuer
@@ -5536,6 +5535,7 @@
 2 Tempting Puzzlebox
 2 Tethered Fettergeists
 2 Thalia, the Guiding Blade
+2 The Harvesttide Procession
 2 The Haunting of Silbern
 2 The Ulvenvater
 2 Thing from the Depths

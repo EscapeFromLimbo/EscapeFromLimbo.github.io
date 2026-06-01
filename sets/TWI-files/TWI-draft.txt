@@ -731,7 +731,7 @@
 			"collector_number": "46",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nCreatures you control have prowess.\n3 Defense - When this battle first reach this stage, create two 1/1 white Soldier creature tokens.\nDefeated - When this battle first reaches this stage, tap up to two target nonland permanents and put a stun counter on each of them. They lose all abilities for as long as they remain tapped.\n\nStarting defense: 4",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nCreatures you control have prowess.\n3 Defense - When this battle first reaches this stage, create two 1/1 white Soldier creature tokens.\nDefeated - When this battle first reaches this stage, tap up to two target nonland permanents and put a stun counter on each of them. They lose all abilities for as long as they remain tapped.\n\nStarting defense: 4",
 		},
 		
 		{
@@ -1158,7 +1158,7 @@
 			"colors": ["U"],
 			"set": "TWI",
 			"collector_number": "52",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Draw a card.\nFlashback {2}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
 		},
@@ -1498,7 +1498,7 @@
 			"collector_number": "55",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Target creature you control gets +1/+1 and gains hexproof until end of turn.\n• Target player shuffles their graveyard into their library.",
+			"oracle_text": "Choose one -\n• Target creature you control gets +1/+1 and gains hexproof until end of turn.\n• Target player shuffles up to three target cards from their graveyard into their library.",
 		},
 		
 		{
@@ -1732,7 +1732,7 @@
 			"collector_number": "148",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control with no abilities deals combat damage to a player or battle, exile the top card of your library. You may play that card until the end of your next turn.\nWhenever you play a land from exile or cast a spell from exile, create a 1/1 red Berserker creature token.",
+			"oracle_text": "Whenever one or more creatures you control with no abilities deal combat damage to a player and/or battle, exile the top card of your library. You may play that card until the end of your next turn.\nWhenever you play a land from exile or cast a spell from exile, create a 1/1 red Berserker creature token.",
 		},
 		
 		{
@@ -2057,7 +2057,7 @@
 			"collector_number": "214",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "At the beginning of your end step, discard a card. Then if there are five or more card types among cards in your graveyard, transform Kazimierz.  Otherwise, draw a card.\n[+1]: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n[-2]: Destroy target creature or planeswalker. You gain 2 life.",
+			"oracle_text": "At the beginning of your end step, discard a card. Then if there are five or more card types among cards in your graveyard, transform Kazimierz and he phases out. Otherwise, draw a card.\n[+1]: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n[-3]: Destroy target creature or planeswalker.",
 			"back": {
 				"name": "He Who Shed His Death",
 				"mana_cost": "",
@@ -2068,7 +2068,7 @@
 				"collector_number": "214",
 				"rarity": "mythic",
 				"subtypes": [],
-				"oracle_text": "This planeswalker has protection from mana values less than the number of loyalty counters on him.\n[+1]: Look at the top three cards of your library. Put two of them into your hand and the rest into your graveyard.\n[-1]: Exile target creature or planeswalker. You gain 5 life.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in your graveyard.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in your graveyard.",
+				"oracle_text": "If this planeswalker would die, instead return him to your hand and you lose half your life, rounded up.\n[+1]: Draw three cards, then discard a card.\n[-3]: Exile target creature or planeswalker. You gain 4 life.\n[-6]: Exile the top X cards of each opponent's library, where X is the number of cards in all graveyards.",
 			}
 		},
 		
@@ -2355,7 +2355,7 @@
 			"collector_number": "63",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Counter target spell unless its controller pays {2}.\nTarget player mills three cards.",
+			"oracle_text": "Counter target spell unless its controller pays {2}.\nTarget player mills two cards.",
 		},
 		
 		{
@@ -2862,7 +2862,7 @@
 			"collector_number": "198",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {G}. If this mana is spent to cast your second spell this turn, that spell can't be countered.",
+			"oracle_text": "Ring of Promised Vows enters the battlefield tapped.\n{T}: Add {G}. If this mana is spent to cast your second spell this turn, it enters with an additional +1/+1 counter on it if it's a creature.",
 		},
 		
 		{
@@ -2914,7 +2914,7 @@
 			"collector_number": "229",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Ward {X}, where X is the number of counters on Rozen, Clad in Guilt.\nThe second spell you cast each turn costs {2} less to cast.\nWhenever you cast a spell, put a +1/+1 counter on Rozen, Clad in Guilt.",
+			"oracle_text": "Ward {1}\nThe second spell you cast each turn costs {2} less to cast.\nWhenever you cast a spell, put a +1/+1 counter on Rozen, Clad in Guilt.",
 		},
 		
 		{
@@ -3387,15 +3387,15 @@
 		
 		{
 			"name": "Stargazing",
-			"mana_cost": "{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/74_Stargazing.jpg",
 			"colors": ["U"],
 			"set": "TWI",
 			"collector_number": "74",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. After the current turn has ended, you may cast Stargazing as long as it remains exiled.",
+			"oracle_text": "Scry 1, then draw a card.\nIf you cast this spell from your hand, you may discard a card. If you do, exile Stargazing. During your next turn, you may cast it from exile without paying its mana cost.",
 		},
 		
 		{
@@ -3837,7 +3837,7 @@
 			"collector_number": "77",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Choose one. If each opponent has more cards in hand than you, choose two instead.\n• Return target nonland permanent to its owner's hand.\n• Tap all creatures target player controls.\n• Counter target spell.\n• Draw a card.",
+			"oracle_text": "As you cast this spell, you may add the chants of any number of creature cards in your graveyard to it. [i](You still pay the chant costs.)[/i]\nChoose one -\n• Counter target spell.\n• Exile up to two target creatures, then return those cards to the battlefield under their owner's control.",
 		},
 		
 		{
@@ -3928,7 +3928,7 @@
 			"collector_number": "78",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\nInstant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.\nWhenever another Horror you control attacks, you may exile an instant or sorcery card from you graveyard. You may cast a copy of that card. [i](You still pay its costs.)[/i]",
+			"oracle_text": "Flying\nInstant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.\nWhenever another Horror you control attacks, exile up to one instant or sorcery card from your graveyard. If you do, you may cast a copy of that card. [i](You still pay its costs.)[/i]",
 		},
 		
 		{
@@ -4352,6 +4352,7 @@
 20 Deathsworn Blade
 20 Destructive Ambition
 20 Die as Thou Wilt
+20 Discern
 20 Doctrine of Cleansing Flames
 20 Drowntide Exhumer
 20 Echoed Chant
@@ -4408,7 +4409,6 @@
 20 Soulhoarder
 20 Sovereign's Execution
 20 Spear of the Pale Thorn
-20 Stargazing
 20 Sun-Frenzied Frontliner
 20 Sundered Heretic
 20 Sweeten the Deal
@@ -4454,7 +4454,6 @@
 10 Cruxborn Tyrant
 10 Dawnsworn Survivor
 10 Despot of the Shifting Crown
-10 Discern
 10 Doctrine of Sacrifice
 10 Dolcairn Charm
 10 Dreadchant Warcaller
@@ -4506,6 +4505,7 @@
 10 Softlight Harmonist
 10 Softstep Vowkeeper
 10 Stand in Unison
+10 Stargazing
 10 Stride Once More
 10 Sunvrath Charm
 10 Sunvrath Exemplar
@@ -4691,6 +4691,7 @@
 6 Deathsworn Blade
 6 Destructive Ambition
 6 Die as Thou Wilt
+6 Discern
 6 Doctrine of Cleansing Flames
 6 Drowntide Exhumer
 6 Echoed Chant
@@ -4747,7 +4748,6 @@
 6 Soulhoarder
 6 Sovereign's Execution
 6 Spear of the Pale Thorn
-6 Stargazing
 6 Sun-Frenzied Frontliner
 6 Sundered Heretic
 6 Sweeten the Deal
@@ -4791,7 +4791,6 @@
 4 Cruxborn Tyrant
 4 Dawnsworn Survivor
 4 Despot of the Shifting Crown
-4 Discern
 4 Doctrine of Sacrifice
 4 Dolcairn Charm
 4 Dreadchant Warcaller
@@ -4843,6 +4842,7 @@
 4 Softlight Harmonist
 4 Softstep Vowkeeper
 4 Stand in Unison
+4 Stargazing
 4 Stride Once More
 4 Sunvrath Charm
 4 Sunvrath Exemplar

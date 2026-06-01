@@ -771,7 +771,7 @@
 			"collector_number": "230",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Vigilance, reach\nYou may cast spells as though they had flash.\nAt the beginning of your end step, untap all lands you control if you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
+			"oracle_text": "Vigilance, reach\nYou may cast Druid spells as though they had flash.\nAt the beginning of your end step, untap all lands you control if you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
 		},
 		
 		{
@@ -1439,7 +1439,7 @@
 		
 		{
 			"name": "Ivari, Liberated Mentor",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Legendary",
 			"image": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/17_Ivari, Liberated Mentor.jpg",
 			"colors": ["W"],
@@ -1628,7 +1628,7 @@
 			"collector_number": "99",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Target opponent reveals their hand. You choose a creature, enchantment, or battle card from it, then choose a creature, enchantment, or battle card from their graveyard. Exile the chosen cards.",
+			"oracle_text": "Target opponent reveals their hand. You choose a creature or enchantment card from it, then choose a creature or enchantment card from their graveyard. Exile the chosen cards.",
 		},
 		
 		{
@@ -2653,7 +2653,7 @@
 				"collector_number": "32",
 				"rarity": "mythic",
 				"subtypes": [],
-				"oracle_text": "Sacrifice a creature: Surveil 1. Put a loyalty counter on Siurne. Activate only as a sorcery.\n[0]: Create two Acolyte tokens. [i](They're 0/1 white and black Warlock creatures with \"{1}, Sacrifice this token: Surveil 1.\")[/i]\n[-2]: Return target non-Angel, non-Spirit creature card from your graveyard to the battlefield.\n[-X]: Exile target nonland permanent with mana value X.",
+				"oracle_text": "Sacrifice a creature: Surveil 1. Put a loyalty counter on Siurne. Activate only as a sorcery.\n[0]: Create two Acolyte tokens. [i](They're 0/1 white and black Warlock creatures with \"{1}, Sacrifice this token: Surveil 1.\")[/i]\n[-3]: Return target non-Angel, non-Elder creature card from your graveyard to the battlefield.\n[-X]: Exile target nonland permanent with mana value X.",
 			}
 		},
 		
@@ -2900,7 +2900,7 @@
 			"collector_number": "36",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Put a +1/+1 counter on each creature you control. Untap them.\nPrevent all damage that would be dealt to you and permanents you control this turn by sources you don't control",
+			"oracle_text": "Put a +1/+1 counter on each creature you control. Untap them.\nPrevent all damage that would be dealt to you and permanents you control this turn by sources you don't control.",
 		},
 		
 		{
@@ -3184,7 +3184,7 @@
 				"collector_number": "172",
 				"rarity": "mythic",
 				"subtypes": [],
-				"oracle_text": "As long as you're ancient, you may activate the loyalty abilities of Juni twice each turn rather than only once. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]\n[+1]: Surveil 1, then draw a card.\n[0]: Tap target nonland permanent. Put a stun counter on it.\n[-2]: Create an X/X green Elemental creature token, where X is the number of lands you control.",
+				"oracle_text": "As long as you're ancient, you may activate the loyalty abilities of Juni twice each turn rather than only once. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]\n[+1]: Tap up to one target nonland permanent.\n[-1]: Surveil 1, then draw a card.\n[-3]: Create an X/X green Elemental creature token, where X is the number of lands you control.",
 			}
 		},
 		
@@ -3458,7 +3458,7 @@
 			"collector_number": "145",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Muster - Whenever you cast a creature spell, put a loyalty counter on Vie. Then if it's your turn, she gains first strike until end of turn.\n{1}{W}: Put a loyalty counter on Vie and transform her. Activate only as a sorcery.",
+			"oracle_text": "Muster - Whenever you cast a creature spell, put a loyalty counter on Vie.\n{1}{W}: Put a loyalty counter on Vie and transform her. Activate only as a sorcery.",
 			"back": {
 				"name": "Vie, Fallen Hope",
 				"mana_cost": "",
@@ -3496,7 +3496,7 @@
 			"collector_number": "220",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Vigilance\nLandfall - Whenever a land you control enters, put a +1/+1 counter on target creature you control. If you're ancient, put three +1/+1 counters on that creature instead. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]",
+			"oracle_text": "This creature has flying and vigilance as long as you're ancient. [i](You're ancient as long as you have eight or more total lands in play or in your graveyard.)[/i]\nLandfall - Whenever a land you control enters, put a +1/+1 counter on target creature you control.",
 		},
 		
 		{
@@ -3553,7 +3553,7 @@
 		
 		{
 			"name": "Volwood Warder",
-			"mana_cost": "{W}",
+			"mana_cost": "{3}{W}{W}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/38_Volwood Warder.jpg",
 			"colors": ["W"],
@@ -3561,7 +3561,7 @@
 			"collector_number": "38",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Muster - Whenever you cast a creature spell, surveil 1 if this is the first time this ability resolved this turn. If it's the second time, draw a card. If it's the third time, put two +1/+1 counters on this creature.",
+			"oracle_text": "Lifelink\nMuster - Whenever you cast a creature spell, put a +1/+1 counter on each nontoken creature you control.",
 		},
 		
 		{

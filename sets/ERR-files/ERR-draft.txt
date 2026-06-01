@@ -199,7 +199,7 @@
 			"collector_number": "157",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return all land cards from your graveyard to the battlefield tapped.",
+			"oracle_text": "Trample\nWhenever Aurore enters or attacks, surveil 3, then return up to three land cards from your graveyard to the battlefield tapped.",
 		},
 		
 		{
@@ -1941,7 +1941,7 @@
 			"collector_number": "106",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nWhenever you gain life, draw a card. [5/5]\n[level 5+] Lifelink\nWhenever you gain life, draw that many cards. [6/6]",
+			"oracle_text": "Lifelink\nLevel up-{1}, Pay 4 life. [4/4]\n[level 1-4] Lifelink\nOnce each turn, when you gain life, you may draw a card. [5/5]\n[level 5+] Lifelink\nOnce each turn, when you gain life, you may draw that many cards. [6/6]",
 		},
 		
 		{
@@ -3089,6 +3089,19 @@
 		},
 		
 		{
+			"name": "Shimmering Lakefront",
+			"mana_cost": "",
+			"type": "Land",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/268_Shimmering Lakefront.jpg",
+			"colors": [],
+			"set": "ERR",
+			"collector_number": "268",
+			"rarity": "uncommon",
+			"subtypes": [],
+			"oracle_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Exile target creature or Subroutine, then return that card to the battlefield under its owner's control. Draw a card.",
+		},
+		
+		{
 			"name": "Shock",
 			"mana_cost": "{R}",
 			"type": "Instant",
@@ -3125,19 +3138,6 @@
 			"rarity": "mythic",
 			"subtypes": [],
 			"oracle_text": "Creatures your opponents control get -1/-0.\nWhenever this creature attacks, defending player mills a number of cards equal to 0 minus its power.\nAt the beginning of your end step, gain control of target creature with power 0 or less.",
-		},
-		
-		{
-			"name": "Silent Lakefront",
-			"mana_cost": "",
-			"type": "Land",
-			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/268_Silent Lakefront.jpg",
-			"colors": [],
-			"set": "ERR",
-			"collector_number": "268",
-			"rarity": "uncommon",
-			"subtypes": [],
-			"oracle_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Island card, put it onto the battlefield tapped, then shuffle.\n{1}{W}{W}{U}{U}, Discard this card: Counter target spell. You gain 3 life. ",
 		},
 		
 		{
@@ -4245,8 +4245,8 @@
 10 Rumormonger
 10 Schematic Archer
 10 Scripting Sage
+10 Shimmering Lakefront
 10 Showstopping Couture
-10 Silent Lakefront
 10 Soulspace Access
 10 Speculative_Execution
 10 Student of Immortality
@@ -4563,8 +4563,8 @@
 4 Rumormonger
 4 Schematic Archer
 4 Scripting Sage
+4 Shimmering Lakefront
 4 Showstopping Couture
-4 Silent Lakefront
 4 Soulspace Access
 4 Speculative_Execution
 4 Student of Immortality
