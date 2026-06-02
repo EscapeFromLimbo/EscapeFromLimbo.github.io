@@ -2573,7 +2573,7 @@
 			"collector_number": "55",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Research Grant enters, mill four cards. When you do, you may return a noncreature, nonland card from your graveyard to your hand.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
+			"oracle_text": "[i](Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)[/i]\nWhen Research Grant enters, mill four cards. When you do, return target noncreature, nonland card from your graveyard to your hand.\n{ql} - You've cast two or more spells this turn.\n{ql} - You've drawn two or more cards this turn.",
 			"back": {
 				"name": "Progress",
 				"mana_cost": "",
