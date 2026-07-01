@@ -2173,7 +2173,7 @@
 			"collector_number": "218",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Vigilance, reach\nConcord - At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If there are four or more card types among permanents you control, put a +1/+1 counter on each creature you control instead.",
+			"oracle_text": "Vigilance, reach\nConcord - At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If there are four or more card types among permanents you control, instead put a +1/+1 counter on each nontoken creature you control.",
 		},
 		
 		{
@@ -3980,7 +3980,7 @@
 		
 		{
 			"name": "The Harvesttide Procession",
-			"mana_cost": "{3}{G}",
+			"mana_cost": "{4}{G}",
 			"type": "Legendary",
 			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/216_The Harvesttide Procession.jpg",
 			"colors": ["G"],

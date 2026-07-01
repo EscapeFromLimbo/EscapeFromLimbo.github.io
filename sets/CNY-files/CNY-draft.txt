@@ -3586,6 +3586,19 @@
 		},
 		
 		{
+			"name": "Defect (IWH)",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/CNY-files/img/300_Defect (IWH).jpg",
+			"colors": ["U","B"],
+			"set": "CNY",
+			"collector_number": "300",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Enchant creature\nYou control enchanted creature.\nEnchanted creature has decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i] [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
+		},
+		
+		{
 			"name": "Penrath Insurgency CNY",
 			"mana_cost": "",
 			"type": "Token",

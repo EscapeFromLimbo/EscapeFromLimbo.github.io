@@ -2100,7 +2100,7 @@
             "set": "KSV",
             "loyalty": "",
             "artist": "Darek Zabrocki",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -3045,7 +3045,7 @@
             "set": "KSV",
             "loyalty": "",
             "artist": "Philipp Scherer",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -3360,7 +3360,7 @@
             "set": "KSV",
             "loyalty": "",
             "artist": "Darek Zabrocki",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -4746,7 +4746,7 @@
             "set": "KSV",
             "loyalty": "",
             "artist": "Rostyslav Zagornov",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -5715,6 +5715,27 @@
             "play_rate": 3,
             "signature": "hsquid",
             "word_count": 21
+        },
+        {
+            "card_name": "Military_PRO_KSV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Enchantment",
+            "number": 286,
+            "color_identity": "R",
+            "cost": "{R}{R}{R}",
+            "rules_text": "Whenever you attack with creatures with total power 6 or more, Military deals 2 damage to target opponent or planeswalker.\nWhenever you cast a red creature spell, it gets +2/+0 and gains haste until end of turn.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KSV",
+            "loyalty": "",
+            "artist": "Tyler Miles Lockett",
+            "play_rate": 140,
+            "signature": "",
+            "word_count": 36
         },
         {
             "card_name": "No Respite_PRO_KSV",

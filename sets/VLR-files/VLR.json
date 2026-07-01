@@ -909,7 +909,7 @@
         },
         {
             "card_name": "Desperate Ambusher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rat Mercenary",
@@ -924,8 +924,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Brandon McCamey",
-            "play_rate": 88,
-            "signature": "allwhowander",
+            "play_rate": 0,
+            "signature": "",
             "word_count": 31
         },
         {
@@ -1224,7 +1224,7 @@
         },
         {
             "card_name": "Esteemed Exterminator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Mercenary",
@@ -1239,8 +1239,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Andrew Clark",
-            "play_rate": 66,
-            "signature": "allwhowander",
+            "play_rate": 0,
+            "signature": "",
             "word_count": 17
         },
         {
@@ -1449,7 +1449,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "tsonline",
-            "play_rate": 247,
+            "play_rate": 250,
             "signature": "",
             "word_count": 15
         },
@@ -1470,7 +1470,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Petros Stefanidis",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -1791,7 +1791,7 @@
         },
         {
             "card_name": "Guild Elite",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mercenary Noble",
@@ -1806,8 +1806,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Von Milano",
-            "play_rate": 88,
-            "signature": "allwhowander",
+            "play_rate": 0,
+            "signature": "",
             "word_count": 21
         },
         {
@@ -1890,7 +1890,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Victoria Rose Barnett",
-            "play_rate": 253,
+            "play_rate": 256,
             "signature": "",
             "word_count": 15
         },
@@ -2593,7 +2593,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kira L. Nguyen",
-            "play_rate": 200,
+            "play_rate": 111,
             "signature": "",
             "word_count": 28
         },
@@ -2908,7 +2908,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Viro Ara",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -3307,7 +3307,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kenza Morvan",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -4169,7 +4169,7 @@
             "loyalty": "",
             "artist": "Rapha\u00eblle Ellehar Bieuville",
             "play_rate": 88,
-            "signature": "coolbeens",
+            "signature": "cool beens",
             "word_count": 43
         },
         {
@@ -4503,7 +4503,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "John Gibson ",
-            "play_rate": 273,
+            "play_rate": 276,
             "signature": "",
             "word_count": 15
         },
@@ -4881,7 +4881,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -4987,7 +4987,7 @@
             "loyalty": "6",
             "artist": "John Stone",
             "play_rate": 155,
-            "signature": "",
+            "signature": "cool beens",
             "word_count": 47
         },
         {
@@ -5961,7 +5961,7 @@
             "color": "R",
             "rarity": "special",
             "type": "Sorcery",
-            "number": 299,
+            "number": 288,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Strangle deals 3 damage to target creature or planeswalker.",
@@ -5977,12 +5977,33 @@
             "word_count": 9
         },
         {
+            "card_name": "Sunset Sentries_PRO_VLR",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "W",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Rebel",
+            "number": 281,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "This spell costs {1} less to cast for each spell you've cast this turn.\nWhen this creature enters, draw a card.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "VLR",
+            "loyalty": "",
+            "artist": "Oldgun-K",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 20
+        },
+        {
             "card_name": "Swift-Step Robber_PRO_VLR",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Creature \u2014 Human Rogue",
-            "number": 298,
+            "number": 284,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flash\nFlying\nThis creature can't block.\nWhen this creature enters, put a robbed counter on up to one other target creature.\nCreatures with robbed counters on them have base power and toughness 2/1, have flying and \"This creature can't block\" and lose all other abilities.",
@@ -6003,7 +6024,7 @@
             "color": "",
             "rarity": "special",
             "type": "Legendary Planeswalker \u2014 Tesh",
-            "number": 297,
+            "number": 278,
             "color_identity": "",
             "cost": "{8}",
             "rules_text": "When Tesh enters, exile all double-faced nonland permanents.\n[+2]: Tesh deals 3 damage to any target. You gain 3 life.\n[-3]: Each opponent discards two cards and you draw two cards.\n[-5]: For each opponent, choose up to one target nonland permanent that player controls. Gain control of those permanents.",
@@ -6015,8 +6036,29 @@
             "loyalty": "6",
             "artist": "Ric Galar",
             "play_rate": 155,
-            "signature": "",
+            "signature": "cool beens",
             "word_count": 47
+        },
+        {
+            "card_name": "Valiant Firebrand_PRO_VLR",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "WR",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Rebel",
+            "number": 298,
+            "color_identity": "WR",
+            "cost": "{1}{R}{W}",
+            "rules_text": "Creature tokens can't block.\nWhenever you attack, you may discard a card. If you do, draw a card.\nWhenever you discard a creature card, you may exile that card from your graveyard. If you do, you may play that card this turn.",
+            "flavor_text": "[i][/i]",
+            "pt": "4/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "VLR",
+            "loyalty": "",
+            "artist": "Guilherme Santana",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 40
         },
         {
             "card_name": "Vie's Lieutenant_PRO_VLR",
@@ -6024,7 +6066,7 @@
             "color": "R",
             "rarity": "special",
             "type": "Creature \u2014 Cat Rebel",
-            "number": 300,
+            "number": 290,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "First strike\nMuster - Whenever you cast a creature spell, this creature gets +1/+0 until end of turn. If this is the second time this ability has resolved this turn, instead all nontoken creatures you control get +1/+0 until end of turn.",

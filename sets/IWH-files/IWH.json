@@ -430,7 +430,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "oneout",
-            "play_rate": 333,
+            "play_rate": 400,
             "signature": "",
             "word_count": 20
         },
@@ -1562,7 +1562,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Ruslan Skifonich",
-            "play_rate": 155,
+            "play_rate": 111,
             "signature": "",
             "word_count": 49
         },
@@ -1631,7 +1631,7 @@
         },
         {
             "card_name": "Desolate Thicket",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1646,7 +1646,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Florian Herold",
-            "play_rate": 111,
+            "play_rate": 66,
             "signature": "",
             "word_count": 46
         },
@@ -2347,7 +2347,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Adam Paquette",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -2598,7 +2598,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Brolken",
-            "play_rate": 266,
+            "play_rate": 355,
             "signature": "",
             "word_count": 28
         },
@@ -3334,7 +3334,7 @@
             "number": 218,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Vigilance, reach\nConcord - At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If there are four or more card types among permanents you control, put a +1/+1 counter on each creature you control instead.",
+            "rules_text": "Vigilance, reach\nConcord - At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If there are four or more card types among permanents you control, instead put a +1/+1 counter on each nontoken creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -3342,9 +3342,9 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Ardika Priyata",
-            "play_rate": 244,
+            "play_rate": 333,
             "signature": "",
-            "word_count": 42
+            "word_count": 43
         },
         {
             "card_name": "Horrendous Experiment",
@@ -4148,7 +4148,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Vincent Proce",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -4671,7 +4671,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Jung Park",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -5410,7 +5410,7 @@
         },
         {
             "card_name": "Sigarda, Hope's Accord",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Angel",
@@ -5425,8 +5425,8 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Elvira Vikman",
-            "play_rate": 44,
-            "signature": "tyabely",
+            "play_rate": 111,
+            "signature": "",
             "word_count": 55
         },
         {
@@ -5906,7 +5906,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Vincent Proce",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -6096,7 +6096,7 @@
             "type": "Legendary Enchantment",
             "number": 216,
             "color_identity": "G",
-            "cost": "{3}{G}",
+            "cost": "{4}{G}",
             "rules_text": "At the beginning of your end step, create your choice of a 1/1 white Human creature token or a Treasure token.\nConcord - If there are four or more card types among permanents you control, if an effect would create one or more tokens under your control, it creates that many plus one of those tokens instead.",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -6105,7 +6105,7 @@
             "set": "IWH",
             "loyalty": "",
             "artist": "Daarken",
-            "play_rate": 377,
+            "play_rate": 422,
             "signature": "",
             "word_count": 56
         },

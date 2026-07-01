@@ -1932,7 +1932,7 @@
             "set": "OLD",
             "loyalty": "",
             "artist": "Lei Min",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -3171,7 +3171,7 @@
             "set": "OLD",
             "loyalty": "",
             "artist": "Anato Finnstark",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -3633,7 +3633,7 @@
             "set": "OLD",
             "loyalty": "",
             "artist": "Vladimir Ishelin",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -4893,7 +4893,7 @@
             "set": "OLD",
             "loyalty": "",
             "artist": "Manuel Castanon",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -6006,6 +6006,27 @@
             "set": "OLD",
             "loyalty": "",
             "artist": "Ma Ke",
+            "play_rate": 125,
+            "signature": "",
+            "word_count": 39
+        },
+        {
+            "card_name": "Audacious Roughrider (KUT)_OLD",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Knight",
+            "number": 302,
+            "color_identity": "R",
+            "cost": "{1}{R}{R}",
+            "rules_text": "When Audacious Roughrider enters or leaves the battlefield, exile the top card of your library. Then you may discard a card. If you do, put the exiled card into your hand. If you don't, create a Treasure token.\nWander {4}{R}{R} [i](You may cast this from the battlefield for its wander cost.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "OLD",
+            "loyalty": "",
+            "artist": "Ertac Altinoz",
             "play_rate": 125,
             "signature": "",
             "word_count": 39

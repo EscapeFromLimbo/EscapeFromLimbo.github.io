@@ -180,7 +180,7 @@
             "type": "Enchantment Battle \u2014 Operation",
             "number": 2,
             "color_identity": "W",
-            "cost": "{1}{W}",
+            "cost": "{2}{W}",
             "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nWhen Advance of the Sainted March enters, create two 1/1 red Berserker creature tokens.\nDefeated - Whenever you attack, create a 1/1 red Berserker creature token that's tapped and attacking.\n- \n\nStarting defense: 3",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -189,7 +189,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Kazaki360",
-            "play_rate": 189,
+            "play_rate": 212,
             "signature": "",
             "word_count": 31
         },
@@ -682,7 +682,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Kang Jihun",
-            "play_rate": 89,
+            "play_rate": 67,
             "signature": "",
             "word_count": 42
         },
@@ -1564,7 +1564,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Qrz-11",
-            "play_rate": 206,
+            "play_rate": 223,
             "signature": "",
             "word_count": 14
         },
@@ -1963,7 +1963,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Marcos Kenji Uchima",
-            "play_rate": 72,
+            "play_rate": 50,
             "signature": "",
             "word_count": 36
         },
@@ -2425,7 +2425,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Winking Studios",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -2446,7 +2446,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Marc Magiliari",
-            "play_rate": 1807,
+            "play_rate": 1808,
             "signature": "",
             "word_count": 0
         },
@@ -3590,7 +3590,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Ricardo Azulazuli Coelho",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -3611,7 +3611,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Ryan Anelowe",
-            "play_rate": 2472,
+            "play_rate": 2475,
             "signature": "",
             "word_count": 0
         },
@@ -3926,7 +3926,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Ryan Anelowe",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -3947,7 +3947,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Marc Magiliari",
-            "play_rate": 1664,
+            "play_rate": 1668,
             "signature": "",
             "word_count": 0
         },
@@ -4199,7 +4199,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Jason Kiantoro",
-            "play_rate": 217,
+            "play_rate": 195,
             "signature": "",
             "word_count": 31
         },
@@ -5333,7 +5333,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "C.Fm WU",
-            "play_rate": 368,
+            "play_rate": 346,
             "signature": "",
             "word_count": 18
         },
@@ -5627,7 +5627,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Yongkun X",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -5648,7 +5648,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Winking Studios",
-            "play_rate": 2434,
+            "play_rate": 2432,
             "signature": "",
             "word_count": 0
         },
@@ -6200,7 +6200,7 @@
         },
         {
             "card_name": "Vardo's Scalpel",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Assassin",
@@ -6215,7 +6215,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Sun Pengbo",
-            "play_rate": 117,
+            "play_rate": 94,
             "signature": "",
             "word_count": 10
         },
@@ -6677,7 +6677,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Adam Burke",
-            "play_rate": 89,
+            "play_rate": 67,
             "signature": "",
             "word_count": 42
         },
@@ -6929,7 +6929,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Art of Li",
-            "play_rate": 72,
+            "play_rate": 50,
             "signature": "",
             "word_count": 36
         },
@@ -7034,7 +7034,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Ognjen Sporin",
-            "play_rate": 217,
+            "play_rate": 195,
             "signature": "",
             "word_count": 31
         },
@@ -7163,6 +7163,27 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 37
+        },
+        {
+            "card_name": "Vardo's Scalpel_PRO_TWI",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "B",
+            "rarity": "special",
+            "type": "Creature \u2014 Zombie Assassin",
+            "number": 351,
+            "color_identity": "B",
+            "cost": "{B}",
+            "rules_text": "Menace\nWhenever Vardo's Scalpel attacks, it deals 2 damage to you.",
+            "flavor_text": "[i]Wrenching bones and gnashing teeth\nBeware the one that creeps beneath\n[/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TWI",
+            "loyalty": "",
+            "artist": "Diana Franco",
+            "play_rate": 94,
+            "signature": "",
+            "word_count": 10
         },
         {
             "card_name": "Vow to Conquer_PRO_TWI",
