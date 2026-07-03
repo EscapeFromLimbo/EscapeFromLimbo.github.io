@@ -11,6 +11,8 @@ git push https://EscapeFromLimbo@github.com/EscapeFromLimbo/EscapeFromLimbo.gith
 
 git diff -U20 sets/* | grep -B 3 "+.*notes.*staple" > staplechanges.txt
 
+git diff -U2 sets/* | grep -B 3 "+.*notes.*cube"
+
 Things to update manually:
 Each set:
 custom/lists/set-order.json
@@ -44,7 +46,7 @@ def pull_all_images(play_rate_table, signature_table):
 	alltokens = str(r.content)
 	#print(s)
 
-	cubefilename = "custom/TWI-SOL CC Draftmancer.txt"
+	cubefilename = "custom/IWH-VLR DRAFTMANCER.txt"
 	f = open(cubefilename, "r", encoding='utf-8')
 
 	cubecards = [l.split('"name": "')[1].split('"')[0] for l in f.readlines() if '"name"' in l]
@@ -426,7 +428,7 @@ def pull_all_images(play_rate_table, signature_table):
 				signature = signature_table[card.card_name.split(" (")[0]]
 
 			tags = '\\n!tag ' + '\\n!tag '.join(formatstring.split(','))
-			worldslist = ["Fabricated Anomaly", "Offset Daemon", "Get Your Wish", "Irrlicht", "Ardent Ascetic", "Cogwork Harvester", "Music Master"]
+			worldslist = ["Fabricated Anomaly", "Offset Daemon", "Get Your Wish", "Irrlicht", "Ardent Ascetic", "Cogwork Harvester", "Music Master", "Worn Semblance"]
 			for worldscard in worldslist:
 				if worldscard in card.card_name:
 					tags += "\\n!tag worlds"

@@ -174,7 +174,7 @@
         },
         {
             "card_name": "Ash-Addled Pyromaniac",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Peasant",
@@ -415,7 +415,7 @@
         },
         {
             "card_name": "Beyond Comprehension",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -656,7 +656,7 @@
         },
         {
             "card_name": "Bone Shards",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -949,7 +949,7 @@
         },
         {
             "card_name": "Collected Thoughts",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1001,7 +1001,7 @@
         },
         {
             "card_name": "Cordelia's Ripper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Vampire Berserker",
@@ -1064,7 +1064,7 @@
         },
         {
             "card_name": "Covetous Neonate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Rogue",
@@ -1798,7 +1798,7 @@
         },
         {
             "card_name": "Disciple of Darker Powers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Warlock",
@@ -2898,7 +2898,7 @@
         },
         {
             "card_name": "Griffin's Blessing",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "G",
             "rarity": "rare",
             "type": "Instant",
@@ -2940,7 +2940,7 @@
         },
         {
             "card_name": "Guardian's Charm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -3191,7 +3191,7 @@
         },
         {
             "card_name": "Heron's Grace Rescuer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Knight Soldier",
@@ -3264,7 +3264,7 @@
         },
         {
             "card_name": "Hollowhenge Martyr",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -3327,7 +3327,7 @@
         },
         {
             "card_name": "Hope's Trail Ranger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Soldier Ranger",
@@ -4479,7 +4479,7 @@
         },
         {
             "card_name": "Ominous Frogs",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "UR",
             "rarity": "mythic",
             "type": "Creature \u2014 Frog",
@@ -5326,7 +5326,7 @@
         },
         {
             "card_name": "Selhoff Conduit",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mutant Warlock",
@@ -5567,7 +5567,7 @@
         },
         {
             "card_name": "Sorin, Errant Bloodlord",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Sorin",
@@ -5933,7 +5933,7 @@
         },
         {
             "card_name": "Teeming Secrets",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -6216,7 +6216,7 @@
         },
         {
             "card_name": "Thought Scour",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -6447,7 +6447,7 @@
         },
         {
             "card_name": "Unstable Experimentation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -6897,7 +6897,7 @@
         },
         {
             "card_name": "Worn Semblance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag worlds",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Illusion Horror",
