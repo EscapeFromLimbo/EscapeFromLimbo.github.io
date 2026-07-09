@@ -126,7 +126,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kristian Agerkvist",
-            "play_rate": 177,
+            "play_rate": 157,
             "signature": "",
             "word_count": 12
         },
@@ -258,7 +258,7 @@
         },
         {
             "card_name": "Beyond the Shroud",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -273,8 +273,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Anato Finnstark",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 57,
+            "signature": "magmadragon3",
             "word_count": 33
         },
         {
@@ -294,7 +294,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Arghawana Rim",
-            "play_rate": 444,
+            "play_rate": 571,
             "signature": "",
             "word_count": 24
         },
@@ -357,7 +357,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "M\u00e1rton Gyula Kiss",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "zangy",
             "word_count": 20
         },
@@ -384,7 +384,7 @@
         },
         {
             "card_name": "Bounty Wall",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -399,7 +399,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Shunding Lin",
-            "play_rate": 22,
+            "play_rate": 14,
             "signature": "itaiuukl",
             "word_count": 17
         },
@@ -420,7 +420,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kenu W",
-            "play_rate": 244,
+            "play_rate": 371,
             "signature": "",
             "word_count": 20
         },
@@ -441,7 +441,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Gian Carlo",
-            "play_rate": 600,
+            "play_rate": 471,
             "signature": "",
             "word_count": 24
         },
@@ -882,7 +882,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Britt Martin",
-            "play_rate": 44,
+            "play_rate": 28,
             "signature": "covetedpeacock",
             "word_count": 40
         },
@@ -951,7 +951,7 @@
         },
         {
             "card_name": "Disgruntled Crook",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue",
@@ -966,8 +966,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Matt Sellers",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 57,
+            "signature": "epid",
             "word_count": 13
         },
         {
@@ -993,7 +993,7 @@
         },
         {
             "card_name": "Divine Liberation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1008,8 +1008,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Csaba Jekkel",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 42,
+            "signature": "viola.exe",
             "word_count": 30
         },
         {
@@ -1203,7 +1203,7 @@
         },
         {
             "card_name": "Ery, Leyfused",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Snake Druid",
@@ -1218,7 +1218,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "play_rate": 111,
+            "play_rate": 71,
             "signature": "",
             "word_count": 25
         },
@@ -1323,7 +1323,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Lachlan Page",
-            "play_rate": 133,
+            "play_rate": 114,
             "signature": "",
             "word_count": 19
         },
@@ -1428,7 +1428,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Wayne Leung Hou-wai",
-            "play_rate": 417,
+            "play_rate": 452,
             "signature": "",
             "word_count": 15
         },
@@ -1449,7 +1449,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "tsonline",
-            "play_rate": 250,
+            "play_rate": 262,
             "signature": "",
             "word_count": 15
         },
@@ -1470,7 +1470,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Petros Stefanidis",
-            "play_rate": 1808,
+            "play_rate": 1784,
             "signature": "",
             "word_count": 0
         },
@@ -1491,8 +1491,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Bartek Fedyczak",
-            "play_rate": 66,
-            "signature": "drchipmunk",
+            "play_rate": 57,
+            "signature": "",
             "word_count": 29
         },
         {
@@ -1638,7 +1638,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "matcha so",
-            "play_rate": 374,
+            "play_rate": 389,
             "signature": "",
             "word_count": 15
         },
@@ -1659,7 +1659,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "JonasDeRo",
-            "play_rate": 308,
+            "play_rate": 311,
             "signature": "",
             "word_count": 15
         },
@@ -1722,7 +1722,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Caelan Stokkermans",
-            "play_rate": 293,
+            "play_rate": 328,
             "signature": "",
             "word_count": 15
         },
@@ -1980,7 +1980,7 @@
         },
         {
             "card_name": "Het's Call",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1995,8 +1995,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Thanyss",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 57,
+            "signature": "7nix",
             "word_count": 32
         },
         {
@@ -2142,7 +2142,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Homme des Lunes",
-            "play_rate": 333,
+            "play_rate": 214,
             "signature": "",
             "word_count": 15
         },
@@ -2163,7 +2163,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Asur Misoa",
-            "play_rate": 88,
+            "play_rate": 57,
             "signature": "kayiu102",
             "word_count": 30
         },
@@ -2268,7 +2268,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "ABluSkittle",
-            "play_rate": 1862,
+            "play_rate": 1847,
             "signature": "",
             "word_count": 0
         },
@@ -2289,7 +2289,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Olie Boldador",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "itaiuukl",
             "word_count": 21
         },
@@ -2436,13 +2436,13 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Dawid Jurek ",
-            "play_rate": 360,
+            "play_rate": 371,
             "signature": "",
             "word_count": 15
         },
         {
             "card_name": "League of Their Own",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Mercenary",
@@ -2457,8 +2457,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Gino Zhang Yuan",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "styles",
             "word_count": 52
         },
         {
@@ -2515,7 +2515,7 @@
         },
         {
             "card_name": "Leybound Ritualist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Treefolk Druid",
@@ -2530,8 +2530,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Gessony Pawlick",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 42,
+            "signature": "hsquid",
             "word_count": 35
         },
         {
@@ -2593,7 +2593,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kira L. Nguyen",
-            "play_rate": 111,
+            "play_rate": 114,
             "signature": "",
             "word_count": 28
         },
@@ -2656,7 +2656,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Angela Pauly Llobet",
-            "play_rate": 268,
+            "play_rate": 276,
             "signature": "",
             "word_count": 15
         },
@@ -2725,7 +2725,7 @@
         },
         {
             "card_name": "Malicious Pactmaker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Warlock",
@@ -2740,8 +2740,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "David Astruga",
-            "play_rate": 44,
-            "signature": "platypeople",
+            "play_rate": 100,
+            "signature": "",
             "word_count": 24
         },
         {
@@ -2788,7 +2788,7 @@
         },
         {
             "card_name": "Melodious Mallard",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Bard",
@@ -2803,7 +2803,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Pierre Ignaszewski",
-            "play_rate": 88,
+            "play_rate": 114,
             "signature": "viola.exe",
             "word_count": 26
         },
@@ -2824,13 +2824,13 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Artur Treffner",
-            "play_rate": 44,
+            "play_rate": 28,
             "signature": "kattalist",
             "word_count": 22
         },
         {
             "card_name": "Memoriam",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Instant",
@@ -2845,7 +2845,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Nereamf Art",
-            "play_rate": 88,
+            "play_rate": 100,
             "signature": "platypeople",
             "word_count": 29
         },
@@ -2908,7 +2908,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Viro Ara",
-            "play_rate": 2475,
+            "play_rate": 2494,
             "signature": "",
             "word_count": 0
         },
@@ -2935,7 +2935,7 @@
         },
         {
             "card_name": "Offer Yourself",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -2950,13 +2950,13 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Artur Treffner",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 42,
+            "signature": "galiciancheese",
             "word_count": 17
         },
         {
             "card_name": "Offer the Faithless",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -2971,8 +2971,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Arianne Elliott",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "galiciancheese",
             "word_count": 19
         },
         {
@@ -2992,7 +2992,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Joshua Hardie",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "ptm",
             "word_count": 10
         },
@@ -3013,7 +3013,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "itaiuukl",
             "word_count": 51
         },
@@ -3265,7 +3265,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Humble Squid Creatives",
-            "play_rate": 88,
+            "play_rate": 57,
             "signature": "provocative",
             "word_count": 29
         },
@@ -3307,7 +3307,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kenza Morvan",
-            "play_rate": 1668,
+            "play_rate": 1660,
             "signature": "",
             "word_count": 0
         },
@@ -3328,7 +3328,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Joe Hutchinson",
-            "play_rate": 88,
+            "play_rate": 57,
             "signature": "",
             "word_count": 40
         },
@@ -3349,7 +3349,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Laszlo Pinter",
-            "play_rate": 559,
+            "play_rate": 570,
             "signature": "",
             "word_count": 15
         },
@@ -3628,7 +3628,7 @@
         },
         {
             "card_name": "Renegade Trueheart",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Rebel",
@@ -3643,8 +3643,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 57,
+            "signature": "hsquid",
             "word_count": 28
         },
         {
@@ -3706,7 +3706,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kaia Adams",
-            "play_rate": 88,
+            "play_rate": 57,
             "signature": "crushcastles23",
             "word_count": 20
         },
@@ -3943,7 +3943,7 @@
         },
         {
             "card_name": "Setral Arborist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Druid",
@@ -3958,8 +3958,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Mike Szabados",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "kattalist",
             "word_count": 15
         },
         {
@@ -4042,7 +4042,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Momo",
-            "play_rate": 177,
+            "play_rate": 114,
             "signature": "",
             "word_count": 31
         },
@@ -4111,7 +4111,7 @@
         },
         {
             "card_name": "Shroudpiercer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Horror",
@@ -4126,8 +4126,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Allan Santos",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "styles",
             "word_count": 14
         },
         {
@@ -4153,7 +4153,7 @@
         },
         {
             "card_name": "Shroudwarder Phoenix",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Phoenix",
@@ -4168,8 +4168,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Rapha\u00eblle Ellehar Bieuville",
-            "play_rate": 88,
-            "signature": "cool beens",
+            "play_rate": 114,
+            "signature": "",
             "word_count": 43
         },
         {
@@ -4231,7 +4231,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Asur Misoa",
-            "play_rate": 177,
+            "play_rate": 114,
             "signature": "",
             "word_count": 70,
             "card_name2": "Siurne, Covetous Creation",
@@ -4331,7 +4331,7 @@
         },
         {
             "card_name": "Smolder Away",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4346,7 +4346,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Lana Ansay",
-            "play_rate": 22,
+            "play_rate": 14,
             "signature": "itaiuukl",
             "word_count": 57
         },
@@ -4451,7 +4451,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Judah Carvalho",
-            "play_rate": 44,
+            "play_rate": 28,
             "signature": "redpandersbear",
             "word_count": 89,
             "card_name2": "Soya, Guild Pariah",
@@ -4503,7 +4503,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "John Gibson ",
-            "play_rate": 276,
+            "play_rate": 288,
             "signature": "",
             "word_count": 15
         },
@@ -4530,7 +4530,7 @@
         },
         {
             "card_name": "Spite of the Founder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4545,8 +4545,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Ben Jackson",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "deathmage13",
             "word_count": 16
         },
         {
@@ -4692,7 +4692,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Dimitri Neron",
-            "play_rate": 955,
+            "play_rate": 728,
             "signature": "",
             "word_count": 9
         },
@@ -4776,8 +4776,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "play_rate": 66,
-            "signature": "scribbl",
+            "play_rate": 85,
+            "signature": "",
             "word_count": 25
         },
         {
@@ -4881,7 +4881,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "play_rate": 2432,
+            "play_rate": 2401,
             "signature": "",
             "word_count": 0
         },
@@ -4902,7 +4902,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Veronique Fierse",
-            "play_rate": 133,
+            "play_rate": 157,
             "signature": "",
             "word_count": 41
         },
@@ -4986,7 +4986,7 @@
             "set": "VLR",
             "loyalty": "6",
             "artist": "John Stone",
-            "play_rate": 155,
+            "play_rate": 100,
             "signature": "cool beens",
             "word_count": 47
         },
@@ -5007,7 +5007,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Josep P\u00e9rez",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "itaiuukl",
             "word_count": 36
         },
@@ -5070,7 +5070,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Joe Neeves",
-            "play_rate": 244,
+            "play_rate": 157,
             "signature": "",
             "word_count": 83,
             "card_name2": "Juni, Shaper Unbound",
@@ -5185,7 +5185,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Kristian Agerkvist",
-            "play_rate": 44,
+            "play_rate": 28,
             "signature": "rickyrister",
             "word_count": 13
         },
@@ -5353,7 +5353,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "play_rate": 177,
+            "play_rate": 114,
             "signature": "",
             "word_count": 44
         },
@@ -5506,7 +5506,7 @@
         },
         {
             "card_name": "Vie, the First Hero",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Cat Rebel",
@@ -5521,8 +5521,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Steven Shan",
-            "play_rate": 0,
-            "signature": "",
+            "play_rate": 28,
+            "signature": "drchipmunk",
             "word_count": 83,
             "card_name2": "Vie, Fallen Hope",
             "color2": "WR",
@@ -5573,7 +5573,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Oza Akhmad",
-            "play_rate": 177,
+            "play_rate": 114,
             "signature": "",
             "word_count": 27
         },
@@ -5804,7 +5804,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Cindy Avelino",
-            "play_rate": 66,
+            "play_rate": 42,
             "signature": "drchipmunk",
             "word_count": 12
         },
@@ -5888,7 +5888,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Angelica Donarini",
-            "play_rate": 133,
+            "play_rate": 114,
             "signature": "",
             "word_count": 19
         },
@@ -5909,8 +5909,8 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "play_rate": 66,
-            "signature": "drchipmunk",
+            "play_rate": 57,
+            "signature": "",
             "word_count": 29
         },
         {
@@ -5930,7 +5930,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Adrian Kubiak",
-            "play_rate": 177,
+            "play_rate": 114,
             "signature": "",
             "word_count": 31
         },
@@ -5972,7 +5972,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Sam Jones",
-            "play_rate": 955,
+            "play_rate": 728,
             "signature": "",
             "word_count": 9
         },
@@ -6014,7 +6014,7 @@
             "set": "VLR",
             "loyalty": "",
             "artist": "Matheus Bartz",
-            "play_rate": 133,
+            "play_rate": 157,
             "signature": "",
             "word_count": 41
         },
@@ -6035,7 +6035,7 @@
             "set": "VLR",
             "loyalty": "6",
             "artist": "Ric Galar",
-            "play_rate": 155,
+            "play_rate": 100,
             "signature": "cool beens",
             "word_count": 47
         },
