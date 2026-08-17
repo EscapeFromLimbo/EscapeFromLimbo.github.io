@@ -1,12 +1,12 @@
 ﻿{
     "name": "Innistrad: Witching Hour",
-    "formats": "eternalfuture,standard,planechase",
+    "formats": "eternal,future,standard,planechase",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
             "card_name": "Abandoned Memorial",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -27,7 +27,7 @@
         },
         {
             "card_name": "Addled Psyche",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Instant",
@@ -48,7 +48,7 @@
         },
         {
             "card_name": "Affliction of Undeath",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -69,7 +69,7 @@
         },
         {
             "card_name": "Ambitious Necrologist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scientist",
@@ -90,7 +90,7 @@
         },
         {
             "card_name": "Angel of Fading Dusk",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Angel",
@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Angelic Purge",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -132,7 +132,7 @@
         },
         {
             "card_name": "Anje's Thirst",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -153,7 +153,7 @@
         },
         {
             "card_name": "Arlinn's Kindred",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf",
@@ -174,7 +174,7 @@
         },
         {
             "card_name": "Ash-Addled Pyromaniac",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Peasant",
@@ -195,7 +195,7 @@
         },
         {
             "card_name": "Ashiok, Your Worst Fear",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Ashiok",
@@ -216,7 +216,7 @@
         },
         {
             "card_name": "Ashiok's Manipulation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -237,7 +237,7 @@
         },
         {
             "card_name": "Ashmouth Intruders",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Devil",
@@ -258,7 +258,7 @@
         },
         {
             "card_name": "Ashmouth Wolf",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Wolf",
@@ -279,7 +279,7 @@
         },
         {
             "card_name": "Avacyn's Legacy",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -300,7 +300,7 @@
         },
         {
             "card_name": "Awoken Heir",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Vampire Warlock",
@@ -321,7 +321,7 @@
         },
         {
             "card_name": "Backroads Incursion",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -342,7 +342,7 @@
         },
         {
             "card_name": "Beckon the Beyond",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -363,7 +363,7 @@
         },
         {
             "card_name": "Benevolent Visitation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -394,7 +394,7 @@
         },
         {
             "card_name": "Bewitching Hagmother",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Hag Warlock",
@@ -415,7 +415,7 @@
         },
         {
             "card_name": "Beyond Comprehension",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -436,7 +436,7 @@
         },
         {
             "card_name": "Bittersweet Parting",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -457,7 +457,7 @@
         },
         {
             "card_name": "Bleachbark Dryad",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Dryad",
@@ -478,7 +478,7 @@
         },
         {
             "card_name": "Bleeding Tithe",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -499,7 +499,7 @@
         },
         {
             "card_name": "Blessings of a New Spring",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -520,7 +520,7 @@
         },
         {
             "card_name": "Blight of Hamlets",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -541,7 +541,7 @@
         },
         {
             "card_name": "Blood Bank",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "rare",
             "type": "Enchantment",
@@ -562,7 +562,7 @@
         },
         {
             "card_name": "Bloodpack Invoker",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Shaman",
@@ -583,7 +583,7 @@
         },
         {
             "card_name": "Bloodsire's Herald",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bat",
@@ -604,7 +604,7 @@
         },
         {
             "card_name": "Bloodspill Ruffian",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Berserker Werewolf",
@@ -635,7 +635,7 @@
         },
         {
             "card_name": "Bloodtrail Reclaimer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger",
@@ -656,7 +656,7 @@
         },
         {
             "card_name": "Bone Shards",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -677,7 +677,7 @@
         },
         {
             "card_name": "Boughbreak Lumberknot",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Treefolk",
@@ -698,7 +698,7 @@
         },
         {
             "card_name": "Bounty of Trostad",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -719,7 +719,7 @@
         },
         {
             "card_name": "Breathstealer Spirit",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit",
@@ -740,7 +740,7 @@
         },
         {
             "card_name": "Cackling Igniter",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental Devil",
@@ -771,7 +771,7 @@
         },
         {
             "card_name": "Call of the Ulvenvater",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Instant",
@@ -792,7 +792,7 @@
         },
         {
             "card_name": "Callous Killer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue",
@@ -823,7 +823,7 @@
         },
         {
             "card_name": "Captain Faulmorr",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Zombie Knight",
@@ -844,7 +844,7 @@
         },
         {
             "card_name": "Cathar's Charm",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -865,7 +865,7 @@
         },
         {
             "card_name": "Ceaseless Horseman",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Knight",
@@ -886,7 +886,7 @@
         },
         {
             "card_name": "Chapel Soulguide",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Spirit Cleric",
@@ -907,7 +907,7 @@
         },
         {
             "card_name": "Claret Ascendance",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -928,7 +928,7 @@
         },
         {
             "card_name": "Cloistered Haunt",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit",
@@ -949,7 +949,7 @@
         },
         {
             "card_name": "Collected Thoughts",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -970,7 +970,7 @@
         },
         {
             "card_name": "Consuming Grounds",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1001,7 +1001,7 @@
         },
         {
             "card_name": "Cordelia's Ripper",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Vampire Berserker",
@@ -1022,7 +1022,7 @@
         },
         {
             "card_name": "Cordelia Stromkirk",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Vampire Noble",
@@ -1043,7 +1043,7 @@
         },
         {
             "card_name": "Cornered by the Dead",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -1064,7 +1064,7 @@
         },
         {
             "card_name": "Covetous Neonate",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Rogue",
@@ -1085,7 +1085,7 @@
         },
         {
             "card_name": "Crofter's Charm",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1106,7 +1106,7 @@
         },
         {
             "card_name": "Cultist of the Drowntide",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
@@ -1127,7 +1127,7 @@
         },
         {
             "card_name": "Curse of Dark Blasphemy",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1148,7 +1148,7 @@
         },
         {
             "card_name": "Curse of Devilish Ire",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1169,7 +1169,7 @@
         },
         {
             "card_name": "Curse of Disturbed Tombs",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1190,7 +1190,7 @@
         },
         {
             "card_name": "Curse of Eerie Streets",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1211,7 +1211,7 @@
         },
         {
             "card_name": "Curse of Entomophobia",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1232,7 +1232,7 @@
         },
         {
             "card_name": "Curse of Harvest's Reaping",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1253,7 +1253,7 @@
         },
         {
             "card_name": "Curse of Insidious Thoughts",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1274,7 +1274,7 @@
         },
         {
             "card_name": "Curse of Profane Offerings",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1295,7 +1295,7 @@
         },
         {
             "card_name": "Curse of Searing Ground",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1316,7 +1316,7 @@
         },
         {
             "card_name": "Curse of Warped Realities",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1337,7 +1337,7 @@
         },
         {
             "card_name": "Curse of Wretched Secrets",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura Curse",
@@ -1358,7 +1358,7 @@
         },
         {
             "card_name": "Darkthicket Howler",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf",
@@ -1379,7 +1379,7 @@
         },
         {
             "card_name": "Dawnhart Augur",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Warlock Druid",
@@ -1400,7 +1400,7 @@
         },
         {
             "card_name": "Dawnhart Familiar",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elk",
@@ -1421,7 +1421,7 @@
         },
         {
             "card_name": "Dawnhart Shepherd",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock Druid",
@@ -1442,7 +1442,7 @@
         },
         {
             "card_name": "Dawnsmite Cavalier",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Knight",
@@ -1463,7 +1463,7 @@
         },
         {
             "card_name": "Demented Pyro-Alchemist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scientist",
@@ -1484,7 +1484,7 @@
         },
         {
             "card_name": "Departed Duelist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Soldier",
@@ -1505,7 +1505,7 @@
         },
         {
             "card_name": "Deranged Ravager",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire",
@@ -1526,7 +1526,7 @@
         },
         {
             "card_name": "Descent of the Mists",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1547,7 +1547,7 @@
         },
         {
             "card_name": "Desolate Cemetery",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1568,7 +1568,7 @@
         },
         {
             "card_name": "Desolate Garrison",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1589,7 +1589,7 @@
         },
         {
             "card_name": "Desolate Harbor",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1610,7 +1610,7 @@
         },
         {
             "card_name": "Desolate Pinnacle",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1631,7 +1631,7 @@
         },
         {
             "card_name": "Desolate Thicket",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1652,7 +1652,7 @@
         },
         {
             "card_name": "Desperate Exorcism",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Instant",
@@ -1673,7 +1673,7 @@
         },
         {
             "card_name": "Devil's Breach Prowler",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Wolf",
@@ -1694,7 +1694,7 @@
         },
         {
             "card_name": "Devilthorn Hunter",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -1715,7 +1715,7 @@
         },
         {
             "card_name": "Devotion to Ghrin-Danu",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -1746,7 +1746,7 @@
         },
         {
             "card_name": "Dire-Strain Imbuer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue Werewolf",
@@ -1777,7 +1777,7 @@
         },
         {
             "card_name": "Dirge of the Drowned",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1798,7 +1798,7 @@
         },
         {
             "card_name": "Disciple of Darker Powers",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Warlock",
@@ -1819,7 +1819,7 @@
         },
         {
             "card_name": "Distilled Essence",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1840,7 +1840,7 @@
         },
         {
             "card_name": "Drogskol Duelist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Soldier",
@@ -1861,7 +1861,7 @@
         },
         {
             "card_name": "Drowned Homestead",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -1882,7 +1882,7 @@
         },
         {
             "card_name": "Drowntide Rising",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1903,7 +1903,7 @@
         },
         {
             "card_name": "Eerie Nightdrifter",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "mythic",
             "type": "Creature \u2014 Spirit Horror",
@@ -1924,7 +1924,7 @@
         },
         {
             "card_name": "Elgaud Dawnrider",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Cleric Knight",
@@ -1945,7 +1945,7 @@
         },
         {
             "card_name": "Embers of a New Moon",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -1966,7 +1966,7 @@
         },
         {
             "card_name": "Emrakul, Visage of Gore",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Eldrazi",
@@ -1987,7 +1987,7 @@
         },
         {
             "card_name": "Enthralled Alchemist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -2018,7 +2018,7 @@
         },
         {
             "card_name": "Envoy of the Red Court",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Noble",
@@ -2039,7 +2039,7 @@
         },
         {
             "card_name": "Erdwal Fangseeker",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire",
@@ -2060,7 +2060,7 @@
         },
         {
             "card_name": "Estwald Brigands",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Human Warrior Werewolf",
@@ -2091,7 +2091,7 @@
         },
         {
             "card_name": "Evolving Wilds_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2112,7 +2112,7 @@
         },
         {
             "card_name": "Falkenrath Executor",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Berserker",
@@ -2133,7 +2133,7 @@
         },
         {
             "card_name": "Famished Twins",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Berserker",
@@ -2154,7 +2154,7 @@
         },
         {
             "card_name": "Fangrite Mistress",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Shaman Werewolf",
@@ -2185,7 +2185,7 @@
         },
         {
             "card_name": "Feasting Ceremony",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -2206,7 +2206,7 @@
         },
         {
             "card_name": "Festering Rats",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Rat Horror",
@@ -2227,7 +2227,7 @@
         },
         {
             "card_name": "Feudrach's Hunger",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2248,7 +2248,7 @@
         },
         {
             "card_name": "Feudrach of Ashmouth",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon",
@@ -2269,7 +2269,7 @@
         },
         {
             "card_name": "Fleshwrithe Apparatus",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -2290,7 +2290,7 @@
         },
         {
             "card_name": "Flooded Grafyards",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -2311,7 +2311,7 @@
         },
         {
             "card_name": "Foray into Stensia",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -2332,7 +2332,7 @@
         },
         {
             "card_name": "Forest_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -2353,7 +2353,7 @@
         },
         {
             "card_name": "Full-Moon Assault",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -2374,7 +2374,7 @@
         },
         {
             "card_name": "Gatstaf Butcher",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Citizen Werewolf",
@@ -2405,7 +2405,7 @@
         },
         {
             "card_name": "Gavony Trapper",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -2426,7 +2426,7 @@
         },
         {
             "card_name": "Gavony Watchman",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -2447,7 +2447,7 @@
         },
         {
             "card_name": "Geist-Honored Warden",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
@@ -2468,7 +2468,7 @@
         },
         {
             "card_name": "Geist Marshal",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit Soldier",
@@ -2489,7 +2489,7 @@
         },
         {
             "card_name": "Geist Researcher",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Scientist",
@@ -2520,7 +2520,7 @@
         },
         {
             "card_name": "Geist of the Erdwal Road",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Spirit Rogue",
@@ -2541,7 +2541,7 @@
         },
         {
             "card_name": "Geistblaster's Breakthrough",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Instant",
@@ -2562,7 +2562,7 @@
         },
         {
             "card_name": "Geralf's Studies",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -2583,7 +2583,7 @@
         },
         {
             "card_name": "Getander Wildlander",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -2604,7 +2604,7 @@
         },
         {
             "card_name": "Ghrin-Danu Returned",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WBG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Elk God Horror",
@@ -2625,7 +2625,7 @@
         },
         {
             "card_name": "Gisa's Breakthrough",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2646,7 +2646,7 @@
         },
         {
             "card_name": "Gitrog's Spawn",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Frog",
@@ -2667,7 +2667,7 @@
         },
         {
             "card_name": "Gloaming Demon",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Demon",
@@ -2688,7 +2688,7 @@
         },
         {
             "card_name": "Gnarlwood's Claim",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -2709,7 +2709,7 @@
         },
         {
             "card_name": "Goldnight Purgeblade",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WR",
             "rarity": "mythic",
             "type": "Creature \u2014 Angel",
@@ -2730,7 +2730,7 @@
         },
         {
             "card_name": "Gorehowl Abomination",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Wolf Horror",
@@ -2751,7 +2751,7 @@
         },
         {
             "card_name": "Goremare",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Horse Horror",
@@ -2772,7 +2772,7 @@
         },
         {
             "card_name": "Grand Necrotect",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Warlock",
@@ -2793,7 +2793,7 @@
         },
         {
             "card_name": "Grasping Dreams",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2814,7 +2814,7 @@
         },
         {
             "card_name": "Gravebutcher",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie",
@@ -2835,7 +2835,7 @@
         },
         {
             "card_name": "Gravespore Guardian",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "rare",
             "type": "Creature \u2014 Skeleton Fungus",
@@ -2856,7 +2856,7 @@
         },
         {
             "card_name": "Gravestitched Fledgling",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Drake",
@@ -2877,7 +2877,7 @@
         },
         {
             "card_name": "Greedy Duelist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Soldier",
@@ -2898,7 +2898,7 @@
         },
         {
             "card_name": "Griffin's Blessing",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Instant",
@@ -2919,7 +2919,7 @@
         },
         {
             "card_name": "Grizzled Ironwright",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Citizen",
@@ -2940,7 +2940,7 @@
         },
         {
             "card_name": "Guardian's Charm",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -2961,7 +2961,7 @@
         },
         {
             "card_name": "Guide of Faith",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Cleric",
@@ -2982,7 +2982,7 @@
         },
         {
             "card_name": "Hamlet Guardians",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3003,7 +3003,7 @@
         },
         {
             "card_name": "Hanweir Sentries",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Archer Werewolf",
@@ -3034,7 +3034,7 @@
         },
         {
             "card_name": "Harvest Warden",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Treefolk Scarecrow",
@@ -3065,7 +3065,7 @@
         },
         {
             "card_name": "Harvesttide Effigies",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -3086,7 +3086,7 @@
         },
         {
             "card_name": "Haunted Doll",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy Spirit",
@@ -3107,7 +3107,7 @@
         },
         {
             "card_name": "Havengul Prodigy",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -3128,7 +3128,7 @@
         },
         {
             "card_name": "Herald of Ashmouth",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental Horror",
@@ -3149,7 +3149,7 @@
         },
         {
             "card_name": "Herald of Krothus",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Octopus Horror",
@@ -3170,7 +3170,7 @@
         },
         {
             "card_name": "Herghast, Niblis Magister",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Spirit Wizard",
@@ -3191,7 +3191,7 @@
         },
         {
             "card_name": "Heron's Grace Rescuer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Knight Soldier",
@@ -3212,7 +3212,7 @@
         },
         {
             "card_name": "Heronblade Vanguard",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Angel",
@@ -3233,7 +3233,7 @@
         },
         {
             "card_name": "Hinterland Bandits",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue Werewolf",
@@ -3264,7 +3264,7 @@
         },
         {
             "card_name": "Hollowhenge Martyr",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -3285,7 +3285,7 @@
         },
         {
             "card_name": "Hope-Blessed Bow",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "rare",
             "type": "Artifact \u2014 Equipment",
@@ -3306,7 +3306,7 @@
         },
         {
             "card_name": "Hope's Trail Pilgrim",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Peasant",
@@ -3327,7 +3327,7 @@
         },
         {
             "card_name": "Hope's Trail Ranger",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Soldier Ranger",
@@ -3348,7 +3348,7 @@
         },
         {
             "card_name": "Horrendous Experiment",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Mutant",
@@ -3369,7 +3369,7 @@
         },
         {
             "card_name": "Horrific Stitching",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3390,7 +3390,7 @@
         },
         {
             "card_name": "Horrors Wrought",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3411,7 +3411,7 @@
         },
         {
             "card_name": "Hour of the Wolf",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3432,7 +3432,7 @@
         },
         {
             "card_name": "Hulking Horror",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Horror",
@@ -3453,7 +3453,7 @@
         },
         {
             "card_name": "Hungering Coffin",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Artifact",
@@ -3484,7 +3484,7 @@
         },
         {
             "card_name": "Huntmaster of the Fells",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Werewolf",
@@ -3515,7 +3515,7 @@
         },
         {
             "card_name": "Illicit Mortician",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue Scientist",
@@ -3536,7 +3536,7 @@
         },
         {
             "card_name": "In the Face of Darkness",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3557,7 +3557,7 @@
         },
         {
             "card_name": "Indulgent Patrician",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Vampire Noble",
@@ -3578,7 +3578,7 @@
         },
         {
             "card_name": "Insatiable Elder",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Vampire Warlock",
@@ -3599,7 +3599,7 @@
         },
         {
             "card_name": "Island_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -3620,7 +3620,7 @@
         },
         {
             "card_name": "It's Alive!",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3641,7 +3641,7 @@
         },
         {
             "card_name": "Kessig Pathkeeper",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout Werewolf",
@@ -3672,7 +3672,7 @@
         },
         {
             "card_name": "Lambholt Hunting Grounds",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3693,7 +3693,7 @@
         },
         {
             "card_name": "Learn the Steps",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3714,7 +3714,7 @@
         },
         {
             "card_name": "Lidern, the Goreblossom",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "URG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dryad Spirit Horror",
@@ -3735,7 +3735,7 @@
         },
         {
             "card_name": "Lingering Presence",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
@@ -3756,7 +3756,7 @@
         },
         {
             "card_name": "Lonely Cabin",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3777,7 +3777,7 @@
         },
         {
             "card_name": "Looming Grafspider",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Spider",
@@ -3798,7 +3798,7 @@
         },
         {
             "card_name": "Looming Serpent",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Serpent",
@@ -3829,7 +3829,7 @@
         },
         {
             "card_name": "Lumberjack's Axe",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -3850,7 +3850,7 @@
         },
         {
             "card_name": "Lunarblind Packmaster",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf",
@@ -3871,7 +3871,7 @@
         },
         {
             "card_name": "Malignant Entangler",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Spider Horror",
@@ -3892,7 +3892,7 @@
         },
         {
             "card_name": "March of the Drowntide",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -3913,7 +3913,7 @@
         },
         {
             "card_name": "Markov Imperator",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Vampire Soldier",
@@ -3934,7 +3934,7 @@
         },
         {
             "card_name": "Marzela's Sanctum",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3955,7 +3955,7 @@
         },
         {
             "card_name": "Master Skaabstitcher",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Wizard",
@@ -3976,7 +3976,7 @@
         },
         {
             "card_name": "Misthollow Primarch",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Griffin",
@@ -3997,7 +3997,7 @@
         },
         {
             "card_name": "Moldgraf Stewards",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus",
@@ -4018,7 +4018,7 @@
         },
         {
             "card_name": "Moonlight Firemaker",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger Werewolf",
@@ -4049,7 +4049,7 @@
         },
         {
             "card_name": "Moonlit Revelry",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -4070,7 +4070,7 @@
         },
         {
             "card_name": "Moonrapture",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
@@ -4091,7 +4091,7 @@
         },
         {
             "card_name": "Moonsilver Archangel",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "mythic",
             "type": "Creature \u2014 Angel",
@@ -4112,7 +4112,7 @@
         },
         {
             "card_name": "Mortis Infusion",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -4133,7 +4133,7 @@
         },
         {
             "card_name": "Mountain_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -4154,7 +4154,7 @@
         },
         {
             "card_name": "Mournwraith",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
@@ -4175,7 +4175,7 @@
         },
         {
             "card_name": "Mysteries of the Forbidden",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -4196,7 +4196,7 @@
         },
         {
             "card_name": "Nearheath Disciples",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Spirit Scout",
@@ -4217,7 +4217,7 @@
         },
         {
             "card_name": "Nebelgast Retainer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit Soldier",
@@ -4248,7 +4248,7 @@
         },
         {
             "card_name": "Nephalia Heartsewer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Human Warlock Scientist",
@@ -4269,7 +4269,7 @@
         },
         {
             "card_name": "Niblis's Haunt",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4290,7 +4290,7 @@
         },
         {
             "card_name": "Niblis of the Gloom",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -4311,7 +4311,7 @@
         },
         {
             "card_name": "Night of the Long Silence",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -4332,7 +4332,7 @@
         },
         {
             "card_name": "Nightfright",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4353,7 +4353,7 @@
         },
         {
             "card_name": "Nightpack Alpha",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf",
@@ -4374,7 +4374,7 @@
         },
         {
             "card_name": "Odric, Accursed Slayer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WR",
             "rarity": "special",
             "type": "Legendary Creature \u2014 Vampire Soldier",
@@ -4395,7 +4395,7 @@
         },
         {
             "card_name": "Odric, Traft's Anointed",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Vampire Spirit Soldier",
@@ -4416,7 +4416,7 @@
         },
         {
             "card_name": "Odric's Fury",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -4437,7 +4437,7 @@
         },
         {
             "card_name": "Olivia, Sanguine Reveler",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Vampire Noble",
@@ -4458,7 +4458,7 @@
         },
         {
             "card_name": "Olivia's Debauchery",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4479,7 +4479,7 @@
         },
         {
             "card_name": "Ominous Frogs",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "UR",
             "rarity": "mythic",
             "type": "Creature \u2014 Frog",
@@ -4510,7 +4510,7 @@
         },
         {
             "card_name": "Ominous Marionette",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Toy Horror",
@@ -4531,7 +4531,7 @@
         },
         {
             "card_name": "Ossuary Guardian",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Skeleton Soldier",
@@ -4562,7 +4562,7 @@
         },
         {
             "card_name": "Overfueled Abomination",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Mutant",
@@ -4583,7 +4583,7 @@
         },
         {
             "card_name": "Overlord of Ashmouth",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Demon",
@@ -4604,7 +4604,7 @@
         },
         {
             "card_name": "Parish Slayer",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -4625,7 +4625,7 @@
         },
         {
             "card_name": "Pious Friar",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -4656,7 +4656,7 @@
         },
         {
             "card_name": "Plains_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -4677,7 +4677,7 @@
         },
         {
             "card_name": "Play on Their Fears",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -4698,7 +4698,7 @@
         },
         {
             "card_name": "Plunder the Grafs",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4719,7 +4719,7 @@
         },
         {
             "card_name": "Practiced Occultist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
@@ -4740,7 +4740,7 @@
         },
         {
             "card_name": "Prayer of Banishing",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4761,7 +4761,7 @@
         },
         {
             "card_name": "Profane Invoker",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Shaman Werewolf",
@@ -4792,7 +4792,7 @@
         },
         {
             "card_name": "Profane Sustenance",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -4813,7 +4813,7 @@
         },
         {
             "card_name": "Prying Eyedra",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Eye Hydra",
@@ -4834,7 +4834,7 @@
         },
         {
             "card_name": "Putrid Bloodbag",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Horror",
@@ -4855,7 +4855,7 @@
         },
         {
             "card_name": "Rabid Mauling",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -4876,7 +4876,7 @@
         },
         {
             "card_name": "Rally to Thraben",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4897,7 +4897,7 @@
         },
         {
             "card_name": "Rancid Practitioner",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Warlock",
@@ -4918,7 +4918,7 @@
         },
         {
             "card_name": "Ravenous Companions",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Wolf Berserker",
@@ -4939,7 +4939,7 @@
         },
         {
             "card_name": "Repressed Aristocrat",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Noble",
@@ -4970,7 +4970,7 @@
         },
         {
             "card_name": "Restoring Presence",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -4991,7 +4991,7 @@
         },
         {
             "card_name": "Riding the Geistroads",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5012,7 +5012,7 @@
         },
         {
             "card_name": "Ritual Preparations",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5033,7 +5033,7 @@
         },
         {
             "card_name": "Rotjaw Predator",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Bear",
@@ -5054,7 +5054,7 @@
         },
         {
             "card_name": "Runstalker Maiden",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Human Peasant",
@@ -5075,7 +5075,7 @@
         },
         {
             "card_name": "Russetpack Predator",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Wolf",
@@ -5096,7 +5096,7 @@
         },
         {
             "card_name": "Sacred Stag",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elk",
@@ -5127,7 +5127,7 @@
         },
         {
             "card_name": "Sacrificial Lamb",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Sheep",
@@ -5148,7 +5148,7 @@
         },
         {
             "card_name": "Saint-Blessed Priest",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
@@ -5169,7 +5169,7 @@
         },
         {
             "card_name": "Saint's Salvation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -5190,7 +5190,7 @@
         },
         {
             "card_name": "Sanguinary Hexcaster",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Wizard",
@@ -5211,7 +5211,7 @@
         },
         {
             "card_name": "Sanguine Liturgy",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -5232,7 +5232,7 @@
         },
         {
             "card_name": "Scions of Flesh and Spirit",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Spirit Zombie Wizard",
@@ -5253,7 +5253,7 @@
         },
         {
             "card_name": "Scorned Zombie",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie",
@@ -5274,7 +5274,7 @@
         },
         {
             "card_name": "Scourge of Drunau Port",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -5295,7 +5295,7 @@
         },
         {
             "card_name": "Secluded Recluse",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Druid Werewolf",
@@ -5326,7 +5326,7 @@
         },
         {
             "card_name": "Selhoff Conduit",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mutant Warlock",
@@ -5347,7 +5347,7 @@
         },
         {
             "card_name": "Sermons of Ormendahl",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment",
@@ -5368,7 +5368,7 @@
         },
         {
             "card_name": "Shadowgrange Tormenter",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Demon",
@@ -5389,7 +5389,7 @@
         },
         {
             "card_name": "Shambling Rotcap",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus Horror",
@@ -5410,7 +5410,7 @@
         },
         {
             "card_name": "Sigarda, Hope's Accord",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Angel",
@@ -5431,7 +5431,7 @@
         },
         {
             "card_name": "Sigardian Gryffknight",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Knight",
@@ -5452,7 +5452,7 @@
         },
         {
             "card_name": "Silverflame Cathar",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5473,7 +5473,7 @@
         },
         {
             "card_name": "Silverflame Zealot",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Cleric",
@@ -5494,7 +5494,7 @@
         },
         {
             "card_name": "Skulking Shadowbeast",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast",
@@ -5515,7 +5515,7 @@
         },
         {
             "card_name": "Solstice Circle",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5536,7 +5536,7 @@
         },
         {
             "card_name": "Somberwald Boar",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Boar",
@@ -5567,7 +5567,7 @@
         },
         {
             "card_name": "Sorin, Errant Bloodlord",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube",
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Sorin",
@@ -5588,7 +5588,7 @@
         },
         {
             "card_name": "Sorin's Interrogation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -5609,7 +5609,7 @@
         },
         {
             "card_name": "Speaker of Ghrin-Danu",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -5630,7 +5630,7 @@
         },
         {
             "card_name": "Spectral Insurgent",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -5651,7 +5651,7 @@
         },
         {
             "card_name": "Sporecyst Toad",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus Frog",
@@ -5672,7 +5672,7 @@
         },
         {
             "card_name": "Stain with Crimson",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -5693,7 +5693,7 @@
         },
         {
             "card_name": "Stewards of Ulvenwald",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid Werewolf",
@@ -5724,7 +5724,7 @@
         },
         {
             "card_name": "Stonegraf Awakener",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Warlock",
@@ -5745,7 +5745,7 @@
         },
         {
             "card_name": "Stormbrewer Alchemist",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
@@ -5776,7 +5776,7 @@
         },
         {
             "card_name": "Storms over Nephalia",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -5797,7 +5797,7 @@
         },
         {
             "card_name": "Stromkirk Vanguard",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Soldier",
@@ -5818,7 +5818,7 @@
         },
         {
             "card_name": "Stromkirk Warlord",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Soldier",
@@ -5839,7 +5839,7 @@
         },
         {
             "card_name": "Subsuming Sludge",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Ooze",
@@ -5860,7 +5860,7 @@
         },
         {
             "card_name": "Suspicious Carriage",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
@@ -5891,7 +5891,7 @@
         },
         {
             "card_name": "Swamp_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -5912,7 +5912,7 @@
         },
         {
             "card_name": "Tarnished Swordsuit",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct Spirit",
@@ -5933,7 +5933,7 @@
         },
         {
             "card_name": "Teeming Secrets",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5954,7 +5954,7 @@
         },
         {
             "card_name": "Tempting Puzzlebox",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact",
@@ -5985,7 +5985,7 @@
         },
         {
             "card_name": "Tethered Fettergeists",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit",
@@ -6006,7 +6006,7 @@
         },
         {
             "card_name": "Thalia, the Guiding Blade",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -6027,7 +6027,7 @@
         },
         {
             "card_name": "Thalia's Skill",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -6048,7 +6048,7 @@
         },
         {
             "card_name": "The Collabomination",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Zombie Horror",
@@ -6069,7 +6069,7 @@
         },
         {
             "card_name": "The Goremoon Unleashed",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -6090,7 +6090,7 @@
         },
         {
             "card_name": "The Harvesttide Procession",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -6111,7 +6111,7 @@
         },
         {
             "card_name": "The Haunting of Silbern",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -6132,7 +6132,7 @@
         },
         {
             "card_name": "The Ulvenvater",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Wolf",
@@ -6153,7 +6153,7 @@
         },
         {
             "card_name": "Thing from the Depths",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Kraken Horror",
@@ -6174,7 +6174,7 @@
         },
         {
             "card_name": "Thirsting Dagger",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -6195,7 +6195,7 @@
         },
         {
             "card_name": "Thirsty Work",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -6216,7 +6216,7 @@
         },
         {
             "card_name": "Thought Scour",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -6237,7 +6237,7 @@
         },
         {
             "card_name": "Thraben Stalwart",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -6258,7 +6258,7 @@
         },
         {
             "card_name": "Tinua, of Whispered Pains",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Cleric",
@@ -6279,7 +6279,7 @@
         },
         {
             "card_name": "Tormented Bride",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
@@ -6300,7 +6300,7 @@
         },
         {
             "card_name": "Tovolar's Ire",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -6321,7 +6321,7 @@
         },
         {
             "card_name": "Tovolar Wolfbound",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Werewolf",
@@ -6342,7 +6342,7 @@
         },
         {
             "card_name": "Traft, Aiding the Worthy",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Spirit Cleric",
@@ -6363,7 +6363,7 @@
         },
         {
             "card_name": "Traft's Embrace",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -6384,7 +6384,7 @@
         },
         {
             "card_name": "Trapped in the Mirror",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -6405,7 +6405,7 @@
         },
         {
             "card_name": "Ulrich's Proclamation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -6426,7 +6426,7 @@
         },
         {
             "card_name": "Unmarked Headstones",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Clue",
@@ -6447,7 +6447,7 @@
         },
         {
             "card_name": "Unstable Experimentation",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -6468,7 +6468,7 @@
         },
         {
             "card_name": "Unstable Masterpiece",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Horror",
@@ -6489,7 +6489,7 @@
         },
         {
             "card_name": "Unwelcome Host",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Horror",
@@ -6510,7 +6510,7 @@
         },
         {
             "card_name": "Urgent Investigations",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WUB",
             "rarity": "rare",
             "type": "Instant",
@@ -6531,7 +6531,7 @@
         },
         {
             "card_name": "Vile Resurgence",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -6552,7 +6552,7 @@
         },
         {
             "card_name": "Village Bruiser",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior Werewolf",
@@ -6583,7 +6583,7 @@
         },
         {
             "card_name": "Voldaren Magister",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Noble",
@@ -6604,7 +6604,7 @@
         },
         {
             "card_name": "Voracious Assembly",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Zombie Warlock",
@@ -6625,7 +6625,7 @@
         },
         {
             "card_name": "Wailing Apparition",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
@@ -6646,7 +6646,7 @@
         },
         {
             "card_name": "Wald-Cottage Crone",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Peasant Werewolf",
@@ -6677,7 +6677,7 @@
         },
         {
             "card_name": "Waldshadow Ambusher",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Wolf",
@@ -6698,7 +6698,7 @@
         },
         {
             "card_name": "Wanton Display",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -6719,7 +6719,7 @@
         },
         {
             "card_name": "Watching the Trails",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -6740,7 +6740,7 @@
         },
         {
             "card_name": "Westvale Adherent",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
@@ -6761,7 +6761,7 @@
         },
         {
             "card_name": "Westvale Cult Induction",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
@@ -6792,7 +6792,7 @@
         },
         {
             "card_name": "Wildcaster Devil",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "rare",
             "type": "Creature \u2014 Devil",
@@ -6813,7 +6813,7 @@
         },
         {
             "card_name": "Wilderhunt Companions",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Wolf Ranger",
@@ -6834,7 +6834,7 @@
         },
         {
             "card_name": "Winterthorn Creeper",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "mythic",
             "type": "Creature \u2014 Elk Plant Spirit",
@@ -6855,7 +6855,7 @@
         },
         {
             "card_name": "Witching Hour",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -6876,7 +6876,7 @@
         },
         {
             "card_name": "Wolf-Fang Talisman",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -6897,7 +6897,7 @@
         },
         {
             "card_name": "Worn Semblance",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag worlds",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag worlds",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2014 Illusion Horror",
@@ -6918,7 +6918,7 @@
         },
         {
             "card_name": "Ash-Addled Pyromaniac_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Creature \u2014 Human Peasant",
@@ -6939,7 +6939,7 @@
         },
         {
             "card_name": "Collected Thoughts_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Sorcery",
@@ -6960,7 +6960,7 @@
         },
         {
             "card_name": "Darkthicket Howler_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "special",
             "type": "Creature \u2014 Wolf",
@@ -6981,7 +6981,7 @@
         },
         {
             "card_name": "Moonsilver Archangel_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Angel",
@@ -7002,7 +7002,7 @@
         },
         {
             "card_name": "Restoring Presence_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Instant",
@@ -7023,7 +7023,7 @@
         },
         {
             "card_name": "Teeming Secrets_PRO_IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "UG",
             "rarity": "special",
             "type": "Instant",
@@ -7044,7 +7044,7 @@
         },
         {
             "card_name": "white Aura IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment - Aura",
@@ -7065,7 +7065,7 @@
         },
         {
             "card_name": "blue Zombie 44IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7086,7 +7086,7 @@
         },
         {
             "card_name": "blue Zombie 22IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7107,7 +7107,7 @@
         },
         {
             "card_name": "red Devil 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Devil",
@@ -7128,7 +7128,7 @@
         },
         {
             "card_name": "red Ardor IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment - Ardor",
@@ -7149,7 +7149,7 @@
         },
         {
             "card_name": "red Vampire 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Vampire",
@@ -7170,7 +7170,7 @@
         },
         {
             "card_name": "white Spirit 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Spirit",
@@ -7191,7 +7191,7 @@
         },
         {
             "card_name": "white Human 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Human",
@@ -7212,7 +7212,7 @@
         },
         {
             "card_name": "black Zombie 22IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7233,7 +7233,7 @@
         },
         {
             "card_name": "Blood IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Blood",
@@ -7254,7 +7254,7 @@
         },
         {
             "card_name": "green Wolf 22IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Token Creature - Wolf",
@@ -7275,7 +7275,7 @@
         },
         {
             "card_name": "blue Zombie 33IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7296,7 +7296,7 @@
         },
         {
             "card_name": "black Bat 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Token Creature - Bat",
@@ -7317,7 +7317,7 @@
         },
         {
             "card_name": "Weapon IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Weapon Equipment",
@@ -7338,7 +7338,7 @@
         },
         {
             "card_name": "white Sheep 01IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Sheep",
@@ -7359,7 +7359,7 @@
         },
         {
             "card_name": "red Elemental 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Elemental",
@@ -7380,7 +7380,7 @@
         },
         {
             "card_name": "Treasure IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Treasure",
@@ -7401,7 +7401,7 @@
         },
         {
             "card_name": "red Elemental 55IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Elemental",
@@ -7422,7 +7422,7 @@
         },
         {
             "card_name": "green Bear 44IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Token Creature - Bear",
@@ -7443,7 +7443,7 @@
         },
         {
             "card_name": "all colors Offering 01IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "common",
             "type": "Token Artifact Creature - Offering",
@@ -7464,7 +7464,7 @@
         },
         {
             "card_name": "blue Zombie 88IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7485,7 +7485,7 @@
         },
         {
             "card_name": "blue Zombie IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Zombie",
@@ -7506,7 +7506,7 @@
         },
         {
             "card_name": "white Angel 44IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Angel",
@@ -7527,7 +7527,7 @@
         },
         {
             "card_name": "black Vampire 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Token Creature - Vampire",
@@ -7548,7 +7548,7 @@
         },
         {
             "card_name": "white Angel 34IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Angel",
@@ -7569,7 +7569,7 @@
         },
         {
             "card_name": "white and black Cleric 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "common",
             "type": "Token Creature - Cleric",
@@ -7590,7 +7590,7 @@
         },
         {
             "card_name": "black Vampire 22IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Token Creature - Vampire",
@@ -7611,7 +7611,7 @@
         },
         {
             "card_name": "Food IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Food",
@@ -7632,7 +7632,7 @@
         },
         {
             "card_name": "white Cloister IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment - Cloister",
@@ -7653,7 +7653,7 @@
         },
         {
             "card_name": "blue and green Insect 11IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "GU",
             "rarity": "common",
             "type": "Token Creature - Insect",
@@ -7674,7 +7674,7 @@
         },
         {
             "card_name": "colorless Monument IWH",
-            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag future\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Monument",

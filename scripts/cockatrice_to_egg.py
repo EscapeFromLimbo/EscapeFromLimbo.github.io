@@ -355,7 +355,7 @@ def pull_all_images(play_rate_table, signature_table):
 		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
 		if i < 7:
-			formatstring += "future,standard,planechase"
+			formatstring += ",future,standard,planechase"
 		elif i < 8:
 			formatstring += ",standard,planechase"
 		else:
