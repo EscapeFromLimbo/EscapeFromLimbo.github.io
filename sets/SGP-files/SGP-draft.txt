@@ -1,0 +1,3560 @@
+[CustomCards]
+	[
+		{
+			"name": "Volunteer Firewatch",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/66_Volunteer Firewatch.png"
+			}
+		},
+		{
+			"name": "Startouched Reverend",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/62_Startouched Reverend.png"
+			}
+		},
+		{
+			"name": "Mire Pathforger",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/53_Mire Pathforger.png"
+			}
+		},
+		{
+			"name": "Esteemed Falconress",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/41_Esteemed Falconress.png"
+			}
+		},
+		{
+			"name": "Rockpile Brutes",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/58_Rockpile Brutes.png"
+			}
+		},
+		{
+			"name": "Awestruck Navigator",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Pilot",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/37_Awestruck Navigator.png"
+			}
+		},
+		{
+			"name": "Mournful Matriarch",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/54_Mournful Matriarch.png"
+			}
+		},
+		{
+			"name": "Zaila's Willbender",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Horror Soldier",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/68_Zaila's Willbender.png"
+			}
+		},
+		{
+			"name": "Shimmering Skycarp",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Fish Construct",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/60_Shimmering Skycarp.png"
+			}
+		},
+		{
+			"name": "Flagship Auto-Enforcer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/46_Flagship Auto-Enforcer.png"
+			}
+		},
+		{
+			"name": "Timely Intervention",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/63_Timely Intervention.png"
+			}
+		},
+		{
+			"name": "Falconskin Augmentation",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/45_Falconskin Augmentation.png"
+			}
+		},
+		{
+			"name": "Zeppelin Disaster",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/69_Zeppelin Disaster.png"
+			}
+		},
+		{
+			"name": "Personal Wingsuit",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/251_Personal Wingsuit.png"
+			}
+		},
+		{
+			"name": "Mountain_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/280_Mountain_SGP.png"
+			}
+		},
+		{
+			"name": "Swamp_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/278_Swamp_SGP.png"
+			}
+		},
+		{
+			"name": "Forest_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/282_Forest_SGP.png"
+			}
+		},
+		{
+			"name": "Gloompool Heron",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Bird",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/84_Gloompool Heron.png"
+			}
+		},
+		{
+			"name": "Diviner of Relics",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Scholar",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/78_Diviner of Relics.png"
+			}
+		},
+		{
+			"name": "Task Force Operatives",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Detective",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/100_Task Force Operatives.png"
+			}
+		},
+		{
+			"name": "Startouched Analyst",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/98_Startouched Analyst.png"
+			}
+		},
+		{
+			"name": "Frossenhold Walker",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/83_Frossenhold Walker.png"
+			}
+		},
+		{
+			"name": "Mastbreaker",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Kraken",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/90_Mastbreaker.png"
+			}
+		},
+		{
+			"name": "Eldritch Rebuttal",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/80_Eldritch Rebuttal.png"
+			}
+		},
+		{
+			"name": "Innovation Thief",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/152_Innovation Thief.png"
+			}
+		},
+		{
+			"name": "Collaborate",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/75_Collaborate.png"
+			}
+		},
+		{
+			"name": "Taken by the Storm",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/99_Taken by the Storm.png"
+			}
+		},
+		{
+			"name": "Public Exhibition",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/93_Public Exhibition.png"
+			}
+		},
+		{
+			"name": "Writheform",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/103_Writheform.png"
+			}
+		},
+		{
+			"name": "Black Site Asylum",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Clue",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/73_Black Site Asylum.png"
+			}
+		},
+		{
+			"name": "Gaunt Transient",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Goblin Horror",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/114_Gaunt Transient.png"
+			}
+		},
+		{
+			"name": "Luxuries Merchant",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/120_Luxuries Merchant.png"
+			}
+		},
+		{
+			"name": "Unwelcome Tenant",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/136_Unwelcome Tenant.png"
+			}
+		},
+		{
+			"name": "Cruel Patrician",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Noble",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/109_Cruel Patrician.png"
+			}
+		},
+		{
+			"name": "Screeching Portent",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/125_Screeching Portent.png"
+			}
+		},
+		{
+			"name": "Marshwreck Gang",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Merfolk Horror",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/121_Marshwreck Gang.png"
+			}
+		},
+		{
+			"name": "Speakeasy Brokers",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/130_Speakeasy Brokers.png"
+			}
+		},
+		{
+			"name": "Soultaker Idol",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/129_Soultaker Idol.png"
+			}
+		},
+		{
+			"name": "Startouched Acolyte",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/131_Startouched Acolyte.png"
+			}
+		},
+		{
+			"name": "Croak",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/108_Croak.png"
+			}
+		},
+		{
+			"name": "Harrowing Transformation",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/115_Harrowing Transformation.png"
+			}
+		},
+		{
+			"name": "Learn From Loss",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/119_Learn From Loss.png"
+			}
+		},
+		{
+			"name": "Compelled to Die",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/106_Compelled to Die.png"
+			}
+		},
+		{
+			"name": "Nightgrasp",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/122_Nightgrasp.png"
+			}
+		},
+		{
+			"name": "Eldrazi Scion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eldrazi Scion",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/5_Eldrazi Scion.png"
+			}
+		},
+		{
+			"name": "Eyekissed Invoker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/146_Eyekissed Invoker.png"
+			}
+		},
+		{
+			"name": "Warcurse Ruminant",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/167_Warcurse Ruminant.png"
+			}
+		},
+		{
+			"name": "Steelsuit Consultant",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Orc Artificer",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/165_Steelsuit Consultant.png"
+			}
+		},
+		{
+			"name": "Brineborn Underlings",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Horror",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/74_Brineborn Underlings.png"
+			}
+		},
+		{
+			"name": "Magma Scribe",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental Warlock",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/157_Magma Scribe.png"
+			}
+		},
+		{
+			"name": "Startouched Epigone",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/163_Startouched Epigone.png"
+			}
+		},
+		{
+			"name": "Iron Triumphant",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/153_Iron Triumphant.png"
+			}
+		},
+		{
+			"name": "Mantle Breacher",
+			"rarity": "common",
+			"mana_cost": "{5}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/21_Mantle Breacher.png"
+			}
+		},
+		{
+			"name": "Crimson Gladeguard",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Beast Warlock",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/144_Crimson Gladeguard.png"
+			}
+		},
+		{
+			"name": "Steelsoul Ignition",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/164_Steelsoul Ignition.png"
+			}
+		},
+		{
+			"name": "Neon Dreams",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/158_Neon Dreams.png"
+			}
+		},
+		{
+			"name": "Jettison",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/154_Jettison.png"
+			}
+		},
+		{
+			"name": "Pyre",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/161_Pyre.png"
+			}
+		},
+		{
+			"name": "Willbreaker Lance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/169_Willbreaker Lance.png"
+			}
+		},
+		{
+			"name": "Wreckage Inquisitors",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Detective",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/203_Wreckage Inquisitors.png"
+			}
+		},
+		{
+			"name": "Startouched Arborist",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/199_Startouched Arborist.png"
+			}
+		},
+		{
+			"name": "Game Hunters",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/187_Game Hunters.png"
+			}
+		},
+		{
+			"name": "First Responders",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Detective",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/184_First Responders.png"
+			}
+		},
+		{
+			"name": "Streetway Incursion",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/200_Streetway Incursion.png"
+			}
+		},
+		{
+			"name": "Discordant Maw",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/180_Discordant Maw.png"
+			}
+		},
+		{
+			"name": "Overzealous Recon",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Detective",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/194_Overzealous Recon.png"
+			}
+		},
+		{
+			"name": "Kaalham Ploughdrivers",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ox",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/192_Kaalham Ploughdrivers.png"
+			}
+		},
+		{
+			"name": "Starbreaker Juvenile",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Horror",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/198_Starbreaker Juvenile.png"
+			}
+		},
+		{
+			"name": "Barksplitter Colossus",
+			"rarity": "common",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Elemental Horror",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/174_Barksplitter Colossus.png"
+			}
+		},
+		{
+			"name": "A Hole in the Sky",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/190_A Hole in the Sky.png"
+			}
+		},
+		{
+			"name": "Eldritch Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/183_Eldritch Growth.png"
+			}
+		},
+		{
+			"name": "Donnybrook",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/181_Donnybrook.png"
+			}
+		},
+		{
+			"name": "Unethical Enhancements",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/201_Unethical Enhancements.png"
+			}
+		},
+		{
+			"name": "Ancient Carapace",
+			"rarity": "common",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/1_Ancient Carapace.png"
+			}
+		},
+		{
+			"name": "Chorus of the Severed",
+			"rarity": "common",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/8_Chorus of the Severed.png"
+			}
+		},
+		{
+			"name": "Old Ones Envoy",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/23_Old Ones Envoy.png"
+			}
+		},
+		{
+			"name": "Rend",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/25_Rend.png"
+			}
+		},
+		{
+			"name": "Reality Wanes",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/24_Reality Wanes.png"
+			}
+		},
+		{
+			"name": "Incursive Voidmaw",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/14_Incursive Voidmaw.png"
+			}
+		},
+		{
+			"name": "Reservoir Mechan",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/252_Reservoir Mechan.png"
+			}
+		},
+		{
+			"name": "Nook Dagger",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/250_Nook Dagger.png"
+			}
+		},
+		{
+			"name": "Elden Crucible",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/40_Elden Crucible.png"
+			}
+		},
+		{
+			"name": "Corrupted Hedron",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Clue",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/244_Corrupted Hedron.png"
+			}
+		},
+		{
+			"name": "Harvest Tenders",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/246_Harvest Tenders.png"
+			}
+		},
+		{
+			"name": "Subsume Reality",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Instant",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/239_Subsume Reality.png"
+			}
+		},
+		{
+			"name": "Psychic Rupture",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/230_Psychic Rupture.png"
+			}
+		},
+		{
+			"name": "Obsessive Ritualist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/227_Obsessive Ritualist.png"
+			}
+		},
+		{
+			"name": "Restless Summoners",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Zombie Warlock",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/232_Restless Summoners.png"
+			}
+		},
+		{
+			"name": "Oathbound Stalwart",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/226_Oathbound Stalwart.png"
+			}
+		},
+		{
+			"name": "Discerning Patron",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Human Noble",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/209_Discerning Patron.png"
+			}
+		},
+		{
+			"name": "Inspiring Orrery",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Artifact",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/219_Inspiring Orrery.png"
+			}
+		},
+		{
+			"name": "Sludge Trawlers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/235_Sludge Trawlers.png"
+			}
+		},
+		{
+			"name": "Enraptured Talespinner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Scholar",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/212_Enraptured Talespinner.png"
+			}
+		},
+		{
+			"name": "Lantha, Task Force Sergeant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Human Detective",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/222_Lantha, Task Force Sergeant.png"
+			}
+		},
+		{
+			"name": "Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/272_Wastes.png"
+			}
+		},
+		{
+			"name": "Aviary Whisperer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Bird Wizard",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/72_Aviary Whisperer.png"
+			}
+		},
+		{
+			"name": "Black Site Enhancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/206_Black Site Enhancer.png"
+			}
+		},
+		{
+			"name": "Inkwing Kite",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Bird Horror",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/218_Inkwing Kite.png"
+			}
+		},
+		{
+			"name": "Malformed Initiate",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Horror Warlock",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/225_Malformed Initiate.png"
+			}
+		},
+		{
+			"name": "Writhing Shepherd",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/241_Writhing Shepherd.png"
+			}
+		},
+		{
+			"name": "In Strength Entwined",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/217_In Strength Entwined.png"
+			}
+		},
+		{
+			"name": "Karsten, the Spinner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/220_Karsten, the Spinner.png"
+			}
+		},
+		{
+			"name": "Tormented Eulogist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/166_Tormented Eulogist.png"
+			}
+		},
+		{
+			"name": "Ravaged Eviscerator",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/231_Ravaged Eviscerator.png"
+			}
+		},
+		{
+			"name": "Artillery Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/205_Artillery Commander.png"
+			}
+		},
+		{
+			"name": "Concerning Discoveries",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/207_Concerning Discoveries.png"
+			}
+		},
+		{
+			"name": "Sky Force Retiree",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pilot Citizen",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/61_Sky Force Retiree.png"
+			}
+		},
+		{
+			"name": "Scape Surveyor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pilot",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/59_Scape Surveyor.png"
+			}
+		},
+		{
+			"name": "Highforged Overseer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Construct Noble",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/50_Highforged Overseer.png"
+			}
+		},
+		{
+			"name": "Aspiring Artisan",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/36_Aspiring Artisan.png"
+			}
+		},
+		{
+			"name": "North District Prior",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/56_North District Prior.png"
+			}
+		},
+		{
+			"name": "Cabaret Seductress",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/39_Cabaret Seductress.png"
+			}
+		},
+		{
+			"name": "Stylla, Opulent Paragon",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/238_Stylla, Opulent Paragon.png"
+			}
+		},
+		{
+			"name": "Frontline Cavalier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/47_Frontline Cavalier.png"
+			}
+		},
+		{
+			"name": "Warpwire Chassis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/67_Warpwire Chassis.png"
+			}
+		},
+		{
+			"name": "Industry Kingpins",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/51_Industry Kingpins.png"
+			}
+		},
+		{
+			"name": "Never Seen Again",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/55_Never Seen Again.png"
+			}
+		},
+		{
+			"name": "Ether Joyride",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/42_Ether Joyride.png"
+			}
+		},
+		{
+			"name": "Faculty of Engineering",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/44_Faculty of Engineering.png"
+			}
+		},
+		{
+			"name": "Null Emissary",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Eldrazi Advisor",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/22_Null Emissary.png"
+			}
+		},
+		{
+			"name": "Watchman of the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/101_Watchman of the Deep.png"
+			}
+		},
+		{
+			"name": "Inspired Retrofitter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/86_Inspired Retrofitter.png"
+			}
+		},
+		{
+			"name": "Port Inspector",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Detective",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/92_Port Inspector.png"
+			}
+		},
+		{
+			"name": "Ego Devourer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/79_Ego Devourer.png"
+			}
+		},
+		{
+			"name": "Adaptive Lieutenant",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct Detective",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/70_Adaptive Lieutenant.png"
+			}
+		},
+		{
+			"name": "Void Empyrean",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/34_Void Empyrean.png"
+			}
+		},
+		{
+			"name": "In the Nick of Time",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/85_In the Nick of Time.png"
+			}
+		},
+		{
+			"name": "Fade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/81_Fade.png"
+			}
+		},
+		{
+			"name": "Piecing it Together",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/91_Piecing it Together.png"
+			}
+		},
+		{
+			"name": "Ancestral Voidstone",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/71_Ancestral Voidstone.png"
+			}
+		},
+		{
+			"name": "Deepwater Whispers",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/76_Deepwater Whispers.png"
+			}
+		},
+		{
+			"name": "Scour the Records",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/96_Scour the Records.png"
+			}
+		},
+		{
+			"name": "Wiped Clean",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/102_Wiped Clean.png"
+			}
+		},
+		{
+			"name": "Spill the Beans",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/97_Spill the Beans.png"
+			}
+		},
+		{
+			"name": "Shingle Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Bat Horror",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/126_Shingle Crawler.png"
+			}
+		},
+		{
+			"name": "Kavalesk's Reshapen",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Zombie Soldier",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/155_Kavalesk's Reshapen.png"
+			}
+		},
+		{
+			"name": "Holism Seeker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/191_Holism Seeker.png"
+			}
+		},
+		{
+			"name": "Yestergrove Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/204_Yestergrove Relic.png"
+			}
+		},
+		{
+			"name": "Analytic Processor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Artifact Creature — Construct Detective",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/171_Analytic Processor.png"
+			}
+		},
+		{
+			"name": "Rose Garden Conference",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Noble",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/195_Rose Garden Conference.png"
+			}
+		},
+		{
+			"name": "Voices in the Mist",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Eldrazi Hydra",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/202_Voices in the Mist.png"
+			}
+		},
+		{
+			"name": "Savage Broodmother",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/197_Savage Broodmother.png"
+			}
+		},
+		{
+			"name": "Scapebender",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/26_Scapebender.png"
+			}
+		},
+		{
+			"name": "Bitten By the Void",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/175_Bitten By the Void.png"
+			}
+		},
+		{
+			"name": "Occupation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/159_Occupation.png"
+			}
+		},
+		{
+			"name": "Blinding Immolation",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/139_Blinding Immolation.png"
+			}
+		},
+		{
+			"name": "For All of Calloran",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/185_For All of Calloran.png"
+			}
+		},
+		{
+			"name": "Confidential Science",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/177_Confidential Science.png"
+			}
+		},
+		{
+			"name": "Cataclysm Constable",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Detective",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/176_Cataclysm Constable.png"
+			}
+		},
+		{
+			"name": "Karsten's Thought Police",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/118_Karsten's Thought Police.png"
+			}
+		},
+		{
+			"name": "Elite Reserve",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/111_Elite Reserve.png"
+			}
+		},
+		{
+			"name": "Unsettling Showman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Bard",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/135_Unsettling Showman.png"
+			}
+		},
+		{
+			"name": "Corpse Inspector",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/107_Corpse Inspector.png"
+			}
+		},
+		{
+			"name": "Dissenter Colossus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/110_Dissenter Colossus.png"
+			}
+		},
+		{
+			"name": "Sole Survivor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/127_Sole Survivor.png"
+			}
+		},
+		{
+			"name": "Flamerush",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/147_Flamerush.png"
+			}
+		},
+		{
+			"name": "Quick and Painful",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/124_Quick and Painful.png"
+			}
+		},
+		{
+			"name": "Ancient Stirrings",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/172_Ancient Stirrings.png"
+			}
+		},
+		{
+			"name": "Formless Scape",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/186_Formless Scape.png"
+			}
+		},
+		{
+			"name": "For the Cause",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/148_For the Cause.png"
+			}
+		},
+		{
+			"name": "Ashen Ravager",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Wolf",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/138_Ashen Ravager.png"
+			}
+		},
+		{
+			"name": "Mutation Investigator",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/193_Mutation Investigator.png"
+			}
+		},
+		{
+			"name": "Preemption Engineer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Artificer",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/160_Preemption Engineer.png"
+			}
+		},
+		{
+			"name": "Ritual Archivist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/162_Ritual Archivist.png"
+			}
+		},
+		{
+			"name": "Brazen Sootbellow",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Dragon",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/141_Brazen Sootbellow.png"
+			}
+		},
+		{
+			"name": "Billowing Weftraker",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/5_Billowing Weftraker.png"
+			}
+		},
+		{
+			"name": "Cinder Fanatic",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/143_Cinder Fanatic.png"
+			}
+		},
+		{
+			"name": "Boulevard Ambusher",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Eldrazi Wurm",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/105_Boulevard Ambusher.png"
+			}
+		},
+		{
+			"name": "Blood Soliloquy",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/104_Blood Soliloquy.png"
+			}
+		},
+		{
+			"name": "In Eldritch Flame",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/151_In Eldritch Flame.png"
+			}
+		},
+		{
+			"name": "North Salcman Vigil",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/123_North Salcman Vigil.png"
+			}
+		},
+		{
+			"name": "Unnatural Torment",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/134_Unnatural Torment.png"
+			}
+		},
+		{
+			"name": "Tendrils in the Loch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/133_Tendrils in the Loch.png"
+			}
+		},
+		{
+			"name": "Soulrender",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/27_Soulrender.png"
+			}
+		},
+		{
+			"name": "Titan's Effigy",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/31_Titan's Effigy.png"
+			}
+		},
+		{
+			"name": "Three-Eye Observer",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/30_Three-Eye Observer.png"
+			}
+		},
+		{
+			"name": "Endward Harbinger",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Creature — Eldrazi Angel",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/11_Endward Harbinger.png"
+			}
+		},
+		{
+			"name": "Inkrealm Drowner",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}{C}",
+			"type": "Creature — Eldrazi Leviathan",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/15_Inkrealm Drowner.png"
+			}
+		},
+		{
+			"name": "Eternity Takes",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/12_Eternity Takes.png"
+			}
+		},
+		{
+			"name": "Moonstone Splinter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/249_Moonstone Splinter.png"
+			}
+		},
+		{
+			"name": "Fateblur Cloak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/245_Fateblur Cloak.png"
+			}
+		},
+		{
+			"name": "Impure Creation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Horror",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/247_Impure Creation.png"
+			}
+		},
+		{
+			"name": "Hall of Innovation",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/257_Hall of Innovation.png"
+			}
+		},
+		{
+			"name": "Promising Vista",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/262_Promising Vista.png"
+			}
+		},
+		{
+			"name": "Vintage Fanatic",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/65_Vintage Fanatic.png"
+			}
+		},
+		{
+			"name": "Ulamog, the Earth Engulfed",
+			"rarity": "mythic",
+			"mana_cost": "{11}",
+			"type": "Legendary Creature — Eldrazi",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/32_Ulamog, the Earth Engulfed.png"
+			}
+		},
+		{
+			"name": "Ruinate",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/196_Ruinate.png"
+			}
+		},
+		{
+			"name": "Stelver, the Eyes and Ears",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Human Detective",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/237_Stelver, the Eyes and Ears.png"
+			}
+		},
+		{
+			"name": "Bear Witness",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/3_Bear Witness.png"
+			}
+		},
+		{
+			"name": "Zaila's Arbiter",
+			"rarity": "rare",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Eldrazi Angel",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/35_Zaila's Arbiter.png"
+			}
+		},
+		{
+			"name": "High Sergeant Liano",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/49_High Sergeant Liano.png"
+			}
+		},
+		{
+			"name": "Grand Triarch",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/48_Grand Triarch.png"
+			}
+		},
+		{
+			"name": "Evelline, Ark of Salvation",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/43_Evelline, Ark of Salvation.png"
+			}
+		},
+		{
+			"name": "Otherworldly Gyre",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/57_Otherworldly Gyre.png"
+			}
+		},
+		{
+			"name": "Bolton, Wharf Administrator",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/38_Bolton, Wharf Administrator.png"
+			}
+		},
+		{
+			"name": "Devonia, Lost Ministrix",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Eldrazi Advisor",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/77_Devonia, Lost Ministrix.png"
+			}
+		},
+		{
+			"name": "Scion of Insanity",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Avatar",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/95_Scion of Insanity.png"
+			}
+		},
+		{
+			"name": "Inkrealm Guardian",
+			"rarity": "rare",
+			"mana_cost": "{7}{C}",
+			"type": "Creature — Eldrazi Leviathan",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/16_Inkrealm Guardian.png"
+			}
+		},
+		{
+			"name": "Roiling Undertow",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/94_Roiling Undertow.png"
+			}
+		},
+		{
+			"name": "Friede, Weave Dancer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Human Bard",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/82_Friede, Weave Dancer.png"
+			}
+		},
+		{
+			"name": "Haunted Starlet",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Bard",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/116_Haunted Starlet.png"
+			}
+		},
+		{
+			"name": "Insatiate Slasher",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Spirit Assassin",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/117_Insatiate Slasher.png"
+			}
+		},
+		{
+			"name": "Strike Suppressor",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/132_Strike Suppressor.png"
+			}
+		},
+		{
+			"name": "Fathomless Invocations",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/113_Fathomless Invocations.png"
+			}
+		},
+		{
+			"name": "Emrakul's Conscriptor",
+			"rarity": "rare",
+			"mana_cost": "{10}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/10_Emrakul's Conscriptor.png"
+			}
+		},
+		{
+			"name": "Esme, Lost to Avarice",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/112_Esme, Lost to Avarice.png"
+			}
+		},
+		{
+			"name": "Ichor Winnower",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Eldrazi Cleric",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/150_Ichor Winnower.png"
+			}
+		},
+		{
+			"name": "Herald of Darkest Skies",
+			"rarity": "rare",
+			"mana_cost": "{4}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/13_Herald of Darkest Skies.png"
+			}
+		},
+		{
+			"name": "Bloodbone Pietist",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/140_Bloodbone Pietist.png"
+			}
+		},
+		{
+			"name": "Bender of Will",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/4_Bender of Will.png"
+			}
+		},
+		{
+			"name": "Careening Steam Engine",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/142_Careening Steam Engine.png"
+			}
+		},
+		{
+			"name": "Deathscorn Apostle",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/145_Deathscorn Apostle.png"
+			}
+		},
+		{
+			"name": "Gene Recombinators",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/188_Gene Recombinators.png"
+			}
+		},
+		{
+			"name": "Curious Botanist",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/178_Curious Botanist.png"
+			}
+		},
+		{
+			"name": "Astrum Weaver",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Eldrazi Spider",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/2_Astrum Weaver.png"
+			}
+		},
+		{
+			"name": "Deep Cover Prowler",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Eldrazi Detective",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/179_Deep Cover Prowler.png"
+			}
+		},
+		{
+			"name": "Awoken Cordillera",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/173_Awoken Cordillera.png"
+			}
+		},
+		{
+			"name": "Kavalesk, the Dark Exalted",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Zombie Warlock",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/221_Kavalesk, the Dark Exalted.png"
+			}
+		},
+		{
+			"name": "Grand Awakening",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/215_Grand Awakening.png"
+			}
+		},
+		{
+			"name": "Population Boom",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/229_Population Boom.png"
+			}
+		},
+		{
+			"name": "Olmin, Triune Liaison",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/228_Olmin, Triune Liaison.png"
+			}
+		},
+		{
+			"name": "Something in the Soil",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/236_Something in the Soil.png"
+			}
+		},
+		{
+			"name": "Elisa, Hand of Torvinald",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/211_Elisa, Hand of Torvinald.png"
+			}
+		},
+		{
+			"name": "Efraim, High Alderman",
+			"rarity": "mythic",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/210_Efraim, High Alderman.png"
+			}
+		},
+		{
+			"name": "Essence Ripper",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/213_Essence Ripper.png"
+			}
+		},
+		{
+			"name": "Skittering Swarmlord",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Eldrazi Spider",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/234_Skittering Swarmlord.png"
+			}
+		},
+		{
+			"name": "Vile Reef Inquisitor",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Detective",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/137_Vile Reef Inquisitor.png"
+			}
+		},
+		{
+			"name": "Lostlands Auspex",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Angel Warlock",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/88_Lostlands Auspex.png"
+			}
+		},
+		{
+			"name": "Reality Cusp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/263_Reality Cusp.png"
+			}
+		},
+		{
+			"name": "Lost to Endless Scripture",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/224_Lost to Endless Scripture.png"
+			}
+		},
+		{
+			"name": "Thoughtscraper",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/29_Thoughtscraper.png"
+			}
+		},
+		{
+			"name": "Ulamog's Augur",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/33_Ulamog's Augur.png"
+			}
+		},
+		{
+			"name": "Living Apogee",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/20_Living Apogee.png"
+			}
+		},
+		{
+			"name": "Children of the Heralds",
+			"rarity": "rare",
+			"mana_cost": "{5}{C}",
+			"type": "Creature — Eldrazi Cleric",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/7_Children of the Heralds.png"
+			}
+		},
+		{
+			"name": "Supreme Desecrator",
+			"rarity": "rare",
+			"mana_cost": "{9}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/28_Supreme Desecrator.png"
+			}
+		},
+		{
+			"name": "Burgeoning Amalgam",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/6_Burgeoning Amalgam.png"
+			}
+		},
+		{
+			"name": "The West District Hangar",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Artifact",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/168_The West District Hangar.png"
+			}
+		},
+		{
+			"name": "Blinding Aperture",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/243_Blinding Aperture.png"
+			}
+		},
+		{
+			"name": "Lantha's Journal",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Book",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/248_Lantha's Journal.png"
+			}
+		},
+		{
+			"name": "Leonard, Experiment Zero",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Ooze Horror",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/223_Leonard, Experiment Zero.png"
+			}
+		},
+		{
+			"name": "Lightwire Swarm",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/87_Lightwire Swarm.png"
+			}
+		},
+		{
+			"name": "Salar, Calloran's Defiance",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{G}",
+			"type": "Legendary Creature — Bear",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/233_Salar, Calloran's Defiance.png"
+			}
+		},
+		{
+			"name": "Jetfoot Greaves",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment Vehicle",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/52_Jetfoot Greaves.png"
+			}
+		},
+		{
+			"name": "Torvinald, Iron Eminence",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/64_Torvinald, Iron Eminence.png"
+			}
+		},
+		{
+			"name": "Greytide Specter",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Eldrazi Specter",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/216_Greytide Specter.png"
+			}
+		},
+		{
+			"name": "Soulflame Immolator",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Spirit Warlock",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/128_Soulflame Immolator.png"
+			}
+		},
+		{
+			"name": "A World Worth Fighting For",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/170_A World Worth Fighting For.png"
+			}
+		},
+		{
+			"name": "Kraz, Head Engineer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Goblin Artificer",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/156_Kraz, Head Engineer.png"
+			}
+		},
+		{
+			"name": "Eccentric Geneticist",
+			"rarity": "mythic",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/182_Eccentric Geneticist.png"
+			}
+		},
+		{
+			"name": "Gloamveil Trackers",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Dog Detective",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/189_Gloamveil Trackers.png"
+			}
+		},
+		{
+			"name": "Kozilek, the Bonds Unmade",
+			"rarity": "mythic",
+			"mana_cost": "{12}",
+			"type": "Legendary Creature — Eldrazi",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/17_Kozilek, the Bonds Unmade.png"
+			}
+		},
+		{
+			"name": "Emrakul, the Sky Sundered",
+			"rarity": "mythic",
+			"mana_cost": "{14}",
+			"type": "Legendary Creature — Eldrazi",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/9_Emrakul, the Sky Sundered.png"
+			}
+		},
+		{
+			"name": "Keeper's Peninsula",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/258_Keeper's Peninsula.png"
+			}
+		},
+		{
+			"name": "Dusk Vantage",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/256_Dusk Vantage.png"
+			}
+		},
+		{
+			"name": "Lost Settlement",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/260_Lost Settlement.png"
+			}
+		},
+		{
+			"name": "Cliffrest Tributary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/255_Cliffrest Tributary.png"
+			}
+		},
+		{
+			"name": "Secluded Avenue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/264_Secluded Avenue.png"
+			}
+		},
+		{
+			"name": "Cataract Valley",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/254_Cataract Valley.png"
+			}
+		},
+		{
+			"name": "Outlands Hamlet",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/261_Outlands Hamlet.png"
+			}
+		},
+		{
+			"name": "Bronzeglade Peaks",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/253_Bronzeglade Peaks.png"
+			}
+		},
+		{
+			"name": "Lakewatch Ruins",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/259_Lakewatch Ruins.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/18_Treasure.png"
+			}
+		},
+		{
+			"name": "Forge in Anguish",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/149_Forge in Anguish.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/13_Clue.png"
+			}
+		},
+		{
+			"name": "What Remains of Frossenhold",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/271_What Remains of Frossenhold.png"
+			}
+		},
+		{
+			"name": "Human Bard",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Bard",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/12_Human Bard.png"
+			}
+		},
+		{
+			"name": "Human",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/7_Human.png"
+			}
+		},
+		{
+			"name": "Eldrazi",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eldrazi",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/2_Eldrazi.png"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/14_Construct.png"
+			}
+		},
+		{
+			"name": "Plains_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/274_Plains_SGP.png"
+			}
+		},
+		{
+			"name": "Island_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/276_Island_SGP.png"
+			}
+		},
+		{
+			"name": "Island Eldritch_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/275_Island Eldritch_SGP.png"
+			}
+		},
+		{
+			"name": "Plains Eldritch_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/273_Plains Eldritch_SGP.png"
+			}
+		},
+		{
+			"name": "Swamp Eldritch_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/277_Swamp Eldritch_SGP.png"
+			}
+		},
+		{
+			"name": "Mountain Eldritch_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/279_Mountain Eldritch_SGP.png"
+			}
+		},
+		{
+			"name": "Forest Eldritch_SGP",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/281_Forest Eldritch_SGP.png"
+			}
+		},
+		{
+			"name": "Eldrazi Angel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eldrazi Angel",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/4_Eldrazi Angel.png"
+			}
+		},
+		{
+			"name": "Thopter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Thopter",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/17_Thopter.png"
+			}
+		},
+		{
+			"name": "Ooze",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ooze",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/11_Ooze.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/6_Bird.png"
+			}
+		},
+		{
+			"name": "Jellyfish Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Jellyfish Horror",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/9_Jellyfish Horror.png"
+			}
+		},
+		{
+			"name": "Eldrazi",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eldrazi",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/3_Eldrazi.png"
+			}
+		},
+		{
+			"name": "Golem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Golem",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/16_Golem.png"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/15_Construct.png"
+			}
+		},
+		{
+			"name": "Darkwood Guerrillas",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/208_Darkwood Guerrillas.png"
+			}
+		},
+		{
+			"name": "Exander, Half-Forgotten",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/214_Exander, Half-Forgotten.png"
+			}
+		},
+		{
+			"name": "The West District Union",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Human Citizen",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/240_The West District Union.png"
+			}
+		},
+		{
+			"name": "Kozilek's Hexer",
+			"rarity": "rare",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Eldrazi Warlock",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/18_Kozilek's Hexer.png"
+			}
+		},
+		{
+			"name": "Lantern in the Dark",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Creature — Eldrazi Citizen",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/19_Lantern in the Dark.png"
+			}
+		},
+		{
+			"name": "Warlock",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Warlock",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/10_Warlock.png"
+			}
+		},
+		{
+			"name": "Zaila, Her Will Be Done",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{U}",
+			"type": "Legendary Planeswalker — Zaila",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/242_Zaila, Her Will Be Done.png"
+			}
+		},
+		{
+			"name": "Village Steeples",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/270_Village Steeples.png"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/1_Copy.png"
+			}
+		},
+		{
+			"name": "Malignant Manaphage",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Eldrazi Shapeshifter",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/89_Malignant Manaphage.png"
+			}
+		},
+		{
+			"name": "Illusion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/8_Illusion.png"
+			}
+		},
+		{
+			"name": "Stark Masoleum",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/268_Stark Masoleum.png"
+			}
+		},
+		{
+			"name": "Shambling Isle",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/265_Shambling Isle.png"
+			}
+		},
+		{
+			"name": "Smoldering Totems",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/266_Smoldering Totems.png"
+			}
+		},
+		{
+			"name": "Submerged Citadel",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/269_Submerged Citadel.png"
+			}
+		},
+		{
+			"name": "Spindly Nexus",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/267_Spindly Nexus.png"
+			}
+		},
+		{
+			"name": "Nowhere",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Land",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://EscapeFromLimbo.github.io/sets/SGP-files/img/19_Nowhere.png"
+			}
+		},
+	]
+
+[rare(1)]
+	2 Stylla, Opulent Paragon
+	2 Rose Garden Conference
+	2 In Eldritch Flame
+	1 Ulamog, the Earth Engulfed
+	2 Ruinate
+	2 Stelver, the Eyes and Ears
+	2 Bear Witness
+	2 Zaila's Arbiter
+	2 High Sergeant Liano
+	1 Grand Triarch
+	2 Evelline, Ark of Salvation
+	2 Otherworldly Gyre
+	2 Bolton, Wharf Administrator
+	2 Devonia, Lost Ministrix
+	2 Scion of Insanity
+	2 Inkrealm Guardian
+	2 Roiling Undertow
+	2 Friede, Weave Dancer
+	2 Haunted Starlet
+	2 Insatiate Slasher
+	2 Strike Suppressor
+	2 Fathomless Invocations
+	2 Emrakul's Conscriptor
+	2 Esme, Lost to Avarice
+	2 Ichor Winnower
+	2 Herald of Darkest Skies
+	2 Bloodbone Pietist
+	2 Bender of Will
+	2 Deathscorn Apostle
+	2 Curious Botanist
+	2 Astrum Weaver
+	2 Deep Cover Prowler
+	2 Awoken Cordillera
+	2 Kavalesk, the Dark Exalted
+	1 Grand Awakening
+	2 Population Boom
+	2 Olmin, Triune Liaison
+	2 Something in the Soil
+	2 Elisa, Hand of Torvinald
+	1 Efraim, High Alderman
+	2 Essence Ripper
+	2 Skittering Swarmlord
+	1 Vile Reef Inquisitor
+	1 Lostlands Auspex
+	2 Reality Cusp
+	1 Lost to Endless Scripture
+	2 Thoughtscraper
+	2 Ulamog's Augur
+	2 Living Apogee
+	2 Children of the Heralds
+	2 Supreme Desecrator
+	2 Burgeoning Amalgam
+	2 The West District Hangar
+	2 Blinding Aperture
+	2 Lantha's Journal
+	1 Leonard, Experiment Zero
+	1 Lightwire Swarm
+	2 Salar, Calloran's Defiance
+	2 Jetfoot Greaves
+	1 Torvinald, Iron Eminence
+	1 Greytide Specter
+	1 Soulflame Immolator
+	1 A World Worth Fighting For
+	1 Kraz, Head Engineer
+	1 Eccentric Geneticist
+	1 Gloamveil Trackers
+	1 Kozilek, the Bonds Unmade
+	1 Emrakul, the Sky Sundered
+	2 What Remains of Frossenhold
+	2 Darkwood Guerrillas
+	2 Exander, Half-Forgotten
+	1 The West District Union
+	2 Kozilek's Hexer
+	1 Zaila, Her Will Be Done
+	2 Malignant Manaphage
+	2 Stark Masoleum
+	2 Shambling Isle
+	2 Smoldering Totems
+	2 Submerged Citadel
+	2 Spindly Nexus
+[uncommon(4)]
+	4 Flagship Auto-Enforcer
+	4 Writheform
+	4 Croak
+	4 Steelsoul Ignition
+	4 Willbreaker Lance
+	4 Eldritch Growth
+	4 Subsume Reality
+	4 Psychic Rupture
+	4 Obsessive Ritualist
+	4 Restless Summoners
+	4 Oathbound Stalwart
+	4 Discerning Patron
+	4 Inspiring Orrery
+	4 Sludge Trawlers
+	4 Enraptured Talespinner
+	4 Lantha, Task Force Sergeant
+	4 Black Site Enhancer
+	4 Inkwing Kite
+	4 Malformed Initiate
+	4 Writhing Shepherd
+	4 In Strength Entwined
+	4 Karsten, the Spinner
+	4 Tormented Eulogist
+	4 Ravaged Eviscerator
+	4 Artillery Commander
+	4 Concerning Discoveries
+	4 Sky Force Retiree
+	4 Scape Surveyor
+	4 Highforged Overseer
+	4 Aspiring Artisan
+	4 North District Prior
+	4 Frontline Cavalier
+	4 Warpwire Chassis
+	4 Industry Kingpins
+	4 Never Seen Again
+	4 Ether Joyride
+	4 Faculty of Engineering
+	4 Null Emissary
+	4 Watchman of the Deep
+	4 Inspired Retrofitter
+	4 Port Inspector
+	4 Ego Devourer
+	4 Adaptive Lieutenant
+	4 Void Empyrean
+	4 In the Nick of Time
+	4 Fade
+	4 Piecing it Together
+	4 Ancestral Voidstone
+	4 Deepwater Whispers
+	4 Scour the Records
+	4 Wiped Clean
+	4 Shingle Crawler
+	4 Kavalesk's Reshapen
+	4 Holism Seeker
+	4 Yestergrove Relic
+	4 Analytic Processor
+	4 Voices in the Mist
+	4 Savage Broodmother
+	4 Scapebender
+	4 Bitten By the Void
+	4 Occupation
+	4 For All of Calloran
+	4 Confidential Science
+	4 Cataclysm Constable
+	4 Karsten's Thought Police
+	4 Elite Reserve
+	4 Unsettling Showman
+	4 Corpse Inspector
+	4 Dissenter Colossus
+	4 Sole Survivor
+	4 Flamerush
+	4 Quick and Painful
+	4 Ancient Stirrings
+	4 For the Cause
+	4 Ashen Ravager
+	4 Mutation Investigator
+	4 Preemption Engineer
+	4 Ritual Archivist
+	4 Brazen Sootbellow
+	4 Billowing Weftraker
+	4 Cinder Fanatic
+	4 Boulevard Ambusher
+	4 North Salcman Vigil
+	4 Unnatural Torment
+	4 Tendrils in the Loch
+	4 Soulrender
+	4 Titan's Effigy
+	4 Three-Eye Observer
+	4 Endward Harbinger
+	4 Inkrealm Drowner
+	4 Eternity Takes
+	4 Moonstone Splinter
+	4 Fateblur Cloak
+	4 Impure Creation
+	4 Hall of Innovation
+	4 Promising Vista
+	4 Vintage Fanatic
+	4 Careening Steam Engine
+	4 Gene Recombinators
+	4 Lantern in the Dark
+[common(7)]
+	8 Volunteer Firewatch
+	8 Startouched Reverend
+	8 Mire Pathforger
+	8 Esteemed Falconress
+	8 Rockpile Brutes
+	8 Awestruck Navigator
+	8 Mournful Matriarch
+	8 Zaila's Willbender
+	8 Shimmering Skycarp
+	8 Timely Intervention
+	8 Falconskin Augmentation
+	8 Zeppelin Disaster
+	8 Personal Wingsuit
+	8 Gloompool Heron
+	8 Diviner of Relics
+	8 Task Force Operatives
+	8 Startouched Analyst
+	8 Frossenhold Walker
+	8 Mastbreaker
+	8 Eldritch Rebuttal
+	8 Innovation Thief
+	8 Collaborate
+	8 Taken by the Storm
+	8 Public Exhibition
+	8 Black Site Asylum
+	8 Gaunt Transient
+	8 Luxuries Merchant
+	8 Unwelcome Tenant
+	8 Cruel Patrician
+	8 Screeching Portent
+	8 Marshwreck Gang
+	8 Speakeasy Brokers
+	8 Soultaker Idol
+	8 Startouched Acolyte
+	8 Harrowing Transformation
+	8 Learn From Loss
+	8 Compelled to Die
+	8 Nightgrasp
+	8 Eyekissed Invoker
+	8 Warcurse Ruminant
+	8 Steelsuit Consultant
+	8 Brineborn Underlings
+	8 Magma Scribe
+	8 Startouched Epigone
+	8 Iron Triumphant
+	8 Mantle Breacher
+	8 Crimson Gladeguard
+	8 Neon Dreams
+	8 Jettison
+	8 Pyre
+	8 Wreckage Inquisitors
+	8 Startouched Arborist
+	8 Game Hunters
+	8 First Responders
+	8 Streetway Incursion
+	8 Discordant Maw
+	8 Overzealous Recon
+	8 Kaalham Ploughdrivers
+	8 Starbreaker Juvenile
+	8 Barksplitter Colossus
+	8 A Hole in the Sky
+	8 Donnybrook
+	8 Unethical Enhancements
+	8 Ancient Carapace
+	8 Chorus of the Severed
+	8 Old Ones Envoy
+	8 Rend
+	8 Reality Wanes
+	8 Incursive Voidmaw
+	8 Reservoir Mechan
+	8 Nook Dagger
+	8 Elden Crucible
+	8 Corrupted Hedron
+	8 Harvest Tenders
+	8 Aviary Whisperer
+	8 Cabaret Seductress
+	8 Spill the Beans
+	8 Blinding Immolation
+	8 Formless Scape
+	8 Blood Soliloquy
+	8 Keeper's Peninsula
+	8 Dusk Vantage
+	8 Lost Settlement
+	8 Cliffrest Tributary
+	8 Secluded Avenue
+	8 Cataract Valley
+	8 Outlands Hamlet
+	8 Bronzeglade Peaks
+	8 Lakewatch Ruins
+	8 Forge in Anguish
+	8 Village Steeples
+[wildcard(2)]
+	6 Volunteer Firewatch
+	6 Startouched Reverend
+	6 Mire Pathforger
+	6 Esteemed Falconress
+	6 Rockpile Brutes
+	6 Awestruck Navigator
+	6 Mournful Matriarch
+	6 Zaila's Willbender
+	6 Shimmering Skycarp
+	15 Flagship Auto-Enforcer
+	6 Timely Intervention
+	6 Falconskin Augmentation
+	6 Zeppelin Disaster
+	6 Personal Wingsuit
+	6 Gloompool Heron
+	6 Diviner of Relics
+	6 Task Force Operatives
+	6 Startouched Analyst
+	6 Frossenhold Walker
+	6 Mastbreaker
+	6 Eldritch Rebuttal
+	6 Innovation Thief
+	6 Collaborate
+	6 Taken by the Storm
+	6 Public Exhibition
+	15 Writheform
+	6 Black Site Asylum
+	6 Gaunt Transient
+	6 Luxuries Merchant
+	6 Unwelcome Tenant
+	6 Cruel Patrician
+	6 Screeching Portent
+	6 Marshwreck Gang
+	6 Speakeasy Brokers
+	6 Soultaker Idol
+	6 Startouched Acolyte
+	15 Croak
+	6 Harrowing Transformation
+	6 Learn From Loss
+	6 Compelled to Die
+	6 Nightgrasp
+	6 Eyekissed Invoker
+	6 Warcurse Ruminant
+	6 Steelsuit Consultant
+	6 Brineborn Underlings
+	6 Magma Scribe
+	6 Startouched Epigone
+	6 Iron Triumphant
+	6 Mantle Breacher
+	6 Crimson Gladeguard
+	15 Steelsoul Ignition
+	6 Neon Dreams
+	6 Jettison
+	6 Pyre
+	15 Willbreaker Lance
+	6 Wreckage Inquisitors
+	6 Startouched Arborist
+	6 Game Hunters
+	6 First Responders
+	6 Streetway Incursion
+	6 Discordant Maw
+	6 Overzealous Recon
+	6 Kaalham Ploughdrivers
+	6 Starbreaker Juvenile
+	6 Barksplitter Colossus
+	6 A Hole in the Sky
+	15 Eldritch Growth
+	6 Donnybrook
+	6 Unethical Enhancements
+	6 Ancient Carapace
+	6 Chorus of the Severed
+	6 Old Ones Envoy
+	6 Rend
+	6 Reality Wanes
+	6 Incursive Voidmaw
+	6 Reservoir Mechan
+	6 Nook Dagger
+	6 Elden Crucible
+	6 Corrupted Hedron
+	6 Harvest Tenders
+	15 Subsume Reality
+	15 Psychic Rupture
+	15 Obsessive Ritualist
+	15 Restless Summoners
+	15 Oathbound Stalwart
+	15 Discerning Patron
+	15 Inspiring Orrery
+	15 Sludge Trawlers
+	15 Enraptured Talespinner
+	15 Lantha, Task Force Sergeant
+	6 Aviary Whisperer
+	15 Black Site Enhancer
+	15 Inkwing Kite
+	15 Malformed Initiate
+	15 Writhing Shepherd
+	15 In Strength Entwined
+	15 Karsten, the Spinner
+	15 Tormented Eulogist
+	15 Ravaged Eviscerator
+	15 Artillery Commander
+	15 Concerning Discoveries
+	15 Sky Force Retiree
+	15 Scape Surveyor
+	15 Highforged Overseer
+	15 Aspiring Artisan
+	15 North District Prior
+	6 Cabaret Seductress
+	7 Stylla, Opulent Paragon
+	15 Frontline Cavalier
+	15 Warpwire Chassis
+	15 Industry Kingpins
+	15 Never Seen Again
+	15 Ether Joyride
+	15 Faculty of Engineering
+	15 Null Emissary
+	15 Watchman of the Deep
+	15 Inspired Retrofitter
+	15 Port Inspector
+	15 Ego Devourer
+	15 Adaptive Lieutenant
+	15 Void Empyrean
+	15 In the Nick of Time
+	15 Fade
+	15 Piecing it Together
+	15 Ancestral Voidstone
+	15 Deepwater Whispers
+	15 Scour the Records
+	15 Wiped Clean
+	6 Spill the Beans
+	15 Shingle Crawler
+	15 Kavalesk's Reshapen
+	15 Holism Seeker
+	15 Yestergrove Relic
+	15 Analytic Processor
+	7 Rose Garden Conference
+	15 Voices in the Mist
+	15 Savage Broodmother
+	15 Scapebender
+	15 Bitten By the Void
+	15 Occupation
+	6 Blinding Immolation
+	15 For All of Calloran
+	15 Confidential Science
+	15 Cataclysm Constable
+	15 Karsten's Thought Police
+	15 Elite Reserve
+	15 Unsettling Showman
+	15 Corpse Inspector
+	15 Dissenter Colossus
+	15 Sole Survivor
+	15 Flamerush
+	15 Quick and Painful
+	15 Ancient Stirrings
+	6 Formless Scape
+	15 For the Cause
+	15 Ashen Ravager
+	15 Mutation Investigator
+	15 Preemption Engineer
+	15 Ritual Archivist
+	15 Brazen Sootbellow
+	15 Billowing Weftraker
+	15 Cinder Fanatic
+	15 Boulevard Ambusher
+	6 Blood Soliloquy
+	7 In Eldritch Flame
+	15 North Salcman Vigil
+	15 Unnatural Torment
+	15 Tendrils in the Loch
+	15 Soulrender
+	15 Titan's Effigy
+	15 Three-Eye Observer
+	15 Endward Harbinger
+	15 Inkrealm Drowner
+	15 Eternity Takes
+	15 Moonstone Splinter
+	15 Fateblur Cloak
+	15 Impure Creation
+	15 Hall of Innovation
+	15 Promising Vista
+	15 Vintage Fanatic
+	4 Ulamog, the Earth Engulfed
+	7 Ruinate
+	7 Stelver, the Eyes and Ears
+	7 Bear Witness
+	7 Zaila's Arbiter
+	7 High Sergeant Liano
+	4 Grand Triarch
+	7 Evelline, Ark of Salvation
+	7 Otherworldly Gyre
+	7 Bolton, Wharf Administrator
+	7 Devonia, Lost Ministrix
+	7 Scion of Insanity
+	7 Inkrealm Guardian
+	7 Roiling Undertow
+	7 Friede, Weave Dancer
+	7 Haunted Starlet
+	7 Insatiate Slasher
+	7 Strike Suppressor
+	7 Fathomless Invocations
+	7 Emrakul's Conscriptor
+	7 Esme, Lost to Avarice
+	7 Ichor Winnower
+	7 Herald of Darkest Skies
+	7 Bloodbone Pietist
+	7 Bender of Will
+	15 Careening Steam Engine
+	7 Deathscorn Apostle
+	15 Gene Recombinators
+	7 Curious Botanist
+	7 Astrum Weaver
+	7 Deep Cover Prowler
+	7 Awoken Cordillera
+	7 Kavalesk, the Dark Exalted
+	4 Grand Awakening
+	7 Population Boom
+	7 Olmin, Triune Liaison
+	7 Something in the Soil
+	7 Elisa, Hand of Torvinald
+	4 Efraim, High Alderman
+	7 Essence Ripper
+	7 Skittering Swarmlord
+	4 Vile Reef Inquisitor
+	4 Lostlands Auspex
+	7 Reality Cusp
+	4 Lost to Endless Scripture
+	7 Thoughtscraper
+	7 Ulamog's Augur
+	7 Living Apogee
+	7 Children of the Heralds
+	7 Supreme Desecrator
+	7 Burgeoning Amalgam
+	7 The West District Hangar
+	7 Blinding Aperture
+	7 Lantha's Journal
+	4 Leonard, Experiment Zero
+	4 Lightwire Swarm
+	7 Salar, Calloran's Defiance
+	7 Jetfoot Greaves
+	4 Torvinald, Iron Eminence
+	4 Greytide Specter
+	4 Soulflame Immolator
+	4 A World Worth Fighting For
+	4 Kraz, Head Engineer
+	4 Eccentric Geneticist
+	4 Gloamveil Trackers
+	4 Kozilek, the Bonds Unmade
+	4 Emrakul, the Sky Sundered
+	6 Keeper's Peninsula
+	6 Dusk Vantage
+	6 Lost Settlement
+	6 Cliffrest Tributary
+	6 Secluded Avenue
+	6 Cataract Valley
+	6 Outlands Hamlet
+	6 Bronzeglade Peaks
+	6 Lakewatch Ruins
+	6 Forge in Anguish
+	7 What Remains of Frossenhold
+	7 Darkwood Guerrillas
+	7 Exander, Half-Forgotten
+	4 The West District Union
+	7 Kozilek's Hexer
+	15 Lantern in the Dark
+	4 Zaila, Her Will Be Done
+	6 Village Steeples
+	7 Malignant Manaphage
+	7 Stark Masoleum
+	7 Shambling Isle
+	7 Smoldering Totems
+	7 Submerged Citadel
+	7 Spindly Nexus

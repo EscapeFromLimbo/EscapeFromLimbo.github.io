@@ -1304,7 +1304,7 @@
 			"collector_number": "130",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Menace\nWhenever Emblazoned Prophet attacks, it deals 1 damage to the player or permanent it's attacking for each spell you've cast this turn.",
+			"oracle_text": "Whenever Emblazoned Prophet attacks, it deals 1 damage to defending player for each spell you've cast this turn.\n{4}{R}: Exile the top four cards of your library. You may cast a spell exiled this way with mana value 3 or less without paying its mana cost. Activate only as a sorcery.",
 		},
 		
 		{
@@ -3228,7 +3228,7 @@
 			"collector_number": "28",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Sarsupei Houndmaster enters, put a -1/-1 counter on target creature you control.\n{1}{W}, Remove a -1/-1 counter from Sarsupei Houndmaster: Create a 2/2 black Hound creature token. Activate only as a sorcery.",
+			"oracle_text": "When Sarsupei Houndmaster enters, put a -1/-1 counter on target creature you control.\n{1}{W}, Remove a -1/-1 counter from Sarsupei Houndmaster: Create a 2/2 black Dog creature token. Activate only as a sorcery.",
 		},
 		
 		{
@@ -3696,7 +3696,7 @@
 			"collector_number": "74",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[+1]: For each loyalty counter on Tamiyo, target player mills two cards.\n[+1]: For every two loyalty counters on Tamiyo, up to one target creature gets -2/-0 until your next turn.\n[+1]: For every three loyalty counters on Tamiyo, target player draws a card.",
+			"oracle_text": "[+1]: Target player mills two cards for every loyalty counter on Tamiyo.\n[+1]: Draw a card for every two loyalty counters on Tamiyo. If you drew one or more cards this way, discard a card.\n[+1]: Tap target creature. Put a stun counter on it for every three counters on Tamiyo.",
 		},
 		
 		{

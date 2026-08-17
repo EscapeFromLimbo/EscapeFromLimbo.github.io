@@ -2603,7 +2603,7 @@
 			"collector_number": "207",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying, trample, haste\nAt the beginning of combat on your turn, if you've cast a spell with mana value 4 or greater this turn, you may return this card from your graveyard to the battlefield tapped and attacking with a finality counter on it. [i](If a creature with a finality counter on it would die, exile it instead.)[/i]",
+			"oracle_text": "Flying, trample, haste\nAt the beginning of combat on your turn, if you've cast a spell with mana value 4 or greater this turn, you may return this card from your graveyard to the battlefield with a finality counter on it. [i](If a creature with a finality counter on it would die, exile it instead.)[/i]",
 		},
 		
 		{
@@ -3695,6 +3695,19 @@
 		},
 		
 		{
+			"name": "Acolyte",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/6t_Acolyte.jpg",
+			"colors": ["W","B"],
+			"set": "VLR",
+			"collector_number": "6",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{1}, Sacrifice this creature: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+		},
+		
+		{
 			"name": "Treasure VLR",
 			"mana_cost": "",
 			"type": "Token",
@@ -3783,19 +3796,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Deathtouch",
-		},
-		
-		{
-			"name": "Acolyte VLR",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/VLR-files/img/6t_Acolyte VLR.jpg",
-			"colors": ["W","B"],
-			"set": "VLR",
-			"collector_number": "6",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "{1}, Sacrifice this creature: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
 		},
 		]
 [Common]
@@ -4085,6 +4085,7 @@
 
 [Token]
 20 Weapon VLR
+20 Acolyte
 20 Treasure VLR
 20 white Citizen 11VLR
 20 red Skeleton Dragon 55VLR
@@ -4092,7 +4093,6 @@
 20 colorless Spirit 11VLR
 20 green Elemental VLR
 20 black and green Mercenary 11VLR
-20 Acolyte VLR
 
 [Wildcard]
 6 Aspiring Shaper

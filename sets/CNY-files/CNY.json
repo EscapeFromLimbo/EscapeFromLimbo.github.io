@@ -5657,7 +5657,7 @@
             "number": 156,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Whenever a counter is put on another creature you control, you may put a counter of the same kind on Zeno. Then if there are no other counters of that kind on Zeno, draw a card. Do this only once each turn.",
+            "rules_text": "Once each turn, when a counter is put on another creature you control, you may put a counter of that kind on Zeno. Draw a card if it's the only counter of that kind on Zeno.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5667,7 +5667,7 @@
             "artist": "DumbOldSpider LLC",
             "play_rate": 31,
             "signature": "",
-            "word_count": 42
+            "word_count": 36
         },
         {
             "card_name": "Aspiring Anarchist_PRO_CNY",

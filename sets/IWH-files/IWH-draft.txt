@@ -4626,6 +4626,19 @@
 		},
 		
 		{
+			"name": "Blood IWH",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/27t_Blood IWH.jpg",
+			"colors": [],
+			"set": "IWH",
+			"collector_number": "27",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.",
+		},
+		
+		{
 			"name": "green Wolf 22IWH",
 			"mana_cost": "",
 			"type": "Token",
@@ -4857,19 +4870,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{2}, {T}, Sacrifice this token: You gain 3 life.",
-		},
-		
-		{
-			"name": "colorless Blood IWH",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/IWH-files/img/27t_colorless Blood IWH.jpg",
-			"colors": [],
-			"set": "IWH",
-			"collector_number": "27",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.",
 		},
 		
 		{
@@ -5240,6 +5240,7 @@
 20 white Spirit 11IWH
 20 white Human 11IWH
 20 black Zombie 22IWH
+20 Blood IWH
 20 green Wolf 22IWH
 20 blue Zombie 33IWH
 20 black Bat 11IWH
@@ -5258,7 +5259,6 @@
 20 white and black Cleric 11IWH
 20 black Vampire 22IWH
 20 Food IWH
-20 colorless Blood IWH
 20 white Cloister IWH
 20 blue and green Insect 11IWH
 20 colorless Monument IWH

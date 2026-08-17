@@ -1,12 +1,12 @@
 ﻿{
     "name": "Chikyu: Chaos Rains",
-    "formats": "eternal,standard,planechase",
+    "formats": "eternalfuture,standard,planechase",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
             "card_name": "A Journey Begins",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -27,7 +27,7 @@
         },
         {
             "card_name": "A Journey Begins (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -48,7 +48,7 @@
         },
         {
             "card_name": "Ace Tamer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger",
@@ -69,7 +69,7 @@
         },
         {
             "card_name": "Amateur Tamer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger",
@@ -90,7 +90,7 @@
         },
         {
             "card_name": "Amber, Nimble Companion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Weasel",
@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Amber, Nimble Companion (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Weasel",
@@ -132,7 +132,7 @@
         },
         {
             "card_name": "Aqua Crew Flagship",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Artifact \u2014 Vehicle",
@@ -153,7 +153,7 @@
         },
         {
             "card_name": "Aqua Gang Diver",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Pirate",
@@ -174,7 +174,7 @@
         },
         {
             "card_name": "Aqua Jet",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -195,7 +195,7 @@
         },
         {
             "card_name": "Archaeovolcanologist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -216,7 +216,7 @@
         },
         {
             "card_name": "Armored Raptor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -237,7 +237,7 @@
         },
         {
             "card_name": "Armored Raptor (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -258,7 +258,7 @@
         },
         {
             "card_name": "Aroma Spinner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant",
@@ -279,7 +279,7 @@
         },
         {
             "card_name": "Aroma Spinner (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant",
@@ -300,7 +300,7 @@
         },
         {
             "card_name": "Avert Disaster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -321,7 +321,7 @@
         },
         {
             "card_name": "Avert Disaster (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -342,7 +342,7 @@
         },
         {
             "card_name": "Beloved Poppet",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Toy Spirit",
@@ -373,7 +373,7 @@
         },
         {
             "card_name": "Berry Fermenter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Turtle",
@@ -394,7 +394,7 @@
         },
         {
             "card_name": "Berry Fermenter (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Turtle",
@@ -415,7 +415,7 @@
         },
         {
             "card_name": "Berry Harvester",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -436,7 +436,7 @@
         },
         {
             "card_name": "Blind Pursuit",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -457,7 +457,7 @@
         },
         {
             "card_name": "Bloom Brute",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Kangaroo",
@@ -478,7 +478,7 @@
         },
         {
             "card_name": "Bloom Brute (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Kangaroo",
@@ -499,7 +499,7 @@
         },
         {
             "card_name": "Blooming Sauropod",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Dinosaur",
@@ -520,7 +520,7 @@
         },
         {
             "card_name": "Blustering Storm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -541,7 +541,7 @@
         },
         {
             "card_name": "Boiling Storm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -562,7 +562,7 @@
         },
         {
             "card_name": "Bottom Feeder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -583,7 +583,7 @@
         },
         {
             "card_name": "Brewing Storm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -604,7 +604,7 @@
         },
         {
             "card_name": "Brick Breaker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Giant Warrior",
@@ -625,7 +625,7 @@
         },
         {
             "card_name": "Brief Stop",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -646,7 +646,7 @@
         },
         {
             "card_name": "Bubbling Firesnail",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental Snail",
@@ -667,7 +667,7 @@
         },
         {
             "card_name": "Bumbling Pollinator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant",
@@ -688,7 +688,7 @@
         },
         {
             "card_name": "Buried Geode",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -709,7 +709,7 @@
         },
         {
             "card_name": "Burn Up",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -730,7 +730,7 @@
         },
         {
             "card_name": "Burning Celestial",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -751,7 +751,7 @@
         },
         {
             "card_name": "Calamity Cat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat",
@@ -772,7 +772,7 @@
         },
         {
             "card_name": "Calamity Cat (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat",
@@ -793,7 +793,7 @@
         },
         {
             "card_name": "Calmed Battleground",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -814,7 +814,7 @@
         },
         {
             "card_name": "Calming Celestial",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -835,7 +835,7 @@
         },
         {
             "card_name": "Canopy Creeper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Plant",
@@ -856,7 +856,7 @@
         },
         {
             "card_name": "Capricious Cat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat",
@@ -877,7 +877,7 @@
         },
         {
             "card_name": "Carefree Kappa",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "rare",
             "type": "Creature \u2014 Plant",
@@ -898,7 +898,7 @@
         },
         {
             "card_name": "Carefree Kappa (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "UG",
             "rarity": "rare",
             "type": "Creature \u2014 Plant",
@@ -919,7 +919,7 @@
         },
         {
             "card_name": "Catch Your Breath",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -940,7 +940,7 @@
         },
         {
             "card_name": "Catch Your Breath (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
@@ -961,7 +961,7 @@
         },
         {
             "card_name": "Center of Attention",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -982,7 +982,7 @@
         },
         {
             "card_name": "Charge Beam",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -1003,7 +1003,7 @@
         },
         {
             "card_name": "Charge Beam (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -1024,7 +1024,7 @@
         },
         {
             "card_name": "Charged Party",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Mouse",
@@ -1045,7 +1045,7 @@
         },
         {
             "card_name": "Charismatic Chameleon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WUR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Lizard",
@@ -1066,7 +1066,7 @@
         },
         {
             "card_name": "Cheer On",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -1087,7 +1087,7 @@
         },
         {
             "card_name": "Chiming Soul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
@@ -1108,7 +1108,7 @@
         },
         {
             "card_name": "Chum Chaser",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Shark",
@@ -1139,7 +1139,7 @@
         },
         {
             "card_name": "Chum Chaser (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Shark",
@@ -1170,7 +1170,7 @@
         },
         {
             "card_name": "Cirriform Dragon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -1191,7 +1191,7 @@
         },
         {
             "card_name": "Cirriform Dragon (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -1212,7 +1212,7 @@
         },
         {
             "card_name": "Claw Fossil",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -1243,7 +1243,7 @@
         },
         {
             "card_name": "Clear Skies",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Weather",
@@ -1264,7 +1264,7 @@
         },
         {
             "card_name": "Cloud Nine",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -1285,7 +1285,7 @@
         },
         {
             "card_name": "Collector's Item",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1306,7 +1306,7 @@
         },
         {
             "card_name": "Constrict",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -1327,7 +1327,7 @@
         },
         {
             "card_name": "Contest Coordinator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Performer",
@@ -1348,7 +1348,7 @@
         },
         {
             "card_name": "Contest Judge",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Performer",
@@ -1369,7 +1369,7 @@
         },
         {
             "card_name": "Contest Spectators",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Performer",
@@ -1390,7 +1390,7 @@
         },
         {
             "card_name": "Contest Star",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Performer",
@@ -1411,7 +1411,7 @@
         },
         {
             "card_name": "Creature Catalog",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -1432,7 +1432,7 @@
         },
         {
             "card_name": "Crumbling Tower",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1453,7 +1453,7 @@
         },
         {
             "card_name": "Crunch",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -1474,7 +1474,7 @@
         },
         {
             "card_name": "Cryptic Reef",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1495,7 +1495,7 @@
         },
         {
             "card_name": "Dark Horse Victory",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1516,7 +1516,7 @@
         },
         {
             "card_name": "Dazzling Performer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "URG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ouphe Performer",
@@ -1537,7 +1537,7 @@
         },
         {
             "card_name": "Deeplife Cavern",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1558,7 +1558,7 @@
         },
         {
             "card_name": "Delivery Gull",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird",
@@ -1579,7 +1579,7 @@
         },
         {
             "card_name": "Depths Ancient",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Fish",
@@ -1600,7 +1600,7 @@
         },
         {
             "card_name": "Desolate Lands",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -1621,7 +1621,7 @@
         },
         {
             "card_name": "Desolate Lands (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -1642,7 +1642,7 @@
         },
         {
             "card_name": "Diamond Dust",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -1663,7 +1663,7 @@
         },
         {
             "card_name": "Diamond Dust (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -1684,7 +1684,7 @@
         },
         {
             "card_name": "Dormant Camel",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Camel",
@@ -1705,7 +1705,7 @@
         },
         {
             "card_name": "Dragon Dance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -1726,7 +1726,7 @@
         },
         {
             "card_name": "Dustwing Butterfly",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -1747,7 +1747,7 @@
         },
         {
             "card_name": "Dustwing Moth",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -1768,7 +1768,7 @@
         },
         {
             "card_name": "Eager Scavenger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Hyena",
@@ -1789,7 +1789,7 @@
         },
         {
             "card_name": "Earthbreaker Dragon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -1810,7 +1810,7 @@
         },
         {
             "card_name": "Earthbreaker Dragon (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -1831,7 +1831,7 @@
         },
         {
             "card_name": "Echocrafter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WUR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast",
@@ -1852,7 +1852,7 @@
         },
         {
             "card_name": "Eerie Sculpture",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Golem",
@@ -1873,7 +1873,7 @@
         },
         {
             "card_name": "Elegant Hunter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "URG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -1894,7 +1894,7 @@
         },
         {
             "card_name": "Ema, the Returned",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -1915,7 +1915,7 @@
         },
         {
             "card_name": "Empty Shell",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1936,7 +1936,7 @@
         },
         {
             "card_name": "End of Mutations",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Alien Mutant",
@@ -1957,7 +1957,7 @@
         },
         {
             "card_name": "End of Mutations (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Alien Mutant",
@@ -1978,7 +1978,7 @@
         },
         {
             "card_name": "Enspirited Ore",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
@@ -1999,7 +1999,7 @@
         },
         {
             "card_name": "Enspirited Ore (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
@@ -2020,7 +2020,7 @@
         },
         {
             "card_name": "Entangled Fossil",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact",
@@ -2051,7 +2051,7 @@
         },
         {
             "card_name": "Entangled Fossil (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact",
@@ -2082,7 +2082,7 @@
         },
         {
             "card_name": "Evolving Wilds_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2103,7 +2103,7 @@
         },
         {
             "card_name": "Exotic Transformer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
@@ -2124,7 +2124,7 @@
         },
         {
             "card_name": "Explore Wreckage",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2145,7 +2145,7 @@
         },
         {
             "card_name": "Falling Ashes",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Weather",
@@ -2166,7 +2166,7 @@
         },
         {
             "card_name": "Feasting Predator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WBG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Snake",
@@ -2187,7 +2187,7 @@
         },
         {
             "card_name": "Feasting Predator (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WBG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Snake",
@@ -2208,7 +2208,7 @@
         },
         {
             "card_name": "Feasting Sloth",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Sloth",
@@ -2229,7 +2229,7 @@
         },
         {
             "card_name": "Feeble Fish",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -2260,7 +2260,7 @@
         },
         {
             "card_name": "Fight as One",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2281,7 +2281,7 @@
         },
         {
             "card_name": "Figy Berry",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Berry Equipment",
@@ -2302,7 +2302,7 @@
         },
         {
             "card_name": "Floating Familiar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Elemental Mouse",
@@ -2323,7 +2323,7 @@
         },
         {
             "card_name": "Floe Master",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Walrus",
@@ -2344,7 +2344,7 @@
         },
         {
             "card_name": "Fluttering Firefly",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
@@ -2365,7 +2365,7 @@
         },
         {
             "card_name": "Foraging Grub",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
@@ -2386,7 +2386,7 @@
         },
         {
             "card_name": "Forest_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
@@ -2407,7 +2407,7 @@
         },
         {
             "card_name": "Fortress Arena",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2428,7 +2428,7 @@
         },
         {
             "card_name": "Fortune Bearer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Oyster",
@@ -2459,7 +2459,7 @@
         },
         {
             "card_name": "Fragile Soul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "rare",
             "type": "Creature \u2014 Insect Spirit",
@@ -2480,7 +2480,7 @@
         },
         {
             "card_name": "Frenzy Plant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2501,7 +2501,7 @@
         },
         {
             "card_name": "Frigid Highlands",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2522,7 +2522,7 @@
         },
         {
             "card_name": "Generator Alpha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Dog",
@@ -2543,7 +2543,7 @@
         },
         {
             "card_name": "Generator Alpha (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Dog",
@@ -2564,7 +2564,7 @@
         },
         {
             "card_name": "Generous Farmer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -2585,7 +2585,7 @@
         },
         {
             "card_name": "Glassblower's Forge",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -2606,7 +2606,7 @@
         },
         {
             "card_name": "Gleaming Hot Springs",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2627,7 +2627,7 @@
         },
         {
             "card_name": "Gloomy Meteorologist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Ranger",
@@ -2648,7 +2648,7 @@
         },
         {
             "card_name": "Gold Berry",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Berry Equipment",
@@ -2669,7 +2669,7 @@
         },
         {
             "card_name": "Gone Pickin'",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
@@ -2690,7 +2690,7 @@
         },
         {
             "card_name": "Gone Pickin' (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
@@ -2711,7 +2711,7 @@
         },
         {
             "card_name": "Growing Gecko",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Plant Lizard",
@@ -2742,7 +2742,7 @@
         },
         {
             "card_name": "Growing Gecko (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Plant Lizard",
@@ -2773,7 +2773,7 @@
         },
         {
             "card_name": "Hail",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Weather",
@@ -2794,7 +2794,7 @@
         },
         {
             "card_name": "Harbor Mail",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2815,7 +2815,7 @@
         },
         {
             "card_name": "Hard Stone",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -2836,7 +2836,7 @@
         },
         {
             "card_name": "Harvest Time",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2857,7 +2857,7 @@
         },
         {
             "card_name": "Heartbreak",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2878,7 +2878,7 @@
         },
         {
             "card_name": "Heartbreak (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WBG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2899,7 +2899,7 @@
         },
         {
             "card_name": "Heavy Snowfall",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Weather",
@@ -2920,7 +2920,7 @@
         },
         {
             "card_name": "Heavy Winds",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -2941,7 +2941,7 @@
         },
         {
             "card_name": "Heavy Winds (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -2962,7 +2962,7 @@
         },
         {
             "card_name": "Herald of Drizzles",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -2983,7 +2983,7 @@
         },
         {
             "card_name": "Higana, Dragonscribe",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "URG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -3004,7 +3004,7 @@
         },
         {
             "card_name": "Hoard",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3025,7 +3025,7 @@
         },
         {
             "card_name": "Hoard (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3046,7 +3046,7 @@
         },
         {
             "card_name": "Hoenn Champion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -3067,7 +3067,7 @@
         },
         {
             "card_name": "Hoenn Champion (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -3088,7 +3088,7 @@
         },
         {
             "card_name": "Homesick",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3109,7 +3109,7 @@
         },
         {
             "card_name": "Hone Claws",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -3130,7 +3130,7 @@
         },
         {
             "card_name": "Hostage Situation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
@@ -3151,7 +3151,7 @@
         },
         {
             "card_name": "Hungry Blob",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -3172,7 +3172,7 @@
         },
         {
             "card_name": "Hungry Blob (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -3193,7 +3193,7 @@
         },
         {
             "card_name": "Hungry Songbird",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -3214,7 +3214,7 @@
         },
         {
             "card_name": "Idolized Coordinator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WUR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Performer",
@@ -3235,7 +3235,7 @@
         },
         {
             "card_name": "Illuminate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -3256,7 +3256,7 @@
         },
         {
             "card_name": "Imminent Disaster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
@@ -3277,7 +3277,7 @@
         },
         {
             "card_name": "Iron Defense",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3298,7 +3298,7 @@
         },
         {
             "card_name": "Ironback Tyke",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Dinosaur",
@@ -3329,7 +3329,7 @@
         },
         {
             "card_name": "Ironback Tyke (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Dinosaur",
@@ -3360,7 +3360,7 @@
         },
         {
             "card_name": "Island_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Island",
@@ -3381,7 +3381,7 @@
         },
         {
             "card_name": "Iviana, Dragon Tamer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UR",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Iviana",
@@ -3402,7 +3402,7 @@
         },
         {
             "card_name": "Iviana's Spellmaw",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -3433,7 +3433,7 @@
         },
         {
             "card_name": "Iviana's Spellmaw (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "UR",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -3464,7 +3464,7 @@
         },
         {
             "card_name": "Jack, Monster Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Jack",
@@ -3485,7 +3485,7 @@
         },
         {
             "card_name": "Kappa Colony",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3506,7 +3506,7 @@
         },
         {
             "card_name": "Karina, Budding Diplomat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Karina",
@@ -3527,7 +3527,7 @@
         },
         {
             "card_name": "Karina's Substitute",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Toy",
@@ -3548,7 +3548,7 @@
         },
         {
             "card_name": "Kicking Fowl",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -3569,7 +3569,7 @@
         },
         {
             "card_name": "King's Rock",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -3590,7 +3590,7 @@
         },
         {
             "card_name": "King of Currents",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Seahorse Dragon",
@@ -3611,7 +3611,7 @@
         },
         {
             "card_name": "King of Gluttons",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -3632,7 +3632,7 @@
         },
         {
             "card_name": "Lady of the Mists",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Elemental Spirit",
@@ -3653,7 +3653,7 @@
         },
         {
             "card_name": "Lavaborn Slug",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Slug",
@@ -3674,7 +3674,7 @@
         },
         {
             "card_name": "Lavaborn Slug (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Slug",
@@ -3695,7 +3695,7 @@
         },
         {
             "card_name": "Leaping Hatchling",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dragon",
@@ -3716,7 +3716,7 @@
         },
         {
             "card_name": "Leaping Hatchling (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dragon",
@@ -3737,7 +3737,7 @@
         },
         {
             "card_name": "Life Orb",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -3758,7 +3758,7 @@
         },
         {
             "card_name": "Living Compass",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Construct",
@@ -3779,7 +3779,7 @@
         },
         {
             "card_name": "Lum Berry",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Berry Equipment",
@@ -3800,7 +3800,7 @@
         },
         {
             "card_name": "Lustrous Starfish",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Starfish",
@@ -3821,7 +3821,7 @@
         },
         {
             "card_name": "Magical Leaves",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3842,7 +3842,7 @@
         },
         {
             "card_name": "Magma Flow",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
@@ -3863,7 +3863,7 @@
         },
         {
             "card_name": "Magma Grunt",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -3884,7 +3884,7 @@
         },
         {
             "card_name": "Magnetic Mystery",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Construct",
@@ -3905,7 +3905,7 @@
         },
         {
             "card_name": "Magnetic Snuffler",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
@@ -3926,7 +3926,7 @@
         },
         {
             "card_name": "Magnetling",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Construct",
@@ -3947,7 +3947,7 @@
         },
         {
             "card_name": "Magnetling (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Construct",
@@ -3968,7 +3968,7 @@
         },
         {
             "card_name": "Maw Impostor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ouphe",
@@ -3999,7 +3999,7 @@
         },
         {
             "card_name": "Meteor Lobber",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rhino Beast",
@@ -4020,7 +4020,7 @@
         },
         {
             "card_name": "Meteorite",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -4041,7 +4041,7 @@
         },
         {
             "card_name": "Mimicry Elemental",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental",
@@ -4062,7 +4062,7 @@
         },
         {
             "card_name": "Mimicry Elemental (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental",
@@ -4083,7 +4083,7 @@
         },
         {
             "card_name": "Mirage Island",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -4104,7 +4104,7 @@
         },
         {
             "card_name": "Moonlight Adventurer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger",
@@ -4125,7 +4125,7 @@
         },
         {
             "card_name": "Mountain_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Mountain",
@@ -4146,7 +4146,7 @@
         },
         {
             "card_name": "Muddy Water",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4167,7 +4167,7 @@
         },
         {
             "card_name": "Mystery Egg",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Egg",
@@ -4188,7 +4188,7 @@
         },
         {
             "card_name": "Nimbus Dragon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Dragon",
@@ -4209,7 +4209,7 @@
         },
         {
             "card_name": "Nocturne, Monstrous Krasis",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Fox Werewolf",
@@ -4230,7 +4230,7 @@
         },
         {
             "card_name": "Nocturne, Monstrous Krasis (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Fox Werewolf",
@@ -4251,7 +4251,7 @@
         },
         {
             "card_name": "Omenhorn",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elk",
@@ -4282,7 +4282,7 @@
         },
         {
             "card_name": "Ominous Quag",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -4303,7 +4303,7 @@
         },
         {
             "card_name": "Out of Sight",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4324,7 +4324,7 @@
         },
         {
             "card_name": "Outlands Prowler",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Mongoose",
@@ -4345,7 +4345,7 @@
         },
         {
             "card_name": "Outlands Prowler (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Mongoose",
@@ -4366,7 +4366,7 @@
         },
         {
             "card_name": "Padpole",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Plant Frog",
@@ -4387,7 +4387,7 @@
         },
         {
             "card_name": "Parental Pair",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Beast",
@@ -4408,7 +4408,7 @@
         },
         {
             "card_name": "Past Unresolved",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4429,7 +4429,7 @@
         },
         {
             "card_name": "Pathetic Cocoon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
@@ -4450,7 +4450,7 @@
         },
         {
             "card_name": "Pest Problem",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4471,7 +4471,7 @@
         },
         {
             "card_name": "Pick Up",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4492,7 +4492,7 @@
         },
         {
             "card_name": "Pitfall Pincher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -4513,7 +4513,7 @@
         },
         {
             "card_name": "Pitfall Pincher (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -4534,7 +4534,7 @@
         },
         {
             "card_name": "Placated Mind",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4555,7 +4555,7 @@
         },
         {
             "card_name": "Plains_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
@@ -4576,7 +4576,7 @@
         },
         {
             "card_name": "Plated Tunneler",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dinosaur",
@@ -4597,7 +4597,7 @@
         },
         {
             "card_name": "Plucky Trainer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Ranger",
@@ -4618,7 +4618,7 @@
         },
         {
             "card_name": "Plush Collection",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4639,7 +4639,7 @@
         },
         {
             "card_name": "Plush Collection (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4660,7 +4660,7 @@
         },
         {
             "card_name": "Poised Flame",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -4681,7 +4681,7 @@
         },
         {
             "card_name": "Poisoned Rose",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "BG",
             "rarity": "rare",
             "type": "Creature \u2014 Plant",
@@ -4702,7 +4702,7 @@
         },
         {
             "card_name": "Poisoned Rose (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "BG",
             "rarity": "rare",
             "type": "Creature \u2014 Plant",
@@ -4723,7 +4723,7 @@
         },
         {
             "card_name": "Pollen Warning",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Weather",
@@ -4744,7 +4744,7 @@
         },
         {
             "card_name": "Practicing Guru",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ape",
@@ -4765,7 +4765,7 @@
         },
         {
             "card_name": "Practicing Guru (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ape",
@@ -4786,7 +4786,7 @@
         },
         {
             "card_name": "Pressuring Ghoul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit",
@@ -4807,7 +4807,7 @@
         },
         {
             "card_name": "Pressuring Ghoul (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Spirit",
@@ -4828,7 +4828,7 @@
         },
         {
             "card_name": "Prickly Dunes",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
@@ -4849,7 +4849,7 @@
         },
         {
             "card_name": "Primal Fissure",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4870,7 +4870,7 @@
         },
         {
             "card_name": "Primordial Seas",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -4891,7 +4891,7 @@
         },
         {
             "card_name": "Primordial Seas (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -4912,7 +4912,7 @@
         },
         {
             "card_name": "Prolific Fisher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -4933,7 +4933,7 @@
         },
         {
             "card_name": "Prolific Fisher (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -4954,7 +4954,7 @@
         },
         {
             "card_name": "Psych Up",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4975,7 +4975,7 @@
         },
         {
             "card_name": "Psych Up (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4996,7 +4996,7 @@
         },
         {
             "card_name": "Psychohopper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -5017,7 +5017,7 @@
         },
         {
             "card_name": "Puddle Crasher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Rabbit",
@@ -5038,7 +5038,7 @@
         },
         {
             "card_name": "Rain Dance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Weather",
@@ -5059,7 +5059,7 @@
         },
         {
             "card_name": "Reaper of the Deep",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Jellyfish",
@@ -5080,7 +5080,7 @@
         },
         {
             "card_name": "Rejuvenating Kappa",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Frog",
@@ -5101,7 +5101,7 @@
         },
         {
             "card_name": "Rejuvenating Kappa (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Frog",
@@ -5122,7 +5122,7 @@
         },
         {
             "card_name": "Relentless Bats",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Bat",
@@ -5143,7 +5143,7 @@
         },
         {
             "card_name": "Relentless Bats (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Bat",
@@ -5164,7 +5164,7 @@
         },
         {
             "card_name": "Restless Sloth",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Sloth",
@@ -5185,7 +5185,7 @@
         },
         {
             "card_name": "Riverbed Snapper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Crab",
@@ -5216,7 +5216,7 @@
         },
         {
             "card_name": "Rollephant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elephant",
@@ -5237,7 +5237,7 @@
         },
         {
             "card_name": "Root Fossil",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -5268,7 +5268,7 @@
         },
         {
             "card_name": "Rooting Raccoon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Raccoon",
@@ -5289,7 +5289,7 @@
         },
         {
             "card_name": "Rumbling Door",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5310,7 +5310,7 @@
         },
         {
             "card_name": "Rumbling Volcamel",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Camel",
@@ -5341,7 +5341,7 @@
         },
         {
             "card_name": "Sanaito, Voidsinger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Sanaito",
@@ -5362,7 +5362,7 @@
         },
         {
             "card_name": "Sanaito, Voidsinger (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Sanaito",
@@ -5383,7 +5383,7 @@
         },
         {
             "card_name": "Sandstorm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Weather",
@@ -5404,7 +5404,7 @@
         },
         {
             "card_name": "Sandstorm Dancer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Plant",
@@ -5425,7 +5425,7 @@
         },
         {
             "card_name": "Sandstorm Devil",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Insect Dragon",
@@ -5446,7 +5446,7 @@
         },
         {
             "card_name": "Scattering Swine",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Boar Wizard",
@@ -5467,7 +5467,7 @@
         },
         {
             "card_name": "Scattering Swine (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Boar Wizard",
@@ -5488,7 +5488,7 @@
         },
         {
             "card_name": "Scruffy Rascal",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Raccoon",
@@ -5509,7 +5509,7 @@
         },
         {
             "card_name": "Scuttling Cicada",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -5540,7 +5540,7 @@
         },
         {
             "card_name": "Sea Breeze",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Weather",
@@ -5561,7 +5561,7 @@
         },
         {
             "card_name": "Seafloor Scavenger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UBG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -5582,7 +5582,7 @@
         },
         {
             "card_name": "Seafloor Treasures",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -5603,7 +5603,7 @@
         },
         {
             "card_name": "Seal Shoals",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5624,7 +5624,7 @@
         },
         {
             "card_name": "Seal Shoals (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5645,7 +5645,7 @@
         },
         {
             "card_name": "Searing Grace",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5666,7 +5666,7 @@
         },
         {
             "card_name": "Serpentine Woods",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -5687,7 +5687,7 @@
         },
         {
             "card_name": "Serrated Fossil",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Artifact",
@@ -5718,7 +5718,7 @@
         },
         {
             "card_name": "Serrated Fossil (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "rare",
             "type": "Artifact",
@@ -5749,7 +5749,7 @@
         },
         {
             "card_name": "Shadow Sky",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -5770,7 +5770,7 @@
         },
         {
             "card_name": "Shadow Sky (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Weather",
@@ -5791,7 +5791,7 @@
         },
         {
             "card_name": "Shining Angler",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UBG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -5812,7 +5812,7 @@
         },
         {
             "card_name": "Shiver Elemental",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -5833,7 +5833,7 @@
         },
         {
             "card_name": "Sifting Through Soot",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5854,7 +5854,7 @@
         },
         {
             "card_name": "Simul, Genetic Artisan",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Simul",
@@ -5875,7 +5875,7 @@
         },
         {
             "card_name": "Singularity",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Instant",
@@ -5896,7 +5896,7 @@
         },
         {
             "card_name": "Sky Pillar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -5917,7 +5917,7 @@
         },
         {
             "card_name": "Smart Shopper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Ranger",
@@ -5938,7 +5938,7 @@
         },
         {
             "card_name": "Smiling Sludge",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -5959,7 +5959,7 @@
         },
         {
             "card_name": "Smiling Sludge (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ooze",
@@ -5980,7 +5980,7 @@
         },
         {
             "card_name": "Snazzy Scarf",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -6001,7 +6001,7 @@
         },
         {
             "card_name": "Solid Smog",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -6032,7 +6032,7 @@
         },
         {
             "card_name": "Solid Smog (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -6063,7 +6063,7 @@
         },
         {
             "card_name": "Soothing Singer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Ouphe Performer",
@@ -6084,7 +6084,7 @@
         },
         {
             "card_name": "Soul's Sunset",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit",
@@ -6105,7 +6105,7 @@
         },
         {
             "card_name": "Spikey, Jack's Gravetiller",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Plant Horror",
@@ -6126,7 +6126,7 @@
         },
         {
             "card_name": "Spikey, Jack's Gravetiller (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Plant Horror",
@@ -6147,7 +6147,7 @@
         },
         {
             "card_name": "Splashing Mudskipper",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Salamander",
@@ -6178,7 +6178,7 @@
         },
         {
             "card_name": "Splashing Mudskipper (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Salamander",
@@ -6209,7 +6209,7 @@
         },
         {
             "card_name": "Spore Collector",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus",
@@ -6230,7 +6230,7 @@
         },
         {
             "card_name": "Spore Collector (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fungus",
@@ -6251,7 +6251,7 @@
         },
         {
             "card_name": "Starved Piranha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Fish",
@@ -6272,7 +6272,7 @@
         },
         {
             "card_name": "Static Scamp",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental Dog",
@@ -6293,7 +6293,7 @@
         },
         {
             "card_name": "Stitches, Adopted",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "URG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Toy Spirit",
@@ -6324,7 +6324,7 @@
         },
         {
             "card_name": "Stitches, Adopted (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "URG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Toy Spirit",
@@ -6355,7 +6355,7 @@
         },
         {
             "card_name": "Stockpile",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -6376,7 +6376,7 @@
         },
         {
             "card_name": "Stratus Fledgling",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dragon",
@@ -6397,7 +6397,7 @@
         },
         {
             "card_name": "Stratus Fledgling (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dragon",
@@ -6418,7 +6418,7 @@
         },
         {
             "card_name": "Streaking Sunrise",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Weather",
@@ -6439,7 +6439,7 @@
         },
         {
             "card_name": "Stunning Cascade",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -6460,7 +6460,7 @@
         },
         {
             "card_name": "Suncaller Tortoise",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBR",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Turtle",
@@ -6481,7 +6481,7 @@
         },
         {
             "card_name": "Suncaller Tortoise (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WBR",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Turtle",
@@ -6502,7 +6502,7 @@
         },
         {
             "card_name": "Sunlit Ruins",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -6523,7 +6523,7 @@
         },
         {
             "card_name": "Sunny Day",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Weather",
@@ -6544,7 +6544,7 @@
         },
         {
             "card_name": "Sunsoaker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Lizard",
@@ -6565,7 +6565,7 @@
         },
         {
             "card_name": "Sunsoaker (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant Lizard",
@@ -6586,7 +6586,7 @@
         },
         {
             "card_name": "Swamp_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Swamp",
@@ -6607,7 +6607,7 @@
         },
         {
             "card_name": "Swooping Hunter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird",
@@ -6628,7 +6628,7 @@
         },
         {
             "card_name": "Talon Triplets",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird",
@@ -6649,7 +6649,7 @@
         },
         {
             "card_name": "Talon Triplets (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird",
@@ -6670,7 +6670,7 @@
         },
         {
             "card_name": "Teeter Dance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -6691,7 +6691,7 @@
         },
         {
             "card_name": "Teetering Panda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WUR",
             "rarity": "rare",
             "type": "Creature \u2014 Panda",
@@ -6712,7 +6712,7 @@
         },
         {
             "card_name": "Teetering Panda (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WUR",
             "rarity": "rare",
             "type": "Creature \u2014 Panda",
@@ -6733,7 +6733,7 @@
         },
         {
             "card_name": "Temperamental Chick",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Bird",
@@ -6764,7 +6764,7 @@
         },
         {
             "card_name": "Temperamental Chick (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Bird",
@@ -6795,7 +6795,7 @@
         },
         {
             "card_name": "Temperamental Growth",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -6816,7 +6816,7 @@
         },
         {
             "card_name": "Temple of Origins",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -6837,7 +6837,7 @@
         },
         {
             "card_name": "Tenki, Storm Chaser",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Ranger",
@@ -6858,7 +6858,7 @@
         },
         {
             "card_name": "Territory Dispute",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -6879,7 +6879,7 @@
         },
         {
             "card_name": "The Aqua Crew",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UBG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Pirate",
@@ -6900,7 +6900,7 @@
         },
         {
             "card_name": "The Berry Master",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Druid",
@@ -6921,7 +6921,7 @@
         },
         {
             "card_name": "The Magma Council",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WBR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -6942,7 +6942,7 @@
         },
         {
             "card_name": "The Ruins Awaken",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -6963,7 +6963,7 @@
         },
         {
             "card_name": "Thornfist Bruiser",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Plant",
@@ -6984,7 +6984,7 @@
         },
         {
             "card_name": "To the Last Breath",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -7005,7 +7005,7 @@
         },
         {
             "card_name": "Tough It Out",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -7026,7 +7026,7 @@
         },
         {
             "card_name": "Tough Nut",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Plant",
@@ -7047,7 +7047,7 @@
         },
         {
             "card_name": "Turf Warfare",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "UBG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -7068,7 +7068,7 @@
         },
         {
             "card_name": "Twinned Beak",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird",
@@ -7089,7 +7089,7 @@
         },
         {
             "card_name": "Under the Collar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -7110,7 +7110,7 @@
         },
         {
             "card_name": "Unflinching Titan",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7131,7 +7131,7 @@
         },
         {
             "card_name": "Unflinching Titan (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7152,7 +7152,7 @@
         },
         {
             "card_name": "Unnerving Moth",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect",
@@ -7173,7 +7173,7 @@
         },
         {
             "card_name": "Unspeaking Titan",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7194,7 +7194,7 @@
         },
         {
             "card_name": "Unspeaking Titan (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7215,7 +7215,7 @@
         },
         {
             "card_name": "Unyielding Titan",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7236,7 +7236,7 @@
         },
         {
             "card_name": "Unyielding Titan (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Golem",
@@ -7257,7 +7257,7 @@
         },
         {
             "card_name": "Urban Explorer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Ranger",
@@ -7278,7 +7278,7 @@
         },
         {
             "card_name": "Walk Among the Dead",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -7299,7 +7299,7 @@
         },
         {
             "card_name": "Warden of Depths",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Leviathan Avatar",
@@ -7320,7 +7320,7 @@
         },
         {
             "card_name": "Warden of Depths (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Leviathan Avatar",
@@ -7341,7 +7341,7 @@
         },
         {
             "card_name": "Warden of Heart",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7362,7 +7362,7 @@
         },
         {
             "card_name": "Warden of Heart (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7383,7 +7383,7 @@
         },
         {
             "card_name": "Warden of Skies",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7404,7 +7404,7 @@
         },
         {
             "card_name": "Warden of Skies (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7425,7 +7425,7 @@
         },
         {
             "card_name": "Warden of Soul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7446,7 +7446,7 @@
         },
         {
             "card_name": "Warden of Soul (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Avatar",
@@ -7467,7 +7467,7 @@
         },
         {
             "card_name": "Warden of Tremors",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dinosaur Avatar",
@@ -7488,7 +7488,7 @@
         },
         {
             "card_name": "Warden of Tremors (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dinosaur Avatar",
@@ -7509,7 +7509,7 @@
         },
         {
             "card_name": "Warden of Wishes",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Faerie Avatar",
@@ -7530,7 +7530,7 @@
         },
         {
             "card_name": "Warden of Wishes (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Faerie Avatar",
@@ -7551,7 +7551,7 @@
         },
         {
             "card_name": "Waterway Distraction",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -7572,7 +7572,7 @@
         },
         {
             "card_name": "Waterway Distraction (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fish",
@@ -7593,7 +7593,7 @@
         },
         {
             "card_name": "Weather Elemental",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental",
@@ -7614,7 +7614,7 @@
         },
         {
             "card_name": "Weather Research Station",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -7635,7 +7635,7 @@
         },
         {
             "card_name": "Weaver of Fates",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Bird",
@@ -7656,7 +7656,7 @@
         },
         {
             "card_name": "Whipping Winds",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
@@ -7677,7 +7677,7 @@
         },
         {
             "card_name": "Whispering Runt",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Beast",
@@ -7708,7 +7708,7 @@
         },
         {
             "card_name": "Wrecking Whale",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Whale",
@@ -7729,7 +7729,7 @@
         },
         {
             "card_name": "Wrecking Whale (shiny)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Whale",
@@ -7750,7 +7750,7 @@
         },
         {
             "card_name": "Zipping Lightningbug",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
@@ -7771,7 +7771,7 @@
         },
         {
             "card_name": "Avert Disaster_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Instant",
@@ -7792,7 +7792,7 @@
         },
         {
             "card_name": "Calamity Cat_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Creature \u2014 Cat",
@@ -7813,7 +7813,7 @@
         },
         {
             "card_name": "Carefree Kappa_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "UG",
             "rarity": "special",
             "type": "Creature \u2014 Plant",
@@ -7834,7 +7834,7 @@
         },
         {
             "card_name": "Contest Coordinator_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Human Performer",
@@ -7855,7 +7855,7 @@
         },
         {
             "card_name": "Crumbling Tower_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment",
@@ -7876,7 +7876,7 @@
         },
         {
             "card_name": "Dustwing Butterfly_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Creature \u2014 Insect",
@@ -7897,7 +7897,7 @@
         },
         {
             "card_name": "End of Mutations_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Legendary Creature \u2014 Alien Mutant",
@@ -7918,7 +7918,7 @@
         },
         {
             "card_name": "Harvest Time_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "special",
             "type": "Sorcery",
@@ -7939,7 +7939,7 @@
         },
         {
             "card_name": "Harvest Time (Calamity)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable",
             "color": "G",
             "rarity": "special",
             "type": "Sorcery",
@@ -7960,7 +7960,7 @@
         },
         {
             "card_name": "Heartbreak_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WBG",
             "rarity": "special",
             "type": "Sorcery",
@@ -7981,7 +7981,7 @@
         },
         {
             "card_name": "Imminent Disaster_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Sorcery",
@@ -8002,7 +8002,7 @@
         },
         {
             "card_name": "Temple of Origins_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Land",
@@ -8023,7 +8023,7 @@
         },
         {
             "card_name": "Warden of Depths_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Legendary Creature \u2014 Leviathan Avatar",
@@ -8044,7 +8044,7 @@
         },
         {
             "card_name": "Warden of Wishes_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WB",
             "rarity": "special",
             "type": "Legendary Creature \u2014 Faerie Avatar",
@@ -8065,7 +8065,7 @@
         },
         {
             "card_name": "Weather Elemental_PRO_CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Creature \u2014 Elemental",
@@ -8086,7 +8086,7 @@
         },
         {
             "card_name": "blue Human Pirate 21CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Human Pirate",
@@ -8107,7 +8107,7 @@
         },
         {
             "card_name": "Berry",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Berry Equipment",
@@ -8128,7 +8128,7 @@
         },
         {
             "card_name": "green Plant 11CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "G",
             "rarity": "common",
             "type": "Token Creature - Plant",
@@ -8149,7 +8149,7 @@
         },
         {
             "card_name": "Looks Like Rain CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WUBRG",
             "rarity": "common",
             "type": "Token Enchantment - Weather",
@@ -8170,7 +8170,7 @@
         },
         {
             "card_name": "white Golem 11CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Golem",
@@ -8191,7 +8191,7 @@
         },
         {
             "card_name": "Treasure CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Treasure",
@@ -8212,7 +8212,7 @@
         },
         {
             "card_name": "multicolor Dragon 33CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Dragon",
@@ -8233,7 +8233,7 @@
         },
         {
             "card_name": "multicolor Dragon 33CCR 2",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Dragon",
@@ -8254,7 +8254,7 @@
         },
         {
             "card_name": "multicolor Dragon 33CCR 3",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Dragon",
@@ -8275,7 +8275,7 @@
         },
         {
             "card_name": "multicolor Dragon 33CCR 4",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Dragon",
@@ -8296,7 +8296,7 @@
         },
         {
             "card_name": "Shigana CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Legendary Creature - Beast",
@@ -8317,7 +8317,7 @@
         },
         {
             "card_name": "red Bird Warrior 24CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Bird Warrior",
@@ -8338,7 +8338,7 @@
         },
         {
             "card_name": "white and black Bird 33CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "common",
             "type": "Token Creature - Bird",
@@ -8359,7 +8359,7 @@
         },
         {
             "card_name": "Bird Warrior xe2x98x85",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Bird Warrior",
@@ -8380,7 +8380,7 @@
         },
         {
             "card_name": "Bird xe2x98x85",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WB",
             "rarity": "common",
             "type": "Token Creature - Bird",
@@ -8401,7 +8401,7 @@
         },
         {
             "card_name": "blue Fish 11CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Creature - Fish",
@@ -8422,7 +8422,7 @@
         },
         {
             "card_name": "white and blue Seal Orb 22CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Token Creature - Seal Orb",
@@ -8443,7 +8443,7 @@
         },
         {
             "card_name": "Seal Orb xe2x98x85",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "WU",
             "rarity": "common",
             "type": "Token Creature - Seal Orb",
@@ -8464,7 +8464,7 @@
         },
         {
             "card_name": "blue Aura CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment - Aura",
@@ -8485,7 +8485,7 @@
         },
         {
             "card_name": "colorless Toy 22CCR",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Toy",
@@ -8506,7 +8506,7 @@
         },
         {
             "card_name": "Golem xe2x98x85",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternalfuture\n!tag standard\n!tag planechase",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature - Golem",

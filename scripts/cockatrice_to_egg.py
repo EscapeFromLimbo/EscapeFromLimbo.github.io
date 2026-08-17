@@ -179,6 +179,9 @@ def pull_all_images(play_rate_table, signature_table):
 					if not c.pt in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
 						cardTextPresent = False
 						print(f"Card pt for {c.card_name} may have changed")
+					if not c.rarity in setfile.split(f'"card_name": "{c.card_name}"')[1].split('"card_name"')[0]:
+						cardTextPresent = False
+						print(f"Card rarity for {c.card_name} may have changed")
 				if f'"card_name2": "{c.card_name}"' in setfile:
 					cardTextPresent = True
 					if not c.rules_text.replace("•", "\\u2022").replace("é", "\\u00e9") in setfile.split(f'"card_name2": "{c.card_name}"')[1].split('"card_name"')[0]:
@@ -351,7 +354,9 @@ def pull_all_images(play_rate_table, signature_table):
 	for i in range(num_sets):
 		print(f"Writing json for {setcodes[i]}")
 		formatstring = "eternal"
-		if i < 8:
+		if i < 7:
+			formatstring += "future,standard,planechase"
+		elif i < 8:
 			formatstring += ",standard,planechase"
 		else:
 			formatstring += ",rotated"
