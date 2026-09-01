@@ -1,12 +1,12 @@
 ﻿{
     "name": "Cliques of Nylin",
-    "formats": "eternal,standard,planechase",
+    "formats": "eternal,rotated",
     "trimmed": "y",
     "image_type": "jpg",
     "cards": [
         {
-            "card_name": "Abduct",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Abduct_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -26,8 +26,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Adaptive Hydra",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Adaptive Hydra_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Hydra",
@@ -47,8 +47,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Alamer, Profit Rerecorder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Alamer, Profit Rerecorder_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Noble",
@@ -68,8 +68,8 @@
             "word_count": 36
         },
         {
-            "card_name": "Anesthesiologist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Anesthesiologist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -89,8 +89,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Ardent Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Ardent Voter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -110,8 +110,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Army Reserves",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Army Reserves_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -131,8 +131,8 @@
             "word_count": 28
         },
         {
-            "card_name": "Arsenal Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Arsenal Mentor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -152,8 +152,8 @@
             "word_count": 12
         },
         {
-            "card_name": "Ascend to Power",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Ascend to Power_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -171,7 +171,7 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 59,
-            "card_name2": "Omnipotence",
+            "card_name2": "Omnipotence_CNY",
             "color2": "B",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -183,8 +183,8 @@
             "artist2": "Kavindu Kaushalya"
         },
         {
-            "card_name": "Aspiring Anarchist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Aspiring Anarchist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Crocodile Rebel",
@@ -204,8 +204,8 @@
             "word_count": 28
         },
         {
-            "card_name": "Assault Engine",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Assault Engine_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
@@ -225,8 +225,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Axiomatic Shift",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Axiomatic Shift_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -246,8 +246,8 @@
             "word_count": 50
         },
         {
-            "card_name": "Ballot Registrar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Ballot Registrar_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -267,8 +267,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Battlefield Tactician",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Battlefield Tactician_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -288,8 +288,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Bioengineered Opus",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bioengineered Opus_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Octopus Horror",
@@ -309,8 +309,8 @@
             "word_count": 35
         },
         {
-            "card_name": "Black-Tie Gala",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Black-Tie Gala_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -330,8 +330,8 @@
             "word_count": 15
         },
         {
-            "card_name": "Blackout",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Blackout_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -351,8 +351,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Blue Collar Bloodsucker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Blue Collar Bloodsucker_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Human",
@@ -372,8 +372,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Border Junction",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Border Junction_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Wall",
@@ -393,8 +393,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Bouncers-for-Hire",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bouncers-for-Hire_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Orc Soldier",
@@ -414,8 +414,8 @@
             "word_count": 9
         },
         {
-            "card_name": "Brazen Blackcoats",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Brazen Blackcoats_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -435,8 +435,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Bring to the Limelight",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bring to the Limelight_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -456,8 +456,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Bug the Line",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bug the Line_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -477,8 +477,8 @@
             "word_count": 28
         },
         {
-            "card_name": "Bulk Bioengineering",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bulk Bioengineering_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -498,8 +498,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Bureau Broodmother",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bureau Broodmother_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Orb",
@@ -519,8 +519,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Bureau Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bureau Mentor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -540,8 +540,8 @@
             "word_count": 15
         },
         {
-            "card_name": "Bustling Motorway",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Bustling Motorway_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -561,8 +561,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Cabinet Recruiter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Cabinet Recruiter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -582,8 +582,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Campaign Rally",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Campaign Rally_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -603,8 +603,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Capital Maglev",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Capital Maglev_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
@@ -624,8 +624,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Carlisle, Grid Globalizer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Carlisle, Grid Globalizer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Artificer",
@@ -645,8 +645,8 @@
             "word_count": 34
         },
         {
-            "card_name": "Central Processor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Central Processor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Orb",
@@ -666,8 +666,8 @@
             "word_count": 50
         },
         {
-            "card_name": "Change Allegiances",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Change Allegiances_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -687,8 +687,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Charity Match",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Charity Match_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -708,8 +708,8 @@
             "word_count": 16
         },
         {
-            "card_name": "Chief Executive Dhante",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Chief Executive Dhante_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Noble",
@@ -729,8 +729,8 @@
             "word_count": 40
         },
         {
-            "card_name": "Chittering Gargantua",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Chittering Gargantua_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Insect",
@@ -750,8 +750,8 @@
             "word_count": 40
         },
         {
-            "card_name": "Chromagoyf",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube",
+            "card_name": "Chromagoyf_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Lhurgoyf",
@@ -771,8 +771,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Chromatic Rift",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Chromatic Rift_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
@@ -792,8 +792,8 @@
             "word_count": 15
         },
         {
-            "card_name": "Civic Copterist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Civic Copterist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -813,8 +813,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Climactic Drop",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Climactic Drop_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -834,8 +834,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Codename Ant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Codename Ant_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -855,8 +855,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Codename Bumblebee",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Codename Bumblebee_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Insect Soldier",
@@ -876,8 +876,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Codename Cicada",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Codename Cicada_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Insect Scout",
@@ -897,8 +897,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Codename Spyder",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Codename Spyder_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Insect Scout",
@@ -918,8 +918,8 @@
             "word_count": 37
         },
         {
-            "card_name": "Coercive Contractor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Coercive Contractor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -939,8 +939,8 @@
             "word_count": 41
         },
         {
-            "card_name": "Combat Corporal",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Combat Corporal_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -960,8 +960,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Congressional Hall",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Congressional Hall_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -981,8 +981,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Congressional Kraken",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Congressional Kraken_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Kraken",
@@ -1002,8 +1002,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Controlled Ecosystem",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Controlled Ecosystem_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1023,8 +1023,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Corporate Espionage",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Corporate Espionage_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1044,8 +1044,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Corporate Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Corporate Mentor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1065,8 +1065,8 @@
             "word_count": 12
         },
         {
-            "card_name": "Corrupt Congressman",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Corrupt Congressman_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1086,8 +1086,8 @@
             "word_count": 34
         },
         {
-            "card_name": "Coup D'Etat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Coup D'Etat_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1107,8 +1107,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Covert Infiltrator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Covert Infiltrator_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Shapeshifter Scout",
@@ -1128,8 +1128,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Cryptology",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Cryptology_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -1149,8 +1149,8 @@
             "word_count": 41
         },
         {
-            "card_name": "Dampening Reconciliator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Dampening Reconciliator_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -1170,8 +1170,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Deadly Dispute",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "card_name": "Deadly Dispute_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -1191,8 +1191,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Debt Collectors",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Debt Collectors_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Azra Assassin",
@@ -1212,8 +1212,8 @@
             "word_count": 6
         },
         {
-            "card_name": "Declamation Podium",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Declamation Podium_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1233,8 +1233,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Defect",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Defect_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UB",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -1254,8 +1254,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Demographer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Demographer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -1275,8 +1275,8 @@
             "word_count": 40
         },
         {
-            "card_name": "Demolition Team",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Demolition Team_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -1296,8 +1296,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Devoted Lackeys",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Devoted Lackeys_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Assassin",
@@ -1317,8 +1317,8 @@
             "word_count": 34
         },
         {
-            "card_name": "Dhante's Inferno",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Dhante's Inferno_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "BR",
             "rarity": "rare",
             "type": "Instant",
@@ -1338,8 +1338,8 @@
             "word_count": 56
         },
         {
-            "card_name": "Diplomatic Alliance",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Diplomatic Alliance_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -1359,8 +1359,8 @@
             "word_count": 27
         },
         {
-            "card_name": "Disestablishmentarianism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Disestablishmentarianism_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1380,8 +1380,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Dissect",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Dissect_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1401,8 +1401,8 @@
             "word_count": 15
         },
         {
-            "card_name": "Distributive Justice",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Distributive Justice_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -1420,7 +1420,7 @@
             "play_rate": 4,
             "signature": "itaiuukl",
             "word_count": 61,
-            "card_name2": "Equality",
+            "card_name2": "Equality_CNY",
             "color2": "W",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -1432,8 +1432,8 @@
             "artist2": "Nazar Hrabovyi"
         },
         {
-            "card_name": "Dormant Monstrosity",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Dormant Monstrosity_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Squid Horror",
@@ -1453,8 +1453,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Eager Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Eager Voter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -1474,8 +1474,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Election Fraud",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Election Fraud_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1495,8 +1495,8 @@
             "word_count": 10
         },
         {
-            "card_name": "Empowered Revisionary",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Empowered Revisionary_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -1516,8 +1516,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Enforcer's Baton",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Enforcer's Baton_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
@@ -1537,8 +1537,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Enlightenment",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Enlightenment_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -1558,8 +1558,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Envoy of the Fallen",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Envoy of the Fallen_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UBR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -1579,8 +1579,8 @@
             "word_count": 40
         },
         {
-            "card_name": "Eo, the Great Equalizer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Eo, the Great Equalizer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Giant Avatar",
@@ -1600,8 +1600,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Escalated Tensions",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Escalated Tensions_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -1621,8 +1621,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Estranged Aristocrat",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Estranged Aristocrat_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Elf Noble",
@@ -1642,8 +1642,8 @@
             "word_count": 12
         },
         {
-            "card_name": "Estrathe, Center of Civilization",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Estrathe, Center of Civilization_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
@@ -1663,8 +1663,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Estrathian Gentrifiers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Estrathian Gentrifiers_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "RG",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Artificer",
@@ -1684,8 +1684,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Estrathian Philanthropist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Estrathian Philanthropist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "common",
             "type": "Creature \u2014 Human Noble",
@@ -1705,8 +1705,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Evasive Tactics",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Evasive Tactics_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -1726,8 +1726,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Executive Office",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Executive Office_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -1747,8 +1747,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Expendable Arsonist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Expendable Arsonist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Minion",
@@ -1768,8 +1768,8 @@
             "word_count": 2
         },
         {
-            "card_name": "Expendable Medic",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Expendable Medic_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1789,8 +1789,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Expendable Researcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Expendable Researcher_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Minion",
@@ -1810,8 +1810,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Extraction Mission",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag banned\n!tag staple\n!tag playable",
+            "card_name": "Extraction Mission_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag banned\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1831,8 +1831,8 @@
             "word_count": 66
         },
         {
-            "card_name": "Eyes in the Sky",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Eyes in the Sky_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -1852,8 +1852,8 @@
             "word_count": 33
         },
         {
-            "card_name": "Eyes of the Bureau",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Eyes of the Bureau_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Scout",
@@ -1873,8 +1873,8 @@
             "word_count": 57
         },
         {
-            "card_name": "Flags on High",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Flags on High_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
@@ -1894,8 +1894,8 @@
             "word_count": 34
         },
         {
-            "card_name": "Flaw in the System",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Flaw in the System_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Human Rebel",
@@ -1915,8 +1915,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Flock Favorites",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Flock Favorites_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -1937,7 +1937,7 @@
         },
         {
             "card_name": "Forest_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Forest",
@@ -1957,8 +1957,8 @@
             "word_count": 0
         },
         {
-            "card_name": "Free Market",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Free Market_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -1976,7 +1976,7 @@
             "play_rate": 8,
             "signature": "anarchist0000",
             "word_count": 45,
-            "card_name2": "Industrialism",
+            "card_name2": "Industrialism_CNY",
             "color2": "RG",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -1988,8 +1988,8 @@
             "artist2": "Yun Yang Tan"
         },
         {
-            "card_name": "Freightyard Scrappers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Freightyard Scrappers_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "rare",
             "type": "Creature \u2014 Dwarf Goblin Human",
@@ -2009,8 +2009,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Gain Traction",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Gain Traction_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -2030,8 +2030,8 @@
             "word_count": 14
         },
         {
-            "card_name": "Garren, Returned Prophet",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Garren, Returned Prophet_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Garren",
@@ -2051,8 +2051,8 @@
             "word_count": 60
         },
         {
-            "card_name": "Gatherer of Grievances",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Gatherer of Grievances_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor",
@@ -2072,8 +2072,8 @@
             "word_count": 41
         },
         {
-            "card_name": "Gaze Upon Civilization",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Gaze Upon Civilization_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -2093,8 +2093,8 @@
             "word_count": 50
         },
         {
-            "card_name": "Genetics Prodigy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Genetics Prodigy_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect Artificer",
@@ -2114,8 +2114,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Genome Project",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Genome Project_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -2135,8 +2135,8 @@
             "word_count": 35
         },
         {
-            "card_name": "Genotype Splicer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "card_name": "Genotype Splicer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -2156,8 +2156,8 @@
             "word_count": 37
         },
         {
-            "card_name": "Gerrymanderer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Gerrymanderer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Salamander Advisor",
@@ -2177,8 +2177,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Getaway Proxy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Getaway Proxy_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2198,8 +2198,8 @@
             "word_count": 44
         },
         {
-            "card_name": "Golden Age",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Golden Age_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -2217,7 +2217,7 @@
             "play_rate": 116,
             "signature": "",
             "word_count": 59,
-            "card_name2": "Harmony",
+            "card_name2": "Harmony_CNY",
             "color2": "G",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -2229,8 +2229,8 @@
             "artist2": "Terraform Studios"
         },
         {
-            "card_name": "Grassroots Campaigners",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Grassroots Campaigners_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2250,8 +2250,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Groupthink Tank",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Groupthink Tank_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2271,8 +2271,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Gubernatorial Fundraiser",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Gubernatorial Fundraiser_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2292,8 +2292,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Hazakh Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Hazakh Agenda_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "rare",
             "type": "Instant",
@@ -2313,8 +2313,8 @@
             "word_count": 44
         },
         {
-            "card_name": "Hazakh Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Hazakh Ambassador_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2334,8 +2334,8 @@
             "word_count": 14
         },
         {
-            "card_name": "Hazakh Commandos",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Hazakh Commandos_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Berserker",
@@ -2355,8 +2355,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Hazakh Conscriptor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Hazakh Conscriptor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2376,8 +2376,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Hazakh District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Hazakh District_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -2397,8 +2397,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Held in Contempt",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Held in Contempt_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2418,8 +2418,8 @@
             "word_count": 19
         },
         {
-            "card_name": "High Senator Talpa",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "High Senator Talpa_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -2439,8 +2439,8 @@
             "word_count": 49
         },
         {
-            "card_name": "Hired Shot",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Hired Shot_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -2460,8 +2460,8 @@
             "word_count": 30
         },
         {
-            "card_name": "Idealistic Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Idealistic Voter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Centaur Citizen",
@@ -2481,8 +2481,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Identity Forger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Identity Forger_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Shapeshifter Artificer",
@@ -2502,8 +2502,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Ignited Soul",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Ignited Soul_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -2523,8 +2523,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Incumbency",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Incumbency_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "mythic",
             "type": "Sorcery",
@@ -2544,8 +2544,8 @@
             "word_count": 33
         },
         {
-            "card_name": "Induced Evolution",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Induced Evolution_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2565,8 +2565,8 @@
             "word_count": 48
         },
         {
-            "card_name": "Inflammatory Declaimer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Inflammatory Declaimer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -2586,8 +2586,8 @@
             "word_count": 16
         },
         {
-            "card_name": "Informed Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Informed Voter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2607,8 +2607,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Inner City Scout",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Inner City Scout_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -2628,8 +2628,8 @@
             "word_count": 30
         },
         {
-            "card_name": "Instigating Directive",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Instigating Directive_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2649,8 +2649,8 @@
             "word_count": 50
         },
         {
-            "card_name": "Insurgency Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Insurgency Mentor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -2670,8 +2670,8 @@
             "word_count": 12
         },
         {
-            "card_name": "International Development",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "International Development_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2691,8 +2691,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Interrogation Chamber",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Interrogation Chamber_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2712,8 +2712,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Invader of Privacy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Invader of Privacy_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -2733,8 +2733,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Invest",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Invest_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -2755,7 +2755,7 @@
         },
         {
             "card_name": "Island_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Island",
@@ -2775,8 +2775,8 @@
             "word_count": 0
         },
         {
-            "card_name": "Judge, Jury, and Executioner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Judge, Jury, and Executioner_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Advisor Citizen Assassin",
@@ -2796,8 +2796,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Killing in the Name of . . .",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Killing in the Name of . . ._CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2817,8 +2817,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Krint, Five Star",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Krint, Five Star_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Warrior",
@@ -2838,8 +2838,8 @@
             "word_count": 51
         },
         {
-            "card_name": "Laboratory Mentor",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Laboratory Mentor_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Artificer",
@@ -2859,8 +2859,8 @@
             "word_count": 12
         },
         {
-            "card_name": "Legislative Gridlock",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Legislative Gridlock_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "common",
             "type": "Instant",
@@ -2880,8 +2880,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Lightning Warmonger",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Lightning Warmonger_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -2901,8 +2901,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Liquidate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Liquidate_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2922,8 +2922,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Lofty Voter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Lofty Voter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -2943,8 +2943,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Looming Skyscrapers",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Looming Skyscrapers_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2964,8 +2964,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Loophole Exploiter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Loophole Exploiter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -2985,8 +2985,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Magnetic Rhetorician",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Magnetic Rhetorician_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -3006,8 +3006,8 @@
             "word_count": 7
         },
         {
-            "card_name": "Main Street Hooligang",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Main Street Hooligang_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Rebel",
@@ -3027,8 +3027,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Mana Harvesters",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Mana Harvesters_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
@@ -3048,8 +3048,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Martyrize",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Martyrize_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3069,8 +3069,8 @@
             "word_count": 37
         },
         {
-            "card_name": "Medic's Implant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Medic's Implant_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -3090,8 +3090,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Meeting of the Elites",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Meeting of the Elites_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -3109,7 +3109,7 @@
             "play_rate": 13,
             "signature": "",
             "word_count": 48,
-            "card_name2": "Aristocracy",
+            "card_name2": "Aristocracy_CNY",
             "color2": "BR",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -3121,8 +3121,8 @@
             "artist2": "Neil Blevins"
         },
         {
-            "card_name": "Mellan, Defense Attorney",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Mellan, Defense Attorney_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -3142,8 +3142,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Merciless Headsman",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Merciless Headsman_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Assassin",
@@ -3163,8 +3163,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Metropolitan Champion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Metropolitan Champion_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
@@ -3184,8 +3184,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Minister of Utility",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Minister of Utility_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3205,8 +3205,8 @@
             "word_count": 14
         },
         {
-            "card_name": "Mondo, Outcast Maverick",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Mondo, Outcast Maverick_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Rebel",
@@ -3227,7 +3227,7 @@
         },
         {
             "card_name": "Mountain_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Mountain",
@@ -3247,8 +3247,8 @@
             "word_count": 0
         },
         {
-            "card_name": "Mutinous Inciter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Mutinous Inciter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3268,8 +3268,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Neglected Slums",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Neglected Slums_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3289,8 +3289,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Neuralinked Hive",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Neuralinked Hive_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "rare",
             "type": "Creature \u2014 Human Drone",
@@ -3310,8 +3310,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Night Squad",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Night Squad_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -3331,8 +3331,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Nourishing Orator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Nourishing Orator_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -3352,8 +3352,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Noxious Conditions",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Noxious Conditions_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
@@ -3373,8 +3373,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Old Times Ruminator",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Old Times Ruminator_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Elder",
@@ -3394,8 +3394,8 @@
             "word_count": 46
         },
         {
-            "card_name": "Open Air Boardwalk",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Open Air Boardwalk_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -3415,8 +3415,8 @@
             "word_count": 19
         },
         {
-            "card_name": "Out With a Bang",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Out With a Bang_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3436,8 +3436,8 @@
             "word_count": 36
         },
         {
-            "card_name": "Overbearing Researcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Overbearing Researcher_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -3457,8 +3457,8 @@
             "word_count": 27
         },
         {
-            "card_name": "Patent Pending",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Patent Pending_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3478,8 +3478,8 @@
             "word_count": 54
         },
         {
-            "card_name": "Patron of Arms",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Patron of Arms_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BR",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3499,8 +3499,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Penrath Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Penrath Agenda_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "rare",
             "type": "Instant",
@@ -3520,8 +3520,8 @@
             "word_count": 60
         },
         {
-            "card_name": "Penrath Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Penrath Ambassador_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -3541,8 +3541,8 @@
             "word_count": 24
         },
         {
-            "card_name": "Penrath Dispatcher",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Penrath Dispatcher_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WRG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3562,8 +3562,8 @@
             "word_count": 56
         },
         {
-            "card_name": "Penrath District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Penrath District_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -3583,8 +3583,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Penrath Firearm",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Penrath Firearm_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Rebel",
@@ -3604,8 +3604,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Penrath Roperunner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Penrath Roperunner_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -3625,8 +3625,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Pinnacle of Progress",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Pinnacle of Progress_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Eye Horror",
@@ -3647,7 +3647,7 @@
         },
         {
             "card_name": "Plains_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Plains",
@@ -3667,8 +3667,8 @@
             "word_count": 0
         },
         {
-            "card_name": "Planned Obsolescence",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Planned Obsolescence_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
@@ -3688,8 +3688,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Political Prisoner",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Political Prisoner_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3709,8 +3709,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Presidential Pardon",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Presidential Pardon_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3730,8 +3730,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Prime for Innovation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Prime for Innovation_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
@@ -3751,8 +3751,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Prismatic Confluence",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Prismatic Confluence_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3772,8 +3772,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Prismatic Propagandist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Prismatic Propagandist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vedalken Advisor",
@@ -3793,8 +3793,8 @@
             "word_count": 16
         },
         {
-            "card_name": "Private Investigators",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Private Investigators_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -3814,8 +3814,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Product of Nepotism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Product of Nepotism_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
@@ -3835,8 +3835,8 @@
             "word_count": 33
         },
         {
-            "card_name": "Projects Overseer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Projects Overseer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Human Scout",
@@ -3856,8 +3856,8 @@
             "word_count": 6
         },
         {
-            "card_name": "Proletarian Rabble",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Proletarian Rabble_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "common",
             "type": "Creature \u2014 Human",
@@ -3877,8 +3877,8 @@
             "word_count": 2
         },
         {
-            "card_name": "Prosperity Project",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Prosperity Project_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -3898,8 +3898,8 @@
             "word_count": 35
         },
         {
-            "card_name": "Puppet War",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Puppet War_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3919,8 +3919,8 @@
             "word_count": 30
         },
         {
-            "card_name": "Quid Pro Quo",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Quid Pro Quo_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -3940,8 +3940,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Ram Through",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Ram Through_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
@@ -3961,8 +3961,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Rank and Defile",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Rank and Defile_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3982,8 +3982,8 @@
             "word_count": 28
         },
         {
-            "card_name": "Reckless Jailbreak",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Reckless Jailbreak_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -4003,8 +4003,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Reconnaissance Agent",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Reconnaissance Agent_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Insect Scout",
@@ -4024,15 +4024,15 @@
             "word_count": 32
         },
         {
-            "card_name": "Redeveloped Cityscape",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "card_name": "Redeveloped Cityscape_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
             "number": 261,
             "color_identity": "",
             "cost": "",
-            "rules_text": "{T}, Sacrifice Redeveloped Cityscape: Search your library for a basic land card and put it onto the battlefield tapped. Then you may exile a land card from your hand. If you do, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.",
+            "rules_text": "{T}, Sacrifice Redeveloped Cityscape, Exile a card from your hand: Search your library for two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4042,11 +4042,11 @@
             "artist": "Sylvain Sarrailh",
             "play_rate": 1058,
             "signature": "",
-            "word_count": 50
+            "word_count": 35
         },
         {
-            "card_name": "Replicated Regiment",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Replicated Regiment_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -4066,8 +4066,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Research Grant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "card_name": "Research Grant_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -4085,7 +4085,7 @@
             "play_rate": 96,
             "signature": "",
             "word_count": 73,
-            "card_name2": "Progress",
+            "card_name2": "Progress_CNY",
             "color2": "U",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -4097,8 +4097,8 @@
             "artist2": "Reto Scheiwiller"
         },
         {
-            "card_name": "Resourceful Hireling",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Resourceful Hireling_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elf Artificer",
@@ -4118,8 +4118,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Retaliatory Outburst",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Retaliatory Outburst_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -4139,8 +4139,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Revolutionary Throng",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Revolutionary Throng_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4160,8 +4160,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Rigged Trial",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Rigged Trial_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -4181,8 +4181,8 @@
             "word_count": 14
         },
         {
-            "card_name": "Rogue Justiciar",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Rogue Justiciar_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4202,8 +4202,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Rooftop Whistlesilencer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Rooftop Whistlesilencer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UB",
             "rarity": "common",
             "type": "Creature \u2014 Human Assassin",
@@ -4223,8 +4223,8 @@
             "word_count": 1
         },
         {
-            "card_name": "Ruinous Discovery",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Ruinous Discovery_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
@@ -4244,8 +4244,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Rush for Results",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Rush for Results_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4265,8 +4265,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Scandalous Revelation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Scandalous Revelation_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WUB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -4286,8 +4286,8 @@
             "word_count": 35
         },
         {
-            "card_name": "Scathing Remarks",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Scathing Remarks_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4307,8 +4307,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Scourge of Capitalism",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Scourge of Capitalism_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Giant Insect Beast",
@@ -4328,8 +4328,8 @@
             "word_count": 33
         },
         {
-            "card_name": "Scrapyard Mecha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Scrapyard Mecha_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UB",
             "rarity": "mythic",
             "type": "Artifact \u2014 Vehicle",
@@ -4349,8 +4349,8 @@
             "word_count": 47
         },
         {
-            "card_name": "Search and Seizure",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Search and Seizure_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4370,8 +4370,8 @@
             "word_count": 25
         },
         {
-            "card_name": "Seasoned Spymaster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Seasoned Spymaster_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -4391,8 +4391,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Security Initiative",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Security Initiative_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4410,7 +4410,7 @@
             "play_rate": 13,
             "signature": "",
             "word_count": 47,
-            "card_name2": "Surveillance State",
+            "card_name2": "Surveillance State_CNY",
             "color2": "WU",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -4422,8 +4422,8 @@
             "artist2": "Dangiuz"
         },
         {
-            "card_name": "Selective Truthseeker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Selective Truthseeker_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scout",
@@ -4443,8 +4443,8 @@
             "word_count": 27
         },
         {
-            "card_name": "Senate Filibuster",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Senate Filibuster_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WU",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4464,8 +4464,8 @@
             "word_count": 5
         },
         {
-            "card_name": "Senators' Chauffeur",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Senators' Chauffeur_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Skeleton Pilot",
@@ -4485,8 +4485,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Serve Again",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Serve Again_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
@@ -4506,8 +4506,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Severin, Sparkmind",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Severin, Sparkmind_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Severin",
@@ -4527,8 +4527,8 @@
             "word_count": 62
         },
         {
-            "card_name": "Severin's Masterwork",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Severin's Masterwork_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Enchantment",
@@ -4548,8 +4548,8 @@
             "word_count": 45
         },
         {
-            "card_name": "Silence the Opposition",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Silence the Opposition_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -4567,7 +4567,7 @@
             "play_rate": 13,
             "signature": "",
             "word_count": 39,
-            "card_name2": "Authoritarianism",
+            "card_name2": "Authoritarianism_CNY",
             "color2": "UB",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -4579,8 +4579,8 @@
             "artist2": "Rostyslav Zagornov"
         },
         {
-            "card_name": "Sillaman Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sillaman Agenda_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "rare",
             "type": "Instant",
@@ -4600,8 +4600,8 @@
             "word_count": 45
         },
         {
-            "card_name": "Sillaman Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sillaman Ambassador_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUG",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -4621,8 +4621,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Sillaman District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Sillaman District_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4642,8 +4642,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Sillaman Regrafter",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sillaman Regrafter_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
@@ -4663,8 +4663,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Sleeper Insurgent",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sleeper Insurgent_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -4684,8 +4684,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Sleeper Strix",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Sleeper Strix_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Bird",
@@ -4705,8 +4705,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Social Engineering",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag playable",
+            "card_name": "Social Engineering_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4726,8 +4726,8 @@
             "word_count": 34
         },
         {
-            "card_name": "Sola, Contraband Playboy",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sola, Contraband Playboy_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -4747,8 +4747,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Sparks of a Revolution",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "card_name": "Sparks of a Revolution_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Policy",
@@ -4766,7 +4766,7 @@
             "play_rate": 143,
             "signature": "",
             "word_count": 56,
-            "card_name2": "Freedom",
+            "card_name2": "Freedom_CNY",
             "color2": "R",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -4778,8 +4778,8 @@
             "artist2": "Mario Garcia Arevalo"
         },
         {
-            "card_name": "Speculative Stockbroker",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Speculative Stockbroker_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
@@ -4799,8 +4799,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Splintering Blast",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Splintering Blast_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -4820,8 +4820,8 @@
             "word_count": 36
         },
         {
-            "card_name": "Stasis Chamber",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Stasis Chamber_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
@@ -4841,8 +4841,8 @@
             "word_count": 23
         },
         {
-            "card_name": "Sterling, Federal Informant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Sterling, Federal Informant_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Rat Advisor",
@@ -4862,8 +4862,8 @@
             "word_count": 55
         },
         {
-            "card_name": "Storm the Senate",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Storm the Senate_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4883,8 +4883,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Subsidized Market",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Subsidized Market_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact",
@@ -4904,8 +4904,8 @@
             "word_count": 45
         },
         {
-            "card_name": "Survivors of the New World",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag cube\n!tag staple\n!tag playable",
+            "card_name": "Survivors of the New World_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "WG",
             "rarity": "mythic",
             "type": "Creature \u2014 Mutant Survivor",
@@ -4925,8 +4925,8 @@
             "word_count": 58
         },
         {
-            "card_name": "Sustainable Investments",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Sustainable Investments_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4947,7 +4947,7 @@
         },
         {
             "card_name": "Swamp_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "basic",
             "type": "Basic Land \u2014 Swamp",
@@ -4967,8 +4967,8 @@
             "word_count": 0
         },
         {
-            "card_name": "Test Subject Alpha",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Test Subject Alpha_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rat",
@@ -4988,8 +4988,8 @@
             "word_count": 31
         },
         {
-            "card_name": "The Connaistone",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "The Connaistone_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WUB",
             "rarity": "mythic",
             "type": "Legendary Artifact",
@@ -5009,8 +5009,8 @@
             "word_count": 36
         },
         {
-            "card_name": "The First Battalion",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "The First Battalion_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Soldier",
@@ -5030,8 +5030,8 @@
             "word_count": 19
         },
         {
-            "card_name": "The Majority Whip",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "The Majority Whip_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Equipment",
@@ -5051,8 +5051,8 @@
             "word_count": 32
         },
         {
-            "card_name": "The Quindral Accords",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "The Quindral Accords_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Enchantment \u2014 Clique",
@@ -5072,8 +5072,8 @@
             "word_count": 59
         },
         {
-            "card_name": "The Venerable Veteran",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "The Venerable Veteran_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Minion",
@@ -5093,8 +5093,8 @@
             "word_count": 9
         },
         {
-            "card_name": "Thesis on Mutation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Thesis on Mutation_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5114,8 +5114,8 @@
             "word_count": 28
         },
         {
-            "card_name": "Tiril Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Tiril Agenda_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "rare",
             "type": "Instant",
@@ -5135,8 +5135,8 @@
             "word_count": 54
         },
         {
-            "card_name": "Tiril Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Tiril Ambassador_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -5156,8 +5156,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Tiril District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Tiril District_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5177,8 +5177,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Together in Arms",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Together in Arms_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Policy",
@@ -5196,7 +5196,7 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 88,
-            "card_name2": "Communitarianism",
+            "card_name2": "Communitarianism_CNY",
             "color2": "WG",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -5208,8 +5208,8 @@
             "artist2": "Mateusz Katzig"
         },
         {
-            "card_name": "Tomer, Figurehead President",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Tomer, Figurehead President_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Advisor",
@@ -5229,8 +5229,8 @@
             "word_count": 14
         },
         {
-            "card_name": "Trailblazer Anarch",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Trailblazer Anarch_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WR",
             "rarity": "common",
             "type": "Creature \u2014 Human Rebel",
@@ -5250,8 +5250,8 @@
             "word_count": 11
         },
         {
-            "card_name": "Traumatic Recollection",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Traumatic Recollection_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UB",
             "rarity": "common",
             "type": "Sorcery",
@@ -5271,8 +5271,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Trench Commander",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Trench Commander_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5292,8 +5292,8 @@
             "word_count": 32
         },
         {
-            "card_name": "Triumphant Herd",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Triumphant Herd_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elephant",
@@ -5313,8 +5313,8 @@
             "word_count": 13
         },
         {
-            "card_name": "Underclass Hero",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Underclass Hero_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5334,8 +5334,8 @@
             "word_count": 29
         },
         {
-            "card_name": "Up-and-Comer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Up-and-Comer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
@@ -5355,8 +5355,8 @@
             "word_count": 20
         },
         {
-            "card_name": "Urban Sunscape",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Urban Sunscape_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -5376,8 +5376,8 @@
             "word_count": 18
         },
         {
-            "card_name": "Urban Twinmotors",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Urban Twinmotors_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WRG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rebel",
@@ -5397,8 +5397,8 @@
             "word_count": 16
         },
         {
-            "card_name": "Venture Capitalist",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Venture Capitalist_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Noble",
@@ -5418,8 +5418,8 @@
             "word_count": 33
         },
         {
-            "card_name": "Verity Circle",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Verity Circle_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -5439,8 +5439,8 @@
             "word_count": 26
         },
         {
-            "card_name": "Vertical Integration",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Vertical Integration_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5460,8 +5460,8 @@
             "word_count": 42
         },
         {
-            "card_name": "Veto",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Veto_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5481,8 +5481,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Vishanki Agenda",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Vishanki Agenda_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "rare",
             "type": "Instant",
@@ -5502,8 +5502,8 @@
             "word_count": 64
         },
         {
-            "card_name": "Vishanki Ambassador",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Vishanki Ambassador_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "common",
             "type": "Creature \u2014 Orc Advisor",
@@ -5523,8 +5523,8 @@
             "word_count": 16
         },
         {
-            "card_name": "Vishanki District",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Vishanki District_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -5544,8 +5544,8 @@
             "word_count": 21
         },
         {
-            "card_name": "Vishanki Hellkite",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Vishanki Hellkite_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Dragon",
@@ -5565,8 +5565,8 @@
             "word_count": 22
         },
         {
-            "card_name": "Volatile Sergeant",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Volatile Sergeant_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
@@ -5586,8 +5586,8 @@
             "word_count": 17
         },
         {
-            "card_name": "Warrant-Borne Cop",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "card_name": "Warrant-Borne Cop_CNY",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
@@ -5607,8 +5607,8 @@
             "word_count": 27
         },
         {
-            "card_name": "Whirring Inspector",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Whirring Inspector_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "WUB",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -5628,8 +5628,8 @@
             "word_count": 39
         },
         {
-            "card_name": "Work Safety Violation",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "card_name": "Work Safety Violation_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "BRG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5649,8 +5649,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Zeno, Planar Engineer",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Zeno, Planar Engineer_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Artifact Creature \u2014 Human Artificer",
@@ -5671,7 +5671,7 @@
         },
         {
             "card_name": "Aspiring Anarchist_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "G",
             "rarity": "special",
             "type": "Creature \u2014 Crocodile Rebel",
@@ -5692,7 +5692,7 @@
         },
         {
             "card_name": "Axiomatic Shift_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "WG",
             "rarity": "special",
             "type": "Sorcery",
@@ -5713,7 +5713,7 @@
         },
         {
             "card_name": "Bulk Bioengineering_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "G",
             "rarity": "special",
             "type": "Enchantment",
@@ -5734,7 +5734,7 @@
         },
         {
             "card_name": "Chittering Gargantua_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect",
@@ -5755,7 +5755,7 @@
         },
         {
             "card_name": "Chromatic Rift_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -5776,7 +5776,7 @@
         },
         {
             "card_name": "Coup D'Etat_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "UBR",
             "rarity": "special",
             "type": "Sorcery",
@@ -5796,8 +5796,29 @@
             "word_count": 22
         },
         {
+            "card_name": "Cryptology_PRO_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "color": "B",
+            "rarity": "special",
+            "type": "Sorcery",
+            "number": 298,
+            "color_identity": "B",
+            "cost": "{1}{B}",
+            "rules_text": "As an additional cost to cast this spell, exile a card from your graveyard.\nSearch your library for a card with the same mana value as the exiled card, reveal it, put it into your hand, then shuffle. You lose 2 life.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "CNY",
+            "loyalty": "",
+            "artist": "kooks000",
+            "play_rate": 17,
+            "signature": "",
+            "word_count": 41
+        },
+        {
             "card_name": "Deadly Dispute_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Instant",
@@ -5818,7 +5839,7 @@
         },
         {
             "card_name": "Defect_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -5838,8 +5859,8 @@
             "word_count": 8
         },
         {
-            "card_name": "Defect (IWH)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "card_name": "Defect (IWH)_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -5860,7 +5881,7 @@
         },
         {
             "card_name": "Dormant Monstrosity_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Creature \u2014 Squid Horror",
@@ -5881,7 +5902,7 @@
         },
         {
             "card_name": "Estrathe, Center of Civilization_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Legendary Land",
@@ -5902,7 +5923,7 @@
         },
         {
             "card_name": "Flags on High_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment",
@@ -5923,7 +5944,7 @@
         },
         {
             "card_name": "Gaze Upon Civilization_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment",
@@ -5944,7 +5965,7 @@
         },
         {
             "card_name": "Genotype Splicer_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Human Artificer Mutant",
@@ -5965,7 +5986,7 @@
         },
         {
             "card_name": "Getaway Proxy_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Creature \u2014 Human Rebel",
@@ -5986,7 +6007,7 @@
         },
         {
             "card_name": "Ignited Soul_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Creature \u2014 Human Soldier",
@@ -6007,7 +6028,7 @@
         },
         {
             "card_name": "Incumbency_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Sorcery",
@@ -6028,7 +6049,7 @@
         },
         {
             "card_name": "Liquidate_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "BR",
             "rarity": "special",
             "type": "Instant",
@@ -6049,7 +6070,7 @@
         },
         {
             "card_name": "Planned Obsolescence_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Enchantment \u2014 Aura",
@@ -6070,14 +6091,14 @@
         },
         {
             "card_name": "Redeveloped Cityscape_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "",
             "rarity": "special",
             "type": "Land",
             "number": 296,
             "color_identity": "",
             "cost": "",
-            "rules_text": "{T}, Sacrifice Redeveloped Cityscape: Search your library for a basic land card and put it onto the battlefield tapped. Then you may exile a land card from your hand. If you do, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.",
+            "rules_text": "{T}, Sacrifice Redeveloped Cityscape, Exile a card from your hand: Search your library for two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6087,11 +6108,11 @@
             "artist": "Craig Shoji",
             "play_rate": 1058,
             "signature": "",
-            "word_count": 50
+            "word_count": 35
         },
         {
             "card_name": "Research Grant_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -6122,7 +6143,7 @@
         },
         {
             "card_name": "Search and Seizure_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "UB",
             "rarity": "special",
             "type": "Sorcery",
@@ -6143,7 +6164,7 @@
         },
         {
             "card_name": "Serve Again_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "B",
             "rarity": "special",
             "type": "Enchantment",
@@ -6163,8 +6184,29 @@
             "word_count": 29
         },
         {
+            "card_name": "Serve Again (IWH)_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
+            "color": "B",
+            "rarity": "special",
+            "type": "Enchantment",
+            "number": 299,
+            "color_identity": "B",
+            "cost": "{2}{B}",
+            "rules_text": "Whenever a nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it, except it's a Minion and has decayed. [i](It loses all other creature types. It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "CNY",
+            "loyalty": "",
+            "artist": "Alexey Kruglov",
+            "play_rate": 31,
+            "signature": "",
+            "word_count": 29
+        },
+        {
             "card_name": "Severin's Masterwork_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "W",
             "rarity": "special",
             "type": "Legendary Enchantment",
@@ -6185,7 +6227,7 @@
         },
         {
             "card_name": "Sparks of a Revolution_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -6215,8 +6257,8 @@
             "artist2": "Adrian Marc"
         },
         {
-            "card_name": "Sparks of a Revolution (Hero)",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "card_name": "Sparks of a Revolution (Hero)_CNY",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
             "rarity": "special",
             "type": "Enchantment \u2014 Policy",
@@ -6234,7 +6276,7 @@
             "play_rate": 143,
             "signature": "",
             "word_count": 56,
-            "card_name2": "Freedom (Hero)",
+            "card_name2": "Freedom (Hero)_CNY",
             "color2": "R",
             "type2": "Legendary Enchantment",
             "cost2": "",
@@ -6247,7 +6289,7 @@
         },
         {
             "card_name": "Survivors of the New World_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "WG",
             "rarity": "special",
             "type": "Creature \u2014 Mutant Survivor",
@@ -6268,7 +6310,7 @@
         },
         {
             "card_name": "Thesis on Mutation_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "U",
             "rarity": "special",
             "type": "Sorcery",
@@ -6289,7 +6331,7 @@
         },
         {
             "card_name": "Vishanki Hellkite_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
             "color": "RG",
             "rarity": "special",
             "type": "Creature \u2014 Dragon",
@@ -6310,7 +6352,7 @@
         },
         {
             "card_name": "Whirring Inspector_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
             "color": "WUB",
             "rarity": "special",
             "type": "Artifact Creature \u2014 Insect Eye",
@@ -6331,7 +6373,7 @@
         },
         {
             "card_name": "Work Safety Violation_PRO_CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "BRG",
             "rarity": "special",
             "type": "Sorcery",
@@ -6352,7 +6394,7 @@
         },
         {
             "card_name": "Penrath Insurgency CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "RGW",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6373,7 +6415,7 @@
         },
         {
             "card_name": "Vishanki Inc. CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BRG",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6394,7 +6436,7 @@
         },
         {
             "card_name": "Hazakh Arsenal CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UBR",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6415,7 +6457,7 @@
         },
         {
             "card_name": "Tiril Bureau CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "WUB",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6436,7 +6478,7 @@
         },
         {
             "card_name": "Sillaman Laboratories CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Enchantment - Clique",
@@ -6457,7 +6499,7 @@
         },
         {
             "card_name": "Treasure CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Treasure",
@@ -6478,7 +6520,7 @@
         },
         {
             "card_name": "colorless Soldier 11CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Soldier",
@@ -6499,7 +6541,7 @@
         },
         {
             "card_name": "colorless Robot 00CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",
@@ -6520,7 +6562,7 @@
         },
         {
             "card_name": "colorless Minion 22CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Creature - Minion",
@@ -6541,7 +6583,7 @@
         },
         {
             "card_name": "The Codex CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Legendary Artifact",
@@ -6562,7 +6604,7 @@
         },
         {
             "card_name": "red Berserker 22CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "common",
             "type": "Token Creature - Berserker",
@@ -6583,7 +6625,7 @@
         },
         {
             "card_name": "colorless Equipment CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact - Equipment",
@@ -6604,7 +6646,7 @@
         },
         {
             "card_name": "Chaneryx, Perfect Lifeform CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "GWU",
             "rarity": "common",
             "type": "Token Legendary Creature - Leviathan",
@@ -6625,7 +6667,7 @@
         },
         {
             "card_name": "Sentry of the New World CNY",
-            "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature - Robot",

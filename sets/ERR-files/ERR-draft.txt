@@ -2682,7 +2682,7 @@
 			"collector_number": "210",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]Whenever another Subroutine you control enters, it runs. \nWhenever this Subroutine runs, create an X/X colorless Construct artifact creature token, where X is the number of Subroutines you control.",
+			"oracle_text": "[i](As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]\nWhenever another Subroutine you control enters, it runs. \nWhenever this Subroutine runs, create an X/X colorless Construct artifact creature token, where X is the number of Subroutines you control.",
 		},
 		
 		{
@@ -3788,6 +3788,19 @@
 			"rarity": "special",
 			"subtypes": [],
 			"oracle_text": "When this creature enters, create The Puzzlebox, a legendary colorless artifact token with \"{T}, Discard a card: Draw a card.\"\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
+		},
+		
+		{
+			"name": "Xeia, Record Chaser (Halana and Alena, Hunters)",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/ERR-files/img/331_Xeia, Record Chaser (Halana and Alena, Hunters).jpg",
+			"colors": ["R","G"],
+			"set": "ERR",
+			"collector_number": "331",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Vigilance, haste\nWhenever you cast a spell, if its mana value is greater than Halana and Alena's power, put a number of +1/+1 counters on this creature equal to the difference and create a Treasure token.",
 		},
 		
 		{

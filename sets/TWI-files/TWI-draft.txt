@@ -4127,6 +4127,19 @@
 		},
 		
 		{
+			"name": "Reaper of Blossoms (IWH)",
+			"mana_cost": "{1}{G}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/352_Reaper of Blossoms (IWH).jpg",
+			"colors": ["G"],
+			"set": "TWI",
+			"collector_number": "352",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Whenever Reaper of Blossoms attacks, mill three cards. Then you may pay {G}. If you do, return a land card from your graveyard to your hand. Otherwise, you gain 1 life.",
+		},
+		
+		{
 			"name": "white Soldier 11TWI",
 			"mana_cost": "",
 			"type": "Token",

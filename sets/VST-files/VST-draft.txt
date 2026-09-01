@@ -303,7 +303,7 @@
 			"collector_number": "120",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Discard a land card: Add {R}, then exile the top card of your library. Until end of turn, you may play that card.",
+			"oracle_text": "Discard a land card: Add {R}, then exile the top card of your library. Until end of turn, you may play that card. Activate only as an instant.",
 		},
 		
 		{
@@ -2292,7 +2292,7 @@
 			"collector_number": "184",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Destroy target artifact, enchantment, or creature with flying.",
+			"oracle_text": "Destroy target creature with flying, artifact, or enchantment.",
 		},
 		
 		{
@@ -2799,7 +2799,7 @@
 			"collector_number": "230",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Source Conduits: Add three mana in any combination of colors. Draw a card.",
+			"oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Source Conduits: Add three mana in any combination of colors. Draw a card. Activate only as an instant.",
 		},
 		
 		{

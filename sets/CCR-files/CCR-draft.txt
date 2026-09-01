@@ -1802,7 +1802,7 @@
 			"collector_number": "212",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever one or more permanent cards are put into graveyards, each opponent loses 1 life and you gain 1 life.\n[+2]: Mill two cards.\n[+1]: Sacrifice a land or discard a land card. If you do, you may play target creature or land card in your graveyard this turn.\n[-3]: Each player sacrifices a creature. Return a creature card from your graveyard to your hand.",
+			"oracle_text": "Whenever Jack dies and/or one or more other permanent cards are put into graveyards from anywhere, each opponent loses 1 life and you gain 1 life.\n[+2]: Mill two cards.\n[+1]: Sacrifice a land or discard a land card. If you do, you may play target creature or land card in your graveyard this turn.\n[-3]: Each player sacrifices a creature. Return a creature card from your graveyard to your hand.",
 		},
 		
 		{
@@ -3936,6 +3936,19 @@
 			"rarity": "special",
 			"subtypes": [],
 			"oracle_text": "Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.\nSurface {G} [i](You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)[/i]",
+		},
+		
+		{
+			"name": "Spikey, Jack's Gravetiller (The Queen of Brambles)",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/CCR-files/img/299_Spikey, Jack's Gravetiller (The Queen of Brambles).jpg",
+			"colors": ["B","G"],
+			"set": "CCR",
+			"collector_number": "299",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "As an additional cost to cast this spell, exile two permanent cards from your graveyard.\nWhenever The Queen of Brambles deals combat damage to a player, return a card exiled with it to its owner's hand.\nYou may cast The Queen of Brambles from your graveyard.",
 		},
 		
 		{

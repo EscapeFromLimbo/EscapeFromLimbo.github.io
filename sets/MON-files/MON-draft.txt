@@ -677,6 +677,19 @@
 		},
 		
 		{
+			"name": "Ema, the Traveler_MON",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Legendary",
+			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/252_Ema, the Traveler_MON.jpg",
+			"colors": ["W","U","R"],
+			"set": "MON",
+			"collector_number": "252",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "When Ema, the Traveler enters, reveal the top five cards of your library. Put any number of legendary cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}{B}: Another target legendary permanent gains indestructible until end of turn.",
+		},
+		
+		{
 			"name": "Emonoru, Ema's Wings_MON",
 			"mana_cost": "{4}{R}",
 			"type": "Legendary",
@@ -3615,19 +3628,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Haste\nWhen Zipping Zapper enters, target creature gains haste and first strike until end of turn.",
-		},
-		
-		{
-			"name": "Ema, the Traveler_MON",
-			"mana_cost": "{U}{R}{W}",
-			"type": "Legendary",
-			"image": "https://EscapeFromLimbo.github.io/sets/MON-files/img/252_Ema, the Traveler_MON.jpg",
-			"colors": ["W","U","R"],
-			"set": "MON",
-			"collector_number": "252",
-			"rarity": "special",
-			"subtypes": [],
-			"oracle_text": "When Ema, the Traveler enters, reveal the top five cards of your library. Put any number of legendary cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}{B}: Another target legendary permanent gains indestructible until end of turn.",
 		},
 		
 		{

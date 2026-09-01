@@ -729,6 +729,27 @@
             "word_count": 48
         },
         {
+            "card_name": "Fateful Ascent_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "W",
+            "rarity": "mythic",
+            "type": "Instant",
+            "number": 115,
+            "color_identity": "W",
+            "cost": "{1}{W}",
+            "rules_text": "Destroy target creature, enchantment, or planeswalker. Its controller creates a Chart token. [i](It has \"2, Sacrifice this artifact: Reveal cards from the top of your library until you reveal a land card. Put it into your hand and the rest on the bottom in a random order.\")[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "",
+            "artist": "AquaGalaxy",
+            "play_rate": 1161,
+            "signature": "",
+            "word_count": 12
+        },
+        {
             "card_name": "Ferocious Flame_REV",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "R",
@@ -1481,7 +1502,7 @@
             "number": 79,
             "color_identity": "",
             "cost": "",
-            "rules_text": "{T}, Sacrifice Redeveloped Cityscape: Search your library for a basic land card and put it onto the battlefield tapped. Then you may exile a land card from your hand. If you do, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.",
+            "rules_text": "{T}, Sacrifice Redeveloped Cityscape, Exile a card from your hand: Search your library for two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1491,7 +1512,7 @@
             "artist": "Christopher Balaskas",
             "play_rate": 1058,
             "signature": "",
-            "word_count": 50
+            "word_count": 35
         },
         {
             "card_name": "Resign to Progress_REV",
@@ -2425,6 +2446,27 @@
             "play_rate": 178,
             "signature": "",
             "word_count": 39
+        },
+        {
+            "card_name": "Zaila, Her Will Be Done_REV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag promo",
+            "color": "WU",
+            "rarity": "mythic",
+            "type": "Legendary Planeswalker \u2014 Zaila",
+            "number": 116,
+            "color_identity": "WU",
+            "cost": "{4}{W}{U}",
+            "rules_text": "Whenever a nontoken creature you control enters, you may fragment it. [i](Create a 1/1 token copy of it and put a splinter counter on both. Creatures with splinter counters can't be fragmented.)[/i]\n[+1]: Draw a card. Add {C}{C}.\n[-2]: Zaila deals damage to target creature equal to the number of creatures you control.\n[-7]: Draw three cards. You get an emblem with \"Creatures you control are 4/4 Eldrazi Angels and have flying.\"",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "REV",
+            "loyalty": "5",
+            "artist": "Zuza Spikulec",
+            "play_rate": 0,
+            "signature": "",
+            "word_count": 48
         },
         {
             "card_name": "white Angel 33REV",

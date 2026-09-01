@@ -454,7 +454,7 @@
             "number": 120,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Discard a land card: Add {R}, then exile the top card of your library. Until end of turn, you may play that card.",
+            "rules_text": "Discard a land card: Add {R}, then exile the top card of your library. Until end of turn, you may play that card. Activate only as an instant.",
             "flavor_text": "[i]We scour every abandoned town for a fleeting opportunity.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -464,7 +464,7 @@
             "artist": "Marc Simonetti",
             "play_rate": 30,
             "signature": "epid",
-            "word_count": 23
+            "word_count": 28
         },
         {
             "card_name": "Consign to Failure_VST",
@@ -3667,7 +3667,7 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Destroy target artifact, enchantment, or creature with flying.",
+            "rules_text": "Destroy target creature with flying, artifact, or enchantment.",
             "flavor_text": "[i]\"The death of an individual is a natural occurrence. The death of a plane is an unnatural tragedy.\"\n-Evaldi, Genesis of Hope\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4486,7 +4486,7 @@
             "number": 230,
             "color_identity": "",
             "cost": "{3}",
-            "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Source Conduits: Add three mana in any combination of colors. Draw a card.",
+            "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Source Conduits: Add three mana in any combination of colors. Draw a card. Activate only as an instant.",
             "flavor_text": "[i]The Source was created to power an entire civilization.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4496,7 +4496,7 @@
             "artist": "negish",
             "play_rate": 0,
             "signature": "",
-            "word_count": 18
+            "word_count": 23
         },
         {
             "card_name": "Source Sentries_VST",

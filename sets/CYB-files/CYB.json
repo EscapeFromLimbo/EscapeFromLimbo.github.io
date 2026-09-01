@@ -3003,7 +3003,7 @@
             "number": 258,
             "color_identity": "",
             "cost": "{2}",
-            "rules_text": "{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type. [i](The types of mana are {C}, {W}, {U}, {B}, {R}, and {G}.)[/i]",
+            "rules_text": "{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type. Activate only as an instant. [i](The types of mana are {C}, {W}, {U}, {B}, {R}, and {G}.)[/i]",
             "flavor_text": "[i]\"Near infinite energy, and all it cost was plunging the world into unrest.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -3013,7 +3013,7 @@
             "artist": "Sviatoslav Gerasimchuk",
             "play_rate": 244,
             "signature": "",
-            "word_count": 12
+            "word_count": 17
         },
         {
             "card_name": "Leyspark Wielder_CYB",
@@ -4617,7 +4617,7 @@
             "number": 222,
             "color_identity": "UG",
             "cost": "{X}{G}{U}",
-            "rules_text": "Trample\nRuin, the First Shard enters with a +1/+1 counter on it for each mana spent to cast it.\n-----\nFragment {G}{U}\nSorcery - Discharge \nCreate a tapped Leyshard token. *[i](It's an artifact with \"{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type.\")[/i]*",
+            "rules_text": "Trample\nRuin, the First Shard enters with a +1/+1 counter on it for each mana spent to cast it.\n-----\nFragment {G}{U}\nSorcery - Discharge\nCreate a tapped Leyshard token. *[i](It's an artifact with \"{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type. Activate only as an instant.\")[/i]*",
             "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
@@ -4627,7 +4627,7 @@
             "artist": "Travis Anderson",
             "play_rate": 50,
             "signature": "",
-            "word_count": 26
+            "word_count": 25
         },
         {
             "card_name": "Runerock Automaton_CYB",
@@ -7501,7 +7501,7 @@
             "number": 18,
             "color_identity": "",
             "cost": "",
-            "rules_text": "{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type. [i](The types of mana are {C}, {W}, {U}, {B}, {R}, and {G}.)[/i]",
+            "rules_text": "{T}, Sacrifice Leyshard: Draw a card. Add one mana of any type. Activate only as an instant. [i](The types of mana are {C}, {W}, {U}, {B}, {R}, and {G}.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -7511,7 +7511,7 @@
             "artist": "",
             "play_rate": 0,
             "signature": "",
-            "word_count": 12
+            "word_count": 17
         },
         {
             "card_name": "green Elf 11CYB",

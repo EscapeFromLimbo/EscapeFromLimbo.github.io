@@ -3094,7 +3094,7 @@
             "number": 158,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "{T}, Mill a card: Add {G}. [i](To mill a card, put the top card of your library into your graveyard.)[/i]",
+            "rules_text": "{T}, Mill a card: Add {G}. Activate only as an instant. [i](To mill a card, put the top card of your library into your graveyard.)[/i]",
             "flavor_text": "[i]\"The great bears are dead, they say. We will prove them wrong, and hear the roars of our ancestors once again!\"\n[/i]",
             "pt": "0/3",
             "special_text": "",
@@ -3104,7 +3104,7 @@
             "artist": "Denis Petrov",
             "play_rate": 0,
             "signature": "",
-            "word_count": 6
+            "word_count": 11
         },
         {
             "card_name": "Narwa Igniter_KUT",
