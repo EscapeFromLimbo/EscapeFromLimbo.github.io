@@ -312,7 +312,7 @@ def generateHTML():
 					<br>
 					<p>By Signature Wielder: s:cajun</p>
 					<br>
-					<p><a href="/custom/chaos-draft.txt" download>Chaos Draft File</a> (Supports exactly 7 players)</p>
+					<p><a href="/custom/chaos-draft.txt" download>Chaos Draft File</a></p>
 				</div>
 			</div>
 		</div>
