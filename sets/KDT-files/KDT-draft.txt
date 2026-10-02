@@ -1031,7 +1031,7 @@
 			"collector_number": "240",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "If you would create one or more tokens, you may instead create that many tokens that are copies of a token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
+			"oracle_text": "If you would create one or more creature tokens, you may instead create that many tokens that are copies of a creature token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
 		},
 		
 		{
@@ -3931,6 +3931,19 @@
 			"rarity": "special",
 			"subtypes": [],
 			"oracle_text": "Lifelink\nWhen Kage enters, you may have target player's life total become 7. If you lost life this way, draw that many cards.",
+		},
+		
+		{
+			"name": "Majesty (Mystery)",
+			"mana_cost": "{R}{R/G}{G}",
+			"type": "Enchantment",
+			"image": "https://EscapeFromLimbo.github.io/sets/KDT-files/img/342_Majesty (Mystery).jpg",
+			"colors": ["R","G"],
+			"set": "KDT",
+			"collector_number": "342",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Whenever you cast a spell with mana value 4 or greater, create a 4/3 red and green Spirit Beast creature token.\nWhenever a creature you control deals 4 or more damage to a player, draw a card. This ability triggers only once each turn.",
 		},
 		
 		{

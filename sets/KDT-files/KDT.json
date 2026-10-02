@@ -1630,7 +1630,7 @@
             "number": 240,
             "color_identity": "WU",
             "cost": "{W}{W/U}{U}",
-            "rules_text": "If you would create one or more tokens, you may instead create that many tokens that are copies of a token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
+            "rules_text": "If you would create one or more creature tokens, you may instead create that many tokens that are copies of a creature token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1639,8 +1639,8 @@
             "loyalty": "",
             "artist": "Sam Yang",
             "play_rate": 6,
-            "signature": "laurelkeeper",
-            "word_count": 42
+            "signature": "theabstrusity",
+            "word_count": 44
         },
         {
             "card_name": "Erosive Path",
@@ -6502,7 +6502,7 @@
             "number": 317,
             "color_identity": "WU",
             "cost": "{W}{W/U}{U}",
-            "rules_text": "If you would create one or more tokens, you may instead create that many tokens that are copies of a token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
+            "rules_text": "If you would create one or more creature tokens, you may instead create that many tokens that are copies of a creature token you control. Do this only once each turn.\nWhenever you attack, you may create a 1/1 blue Bird creature token with flying.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6511,8 +6511,8 @@
             "loyalty": "",
             "artist": "Vojtech Sklenar",
             "play_rate": 6,
-            "signature": "laurelkeeper",
-            "word_count": 42
+            "signature": "theabstrusity",
+            "word_count": 44
         },
         {
             "card_name": "Faces of the Faceless_PRO_KDT",
@@ -6725,6 +6725,27 @@
             "word_count": 43
         },
         {
+            "card_name": "Majesty (Mystery)",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable",
+            "color": "RG",
+            "rarity": "special",
+            "type": "Enchantment",
+            "number": 342,
+            "color_identity": "RG",
+            "cost": "{R}{R/G}{G}",
+            "rules_text": "Whenever you cast a spell with mana value 4 or greater, create a 4/3 red and green Spirit Beast creature token.\nWhenever a creature you control deals 4 or more damage to a player, draw a card. This ability triggers only once each turn.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KDT",
+            "loyalty": "",
+            "artist": "Pascal Blanch\u00e9",
+            "play_rate": 68,
+            "signature": "",
+            "word_count": 43
+        },
+        {
             "card_name": "Mastery_PRO_KDT",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
             "color": "WB",
@@ -6912,6 +6933,27 @@
             "play_rate": 0,
             "signature": "",
             "word_count": 23
+        },
+        {
+            "card_name": "Sculptor's Replica_PRO_KDT",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag playable\n!tag promo",
+            "color": "W",
+            "rarity": "special",
+            "type": "Artifact Creature \u2014 Golem Monk",
+            "number": 340,
+            "color_identity": "W",
+            "cost": "{1}{W}",
+            "rules_text": "Flow - {4}{W}: Create a tapped 0/0 colorless Golem artifact creature token with \"This creature gets +1/+1 for each artifact you control.\" [i](Each creature you tap while activating pays for {1}.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KDT",
+            "loyalty": "",
+            "artist": "Nicholas Maxson-Francombe",
+            "play_rate": 45,
+            "signature": "",
+            "word_count": 22
         },
         {
             "card_name": "Secrecy_PRO_KDT",

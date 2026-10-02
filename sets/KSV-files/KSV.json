@@ -2932,7 +2932,7 @@
             "number": 18,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, create two tapped and attacking 1/1 white Soldier creature tokens with lifelink.\nAttacking creatures get +1/+1 until end of turn.\nExile up to one target nonland permanent with mana value less than or equal to the number of attacking creatures.",
+            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, create two tapped and attacking 1/1 white Soldier creature tokens with lifelink.\n[f], [f] - Attacking creatures get +1/+1 until end of turn.\n[f] - Exile up to one target nonland permanent with mana value less than or equal to the number of attacking creatures.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2942,7 +2942,7 @@
             "artist": "silentfield",
             "play_rate": 24,
             "signature": "",
-            "word_count": 41
+            "word_count": 46
         },
         {
             "card_name": "Matchmaker_KSV",
@@ -3625,7 +3625,7 @@
             "number": 152,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, exile the top two cards of your library. You may play a card exiled with Raise the Iron Banner this turn.\nCreate two Treasure tokens.\nWhen you next cast a spell this turn, Raise the Iron Banner deals damage equal to that spell's mana value to any target.",
+            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, exile the top two cards of your library. You may play a card exiled with Raise the Iron Banner this turn.\n[f], [f] - Create two Treasure tokens.\n[f] - When you next cast a spell this turn, Raise the Iron Banner deals damage equal to that spell's mana value to any target.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3635,7 +3635,7 @@
             "artist": "Dae hoon Lee",
             "play_rate": 0,
             "signature": "",
-            "word_count": 49
+            "word_count": 54
         },
         {
             "card_name": "Rally Survivors_KSV",
@@ -3688,7 +3688,7 @@
             "number": 108,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, each defending player mills three cards.\nEach defending player loses 3 life unless they sacrifice a nonland permanent or discard a card.\nReturn a creature card from a graveyard to the battlefield tapped under your control. ",
+            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i] \nWhenever you attack, each defending player mills three cards.\n[f], [f] - Each defending player loses 3 life unless they sacrifice a nonland permanent or discard a card.\n[f] - Return a creature card from a graveyard to the battlefield tapped under your control. ",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3698,7 +3698,7 @@
             "artist": "Anato Finnstark",
             "play_rate": 3,
             "signature": "platypeople",
-            "word_count": 37
+            "word_count": 42
         },
         {
             "card_name": "Reawakened Recruit_KSV",
@@ -4969,7 +4969,7 @@
             "number": 211,
             "color_identity": "UB",
             "cost": "{U}{B}",
-            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i]\nWhen The Battle Beneath enters, up to two target creatures can't block or become blocked this turn.\nWhenever one or more creatures you control deal damage to an opponent this turn, draw a card.\nWhenever one or more creatures you control deal damage to an opponent this turn, that player discards a card.",
+            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i]\nWhen The Battle Beneath enters, up to two target creatures can't block or become blocked this turn.\n[f] - Whenever one or more creatures you control deal damage to an opponent this turn, draw a card.\n[f] - Whenever one or more creatures you control deal damage to an opponent this turn, that player discards a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4979,7 +4979,7 @@
             "artist": "Marby Kwong",
             "play_rate": 0,
             "signature": "",
-            "word_count": 50
+            "word_count": 54
         },
         {
             "card_name": "The Queen's Guard_KSV",
@@ -5683,7 +5683,7 @@
             "number": 274,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i]\nWhenever you attack, create two tapped and attacking 1/1 white Soldier creature tokens with lifelink.\nAttacking creatures get +1/+1 until end of turn.\nExile up to one target nonland permanent with mana value less than or equal to the number of attacking creatures.",
+            "rules_text": "[i](Whenever you attack, put a strategy counter on one of this card's modes. Sacrifice it after all are marked.)[/i]\nWhenever you attack, create two tapped and attacking 1/1 white Soldier creature tokens with lifelink.\n[f], [f] - Attacking creatures get +1/+1 until end of turn.\n[f] - Exile up to one target nonland permanent with mana value less than or equal to the number of attacking creatures.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5693,7 +5693,7 @@
             "artist": "Tyler Miles Lockett",
             "play_rate": 24,
             "signature": "",
-            "word_count": 40
+            "word_count": 45
         },
         {
             "card_name": "Matchmaker (Kratos, God of War)_KSV",

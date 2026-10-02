@@ -628,7 +628,7 @@
 			"collector_number": "121",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nInstant and sorcery spells you control have wither.\n[+2]: Caphella deals 2 damage to any target.\n[0]: Create two 1/1 red Spirit creature tokens with wither.\n[-X]: Exile target instant or sorcery card with mana value X from your graveyard. You may cast a copy of it without paying its mana cost.",
+			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nInstant and sorcery spells you control have wither.\n[+2]: Caphella deals 2 damage to any target.\n[+1]: Add {R}. When that mana is spent to cast an instant or sorcery spell, copy it. You may choose new targets for the copy.\n[-3]: Exile up to two target instant and/or sorcery cards from your graveyard. You may cast a copy of each of those cards this turn.",
 		},
 		
 		{
@@ -4181,6 +4181,19 @@
 		},
 		
 		{
+			"name": "Interstellar Sage (Mystery)",
+			"mana_cost": "{G}{U}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/327_Interstellar Sage (Mystery).jpg",
+			"colors": ["U","G"],
+			"set": "SOL",
+			"collector_number": "327",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Flash\nWhen Interstellar Sage enters, if it isn't a token, you may exile target instant card or card with flash from your graveyard and cast a copy of it. [i](You still pay its costs.)[/i]",
+		},
+		
+		{
 			"name": "Chart",
 			"mana_cost": "",
 			"type": "Token",
@@ -4282,19 +4295,6 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "{T}: Add one mana of any color.",
-		},
-		
-		{
-			"name": "red Spirit 11SOL",
-			"mana_cost": "",
-			"type": "Token",
-			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/23t_red Spirit 11SOL.jpg",
-			"colors": ["R"],
-			"set": "SOL",
-			"collector_number": "23",
-			"rarity": "common",
-			"subtypes": [],
-			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]",
 		},
 		
 		{
@@ -4490,6 +4490,19 @@
 			"rarity": "common",
 			"subtypes": [],
 			"oracle_text": "Defender",
+		},
+		
+		{
+			"name": "red Spirit 11SOL",
+			"mana_cost": "",
+			"type": "Token",
+			"image": "https://EscapeFromLimbo.github.io/sets/SOL-files/img/23t_red Spirit 11SOL.jpg",
+			"colors": ["R"],
+			"set": "SOL",
+			"collector_number": "23",
+			"rarity": "common",
+			"subtypes": [],
+			"oracle_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]",
 		},
 		
 		{
@@ -4972,7 +4985,6 @@
 20 black Spirit 11SOL
 20 Weapon SOL
 20 Lotus Spring SOL
-20 red Spirit 11SOL
 20 green Bear 44SOL
 20 Treasure SOL
 20 red Elemental 31SOL
@@ -4988,6 +5000,7 @@
 20 red Beast 33SOL
 20 black Orb 10SOL
 20 colorless Wall 04SOL
+20 red Spirit 11SOL
 20 black Dog 22SOL
 20 red Spirit SOL
 20 blue Fish 21SOL

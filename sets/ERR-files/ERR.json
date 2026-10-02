@@ -1828,7 +1828,7 @@
             "loyalty": "",
             "artist": "Kode LGX",
             "play_rate": 16,
-            "signature": "",
+            "signature": "theabstrusity",
             "word_count": 31
         },
         {
@@ -3172,7 +3172,7 @@
             "loyalty": "",
             "artist": "Liiga Smilshkalne",
             "play_rate": 16,
-            "signature": "",
+            "signature": "theabstrusity",
             "word_count": 26
         },
         {
@@ -4558,7 +4558,7 @@
             "loyalty": "",
             "artist": "Max Hay",
             "play_rate": 19,
-            "signature": "",
+            "signature": "theabstrusity",
             "word_count": 50
         },
         {
@@ -4936,7 +4936,7 @@
             "loyalty": "",
             "artist": "Timi Honkanen",
             "play_rate": 9,
-            "signature": "dravosargentium",
+            "signature": "dravos argentium",
             "word_count": 40
         },
         {
@@ -5704,7 +5704,7 @@
             "number": 195,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When this creature enters, return up to one permanent card from your graveyard to your hand. If you do, cache a card from your hand face down. [i](Exile it and create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")[/i]\n{T}: Add {G}.",
+            "rules_text": "When this creature enters, return up to one target permanent card from your graveyard to your hand. If you do, cache a card from your hand face down. [i](Exile it and create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")[/i]\n{T}: Add {G}.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -5713,8 +5713,8 @@
             "loyalty": "",
             "artist": "Vizlab Studios",
             "play_rate": 19,
-            "signature": "",
-            "word_count": 29
+            "signature": "theabstrusity",
+            "word_count": 30
         },
         {
             "card_name": "Uptime Contestant",
@@ -6324,6 +6324,27 @@
             "play_rate": 6,
             "signature": "zangy",
             "word_count": 9
+        },
+        {
+            "card_name": "Errorsbane Deadshot_PRO_ERR",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Archer Ranger",
+            "number": 333,
+            "color_identity": "G",
+            "cost": "{1}{G}{G}",
+            "rules_text": "Reach, trample\nFabric - At the beginning of combat on your turn, target creature gets +X/+X and gains trample until end of turn, where X is the number of enchantments you control.",
+            "flavor_text": "[i][/i]",
+            "pt": "3/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ERR",
+            "loyalty": "",
+            "artist": "Carlo Reynolds",
+            "play_rate": 16,
+            "signature": "theabstrusity",
+            "word_count": 31
         },
         {
             "card_name": "Exorcist of Errors_PRO_ERR",
