@@ -265,7 +265,7 @@
             "number": 234,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nWhenever a creature you control becomes blocked, it deals 1 damage to the player or permanent it's attacking. Scry 1.",
+            "rules_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nWhenever a creature you control dies or is exiled, it deals 1 damage to each opponent. Scry 1.",
             "flavor_text": "[i][/i]",
             "pt": "1/4",
             "special_text": "",
@@ -275,7 +275,7 @@
             "artist": "Eric Xie",
             "play_rate": 47,
             "signature": "crushcastles23",
-            "word_count": 20
+            "word_count": 18
         },
         {
             "card_name": "Ameret, Seeker of the Sun",
@@ -286,7 +286,7 @@
             "number": 258,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
-            "rules_text": "[+2]: Exile up to two target creatures you own. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.\n[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn. [i](They don't lose loyalty while not a planeswalker.)[/i]\n[-2]: Ameret, Seeker of the Sun deals 3 damage to any target and you gain 3 life.",
+            "rules_text": "Lifelink\n[+2]: Exile up to two target creatures you own. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.\n[+1]: Ameret becomes a 4/4 Angel creature with flying and indestructible until end of turn. [i](They don't lose loyalty while not a planeswalker.)[/i]\n[-3]: Ameret deals 5 damage to any nonplayer target.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -296,7 +296,7 @@
             "artist": "Emanuel Dias",
             "play_rate": 15,
             "signature": "",
-            "word_count": 59
+            "word_count": 49
         },
         {
             "card_name": "Angelbound Warden",
@@ -585,12 +585,12 @@
             "card_name": "Binder of Greed and Merit",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Creature \u2014 Human Warlock",
             "number": 207,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
-            "rules_text": "Whenever you cast a noncreature spell, create a tapped Treasure token.\nTreasures you control lose all abilities and gain \"{T}, Sacrifice this artifact: Add one mana of any color. You can't spend this mana to cast creature spells.\"",
+            "rules_text": "When Binder of Greed and Merit enters, [scry 2, then create a tapped Treasure token.]\nChant {U}{B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -600,7 +600,7 @@
             "artist": "Fei ren and Roanna Peroz",
             "play_rate": 0,
             "signature": "",
-            "word_count": 37
+            "word_count": 16
         },
         {
             "card_name": "Blade of Borrowed Breath",
@@ -926,7 +926,7 @@
             "number": 131,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Haste\nWhenever Burning Blood Orator attacks, another target creature you control has base power and toughness 4/2 until end of turn.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+            "rules_text": "Haste\nWhenever Burning Blood Orator attacks, another target creature you control has base power and toughness 4/2 and gains rapture until end of turn.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/2",
             "special_text": "",
@@ -936,7 +936,7 @@
             "artist": "Richard Lay",
             "play_rate": 0,
             "signature": "",
-            "word_count": 20
+            "word_count": 23
         },
         {
             "card_name": "Call of the Crown",
@@ -946,8 +946,8 @@
             "type": "Sorcery",
             "number": 87,
             "color_identity": "B",
-            "cost": "{X}{X}{B}{B}",
-            "rules_text": "Return each creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. For each creature returned this way, put your choice of a menace, deathtouch, or lifelink counter on it.",
+            "cost": "{X}{B}{B}{B}",
+            "rules_text": "Return each creature card with mana value X or less from your graveyard to the battlefield. For each creature returned this way, put your choice of a menace, deathtouch, or lifelink counter on it.\nExile Call of the Crown.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -957,7 +957,7 @@
             "artist": "Wilson Nugraha",
             "play_rate": 0,
             "signature": "",
-            "word_count": 40
+            "word_count": 38
         },
         {
             "card_name": "Casus Belli",
@@ -1073,7 +1073,7 @@
             "number": 209,
             "color_identity": "UB",
             "cost": "{U}{B}",
-            "rules_text": "Choose one -\n\u2022 Scry 2, then draw a card.\n\u2022 Counter target instant or sorcery spell.\n\u2022 Tap target nonland permanent and put a stun counter on it.",
+            "rules_text": "Choose one -\n\u2022 Scry 2, then draw a card.\n\u2022 Counter target instant or sorcery spell.\n\u2022 Tap target nonland permanent and put a stun counter on it. It loses all abilities until end of turn. Counter all activated abilities it's the source of.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1083,7 +1083,7 @@
             "artist": "Blackviii",
             "play_rate": 19,
             "signature": "",
-            "word_count": 26
+            "word_count": 42
         },
         {
             "card_name": "Clash at Aureth Cross",
@@ -1157,7 +1157,7 @@
             "number": 132,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of combat on your turn, create a 1/1 red Faerie creature token with haste. Sacrifice it at the beginning of the next end step.\n2 Defense - When this battle first reaches this stage, you may discard up to two cards. If you do, draw that many cards.\nDefeated - Creatures you control get +1/+0.\n\nStarting defense: 4",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of combat on your turn, create a 1/1 red Faerie creature token with haste. Sacrifice it at the beginning of the next end step.\n2 Defense\nWhen this battle first reaches this stage, you may discard up to two cards. If you do, draw that many cards plus one.\nDefeated\nCreatures you control get +1/+0.\n\nStarting defense: 4",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1167,7 +1167,7 @@
             "artist": "Alexandre Vieira",
             "play_rate": 0,
             "signature": "",
-            "word_count": 57
+            "word_count": 55
         },
         {
             "card_name": "Clash at the Shaded Maw",
@@ -1346,7 +1346,7 @@
             "number": 48,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Enchant creature you contorl\nWhenever enchanted creature or another creature you control with the same name as enchanted creature deals combat damage to a player or noncreature permanent, draw a card.",
+            "rules_text": "Enchant creature you control\nWhenever enchanted creature or another creature you control with the same name as enchanted creature deals combat damage to a player or noncreature permanent, draw a card.",
             "flavor_text": "[i]To be caught spying? Gaudy. To be worth spying on? A compliment.\n[/i]",
             "pt": "",
             "special_text": "",
@@ -1388,7 +1388,7 @@
             "number": 50,
             "color_identity": "U",
             "cost": "{4}{U}",
-            "rules_text": "Flying, vigilance\nAt the beginning of each end step, tap target creature you don't control. If you've spent four or more mana to cast instant and/or sorcery spells this turn, put a stun counter on that creature.",
+            "rules_text": "Flying, vigilance\nAt the beginning of each end step, tap target creature you don't control. If you've spent four or more mana to cast noncreature spells this turn, put a stun counter on that creature.",
             "flavor_text": "[i]\"There was no hate in its eyes. Only the calm cruelty of understanding.\"\n-Lunate soldier\n[/i]",
             "pt": "4/4",
             "special_text": "",
@@ -1398,7 +1398,7 @@
             "artist": "Thomas Chamberlain",
             "play_rate": 0,
             "signature": "",
-            "word_count": 36
+            "word_count": 34
         },
         {
             "card_name": "Crownfall Archive",
@@ -1871,9 +1871,9 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Whenever another nontoken creature you control dies, create a 2/2 white Knight creature token with vigilance.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+            "rules_text": "When Diviner of the Sun enters and whenever another nontoken creature you control dies, create a 2/2 white Knight creature token with vigilance.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "TWI",
@@ -1881,7 +1881,7 @@
             "artist": "Thanet Thanakij",
             "play_rate": 0,
             "signature": "",
-            "word_count": 16
+            "word_count": 23
         },
         {
             "card_name": "Divinity",
@@ -2291,7 +2291,7 @@
             "number": 144,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Fang of the Pale Thorn can't block.\nWhenever Fang of the Pale Thorn attacks, exile the top card of your library.\nWhen Fang of the Pale Thorn dies, you may play the last card exiled by it until the end of your next turn.",
+            "rules_text": "Fang of the Pale Thorn can't block.\nWhenever Fang of the Pale Thorn attacks, exile the top card of your library.\nWhen Fang of the Pale Thorn dies, you may play a exiled with it until the end of your next turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2301,7 +2301,7 @@
             "artist": "Thai Thanh",
             "play_rate": 103,
             "signature": "",
-            "word_count": 42
+            "word_count": 40
         },
         {
             "card_name": "Fellhorn Enforcer",
@@ -2857,8 +2857,8 @@
             "type": "Enchantment Battle \u2014 Operation",
             "number": 183,
             "color_identity": "G",
-            "cost": "{1}{G}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nYou may look at the top card of your library any time.\n4 Defense - You may play lands from the top of your library.\nDefeated - You may cast creature spells from the top of your library.\n\nStarting defense: 5",
+            "cost": "{2}{G}",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nPlay with the top card of your library revealed.\nYou may play lands from the top of your library.\n2 Defense\nYou may cast creature spells from the top of your library.\nDefeated\nYou may play an additional land on each of your turns.\n\nStarting defense: 5",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2868,7 +2868,7 @@
             "artist": "Teodora Kamburova",
             "play_rate": 0,
             "signature": "",
-            "word_count": 37
+            "word_count": 40
         },
         {
             "card_name": "Gravetithe Witch",
@@ -2879,7 +2879,7 @@
             "number": 212,
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
-            "rules_text": "Menace\nAt the beginning of each end step, return target creature card with mana value 3 or less from your graveyard to the battlefield if you've spent four or more mana to cast instant and/or sorcery spells this turn.",
+            "rules_text": "Menace\nAt the beginning of each end step, return target creature card with mana value 3 or less from your graveyard to the battlefield if you've spent four or more mana to cast noncreature spells this turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2889,7 +2889,7 @@
             "artist": "Naifan Zhang",
             "play_rate": 0,
             "signature": "",
-            "word_count": 38
+            "word_count": 36
         },
         {
             "card_name": "Groveborn Envoy",
@@ -2963,7 +2963,7 @@
             "number": 213,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
-            "rules_text": "Flash\nAt the beginning of each end step, look at the top three cards of your library if you've spent four or more mana to cast instant and/or sorcery spells this turn. You may put a card from among them into your hand. Put the rest on the bottom of your library in a random order.",
+            "rules_text": "Flash\nAt the beginning of each end step, look at the top three cards of your library if you've spent four or more mana to cast noncreature spells this turn. You may put a card from among them into your hand. Put the rest on the bottom of your library in a random order.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -2973,7 +2973,7 @@
             "artist": "sunnadier",
             "play_rate": 0,
             "signature": "",
-            "word_count": 55
+            "word_count": 53
         },
         {
             "card_name": "Hall of the Gentle Light",
@@ -3068,7 +3068,7 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Flying\nHerald of the Hollow Chant gets +2/+0 as long as you've spent four or more mana to cast instant and/or sorcery spells this turn.",
+            "rules_text": "Flying\nHerald of the Hollow Chant gets +2/+0 as long as you've spent four or more mana to cast noncreature spells this turn.",
             "flavor_text": "[i]The witches learn no magic of their own. They merely repeat the whispers first sung by things older than words.\n[/i]",
             "pt": "1/4",
             "special_text": "",
@@ -3078,7 +3078,7 @@
             "artist": "Chutipa Duangmanee",
             "play_rate": 0,
             "signature": "",
-            "word_count": 24
+            "word_count": 22
         },
         {
             "card_name": "Herald of the Radiant Banner",
@@ -3563,7 +3563,7 @@
             "cost": "{2}{U}",
             "rules_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nWhen this creature enters, draw a card.",
             "flavor_text": "[i]\"I can feel what the Vale once was, just beneath the surface. It mourns. I will give its grief a name.\"\n[/i]",
-            "pt": "0/4",
+            "pt": "1/4",
             "special_text": "",
             "shape": "normal",
             "set": "TWI",
@@ -3792,7 +3792,7 @@
             "number": 64,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Prowess\nAt the beginning of each end step, if you spent four or more mana to cast instant and/or sorcery spells this turn, you may draw a card. If you do, discard a card.",
+            "rules_text": "Prowess\nAt the beginning of each end step, if you spent four or more mana to cast noncreature spells this turn, you may draw a card. If you do, discard a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3802,7 +3802,7 @@
             "artist": "Amekoi Ellza",
             "play_rate": 0,
             "signature": "",
-            "word_count": 33
+            "word_count": 31
         },
         {
             "card_name": "Paragon of Sacred Bellows",
@@ -3897,7 +3897,7 @@
             "number": 151,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Haste\nWhenever an Illusion you control dies, put a +1/+1 counter on target Faerie.",
+            "rules_text": "Haste\nWhenever an Illusion you control dies, put a +1/+1 counter on target Faerie you control.",
             "flavor_text": "[i]The assassins of the Court of the Pale Thorn are not taught to hide, but to wait. They sit in plain sight, silent and adorned, until the moment beauty turns fatal.\n[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3907,7 +3907,7 @@
             "artist": "Sh Mt",
             "play_rate": 0,
             "signature": "",
-            "word_count": 13
+            "word_count": 15
         },
         {
             "card_name": "Plains_Sunvrath",
@@ -4127,8 +4127,8 @@
             "type": "Sorcery",
             "number": 107,
             "color_identity": "B",
-            "cost": "{2}{B}{B}",
-            "rules_text": "All creatures get -3/-3 until end of turn.\nVigor - If you've gained or lost life this turn, instead all creatures get -5/-5 until end of turn.",
+            "cost": "{1}{B}{B}",
+            "rules_text": "All creatures get -2/-2 until end of turn.\nVigor - If you've gained or lost life this turn, instead all creatures get -5/-5 until end of turn.",
             "flavor_text": "[i]\"Dragons once bore fire of the sun above. Now, the abominations only mock their former glory.\"\n-Esdran, the Unburdened\n[/i]",
             "pt": "",
             "special_text": "",
@@ -4485,7 +4485,7 @@
             "number": 111,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Whenever you cast a noncreature spell, mill a card.\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, return target creature or planeswalker card from your graveyard to your hand.",
+            "rules_text": "Whenever you cast a noncreature spell, mill a card.\nAt the beginning of each end step, if you've spent four or more mana to cast noncreature spells this turn, return target creature or planeswalker card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4495,7 +4495,7 @@
             "artist": "Envar studio",
             "play_rate": 0,
             "signature": "",
-            "word_count": 42
+            "word_count": 40
         },
         {
             "card_name": "Revivified Wrath",
@@ -4900,14 +4900,14 @@
             "card_name": "Sealed-Sigil Adept",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase",
             "color": "UB",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Creature \u2014 Elf Warlock",
             "number": 216,
             "color_identity": "UB",
-            "cost": "{2}{U}{B}",
-            "rules_text": "When Sealed-Sigil Adept enters, [you draw a card and you lose 1 life.]\nChant {U/B}  [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
+            "cost": "{U}{B}",
+            "rules_text": "When Sealed-Sigil Adept enters, discard a card, then [draw a card.]\nChant {U/B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "4/2",
+            "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "TWI",
@@ -4915,7 +4915,7 @@
             "artist": "WuMei!",
             "play_rate": 0,
             "signature": "",
-            "word_count": 14
+            "word_count": 12
         },
         {
             "card_name": "Secrets on Painted Wings",
@@ -5199,7 +5199,7 @@
             "number": 72,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Flying\n{U}, Sacrifice Skytide Piercer: [Counter target noncreature spell unless its controller pays {2}.]\nChant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
+            "rules_text": "Flying\n{1}, Sacrifice Skytide Piercer: [Counter target noncreature spell unless its controller pays {2}.]\nChant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -6081,9 +6081,9 @@
             "number": 163,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever a creature you control enters, if you didn't cast it, choose one that hasn't been chosen this turn -\n\u2022 Put a +1/+1 counter on Undarah of Fervor and Flame.\n\u2022 Undarah of Fervor and Flame gains menace until end of turn.\n\u2022 Scry 2.",
+            "rules_text": "Reach\nOnce each turn, when one or more creatures you control enter without being cast, choose one -\n\u2022 Put a +1/+1 counter on Undarah. He gains menace until end of turn.\n\u2022 Creatures you control gain trample and haste until end of turn.\n\u2022 Discard a card, then draw a card.",
             "flavor_text": "[i][/i]",
-            "pt": "2/1",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "TWI",
@@ -6091,7 +6091,7 @@
             "artist": "Alvin Lee",
             "play_rate": 7,
             "signature": "ptm",
-            "word_count": 43
+            "word_count": 48
         },
         {
             "card_name": "Undertide Scout",
@@ -6270,7 +6270,7 @@
             "number": 203,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "Trample, trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking or the player it's attacking.)[/i]\nVigor - At the beginning of your end step, you may exile Vestige of the King's Fall from your graveyard if you've gained or lost life this turn. If you do, return target Zombie card from your graveyard to your hand.",
+            "rules_text": "Trample, trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking or the player it's attacking.)[/i]\nVigor - At the beginning of your end step, if you've gained or lost life this turn, you may pay {2}{G}{G}. If you do, return Vestige of the King's Fall from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "6/5",
             "special_text": "",
@@ -6280,7 +6280,7 @@
             "artist": "Denilve",
             "play_rate": 0,
             "signature": "",
-            "word_count": 44
+            "word_count": 40
         },
         {
             "card_name": "Voice of a Fallen Covenant",
@@ -6480,7 +6480,7 @@
             "number": 82,
             "color_identity": "U",
             "cost": "{U}{U}",
-            "rules_text": "Flash\nProwess\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent eight or more, instead create a 4/4 black Horror creature token. ",
+            "rules_text": "Flash\nProwess\nAt the beginning of each end step, if you've spent four or more mana to cast noncreature spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent eight or more, instead create a 4/4 black Horror creature token. ",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -6490,7 +6490,7 @@
             "artist": "Elenadang",
             "play_rate": 15,
             "signature": "raboka",
-            "word_count": 45
+            "word_count": 43
         },
         {
             "card_name": "Witchery",
@@ -6501,7 +6501,7 @@
             "number": 271,
             "color_identity": "UB",
             "cost": "{U}{U/B}{B}",
-            "rules_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, create a 4/4 black Horror creature token.",
+            "rules_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, draw a card if you've spent four or more mana to cast noncreature spells this turn. If you've spent eight or more, also create a 4/4 black Horror creature token.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6511,7 +6511,7 @@
             "artist": "khaihoan",
             "play_rate": 63,
             "signature": "",
-            "word_count": 43
+            "word_count": 51
         },
         {
             "card_name": "Withered Wyrm",
@@ -6753,7 +6753,7 @@
             "number": 320,
             "color_identity": "UB",
             "cost": "{U}{B}",
-            "rules_text": "Choose one -\n\u2022 Scry 2, then draw a card.\n\u2022 Counter target instant or sorcery spell.\n\u2022 Tap target nonland permanent and put a stun counter on it.",
+            "rules_text": "Choose one -\n\u2022 Scry 2, then draw a card.\n\u2022 Counter target instant or sorcery spell.\n\u2022 Tap target nonland permanent and put a stun counter on it. It loses all abilities until end of turn. Counter all activated abilities it's the source of.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6763,7 +6763,7 @@
             "artist": "Ognjen Sporin",
             "play_rate": 19,
             "signature": "",
-            "word_count": 26
+            "word_count": 42
         },
         {
             "card_name": "Commander of the Vow_PRO_TWI",
@@ -7102,6 +7102,27 @@
             "word_count": 31
         },
         {
+            "card_name": "Reaper of Blossoms (KUT)",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
+            "color": "G",
+            "rarity": "special",
+            "type": "Creature \u2014 Spirit Druid",
+            "number": 339,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "Whenever Reaper of Blossoms attacks, mill three cards. Then you may pay {G}. If you do, return a land card from your graveyard to your hand. Otherwise, you gain 1 life.",
+            "flavor_text": "[i]\"The aurora provides.\"\n[/i]",
+            "pt": "2/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TWI",
+            "loyalty": "",
+            "artist": "exellero",
+            "play_rate": 138,
+            "signature": "",
+            "word_count": 31
+        },
+        {
             "card_name": "Reaper of Blossoms (IWH)",
             "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable",
             "color": "G",
@@ -7320,7 +7341,7 @@
             "number": 328,
             "color_identity": "UB",
             "cost": "{U}{U/B}{B}",
-            "rules_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, create a 4/4 black Horror creature token.",
+            "rules_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, draw a card if you've spent four or more mana to cast noncreature spells this turn. If you've spent eight or more, also create a 4/4 black Horror creature token.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -7330,7 +7351,7 @@
             "artist": "Ognjen Sporin",
             "play_rate": 63,
             "signature": "",
-            "word_count": 43
+            "word_count": 51
         },
         {
             "card_name": "white Soldier 11TWI",

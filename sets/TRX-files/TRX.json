@@ -1236,7 +1236,7 @@
             "number": 173,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, and put it into your hand. If your devotion to green is three or greater, put it onto the battlefield tapped instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
+            "rules_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, put it into your hand, then shuffle. If your devotion to green is three or greater, put it onto the battlefield tapped instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1246,7 +1246,7 @@
             "artist": "Sandra Duchiewicz",
             "play_rate": 4,
             "signature": "stasisbot",
-            "word_count": 38
+            "word_count": 39
         },
         {
             "card_name": "Ebb and Flow_TRX",
@@ -4487,7 +4487,7 @@
             "number": 117,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Lifelink\nWhenever Secluded Gorgon dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+            "rules_text": "Lifelink\nWhen Secluded Gorgon dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -5944,7 +5944,7 @@
             "number": 162,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "You may tap an untapped legendary creature you control instead of paying this spell's mana cost.\nEnchant creature.\nEnchanted creature gets +1/+0 and has menace.",
+            "rules_text": "You may tap an untapped legendary creature you control instead of paying this spell's mana cost.\nEnchant creature\nEnchanted creature gets +1/+0 and has menace.",
             "flavor_text": "[i]\"I thank Purphoros for the steel. I thank Keranos for the lightning. I thank Karda for the will to strike.\"\n[/i]",
             "pt": "",
             "special_text": "",
@@ -6972,6 +6972,27 @@
             "play_rate": 29,
             "signature": "philippe saner",
             "word_count": 26
+        },
+        {
+            "card_name": "Skola Nyxweaver_PRO_TRX",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Creature \u2014 Satyr Soldier Scout",
+            "number": 321,
+            "color_identity": "G",
+            "cost": "{G}{G}{G}",
+            "rules_text": "Whenever you cast a green spell, choose up to X, where X is the number of green mana symbols in that spell's mana cost -\n\u2022 Create a 1/1 white Human creature token.\n\u2022 Put a +1/+1 counter on a creature you control.\n\u2022 Put a trample counter, vigilance counter, or a reach counter on a creature you control.\n\u2022 Untap target land.",
+            "flavor_text": "[i][/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TRX",
+            "loyalty": "",
+            "artist": "Amanda Neves.",
+            "play_rate": 134,
+            "signature": "",
+            "word_count": 59
         },
         {
             "card_name": "Walk the Dead's Path_PRO_TRX",

@@ -815,7 +815,7 @@
             "type2": "Creature \u2014 Spirit",
             "cost2": "",
             "rules_text2": "Flying",
-            "flavor_text2": "[i]Now, he is ever-doomed to be stained with the blood of all those he has killed-a eternal reminder of his deepest transgressions.\n[/i]",
+            "flavor_text2": "[i]Now, he is ever-doomed to be stained with the blood of all those he has killed-an eternal reminder of his deepest transgressions.\n[/i]",
             "pt2": "4/4",
             "special_text2": "",
             "loyalty2": "",
@@ -1449,7 +1449,7 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When this creature enters, you may tap target creature an opponent controls.\nConcord - {2}{W}: Return this card from your graveyard to your hand. Activate only if there are there are four or more card types among permanents you control.",
+            "rules_text": "When this creature enters, you may tap target creature an opponent controls.\nConcord - {2}{W}: Return this card from your graveyard to your hand. Activate only if there are four or more card types among permanents you control.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -1459,7 +1459,7 @@
             "artist": "Elder Scrolls: Legends",
             "play_rate": 0,
             "signature": "",
-            "word_count": 39
+            "word_count": 37
         },
         {
             "card_name": "Demented Pyro-Alchemist",
@@ -2511,7 +2511,7 @@
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Curse",
             "cost2": "",
-            "rules_text2": "Enchant player\nWhenever one or more creatures attack enchanted player, target attacking creature gets +1+0 and gains flying until end of turn. Untap that creature.\nIf this Aura would be put into a graveyard from anywhere, exile it instead.",
+            "rules_text2": "Enchant player\nWhenever one or more creatures attack enchanted player, target attacking creature gets +1/+0 and gains flying until end of turn. Untap that creature.\nIf this Aura would be put into a graveyard from anywhere, exile it instead.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -6957,6 +6957,27 @@
             "play_rate": 50,
             "signature": "",
             "word_count": 51
+        },
+        {
+            "card_name": "Cordelia's Ripper_PRO_IWH",
+            "notes": "\n!tag eternal\n!tag standard\n!tag planechase\n!tag staple\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Creature \u2014 Vampire Berserker",
+            "number": 326,
+            "color_identity": "R",
+            "cost": "{7}{R}{R}",
+            "rules_text": "This spell costs {1} less to cast for each instant, sorcery, and/or Vampire card in your graveyard.\nFlying, haste\nWhenever this creature attacks, it deals 2 damage to any target.",
+            "flavor_text": "[i][/i]",
+            "pt": "3/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "IWH",
+            "loyalty": "",
+            "artist": "Carlo Reynolds",
+            "play_rate": 305,
+            "signature": "",
+            "word_count": 28
         },
         {
             "card_name": "Darkthicket Howler_PRO_IWH",

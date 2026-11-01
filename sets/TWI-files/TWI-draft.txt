@@ -186,7 +186,7 @@
 			"collector_number": "234",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nWhenever a creature you control becomes blocked, it deals 1 damage to the player or permanent it's attacking. Scry 1.",
+			"oracle_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nWhenever a creature you control dies or is exiled, it deals 1 damage to each opponent. Scry 1.",
 		},
 		
 		{
@@ -199,7 +199,7 @@
 			"collector_number": "258",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[+2]: Exile up to two target creatures you own. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.\n[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn. [i](They don't lose loyalty while not a planeswalker.)[/i]\n[-2]: Ameret, Seeker of the Sun deals 3 damage to any target and you gain 3 life.",
+			"oracle_text": "Lifelink\n[+2]: Exile up to two target creatures you own. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.\n[+1]: Ameret becomes a 4/4 Angel creature with flying and indestructible until end of turn. [i](They don't lose loyalty while not a planeswalker.)[/i]\n[-3]: Ameret deals 5 damage to any nonplayer target.",
 		},
 		
 		{
@@ -391,9 +391,9 @@
 			"colors": ["U","B"],
 			"set": "TWI",
 			"collector_number": "207",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a noncreature spell, create a tapped Treasure token.\nTreasures you control lose all abilities and gain \"{T}, Sacrifice this artifact: Add one mana of any color. You can't spend this mana to cast creature spells.\"",
+			"oracle_text": "When Binder of Greed and Merit enters, [scry 2, then create a tapped Treasure token.]\nChant {U}{B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
 		},
 		
 		{
@@ -601,12 +601,12 @@
 			"collector_number": "131",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever Burning Blood Orator attacks, another target creature you control has base power and toughness 4/2 until end of turn.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+			"oracle_text": "Haste\nWhenever Burning Blood Orator attacks, another target creature you control has base power and toughness 4/2 and gains rapture until end of turn.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
 		},
 		
 		{
 			"name": "Call of the Crown",
-			"mana_cost": "{X}{X}{B}{B}",
+			"mana_cost": "{X}{B}{B}{B}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/87_Call of the Crown.jpg",
 			"colors": ["B"],
@@ -614,7 +614,7 @@
 			"collector_number": "87",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "Return each creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. For each creature returned this way, put your choice of a menace, deathtouch, or lifelink counter on it.",
+			"oracle_text": "Return each creature card with mana value X or less from your graveyard to the battlefield. For each creature returned this way, put your choice of a menace, deathtouch, or lifelink counter on it.\nExile Call of the Crown.",
 		},
 		
 		{
@@ -692,7 +692,7 @@
 			"collector_number": "209",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Choose one -\n• Scry 2, then draw a card.\n• Counter target instant or sorcery spell.\n• Tap target nonland permanent and put a stun counter on it.",
+			"oracle_text": "Choose one -\n• Scry 2, then draw a card.\n• Counter target instant or sorcery spell.\n• Tap target nonland permanent and put a stun counter on it. It loses all abilities until end of turn. Counter all activated abilities it's the source of.",
 		},
 		
 		{
@@ -744,7 +744,7 @@
 			"collector_number": "132",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of combat on your turn, create a 1/1 red Faerie creature token with haste. Sacrifice it at the beginning of the next end step.\n2 Defense - When this battle first reaches this stage, you may discard up to two cards. If you do, draw that many cards.\nDefeated - Creatures you control get +1/+0.\n\nStarting defense: 4",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nAt the beginning of combat on your turn, create a 1/1 red Faerie creature token with haste. Sacrifice it at the beginning of the next end step.\n2 Defense\nWhen this battle first reaches this stage, you may discard up to two cards. If you do, draw that many cards plus one.\nDefeated\nCreatures you control get +1/+0.\n\nStarting defense: 4",
 		},
 		
 		{
@@ -861,7 +861,7 @@
 			"collector_number": "48",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Enchant creature you contorl\nWhenever enchanted creature or another creature you control with the same name as enchanted creature deals combat damage to a player or noncreature permanent, draw a card.",
+			"oracle_text": "Enchant creature you control\nWhenever enchanted creature or another creature you control with the same name as enchanted creature deals combat damage to a player or noncreature permanent, draw a card.",
 		},
 		
 		{
@@ -887,7 +887,7 @@
 			"collector_number": "50",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Flying, vigilance\nAt the beginning of each end step, tap target creature you don't control. If you've spent four or more mana to cast instant and/or sorcery spells this turn, put a stun counter on that creature.",
+			"oracle_text": "Flying, vigilance\nAt the beginning of each end step, tap target creature you don't control. If you've spent four or more mana to cast noncreature spells this turn, put a stun counter on that creature.",
 		},
 		
 		{
@@ -1186,7 +1186,7 @@
 			"collector_number": "15",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever another nontoken creature you control dies, create a 2/2 white Knight creature token with vigilance.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+			"oracle_text": "When Diviner of the Sun enters and whenever another nontoken creature you control dies, create a 2/2 white Knight creature token with vigilance.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
 		},
 		
 		{
@@ -1446,7 +1446,7 @@
 			"collector_number": "144",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Fang of the Pale Thorn can't block.\nWhenever Fang of the Pale Thorn attacks, exile the top card of your library.\nWhen Fang of the Pale Thorn dies, you may play the last card exiled by it until the end of your next turn.",
+			"oracle_text": "Fang of the Pale Thorn can't block.\nWhenever Fang of the Pale Thorn attacks, exile the top card of your library.\nWhen Fang of the Pale Thorn dies, you may play a exiled with it until the end of your next turn.",
 		},
 		
 		{
@@ -1789,7 +1789,7 @@
 		
 		{
 			"name": "Gravebound Oath",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/183_Gravebound Oath.jpg",
 			"colors": ["G"],
@@ -1797,7 +1797,7 @@
 			"collector_number": "183",
 			"rarity": "mythic",
 			"subtypes": [],
-			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nYou may look at the top card of your library any time.\n4 Defense - You may play lands from the top of your library.\nDefeated - You may cast creature spells from the top of your library.\n\nStarting defense: 5",
+			"oracle_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)[/i]\nPlay with the top card of your library revealed.\nYou may play lands from the top of your library.\n2 Defense\nYou may cast creature spells from the top of your library.\nDefeated\nYou may play an additional land on each of your turns.\n\nStarting defense: 5",
 		},
 		
 		{
@@ -1810,7 +1810,7 @@
 			"collector_number": "212",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Menace\nAt the beginning of each end step, return target creature card with mana value 3 or less from your graveyard to the battlefield if you've spent four or more mana to cast instant and/or sorcery spells this turn.",
+			"oracle_text": "Menace\nAt the beginning of each end step, return target creature card with mana value 3 or less from your graveyard to the battlefield if you've spent four or more mana to cast noncreature spells this turn.",
 		},
 		
 		{
@@ -1862,7 +1862,7 @@
 			"collector_number": "213",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nAt the beginning of each end step, look at the top three cards of your library if you've spent four or more mana to cast instant and/or sorcery spells this turn. You may put a card from among them into your hand. Put the rest on the bottom of your library in a random order.",
+			"oracle_text": "Flash\nAt the beginning of each end step, look at the top three cards of your library if you've spent four or more mana to cast noncreature spells this turn. You may put a card from among them into your hand. Put the rest on the bottom of your library in a random order.",
 		},
 		
 		{
@@ -1927,7 +1927,7 @@
 			"collector_number": "99",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Flying\nHerald of the Hollow Chant gets +2/+0 as long as you've spent four or more mana to cast instant and/or sorcery spells this turn.",
+			"oracle_text": "Flying\nHerald of the Hollow Chant gets +2/+0 as long as you've spent four or more mana to cast noncreature spells this turn.",
 		},
 		
 		{
@@ -2381,7 +2381,7 @@
 			"collector_number": "64",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Prowess\nAt the beginning of each end step, if you spent four or more mana to cast instant and/or sorcery spells this turn, you may draw a card. If you do, discard a card.",
+			"oracle_text": "Prowess\nAt the beginning of each end step, if you spent four or more mana to cast noncreature spells this turn, you may draw a card. If you do, discard a card.",
 		},
 		
 		{
@@ -2446,7 +2446,7 @@
 			"collector_number": "151",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Haste\nWhenever an Illusion you control dies, put a +1/+1 counter on target Faerie.",
+			"oracle_text": "Haste\nWhenever an Illusion you control dies, put a +1/+1 counter on target Faerie you control.",
 		},
 		
 		{
@@ -2581,7 +2581,7 @@
 		
 		{
 			"name": "Rain of Blight",
-			"mana_cost": "{2}{B}{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/107_Rain of Blight.jpg",
 			"colors": ["B"],
@@ -2589,7 +2589,7 @@
 			"collector_number": "107",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "All creatures get -3/-3 until end of turn.\nVigor - If you've gained or lost life this turn, instead all creatures get -5/-5 until end of turn.",
+			"oracle_text": "All creatures get -2/-2 until end of turn.\nVigor - If you've gained or lost life this turn, instead all creatures get -5/-5 until end of turn.",
 		},
 		
 		{
@@ -2810,7 +2810,7 @@
 			"collector_number": "111",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a noncreature spell, mill a card.\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, return target creature or planeswalker card from your graveyard to your hand.",
+			"oracle_text": "Whenever you cast a noncreature spell, mill a card.\nAt the beginning of each end step, if you've spent four or more mana to cast noncreature spells this turn, return target creature or planeswalker card from your graveyard to your hand.",
 		},
 		
 		{
@@ -3062,15 +3062,15 @@
 		
 		{
 			"name": "Sealed-Sigil Adept",
-			"mana_cost": "{2}{U}{B}",
+			"mana_cost": "{U}{B}",
 			"type": "Creature",
 			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/216_Sealed-Sigil Adept.jpg",
 			"colors": ["U","B"],
 			"set": "TWI",
 			"collector_number": "216",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When Sealed-Sigil Adept enters, [you draw a card and you lose 1 life.]\nChant {U/B}  [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
+			"oracle_text": "When Sealed-Sigil Adept enters, discard a card, then [draw a card.]\nChant {U/B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
 		},
 		
 		{
@@ -3252,7 +3252,7 @@
 			"collector_number": "72",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flying\n{U}, Sacrifice Skytide Piercer: [Counter target noncreature spell unless its controller pays {2}.]\nChant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
+			"oracle_text": "Flying\n{1}, Sacrifice Skytide Piercer: [Counter target noncreature spell unless its controller pays {2}.]\nChant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]",
 		},
 		
 		{
@@ -3798,7 +3798,7 @@
 			"collector_number": "163",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever a creature you control enters, if you didn't cast it, choose one that hasn't been chosen this turn -\n• Put a +1/+1 counter on Undarah of Fervor and Flame.\n• Undarah of Fervor and Flame gains menace until end of turn.\n• Scry 2.",
+			"oracle_text": "Reach\nOnce each turn, when one or more creatures you control enter without being cast, choose one -\n• Put a +1/+1 counter on Undarah. He gains menace until end of turn.\n• Creatures you control gain trample and haste until end of turn.\n• Discard a card, then draw a card.",
 		},
 		
 		{
@@ -3915,7 +3915,7 @@
 			"collector_number": "203",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Trample, trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking or the player it's attacking.)[/i]\nVigor - At the beginning of your end step, you may exile Vestige of the King's Fall from your graveyard if you've gained or lost life this turn. If you do, return target Zombie card from your graveyard to your hand.",
+			"oracle_text": "Trample, trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking or the player it's attacking.)[/i]\nVigor - At the beginning of your end step, if you've gained or lost life this turn, you may pay {2}{G}{G}. If you do, return Vestige of the King's Fall from your graveyard to the battlefield tapped.",
 		},
 		
 		{
@@ -4045,7 +4045,7 @@
 			"collector_number": "82",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Flash\nProwess\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent eight or more, instead create a 4/4 black Horror creature token. ",
+			"oracle_text": "Flash\nProwess\nAt the beginning of each end step, if you've spent four or more mana to cast noncreature spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent eight or more, instead create a 4/4 black Horror creature token. ",
 		},
 		
 		{
@@ -4058,7 +4058,7 @@
 			"collector_number": "271",
 			"rarity": "rare",
 			"subtypes": [],
-			"oracle_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, if you've spent four or more mana to cast instant and/or sorcery spells this turn, create a 4/4 black Horror creature token.",
+			"oracle_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.\nAt the beginning of each end step, draw a card if you've spent four or more mana to cast noncreature spells this turn. If you've spent eight or more, also create a 4/4 black Horror creature token.",
 		},
 		
 		{
@@ -4124,6 +4124,19 @@
 			"rarity": "special",
 			"subtypes": [],
 			"oracle_text": "Flying, lifelink\nPrevent all damage that would be dealt to battles you protect.\nYou, battles you control, and other creatures you control have hexproof.",
+		},
+		
+		{
+			"name": "Reaper of Blossoms (KUT)",
+			"mana_cost": "{1}{G}",
+			"type": "Creature",
+			"image": "https://EscapeFromLimbo.github.io/sets/TWI-files/img/339_Reaper of Blossoms (KUT).jpg",
+			"colors": ["G"],
+			"set": "TWI",
+			"collector_number": "339",
+			"rarity": "special",
+			"subtypes": [],
+			"oracle_text": "Whenever Reaper of Blossoms attacks, mill three cards. Then you may pay {G}. If you do, return a land card from your graveyard to your hand. Otherwise, you gain 1 life.",
 		},
 		
 		{
@@ -4351,6 +4364,7 @@
 20 Ashes of the Self
 20 Aureth Cross Crusader
 20 Bastion of Aureth
+20 Binder of Greed and Merit
 20 Blade of Borrowed Breath
 20 Blade of the Sunvrath
 20 Blaze Beyond Limits
@@ -4411,7 +4425,6 @@
 20 Sanctum of Repression
 20 Scorchroot Forerunner
 20 Scornful Hexmistress
-20 Sealed-Sigil Adept
 20 Seer of Shackled Breath
 20 Sentinel of Dawnbloom Grove
 20 Shaper of Luminous Will
@@ -4449,7 +4462,6 @@
 10 Architect of Resolve
 10 Aspen's Oathguard
 10 Banner Breaker
-10 Binder of Greed and Merit
 10 Blessed Linewarden
 10 Bloodline Inciter
 10 Boundlight Seraph
@@ -4513,6 +4525,7 @@
 10 Sanctified Ravager
 10 Sanctum of Bleeding Bark
 10 Scour the Crownlands
+10 Sealed-Sigil Adept
 10 Secrets on Painted Wings
 10 Shared in Shadow
 10 Softlight Harmonist
@@ -4690,6 +4703,7 @@
 6 Ashes of the Self
 6 Aureth Cross Crusader
 6 Bastion of Aureth
+6 Binder of Greed and Merit
 6 Blade of Borrowed Breath
 6 Blade of the Sunvrath
 6 Blaze Beyond Limits
@@ -4750,7 +4764,6 @@
 6 Sanctum of Repression
 6 Scorchroot Forerunner
 6 Scornful Hexmistress
-6 Sealed-Sigil Adept
 6 Seer of Shackled Breath
 6 Sentinel of Dawnbloom Grove
 6 Shaper of Luminous Will
@@ -4786,7 +4799,6 @@
 4 Architect of Resolve
 4 Aspen's Oathguard
 4 Banner Breaker
-4 Binder of Greed and Merit
 4 Blessed Linewarden
 4 Bloodline Inciter
 4 Boundlight Seraph
@@ -4850,6 +4862,7 @@
 4 Sanctified Ravager
 4 Sanctum of Bleeding Bark
 4 Scour the Crownlands
+4 Sealed-Sigil Adept
 4 Secrets on Painted Wings
 4 Shared in Shadow
 4 Softlight Harmonist

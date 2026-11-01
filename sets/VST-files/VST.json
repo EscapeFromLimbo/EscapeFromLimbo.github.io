@@ -517,7 +517,7 @@
             "number": 5,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Convoy Forerunner dies, choose one -\n\u2022 Create a 1/1 white Nomad creature token with vigilance.\n\u2022 Search your library for a Nomad card, reveal it, then shuffle and put that card on top of it.",
+            "rules_text": "When Convoy Forerunner dies, choose one -\n\u2022 Create a 1/1 white Nomad creature token with vigilance.\n\u2022 Search your library for a Nomad card, reveal it, then shuffle and put that card on top.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -527,7 +527,7 @@
             "artist": "Xiangyu Liu",
             "play_rate": 0,
             "signature": "",
-            "word_count": 35
+            "word_count": 33
         },
         {
             "card_name": "Convoy Laggu-Rider_VST",
@@ -1378,7 +1378,7 @@
             "number": 240,
             "color_identity": "",
             "cost": "",
-            "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.",
+            "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1388,7 +1388,7 @@
             "artist": "Marco Gorlei",
             "play_rate": 338,
             "signature": "",
-            "word_count": 34
+            "word_count": 32
         },
         {
             "card_name": "Fierce Infighting_VST",
@@ -5305,7 +5305,7 @@
             "number": 193,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle. Create a 1/1 white Nomad creature token with vigilance.",
+            "rules_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Create a 1/1 white Nomad creature token with vigilance.",
             "flavor_text": "[i]\"I made it home. I miss you, Ori.\"\n-Journal of a Ruin Seeker, part 5\n[/i]",
             "pt": "",
             "special_text": "",
@@ -5315,7 +5315,7 @@
             "artist": "Noah Bradley",
             "play_rate": 0,
             "signature": "",
-            "word_count": 27
+            "word_count": 26
         },
         {
             "card_name": "Wither Away_VST",

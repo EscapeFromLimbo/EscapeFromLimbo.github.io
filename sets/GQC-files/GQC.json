@@ -5368,7 +5368,7 @@
             "number": 240,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "Devoid [i](This card has no color.)[/i]\nGain control of target permanent with mana value 3 or less. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+            "rules_text": "Devoid [i](This card has no color.)[/i]\nGain control of target permanent with mana value 3 or less. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5378,7 +5378,7 @@
             "artist": "Jorge Jacinto",
             "play_rate": 3,
             "signature": "philippe saner",
-            "word_count": 33
+            "word_count": 31
         },
         {
             "card_name": "Welkin Outrider_GQC",
@@ -5465,6 +5465,27 @@
             "word_count": 9
         },
         {
+            "card_name": "Flourish in Calamity_PRO_GQC",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Kindred Sorcery \u2014 Eldrazi Revelation",
+            "number": 265,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "Devoid [i](This card has no color.)[/i]\nDraw a card. You may put a basic land card from your hand onto the battlefield tapped.\nCoalesce {5}{G}{G} [i](You may cast this for {5}{G}{G} from your graveyard. If you do, put it onto the battlefield as an Eldrazi Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "6/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "GQC",
+            "loyalty": "",
+            "artist": "The_Cal_",
+            "play_rate": 174,
+            "signature": "",
+            "word_count": 18
+        },
+        {
             "card_name": "Grasp at Frail Dreams_PRO_GQC",
             "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
             "color": "U",
@@ -5484,6 +5505,27 @@
             "play_rate": 544,
             "signature": "",
             "word_count": 21
+        },
+        {
+            "card_name": "Merciless Shieldbreaker_PRO_GQC",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "R",
+            "rarity": "special",
+            "type": "Creature \u2014 Orc Warrior",
+            "number": 264,
+            "color_identity": "R",
+            "cost": "{2}{R}{R}",
+            "rules_text": "Whenever Merciless Shieldbreaker enters or attacks, target opponent puts three rust counters on a permanent they control with no rust counters on it. That permanent gains \"At the beginning of your upkeep, remove a rust counter from this permanent. Then if there are no rust counters on this permanent, sacrifice it and it deals 4 damage to you.\"",
+            "flavor_text": "[i][/i]",
+            "pt": "4/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "GQC",
+            "loyalty": "",
+            "artist": "Vinz El Tabanas",
+            "play_rate": 372,
+            "signature": "",
+            "word_count": 58
         },
         {
             "card_name": "Suffer Vile Retribution_PRO_GQC",

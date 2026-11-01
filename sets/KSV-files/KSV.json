@@ -1034,7 +1034,7 @@
             "word_count": 50
         },
         {
-            "card_name": "Coalition Encampent_KSV",
+            "card_name": "Coalition Encampment_KSV",
             "notes": "\n!tag eternal\n!tag rotated",
             "color": "UG",
             "rarity": "uncommon",
@@ -1525,7 +1525,7 @@
             "number": 134,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Menace\nWhenever one or more creatures you control deals combat damage to an opponent, you may sacrifice an attacking creature. When you do, that creature deals damage equal to its power to any target.",
+            "rules_text": "Menace\nWhenever one or more creatures you control deal combat damage to an opponent, you may sacrifice an attacking creature. When you do, that creature deals damage equal to its power to any target.",
             "flavor_text": "[i]\"Run little elf, payback comes.\"\n[/i]",
             "pt": "4/3",
             "special_text": "",
@@ -5095,7 +5095,7 @@
             "number": 160,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Defender, haste\n{2}{R}, {T}: Create a number of 1/1 red Goblin creature tokens with haste equal to to number of creatures with defender you control. Exile those tokens at the beginning of the next end step. Activate only as a sorcery.",
+            "rules_text": "Defender, haste\n{2}{R}, {T}: Create a number of 1/1 red Goblin creature tokens with haste equal to number of creatures with defender you control. Exile those tokens at the beginning of the next end step. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "0/4",
             "special_text": "",
@@ -5105,7 +5105,7 @@
             "artist": "Mitch Aseltine",
             "play_rate": 0,
             "signature": "",
-            "word_count": 40
+            "word_count": 39
         },
         {
             "card_name": "Trench Medic_KSV",
@@ -5736,6 +5736,27 @@
             "play_rate": 140,
             "signature": "",
             "word_count": 36
+        },
+        {
+            "card_name": "New Growth_PRO_KSV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Instant",
+            "number": 282,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "Exile target noncreature permanent. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KSV",
+            "loyalty": "",
+            "artist": "Samtheconceptartist",
+            "play_rate": 214,
+            "signature": "",
+            "word_count": 23
         },
         {
             "card_name": "No Respite_PRO_KSV",

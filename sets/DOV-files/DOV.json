@@ -1820,7 +1820,7 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Exile target artifact or creature you control, then return that card to the battlefield under its owner's control. If it enters as a creature, it enters with your choice of a +1/+1 counter or a flying counter on it.",
-            "flavor_text": "[i]The Enlightened Foundation experiment with mastering all the wordly elements of Vereaux.\n[/i]",
+            "flavor_text": "[i]The Enlightened Foundation experiment with mastering all the worldy elements of Vereaux.\n[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -2029,7 +2029,7 @@
             "number": 296,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Vigilance, lifelink\nRevolt - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, you may exile target permanent card with mana 2 or less from your graveyard. If you do, create a tapped token that's a copy of that card.",
+            "rules_text": "Vigilance, lifelink\nRevolt - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, you may exile target permanent card with mana value 2 or less from your graveyard. If you do, create a tapped token that's a copy of that card.",
             "flavor_text": "[i]\"The angels lie. Cecile is no Divine.\"\n[/i]",
             "pt": "4/3",
             "special_text": "",
@@ -2039,7 +2039,7 @@
             "artist": "lorenzo-mastroianni \u2014 edit",
             "play_rate": 11,
             "signature": "",
-            "word_count": 47
+            "word_count": 48
         },
         {
             "card_name": "Flourishing Crevasse_DOV",
@@ -2575,7 +2575,7 @@
             "number": 109,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "When Hans Nehmann enters, you may search your library for a card named Marie Laurent or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top of it.\nLegendary Allies you control have lifelink.",
+            "rules_text": "When Hans Nehmann enters, you may search your library for a card named Marie Laurent or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top.\nLegendary Allies you control have lifelink.",
             "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
@@ -2585,7 +2585,7 @@
             "artist": "Wesley Burt",
             "play_rate": 0,
             "signature": "",
-            "word_count": 39
+            "word_count": 37
         },
         {
             "card_name": "Hart of Harnelle Wood_DOV",
@@ -3415,7 +3415,7 @@
             "number": 27,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Marie Laurent enters, you may search your library for a card named Hans Nehmann or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top of it.\nLegendary Allies you control have double strike.",
+            "rules_text": "When Marie Laurent enters, you may search your library for a card named Hans Nehmann or Diago Maldovo and reveal that card. If you do, shuffle, then put the card on top.\nLegendary Allies you control have double strike.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -3425,7 +3425,7 @@
             "artist": "Gpzang",
             "play_rate": 34,
             "signature": "",
-            "word_count": 40
+            "word_count": 38
         },
         {
             "card_name": "Master of the Dark Arts_DOV",
@@ -6660,6 +6660,27 @@
             "play_rate": 48,
             "signature": "",
             "word_count": 45
+        },
+        {
+            "card_name": "Thorngrafter_PRO_DOV",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Creature \u2014 Human Plant Druid",
+            "number": 322,
+            "color_identity": "G",
+            "cost": "{G}",
+            "rules_text": "Thorngrafter enters with a +1/+1 counter and your choice of counter from among deathtouch, reach, trample, or vigilance on it.\n{1}, {T}: Put a +1/+1 counter on Thorngrafter.\n{T}: You may move a counter from Thorngrafter to another creature you control. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
+            "pt": "0/0",
+            "special_text": "",
+            "shape": "normal",
+            "set": "DOV",
+            "loyalty": "",
+            "artist": "Ognjen Sporin",
+            "play_rate": 118,
+            "signature": "",
+            "word_count": 44
         },
         {
             "card_name": "Treasury Pilferer_PRO_DOV",

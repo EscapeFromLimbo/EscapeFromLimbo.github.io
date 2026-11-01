@@ -1040,7 +1040,7 @@
             "number": 175,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Search your library for up to two basic land cards with different names and put them onto the battlefield tapped. Then you gain life equal to the number of colors among permanents you control.",
+            "rules_text": "Search your library for up to two basic land cards with different names, put them onto the battlefield tapped, then shuffle.\nYou gain life equal to the number of colors among permanents you control.",
             "flavor_text": "[i]\"The collision of worlds does not have to yield conflict, but can spur growth.\"\n-Haru\n[/i]",
             "pt": "",
             "special_text": "",
@@ -1050,7 +1050,7 @@
             "artist": "Christian Benavides",
             "play_rate": 0,
             "signature": "",
-            "word_count": 34
+            "word_count": 33
         },
         {
             "card_name": "Cruel Ashlord_KRS",
@@ -6351,6 +6351,27 @@
             "play_rate": 12,
             "signature": "hsquid",
             "word_count": 18
+        },
+        {
+            "card_name": "Nesting Hellkite_PRO_KRS",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable\n!tag promo",
+            "color": "RG",
+            "rarity": "special",
+            "type": "Creature \u2014 Dragon",
+            "number": 298,
+            "color_identity": "RG",
+            "cost": "{4}{R}{G}",
+            "rules_text": "Flying\nWhen Nesting Hellkite enters, create an 0/1 green Egg creature token with defender and \"When this creature dies, reveal cards from the top of your library until you reveal a Dragon creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.\"",
+            "flavor_text": "[i][/i]",
+            "pt": "5/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "KRS",
+            "loyalty": "",
+            "artist": "nr_zrzr",
+            "play_rate": 48,
+            "signature": "",
+            "word_count": 52
         },
         {
             "card_name": "Planar Exodus_PRO_KRS",

@@ -851,7 +851,7 @@
 			"collector_number": "173",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, and put it into your hand. If your devotion to green is three or greater, put it onto the battlefield tapped instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
+			"oracle_text": "When Dryad of the Keen-Eyed enters, search your library for a basic Forest card, reveal it, put it into your hand, then shuffle. If your devotion to green is three or greater, put it onto the battlefield tapped instead. [i](Each {G} in the mana costs of permanents you control counts toward your devotion to green.)[/i]",
 		},
 		
 		{
@@ -2910,7 +2910,7 @@
 			"collector_number": "117",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "Lifelink\nWhenever Secluded Gorgon dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+			"oracle_text": "Lifelink\nWhen Secluded Gorgon dies, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
 			"back": {
 				"name": "Glare of the Gorgon_TRX",
 				"mana_cost": "{1}{B}",
@@ -3841,7 +3841,7 @@
 			"collector_number": "162",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "You may tap an untapped legendary creature you control instead of paying this spell's mana cost.\nEnchant creature.\nEnchanted creature gets +1/+0 and has menace.",
+			"oracle_text": "You may tap an untapped legendary creature you control instead of paying this spell's mana cost.\nEnchant creature\nEnchanted creature gets +1/+0 and has menace.",
 		},
 		
 		{

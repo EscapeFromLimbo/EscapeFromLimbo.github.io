@@ -1447,7 +1447,7 @@
 			"collector_number": "172",
 			"rarity": "common",
 			"subtypes": [],
-			"oracle_text": "{G}, {T}, Sacrifice an artifact or enchantment: Cache the top card of your library face down. Activate only as a sorcery. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this:You may play the cached card this turn.\")[/i]",
+			"oracle_text": "{G}, {T}, Sacrifice an artifact or enchantment: Cache the top card of your library face down. Activate only as a sorcery. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")[/i]",
 		},
 		
 		{
@@ -1759,7 +1759,7 @@
 			"collector_number": "53",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this:You may play the cached card this turn.\")[/i]\n{1}{U}, Sacrifice a Memory: Draw a card.",
+			"oracle_text": "When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")[/i]\n{1}{U}, Sacrifice a Memory: Draw a card.",
 		},
 		
 		{
@@ -1850,7 +1850,7 @@
 			"collector_number": "55",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this:You may play the cached card this turn.\")[/i]\nActivated abilities of Memories you control cost {1} less to activate.",
+			"oracle_text": "When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with \"{2}, Sacrifice this: You may play the cached card this turn.\")[/i]\nActivated abilities of Memories you control cost {1} less to activate.",
 		},
 		
 		{
@@ -3280,7 +3280,7 @@
 			"collector_number": "32",
 			"rarity": "uncommon",
 			"subtypes": [],
-			"oracle_text": "Level up {1}{B} [i]({1}{B}: Put a level counter on this. Level up only as a sorcery.)[/i] [4/2]\n[level 1-3] When this creature dies, return it to its owner's hand. [5/3]\n[level 4+] Whenever a creature you control dies, return it its owner's hand. [6/4]",
+			"oracle_text": "Level up {1}{B} [i]({1}{B}: Put a level counter on this as a sorcery.)[/i] [4/2]\n[level 1-3] When this creature dies, return it to its owner's hand. [5/3]\n[level 4+] Whenever a creature you control dies, return it to its owner's hand. [6/4]",
 		},
 		
 		{

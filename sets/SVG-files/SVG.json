@@ -3534,7 +3534,7 @@
             "number": 56,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nWhen Spirit of the World's Edge enters, you may search your library for a card named Biting Gale or Divination, reveal it, and put it into your hand.",
+            "rules_text": "Flying\nWhen Spirit of the World's Edge enters, you may search your library for a card named Biting Gale or Divination, reveal it, put it into your hand, then shuffle.",
             "flavor_text": "[i]There are few sights more inspiring than the aurora of the north.\n[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3544,7 +3544,7 @@
             "artist": "Andy Aslamov",
             "play_rate": 0,
             "signature": "",
-            "word_count": 28
+            "word_count": 29
         },
         {
             "card_name": "Star-Forged Hammer_SVG",
@@ -4500,6 +4500,27 @@
             "play_rate": 197,
             "signature": "",
             "word_count": 29
+        },
+        {
+            "card_name": "Explore_PRO_SVG",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable\n!tag promo",
+            "color": "G",
+            "rarity": "special",
+            "type": "Sorcery",
+            "number": 216,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "You may play an additional land this turn.\nDraw a card.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "SVG",
+            "loyalty": "",
+            "artist": "Karolowania",
+            "play_rate": 308,
+            "signature": "",
+            "word_count": 10
         },
         {
             "card_name": "Feast of the Crows_PRO_SVG",
