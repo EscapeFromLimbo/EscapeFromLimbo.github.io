@@ -111,7 +111,7 @@
         },
         {
             "card_name": "Ancestral Secrets_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -153,7 +153,7 @@
         },
         {
             "card_name": "Ardent Ascetic_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag worlds\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "special",
             "type": "Creature \u2014 Human Druid",
@@ -300,7 +300,7 @@
         },
         {
             "card_name": "At the Walls_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
@@ -867,7 +867,7 @@
         },
         {
             "card_name": "Canopy Culling_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1056,7 +1056,7 @@
         },
         {
             "card_name": "Contested Passage_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -1182,7 +1182,7 @@
         },
         {
             "card_name": "Dauntless Honor Guard_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Flagbearer",
@@ -1329,7 +1329,7 @@
         },
         {
             "card_name": "Defile the Silver Court_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Campaign",
@@ -1350,7 +1350,7 @@
         },
         {
             "card_name": "Defiled Warden_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Elf Druid",
@@ -1581,7 +1581,7 @@
         },
         {
             "card_name": "Engines of War_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1896,7 +1896,7 @@
         },
         {
             "card_name": "Flesh-Mad Necrosage_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -1938,7 +1938,7 @@
         },
         {
             "card_name": "Fleshforged Hunter_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Berserker",
@@ -1980,7 +1980,7 @@
         },
         {
             "card_name": "Fleshmaker's Harvest_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Campaign",
@@ -2295,7 +2295,7 @@
         },
         {
             "card_name": "Glimpse Beyond Pull Back_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "UB",
             "rarity": "rare",
             "type": "Sorcery",
@@ -2400,7 +2400,7 @@
         },
         {
             "card_name": "Half-Heart_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Zombie Soldier",
@@ -2925,7 +2925,7 @@
         },
         {
             "card_name": "March on Atterdal_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Campaign",
@@ -2946,7 +2946,7 @@
         },
         {
             "card_name": "Matchmaker_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Wizard",
@@ -3261,7 +3261,7 @@
         },
         {
             "card_name": "Overrule Orders_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
@@ -3387,7 +3387,7 @@
         },
         {
             "card_name": "Pyrefall Ragecaller_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Shaman",
@@ -3597,7 +3597,7 @@
         },
         {
             "card_name": "Raise Rampage_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "BR",
             "rarity": "rare",
             "type": "Sorcery",
@@ -3744,7 +3744,7 @@
         },
         {
             "card_name": "Reconsider_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -3765,7 +3765,7 @@
         },
         {
             "card_name": "Redeploy_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -3849,7 +3849,7 @@
         },
         {
             "card_name": "Rial, Silver Rose General_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Elf Soldier",
@@ -4227,7 +4227,7 @@
         },
         {
             "card_name": "Shatter Identity Reform Purpose_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4332,7 +4332,7 @@
         },
         {
             "card_name": "Silversong Ancient_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental",
@@ -4941,7 +4941,7 @@
         },
         {
             "card_name": "The Ashen Twins_KSV",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Orc Warrior",
@@ -5214,7 +5214,7 @@
         },
         {
             "card_name": "Unshackle the Deceiver_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Campaign",
@@ -5235,7 +5235,7 @@
         },
         {
             "card_name": "Vanguard Assault_KSV",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",

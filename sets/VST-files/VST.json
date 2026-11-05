@@ -447,7 +447,7 @@
         },
         {
             "card_name": "Claim What Remains_VST",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
@@ -1140,7 +1140,7 @@
         },
         {
             "card_name": "Evaldi's Masterpiece_VST",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Mutant",
@@ -1161,7 +1161,7 @@
         },
         {
             "card_name": "Evaldi's Muse_VST",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Wurm",
@@ -2337,7 +2337,7 @@
         },
         {
             "card_name": "Landscape Decay_VST",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2484,7 +2484,7 @@
         },
         {
             "card_name": "Leyline Reaper_VST",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
@@ -3933,7 +3933,7 @@
         },
         {
             "card_name": "Sanctis Griffin_VST",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Griffin",
@@ -4374,7 +4374,7 @@
         },
         {
             "card_name": "Shimmering Dunekite_VST",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "R",
             "rarity": "mythic",
             "type": "Creature \u2014 Dragon",

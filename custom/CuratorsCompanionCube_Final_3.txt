@@ -1,0 +1,3779 @@
+[CustomCards]
+[
+	{
+		"name": "Aegis Pocketwatch_VRD",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/1.jpg"
+	},
+	{
+		"name": "Aqua Crew Flagship",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact — Vehicle",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/40.jpg"
+	},
+	{
+		"name": "Atomic Core",
+		"rarity": "mythic",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/276.jpg"
+	},
+	{
+		"name": "Blinding Aperture",
+		"rarity": "rare",
+		"mana_cost": "{2}",
+		"type": "Artifact — Equipment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/243.jpg"
+	},
+	{
+		"name": "Censor Tablet_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/247.jpg"
+	},
+	{
+		"name": "Chromatic Shard_KRS",
+		"rarity": "common",
+		"mana_cost": "{2}",
+		"type": "Artifact — Treasure ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/241.jpg"
+	},
+	{
+		"name": "Counterfeit Currency_SRC",
+		"rarity": "uncommon",
+		"mana_cost": "{1}",
+		"type": "Artifact — Clue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/227.jpg"
+	},
+	{
+		"name": "Dawnchime, Lhosei's Staff_KUT",
+		"rarity": "rare",
+		"mana_cost": "{2}",
+		"type": "Legendary Artifact — Equipment ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/238.jpg"
+	},
+	{
+		"name": "Elixir of Immortality_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/249.jpg"
+	},
+	{
+		"name": "Ether_MON",
+		"rarity": "common",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/229.jpg"
+	},
+	{
+		"name": "Herbalist's Satchel",
+		"rarity": "uncommon",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/248.jpg"
+	},
+	{
+		"name": "Leystone of Being_CYB",
+		"rarity": "rare",
+		"mana_cost": "{W}",
+		"type": "Legendary Enchantment Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/44.jpg"
+	},
+	{
+		"name": "Leystone of Depths_CYB",
+		"rarity": "rare",
+		"mana_cost": "{U}",
+		"type": "Legendary Enchantment Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/85.jpg"
+	},
+	{
+		"name": "Leystone of Storms_CYB",
+		"rarity": "rare",
+		"mana_cost": "{R}",
+		"type": "Legendary Enchantment Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/161.jpg"
+	},
+	{
+		"name": "Perspicacity_VRD",
+		"rarity": "rare",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/238.jpg"
+	},
+	{
+		"name": "The Founder's Cage",
+		"rarity": "mythic",
+		"mana_cost": "{2}",
+		"type": "Legendary Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/246.jpg"
+	},
+	{
+		"name": "The Smoking Strand_TRX",
+		"rarity": "mythic",
+		"mana_cost": "{3}",
+		"type": "Legendary Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/275.jpg"
+	},
+	{
+		"name": "The Throne of House Ravellan",
+		"rarity": "rare",
+		"mana_cost": "{3}",
+		"type": "Legendary Artifact",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/284.jpg"
+	},
+	{
+		"name": "Thorn of Azurite",
+		"rarity": "uncommon",
+		"mana_cost": "{3}",
+		"type": "Artifact — Clue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/283.jpg"
+	},
+	{
+		"name": "Warpwire Chassis",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Artifact — Equipment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/67.jpg"
+	},
+	{
+		"name": "Acid Hydra_POP",
+		"rarity": "rare",
+		"mana_cost": "{X}{G}{G}",
+		"type": "Creature — Ooze Hydra ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/165.jpg"
+	},
+	{
+		"name": "Agent of Deception_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Merfolk Rogue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/43.jpg"
+	},
+	{
+		"name": "Agnomakhos, Justice_TRX",
+		"rarity": "rare",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Legendary Creature — Archon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/1.jpg"
+	},
+	{
+		"name": "Alehana the Persuader_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{B}{R}",
+		"type": "Legendary Creature — Human Inquisitor ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/226.jpg"
+	},
+	{
+		"name": "Alrantan Visionary_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Shaman ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/177.jpg"
+	},
+	{
+		"name": "Amagaseto, Mother Spirit",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Legendary Creature — Whale Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/165.jpg"
+	},
+	{
+		"name": "Angel of Fading Dusk",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature — Angel",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/100.jpg"
+	},
+	{
+		"name": "Aonuma, Princely Traveler",
+		"rarity": "rare",
+		"mana_cost": "{G}{U}",
+		"type": "Legendary Creature — Avatar Ninja",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/168.jpg"
+	},
+	{
+		"name": "Ardent Ascetic_KSV",
+		"rarity": "special",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/263.jpg"
+	},
+	{
+		"name": "Ardor, Forefront of Freedom_CYB",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Legendary Creature — Human Soldier ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/145.jpg"
+	},
+	{
+		"name": "Arduous Miners_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Human Scout ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/92.jpg"
+	},
+	{
+		"name": "Ashen Progenitor_GQC",
+		"rarity": "rare",
+		"mana_cost": "{9}",
+		"type": "Creature — Eldrazi ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/2.jpg"
+	},
+	{
+		"name": "Aspiring Artisan",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Human Artificer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/36.jpg"
+	},
+	{
+		"name": "Audacious Roughrider_OLD",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature — Human Knight ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/136.jpg"
+	},
+	{
+		"name": "Aureleth the Sun Shard",
+		"rarity": "rare",
+		"mana_cost": "{G}{W}",
+		"type": "Legendary Creature — Angel Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/194.jpg"
+	},
+	{
+		"name": "Autonomous Apiarist",
+		"rarity": "uncommon",
+		"mana_cost": "{3}",
+		"type": "Artifact Creature — Construct",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/230.jpg"
+	},
+	{
+		"name": "Awoken Cordillera",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature — Eldrazi",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/173.jpg"
+	},
+	{
+		"name": "Basilo, Lion of Valor_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary Creature — Human Soldier ",
+		"back": {
+			"name": "The Lion's Charisma",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/7b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/7a.jpg"
+	},
+	{
+		"name": "Donnybrook",
+		"rarity": "common",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/181.jpg"
+	},
+	{
+		"name": "Benthalos of Land and Sea_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{W}{U}",
+		"type": "Legendary Creature — Human Soldier",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/206.jpg"
+	},
+	{
+		"name": "Black Dawn Historian",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{U}{R}",
+		"type": "Creature — Moonfolk Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/195.jpg"
+	},
+	{
+		"name": "Blightseer",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Elf Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/159.jpg"
+	},
+	{
+		"name": "Blightstalker",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Cat",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/160.jpg"
+	},
+	{
+		"name": "Blind Keelah_OLD",
+		"rarity": "rare",
+		"mana_cost": "{U}{B}",
+		"type": "Creature — Fish ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/224.jpg"
+	},
+	{
+		"name": "Blooming Cocollona_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature — Crocodile Insect ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/230.jpg"
+	},
+	{
+		"name": "Bogspawn Witness",
+		"rarity": "rare",
+		"mana_cost": "{3}{B}{G}",
+		"type": "Creature — Frog Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/247.jpg"
+	},
+	{
+		"name": "Brazen Burglar",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature — Human Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/114.jpg"
+	},
+	{
+		"name": "Breaching Jaxl_OLD",
+		"rarity": "common",
+		"mana_cost": "{4}{U}",
+		"type": "Creature — Serpent ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/47.jpg"
+	},
+	{
+		"name": "Bringer of Heliod's Light_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature — Archon ",
+		"back": {
+			"name": "Blinded by Divinity",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/8b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/8a.jpg"
+	},
+	{
+		"name": "Burning Blood Orator",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature — Lizard Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/131.jpg"
+	},
+	{
+		"name": "Cabinet Recruiter_CNY",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Advisor",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/130.jpg"
+	},
+	{
+		"name": "Cache Thrasher",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/124.jpg"
+	},
+	{
+		"name": "Cackling Igniter",
+		"rarity": "common",
+		"mana_cost": "{R}",
+		"type": "Creature — Elemental Devil",
+		"back": {
+			"name": "Curse of Wyldfyre",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/153b.jpg",
+			"type": "Enchantment — Aura Curse"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/153a.jpg"
+	},
+	{
+		"name": "Calamity Cat",
+		"rarity": "uncommon",
+		"mana_cost": "{R}",
+		"type": "Creature — Cat",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/121.jpg"
+	},
+	{
+		"name": "Catabolist",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Vampire Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/86.jpg"
+	},
+	{
+		"name": "Cerys, Heart of Klemnae_BLR",
+		"rarity": "mythic",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary Creature — Human Knight",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/8.jpg"
+	},
+	{
+		"name": "Chamille, AAA-Lister_POP",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Legendary Creature — Human Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/2.jpg"
+	},
+	{
+		"name": "Chosen of Heliod_TRX",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature — Human Archer ",
+		"back": {
+			"name": "Heliod's Glory",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/10b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/10a.jpg"
+	},
+	{
+		"name": "Cityscape Dragon_SRC",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature — Dragon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/128.jpg"
+	},
+	{
+		"name": "Cliffwalker_OLD",
+		"rarity": "common",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Human Scout ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/10.jpg"
+	},
+	{
+		"name": "Cloud of Consciousness",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Creature — Elemental",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/199.jpg"
+	},
+	{
+		"name": "Commander of the Vow",
+		"rarity": "mythic",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature — Human Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/174.jpg"
+	},
+	{
+		"name": "Conjoined Irradiant_KRS",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Mutant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/128.jpg"
+	},
+	{
+		"name": "Cordelia's Ripper",
+		"rarity": "mythic",
+		"mana_cost": "{7}{R}{R}",
+		"type": "Creature — Vampire Berserker",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/156.jpg"
+	},
+	{
+		"name": "Corgan Bourgeois_POP",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Artifact Creature — Advisor ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/18.jpg"
+	},
+	{
+		"name": "Courtless Spiritcaller_BLR",
+		"rarity": "common",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/9.jpg"
+	},
+	{
+		"name": "Curious Botanist",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Artifact Creature — Construct",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/178.jpg"
+	},
+	{
+		"name": "Cybersaurus",
+		"rarity": "common",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Enchantment Creature — Dinosaur",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/46.jpg"
+	},
+	{
+		"name": "Dakran Shipcrusher_TRX",
+		"rarity": "common",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Creature — Crab Octopus ",
+		"back": {
+			"name": "Depths of the Sea",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/48b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/48a.jpg"
+	},
+	{
+		"name": "Darg Raider_SVG",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Human Berserker ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/100.jpg"
+	},
+	{
+		"name": "Darksun Migrant",
+		"rarity": "rare",
+		"mana_cost": "{R}{R}",
+		"type": "Creature — Human Nomad",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/126.jpg"
+	},
+	{
+		"name": "Darkthicket Howler",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Wolf",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/202.jpg"
+	},
+	{
+		"name": "Darkwood Guerrillas",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Artifact Creature — Construct Soldier",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/208.jpg"
+	},
+	{
+		"name": "Dauntless Honor Guard_KSV",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Human Flagbearer ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/8.jpg"
+	},
+	{
+		"name": "Dawnglade Wildbear_SVG",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Bear Beast ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/131.jpg"
+	},
+	{
+		"name": "Dawnhymn Herald",
+		"rarity": "rare",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature — Angel Bard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/13.jpg"
+	},
+	{
+		"name": "Deep Cover Prowler",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Eldrazi Detective",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/179.jpg"
+	},
+	{
+		"name": "Defiled Warden_KSV",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature — Elf Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/173.jpg"
+	},
+	{
+		"name": "Devonia, Lost Ministrix",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}",
+		"type": "Legendary Creature — Eldrazi Advisor",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/77.jpg"
+	},
+	{
+		"name": "Diabolical Minion_VRD",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Creature — Human Minion ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/90.jpg"
+	},
+	{
+		"name": "Discordant Voidling",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Creature — Elemental Warrior",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/83.jpg"
+	},
+	{
+		"name": "Diviner of the Sun",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature — Azra Advisor Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/15.jpg"
+	},
+	{
+		"name": "Echo Choreographer",
+		"rarity": "rare",
+		"mana_cost": "{U}",
+		"type": "Creature — Human Bard Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/50.jpg"
+	},
+	{
+		"name": "Eerie Nightdrifter",
+		"rarity": "mythic",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Creature — Spirit Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/17.jpg"
+	},
+	{
+		"name": "Elder Mathias Jodan_VRD",
+		"rarity": "mythic",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary Creature — Avatar Cleric ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/15.jpg"
+	},
+	{
+		"name": "Elorys the Pathfinder",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary Creature — Elf Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/167.jpg"
+	},
+	{
+		"name": "Eltanaan, the Silent Star",
+		"rarity": "mythic",
+		"mana_cost": "{7}{W}{W}{W}",
+		"type": "Legendary Creature — Dragon Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/7.jpg"
+	},
+	{
+		"name": "Emgaran Duelist_KRS",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/136.jpg"
+	},
+	{
+		"name": "Empress Cecile Anette_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary Creature — Human Noble ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/12.jpg"
+	},
+	{
+		"name": "Endless Paper Trail_SRC",
+		"rarity": "mythic",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/54.jpg"
+	},
+	{
+		"name": "Errorsbane Deadshot",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}{G}",
+		"type": "Creature — Human Archer Ranger",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/167.jpg"
+	},
+	{
+		"name": "Esme, Lost to Avarice",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Legendary Creature — Human Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/112.jpg"
+	},
+	{
+		"name": "Estwald Brigands",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature — Human Warrior Werewolf",
+		"back": {
+			"name": "Krallenhorde Marauders",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/208b.jpg",
+			"type": "Creature — Werewolf"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/208a.jpg"
+	},
+	{
+		"name": "Evaldi, Genesis of Hope_VST",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}",
+		"type": "Legendary Creature — Elf Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/162.jpg"
+	},
+	{
+		"name": "Evaldi's Muse_VST",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature — Wurm ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/164.jpg"
+	},
+	{
+		"name": "Ever-Gnawing Rat_MON",
+		"rarity": "rare",
+		"mana_cost": "{G}",
+		"type": "Creature — Rat ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/173.jpg"
+	},
+	{
+		"name": "Exorcist of Errors",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Human Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/95.jpg"
+	},
+	{
+		"name": "Exultant Shepherd",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Spirit Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/87.jpg"
+	},
+	{
+		"name": "Fabricated Anomaly",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Elemental",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/287.jpg"
+	},
+	{
+		"name": "Faithline Marshal",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/181.jpg"
+	},
+	{
+		"name": "Feudrach of Ashmouth",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{R}{R}",
+		"type": "Legendary Creature — Dragon",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/166.jpg"
+	},
+	{
+		"name": "Fiend of the Crimson Pact",
+		"rarity": "rare",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature — Demon Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/93.jpg"
+	},
+	{
+		"name": "Flesh-Mad Necrosage_KSV",
+		"rarity": "uncommon",
+		"mana_cost": "{B}",
+		"type": "Creature — Human Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/96.jpg"
+	},
+	{
+		"name": "Fleshforged Hunter_KSV",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature — Zombie Berserker ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/97.jpg"
+	},
+	{
+		"name": "Galius, Bringer of Bass_POP",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Legendary Creature — Human Artificer ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/213.jpg"
+	},
+	{
+		"name": "Genotype Splicer_CNY",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Artificer Mutant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/11.jpg"
+	},
+	{
+		"name": "Getander Wildlander",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Human Ranger",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/211.jpg"
+	},
+	{
+		"name": "Gloamveil Trackers",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Creature — Human Dog Detective",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/189.jpg"
+	},
+	{
+		"name": "Goletre's Disciple_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}",
+		"type": "Artifact Creature — Human Gargoyle ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/63.jpg"
+	},
+	{
+		"name": "Zeppelin Disaster",
+		"rarity": "common",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/69.jpg"
+	},
+	{
+		"name": "Grave Prophet",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Creature — Elf Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/212.jpg"
+	},
+	{
+		"name": "Greedy Deserter",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature — Rat Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/193.jpg"
+	},
+	{
+		"name": "Haunted Starlet",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Human Bard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/116.jpg"
+	},
+	{
+		"name": "Helia Eulogist",
+		"rarity": "common",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Elf Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/12.jpg"
+	},
+	{
+		"name": "High Sergeant Liano",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary Creature — Human Soldier",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/48.jpg"
+	},
+	{
+		"name": "Highforged Overseer",
+		"rarity": "uncommon",
+		"mana_cost": "{W}",
+		"type": "Artifact Creature — Construct Noble",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/49.jpg"
+	},
+	{
+		"name": "Highland Guide_OLD",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Cleric ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/17.jpg"
+	},
+	{
+		"name": "Hoarding Culebre_DOV",
+		"rarity": "rare",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature — Snake Dragon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/65.jpg"
+	},
+	{
+		"name": "Hollowhenge Martyr",
+		"rarity": "uncommon",
+		"mana_cost": "{W}",
+		"type": "Creature — Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/25.jpg"
+	},
+	{
+		"name": "Humble Barkeep_DOV",
+		"rarity": "common",
+		"mana_cost": "{W}",
+		"type": "Creature — Human Peasant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/21.jpg"
+	},
+	{
+		"name": "Hungry Blob",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Ooze",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/173.jpg"
+	},
+	{
+		"name": "Huskforger Acolyte",
+		"rarity": "uncommon",
+		"mana_cost": "{G}",
+		"type": "Creature — Human Artificer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/186.jpg"
+	},
+	{
+		"name": "Ignited Soul_CNY",
+		"rarity": "common",
+		"mana_cost": "{B/R}",
+		"type": "Creature — Human Soldier ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/236.jpg"
+	},
+	{
+		"name": "Infused Lightkin_POP",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/25.jpg"
+	},
+	{
+		"name": "Inner Ring's Pupil_CYB",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature — Human Rogue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/126.jpg"
+	},
+	{
+		"name": "Innovative Alchemist",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Human Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/49.jpg"
+	},
+	{
+		"name": "Insatiate Slasher",
+		"rarity": "rare",
+		"mana_cost": "{B}{B}",
+		"type": "Creature — Vampire Assassin",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/117.jpg"
+	},
+	{
+		"name": "Interstellar Sage",
+		"rarity": "rare",
+		"mana_cost": "{G}{U}",
+		"type": "Creature — Human Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/216.jpg"
+	},
+	{
+		"name": "Jens Slopeskidder_OLD",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary Creature — Human Scout ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/194.jpg"
+	},
+	{
+		"name": "JJ Mack, Trendsetter_POP",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Legendary Creature — Sphinx Bard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/215.jpg"
+	},
+	{
+		"name": "Juana, Telhedo's Last Master_DOV",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Legendary Creature — Human Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/240.jpg"
+	},
+	{
+		"name": "Judge, Jury, and Executioner_CNY",
+		"rarity": "rare",
+		"mana_cost": "{3}{B}",
+		"type": "Creature — Human Advisor Citizen Assassin",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/79.jpg"
+	},
+	{
+		"name": "Jun, Twinblade Master",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary Creature — Avatar Samurai",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/203.jpg"
+	},
+	{
+		"name": "Kage's Mercenary",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Demon Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/74.jpg"
+	},
+	{
+		"name": "Keeper of Starlight_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Human Cleric ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/21.jpg"
+	},
+	{
+		"name": "Kitsune Matriarch",
+		"rarity": "common",
+		"mana_cost": "{W}",
+		"type": "Creature — Fox Noble",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/18.jpg"
+	},
+	{
+		"name": "Kraz, Head Engineer",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Legendary Creature — Goblin Artificer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/156.jpg"
+	},
+	{
+		"name": "Laboratory Maniac_VRD",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Human Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/62.jpg"
+	},
+	{
+		"name": "Leiowen, Escape Artist",
+		"rarity": "mythic",
+		"mana_cost": "{1}{U}",
+		"type": "Legendary Creature — Cat Rogue",
+		"back": {
+			"name": "Leiowen, Ghost of Vicuro",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/54b.jpg",
+			"type": "Legendary Planeswalker — Leiowen"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/54a.jpg"
+	},
+	{
+		"name": "Leyline Reaper_VST",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Human Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/101.jpg"
+	},
+	{
+		"name": "Lidern, the Goreblossom",
+		"rarity": "rare",
+		"mana_cost": "{X}{G}{U}{R}",
+		"type": "Legendary Creature — Dryad Spirit Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/265.jpg"
+	},
+	{
+		"name": "Lifehacker",
+		"rarity": "mythic",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Creature — Human Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/106.jpg"
+	},
+	{
+		"name": "Lightwire Swarm",
+		"rarity": "mythic",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact Creature — Construct",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/88.jpg"
+	},
+	{
+		"name": "Lost Resistor_CYB",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Elf Soldier ",
+		"back": {
+			"name": "Splintered Soul",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/47b.jpg",
+			"type": "Artifact Creature — Cyborg Soldier "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/47a.jpg"
+	},
+	{
+		"name": "Lumbering Mammoth_SVG",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Zombie Elephant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/77.jpg"
+	},
+	{
+		"name": "Lurking Vyrkolakas_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Vampire Beast ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/98.jpg"
+	},
+	{
+		"name": "Lykaretos, Harvest's Bounty_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Legendary Creature — Cat Druid ",
+		"back": {
+			"name": "The Miraculous Field",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/225b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/225a.jpg"
+	},
+	{
+		"name": "Marle, Vicuro Head",
+		"rarity": "mythic",
+		"mana_cost": "{U}{U/R}{R}",
+		"type": "Legendary Creature — Human Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/236.jpg"
+	},
+	{
+		"name": "Master of Null",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Moonfolk Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/59.jpg"
+	},
+	{
+		"name": "Matchmaker_KSV",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Legendary Creature — Human Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/19.jpg"
+	},
+	{
+		"name": "Megafauna Knight",
+		"rarity": "uncommon",
+		"mana_cost": "{X}{G}{G}",
+		"type": "Creature — Dragon Knight",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/179.jpg"
+	},
+	{
+		"name": "Menelaia, Beloved Lyrist_TRX",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Legendary Enchantment Creature — Demigod",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/182.jpg"
+	},
+	{
+		"name": "Mercenary of Dusk",
+		"rarity": "uncommon",
+		"mana_cost": "{B}{B}",
+		"type": "Creature — Moonfolk Mercenary",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/95.jpg"
+	},
+	{
+		"name": "Merciless Shieldbreaker_GQC",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature — Orc Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/158.jpg"
+	},
+	{
+		"name": "Mistwrit Archivist",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Faerie Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/62.jpg"
+	},
+	{
+		"name": "Mnemologist",
+		"rarity": "common",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Human Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/57.jpg"
+	},
+	{
+		"name": "Morbid Bloomer_OLD",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Fungus ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/199.jpg"
+	},
+	{
+		"name": "Music Master_POP",
+		"rarity": "mythic",
+		"mana_cost": "{U}",
+		"type": "Creature — Cat Bard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/278.jpg"
+	},
+	{
+		"name": "Nitrous Elemental_DOV",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/75.jpg"
+	},
+	{
+		"name": "Noveire, Omen of the Rift",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Legendary Creature — Bird",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/62.jpg"
+	},
+	{
+		"name": "Oblivion's Escort",
+		"rarity": "uncommon",
+		"mana_cost": "{W}",
+		"type": "Creature — Human Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/23.jpg"
+	},
+	{
+		"name": "Obsessive Ritualist",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature — Human Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/227.jpg"
+	},
+	{
+		"name": "Old Ways Advocate_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Elf Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/188.jpg"
+	},
+	{
+		"name": "Ominous Frogs",
+		"rarity": "mythic",
+		"mana_cost": "{U}{R}",
+		"type": "Creature — Frog",
+		"back": {
+			"name": "Scourge of Vustrow",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/270b.jpg",
+			"type": "Creature — Frog Horror"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/270a.jpg"
+	},
+	{
+		"name": "Oracle of Zakros_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{4}{U}",
+		"type": "Creature — Cyclops Shaman ",
+		"back": {
+			"name": "Ocular Insight",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/66b.jpg",
+			"type": "Enchantment — Aura Blessing "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/66a.jpg"
+	},
+	{
+		"name": "Partners in Crime_VRD",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Human Rogue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/144.jpg"
+	},
+	{
+		"name": "Patron of Ephara's Glory_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Cat Artist ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/29.jpg"
+	},
+	{
+		"name": "Pensive Caldera_OLD",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/163.jpg"
+	},
+	{
+		"name": "Petal Dancer_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Plant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/186.jpg"
+	},
+	{
+		"name": "Primordial of Emila Glade_BLR",
+		"rarity": "rare",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/64.jpg"
+	},
+	{
+		"name": "Prince of the Pride_TRX",
+		"rarity": "rare",
+		"mana_cost": "{W}{W}",
+		"type": "Creature — Cat Soldier ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/30.jpg"
+	},
+	{
+		"name": "Privilege_Escalation",
+		"rarity": "rare",
+		"mana_cost": "{8}{B}{B}",
+		"type": "Creature — Error",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/107.jpg"
+	},
+	{
+		"name": "Profane Invoker",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Human Shaman Werewolf",
+		"back": {
+			"name": "Mondronen Bloodcaster",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/183b.jpg",
+			"type": "Creature — Werewolf"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/183a.jpg"
+	},
+	{
+		"name": "Protoplasmera_GQC",
+		"rarity": "rare",
+		"mana_cost": "{X}{X}",
+		"type": "Creature — Eldrazi Drone ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/7.jpg"
+	},
+	{
+		"name": "Pulse of the Unending Rave_POP",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/191.jpg"
+	},
+	{
+		"name": "Pyrefall Ragecaller_KSV",
+		"rarity": "mythic",
+		"mana_cost": "{3}{G}{G}{G}",
+		"type": "Creature — Human Shaman ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/187.jpg"
+	},
+	{
+		"name": "Queen Andarli, the Fierce_KSV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{W}",
+		"type": "Legendary Creature — Human Noble Soldier ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/27.jpg"
+	},
+	{
+		"name": "Quick-Witted Detective_SRC",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Human Detective ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/70.jpg"
+	},
+	{
+		"name": "Reaper of Blossoms",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Spirit Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/194.jpg"
+	},
+	{
+		"name": "Reckless Show-Off",
+		"rarity": "rare",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature — Bird Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/130.jpg"
+	},
+	{
+		"name": "Reclusive Percipient",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Human Monk",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/65.jpg"
+	},
+	{
+		"name": "Reinstated Reaper_BLR",
+		"rarity": "rare",
+		"mana_cost": "{B}{B}",
+		"type": "Creature — Demon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/118.jpg"
+	},
+	{
+		"name": "Rejuvenating Drone_GQC",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Eldrazi Drone ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/79.jpg"
+	},
+	{
+		"name": "Remnant of the Devoured Sun",
+		"rarity": "rare",
+		"mana_cost": "{7}",
+		"type": "Legendary Artifact Creature — Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/282.jpg"
+	},
+	{
+		"name": "Renowned Roughrider_OLD",
+		"rarity": "mythic",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Creature — Human Knight ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/29.jpg"
+	},
+	{
+		"name": "Revolutionary's Monument",
+		"rarity": "mythic",
+		"mana_cost": "{7}",
+		"type": "Artifact Creature — Golem",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/273.jpg"
+	},
+	{
+		"name": "Rial, Silver Rose General_KSV",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Legendary Creature — Elf Soldier ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/31.jpg"
+	},
+	{
+		"name": "Rogue's Palace Cardshark_VRD",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{G}",
+		"type": "Creature — Dog Noble",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/216.jpg"
+	},
+	{
+		"name": "Rooftop Slink_CYB",
+		"rarity": "uncommon",
+		"mana_cost": "{B}",
+		"type": "Creature — Human Rogue ",
+		"back": {
+			"name": "Synthetic Specter",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/138b.jpg",
+			"type": "Artifact Creature — Cyborg Specter "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/138a.jpg"
+	},
+	{
+		"name": "Sanctis Griffin_VST",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Griffin ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/29.jpg"
+	},
+	{
+		"name": "Sanguine Proselyte_GQC",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Creature — Human Cleric ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/121.jpg"
+	},
+	{
+		"name": "Scratch's Horseman_BLR",
+		"rarity": "mythic",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature — Elemental Knight ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/195.jpg"
+	},
+	{
+		"name": "Screeching Grauku_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Griffin Elk ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/32.jpg"
+	},
+	{
+		"name": "Sculptor's Replica",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Artifact Creature — Golem Monk",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/23.jpg"
+	},
+	{
+		"name": "Scuttling Gnat_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{U}",
+		"type": "Creature — Insect ",
+		"back": {
+			"name": "Vicious Metamorph",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/61b.jpg",
+			"type": "Creature — Insect "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/61a.jpg"
+	},
+	{
+		"name": "Seductive Gorgon_SRC",
+		"rarity": "common",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Gorgon Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/115.jpg"
+	},
+	{
+		"name": "Selhoff Conduit",
+		"rarity": "uncommon",
+		"mana_cost": "{U}",
+		"type": "Creature — Human Mutant Warlock",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/87.jpg"
+	},
+	{
+		"name": "Shimmering Dunekite_VST",
+		"rarity": "mythic",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Creature — Dragon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/151.jpg"
+	},
+	{
+		"name": "Skarn, the Bloodless_KRS",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary Creature — Human Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/113.jpg"
+	},
+	{
+		"name": "Smart Shopper",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Ranger",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/30.jpg"
+	},
+	{
+		"name": "Smirk, Darkhand's Favored_VRD",
+		"rarity": "rare",
+		"mana_cost": "{B}{B}",
+		"type": "Legendary Creature — Cat ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/110.jpg"
+	},
+	{
+		"name": "Snitch Snacker_SRC",
+		"rarity": "rare",
+		"mana_cost": "{X}{G}",
+		"type": "Creature — Beast ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/193.jpg"
+	},
+	{
+		"name": "Sonam the Hunted_KUT",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Legendary Creature — Human Monk ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/222.jpg"
+	},
+	{
+		"name": "Soya, Nal Executioner",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Legendary Creature — Bird Mercenary",
+		"back": {
+			"name": "Soya, Guild Pariah",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/108b.jpg",
+			"type": "Legendary Planeswalker — Soya"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/108a.jpg"
+	},
+	{
+		"name": "Speaker of Ash_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/251.jpg"
+	},
+	{
+		"name": "Spirit Realm Phoenix",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature — Spirit Phoenix",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/123.jpg"
+	},
+	{
+		"name": "Starfouled Cervid_BLR",
+		"rarity": "rare",
+		"mana_cost": "{4}{G}{G}{G}",
+		"type": "Creature — Elk Horror ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/198.jpg"
+	},
+	{
+		"name": "Steam-Powered Steer_VRD",
+		"rarity": "rare",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Artifact Creature — Minotaur Minion ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/156.jpg"
+	},
+	{
+		"name": "Steelsuit Consultant",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Orc Artificer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/165.jpg"
+	},
+	{
+		"name": "Stormbrewer Alchemist",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Wizard",
+		"back": {
+			"name": "Unshackled Sturmgeist",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/190b.jpg",
+			"type": "Creature — Elemental Spirit"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/190a.jpg"
+	},
+	{
+		"name": "Stormscraper of Ketaphos_TRX",
+		"rarity": "rare",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Enchantment Creature — Leviathan ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/72.jpg"
+	},
+	{
+		"name": "Strongarm Gambler_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Creature — Minotaur Rogue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/173.jpg"
+	},
+	{
+		"name": "Sunsower",
+		"rarity": "rare",
+		"mana_cost": "{G}",
+		"type": "Creature — Human Cleric",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/187.jpg"
+	},
+	{
+		"name": "Surge Protector_KRS",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/159.jpg"
+	},
+	{
+		"name": "Survivors of the New World_CNY",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature — Mutant Survivor",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/220.jpg"
+	},
+	{
+		"name": "Swift-Step Robber",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Human Rogue",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/71.jpg"
+	},
+	{
+		"name": "Symbol of the Revolution_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{W}",
+		"type": "Creature — Angel Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/39.jpg"
+	},
+	{
+		"name": "Talented Blacksmith_SVG",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Artificer ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/119.jpg"
+	},
+	{
+		"name": "Tartok Wanderer_KUT",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Creature — Human Scout ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/97.jpg"
+	},
+	{
+		"name": "The Aqua Crew",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{G}{U}",
+		"type": "Legendary Creature — Human Pirate",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/191.jpg"
+	},
+	{
+		"name": "The Ashen Twins_KSV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Legendary Creature — Orc Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/210.jpg"
+	},
+	{
+		"name": "The Beauclaire Family_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{2}{W}{U}{B}",
+		"type": "Legendary Creature — Human Noble ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/228.jpg"
+	},
+	{
+		"name": "The Berry Master",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}{B}{G}",
+		"type": "Legendary Creature — Human Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/194.jpg"
+	},
+	{
+		"name": "The Ulvenvater",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary Creature — Wolf",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/235.jpg"
+	},
+	{
+		"name": "The West District Union",
+		"rarity": "mythic",
+		"mana_cost": "{1}{G}{W}",
+		"type": "Legendary Creature — Human Citizen",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/240.jpg"
+	},
+	{
+		"name": "Thornlasher Mortis_OLD",
+		"rarity": "common",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Zombie Plant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/125.jpg"
+	},
+	{
+		"name": "Threzak, the Heinous_GQC",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}{B}{B}",
+		"type": "Legendary Creature — Demon ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/129.jpg"
+	},
+	{
+		"name": "Tobias Maxwell, Justiciar Boss_VRD",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Legendary Creature — Human Advisor ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/73.jpg"
+	},
+	{
+		"name": "Tugae Corpsemaker_BLR",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Creature — Elemental Rogue ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/241.jpg"
+	},
+	{
+		"name": "Tugae Deathspinner_BLR",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature — Spider ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/201.jpg"
+	},
+	{
+		"name": "Tugae Rallier_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/202.jpg"
+	},
+	{
+		"name": "Twisted Deadwood_BLR",
+		"rarity": "common",
+		"mana_cost": "{5}{G}{G}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/203.jpg"
+	},
+	{
+		"name": "Ujuraq, Elder Watcher_KUT",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary Creature — Elephant Monk ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/172.jpg"
+	},
+	{
+		"name": "Ukina, Aethersong Basker",
+		"rarity": "uncommon",
+		"mana_cost": "{W}{U}",
+		"type": "Legendary Creature — Human Monk",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/235.jpg"
+	},
+	{
+		"name": "Uncanny Woodghast_SRC",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Spirit Plant ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/197.jpg"
+	},
+	{
+		"name": "Unknowable Starspawn_BLR",
+		"rarity": "rare",
+		"mana_cost": "{5}",
+		"type": "Creature — Horror ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/3.jpg"
+	},
+	{
+		"name": "Unstable Masterpiece",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Creature — Zombie Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/95.jpg"
+	},
+	{
+		"name": "Untethered Daemon",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment Creature — Plant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/195.jpg"
+	},
+	{
+		"name": "Urban Explorer",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Human Ranger",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/112.jpg"
+	},
+	{
+		"name": "Veiltouched Soulbinder_KUT",
+		"rarity": "rare",
+		"mana_cost": "{W}",
+		"type": "Creature — Elf Cleric ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/34.jpg"
+	},
+	{
+		"name": "Venture Capitalist_CNY",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Noble",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/125.jpg"
+	},
+	{
+		"name": "Vie, the First Hero",
+		"rarity": "mythic",
+		"mana_cost": "{R}",
+		"type": "Legendary Creature — Cat Rebel",
+		"back": {
+			"name": "Vie, Fallen Hope",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/145b.jpg",
+			"type": "Legendary Planeswalker — Vie"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/145a.jpg"
+	},
+	{
+		"name": "Voidmist Prodigy_KSV",
+		"rarity": "common",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Human Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/120.jpg"
+	},
+	{
+		"name": "Waker of Slumbering Titans_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Elemental ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/167.jpg"
+	},
+	{
+		"name": "Masksmith",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Elf Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/178.jpg"
+	},
+	{
+		"name": "Wandering Hedge-Mage_DOV",
+		"rarity": "common",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Creature — Human Peasant Wizard ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/89.jpg"
+	},
+	{
+		"name": "Waterglass Duelist_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Human Wizard Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/90.jpg"
+	},
+	{
+		"name": "Waveform Harnessing Unit_POP",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Artifact Creature — Construct ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/236.jpg"
+	},
+	{
+		"name": "Wayward Drek_CYB",
+		"rarity": "uncommon",
+		"mana_cost": "{W}{B}",
+		"type": "Creature — Human Rogue ",
+		"back": {
+			"name": "Reborn Herald",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/226b.jpg",
+			"type": "Artifact Creature — Cyborg Rogue "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/226a.jpg"
+	},
+	{
+		"name": "Weft Dancer",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{U}{B}",
+		"type": "Creature — Spirit Warlock Bard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/215.jpg"
+	},
+	{
+		"name": "Wharf Forgemaster",
+		"rarity": "rare",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature — Human Artificer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/224.jpg"
+	},
+	{
+		"name": "Whipchain Warlord_KUT",
+		"rarity": "rare",
+		"mana_cost": "{R}{W}{B}",
+		"type": "Creature — Human Warrior ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/227.jpg"
+	},
+	{
+		"name": "Whitecliff Pilgrim_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Human Scout ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/87.jpg"
+	},
+	{
+		"name": "Wild Empath_KRS",
+		"rarity": "uncommon",
+		"mana_cost": "{G}",
+		"type": "Creature — Elf Druid ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/205.jpg"
+	},
+	{
+		"name": "Wilderkin Behemoth_KUT",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}{G}{W}",
+		"type": "Creature — Beast ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/228.jpg"
+	},
+	{
+		"name": "Wildkin Imposter_BLR",
+		"rarity": "rare",
+		"mana_cost": "{3}{U}",
+		"type": "Creature — Elemental Shapeshifter ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/87.jpg"
+	},
+	{
+		"name": "Winterthorn Creeper",
+		"rarity": "mythic",
+		"mana_cost": "{1}{G}{G}{U}",
+		"type": "Creature — Elk Plant Spirit",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/286.jpg"
+	},
+	{
+		"name": "Witchfinder Artur_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{U}{B}{R}",
+		"type": "Legendary Creature — Human Inquisitor ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/256.jpg"
+	},
+	{
+		"name": "Wreckage Inquisitors",
+		"rarity": "common",
+		"mana_cost": "{G}",
+		"type": "Creature — Human Detective",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/203.jpg"
+	},
+	{
+		"name": "Zymith Windreader",
+		"rarity": "uncommon",
+		"mana_cost": "{U}",
+		"type": "Creature — Elf Druid",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/77.jpg"
+	},
+	{
+		"name": "A World Forgotten_KRS",
+		"rarity": "mythic",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Legendary Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/124.jpg"
+	},
+	{
+		"name": "An Unlikely Peace_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/204.jpg"
+	},
+	{
+		"name": "Angelic Aperture_KRS",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Enchantment — Rift ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/3.jpg"
+	},
+	{
+		"name": "Collector's Item",
+		"rarity": "common",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment — Aura",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/45.jpg"
+	},
+	{
+		"name": "Harrow_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{G}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/180.jpg"
+	},
+	{
+		"name": "Bulk Bioengineering_CNY",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/129.jpg"
+	},
+	{
+		"name": "Skill Link_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/149.jpg"
+	},
+	{
+		"name": "Canopy Culling_KSV",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/170.jpg"
+	},
+	{
+		"name": "Claim What Remains_VST",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/120.jpg"
+	},
+	{
+		"name": "Course of Correction_KRS",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment — Rift",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/12.jpg"
+	},
+	{
+		"name": "Curse of Entomophobia",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}{U}",
+		"type": "Enchantment — Aura Curse",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/247.jpg"
+	},
+	{
+		"name": "Dark Covenant_SVG",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/67.jpg"
+	},
+	{
+		"name": "Darkstar Severance",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/125.jpg"
+	},
+	{
+		"name": "Defile the Silver Court_KSV",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Enchantment — Campaign ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/172.jpg"
+	},
+	{
+		"name": "Drift Off_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/11.jpg"
+	},
+	{
+		"name": "Eltensian Hospitality_BLR",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/133.jpg"
+	},
+	{
+		"name": "Feast of the Crows_SVG",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Enchantment — Saga ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/70.jpg"
+	},
+	{
+		"name": "Feast of Whispered Knives_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}",
+		"type": "Legendary Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/103.jpg"
+	},
+	{
+		"name": "Fleshmaker's Harvest_KSV",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Enchantment — Campaign ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/221.jpg"
+	},
+	{
+		"name": "From Beyond the Grave_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/86.jpg"
+	},
+	{
+		"name": "Gift of Deadwoods_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{B}{G}",
+		"type": "Enchantment — Aura ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/223.jpg"
+	},
+	{
+		"name": "Gift of Inspiration_CYB",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/156.jpg"
+	},
+	{
+		"name": "Golden Age_CNY",
+		"rarity": "rare",
+		"mana_cost": "{G}",
+		"type": "Enchantment — Policy",
+		"back": {
+			"name": "Harmony",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/137b.jpg",
+			"type": "Legendary Enchantment"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/137a.jpg"
+	},
+	{
+		"name": "Gone Pickin'",
+		"rarity": "common",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/18.jpg"
+	},
+	{
+		"name": "Gravepact Wisdom_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/224.jpg"
+	},
+	{
+		"name": "Half-Heart's Claim_KSV",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Enchantment — Campaign ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/222.jpg"
+	},
+	{
+		"name": "In Search of Peace_BLR",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/228.jpg"
+	},
+	{
+		"name": "Into the Breach_GQC",
+		"rarity": "rare",
+		"mana_cost": "{4}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/152.jpg"
+	},
+	{
+		"name": "Juniper's Awakening",
+		"rarity": "rare",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/53.jpg"
+	},
+	{
+		"name": "Kaleidoscape_KRS",
+		"rarity": "common",
+		"mana_cost": "{U}",
+		"type": "Enchantment — Aura ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/68.jpg"
+	},
+	{
+		"name": "Learned Class_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment — Class ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/69.jpg"
+	},
+	{
+		"name": "Maddening Maw_KRS",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Enchantment — Rift ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/105.jpg"
+	},
+	{
+		"name": "Majesty",
+		"rarity": "rare",
+		"mana_cost": "{R}{R/G}{G}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/247.jpg"
+	},
+	{
+		"name": "Meeting of the Elites_CNY",
+		"rarity": "uncommon",
+		"mana_cost": "{B}{R}",
+		"type": "Enchantment — Policy",
+		"back": {
+			"name": "Aristocracy",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/196b.jpg",
+			"type": "Legendary Enchantment"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/196a.jpg"
+	},
+	{
+		"name": "Omen of Deception_TRX",
+		"rarity": "common",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/65.jpg"
+	},
+	{
+		"name": "Omen of Slaughter_TRX",
+		"rarity": "common",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/103.jpg"
+	},
+	{
+		"name": "Pact Beyond Death",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment Battle — Operation",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/104.jpg"
+	},
+	{
+		"name": "PANIC()",
+		"rarity": "rare",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Enchantment — Subroutine",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/146.jpg"
+	},
+	{
+		"name": "Portal to the Spirit Realm",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}",
+		"type": "Enchantment — Saga",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/146.jpg"
+	},
+	{
+		"name": "Prosperity Project_CNY",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/26.jpg"
+	},
+	{
+		"name": "Pull of Tizerus_TRX",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Enchantment — Aura ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/112.jpg"
+	},
+	{
+		"name": "Razelit Meditation_BLR",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/153.jpg"
+	},
+	{
+		"name": "Revolutionary Class_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment — Class ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/36.jpg"
+	},
+	{
+		"name": "Sanctum of Repression",
+		"rarity": "common",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/31.jpg"
+	},
+	{
+		"name": "Sermons of Ormendahl",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/274.jpg"
+	},
+	{
+		"name": "Shigane Manor Burns",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment — Saga",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/122.jpg"
+	},
+	{
+		"name": "Sparks of a Revolution_CNY",
+		"rarity": "rare",
+		"mana_cost": "{R}",
+		"type": "Enchantment — Policy",
+		"back": {
+			"name": "Freedom",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/122b.jpg",
+			"type": "Legendary Enchantment"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/122a.jpg"
+	},
+	{
+		"name": "The Founding of the Twelve_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{U}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/53.jpg"
+	},
+	{
+		"name": "The Harvesttide Procession",
+		"rarity": "rare",
+		"mana_cost": "{4}{G}",
+		"type": "Legendary Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/216.jpg"
+	},
+	{
+		"name": "The Path of Phenax_TRX",
+		"rarity": "rare",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Enchantment — Saga",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/105.jpg"
+	},
+	{
+		"name": "Thrill of the Trendchase_POP",
+		"rarity": "mythic",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/161.jpg"
+	},
+	{
+		"name": "Zakros Decree_TRX",
+		"rarity": "uncommon",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/41.jpg"
+	},
+	{
+		"name": "All That Remains_OLD",
+		"rarity": "common",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/90.jpg"
+	},
+	{
+		"name": "Ayeshi Breaks the Loop",
+		"rarity": "rare",
+		"mana_cost": "{X}{G}{W}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/171.jpg"
+	},
+	{
+		"name": "Embrace Hopelessness_BLR",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/135.jpg"
+	},
+	{
+		"name": "Event Horizon_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/11.jpg"
+	},
+	{
+		"name": "Fade",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/81.jpg"
+	},
+	{
+		"name": "Familiar's Ruse_MON",
+		"rarity": "uncommon",
+		"mana_cost": "{U}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/MON/50.jpg"
+	},
+	{
+		"name": "Fateful Ascent",
+		"rarity": "rare",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/10.jpg"
+	},
+	{
+		"name": "Ferocious Flame_SVG",
+		"rarity": "uncommon",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/103.jpg"
+	},
+	{
+		"name": "Forced Ejection_CYB",
+		"rarity": "common",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/81.jpg"
+	},
+	{
+		"name": "Hell's Boon",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/107.jpg"
+	},
+	{
+		"name": "Het's Call",
+		"rarity": "common",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/94.jpg"
+	},
+	{
+		"name": "High Voltage_CYB",
+		"rarity": "common",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/157.jpg"
+	},
+	{
+		"name": "Inexorable Onslaught_VRD",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/59.jpg"
+	},
+	{
+		"name": "Learn the Steps",
+		"rarity": "uncommon",
+		"mana_cost": "{U}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/72.jpg"
+	},
+	{
+		"name": "Learning Fiendishly_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/143.jpg"
+	},
+	{
+		"name": "Let the Truth In_GQC",
+		"rarity": "common",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/111.jpg"
+	},
+	{
+		"name": "Mysteries of the Forbidden",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/78.jpg"
+	},
+	{
+		"name": "Discern",
+		"rarity": "common",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/52.jpg"
+	},
+	{
+		"name": "Spatial Collapse",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/31.jpg"
+	},
+	{
+		"name": "Splinter Soul_BLR",
+		"rarity": "common",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/75.jpg"
+	},
+	{
+		"name": "Starcrossed Arcana_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/76.jpg"
+	},
+	{
+		"name": "Succumb to History_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/124.jpg"
+	},
+	{
+		"name": "Three Become One",
+		"rarity": "rare",
+		"mana_cost": "{3}{U}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/75.jpg"
+	},
+	{
+		"name": "Torrent of Wind_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{W}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/39.jpg"
+	},
+	{
+		"name": "Twilight Ambush",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/114.jpg"
+	},
+	{
+		"name": "Unite the Clans_SVG",
+		"rarity": "rare",
+		"mana_cost": "{3}{W}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SVG/25.jpg"
+	},
+	{
+		"name": "Unravel Thoughts",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/77.jpg"
+	},
+	{
+		"name": "Unveil",
+		"rarity": "common",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/75.jpg"
+	},
+	{
+		"name": "Havengul Prodigy",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Human Wizard",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/67.jpg"
+	},
+	{
+		"name": "Archaeologists' Atrium",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/253.jpg"
+	},
+	{
+		"name": "Caersol Observatory",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Mountain",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/296.jpg"
+	},
+	{
+		"name": "Clearwater Grotto_ERR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/246.jpg"
+	},
+	{
+		"name": "Court of Miracles_DOV",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/272.jpg"
+	},
+	{
+		"name": "Desolate Cemetery",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/294.jpg"
+	},
+	{
+		"name": "Desolate Garrison",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/295.jpg"
+	},
+	{
+		"name": "Dormant Altar_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/257.jpg"
+	},
+	{
+		"name": "Dormant Bay_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/258.jpg"
+	},
+	{
+		"name": "Dormant Cavern_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/259.jpg"
+	},
+	{
+		"name": "Dormant Clearing_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/260.jpg"
+	},
+	{
+		"name": "Dormant Copse_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/261.jpg"
+	},
+	{
+		"name": "Dormant Crag_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/262.jpg"
+	},
+	{
+		"name": "Dormant Moorland_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/263.jpg"
+	},
+	{
+		"name": "Dormant Peak_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/264.jpg"
+	},
+	{
+		"name": "Dormant Stream_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/265.jpg"
+	},
+	{
+		"name": "Dormant Temple_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/266.jpg"
+	},
+	{
+		"name": "Emgara, the Brilliant City_KRS",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Plains Swamp ",
+		"back": {
+			"name": "Emgara, Caster of Shadows",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/256b.jpg",
+			"type": "Land"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/256a.jpg"
+	},
+	{
+		"name": "Enigmatic Fen",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/248.jpg"
+	},
+	{
+		"name": "Ephemeral Mire_TRX",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/281.jpg"
+	},
+	{
+		"name": "Erosive Path",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/283.jpg"
+	},
+	{
+		"name": "Flooded Morass",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Island Swamp",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/256.jpg"
+	},
+	{
+		"name": "Flourishing Crevasse",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Mountain Forest",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/257.jpg"
+	},
+	{
+		"name": "Frostfire Geysers",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Island Mountain",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/259.jpg"
+	},
+	{
+		"name": "Fungal Mire",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Swamp Forest",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/260.jpg"
+	},
+	{
+		"name": "Gates to the Underworld_TRX",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/283.jpg"
+	},
+	{
+		"name": "Gilded Court_BLR",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/268.jpg"
+	},
+	{
+		"name": "Gloomcover Steppe",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Plains Swamp",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/261.jpg"
+	},
+	{
+		"name": "Heart of the Glade",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Forest Plains",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/262.jpg"
+	},
+	{
+		"name": "Hundred-Handed Pillars_TRX",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/284.jpg"
+	},
+	{
+		"name": "Karsi's Spine, Great Sierra_KRS",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Mountain Forest ",
+		"back": {
+			"name": "Karsi's Heights, Floating Wilds",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/260b.jpg",
+			"type": "Land"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/260a.jpg"
+	},
+	{
+		"name": "Kythar, the Frozen Peak_KRS",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Island Mountain ",
+		"back": {
+			"name": "Kythar, the Unending Tumult",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/261b.jpg",
+			"type": "Land"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/261a.jpg"
+	},
+	{
+		"name": "Lavatorn Fields",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Swamp Mountain",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/265.jpg"
+	},
+	{
+		"name": "Lucent Basin",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/259.jpg"
+	},
+	{
+		"name": "Lush Oasis",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Forest Island",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/266.jpg"
+	},
+	{
+		"name": "Luxurious Estate_VRD",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/263.jpg"
+	},
+	{
+		"name": "Misty Peak_ERR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/262.jpg"
+	},
+	{
+		"name": "Nascent Lightvein_POP",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/257.jpg"
+	},
+	{
+		"name": "New Divide_BLR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/270.jpg"
+	},
+	{
+		"name": "Pool of Light",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Plains Island",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/267.jpg"
+	},
+	{
+		"name": "Primal Fissure",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/274.jpg"
+	},
+	{
+		"name": "Profane Grove_ERR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/264.jpg"
+	},
+	{
+		"name": "Reality Cusp",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/263.jpg"
+	},
+	{
+		"name": "Redeveloped Cityscape_CNY",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/261.jpg"
+	},
+	{
+		"name": "Regrowing Outlands",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/265.jpg"
+	},
+	{
+		"name": "Sanguine Palace",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/267.jpg"
+	},
+	{
+		"name": "Shambling Isle",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/265.jpg"
+	},
+	{
+		"name": "Shifting Lair_VRD",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/268.jpg"
+	},
+	{
+		"name": "Shimmering Lakefront",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/268.jpg"
+	},
+	{
+		"name": "Sky Pillar",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/277.jpg"
+	},
+	{
+		"name": "Solstice Circle",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/305.jpg"
+	},
+	{
+		"name": "Spiraling Canyon",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land — Mountain Plains",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VLR/270.jpg"
+	},
+	{
+		"name": "Stark Expanse_ERR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/271.jpg"
+	},
+	{
+		"name": "Temple of Origins",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/281.jpg"
+	},
+	{
+		"name": "The Amethryn Waste_KRS",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Swamp Forest ",
+		"back": {
+			"name": "The Amethryn Jungle",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/252b.jpg",
+			"type": "Land"
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KRS/252a.jpg"
+	},
+	{
+		"name": "Timeworn Crags_OLD",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/274.jpg"
+	},
+	{
+		"name": "Titan's Stairs_TRX",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/300.jpg"
+	},
+	{
+		"name": "Urban Jungle",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/272.jpg"
+	},
+	{
+		"name": "Verdant Sanctum",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/273.jpg"
+	},
+	{
+		"name": "Warpway Rings_CYB",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Artifact Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/290.jpg"
+	},
+	{
+		"name": "Windbeaten Stones_ERR",
+		"rarity": "common",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/275.jpg"
+	},
+	{
+		"name": "Zymith Observatory",
+		"rarity": "rare",
+		"mana_cost": "",
+		"type": "Land — Island",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/320.jpg"
+	},
+	{
+		"name": "Ameret, Hope of Night_SRC",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}{W}",
+		"type": "Legendary Planeswalker — Ameret ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/204.jpg"
+	},
+	{
+		"name": "Calamity Smith In: The Gilded Heist_VRD",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}",
+		"type": "Legendary Planeswalker — Calamity ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/127.jpg"
+	},
+	{
+		"name": "Gericho, Ageless Wanderer_CYB",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}{R}",
+		"type": "Legendary Planeswalker — Gericho ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/155.jpg"
+	},
+	{
+		"name": "Glauna, Decadent Demon_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Legendary Planeswalker — Glauna ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/106.jpg"
+	},
+	{
+		"name": "Iroshi, Blade of the Old Ways_VRD",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{G}",
+		"type": "Legendary Planeswalker — Iroshi ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/178.jpg"
+	},
+	{
+		"name": "Jericho Hudson_SRC",
+		"rarity": "mythic",
+		"mana_cost": "{G}{U}",
+		"type": "Legendary Planeswalker — Jericho ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SRC/214.jpg"
+	},
+	{
+		"name": "Sanaito, Voidsinger",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary Planeswalker — Sanaito",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CCR/224.jpg"
+	},
+	{
+		"name": "Sorin, Errant Bloodlord",
+		"rarity": "mythic",
+		"mana_cost": "{1}{B}{B}",
+		"type": "Legendary Planeswalker — Sorin",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/138.jpg"
+	},
+	{
+		"name": "The Dutiful Wanderer",
+		"rarity": "mythic",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Legendary Planeswalker",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/7.jpg"
+	},
+	{
+		"name": "Thoveus Adi_OLD",
+		"rarity": "mythic",
+		"mana_cost": "{1}{U}{U}{B}",
+		"type": "Legendary Planeswalker — Thoveus ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/239.jpg"
+	},
+	{
+		"name": "Ulfarl, Seeking Stenseidr_KSV",
+		"rarity": "mythic",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Legendary Planeswalker — Ulfarl ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KSV/235.jpg"
+	},
+	{
+		"name": "Ace in the Hole_VRD",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/121.jpg"
+	},
+	{
+		"name": "Blood for Bones_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/94.jpg"
+	},
+	{
+		"name": "Bone Shards_SGP",
+		"rarity": "common",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/104.jpg"
+	},
+	{
+		"name": "Burning Dawn_KUT",
+		"rarity": "mythic",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"back": {
+			"name": "Sunscale Totem",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/109b.jpg",
+			"type": "Totemic Enchantment — Aura "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/109a.jpg"
+	},
+	{
+		"name": "Chromatic Rift_CNY",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CNY/6.jpg"
+	},
+	{
+		"name": "Chronicle of Awakening_OLD",
+		"rarity": "rare",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/182.jpg"
+	},
+	{
+		"name": "Collected Thoughts",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/53.jpg"
+	},
+	{
+		"name": "Elope",
+		"rarity": "common",
+		"mana_cost": "{5}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/41.jpg"
+	},
+	{
+		"name": "Eyes Gone Dark",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/85.jpg"
+	},
+	{
+		"name": "Festered Effluvium_CYB",
+		"rarity": "mythic",
+		"mana_cost": "{X}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/123.jpg"
+	},
+	{
+		"name": "Field Test_DOV",
+		"rarity": "mythic",
+		"mana_cost": "{X}{X}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/104.jpg"
+	},
+	{
+		"name": "Flourish in Calamity_GQC",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{G}",
+		"type": "Kindred Sorcery — Eldrazi Revelation ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/183.jpg"
+	},
+	{
+		"name": "Forced Shutdown",
+		"rarity": "common",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/99.jpg"
+	},
+	{
+		"name": "Frag",
+		"rarity": "common",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/ERR/137.jpg"
+	},
+	{
+		"name": "Grand Consonance_POP",
+		"rarity": "mythic",
+		"mana_cost": "{2}{G}{G}{G}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/POP/182.jpg"
+	},
+	{
+		"name": "Grasp at Frail Dreams_GQC",
+		"rarity": "common",
+		"mana_cost": "{1}{U}",
+		"type": "Kindred Sorcery — Eldrazi Revelation ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/66.jpg"
+	},
+	{
+		"name": "Invasion's End_CYB",
+		"rarity": "rare",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/83.jpg"
+	},
+	{
+		"name": "Landscape Decay_VST",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VST/177.jpg"
+	},
+	{
+		"name": "Manifest Naught",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/92.jpg"
+	},
+	{
+		"name": "Never Seen Again",
+		"rarity": "uncommon",
+		"mana_cost": "{W}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/54.jpg"
+	},
+	{
+		"name": "Nightfall",
+		"rarity": "rare",
+		"mana_cost": "{2}{B}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/97.jpg"
+	},
+	{
+		"name": "Nurture the Future_TRX",
+		"rarity": "common",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TRX/101.jpg"
+	},
+	{
+		"name": "Path's End",
+		"rarity": "rare",
+		"mana_cost": "{2}{W}{W}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/219.jpg"
+	},
+	{
+		"name": "Primal Genesis_KUT",
+		"rarity": "rare",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"back": {
+			"name": "Genesis Totem",
+			"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/162b.jpg",
+			"type": "Totemic Enchantment — Aura "
+			},
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KUT/162a.jpg"
+	},
+	{
+		"name": "Refuse to Fall_BLR",
+		"rarity": "uncommon",
+		"mana_cost": "{3}{R}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/BLR/155.jpg"
+	},
+	{
+		"name": "Roiling Undertow",
+		"rarity": "rare",
+		"mana_cost": "{X}{U}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/94.jpg"
+	},
+	{
+		"name": "Suffer Vile Retribution_GQC",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{B}",
+		"type": "Kindred Sorcery — Demon Revelation ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/GQC/126.jpg"
+	},
+	{
+		"name": "Terminal Impact_CYB",
+		"rarity": "rare",
+		"mana_cost": "{X}{R}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/CYB/173.jpg"
+	},
+	{
+		"name": "Unveil the Menagerie_DOV",
+		"rarity": "rare",
+		"mana_cost": "{3}{G}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/220.jpg"
+	},
+	{
+		"name": "Abandoned Memorial",
+		"rarity": "uncommon",
+		"mana_cost": "",
+		"type": "Land",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/293.jpg"
+	},
+	{
+		"name": "Stargazing",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{U}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/74.jpg"
+	},
+	{
+		"name": "Qaraz Monument",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SOL/25.jpg"
+	},
+	{
+		"name": "Geistblaster's Breakthrough",
+		"rarity": "rare",
+		"mana_cost": "{R}",
+		"type": "Instant",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/IWH/170.jpg"
+	},
+	{
+		"name": "Spirited Protest_DOV",
+		"rarity": "uncommon",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/172.jpg"
+	},
+	{
+		"name": "Piece Together_VRD",
+		"rarity": "rare",
+		"mana_cost": "{W}",
+		"type": "Enchantment",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/VRD/26.jpg"
+	},
+	{
+		"name": "Revolt at the Palace",
+		"rarity": "rare",
+		"mana_cost": "{4}{W}",
+		"type": "Enchantment — Saga",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/KDT/22.jpg"
+	},
+	{
+		"name": "Frog of Eternal Gloom",
+		"rarity": "rare",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Creature — Frog Horror",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/57.jpg"
+	},
+	{
+		"name": "Sole Survivor",
+		"rarity": "uncommon",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Human Citizen",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/SGP/127.jpg"
+	},
+	{
+		"name": "Undarah of Fervor and Flame",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}",
+		"type": "Legendary Creature — Azra Archer",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/163.jpg"
+	},
+	{
+		"name": "Igneous Visions_OLD",
+		"rarity": "common",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/OLD/156.jpg"
+	},
+	{
+		"name": "Passionate Firebrand_DOV",
+		"rarity": "rare",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Human Rogue Shaman ",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/DOV/161.jpg"
+	},
+	{
+		"name": "Fang of the Pale Thorn",
+		"rarity": "rare",
+		"mana_cost": "{R}",
+		"type": "Creature — Faerie Assassin",
+		"image": "https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/TWI/144.jpg"
+	}
+]
+[MainSheet(15)]
+Aegis Pocketwatch_VRD
+Aqua Crew Flagship
+Atomic Core
+Blinding Aperture
+Censor Tablet_OLD
+Chromatic Shard_KRS
+Counterfeit Currency_SRC
+Dawnchime, Lhosei's Staff_KUT
+Elixir of Immortality_BLR
+Ether_MON
+Herbalist's Satchel
+Leystone of Being_CYB
+Leystone of Depths_CYB
+Leystone of Storms_CYB
+Perspicacity_VRD
+The Founder's Cage
+The Smoking Strand_TRX
+The Throne of House Ravellan
+Thorn of Azurite
+Warpwire Chassis
+Acid Hydra_POP
+Agent of Deception_TRX
+Agnomakhos, Justice_TRX
+Alehana the Persuader_DOV
+Alrantan Visionary_OLD
+Amagaseto, Mother Spirit
+Angel of Fading Dusk
+Aonuma, Princely Traveler
+Ardent Ascetic_KSV
+Ardor, Forefront of Freedom_CYB
+Arduous Miners_OLD
+Ashen Progenitor_GQC
+Aspiring Artisan
+Audacious Roughrider_OLD
+Aureleth the Sun Shard
+Autonomous Apiarist
+Awoken Cordillera
+Basilo, Lion of Valor_TRX
+Donnybrook
+Benthalos of Land and Sea_TRX
+Black Dawn Historian
+Blightseer
+Blightstalker
+Blind Keelah_OLD
+Blooming Cocollona_DOV
+Bogspawn Witness
+Brazen Burglar
+Breaching Jaxl_OLD
+Bringer of Heliod's Light_TRX
+Burning Blood Orator
+Cabinet Recruiter_CNY
+Cache Thrasher
+Cackling Igniter
+Calamity Cat
+Catabolist
+Cerys, Heart of Klemnae_BLR
+Chamille, AAA-Lister_POP
+Chosen of Heliod_TRX
+Cityscape Dragon_SRC
+Cliffwalker_OLD
+Cloud of Consciousness
+Commander of the Vow
+Conjoined Irradiant_KRS
+Cordelia's Ripper
+Corgan Bourgeois_POP
+Courtless Spiritcaller_BLR
+Curious Botanist
+Cybersaurus
+Dakran Shipcrusher_TRX
+Darg Raider_SVG
+Darksun Migrant
+Darkthicket Howler
+Darkwood Guerrillas
+Dauntless Honor Guard_KSV
+Dawnglade Wildbear_SVG
+Dawnhymn Herald
+Deep Cover Prowler
+Defiled Warden_KSV
+Devonia, Lost Ministrix
+Diabolical Minion_VRD
+Discordant Voidling
+Diviner of the Sun
+Echo Choreographer
+Eerie Nightdrifter
+Elder Mathias Jodan_VRD
+Elorys the Pathfinder
+Eltanaan, the Silent Star
+Emgaran Duelist_KRS
+Empress Cecile Anette_DOV
+Endless Paper Trail_SRC
+Errorsbane Deadshot
+Esme, Lost to Avarice
+Estwald Brigands
+Evaldi, Genesis of Hope_VST
+Evaldi's Muse_VST
+Ever-Gnawing Rat_MON
+Exorcist of Errors
+Exultant Shepherd
+Fabricated Anomaly
+Faithline Marshal
+Feudrach of Ashmouth
+Fiend of the Crimson Pact
+Flesh-Mad Necrosage_KSV
+Fleshforged Hunter_KSV
+Galius, Bringer of Bass_POP
+Genotype Splicer_CNY
+Getander Wildlander
+Gloamveil Trackers
+Goletre's Disciple_DOV
+Zeppelin Disaster
+Grave Prophet
+Greedy Deserter
+Haunted Starlet
+Helia Eulogist
+High Sergeant Liano
+Highforged Overseer
+Highland Guide_OLD
+Hoarding Culebre_DOV
+Hollowhenge Martyr
+Humble Barkeep_DOV
+Hungry Blob
+Huskforger Acolyte
+Ignited Soul_CNY
+Infused Lightkin_POP
+Inner Ring's Pupil_CYB
+Innovative Alchemist
+Insatiate Slasher
+Interstellar Sage
+Jens Slopeskidder_OLD
+JJ Mack, Trendsetter_POP
+Juana, Telhedo's Last Master_DOV
+Judge, Jury, and Executioner_CNY
+Jun, Twinblade Master
+Kage's Mercenary
+Keeper of Starlight_BLR
+Kitsune Matriarch
+Kraz, Head Engineer
+Laboratory Maniac_VRD
+Leiowen, Escape Artist
+Leyline Reaper_VST
+Lidern, the Goreblossom
+Lifehacker
+Lightwire Swarm
+Lost Resistor_CYB
+Lumbering Mammoth_SVG
+Lurking Vyrkolakas_TRX
+Lykaretos, Harvest's Bounty_TRX
+Marle, Vicuro Head
+Master of Null
+Matchmaker_KSV
+Megafauna Knight
+Menelaia, Beloved Lyrist_TRX
+Mercenary of Dusk
+Merciless Shieldbreaker_GQC
+Mistwrit Archivist
+Mnemologist
+Morbid Bloomer_OLD
+Music Master_POP
+Nitrous Elemental_DOV
+Noveire, Omen of the Rift
+Oblivion's Escort
+Obsessive Ritualist
+Old Ways Advocate_BLR
+Ominous Frogs
+Oracle of Zakros_TRX
+Partners in Crime_VRD
+Patron of Ephara's Glory_TRX
+Pensive Caldera_OLD
+Petal Dancer_MON
+Primordial of Emila Glade_BLR
+Prince of the Pride_TRX
+Privilege_Escalation
+Profane Invoker
+Protoplasmera_GQC
+Pulse of the Unending Rave_POP
+Pyrefall Ragecaller_KSV
+Queen Andarli, the Fierce_KSV
+Quick-Witted Detective_SRC
+Reaper of Blossoms
+Reckless Show-Off
+Reclusive Percipient
+Reinstated Reaper_BLR
+Rejuvenating Drone_GQC
+Remnant of the Devoured Sun
+Renowned Roughrider_OLD
+Revolutionary's Monument
+Rial, Silver Rose General_KSV
+Rogue's Palace Cardshark_VRD
+Rooftop Slink_CYB
+Sanctis Griffin_VST
+Sanguine Proselyte_GQC
+Scratch's Horseman_BLR
+Screeching Grauku_OLD
+Sculptor's Replica
+Scuttling Gnat_MON
+Seductive Gorgon_SRC
+Selhoff Conduit
+Shimmering Dunekite_VST
+Skarn, the Bloodless_KRS
+Smart Shopper
+Smirk, Darkhand's Favored_VRD
+Snitch Snacker_SRC
+Sonam the Hunted_KUT
+Soya, Nal Executioner
+Speaker of Ash_DOV
+Spirit Realm Phoenix
+Starfouled Cervid_BLR
+Steam-Powered Steer_VRD
+Steelsuit Consultant
+Stormbrewer Alchemist
+Stormscraper of Ketaphos_TRX
+Strongarm Gambler_DOV
+Sunsower
+Surge Protector_KRS
+Survivors of the New World_CNY
+Swift-Step Robber
+Symbol of the Revolution_DOV
+Talented Blacksmith_SVG
+Tartok Wanderer_KUT
+The Aqua Crew
+The Ashen Twins_KSV
+The Beauclaire Family_DOV
+The Berry Master
+The Ulvenvater
+The West District Union
+Thornlasher Mortis_OLD
+Threzak, the Heinous_GQC
+Tobias Maxwell, Justiciar Boss_VRD
+Tugae Corpsemaker_BLR
+Tugae Deathspinner_BLR
+Tugae Rallier_BLR
+Twisted Deadwood_BLR
+Ujuraq, Elder Watcher_KUT
+Ukina, Aethersong Basker
+Uncanny Woodghast_SRC
+Unknowable Starspawn_BLR
+Unstable Masterpiece
+Untethered Daemon
+Urban Explorer
+Veiltouched Soulbinder_KUT
+Venture Capitalist_CNY
+Vie, the First Hero
+Voidmist Prodigy_KSV
+Waker of Slumbering Titans_BLR
+Masksmith
+Wandering Hedge-Mage_DOV
+Waterglass Duelist_DOV
+Waveform Harnessing Unit_POP
+Wayward Drek_CYB
+Weft Dancer
+Wharf Forgemaster
+Whipchain Warlord_KUT
+Whitecliff Pilgrim_OLD
+Wild Empath_KRS
+Wilderkin Behemoth_KUT
+Wildkin Imposter_BLR
+Winterthorn Creeper
+Witchfinder Artur_DOV
+Wreckage Inquisitors
+Zymith Windreader
+A World Forgotten_KRS
+An Unlikely Peace_BLR
+Angelic Aperture_KRS
+Collector's Item
+Harrow_BLR
+Bulk Bioengineering_CNY
+Skill Link_MON
+Canopy Culling_KSV
+Claim What Remains_VST
+Course of Correction_KRS
+Curse of Entomophobia
+Dark Covenant_SVG
+Darkstar Severance
+Defile the Silver Court_KSV
+Drift Off_BLR
+Eltensian Hospitality_BLR
+Feast of the Crows_SVG
+Feast of Whispered Knives_DOV
+Fleshmaker's Harvest_KSV
+From Beyond the Grave_MON
+Gift of Deadwoods_BLR
+Gift of Inspiration_CYB
+Golden Age_CNY
+Gone Pickin'
+Gravepact Wisdom_BLR
+Half-Heart's Claim_KSV
+In Search of Peace_BLR
+Into the Breach_GQC
+Juniper's Awakening
+Kaleidoscape_KRS
+Learned Class_DOV
+Maddening Maw_KRS
+Majesty
+Meeting of the Elites_CNY
+Omen of Deception_TRX
+Omen of Slaughter_TRX
+Pact Beyond Death
+PANIC()
+Portal to the Spirit Realm
+Prosperity Project_CNY
+Pull of Tizerus_TRX
+Razelit Meditation_BLR
+Revolutionary Class_DOV
+Sanctum of Repression
+Sermons of Ormendahl
+Shigane Manor Burns
+Sparks of a Revolution_CNY
+The Founding of the Twelve_TRX
+The Harvesttide Procession
+The Path of Phenax_TRX
+Thrill of the Trendchase_POP
+Zakros Decree_TRX
+All That Remains_OLD
+Ayeshi Breaks the Loop
+Embrace Hopelessness_BLR
+Event Horizon_MON
+Fade
+Familiar's Ruse_MON
+Fateful Ascent
+Ferocious Flame_SVG
+Forced Ejection_CYB
+Hell's Boon
+Het's Call
+High Voltage_CYB
+Inexorable Onslaught_VRD
+Learn the Steps
+Learning Fiendishly_BLR
+Let the Truth In_GQC
+Mysteries of the Forbidden
+Discern
+Spatial Collapse
+Splinter Soul_BLR
+Starcrossed Arcana_BLR
+Succumb to History_BLR
+Three Become One
+Torrent of Wind_BLR
+Twilight Ambush
+Unite the Clans_SVG
+Unravel Thoughts
+Unveil
+Havengul Prodigy
+Archaeologists' Atrium
+Caersol Observatory
+Clearwater Grotto_ERR
+Court of Miracles_DOV
+Desolate Cemetery
+Desolate Garrison
+Dormant Altar_BLR
+Dormant Bay_BLR
+Dormant Cavern_BLR
+Dormant Clearing_BLR
+Dormant Copse_BLR
+Dormant Crag_BLR
+Dormant Moorland_BLR
+Dormant Peak_BLR
+Dormant Stream_BLR
+Dormant Temple_BLR
+Emgara, the Brilliant City_KRS
+Enigmatic Fen
+Ephemeral Mire_TRX
+Erosive Path
+Flooded Morass
+Flourishing Crevasse
+Frostfire Geysers
+Fungal Mire
+Gates to the Underworld_TRX
+Gilded Court_BLR
+Gloomcover Steppe
+Heart of the Glade
+Hundred-Handed Pillars_TRX
+Karsi's Spine, Great Sierra_KRS
+Kythar, the Frozen Peak_KRS
+Lavatorn Fields
+Lucent Basin
+Lush Oasis
+Luxurious Estate_VRD
+Misty Peak_ERR
+Nascent Lightvein_POP
+New Divide_BLR
+Pool of Light
+Primal Fissure
+Profane Grove_ERR
+Reality Cusp
+Redeveloped Cityscape_CNY
+Regrowing Outlands
+Sanguine Palace
+Shambling Isle
+Shifting Lair_VRD
+Shimmering Lakefront
+Sky Pillar
+Solstice Circle
+Spiraling Canyon
+Stark Expanse_ERR
+Temple of Origins
+The Amethryn Waste_KRS
+Timeworn Crags_OLD
+Titan's Stairs_TRX
+Urban Jungle
+Verdant Sanctum
+Warpway Rings_CYB
+Windbeaten Stones_ERR
+Zymith Observatory
+Ameret, Hope of Night_SRC
+Calamity Smith In: The Gilded Heist_VRD
+Gericho, Ageless Wanderer_CYB
+Glauna, Decadent Demon_DOV
+Iroshi, Blade of the Old Ways_VRD
+Jericho Hudson_SRC
+Sanaito, Voidsinger
+Sorin, Errant Bloodlord
+The Dutiful Wanderer
+Thoveus Adi_OLD
+Ulfarl, Seeking Stenseidr_KSV
+Ace in the Hole_VRD
+Blood for Bones_BLR
+Bone Shards_SGP
+Burning Dawn_KUT
+Chromatic Rift_CNY
+Chronicle of Awakening_OLD
+Collected Thoughts
+Elope
+Eyes Gone Dark
+Festered Effluvium_CYB
+Field Test_DOV
+Flourish in Calamity_GQC
+Forced Shutdown
+Frag
+Grand Consonance_POP
+Grasp at Frail Dreams_GQC
+Invasion's End_CYB
+Landscape Decay_VST
+Manifest Naught
+Never Seen Again
+Nightfall
+Nurture the Future_TRX
+Path's End
+Primal Genesis_KUT
+Refuse to Fall_BLR
+Roiling Undertow
+Suffer Vile Retribution_GQC
+Terminal Impact_CYB
+Unveil the Menagerie_DOV
+Abandoned Memorial
+Stargazing
+Qaraz Monument
+Geistblaster's Breakthrough
+Spirited Protest_DOV
+Piece Together_VRD
+Revolt at the Palace
+Frog of Eternal Gloom
+Sole Survivor
+Undarah of Fervor and Flame
+Igneous Visions_OLD
+Passionate Firebrand_DOV
+Fang of the Pale Thorn

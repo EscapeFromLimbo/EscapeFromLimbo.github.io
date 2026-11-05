@@ -69,7 +69,7 @@
         },
         {
             "card_name": "An Unlikely Peace_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -384,7 +384,7 @@
         },
         {
             "card_name": "Blood for Bones_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -594,7 +594,7 @@
         },
         {
             "card_name": "Cerys, Heart of Klemnae_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Knight",
@@ -678,7 +678,7 @@
         },
         {
             "card_name": "Courtless Spiritcaller_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid",
@@ -1161,7 +1161,7 @@
         },
         {
             "card_name": "Elixir of Immortality_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
@@ -1182,7 +1182,7 @@
         },
         {
             "card_name": "Ella, Rose Court Queen_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "UR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Vampire Wizard",
@@ -1245,7 +1245,7 @@
         },
         {
             "card_name": "Eltensian Hospitality_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "mythic",
             "type": "Enchantment",
@@ -1329,7 +1329,7 @@
         },
         {
             "card_name": "Embrace Hopelessness_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
@@ -1854,7 +1854,7 @@
         },
         {
             "card_name": "Gravepact Wisdom_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -2379,7 +2379,7 @@
         },
         {
             "card_name": "Keening Belltower_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "",
             "rarity": "rare",
             "type": "Artifact",
@@ -2421,7 +2421,7 @@
         },
         {
             "card_name": "Keeper of Starlight_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
@@ -2589,7 +2589,7 @@
         },
         {
             "card_name": "Learning Fiendishly_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
@@ -2736,7 +2736,7 @@
         },
         {
             "card_name": "Lichbane Forerunner_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
@@ -2820,7 +2820,7 @@
         },
         {
             "card_name": "Lichbound Arsonist_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
+            "notes": "\n!tag eternal\n!tag rotated",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
@@ -2904,7 +2904,7 @@
         },
         {
             "card_name": "Lucille, Ruthless Warlord_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Zombie Wizard",
@@ -3282,7 +3282,7 @@
         },
         {
             "card_name": "Necrotic Savant_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Zombie Wizard",
@@ -3324,7 +3324,7 @@
         },
         {
             "card_name": "Old Ways Advocate_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elf Druid",
@@ -3744,7 +3744,7 @@
         },
         {
             "card_name": "Refuse to Fall_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -4458,7 +4458,7 @@
         },
         {
             "card_name": "Splinter Soul_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -4521,7 +4521,7 @@
         },
         {
             "card_name": "Starcrossed Arcana_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
@@ -4563,7 +4563,7 @@
         },
         {
             "card_name": "Starfouled Cervid_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Elk Horror",
@@ -4815,7 +4815,7 @@
         },
         {
             "card_name": "Sword of Rage and Tranquility_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
             "color": "",
             "rarity": "mythic",
             "type": "Artifact \u2014 Equipment",
@@ -5004,7 +5004,7 @@
         },
         {
             "card_name": "Torrent of Wind_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
@@ -5025,7 +5025,7 @@
         },
         {
             "card_name": "Tugae Corpsemaker_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "BG",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Rogue",
@@ -5046,7 +5046,7 @@
         },
         {
             "card_name": "Tugae Deathspinner_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Spider",
@@ -5067,7 +5067,7 @@
         },
         {
             "card_name": "Tugae Rallier_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -5088,7 +5088,7 @@
         },
         {
             "card_name": "Twilight Ambush_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -5151,7 +5151,7 @@
         },
         {
             "card_name": "Twisted Deadwood_BLR",
-            "notes": "\n!tag eternal\n!tag rotated",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -5403,7 +5403,7 @@
         },
         {
             "card_name": "Vibrant Vengeance_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "BG",
             "rarity": "rare",
             "type": "Enchantment",
@@ -5466,7 +5466,7 @@
         },
         {
             "card_name": "Waker of Slumbering Titans_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elemental",
@@ -5739,7 +5739,7 @@
         },
         {
             "card_name": "Wildcourt Seeker_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag staple\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag staple\n!tag playable",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Elf Warrior",
@@ -5781,7 +5781,7 @@
         },
         {
             "card_name": "Wildkin Imposter_BLR",
-            "notes": "\n!tag eternal\n!tag rotated\n!tag playable",
+            "notes": "\n!tag eternal\n!tag rotated\n!tag cube\n!tag playable",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Elemental Shapeshifter",
